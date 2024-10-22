@@ -31,11 +31,11 @@
 <link href="../../plugins/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../../public/css/custom_style.css">
-<!-- ================== END BASE CSS STYLE ================== -->
-
-<!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
+<!-- styleswitch -->
+<link rel="stylesheet" type="text/css" href="../../public/css/Accessibility/white.css" media="screen" title="white-style" disabled="">
+<link rel="stylesheet" type="text/css" href="../../public/css/Accessibility/yellow.css" media="screen" title="yellow-style" disabled="">
 <!-- owl.carousel -->
 <link rel="stylesheet" type="text/css" href="../../plugins/owlcarousel/owl.carousel.min.css">
 <!-- fancybox3 -->
 <link rel="stylesheet" href="../../plugins/fancyBox3/dist/jquery.fancybox.css">
-<!-- ================== END PAGE LEVEL STYLE ================== -->
+<!-- ================== END BASE CSS STYLE ================== -->

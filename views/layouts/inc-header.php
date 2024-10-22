@@ -172,14 +172,14 @@
                 </div>
                 <div class="header-top-link">
                     <ul class="styleswitch">
-                        <li class="white-style"><span>c</span></li>
-                        <li class="default-style active"><span>c</span></li>
-                        <li class="yellow-style"><span>c</span></li>
+                        <li data-li="white-style"><span>c</span></li>
+                        <li data-li="default-style" class="active"><span>c</span></li>
+                        <li data-li="yellow-style"><span>c</span></li>
                     </ul>
                     <ul class="textsizer">
-                        <li class="defaultFont"><span>A</span></li>
-                        <li class="mediumFont active"><span>A+</span></li>
-                        <li class="largeFont"><span>A++</span></li>
+                        <li data-li="mediumFont"><span>A</span></li>
+                        <li data-li="defaultFont" class="active"><span>A+</span></li>
+                        <li data-li="largeFont"><span>A++</span></li>
                     </ul>
                     <div id="lang-change">
                         <a href="javascript:void(0)" class="dropdown-toggle text-reset" data-toggle="dropdown"

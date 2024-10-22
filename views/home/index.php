@@ -4,6 +4,7 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
+	<link rel="stylesheet" type="text/css" href="../../public/css/home.css">
 
 </head>
 

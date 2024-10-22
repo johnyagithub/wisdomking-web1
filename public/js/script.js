@@ -39,6 +39,8 @@ $(function () {
   });
  });
  
+ styleSwitch();
+ textSize();
  sliderItem();
  sliderBanner();
 
@@ -79,6 +81,58 @@ $(function () {
 	
  $('[data-toggle="tooltip"]').tooltip();
 });
+
+let styleSwitch = () => {
+  if (localStorage.getItem("styleSwitch") != null) {
+    ThisActive = 'ul.styleswitch li[data-li='+localStorage.getItem("styleSwitch")+']'
+    $(ThisActive).siblings().removeClass('active');
+    $(ThisActive).addClass('active');
+    mySwitch(localStorage.getItem("styleSwitch"));
+  }
+
+  $("ul.styleswitch li").click(function () {
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+    styleName = $(this).data('li');
+    localStorage.setItem("styleSwitch", styleName);
+    mySwitch(styleName);
+  });
+};
+let mySwitch = (Name) => {
+  $('link[rel*=style][title]').each(function() {
+    this.disabled = true;
+    if (this.getAttribute('title') == Name) this.disabled = false;
+  });
+};
+
+let textSize = () => {
+  if (localStorage.getItem("textSize") != "") {
+    ThisActive = 'ul.textsizer li[data-li='+localStorage.getItem("textSizeLi")+']'
+    $(ThisActive).siblings().removeClass('active');
+    $(ThisActive).addClass('active');
+    $('html').css('font-size',localStorage.getItem("textSize"));
+  }
+
+  $("ul.textsizer li").click(function () {
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+
+    localStorage.setItem("textSizeLi", $(this).data('li'));
+    switch($(this).data('li')) {
+      case 'mediumFont':
+        $('html').css('font-size','14px');
+        localStorage.setItem("textSize", "14px");
+        break;
+      case 'largeFont':
+        $('html').css('font-size','18px');
+        localStorage.setItem("textSize", "18px");
+        break;
+      default:
+        $('html').css('font-size','');
+        localStorage.removeItem("textSize");
+    }
+  });
+};
 
 let setcookieuser = (x) => {
  $("#cookie-con-head").removeClass("show");
