@@ -423,8 +423,10 @@ body.down header {
     left: auto !important;
     right: 0px;
   }
-  header #navbarMain .navbar-nav li.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
+  @media only screen and (min-width: 1001px) {
+    header #navbarMain .navbar-nav li.nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+    }
   }
   header #navbarMain .navbar-nav .dropdown-item {
    position: relative;
@@ -1314,7 +1316,7 @@ footer {
 /* ---------------------------------------------------/////// Header ///////--------------------------------------------------- */
 @media only screen and (max-width: 1000px) {
   header {
-    padding: 5px;
+    padding: 5px !important;
   }
  header .box-navbar {
   width: 100%;
@@ -1401,7 +1403,7 @@ footer {
 .header-top-link2 {
   flex-direction: column;
   align-items: start;
-  padding: 0px 20px;
+  padding: 0px 20px 0px 30px;
   order: inherit !important;
   margin-right: auto;
 }
@@ -1460,9 +1462,13 @@ footer {
   padding: 2px 10px !important;
   position: inherit !important;
   transform: none !important;
+  max-height: 300px;
+  z-index: 0;
+  min-width: auto;
  }
  header #navbarMain .navbar-nav .dropdown-item {
   border: none;
+  white-space: break-spaces;
  }
  header #navbarMain .nav-item.dropdown.dropdown-brands .dropdown-menu > .dropdown-item {
   outline: none;
