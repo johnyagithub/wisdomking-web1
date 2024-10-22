@@ -1384,6 +1384,9 @@ footer {
   background: #fff;
   margin-top: auto;
   margin-bottom: 0px;
+  transform: none !important;
+  visibility: visible !important;
+  max-height: none !important;
 }
 .header-top-link #lang-change {
   border: 0;
