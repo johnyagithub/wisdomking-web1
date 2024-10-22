@@ -1,15 +1,45 @@
-body{
- font-family: 'Prompt', sans-serif !important; 
- font-weight: 100;
- font-size: 16px !important;
-}
 :root{
  --primary: #6BAB3D;
  --hov-primary: #508b26;
  --info: #AAF83D;
  --border_radius: 20px;
 }
- 
+body{
+ font-family: 'Prompt', sans-serif !important; 
+ font-weight: 100;
+ font-size: 16px !important;
+}
+body::before {
+  content: "";
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  z-index: 1035;
+  background: url(../images/favicon.png) no-repeat center;
+  background-size: contain;
+  transition: .5s;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; 
+  animation: rotateY 1.5s ease-in-out infinite;
+}
+
+@keyframes rotateY {
+  50% {transform: rotateY(180deg) translate(50%, -50%);}
+}
+body::after {
+	content: "";
+	position: fixed;
+	inset: 0;
+	z-index: 1034;
+	background: #f1f1f1;
+}
+body.Loaded::before ,
+body.Loaded::after {
+	opacity: 0;
+	visibility: hidden;
+}
+
 body .form-control {
  font-family: 'Prompt', sans-serif !important;
  font-weight: 100;
@@ -97,6 +127,7 @@ table.table.aiz-table .badge {
   border: 1px solid #F7FEEC;
   box-shadow: 2px 2px 11px 0px rgb(0 0 0 / 16%);
   transition: background .5s;
+  font-size: 13px;;
 }
 .btn-style:hover {
   background: linear-gradient(180deg, #2BCB7E 90%, #37A8E2 100%);

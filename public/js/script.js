@@ -82,6 +82,12 @@ $(function () {
  $('[data-toggle="tooltip"]').tooltip();
 });
 
+window.onload = function () {
+  setTimeout(() => {
+    $('body').addClass('Loaded');
+  }, 200);
+} 
+
 let styleSwitch = () => {
   if (localStorage.getItem("styleSwitch") != null) {
     ThisActive = 'ul.styleswitch li[data-li='+localStorage.getItem("styleSwitch")+']'
