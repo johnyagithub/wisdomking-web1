@@ -1,7 +1,3 @@
-* {
-	/*background-color: #000000 !important;*/
-	color: #FFFF00 !important;
-}
-header {
-	background-color: #000000;
+.footer-widget {
+	background-image: linear-gradient(to right, #d9ad2b, #deb53d, #e3bd4e, #e7c45d, #eccc6c, #eccb6c, #ebc96c, #ebc86c, #e6be5d, #e2b34e, #dda93f, #d99e30);
 }

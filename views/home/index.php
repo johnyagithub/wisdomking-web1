@@ -17,7 +17,7 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<!-- <section class="box-banner">
+		<section class="box-banner">
 			<div class="container">
 				<div class="owl-carousel">
 	
@@ -34,7 +34,7 @@
 	
 				</div>
 			</div>
-		</section> -->
+		</section>
 
 	</div>
 	<!-- end #content -->
