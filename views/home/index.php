@@ -38,6 +38,7 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="py-5">
 			<div class="container">
 				<h5 class="head text-center text-primary font-weight-lighter d-table mx-auto">เกี่ยวกับเรา</h5>
@@ -49,6 +50,40 @@
 				</p>
 				<br>
 				<a class="btn btn-style px-4 d-table mx-auto" href="#" role="button">อ่านต่อ</a>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="d-flex flex-wrap">
+					<h3 class="head mb-5">พิพิธภัณฑ์ของเรา</h3>
+					<div class="ml-auto">
+						<a href="#" class="btn-style2">
+							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์ในอาคาร
+						</a>
+						<a href="#">
+							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์กลางแจ้ง
+						</a>
+						<a href="#">
+							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์เสมือนจริง
+						</a>
+					</div>
+				</div>
+				<button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button"
+					role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+				<button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button"
+					role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+				<button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button"
+					role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
+					</div>
+					<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+					<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+				</div>
 			</div>
 		</section>
 
@@ -70,7 +105,8 @@
 					</div>
 					<div class="col-md-6 col-lg-3">
 						<img src="../../public/images/museum/img4.jpg" alt="" class="--img">
-						<p>ส่งเสริม สนับสนุน เครือข่ายและ ภาคีความ ร่วมมือในการขับเคลื่อนหลัก ปรัชญาของ เศรษฐกิจพอเพียง ด้านการเกษตร</p>
+						<p>ส่งเสริม สนับสนุน เครือข่ายและ ภาคีความ ร่วมมือในการขับเคลื่อนหลัก ปรัชญาของ เศรษฐกิจพอเพียง ด้านการเกษตร
+						</p>
 					</div>
 				</div>
 			</div>
