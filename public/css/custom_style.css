@@ -3,6 +3,7 @@
  --hov-primary: #508b26;
  --info: #AAF83D;
  --secondary: #626262;
+ --muted: #B6B6B6;
  --border_radius: 20px;
 }
 .text-primary {
@@ -10,6 +11,9 @@
 }
 .text-secondary {
   color: var( --secondary) !important;
+}
+.text-muted {
+  color: var( --muted) !important;
 }
 
 body{
@@ -373,6 +377,23 @@ div#navbarMain li.nav-item:hover a.nav-link {
  color: var(--primary);
 }
 
+.box-navTabs {
+  border: 0px;
+}
+  .box-navTabs .nav-link {
+    color: var(--muted);
+    border: 0px;
+    padding: 4px 10px;
+    margin: 0px 8px;
+  }
+    .box-navTabs .nav-link.active {
+      color: #F7FEEC;
+      background: linear-gradient(90.41deg, #2BCB7E 2.96%, #37A8E2 99.49%);
+      border-radius: 50px;
+      border: 1px solid #F7FEEC;
+      box-shadow: 2px 2px 11px 0px rgb(0 0 0 / 16%);
+    }
+
 header {
  position: sticky;
  position: -o-sticky;
@@ -569,7 +590,7 @@ body.down header {
         margin: 0px 4px;
         padding: 5px;
         font-size: 12px;
-        color: #B6B6B6;
+        color: var(--muted);
         text-transform: uppercase;
       }
       .header-top-link ul.styleswitch li.active {
@@ -599,7 +620,7 @@ body.down header {
         #lang-change .dropdown-toggle::after {
           content: "\f107" !important;
           font-family: FontAwesome;
-          color: #B6B6B6;
+          color: var(--muted);
         }
           #lang-change a.dropdown-toggle img {
             width: 17px;
@@ -609,7 +630,7 @@ body.down header {
           }
           #lang-change a.dropdown-toggle span {
             font-size: 12px;
-            color: #B6B6B6;
+            color: var(--muted);
           }
 
   .header-top-link2 {
@@ -622,7 +643,7 @@ body.down header {
       width: 21px;
     }
     .header-top-link2 a.icon-pro {
-      color: #B6B6B6;
+      color: var(--muted);
       text-decoration: underline;
       margin: 0px 12px;
     }
@@ -820,8 +841,8 @@ a[data-fancybox] {
 }
   .head::after {
     content: "";
-    border-bottom: 1px solid #C4EC74;
-    width: 90px;
+    border-bottom: 2px solid #C4EC74;
+    width: 140px;
     position: absolute;
     left: 0px;
     bottom: -5px;
@@ -1119,7 +1140,7 @@ footer {
     justify-content: center;
   }
     footer .social > a {
-      color: #B6B6B6;
+      color: var(--muted);
       width: calc(100% / 5 - 40px);
       min-width: 210px;
       display: flex;

@@ -42,7 +42,7 @@
 		<section class="py-5">
 			<div class="container">
 				<h5 class="head text-center text-primary font-weight-lighter d-table mx-auto">เกี่ยวกับเรา</h5>
-				<p class="h4 text-center text-secondary font-weight-lighter">
+				<p class="h4 text-center text-secondary font-weight-lighter" style="line-height: 1.5;">
 					กระทรวงเกษตรและสหกรณ์ <b class="text-primary font-weight-lighter">ได้จัดตั้งพิพิธภัณฑ์การเกษตรเฉลิม<br>
 						พระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัวโดยมีวัตถุประสงค์เพื่อเฉลิม พระเกียรติ</b><br>
 					พระบาทสมเด็จพระบรม ชนกาธิเบศรมหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร<br>
@@ -53,37 +53,107 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="box-Ourmuseum py-4">
 			<div class="container">
 				<div class="d-flex flex-wrap">
-					<h3 class="head mb-5">พิพิธภัณฑ์ของเรา</h3>
-					<div class="ml-auto">
-						<a href="#" class="btn-style2">
+					<h3 class="head">พิพิธภัณฑ์ของเรา</h3>
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
+							type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
 							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
 							พิพิธภัณฑ์ในอาคาร
-						</a>
-						<a href="#">
+						</button>
+						<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
+							role="tab" aria-controls="nav-Outdoor" aria-selected="false">
 							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
 							พิพิธภัณฑ์กลางแจ้ง
-						</a>
-						<a href="#">
+						</button>
+						<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
+							role="tab" aria-controls="nav-Virtual" aria-selected="false">
 							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
 							พิพิธภัณฑ์เสมือนจริง
-						</a>
-					</div>
-					<div class="nav nav-tabs ml-auto" id="nav-tab" role="tablist">
-						<button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button"
-							role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-						<button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button"
-							role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-						<button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav-contact" type="button"
-							role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+						</button>
 					</div>
 				</div>
 				<div class="tab-content" id="nav-tabContent">
-					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+					<div class="tab-pane fade show active" id="nav-Indoor" role="tabpanel" aria-labelledby="nav-Indoor-tab">
+						<div class="owl-carousel">
+							
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">.2..</div>
+					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">..3.</div>
+				</div>
+			</div>
+		</section>
+
+		<section style="border-top: 1px solid #E7E7E7;height:300px;background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);"></section>
+
+		<section class="box-Learning py-4">
+			<div class="container">
+				<div class="d-flex flex-wrap">
+					<h3 class="head">ปฏิทินกิจกรรมการเรียนรู้</h3>
+					<div class="ml-auto">
+						<a href="#" class="btn-style2 px-3 py-1 mx-2 bg-white">ทั้งหมด</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">หลักสูตรอบรมเข้มข้น</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">อื่นๆ</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="box-Market py-4">
+			<div class="container">
+				<div class="row m-0">
+					<h3 class="head mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
+					<p class="mx-auto col-lg px-lg-3" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง จัดขึ้นทุกเสาร์ อาทิตย์
+						สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด แลกเปลี่ยนเรียนรู้
+						ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-4">
+			<div class="container">
+				<div class="d-flex flex-wrap">
+					<h3 class="head">องค์ความรู้</h3>
+					<div class="ml-auto">
+						<a href="#" class="btn-style2 px-3 py-1 mx-2">
+							ทั้งหมด
+						</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted">
+							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+							บทความ
+						</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted">
+							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+							บรรยายประกอบภาพ
+						</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted">
+							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+							บรรยายประกอบภาพ
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section style="border-top: 1px solid #E7E7E7height:300px"></section>
+		<section style="background: linear-gradient(360deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);height:300px"></section>
+
+		<section class="box-News py-4">
+			<div class="container">
+				<div class="d-flex flex-wrap">
+					<h3 class="head">ข่าว & ประชาสัมพันธ์</h3>
+					<div class="ml-auto">
+						<a href="#" class="btn-style2 px-3 py-1 mx-2 bg-white">ทั้งหมด</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าว</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">คณะเข้าชม</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าวสื่อมวลชน</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าวผู้บริหาร</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าวกิจกรรมต่างๆ</a>
+					</div>
 				</div>
 			</div>
 		</section>
