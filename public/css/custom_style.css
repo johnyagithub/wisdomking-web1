@@ -383,8 +383,10 @@ div#navbarMain li.nav-item:hover a.nav-link {
   .box-navTabs .nav-link {
     color: var(--muted);
     border: 0px;
-    padding: 4px 10px;
-    margin: 0px 8px;
+    padding: 4px 13px;
+    margin: 0px 6px;
+    border-radius: 50rem !important;
+    background-color: #fff;
   }
     .box-navTabs .nav-link.active {
       color: #F7FEEC;
@@ -401,26 +403,60 @@ div#navbarMain li.nav-item:hover a.nav-link {
     }
       .nav-dots-style .owl-stage-outer {
         width: 100%;
+        margin-bottom: 20px;
       }
       .nav-dots-style .owl-nav {
         all: initial;
         order: 1;
-        display: flex;
+        display: flex !important;
+        margin-left: 10px;
       }
         .nav-dots-style .owl-nav button {
           position: inherit;
           transform: none !important;
           background-color: #000;
+          background: url(../images/icon-prev.png) no-repeat center;
+          background-size: contain;
+          margin: 0px 5px;
+          width: 40px;
         }
           .nav-dots-style .owl-nav button.owl-next {
-    
+            background-image: url(../images/icon-next.png);
           }
     
       .nav-dots-style .owl-dots {
+        counter-reset: slides-num;
         all: initial;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 222px;
+        margin: 0px 12px;
+      }
+      .nav-dots-style.show-dots .owl-dots {
+        display: flex !important;
+      }
+      .nav-dots-style .owl-dots:before ,
+      .nav-dots-style .owl-dots:after {
+        content:"01";
+        font-family: 'Prompt', sans-serif !important;
+        font-size: 12px !important;
+        color: #085445;
+        margin: 5px;
+      }
+      .nav-dots-style .owl-dots:after {
+        content:"0"counter(slides-num);
       }
         .nav-dots-style .owl-dots .owl-dot {
-    
+          counter-increment: slides-num;
+          height: 3px;
+          width: 100%;
+          border-radius: 0px;
+          padding: 0px;
+          margin: 0px;
+        }
+        .nav-dots-style .owl-dots .owl-dot.active {
+          border-radius: 5px;
         }
 
 header {

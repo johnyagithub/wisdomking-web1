@@ -141,6 +141,20 @@
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
 							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">
+						<div class="owl-carousel nav-dots-style">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
 							<div class="item">
 								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								<div class="text">
@@ -152,7 +166,6 @@
 
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">..3.</div>
 				</div>
 			</div>
 		</section>
@@ -220,13 +233,174 @@
 			<div class="container">
 				<div class="d-flex flex-wrap">
 					<h3 class="head">ข่าว & ประชาสัมพันธ์</h3>
-					<div class="ml-auto">
-						<a href="#" class="btn-style2 px-3 py-1 mx-2 bg-white">ทั้งหมด</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าว</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">คณะเข้าชม</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าวสื่อมวลชน</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าวผู้บริหาร</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ข่าวกิจกรรมต่างๆ</a>
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1"
+							type="button" role="tab" aria-controls="nav1" aria-selected="true">
+							ทั้งหมด
+						</button>
+						<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button"
+							role="tab" aria-controls="nav2" aria-selected="false">
+							ข่าว
+						</button>
+						<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button"
+							role="tab" aria-controls="nav3" aria-selected="false">
+							คณะเข้าชม
+						</button>
+						<button class="nav-link" id="nav4-tab" data-toggle="tab" data-target="#nav4"
+							type="button" role="tab" aria-controls="nav4" aria-selected="true">
+							ข่าวสื่อมวลชน
+						</button>
+						<button class="nav-link" id="nav5-tab" data-toggle="tab" data-target="#nav5" type="button"
+							role="tab" aria-controls="nav5" aria-selected="false">
+							ข่าวผู้บริหาร
+						</button>
+						<button class="nav-link" id="nav6-tab" data-toggle="tab" data-target="#nav6" type="button"
+							role="tab" aria-controls="nav6" aria-selected="false">
+							ข่าวกิจกรรมต่างๆ
+						</button>
+					</div>
+				</div>
+				<div class="tab-content py-4" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
+						<div class="owl-carousel nav-dots-style show-dots">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">ข่าวผู้บริหาร</span>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											18 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">คณะเข้าชม</span>
+									<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
+									<p class="text-line3">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ     ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											17 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">คณะเข้าชม</span>
+									<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
+									<p class="text-line3">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี 
+									โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน  ไตรราชวิทยา จ.พระนครศรีอยุธยา เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">ข่าวผู้บริหาร</span>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
+						<div class="owl-carousel nav-dots-style show-dots">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
+						<div class="owl-carousel nav-dots-style show-dots">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav4" role="tabpanel" aria-labelledby="nav4-tab">
+						<div class="owl-carousel nav-dots-style show-dots">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav5" role="tabpanel" aria-labelledby="nav5-tab">
+						<div class="owl-carousel nav-dots-style show-dots">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav6" role="tabpanel" aria-labelledby="nav6-tab">
+						<div class="owl-carousel nav-dots-style show-dots">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
