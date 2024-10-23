@@ -236,9 +236,9 @@
 								<hr>
 								04 - 05
 							</div>
-							<div class="item" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+							<div class="item" data-img="../../public/images/img2.jpg" data-subject="ตลาดเศรษฐกิจพอเพียง"
 								data-date="04-05 สิงหาคม 2567">
-								สิงหาคม
+								พฤศจจิกายน
 								<hr>
 								04 - 05
 							</div>

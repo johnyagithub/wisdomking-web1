@@ -196,11 +196,16 @@
     border-radius: var(--border_radius);
     overflow: hidden;
     position: relative;
+    display: block;
   }
-    .box-Market .item-show img {
-      aspect-ratio: 140 / 54;
-      object-fit: cover;
+    .box-Market .item-show .img {
+      background: #efefef;
     }
+      .box-Market .item-show img {
+        aspect-ratio: 140 / 54;
+        object-fit: cover;
+      }
+
     .box-Market .item-show .text {
       padding: 18px;
       position: absolute;
@@ -224,8 +229,24 @@
       }
 
   .box-Market .owl-carousel {
-    
+    padding: 20px 50px;
   }
+    .box-Market .owl-nav {
+      
+    }
+      .box-Market .owl-nav button {
+        background: url(../images/icon-prev.png) no-repeat center;
+        background-size: contain;
+        width: 42px;
+      }
+        .box-Market .owl-nav button.disabled {
+          opacity: 0.5;
+          pointer-events: none;
+        }
+        .box-Market .owl-nav button.owl-next {
+          
+        }
+
     .box-Market .owl-carousel .item {
       border-radius: 50%;
       aspect-ratio: 1;
@@ -244,39 +265,49 @@
     .box-Market .owl-carousel .item.active {
       color: #fff;
     }
-      .box-Market .owl-carousel .item hr {
-        width: 50px;
-        margin: 2px 0px;
-        border: 0px;
-        border-bottom: 2px solid #303232;
-        transition: .5s;
-      }
-      .box-Market .owl-carousel .item.active hr {
-        border-bottom-color: #fff;
-      }
-      .box-Market .owl-carousel .item::before {
+      .box-Market .owl-stage-outer::after {
         content: "";
         position: absolute;
-        inset: 0;
-        background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
-        z-index: -1;
-        border-radius: 500%;
-        aspect-ratio: 1;
-        height: 100%;
-        margin: auto;
-        opacity: 0;
-        transition: .5s;
+        width: 6px;
+        height: 38px;
+        background-color: #ffffff;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
       }
-      .box-Market .owl-carousel .item.item.active::before {
-        opacity: 1;
-      }
-      .box-Market .owl-carousel .item::after {
-        content: "";
-        position: absolute;
-        right: -11px;
-        height: 44px;
-        border-left: 1px solid #999F9E;
-      }
+        .box-Market .owl-carousel .item hr {
+          width: 50px;
+          margin: 2px 0px;
+          border: 0px;
+          border-bottom: 2px solid #303232;
+          transition: .5s;
+        }
+        .box-Market .owl-carousel .item.active hr {
+          border-bottom-color: #fff;
+        }
+        .box-Market .owl-carousel .item::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+          z-index: -1;
+          border-radius: 500%;
+          aspect-ratio: 1;
+          height: 100%;
+          margin: auto;
+          opacity: 0;
+          transition: .5s;
+        }
+        .box-Market .owl-carousel .item.item.active::before {
+          opacity: 1;
+        }
+        .box-Market .owl-carousel .item::after {
+          content: "";
+          position: absolute;
+          right: -1px;
+          height: 44px;
+          border-left: 1px solid #999F9E;
+        }
 
 .box-News {
   background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
@@ -377,7 +408,12 @@
  }
  /* แนวนอน */
  @media only screen and (orientation:landscape){
-  
+  .box-Market .owl-carousel .item {
+    transform: scale(0.8);
+  }
+  .box-Market .owl-carousel .item::after {
+    right: -15px;
+  }
  }
 }
 
@@ -386,16 +422,19 @@
   .box-banner .box-text {
     position: relative;
     padding: 22px !important;
-   }
-   .box-banner .b-text {
+  }
+  .box-banner .b-text {
     width: 100% !important;
-   }
-   .box-banner img.img-banner {
+  }
+  .box-banner img.img-banner {
     position: absolute;
     height: 100%;
     object-fit: cover;
     inset: 0;
-   }
+  }
+  .box-Market .item-show .text {
+    position: relative;
+  }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
   .box-banner .b-text {
@@ -403,9 +442,21 @@
     justify-content: end;
     padding-bottom: 8%;
   }
+  .box-Market .owl-carousel .item {
+    width: calc(100% - 15px);
+    font-size: 10px;
+  }
+  .box-Market .owl-carousel .item::after {
+    height: 21px;
+  }
  } 
  /* แนวนอน */
  @media only screen and (orientation:landscape){
-
+  .box-Market .owl-carousel .item {
+    transform: scale(0.8);
+  }
+  .box-Market .owl-carousel .item::after {
+    right: -26px;
+  }
  }
 }

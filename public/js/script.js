@@ -174,7 +174,7 @@ let sliderBanner = () => {
 
 let sliderMarket = () => {
   $(".box-Market .owl-carousel").owlCarousel({
-    margin: 20,
+    margin: 0,
     nav: true,
     dots: false,
     lazyLoad: true,
@@ -192,7 +192,9 @@ let sliderMarket = () => {
     var imgMarket = $(this).data('img');
     var subjectMarket = $(this).data('subject');
     var dateMarket = $(this).data('date');
-    $('#Market-show .item-show img').attr('src',imgMarket);
+    $('#Market-show .item-show img').fadeOut(function () {
+      $(this).attr('src', imgMarket).fadeIn();
+    });
     $('#Market-show .item-show .text h5').text(subjectMarket);
     $('#Market-show .item-show .text .-date').text(dateMarket);
   });
