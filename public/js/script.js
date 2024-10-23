@@ -43,6 +43,7 @@ $(function () {
  textSize();
  sliderItem();
  sliderBanner();
+ sliderOurmuseum();
 
  if (localStorage.getItem("cookie") != "allow") {
    setTimeout(function () {
@@ -190,11 +191,28 @@ let sliderItem = () => {
    },
   });
  });
- $(".box-slide .o-prev").click(function () {
-  $(this).closest(".box-slide").find(".owl-prev").click();
- });
- $(".box-slide .o-next").click(function () {
-  $(this).closest(".box-slide").find(".owl-next").click();
+};
+
+let sliderOurmuseum = () => {
+ $(".box-Ourmuseum .owl-carousel").each(function () {
+  $(this).owlCarousel({
+   margin: 20,
+   nav: true,
+   dots: true,
+   lazyLoad: true,
+   responsiveClass: true,
+   responsive: {
+    0: {
+     items: 1,
+    },
+    667: {
+     items: 2,
+    },
+    900: {
+     items: 3,
+    },
+   },
+  });
  });
 };
 

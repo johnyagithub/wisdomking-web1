@@ -143,8 +143,35 @@
 
   .box-Ourmuseum {
     background: linear-gradient(180deg, #ffff 0%, rgba(234, 234, 234, 0) 100%);
-    height: 300px;
   }
+    .box-Ourmuseum .owl-carousel {
+
+    }
+      .box-Ourmuseum .item {
+        border-radius: var(--border_radius);
+        overflow: hidden;
+      }
+        .box-Ourmuseum .item img {
+          aspect-ratio: 103 / 82;
+          object-fit: cover;
+        }
+        .box-Ourmuseum .item .text {
+          padding: 18px;
+          position: absolute;
+          inset: auto 0 0 0;
+          color: #fff;
+          background: linear-gradient(180deg, rgb(43 203 126 / 48%) 0%, #37A8E2 100%);
+          border-radius: 0 0 var(--border_radius) var(--border_radius);
+        }
+          .box-Ourmuseum .item .text span {
+            font-size: 1.125em;
+          }
+            .box-Ourmuseum .item .text span > img {
+              width: 18px;
+              display: inline-block;
+              margin-right: 4px;
+              mix-blend-mode: color-dodge;
+            }
 
   .box-Learning {
     background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);

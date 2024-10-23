@@ -75,19 +75,91 @@
 						</button>
 					</div>
 				</div>
-				<div class="tab-content" id="nav-tabContent">
+				<div class="tab-content py-4" id="nav-tabContent">
 					<div class="tab-pane fade show active" id="nav-Indoor" role="tabpanel" aria-labelledby="nav-Indoor-tab">
-						<div class="owl-carousel">
-							
+						<div class="owl-carousel nav-dots-style">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 2</h6>
+									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
+									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 2</h6>
+									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">.2..</div>
+					<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">
+						<div class="owl-carousel nav-dots-style">
+
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 2</h6>
+									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
+									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 2</h6>
+									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
 					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">..3.</div>
 				</div>
 			</div>
 		</section>
 
-		<section style="border-top: 1px solid #E7E7E7;height:300px;background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);"></section>
+		<section
+			style="border-top: 1px solid #E7E7E7;height:300px;background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);">
+		</section>
 
 		<section class="box-Learning py-4">
 			<div class="container">
@@ -95,7 +167,8 @@
 					<h3 class="head">ปฏิทินกิจกรรมการเรียนรู้</h3>
 					<div class="ml-auto">
 						<a href="#" class="btn-style2 px-3 py-1 mx-2 bg-white">ทั้งหมด</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</a>
+						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ท่องเที่ยวสุขสันต์
+							ที่พิพิธภัณฑ์เกษตรฯ</a>
 						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">หลักสูตรอบรมเข้มข้น</a>
 						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">อื่นๆ</a>
 					</div>
@@ -140,7 +213,8 @@
 		</section>
 
 		<section style="border-top: 1px solid #E7E7E7height:300px"></section>
-		<section style="background: linear-gradient(360deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);height:300px"></section>
+		<section style="background: linear-gradient(360deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);height:300px">
+		</section>
 
 		<section class="box-News py-4">
 			<div class="container">
