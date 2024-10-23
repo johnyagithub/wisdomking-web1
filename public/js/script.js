@@ -176,6 +176,8 @@ let sliderMarket = () => {
   $(".box-Market .owl-carousel").owlCarousel({
     margin: 0,
     nav: true,
+    // center: true,
+    // startPosition: 1,
     dots: false,
     lazyLoad: true,
     responsiveClass: true,
@@ -184,6 +186,8 @@ let sliderMarket = () => {
         items: 3,
       },
     },
+  }).on('changed.owl.carousel', function (e) {
+    $(".box-Market .owl-carousel .owl-item:nth-child("+(e.item.index+1)+") .item").click();
   });
   $(".box-Market .owl-carousel .item").click(function () {
     $(".box-Market .owl-carousel .item").removeClass('active');

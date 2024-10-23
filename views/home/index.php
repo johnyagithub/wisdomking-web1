@@ -215,7 +215,7 @@
 						สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด แลกเปลี่ยนเรียนรู้
 						ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
 				</div>
-				<div class="row">
+				<div class="row mt-3">
 					<div class="col-lg-6" id="Market-show">
 						<a href="#" class="item-show">
 							<div class="img">
@@ -251,6 +251,12 @@
 							<div class="item" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
 								data-date="04-05 สิงหาคม 2567">
 								สิงหาคม
+								<hr>
+								04 - 05
+							</div>
+							<div class="item active" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+								data-date="04-05 กรกฎาคม 2567">
+								กรกฎาคม
 								<hr>
 								04 - 05
 							</div>
