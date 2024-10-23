@@ -43,6 +43,7 @@ $(function () {
   textSize();
   sliderItem();
   sliderBanner();
+  sliderMarket();
   sliderOurmuseum();
   sliderNews();
 
@@ -171,6 +172,32 @@ let sliderBanner = () => {
   });
 };
 
+let sliderMarket = () => {
+  $(".box-Market .owl-carousel").owlCarousel({
+    margin: 20,
+    nav: true,
+    dots: false,
+    lazyLoad: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 3,
+      },
+    },
+  });
+  $(".box-Market .owl-carousel .item").click(function () {
+    $(".box-Market .owl-carousel .item").removeClass('active');
+    $(this).addClass('active');
+
+    var imgMarket = $(this).data('img');
+    var subjectMarket = $(this).data('subject');
+    var dateMarket = $(this).data('date');
+    $('#Market-show .item-show img').attr('src',imgMarket);
+    $('#Market-show .item-show .text h5').text(subjectMarket);
+    $('#Market-show .item-show .text .-date').text(dateMarket);
+  });
+};
+
 let sliderItem = () => {
   $(".box-slide .owl-carousel").each(function () {
     $(this).owlCarousel({
@@ -195,52 +222,48 @@ let sliderItem = () => {
 };
 
 let sliderOurmuseum = () => {
-  $(".box-Ourmuseum .owl-carousel").each(function () {
-    $(this).owlCarousel({
-      margin: 20,
-      nav: true,
-      dots: true,
-      // center:true,
-      // loop:true,
-      lazyLoad: true,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-        },
-        667: {
-          items: 2,
-        },
-        900: {
-          items: 3,
-        },
+  $(".box-Ourmuseum .owl-carousel").owlCarousel({
+    margin: 20,
+    nav: true,
+    dots: true,
+    // center:true,
+    // loop:true,
+    lazyLoad: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
       },
-    });
+      667: {
+        items: 2,
+      },
+      900: {
+        items: 3,
+      },
+    },
   });
 };
 
 let sliderNews = () => {
-  $(".box-News .owl-carousel").each(function () {
-    $(this).owlCarousel({
-      margin: 20,
-      nav: true,
-      dots: true,
-      // center:true,
-      // loop:true,
-      lazyLoad: true,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-        },
-        667: {
-          items: 2,
-        },
-        900: {
-          items: 3,
-        },
+  $(".box-News .owl-carousel").owlCarousel({
+    margin: 20,
+    nav: true,
+    dots: true,
+    // center:true,
+    // loop:true,
+    lazyLoad: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
       },
-    });
+      667: {
+        items: 2,
+      },
+      900: {
+        items: 3,
+      },
+    },
   });
 };
 

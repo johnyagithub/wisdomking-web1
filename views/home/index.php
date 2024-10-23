@@ -79,7 +79,7 @@
 					<div class="tab-pane fade show active" id="nav-Indoor" role="tabpanel" aria-labelledby="nav-Indoor-tab">
 						<div class="owl-carousel nav-dots-style">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
 								</div>
@@ -88,8 +88,8 @@
 									<h4>พระราชพิธีในวิถีเกษตร</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -98,8 +98,8 @@
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
 								</div>
@@ -108,8 +108,8 @@
 									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -118,14 +118,14 @@
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">
 						<div class="owl-carousel nav-dots-style">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
 								</div>
@@ -134,8 +134,8 @@
 									<h4>พระราชพิธีในวิถีเกษตร</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -144,8 +144,8 @@
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
 								</div>
@@ -154,14 +154,14 @@
 									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">
 						<div class="owl-carousel nav-dots-style">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
 								</div>
@@ -170,8 +170,8 @@
 									<h4>พระราชพิธีในวิถีเกษตร</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -180,7 +180,7 @@
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
@@ -207,7 +207,7 @@
 			</div>
 		</section>
 
-		<section class="box-Market py-4">
+		<section class="box-Market py-5">
 			<div class="container">
 				<div class="row m-0">
 					<h3 class="head mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
@@ -215,6 +215,50 @@
 						สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด แลกเปลี่ยนเรียนรู้
 						ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
 				</div>
+				<div class="row">
+					<div class="col-lg-6" id="Market-show">
+						<a href="#" class="item-show">
+							<div class="img">
+								<img src="../../public/images/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<h5>เรื่องข้าวชาวเกษตร</h5>
+								<div class="-date">04-05 พฤษภาคม 2567</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 align-self-center">
+						<div class="owl-carousel">
+
+							<div class="item active" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+								data-date="04-05 กรกฎาคม 2567">
+								กรกฎาคม
+								<hr>
+								04 - 05
+							</div>
+							<div class="item" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+								data-date="04-05 สิงหาคม 2567">
+								สิงหาคม
+								<hr>
+								04 - 05
+							</div>
+							<div class="item" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+								data-date="04-05 กันยายน 2567">
+								กันยายน
+								<hr>
+								04 - 05
+							</div>
+							<div class="item" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+								data-date="04-05 สิงหาคม 2567">
+								สิงหาคม
+								<hr>
+								04 - 05
+							</div>
+
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</section>
 
@@ -282,7 +326,7 @@
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -302,8 +346,8 @@
 										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img2.jpg" alt="">
 								</div>
@@ -322,8 +366,8 @@
 										พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
 										ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img3.jpg" alt="">
 								</div>
@@ -343,8 +387,8 @@
 										โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
 										เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
 								</div>
-							</div>
-							<div class="item">
+							</a>
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -364,14 +408,14 @@
 										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -391,14 +435,14 @@
 										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -418,14 +462,14 @@
 										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav4" role="tabpanel" aria-labelledby="nav4-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -445,14 +489,14 @@
 										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav5" role="tabpanel" aria-labelledby="nav5-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -472,14 +516,14 @@
 										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav6" role="tabpanel" aria-labelledby="nav6-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<div class="item">
+							<a href="#" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -499,7 +543,7 @@
 										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>
