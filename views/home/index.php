@@ -80,7 +80,9 @@
 						<div class="owl-carousel nav-dots-style">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">ชั้นที่ 1</h6>
 									<h4>พระราชพิธีในวิถีเกษตร</h4>
@@ -88,7 +90,9 @@
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">ชั้นที่ 2</h6>
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
@@ -96,7 +100,9 @@
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
 									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
@@ -104,7 +110,9 @@
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">ชั้นที่ 2</h6>
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
@@ -118,7 +126,9 @@
 						<div class="owl-carousel nav-dots-style">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">ชั้นที่ 1</h6>
 									<h4>พระราชพิธีในวิถีเกษตร</h4>
@@ -126,7 +136,9 @@
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">ชั้นที่ 2</h6>
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
@@ -134,7 +146,9 @@
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
 									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
@@ -148,7 +162,9 @@
 						<div class="owl-carousel nav-dots-style">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">ชั้นที่ 1</h6>
 									<h4>พระราชพิธีในวิถีเกษตร</h4>
@@ -156,7 +172,9 @@
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								</div>
 								<div class="text">
 									<h6 class="m-0">ชั้นที่ 2</h6>
 									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
@@ -234,28 +252,28 @@
 				<div class="d-flex flex-wrap">
 					<h3 class="head">ข่าว & ประชาสัมพันธ์</h3>
 					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1"
-							type="button" role="tab" aria-controls="nav1" aria-selected="true">
+						<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button" role="tab"
+							aria-controls="nav1" aria-selected="true">
 							ทั้งหมด
 						</button>
-						<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button"
-							role="tab" aria-controls="nav2" aria-selected="false">
+						<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button" role="tab"
+							aria-controls="nav2" aria-selected="false">
 							ข่าว
 						</button>
-						<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button"
-							role="tab" aria-controls="nav3" aria-selected="false">
+						<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button" role="tab"
+							aria-controls="nav3" aria-selected="false">
 							คณะเข้าชม
 						</button>
-						<button class="nav-link" id="nav4-tab" data-toggle="tab" data-target="#nav4"
-							type="button" role="tab" aria-controls="nav4" aria-selected="true">
+						<button class="nav-link" id="nav4-tab" data-toggle="tab" data-target="#nav4" type="button" role="tab"
+							aria-controls="nav4" aria-selected="true">
 							ข่าวสื่อมวลชน
 						</button>
-						<button class="nav-link" id="nav5-tab" data-toggle="tab" data-target="#nav5" type="button"
-							role="tab" aria-controls="nav5" aria-selected="false">
+						<button class="nav-link" id="nav5-tab" data-toggle="tab" data-target="#nav5" type="button" role="tab"
+							aria-controls="nav5" aria-selected="false">
 							ข่าวผู้บริหาร
 						</button>
-						<button class="nav-link" id="nav6-tab" data-toggle="tab" data-target="#nav6" type="button"
-							role="tab" aria-controls="nav6" aria-selected="false">
+						<button class="nav-link" id="nav6-tab" data-toggle="tab" data-target="#nav6" type="button" role="tab"
+							aria-controls="nav6" aria-selected="false">
 							ข่าวกิจกรรมต่างๆ
 						</button>
 					</div>
@@ -265,7 +283,9 @@
 						<div class="owl-carousel nav-dots-style show-dots">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
 								<div class="text">
 									<div class="d-flex justify-content-between flex-wrap">
 										<div class="-date">
@@ -276,12 +296,17 @@
 										</div>
 									</div>
 									<span class="-type">ข่าวผู้บริหาร</span>
-									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ ประจำปี 2567 (NST FAIR 2024) </h5>
-									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+										ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img2.jpg" alt="">
+								</div>
 								<div class="text">
 									<div class="d-flex justify-content-between flex-wrap">
 										<div class="-date">
@@ -293,11 +318,15 @@
 									</div>
 									<span class="-type">คณะเข้าชม</span>
 									<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
-									<p class="text-line3">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ     ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
+									<p class="text-line3">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
+										พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
+										ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img3.jpg" alt="">
+								</div>
 								<div class="text">
 									<div class="d-flex justify-content-between flex-wrap">
 										<div class="-date">
@@ -309,12 +338,16 @@
 									</div>
 									<span class="-type">คณะเข้าชม</span>
 									<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
-									<p class="text-line3">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี 
-									โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน  ไตรราชวิทยา จ.พระนครศรีอยุธยา เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
+									<p class="text-line3">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ
+										พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี
+										โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
+										เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
 								</div>
 							</div>
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
 								<div class="text">
 									<div class="d-flex justify-content-between flex-wrap">
 										<div class="-date">
@@ -325,8 +358,11 @@
 										</div>
 									</div>
 									<span class="-type">ข่าวผู้บริหาร</span>
-									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ ประจำปี 2567 (NST FAIR 2024) </h5>
-									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+										ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</div>
 
@@ -336,11 +372,24 @@
 						<div class="owl-carousel nav-dots-style show-dots">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
 								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">ข่าวผู้บริหาร</span>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+										ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</div>
 
@@ -350,11 +399,24 @@
 						<div class="owl-carousel nav-dots-style show-dots">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
 								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">ข่าวผู้บริหาร</span>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+										ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</div>
 
@@ -364,11 +426,24 @@
 						<div class="owl-carousel nav-dots-style show-dots">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
 								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">ข่าวผู้บริหาร</span>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+										ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</div>
 
@@ -378,11 +453,24 @@
 						<div class="owl-carousel nav-dots-style show-dots">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
 								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">ข่าวผู้บริหาร</span>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+										ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</div>
 
@@ -392,11 +480,24 @@
 						<div class="owl-carousel nav-dots-style show-dots">
 
 							<div class="item">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="img">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
 								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<span class="-type">ข่าวผู้บริหาร</span>
+									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+										ประจำปี 2567 (NST FAIR 2024) </h5>
+									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</div>
 

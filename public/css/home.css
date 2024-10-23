@@ -155,8 +155,14 @@
           aspect-ratio: 103 / 82;
           object-fit: cover;
         }
-        .box-Ourmuseum .owl-stage[style="transition: all;"] img {
-          display:none;
+        .box-Ourmuseum .owl-item:not([style*="width"]) {
+          display: none;
+        }
+        .box-Ourmuseum .owl-item:not([style*="width"]):first-child {
+          opacity: 0;
+          visibility: hidden;
+          max-height: 315px;
+          display: block;
         }
         .box-Ourmuseum .item .text {
           padding: 18px;
@@ -190,20 +196,56 @@
     .box-News .item {
 
     }
-      .box-News .item img {
+      .box-News .item .img {
         border-radius: var(--border_radius);
       }
+        .box-News .item img {
+          aspect-ratio: 123 / 81;
+          object-fit: cover;
+        }
+        .box-News .owl-item:not([style*="width"]) {
+          display: none;
+        }
+        .box-News .owl-item:not([style*="width"]):first-child {
+          opacity: 0;
+          visibility: hidden;
+          max-height: 482px;
+          display: block;
+        }
+
       .box-News .item .text {
         margin-top: 12px;
       }
         .box-News .item .-date {
           color: #999F9E;
           font-size: 0.8125em;
+          position: relative;
         }
-        .box-News .item .-view {
+          .box-News .item .-date::before {
+            content: "";
+            background: url(../images/icon-date.png) no-repeat center;
+            background-size: contain;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            vertical-align: sub;
+          }
+
+          .box-News .item .-view {
           color: #999F9E;
           font-size: 0.8125em;
+          position: relative;
         }
+          .box-News .item .-view::before {
+            content: "";
+            background: url(../images/icon-eye.png) no-repeat center;
+            background-size: contain;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            vertical-align: sub;
+          }
+
         .box-News .item .-type {
           font-size: 0.75em;
           color: #669525;
