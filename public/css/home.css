@@ -124,10 +124,13 @@
   color: #fff;
   background: linear-gradient(180deg, #2BCB7E 0%, #21698b 100%);
   text-align: center;
+  margin-bottom: -1px;
 }
   .box-museum .container {
-    background: url(../../public/images/bg-museum.png) no-repeat center;
+    background: url(../../public/images/bg-museum.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 6%;
+    padding-bottom: 8%;
   }
     .box-museum img.--img {
       border: 3px solid #AAF83D;

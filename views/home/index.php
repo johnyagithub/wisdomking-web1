@@ -30,7 +30,7 @@
 								<p class="text-white mb-4">
 									"เป็นพิพิธภัณฑ์ชั้นนำแห่งการเรียนรู้พระเกียรติคุณและพระอัจฉริยภาพของกษัตริย์เกษตรและเป็นศูนย์กลางการเรียนรู้หลักปรัชญาของเศรษฐกิจ
 									พอเพียง นวัตกรรมด้านการเกษตรของประเทศ"</p>
-								<a class="btn btn-light px-4 rounded-pill" href="#">อ่านต่อ</a>
+								<a class="btn btn-light px-5 rounded-pill" href="#">อ่านต่อ</a>
 							</div>
 						</div>
 					</div>
@@ -49,7 +49,7 @@
 					เนื่องในมหามงคลสมัยที่ทรง...
 				</p>
 				<br>
-				<a class="btn btn-style px-4 d-table mx-auto" href="#" role="button">อ่านต่อ</a>
+				<a class="btn btn-style px-5 d-table mx-auto" href="#" role="button">อ่านต่อ</a>
 			</div>
 		</section>
 
@@ -71,24 +71,25 @@
 							พิพิธภัณฑ์เสมือนจริง
 						</a>
 					</div>
-				</div>
-				<button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button"
-					role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-				<button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button"
-					role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-				<button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button"
-					role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-				<div class="tab-content" id="pills-tabContent">
-					<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
+					<div class="nav nav-tabs ml-auto" id="nav-tab" role="tablist">
+						<button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button"
+							role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+						<button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button"
+							role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+						<button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav-contact" type="button"
+							role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
 					</div>
-					<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-					<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+				</div>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="box-museum">
-			<div class="container py-5">
+			<div class="container">
 				<h3 class="text-white head text-center mb-5">พิพิธภัณฑ์<br>แห่งการเรียนรู้เกษตรเศรษฐกิจพอเพียง</h3>
 				<div class="row">
 					<div class="col-md-6 col-lg-3">
