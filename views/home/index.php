@@ -270,11 +270,11 @@
 
 		<section class="box-Knowledge py-4">
 			<div class="container">
-				<div class="d-flex flex-wrap">
+				<div class="-sticky d-flex flex-wrap">
 					<h3 class="head">องค์ความรู้</h3>
 					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All"
-							type="button" role="tab" aria-controls="nav-All" aria-selected="true">
+						<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"
+							role="tab" aria-controls="nav-All" aria-selected="true">
 							ทั้งหมด
 						</button>
 						<button class="nav-link" id="nav-Articles-tab" data-toggle="tab" data-target="#nav-Articles" type="button"
@@ -296,18 +296,146 @@
 				</div>
 				<div class="tab-content py-4" id="nav-tabContent">
 					<div class="tab-pane fade show active" id="nav-All" role="tabpanel" aria-labelledby="nav-All-tab">
-						<div class="owl-carousel nav-dots-style">
+						<div class="row">
+							<div class="col-lg-5 pr-lg-4">
 
-							<a href="#" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<!-- ก้อนแรกซ้ายมือ -->
+								<a href="#" class="item item-left-sticky" style="top: 195px;">
+									<div class="img">
+										<img src="../../public/images/news/img1.jpg" alt="">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div>
+												<span class="-type">
+													<img src="../../public/images/document.png" style="width: 14px;" alt="">
+													บทความ
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">
+												300
+											</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
+
+							</div>
+							<div class="col-lg-7">
+								<div class="row">
+
+									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
+									<div class="col-lg-6">
+										<a href="#" class="item">
+											<div class="img">
+												<img src="../../public/images/news/img1.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div class="-date">
+														19 สิงหาคม 2023
+													</div>
+													<div class="-view">
+														300
+													</div>
+												</div>
+												<span class="-type">ข่าวผู้บริหาร</span>
+												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
+													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+													ประจำปี 2567 (NST FAIR 2024) </h5>
+												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
+													นางสาวสาวิตรี
+													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<a href="#" class="item">
+											<div class="img">
+												<img src="../../public/images/news/img1.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div class="-date">
+														19 สิงหาคม 2023
+													</div>
+													<div class="-view">
+														300
+													</div>
+												</div>
+												<span class="-type">ข่าวผู้บริหาร</span>
+												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
+													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+													ประจำปี 2567 (NST FAIR 2024) </h5>
+												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
+													นางสาวสาวิตรี
+													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<a href="#" class="item">
+											<div class="img">
+												<img src="../../public/images/news/img1.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div class="-date">
+														19 สิงหาคม 2023
+													</div>
+													<div class="-view">
+														300
+													</div>
+												</div>
+												<span class="-type">ข่าวผู้บริหาร</span>
+												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
+													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+													ประจำปี 2567 (NST FAIR 2024) </h5>
+												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
+													นางสาวสาวิตรี
+													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<a href="#" class="item">
+											<div class="img">
+												<img src="../../public/images/news/img1.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div class="-date">
+														19 สิงหาคม 2023
+													</div>
+													<div class="-view">
+														300
+													</div>
+												</div>
+												<span class="-type">ข่าวผู้บริหาร</span>
+												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
+													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+													ประจำปี 2567 (NST FAIR 2024) </h5>
+												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
+													นางสาวสาวิตรี
+													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+											</div>
+										</a>
+									</div>
+
 								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
+							</div>
 
 						</div>
 					</div>

@@ -322,9 +322,95 @@
 .box-Knowledge {
   
 }
-  .box-Knowledge .box-navTabs {
-
+  .box-Knowledge .-sticky {
+    position: sticky;
+    top: 108px;
+    z-index: 5;
+    padding-top: 20px;
+    background: linear-gradient(180deg, rgb(255 255 255) 15%, rgb(235 235 235 / 0%) 100%);
   }
+  .box-Knowledge .item {
+    text-decoration: none;
+    color: #000;
+  }
+  .box-Knowledge .item.item-left-sticky {
+    position: sticky;
+    top: 195px;
+    background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+    display: block;
+    color: #fff;
+    border-radius: var(--border_radius);
+  }
+    .box-Knowledge .item .img {
+      border-radius: var(--border_radius);
+    }
+      .box-Knowledge .item img {
+        aspect-ratio: 123 / 81;
+        object-fit: cover;
+      }
+      .box-Knowledge .owl-item:not([style*="width"]) {
+        display: none;
+      }
+      .box-Knowledge .owl-item:not([style*="width"]):first-child {
+        opacity: 0;
+        visibility: hidden;
+        max-height: 482px;
+        display: block;
+      }
+
+    .box-Knowledge .item .text {
+      margin-top: 12px;
+    }
+    .box-Knowledge .item.item-left-sticky .text {
+      padding: 10px 20px;
+    }
+      .box-Knowledge .item .-view {
+        font-size: 0.8125em;
+        position: relative;
+      }
+        .box-Knowledge .item .-view::before {
+          content: "";
+          background: url(../images/icon-eye.png) no-repeat center;
+          background-size: contain;
+          display: inline-block;
+          width: 18px;
+          height: 18px;
+          vertical-align: sub;
+        }
+        .box-Knowledge .item.item-left-sticky .-view::before {
+          mix-blend-mode: color-dodge;
+        }
+
+      .box-Knowledge .item .-type {
+        font-size: 0.75em;
+        color: #669525;
+        border: 1px solid #669525;
+        padding: 1px 9px;
+        border-radius: 50px;
+        margin-bottom: 12px;
+        display: inline-block;
+      }
+      .box-Knowledge .item.item-left-sticky .-type {
+        color: #fff;
+        border: 1px solid #ffffff;
+      }
+        .box-Knowledge .item .-type img {
+          aspect-ratio: auto;
+          mix-blend-mode: hard-light;
+        }
+      
+      .box-Knowledge .item h5 {
+        
+      }
+      .box-Knowledge .item .-profile {
+        font-size: 0.8125em;
+      }
+        .box-Knowledge .item .-profile img {
+          aspect-ratio: 1;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+        }
 
 .box-News {
   background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
