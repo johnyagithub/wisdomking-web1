@@ -615,7 +615,7 @@
 						</div>
 						<div class="text">
 							<div class="-pro">
-								<img src="../../public/images/img-pro.jpg" alt="">
+								<img src="../../public/images/img-pro2.jpg" alt="">
 								<div>
 									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
 									<span>นายเกษม จ่าพันดุง</span>
@@ -632,7 +632,7 @@
 						</div>
 						<div class="text">
 							<div class="-pro">
-								<img src="../../public/images/img-pro.jpg" alt="">
+								<img src="../../public/images/img-pro2.jpg" alt="">
 								<div>
 									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
 									<span>นายเกษม จ่าพันดุง</span>
@@ -649,7 +649,7 @@
 						</div>
 						<div class="text">
 							<div class="-pro">
-								<img src="../../public/images/img-pro.jpg" alt="">
+								<img src="../../public/images/img-pro2.jpg" alt="">
 								<div>
 									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
 									<span>นายเกษม จ่าพันดุง</span>
@@ -666,7 +666,7 @@
 						</div>
 						<div class="text">
 							<div class="-pro">
-								<img src="../../public/images/img-pro.jpg" alt="">
+								<img src="../../public/images/img-pro2.jpg" alt="">
 								<div>
 									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
 									<span>นายเกษม จ่าพันดุง</span>
