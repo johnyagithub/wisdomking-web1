@@ -186,6 +186,71 @@
             }
 
 .box-Learning {
+  border-top: 1px solid #E7E7E7;
+  background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);
+}
+  .box-Learning .img {
+    border-radius: var(--border_radius);
+  }
+    .box-Learning .img .btn-play-video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      z-index: 1;
+      background-color: rgb(0 0 0 / 20%);
+    }
+      .box-Learning .img .btn-play-video button {
+        background: transparent url(../../public/images/icon-Play.png) center no-repeat;
+        background-size: contain;
+        width: 70px;
+        aspect-ratio: 1;
+        cursor: pointer;
+      }
+  
+  .box-Learning .text {
+    text-align: right;
+    padding: 17px 0px;
+  }
+
+  .box-Learning .arrow-default {
+    display: flex;
+    min-height: 175px;
+    align-items: start;
+    margin-top: 23px;
+  }
+    .box-Learning .arrow-default .o-prev ,
+    .box-Learning .arrow-default .o-next {
+      background: url(../images/icon-prev.png) no-repeat center;
+      background-size: contain;
+      margin: 0px 5px;
+      width: 40px;
+      aspect-ratio: 1;
+    }
+    .box-Learning .arrow-default .o-next {
+      background-image: url(../images/icon-next.png);
+    }
+
+  .box-Learning .owl-nav {
+    
+  }
+    .box-Learning .owl-nav button {
+      background: url(../images/icon-prev.png) no-repeat center;
+      background-size: contain;
+      width: 42px;
+    }
+      .box-Learning .owl-nav button.disabled {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+      .box-Learning .owl-nav button.owl-next {
+        background-image: url(../images/icon-next.png);
+      }
+
+.box-Calendar {
   background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
 }
 
@@ -725,6 +790,13 @@
   }
   .box-Agricultural-slide .owl-carousel {
     justify-content: center;
+  }
+  .box-Learning .arrow-default {
+    display: none;
+  }
+  .text-center.text-sm-left .head::after {
+    left: 50%;
+    transform: translateX(-50%);
   }
  } 
  /* แนวนอน */

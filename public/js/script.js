@@ -47,6 +47,7 @@ $(function () {
   sliderOurmuseum();
   sliderNews();
   sliderAgricultural();
+  sliderLearning();
 
   if (localStorage.getItem("cookie") != "allow") {
     setTimeout(function () {
@@ -188,7 +189,7 @@ let sliderMarket = () => {
       },
     },
   }).on('changed.owl.carousel', function (e) {
-    $(".box-Market .owl-carousel .owl-item:nth-child("+(e.item.index+1)+") .item").click();
+    $(".box-Market .owl-carousel .owl-item:nth-child(" + (e.item.index + 1) + ") .item").click();
   });
   $(".box-Market .owl-carousel .item").click(function () {
     $(".box-Market .owl-carousel .item").removeClass('active');
@@ -271,6 +272,30 @@ let sliderNews = () => {
         items: 3,
       },
     },
+  });
+};
+
+let sliderLearning = () => {
+  $(".box-Learning .owl-carousel").owlCarousel({
+    margin: 20,
+    nav: true,
+    dots: false,
+    lazyLoad: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      769: {
+        items: 2,
+      }
+    },
+  });
+  $('.box-Learning .o-prev').click(function () {
+    $(this).closest(".box-Learning").find(".owl-prev").click();
+  });
+  $('.box-Learning .o-next').click(function () {
+    $(this).closest(".box-Learning").find(".owl-next").click();
   });
 };
 

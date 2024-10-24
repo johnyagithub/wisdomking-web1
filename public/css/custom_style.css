@@ -868,31 +868,6 @@ body.down header {
 	  background-color: var(--primary);
 		}
 
-.o-prev ,
-.o-next {
- display: inline-block;
- position: absolute;
- top: 50%;
- cursor: pointer;
- z-index: 1;
- padding: 2px 3px;
-}
-.o-prev {
-	left: 1%;
-}	
-.o-next {
- transform: translateY(-50%);
- right: 1%;
-}
-@media only screen and (min-width: 1400px) {
-	.o-prev {
-		left: 4%;
-	}
-	.o-next {
-  right: 4%;
-	}
-}
-
 a[data-fancybox] {
   position: relative;
   display: block;

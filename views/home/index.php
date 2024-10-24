@@ -188,11 +188,72 @@
 			</div>
 		</section>
 
-		<section
-			style="border-top: 1px solid #E7E7E7;height:300px;background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);">
+		<section class="box-Learning py-5">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-5 col-lg-3 d-flex flex-column text-center text-sm-left order-sm-1">
+						<a href="#" class="text-secondary">ทั้งหมด</a>
+						<div class="my-auto py-4">
+							<h3 class="head mb-4">สื่อการเรียนรู้</h3>
+							<h5>ภาพยนตร์แอนิเมชั่น 3 มิติ</h5>
+						</div>
+						<div class="arrow-default">
+							<div class="o-prev"></div>
+							<div class="o-next"></div>
+						</div>
+					</div>
+					<div class="col-sm-7 col-lg-9">
+						<div class="owl-carousel">
+
+							<div class="item">
+								<div class="img">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
+											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
+									</div>
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
+								<div class="text">
+									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 2</b> แผ่นดินของเรา</h5>
+									<p class="text-line2">สนุกสนานไปกับการผจญภัย ที่จะพาย้อนเวลาตามหาความหมายของคำว่า “กษัตริย์ เกษตร”</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
+											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
+									</div>
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
+								<div class="text">
+									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 1</b> เรื่องของพ่อในบ้านของเรา</h5>
+									<p class="text-line2">ร่วมเรียนรู้ไปพร้อมกับ 3 เพื่อนซี้จอมป่วน ที่จะพาชมเรื่องราวของพ่อผู้ทรง
+										งานหนักเพื่อความสุขของลูก ผลผลิตที่พ่อก่อออกผลอย่างไรกับบ้านของเรา</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
+											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
+									</div>
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</div>
+								<div class="text">
+									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 2</b> แผ่นดินของเรา</h5>
+									<p class="text-line2">สนุกสนานไปกับการผจญภัย ที่จะพาย้อนเวลาตามหาความหมายของคำว่า “กษัตริย์ เกษตร”</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
 		</section>
 
-		<section class="box-Learning py-4">
+		<section class="box-Calendar py-4">
 			<div class="container">
 				<div class="d-flex flex-wrap">
 					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
@@ -595,8 +656,8 @@
 							การจัดการผลผลิตและการอนุรักษ์พันธุกรรม โดยการดำเนิน โครงการขยายผลเครือข่าย พกฉ. และโครงการเผยแพร่ขยายผล
 							นวัตกรรมเกษตร เศรษฐกิจพอเพียง ปัจจุบัน มีศูนย์เครือข่าย พกฉ.</p>
 						<br />
-						<a href="#" class="btn-style2 px-3 py-1 mx-1">บุคคล</a>
-						<a href="#" class="btn-style3 px-3 py-1 mx-1">ศูนย์การเรียนรู้</a>
+						<a href="#" class="btn-style2 px-5 py-1 mx-1">บุคคล</a>
+						<a href="#" class="btn-style3 px-5 py-1 mx-1">ศูนย์การเรียนรู้</a>
 					</div>
 					<div class="col-lg-7">
 						<img src="../../public/images/img-map.png" class="--img-map" alt="">
