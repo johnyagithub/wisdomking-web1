@@ -155,6 +155,18 @@ table.table.aiz-table .badge {
   background: linear-gradient(180deg, #2BCB7E 90%, #37A8E2 100%);
   color: #fff;
 }
+.btn-style3 {
+  color: #626262;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 2px 2px 14.8px 0px #00000014;
+  border: 1px solid #E8E8E8;
+  transition: .5s;
+}
+.btn-style3:hover {
+  background-color: #f1f1f1;
+  text-decoration: none;
+}
 	
 img {
  max-width: 100%;
@@ -384,9 +396,15 @@ div#navbarMain li.nav-item:hover a.nav-link {
     color: var(--muted);
     border: 0px;
     padding: 4px 13px;
-    margin: 0px 6px;
+    margin: 4px 6px;
     border-radius: 50rem !important;
     background-color: #fff;
+    box-shadow: 2px 2px 14.8px 0px #00000014;
+    border: 1px solid #E8E8E8;
+    transition: .5s;
+  }
+  .box-navTabs .nav-link:hover {
+    background-color: #f1f1f1;
   }
     .box-navTabs .nav-link.active {
       color: #F7FEEC;

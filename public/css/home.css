@@ -340,12 +340,25 @@
     display: block;
     color: #fff;
     border-radius: var(--border_radius);
+    overflow: hidden;
+    z-index: 5;
   }
     .box-Knowledge .item .img {
       border-radius: var(--border_radius);
     }
+    .box-Knowledge .item.item-left-sticky .img {
+      border-radius: 0px;
+    }
+    .box-Knowledge .img.-video::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:  rgb(0 0 0 / 20%) url(../../public/images/icon-Play.png) center no-repeat;
+      background-size: 70px auto;
+      z-index: 1;
+    }
       .box-Knowledge .item img {
-        aspect-ratio: 123 / 81;
+        aspect-ratio: 135 / 73;
         object-fit: cover;
       }
       .box-Knowledge .owl-item:not([style*="width"]) {
@@ -396,6 +409,8 @@
       }
         .box-Knowledge .item .-type img {
           aspect-ratio: auto;
+        }
+        .box-Knowledge .item.item-left-sticky .-type img {
           mix-blend-mode: hard-light;
         }
       
@@ -404,6 +419,10 @@
       }
       .box-Knowledge .item .-profile {
         font-size: 0.8125em;
+        margin-bottom: 30px;
+      }
+      .box-Knowledge .item.item-left-sticky .-profile {
+        margin-bottom: 0px;
       }
         .box-Knowledge .item .-profile img {
           aspect-ratio: 1;
@@ -490,34 +509,37 @@
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
- /* แนวตั้ง */
- @media only screen and (orientation:portrait){
-  .box-banner .b-text {
-    width: 60%;
+  /* แนวตั้ง */
+  @media only screen and (orientation:portrait){
+    .box-banner .b-text {
+      width: 60%;
+    }
+    .box-banner .box-text {
+      position: relative;
+      padding: 22px !important;
+    }
+    .box-banner .b-text {
+      width: 100% !important;
+    }
+    .box-banner img.img-banner {
+      position: absolute;
+      height: 100%;
+      object-fit: cover;
+      inset: 0;
+    }
+    .box-Knowledge .-sticky {
+      top: 47px;
+    }
   }
-  .box-banner .box-text {
-    position: relative;
-    padding: 22px !important;
-   }
-   .box-banner .b-text {
-    width: 100% !important;
-   }
-   .box-banner img.img-banner {
-    position: absolute;
-    height: 100%;
-    object-fit: cover;
-    inset: 0;
-   }
- }
- /* แนวนอน */
- @media only screen and (orientation:landscape){
-  .box-Market .owl-carousel .item {
-    transform: scale(0.8);
+  /* แนวนอน */
+  @media only screen and (orientation:landscape){
+    .box-Market .owl-carousel .item {
+      transform: scale(0.8);
+    }
+    .box-Market .owl-carousel .item::after {
+      right: -15px;
+    }
   }
-  .box-Market .owl-carousel .item::after {
-    right: -15px;
-  }
- }
 }
 
 /* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
@@ -537,6 +559,9 @@
   }
   .box-Market .item-show .text {
     position: relative;
+  }
+  .box-Knowledge .-sticky {
+    position: inherit;
   }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){

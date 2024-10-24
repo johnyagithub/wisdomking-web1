@@ -56,7 +56,7 @@
 		<section class="box-Ourmuseum py-4">
 			<div class="container">
 				<div class="d-flex flex-wrap">
-					<h3 class="head">พิพิธภัณฑ์ของเรา</h3>
+					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
 					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 						<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
 							type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
@@ -75,7 +75,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="tab-content py-4" id="nav-tabContent">
+				<div class="tab-content py-4">
 					<div class="tab-pane fade show active" id="nav-Indoor" role="tabpanel" aria-labelledby="nav-Indoor-tab">
 						<div class="owl-carousel nav-dots-style">
 
@@ -195,13 +195,12 @@
 		<section class="box-Learning py-4">
 			<div class="container">
 				<div class="d-flex flex-wrap">
-					<h3 class="head">ปฏิทินกิจกรรมการเรียนรู้</h3>
+					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
 					<div class="ml-auto">
-						<a href="#" class="btn-style2 px-3 py-1 mx-2 bg-white">ทั้งหมด</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">ท่องเที่ยวสุขสันต์
-							ที่พิพิธภัณฑ์เกษตรฯ</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">หลักสูตรอบรมเข้มข้น</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted bg-white rounded-pill">อื่นๆ</a>
+						<a href="#" class="btn-style2 px-3 py-1 mx-1">ทั้งหมด</a>
+						<a href="#" class="btn-style3 px-3 py-1 mx-1">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</a>
+						<a href="#" class="btn-style3 px-3 py-1 mx-1">หลักสูตรอบรมเข้มข้น</a>
+						<a href="#" class="btn-style3 px-3 py-1 mx-1">อื่นๆ</a>
 					</div>
 				</div>
 			</div>
@@ -210,7 +209,7 @@
 		<section class="box-Market py-5">
 			<div class="container">
 				<div class="row m-0">
-					<h3 class="head mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
+					<h3 class="head mb-4 mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
 					<p class="mx-auto col-lg px-lg-3" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง จัดขึ้นทุกเสาร์ อาทิตย์
 						สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด แลกเปลี่ยนเรียนรู้
 						ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
@@ -271,7 +270,7 @@
 		<section class="box-Knowledge py-4">
 			<div class="container">
 				<div class="-sticky d-flex flex-wrap">
-					<h3 class="head">องค์ความรู้</h3>
+					<h3 class="head mb-4">องค์ความรู้</h3>
 					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 						<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"
 							role="tab" aria-controls="nav-All" aria-selected="true">
@@ -294,15 +293,15 @@
 						</button>
 					</div>
 				</div>
-				<div class="tab-content py-4" id="nav-tabContent">
+				<div class="tab-content pt-4">
 					<div class="tab-pane fade show active" id="nav-All" role="tabpanel" aria-labelledby="nav-All-tab">
 						<div class="row">
-							<div class="col-lg-5 pr-lg-4">
+							<div class="col-lg-5 pr-lg-4 mb-4">
 
 								<!-- ก้อนแรกซ้ายมือ -->
 								<a href="#" class="item item-left-sticky" style="top: 195px;">
 									<div class="img">
-										<img src="../../public/images/news/img1.jpg" alt="">
+										<img src="../../public/images/Knowledge/img2.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
@@ -313,9 +312,7 @@
 												</span>
 												<span class="-type">การเกษตร</span>
 											</div>
-											<div class="-view">
-												300
-											</div>
+											<div class="-view">300</div>
 										</div>
 										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
 										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
@@ -334,102 +331,170 @@
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
 									<div class="col-lg-6">
-										<a href="#" class="item">
-											<div class="img">
-												<img src="../../public/images/news/img1.jpg" alt="">
+										<a href="#" class="item" style="top: 195px;">
+											<div class="img -video">
+												<img src="../../public/images/Knowledge/img1.jpg" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div class="-date">
-														19 สิงหาคม 2023
+													<div>
+														<span class="-type">
+															<img src="../../public/images/document.png" style="width: 14px;" alt="">
+															บทความ
+														</span>
+														<span class="-type">การเกษตร</span>
 													</div>
-													<div class="-view">
-														300
-													</div>
+													<div class="-view">300</div>
 												</div>
-												<span class="-type">ข่าวผู้บริหาร</span>
-												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
-													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-													ประจำปี 2567 (NST FAIR 2024) </h5>
-												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
-													นางสาวสาวิตรี
-													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
 											</div>
 										</a>
 									</div>
 									<div class="col-lg-6">
-										<a href="#" class="item">
+										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
-												<img src="../../public/images/news/img1.jpg" alt="">
+												<img src="../../public/images/Knowledge/img2.jpg" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div class="-date">
-														19 สิงหาคม 2023
+													<div>
+														<span class="-type">
+															<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+															บรรยายประกอบภาพ
+														</span>
+														<span class="-type">การเกษตร</span>
 													</div>
-													<div class="-view">
-														300
-													</div>
+													<div class="-view">300</div>
 												</div>
-												<span class="-type">ข่าวผู้บริหาร</span>
-												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
-													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-													ประจำปี 2567 (NST FAIR 2024) </h5>
-												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
-													นางสาวสาวิตรี
-													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
 											</div>
 										</a>
 									</div>
 									<div class="col-lg-6">
-										<a href="#" class="item">
+										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
-												<img src="../../public/images/news/img1.jpg" alt="">
+												<img src="../../public/images/Knowledge/img2.jpg" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div class="-date">
-														19 สิงหาคม 2023
+													<div>
+														<span class="-type">
+															<img src="../../public/images/document.png" style="width: 14px;" alt="">
+															บทความ
+														</span>
+														<span class="-type">การเกษตร</span>
 													</div>
-													<div class="-view">
-														300
-													</div>
+													<div class="-view">300</div>
 												</div>
-												<span class="-type">ข่าวผู้บริหาร</span>
-												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
-													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-													ประจำปี 2567 (NST FAIR 2024) </h5>
-												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
-													นางสาวสาวิตรี
-													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
 											</div>
 										</a>
 									</div>
 									<div class="col-lg-6">
-										<a href="#" class="item">
+										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
-												<img src="../../public/images/news/img1.jpg" alt="">
+												<img src="../../public/images/Knowledge/img2.jpg" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div class="-date">
-														19 สิงหาคม 2023
+													<div>
+														<span class="-type">
+															<img src="../../public/images/document.png" style="width: 14px;" alt="">
+															บทความ
+														</span>
+														<span class="-type">การเกษตร</span>
 													</div>
-													<div class="-view">
-														300
-													</div>
+													<div class="-view">300</div>
 												</div>
-												<span class="-type">ข่าวผู้บริหาร</span>
-												<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
-													มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-													ประจำปี 2567 (NST FAIR 2024) </h5>
-												<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-													ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้
-													นางสาวสาวิตรี
-													สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<a href="#" class="item" style="top: 195px;">
+											<div class="img">
+												<img src="../../public/images/Knowledge/img2.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div>
+														<span class="-type">
+															<img src="../../public/images/document.png" style="width: 14px;" alt="">
+															บทความ
+														</span>
+														<span class="-type">การเกษตร</span>
+													</div>
+													<div class="-view">300</div>
+												</div>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="col-lg-6">
+										<a href="#" class="item" style="top: 195px;">
+											<div class="img">
+												<img src="../../public/images/Knowledge/img2.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div>
+														<span class="-type">
+															<img src="../../public/images/document.png" style="width: 14px;" alt="">
+															บทความ
+														</span>
+														<span class="-type">การเกษตร</span>
+													</div>
+													<div class="-view">300</div>
+												</div>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
 											</div>
 										</a>
 									</div>
@@ -440,7 +505,74 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-Articles" role="tabpanel" aria-labelledby="nav-Articles-tab">
-						บทความ
+						<div class="row">
+							<div class="col-lg-5 pr-lg-4 mb-4">
+
+								<!-- ก้อนแรกซ้ายมือ -->
+								<a href="#" class="item item-left-sticky" style="top: 195px;">
+									<div class="img">
+										<img src="../../public/images/Knowledge/img2.jpg" alt="">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div>
+												<span class="-type">
+													<img src="../../public/images/document.png" style="width: 14px;" alt="">
+													บทความ
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">300</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
+
+							</div>
+							<div class="col-lg-7">
+								<div class="row">
+
+									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
+									<div class="col-lg-6">
+										<a href="#" class="item" style="top: 195px;">
+											<div class="img -video">
+												<img src="../../public/images/Knowledge/img1.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div>
+														<span class="-type">
+															<img src="../../public/images/document.png" style="width: 14px;" alt="">
+															บทความ
+														</span>
+														<span class="-type">การเกษตร</span>
+													</div>
+													<div class="-view">300</div>
+												</div>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
+											</div>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-Captions" role="tabpanel" aria-labelledby="nav-Captions-tab">
 						บรรยายประกอบภาพ
@@ -452,14 +584,33 @@
 			</div>
 		</section>
 
-		<section style="border-top: 1px solid #E7E7E7height:300px"></section>
+		<section style="border-top: 1px solid #E7E7E7;height:300px">
+			<div class="container">
+				<div class="row align-items-end">
+					<div class="col-lg-5 pr-lg-4 mb-4">
+						<h2 class="head mb-4">เครือข่ายพิพิธภัณฑ์เกษตรฯ</h2>
+						<p>
+							จัดกระบวนการแลกเปลี่ยนเรียนรู้เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯเพื่อสร้างความร่วมมือในการขับเคลื่อนงานในระดับพื้นที่เพื่อเผยแพร่พระเกียรติคุณ
+							และพระอัจฉริยภาพของพระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9 ด้านการเกษตร และสร้างผู้สืบทอด
+							การจัดการผลผลิตและการอนุรักษ์พันธุกรรม โดยการดำเนิน โครงการขยายผลเครือข่าย พกฉ. และโครงการเผยแพร่ขยายผล
+							นวัตกรรมเกษตร เศรษฐกิจพอเพียง ปัจจุบัน มีศูนย์เครือข่าย พกฉ.</p>
+						<br />
+						<a href="#" class="btn-style2 px-3 py-1 mx-1">บุคคล</a>
+						<a href="#" class="btn-style3 px-3 py-1 mx-1">ศูนย์การเรียนรู้</a>
+					</div>
+					<div class="col-lg-7">
+						cfbgcfb
+					</div>
+				</div>
+			</div>
+		</section>
 		<section style="background: linear-gradient(360deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);height:300px">
 		</section>
 
 		<section class="box-News py-4">
 			<div class="container">
 				<div class="d-flex flex-wrap">
-					<h3 class="head">ข่าว & ประชาสัมพันธ์</h3>
+					<h3 class="head mb-4">ข่าว & ประชาสัมพันธ์</h3>
 					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 						<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button" role="tab"
 							aria-controls="nav1" aria-selected="true">
@@ -487,7 +638,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="tab-content py-4" id="nav-tabContent">
+				<div class="tab-content py-4">
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
