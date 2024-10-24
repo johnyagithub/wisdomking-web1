@@ -46,6 +46,7 @@ $(function () {
   sliderMarket();
   sliderOurmuseum();
   sliderNews();
+  sliderAgricultural();
 
   if (localStorage.getItem("cookie") != "allow") {
     setTimeout(function () {
@@ -273,3 +274,19 @@ let sliderNews = () => {
   });
 };
 
+let sliderAgricultural = () => {
+  $(".box-Agricultural-slide .owl-carousel").owlCarousel({
+    margin: 20,
+    nav: true,
+    dots: true,
+    // center:true,
+    // loop:true,
+    lazyLoad: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      }
+    },
+  });
+};

@@ -330,7 +330,7 @@
 								<div class="row">
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
-									<div class="col-lg-6">
+									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img -video">
 												<img src="../../public/images/Knowledge/img1.jpg" alt="">
@@ -358,7 +358,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
 												<img src="../../public/images/Knowledge/img2.jpg" alt="">
@@ -386,7 +386,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
 												<img src="../../public/images/Knowledge/img2.jpg" alt="">
@@ -414,7 +414,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
 												<img src="../../public/images/Knowledge/img2.jpg" alt="">
@@ -442,7 +442,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
 												<img src="../../public/images/Knowledge/img2.jpg" alt="">
@@ -470,7 +470,7 @@
 											</div>
 										</a>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
 												<img src="../../public/images/Knowledge/img2.jpg" alt="">
@@ -584,10 +584,10 @@
 			</div>
 		</section>
 
-		<section style="border-top: 1px solid #E7E7E7;height:300px">
+		<section class="box-Agricultural pb-5">
 			<div class="container">
 				<div class="row align-items-end">
-					<div class="col-lg-5 pr-lg-4 mb-4">
+					<div class="col-lg-5 py-4">
 						<h2 class="head mb-4">เครือข่ายพิพิธภัณฑ์เกษตรฯ</h2>
 						<p>
 							จัดกระบวนการแลกเปลี่ยนเรียนรู้เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯเพื่อสร้างความร่วมมือในการขับเคลื่อนงานในระดับพื้นที่เพื่อเผยแพร่พระเกียรติคุณ
@@ -599,12 +599,87 @@
 						<a href="#" class="btn-style3 px-3 py-1 mx-1">ศูนย์การเรียนรู้</a>
 					</div>
 					<div class="col-lg-7">
-						cfbgcfb
+						<img src="../../public/images/img-map.png" class="--img-map" alt="">
 					</div>
 				</div>
 			</div>
 		</section>
-		<section style="background: linear-gradient(360deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);height:300px">
+
+		<section class="box-Agricultural-slide">
+			<div class="container">
+				<div class="owl-carousel nav-dots-style show-dots">
+
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/news/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="-pro">
+								<img src="../../public/images/img-pro.jpg" alt="">
+								<div>
+									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
+									<span>นายเกษม จ่าพันดุง</span>
+								</div>
+							</div>
+							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
+								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/news/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="-pro">
+								<img src="../../public/images/img-pro.jpg" alt="">
+								<div>
+									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
+									<span>นายเกษม จ่าพันดุง</span>
+								</div>
+							</div>
+							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
+								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/news/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="-pro">
+								<img src="../../public/images/img-pro.jpg" alt="">
+								<div>
+									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
+									<span>นายเกษม จ่าพันดุง</span>
+								</div>
+							</div>
+							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
+								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/news/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="-pro">
+								<img src="../../public/images/img-pro.jpg" alt="">
+								<div>
+									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
+									<span>นายเกษม จ่าพันดุง</span>
+								</div>
+							</div>
+							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
+								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
 		</section>
 
 		<section class="box-News py-4">

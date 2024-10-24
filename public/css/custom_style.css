@@ -1334,6 +1334,9 @@ footer {
   .box-portfolio-shop .card {
    width: calc(100% /3);
   }
+  .nav-dots-style {
+    justify-content: center;
+  }
  } 
  /* แนวนอน */
  @media only screen and (orientation:landscape){

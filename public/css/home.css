@@ -431,6 +431,69 @@
           height: 30px;
         }
 
+.box-Agricultural {
+  border-top: 1px solid #E7E7E7;
+}
+  .box-Agricultural .--img-map{
+    margin-top: -4%;
+    margin-left: -20%;
+    margin-bottom: -28%;
+    width: 120%;
+    max-width: none;
+  }
+
+.box-Agricultural-slide {
+  background: linear-gradient(360deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
+}
+  .box-Agricultural-slide .owl-carousel {
+    justify-content: left;
+  }
+    .box-Agricultural-slide .item {
+
+    }
+      .box-Agricultural-slide .item .img {
+        width: 53%;
+      }
+      .box-Agricultural-slide .item .text {
+        background: #239AAACF;
+        color: #fff;
+        border: 1px solid #DAF6F0AD;
+        backdrop-filter: blur(4px);
+        border-radius: var(--border_radius);
+        padding: 3%;
+        width: 54%;
+        position: absolute;
+        right: 0px;
+        bottom: -14%;
+      }
+        .box-Agricultural-slide .item .text .-pro {
+          display: grid;
+          grid-template-columns: 110px auto;
+          gap: 13px;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+          .box-Agricultural-slide .item .text .-pro img {
+            aspect-ratio: 1;
+            display: block;
+            width: 110px;
+            border-radius: 50%;
+          }
+
+    .box-Agricultural-slide .owl-stage-outer {
+      padding-bottom: 6%;
+      margin-bottom: 0px;
+    }
+      .box-Agricultural-slide .nav-dots-style {
+        display: flex !important;
+        flex-flow: wrap;
+      }
+
+    .box-Agricultural-slide .nav-dots-style .owl-nav ,
+    .box-Agricultural-slide .nav-dots-style .owl-dots {
+      transform: translateY(-100%);
+    }
+
 .box-News {
   background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
 }
@@ -530,6 +593,46 @@
     .box-Knowledge .-sticky {
       top: 47px;
     }
+    .box-Agricultural-slide .item .text {
+      position: initial;
+      width: 100%;
+      padding: 18px;
+    }
+    .box-Agricultural-slide .item {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+    .box-Agricultural-slide .item .img {
+      width: 100%;
+    }
+    .box-Agricultural-slide .item .text .-pro img {
+      width: 70px;
+    }
+    .box-Agricultural-slide .item .text .-pro {
+      grid-template-columns: 70px auto;
+      margin-bottom: 8px;
+    }
+    .box-Agricultural-slide .item .text .-pro h4 {
+      -webkit-line-clamp: 1;
+      margin: 0px;
+      font-size: 1.2em;
+    }
+    .box-Agricultural-slide .item .text p {
+      margin-bottom: 0px;
+    }
+    .box-Agricultural-slide .nav-dots-style {
+      justify-content: end;
+    }
+    .box-Agricultural-slide .nav-dots-style .owl-nav ,
+    .box-Agricultural-slide .nav-dots-style .owl-dots {
+      transform: none;
+    }
+    .box-Agricultural .--img-map {
+      margin-bottom: -10%;
+    }
+    .box-Agricultural-slide .owl-stage-outer {
+      padding-bottom: 10px;
+    }
   }
   /* แนวนอน */
   @media only screen and (orientation:landscape){
@@ -563,6 +666,43 @@
   .box-Knowledge .-sticky {
     position: inherit;
   }
+  .box-Agricultural-slide .item .text {
+    position: initial;
+    width: 100%;
+    padding: 15px;
+    font-size: 0.8em;
+  }
+  .box-Agricultural-slide .item {
+    display: grid;
+  }
+  .box-Agricultural-slide .item .img {
+    width: 100%;
+  }
+  .box-Agricultural-slide .item .text .-pro img {
+    width: 50px;
+  }
+  .box-Agricultural-slide .item .text .-pro {
+    grid-template-columns: 50px auto;
+    margin-bottom: 8px;
+  }
+  .box-Agricultural-slide .item .text .-pro h4 {
+    -webkit-line-clamp: 1;
+    margin: 0px;
+    font-size: 1.2em;
+  }
+  .box-Agricultural-slide .item .text p {
+    margin-bottom: 0px;
+  }
+  .box-Agricultural-slide .nav-dots-style .owl-nav ,
+  .box-Agricultural-slide .nav-dots-style .owl-dots {
+    transform: none;
+  }
+  .box-Agricultural .--img-map {
+    margin-bottom: -10%;
+  }
+  .box-Agricultural-slide .owl-stage-outer {
+    padding-bottom: 10px;
+  }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
   .box-banner .b-text {
@@ -577,6 +717,9 @@
   .box-Market .owl-carousel .item::after {
     height: 21px;
   }
+  .box-Agricultural-slide .owl-carousel {
+    justify-content: center;
+  }
  } 
  /* แนวนอน */
  @media only screen and (orientation:landscape){
@@ -585,6 +728,12 @@
   }
   .box-Market .owl-carousel .item::after {
     right: -26px;
+  }
+  .box-Agricultural-slide .item {
+    grid-template-columns: 50% 50%;
+  }
+  .box-Agricultural-slide .nav-dots-style {
+    justify-content: end;
   }
  }
 }
