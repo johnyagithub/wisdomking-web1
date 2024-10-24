@@ -453,7 +453,13 @@
     }
       .box-Agricultural-slide .item .img {
         width: 53%;
+        border-radius: var(--border_radius);
       }
+        .box-Agricultural-slide .item .img img {
+          aspect-ratio: 109 / 68;
+          object-fit: cover;
+        }
+
       .box-Agricultural-slide .item .text {
         background: #239AAACF;
         color: #fff;

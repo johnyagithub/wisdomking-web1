@@ -611,7 +611,7 @@
 
 					<div class="item">
 						<div class="img">
-							<img src="../../public/images/news/img1.jpg" alt="">
+							<img src="../../public/images/img3.jpg" alt="">
 						</div>
 						<div class="text">
 							<div class="-pro">
@@ -628,7 +628,7 @@
 					</div>
 					<div class="item">
 						<div class="img">
-							<img src="../../public/images/news/img1.jpg" alt="">
+							<img src="../../public/images/img3.jpg" alt="">
 						</div>
 						<div class="text">
 							<div class="-pro">
@@ -645,7 +645,7 @@
 					</div>
 					<div class="item">
 						<div class="img">
-							<img src="../../public/images/news/img1.jpg" alt="">
+							<img src="../../public/images/img3.jpg" alt="">
 						</div>
 						<div class="text">
 							<div class="-pro">
@@ -662,7 +662,7 @@
 					</div>
 					<div class="item">
 						<div class="img">
-							<img src="../../public/images/news/img1.jpg" alt="">
+							<img src="../../public/images/img3.jpg" alt="">
 						</div>
 						<div class="text">
 							<div class="-pro">
