@@ -227,7 +227,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-6 align-self-center">
+					<div class="col-lg-6 align-self-center px-lg-5">
 						<div class="owl-carousel">
 
 							<div class="item active" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
@@ -268,26 +268,57 @@
 			</div>
 		</section>
 
-		<section class="py-4">
+		<section class="box-Knowledge py-4">
 			<div class="container">
 				<div class="d-flex flex-wrap">
 					<h3 class="head">องค์ความรู้</h3>
-					<div class="ml-auto">
-						<a href="#" class="btn-style2 px-3 py-1 mx-2">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All"
+							type="button" role="tab" aria-controls="nav-All" aria-selected="true">
 							ทั้งหมด
-						</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted">
-							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+						</button>
+						<button class="nav-link" id="nav-Articles-tab" data-toggle="tab" data-target="#nav-Articles" type="button"
+							role="tab" aria-controls="nav-Articles" aria-selected="true">
+							<img src="../../public/images/document.png" style="width: 24px;" alt="">
 							บทความ
-						</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted">
-							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+						</button>
+						<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
+							role="tab" aria-controls="nav-Captions" aria-selected="false">
+							<img src="../../public/images/photos.png" style="width: 24px;" alt="">
 							บรรยายประกอบภาพ
-						</a>
-						<a href="#" class="px-3 py-1 mx-2 text-muted">
-							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+						</button>
+						<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
+							role="tab" aria-controls="nav-Captions" aria-selected="false">
+							<img src="../../public/images/play_circled.png" style="width: 24px;" alt="">
 							บรรยายประกอบภาพ
-						</a>
+						</button>
+					</div>
+				</div>
+				<div class="tab-content py-4" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-All" role="tabpanel" aria-labelledby="nav-All-tab">
+						<div class="owl-carousel nav-dots-style">
+
+							<a href="#" class="item">
+								<div class="img">
+									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								</div>
+								<div class="text">
+									<h6 class="m-0">ชั้นที่ 1</h6>
+									<h4>พระราชพิธีในวิถีเกษตร</h4>
+									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								</div>
+							</a>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-Articles" role="tabpanel" aria-labelledby="nav-Articles-tab">
+						บทความ
+					</div>
+					<div class="tab-pane fade" id="nav-Captions" role="tabpanel" aria-labelledby="nav-Captions-tab">
+						บรรยายประกอบภาพ
+					</div>
+					<div class="tab-pane fade" id="nav-Captions" role="tabpanel" aria-labelledby="nav-Captions-tab">
+						บรรยายประกอบภาพ
 					</div>
 				</div>
 			</div>
