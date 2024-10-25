@@ -310,6 +310,31 @@
       display: flex;
       flex-direction: column;
     }
+      .box-Calendar #data-Calendar .item .text .-event {
+        font-size: 20px;
+        width: 64px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        padding-bottom: 10px;
+        line-height: 6px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .box-Calendar #data-Calendar .item .text .-event.ac {
+        color: #669525;
+        background: #fff;
+      }
+        .box-Calendar #data-Calendar .item .text .-event h4 {
+          margin-bottom: 0px;
+        }
+        .box-Calendar #data-Calendar .item .text .-event.ac h4 {
+          font-size: 31px;
+        }
+      
       .box-Calendar #data-Calendar .item .-date {
         position: relative;
       }
@@ -889,6 +914,10 @@
     .box-Market .owl-carousel .item {
       transform: scale(0.8);
     }
+    #data-Calendar {
+      max-width: 690px;
+      margin: auto;
+    }
   }
 }
 
@@ -1047,6 +1076,9 @@
   }
   #slide-Day .owl-item.active+.owl-item.active+.owl-item.active+.owl-item.active .item::after {
     display: none;
+  }
+  .box-Calendar #data-Calendar .item {
+    aspect-ratio: 630 / 515;
   }
  }
 }

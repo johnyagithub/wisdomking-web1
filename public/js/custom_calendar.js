@@ -24,27 +24,30 @@ let getItem = (D, M) => {
     var Img = $(this).data('img');
     var Date = $(this).data('date');
     var View = $(this).data('view');
-    var Type = $(this).data('type');
-    var Type1 = '';
-    $.each(Type.split(","), function (key, value) {
-      Type1 = Type1 + '<span class=\"-type\">' + value + '</span>';
+    var Type = '';
+    $.each($(this).data('type').split(","), function (key, value) {
+      Type = Type + '<span class=\"-type\">' + value + '</span>';
     });
     var IDtype = $(this).data('idtype');
     var Name = $(this).data('name');
     var Detail = $(this).data('detail');
     var link = $(this).data('link');
 
-    var Html = `<div class=\"col-lg-6\" data-type=\"` + IDtype + `\">
+    var Html = `<div class=\"col-xl-6\" data-type=\"` + IDtype + `\">
 						<div class=\"item\">
 							<div class=\"img\">
 								<img src=\"`+ Img + `\" alt=\"\">
 							</div>
 							<div class=\"text\">
+								<div class=\"d-flex align-items-center flex-wrap\">
+                  <div class=\"-event ac\"><h4>` + D + `</h4>` + getShortMonth(M) + `</div>
+                  <div class=\"-event\"><h4>` + Date.split(" ")[0] + `</h4>` + getShortMonth(Date.split(" ")[1]) + `</div>
+                </div>
 								<div class=\"d-flex justify-content-between align-items-center flex-wrap\">
 									<div class=\"-date\">`+ Date + `</div>
 									<div class=\"-view\">`+ View + `</div>
 								</div>
-								<div class=\"my-3\">`+ Type1 + `</div>
+								<div class=\"my-3\">`+ Type + `</div>
 								<h5 class=\"text-line2\">`+ Name + `</h5>
 								<p class=\"text-line4\">`+ Detail + `</p>
 								<a class=\"btn btn-light px-4 btn-sm rounded-pill\" href=\"`+ link + `\">ข้อมูลเพิ่มเติม</a>
@@ -114,14 +117,13 @@ let mySelectMonth = (e) => {
   Value.each(function (i) {
     var Day = $(this).data('day');
     var Date = $(this).data('date');
-    var Month = $(this).data('month');
     var Active = '';
 
     if (!e && i == 0 || $(this).attr('class') === 'item active') {
       Active = 'active';
       getItem(Date, selectMonth);
     }
-    Html = Html + '<div class=\"item ' + Active + '\"><span>' + Day + '</span><div><h4 data-m=\"' + selectMonth + '\">' + Date + '</h4>' + Month + '</div></div>';
+    Html = Html + '<div class=\"item ' + Active + '\"><span>' + Day + '</span><div><h4 data-m=\"' + selectMonth + '\">' + Date + '</h4>' + getShortMonth(selectMonth) + '</div></div>';
   });
   $('#slide-Day').html('').append('<div class=\"owl-carousel\">' + Html + '</div>');
   sliderDay();
@@ -147,3 +149,21 @@ let sliderDay = () => {
     },
   });
 };
+
+let getShortMonth = (month) => {
+  switch (month) {
+    case 'มกราคม': return 'ม.ค.';
+    case 'กุมภาพันธ์': return 'ก.พ.';
+    case 'มีนาคม': return 'มี.ค.';
+    case 'เมษายน': return 'เม.ย.';
+    case 'พฤษภาคม': return 'พ.ค.';
+    case 'มิถุนายน': return 'มิ.ย.';
+    case 'กรกฎาคม': return 'ก.ค.';
+    case 'สิงหาคม': return 'ส.ค.';
+    case 'กันยายน': return 'ก.ย.';
+    case 'ตุลาคม': return 'ต.ค.';
+    case 'พฤศจิกายน': return 'พ.ย.';
+    case 'ธันวาคม': return 'ธ.ค.';
+    default: return month;
+  }
+}
