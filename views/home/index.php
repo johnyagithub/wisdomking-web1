@@ -213,7 +213,7 @@
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
 											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
-									<img src="../../public/images/news/img1.jpg" alt="">
+									<img src="../../public/images/calendar/img1.jpg" alt="">
 								</div>
 								<div class="text">
 									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 2</b> แผ่นดินของเรา</h5>
@@ -226,7 +226,7 @@
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
 											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
-									<img src="../../public/images/news/img1.jpg" alt="">
+									<img src="../../public/images/calendar/img2.jpg" alt="">
 								</div>
 								<div class="text">
 									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 1</b> เรื่องของพ่อในบ้านของเรา</h5>
@@ -240,7 +240,7 @@
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
 											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
-									<img src="../../public/images/news/img1.jpg" alt="">
+									<img src="../../public/images/calendar/img1.jpg" alt="">
 								</div>
 								<div class="text">
 									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 2</b> แผ่นดินของเรา</h5>
@@ -259,11 +259,61 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
-					<div class="ml-auto d-flex flex-wrap">
-						<a href="#" class="btn-style2 px-3 py-1 m-1 d-block">ทั้งหมด</a>
-						<a href="#" class="btn-style3 px-3 py-1 m-1 d-block">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</a>
-						<a href="#" class="btn-style3 px-3 py-1 m-1 d-block">หลักสูตรอบรมเข้มข้น</a>
-						<a href="#" class="btn-style3 px-3 py-1 m-1 d-block">อื่นๆ</a>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+							<button class="nav-link active" id="nav-Calendar-tab" data-toggle="tab" data-target="#nav-Calendar"
+								type="button" role="tab" aria-controls="nav-Calendar" aria-selected="true">
+								ทั้งหมด
+							</button>
+							<button class="nav-link" id="nav-Calendar1-tab" data-toggle="tab" data-target="#nav-Calendar1"
+								type="button" role="tab" aria-controls="nav-Calendar1" aria-selected="true">
+								ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ
+							</button>
+							<button class="nav-link" id="nav-Calendar2-tab" data-toggle="tab" data-target="#nav-Calendar2"
+								type="button" role="tab" aria-controls="nav-Calendar2" aria-selected="false">
+								หลักสูตรอบรมเข้มข้น
+							</button>
+							<button class="nav-link" id="nav-Calendar3-tab" data-toggle="tab" data-target="#nav-Calendar3"
+								type="button" role="tab" aria-controls="nav-Calendar3" aria-selected="false">
+								อื่นๆ
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-content pt-4">
+					<div class="tab-pane fade show active" id="nav-Calendar" role="tabpanel" aria-labelledby="nav-Calendar-tab">
+						<div class="row">
+
+							<div class="col-md-6">
+								<div class="item">
+									<div class="img">
+										<img src="../../public/images/Knowledge/img1.jpg" alt="">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between align-items-center flex-wrap">
+											<div class="-date">08 กรกฎาคมคม 2023</div>
+											<div class="-view">250</div>
+										</div>
+										<div class="my-3">
+											<span class="-type">หลักสูตรอบรมเข้มข้น</span>
+										</div>
+										<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
+										<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
+										<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-Calendar1" role="tabpanel" aria-labelledby="nav-Calendar1-tab">
+						ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ
+					</div>
+					<div class="tab-pane fade" id="nav-Calendar2" role="tabpanel" aria-labelledby="nav-Calendar2-tab">
+						หลักสูตรอบรมเข้มข้น
+					</div>
+					<div class="tab-pane fade" id="nav-Calendar3" role="tabpanel" aria-labelledby="nav-Calendar3-tab">
+						อื่นๆ
 					</div>
 				</div>
 			</div>
@@ -273,7 +323,9 @@
 			<div class="container">
 				<div class="row m-0">
 					<h3 class="head mb-4 mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
-					<p class="mx-auto col-lg px-lg-3 text-black-50" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง จัดขึ้นทุกเสาร์ อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด แลกเปลี่ยนเรียนรู้ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
+					<p class="mx-auto col-lg px-lg-3 text-black-50" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง จัดขึ้นทุกเสาร์
+						อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด
+						แลกเปลี่ยนเรียนรู้ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
 				</div>
 				<div class="row mt-3">
 					<div class="col-lg-6" id="Market-show">
