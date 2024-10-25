@@ -10,12 +10,16 @@ $(function () {
 
     var M = $(this).find('h4').data('m');
     var D = $(this).find('h4').text();
-    console.log(D + ' ' + M);
     $('#dataCalendar .item').removeClass('active');
     $('#dataCalendar [data-item="' + M + '"] .item[data-date="' + D + '"]').addClass('active');
+
+    getItem(D, M);
   });
 
 });
+let getItem = (D, M) => {
+  console.log(D + ' ' + M);
+};
 
 let buttonTabCustom = () => {
   $("[data-showId] button").click(function () {
