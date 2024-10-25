@@ -2,6 +2,7 @@ $(function () {
 
   buttonTabCustom();
   slideList();
+  mySelectMonth();
 
 });
 
@@ -46,12 +47,29 @@ let sliderMonth = () => {
       }
     },
   }).on('changed.owl.carousel', function (e) {
-    var selectMonth = $("#slide-Month .owl-item:nth-child(" + (e.item.index + 1) + ") .item").text();
-    var Value = $('#dataCalendar>[data-item=\"' + selectMonth + '\"]').html();
-    $('#slide-Day').html('').append('<div class=\"owl-carousel\">' + Value + '</div>');
-    sliderDay();
+    mySelectMonth(e);
   });
 };
+
+let mySelectMonth = (e) => {
+  var Index = 1;
+  if (e) {
+    var Index = e.item.index + 1;
+  }
+  var selectMonth = $("#slide-Month .owl-item:nth-child(" + Index + ") .item").text();
+  var Value = $('#dataCalendar>[data-item=\"' + selectMonth + '\"] .item');
+  var Html = '';
+
+  Value.each(function () {
+    var Day = $(this).data('day');
+    var Date = $(this).data('date');
+    var Month = $(this).data('month');
+    Html = Html + '<div class=\"item\"><span>' + Day + '</span><div><h4>' + Date + '</h4>' + Month + '</div></div>';
+  });
+  $('#slide-Day').html('').append('<div class=\"owl-carousel\">' + Html + '</div>');
+  sliderDay();
+}
+
 let sliderDay = () => {
   $("#slide-Day .owl-carousel").owlCarousel({
     margin: 20,

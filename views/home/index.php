@@ -256,58 +256,6 @@
 		</section>
 
 		<section class="box-Calendar py-4">
-			<div id="dataCalendar" class="d-none">
-				<div data-item="มกราคม">
-					<div class="item">
-						<span>วันจันทร์</span>
-						<div>
-							<h4>08</h4>ก.ค.
-						</div>
-					</div>
-				</div>
-				<div data-item="กุมภาพันธ์"></div>
-				<div data-item="มีนาคม"></div>
-				<div data-item="เมษายน"></div>
-				<div data-item="พฤษภาคม"></div>
-				<div data-item="มิถุนายน"></div>
-				<div data-item="กรกฎาคม">
-					<div class="item">
-						<span>วันจันทร์</span>
-						<div>
-							<h4>08</h4>ก.ค.
-						</div>
-					</div>
-					<div class="item">
-						<span>วันจันทร์</span>
-						<div>
-							<h4>09</h4>ก.ค.
-						</div>
-					</div>
-					<div class="item">
-						<span>วันเสาร์</span>
-						<div>
-							<h4>15</h4>ก.ค.
-						</div>
-					</div>
-					<div class="item">
-						<span>วันอาทิตย์</span>
-						<div>
-							<h4>16</h4>ก.ค.
-						</div>
-					</div>
-					<div class="item">
-						<span>วันเสาร์</span>
-						<div>
-							<h4>22</h4>ก.ค.
-						</div>
-					</div>
-				</div>
-				<div data-item="สิงหาคม"></div>
-				<div data-item="กันยายน"></div>
-				<div data-item="ตุลาคม"></div>
-				<div data-item="พฤศจิกายน"></div>
-				<div data-item="ธันวาคม"></div>
-			</div>
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
@@ -324,10 +272,29 @@
 						<div id="slide-Month" class="owl-carousel"></div>
 					</div>
 					<div class="offset-xl-1 col-md-8">
-						<div id="slide-Day"><div class="owl-carousel"></div></div>
+						<div id="slide-Day">
+							<div class="owl-carousel"></div>
+						</div>
 					</div>
 				</div>
 
+				<div id="dataCalendar" class="d-none">
+					<div data-item="กรกฎาคม">
+						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ก.ค."></div>
+						<div class="item" data-day="วันอังคาร" data-date="09" data-month="ก.ค."></div>
+						<div class="item" data-day="วันจันทร์" data-date="15" data-month="ก.ค."></div>
+						<div class="item" data-day="วันอังคาร" data-date="16" data-month="ก.ค."></div>
+						<div class="item" data-day="วันเสาร์" data-date="20" data-month="ก.ค."></div>
+						<div class="item" data-day="วันอาทิตย์" data-date="21" data-month="ก.ค."></div>
+					</div>
+					<div data-item="กันยายน">
+						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ก.ย."></div>
+					</div>
+					<div data-item="ธันวาคม">
+						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ธ.ค."></div>
+						<div class="item" data-day="วันอาทิตย์" data-date="20" data-month="ธ.ค."></div>
+					</div>
+				</div>
 				<div class="row" id="data-Calendar">
 
 					<div class="col-lg-6" data-type="tab1">
