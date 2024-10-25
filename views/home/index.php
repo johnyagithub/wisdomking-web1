@@ -292,18 +292,58 @@
 								data-detail="เปิดอบรมเข้มข้น สายเรียนรู้ สร้างอาชีพ ต้องมา ทุกเสาร์อาทิตย์ที่ 3 และ 4 ของเดือน"
 								data-link="#"></div>
 						</div>
-						<div class="item" data-day="วันอังคาร" data-date="09" data-month="ก.ค."></div>
-						<div class="item" data-day="วันจันทร์" data-date="15" data-month="ก.ค."></div>
-						<div class="item" data-day="วันอังคาร" data-date="16" data-month="ก.ค."></div>
-						<div class="item" data-day="วันเสาร์" data-date="20" data-month="ก.ค."></div>
-						<div class="item" data-day="วันอาทิตย์" data-date="21" data-month="ก.ค."></div>
+						<div class="item" data-day="วันอังคาร" data-date="09" data-month="ก.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="09 กรกฎาคมคม 2023"
+								data-view="250" data-type="หลักสูตรอบรมเข้มข้น,อื่นๆ" data-idtype="tab2 tab3"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
+						<div class="item" data-day="วันจันทร์" data-date="15" data-month="ก.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="15 กรกฎาคมคม 2023"
+								data-view="250" data-type="อื่นๆ" data-idtype="tab3"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
+						<div class="item" data-day="วันอังคาร" data-date="16" data-month="ก.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="16 กรกฎาคมคม 2023"
+								data-view="250" data-type="อื่นๆ" data-idtype="tab3"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
+						<div class="item" data-day="วันเสาร์" data-date="20" data-month="ก.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="20 กรกฎาคมคม 2023"
+								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
+						<div class="item" data-day="วันอาทิตย์" data-date="21" data-month="ก.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="21 กรกฎาคมคม 2023"
+								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
 					</div>
 					<div data-item="กันยายน">
-						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ก.ย."></div>
+						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ก.ย.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="08 กันยายน 2023"
+								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
 					</div>
 					<div data-item="ธันวาคม">
-						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ธ.ค."></div>
-						<div class="item" data-day="วันอาทิตย์" data-date="20" data-month="ธ.ค."></div>
+						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ธ.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="08 ธันวาคม 2023"
+								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
+						<div class="item" data-day="วันอาทิตย์" data-date="20" data-month="ธ.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="20 ธันวาคม 2023"
+								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+						</div>
 					</div>
 				</div>
 

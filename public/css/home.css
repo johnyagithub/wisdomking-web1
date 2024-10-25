@@ -348,6 +348,7 @@
         border-radius: 50px;
         margin-bottom: 2px;
         display: inline-block;
+        margin-right: 5px;
       }
       .box-Calendar #data-Calendar .item a.btn {
         margin-top: auto;
@@ -362,21 +363,8 @@
 #slide-Day {
 
 }
-  #slide-Day .owl-stage-outer::before ,
-  #slide-Day .owl-stage-outer::after {
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 100%;
-    background-color: #efefef;
-    right: -3px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-  }
-  #slide-Day .owl-stage-outer::before {
-    left: -3px;
-    right: auto;
+  #slide-Day .owl-stage {
+    margin-left: auto;
   }
     #slide-Day .item {
       text-align: center;
@@ -414,11 +402,15 @@
     #slide-Day .item::after {
       content: "";
       position: absolute;
-      right: -1px;
+      right: 0px;
       height: 44px;
       border-left: 1px solid #999F9E;
       top: 50%;
       transform: translateY(-50%);
+    }
+    #slide-Day .owl-item:last-child .item::after ,
+    #slide-Day .owl-item.active+.owl-item.active+.owl-item.active+.owl-item.active+.owl-item.active .item::after {
+      display: none;
     }
 
 .box-Market {
@@ -888,6 +880,9 @@
       width: 100%;
       margin-left: 0px;
     }
+    #slide-Day .owl-item.active+.owl-item.active+.owl-item.active+.owl-item.active .item::after {
+      display: none;
+    }
   }
   /* แนวนอน */
   @media only screen and (orientation:landscape){
@@ -959,6 +954,16 @@
     width: 100%;
     margin-left: 0px;
   }
+  #slide-Day .item div {
+    font-size: 15px;
+    line-height: 11px;
+  }
+  #slide-Day .item.active h4 {
+    font-size: 25px;
+  }
+  #slide-Day .item h4 {
+    font-size: 19px;
+  }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
   .box-banner .b-text {
@@ -1011,13 +1016,15 @@
     display: block;
     aspect-ratio: auto;
   }
+  #slide-Day .owl-item.active+.owl-item.active+.owl-item.active .item::after {
+    display: none;
+  }
  } 
  /* แนวนอน */
  @media only screen and (orientation:landscape){
   .box-Market .owl-carousel .item {
     transform: scale(0.8);
   }
-  #slide-Day .item::after ,
   .box-Market .owl-carousel .item::after {
     right: -26px;
   }
@@ -1037,6 +1044,9 @@
   }
   .box-Agricultural-slide .item .img img {
     height: 100%;
+  }
+  #slide-Day .owl-item.active+.owl-item.active+.owl-item.active+.owl-item.active .item::after {
+    display: none;
   }
  }
 }

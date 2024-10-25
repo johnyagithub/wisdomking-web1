@@ -25,6 +25,10 @@ let getItem = (D, M) => {
     var Date = $(this).data('date');
     var View = $(this).data('view');
     var Type = $(this).data('type');
+    var Type1 = '';
+    $.each(Type.split(","), function (key, value) {
+      Type1 = Type1 + '<span class=\"-type\">' + value + '</span>';
+    });
     var IDtype = $(this).data('idtype');
     var Name = $(this).data('name');
     var Detail = $(this).data('detail');
@@ -40,9 +44,7 @@ let getItem = (D, M) => {
 									<div class=\"-date\">`+ Date + `</div>
 									<div class=\"-view\">`+ View + `</div>
 								</div>
-								<div class=\"my-3\">
-									<span class=\"-type\">`+ Type + `</span>
-								</div>
+								<div class=\"my-3\">`+ Type1 + `</div>
 								<h5 class=\"text-line2\">`+ Name + `</h5>
 								<p class=\"text-line4\">`+ Detail + `</p>
 								<a class=\"btn btn-light px-4 btn-sm rounded-pill\" href=\"`+ link + `\">ข้อมูลเพิ่มเติม</a>
@@ -65,8 +67,8 @@ let buttonTabCustom = () => {
     if (Type === 'all') {
       $('#' + thisId).find('[data-type]').show();
     } else {
-      $('#' + thisId).find('[data-type]').siblings().hide();
-      $('#' + thisId).find('[data-type="' + Type + '"]').show();
+      $('#' + thisId).find('[data-type]').hide();
+      $('#' + thisId).find('[data-type*="' + Type + '"]').show();
     }
   });
 };
