@@ -211,7 +211,7 @@
 								<div class="img">
 									<div class="btn-play-video">
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
-											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
+											data-src="https://www.youtube.com/embed/IoPWOZoiJh0?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
 									<img src="../../public/images/learning/img1.jpg" alt="">
 								</div>
@@ -224,7 +224,7 @@
 								<div class="img">
 									<div class="btn-play-video">
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
-											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
+											data-src="https://www.youtube.com/embed/6VStThKU2cU?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
 									<img src="../../public/images/learning/img2.jpg" alt="">
 								</div>
@@ -238,7 +238,7 @@
 								<div class="img">
 									<div class="btn-play-video">
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
-											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
+											data-src="https://www.youtube.com/embed/-D5-CYGapNg?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
 									<img src="../../public/images/learning/img1.jpg" alt="">
 								</div>
@@ -277,10 +277,21 @@
 						</div>
 					</div>
 				</div>
+				<div class="row" id="data-Calendar"></div>
 
 				<div id="dataCalendar" class="d-none">
 					<div data-item="กรกฎาคม">
-						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ก.ค."></div>
+						<div class="item" data-day="วันจันทร์" data-date="08" data-month="ก.ค.">
+							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="08 กรกฎาคมคม 2023"
+								data-view="250" data-type="ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ" data-idtype="tab1"
+								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+							<div class="list" data-img="../../public/images/learning/img1.jpg" data-date="08 กรกฎาคมคม 2023"
+								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
+								data-name="อบรมเข้มข้นแบบมืออาชีพ ประจำ เดือน ก.ค. 66"
+								data-detail="เปิดอบรมเข้มข้น สายเรียนรู้ สร้างอาชีพ ต้องมา ทุกเสาร์อาทิตย์ที่ 3 และ 4 ของเดือน"
+								data-link="#"></div>
+						</div>
 						<div class="item" data-day="วันอังคาร" data-date="09" data-month="ก.ค."></div>
 						<div class="item" data-day="วันจันทร์" data-date="15" data-month="ก.ค."></div>
 						<div class="item" data-day="วันอังคาร" data-date="16" data-month="ก.ค."></div>
@@ -295,49 +306,7 @@
 						<div class="item" data-day="วันอาทิตย์" data-date="20" data-month="ธ.ค."></div>
 					</div>
 				</div>
-				<div class="row" id="data-Calendar">
 
-					<div class="col-lg-6" data-type="tab1">
-						<div class="item">
-							<div class="img">
-								<img src="../../public/images/calendar/img1.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between align-items-center flex-wrap">
-									<div class="-date">08 กรกฎาคมคม 2023</div>
-									<div class="-view">250</div>
-								</div>
-								<div class="my-3">
-									<span class="-type">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</span>
-								</div>
-								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
-								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6" data-type="tab2">
-						<div class="item">
-							<div class="img">
-								<img src="../../public/images/learning/img1.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between align-items-center flex-wrap">
-									<div class="-date">08 กรกฎาคมคม 2023</div>
-									<div class="-view">250</div>
-								</div>
-								<div class="my-3">
-									<span class="-type">หลักสูตรอบรมเข้มข้น</span>
-								</div>
-								<h5 class="text-line2">อบรมเข้มข้นแบบมืออาชีพ ประจำ เดือน ก.ค. 66</h5>
-								<p class="text-line4">เปิดอบรมเข้มข้น สายเรียนรู้ สร้างอาชีพ ต้องมา ทุกเสาร์อาทิตย์ที่ 3 และ 4 ของเดือน
-								</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
 			</div>
 		</section>
 
@@ -345,8 +314,8 @@
 			<div class="container">
 				<div class="row m-0">
 					<h3 class="head mb-4 mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
-					<p class="mx-auto col-lg px-lg-3 text-black-50" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง จัดขึ้นทุกเสาร์
-						อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด
+					<p class="mx-auto mt-4 mt-lg-0 col-lg px-lg-3 text-black-50" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง
+						จัดขึ้นทุกเสาร์ อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด
 						แลกเปลี่ยนเรียนรู้ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
 				</div>
 				<div class="row mt-3">
@@ -1116,7 +1085,7 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
-	<script type="text/javascript" src="../../public/js/index.js"></script>
+	<script type="text/javascript" src="../../public/js/custom_calendar.js"></script>
 </body>
 
 </html>
