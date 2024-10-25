@@ -213,7 +213,7 @@
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
 											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
-									<img src="../../public/images/calendar/img1.jpg" alt="">
+									<img src="../../public/images/learning/img1.jpg" alt="">
 								</div>
 								<div class="text">
 									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 2</b> แผ่นดินของเรา</h5>
@@ -226,7 +226,7 @@
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
 											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
-									<img src="../../public/images/calendar/img2.jpg" alt="">
+									<img src="../../public/images/learning/img2.jpg" alt="">
 								</div>
 								<div class="text">
 									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 1</b> เรื่องของพ่อในบ้านของเรา</h5>
@@ -240,7 +240,7 @@
 										<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
 											data-src="https://www.youtube.com/embed/9L_9_LHe4MY?autoplay=1&amp;loop=1&amp;autopause=0"></button>
 									</div>
-									<img src="../../public/images/calendar/img1.jpg" alt="">
+									<img src="../../public/images/learning/img1.jpg" alt="">
 								</div>
 								<div class="text">
 									<h5 class="text-line1 font-weight-lighter"><b>เรื่องที่ 2</b> แผ่นดินของเรา</h5>
@@ -256,65 +256,120 @@
 		</section>
 
 		<section class="box-Calendar py-4">
-			<div class="container">
-				<div class="d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-							<button class="nav-link active" id="nav-Calendar-tab" data-toggle="tab" data-target="#nav-Calendar"
-								type="button" role="tab" aria-controls="nav-Calendar" aria-selected="true">
-								ทั้งหมด
-							</button>
-							<button class="nav-link" id="nav-Calendar1-tab" data-toggle="tab" data-target="#nav-Calendar1"
-								type="button" role="tab" aria-controls="nav-Calendar1" aria-selected="true">
-								ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ
-							</button>
-							<button class="nav-link" id="nav-Calendar2-tab" data-toggle="tab" data-target="#nav-Calendar2"
-								type="button" role="tab" aria-controls="nav-Calendar2" aria-selected="false">
-								หลักสูตรอบรมเข้มข้น
-							</button>
-							<button class="nav-link" id="nav-Calendar3-tab" data-toggle="tab" data-target="#nav-Calendar3"
-								type="button" role="tab" aria-controls="nav-Calendar3" aria-selected="false">
-								อื่นๆ
-							</button>
+			<div id="dataCalendar" class="d-none">
+				<div data-item="มกราคม">
+					<div class="item">
+						<span>วันจันทร์</span>
+						<div>
+							<h4>08</h4>ก.ค.
 						</div>
 					</div>
 				</div>
-				<div class="tab-content pt-4">
-					<div class="tab-pane fade show active" id="nav-Calendar" role="tabpanel" aria-labelledby="nav-Calendar-tab">
-						<div class="row">
-
-							<div class="col-md-6">
-								<div class="item">
-									<div class="img">
-										<img src="../../public/images/Knowledge/img1.jpg" alt="">
-									</div>
-									<div class="text">
-										<div class="d-flex justify-content-between align-items-center flex-wrap">
-											<div class="-date">08 กรกฎาคมคม 2023</div>
-											<div class="-view">250</div>
-										</div>
-										<div class="my-3">
-											<span class="-type">หลักสูตรอบรมเข้มข้น</span>
-										</div>
-										<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
-										<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-										<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
-									</div>
-								</div>
-							</div>
-
+				<div data-item="กุมภาพันธ์"></div>
+				<div data-item="มีนาคม"></div>
+				<div data-item="เมษายน"></div>
+				<div data-item="พฤษภาคม"></div>
+				<div data-item="มิถุนายน"></div>
+				<div data-item="กรกฎาคม">
+					<div class="item">
+						<span>วันจันทร์</span>
+						<div>
+							<h4>08</h4>ก.ค.
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Calendar1" role="tabpanel" aria-labelledby="nav-Calendar1-tab">
-						ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ
+					<div class="item">
+						<span>วันจันทร์</span>
+						<div>
+							<h4>09</h4>ก.ค.
+						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Calendar2" role="tabpanel" aria-labelledby="nav-Calendar2-tab">
-						หลักสูตรอบรมเข้มข้น
+					<div class="item">
+						<span>วันเสาร์</span>
+						<div>
+							<h4>15</h4>ก.ค.
+						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Calendar3" role="tabpanel" aria-labelledby="nav-Calendar3-tab">
-						อื่นๆ
+					<div class="item">
+						<span>วันอาทิตย์</span>
+						<div>
+							<h4>16</h4>ก.ค.
+						</div>
 					</div>
+					<div class="item">
+						<span>วันเสาร์</span>
+						<div>
+							<h4>22</h4>ก.ค.
+						</div>
+					</div>
+				</div>
+				<div data-item="สิงหาคม"></div>
+				<div data-item="กันยายน"></div>
+				<div data-item="ตุลาคม"></div>
+				<div data-item="พฤศจิกายน"></div>
+				<div data-item="ธันวาคม"></div>
+			</div>
+			<div class="container">
+				<div class="d-flex flex-wrap align-items-start">
+					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
+					<div class="ml-auto d-flex flex-wrap" data-showId="data-Calendar">
+						<button type="button" class="btn-style3 px-3 py-1 m-1 d-block active">ทั้งหมด</button>
+						<button type="button" data-type="tab1" class="btn-style3 px-3 py-1 m-1 d-block">ท่องเที่ยวสุขสันต์
+							ที่พิพิธภัณฑ์เกษตรฯ</button>
+						<button type="button" data-type="tab2" class="btn-style3 px-3 py-1 m-1 d-block">หลักสูตรอบรมเข้มข้น</button>
+						<button type="button" data-type="tab3" class="btn-style3 px-3 py-1 m-1 d-block">อื่นๆ</button>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-md-4 col-xl-3">
+						<div id="slide-Month" class="owl-carousel"></div>
+					</div>
+					<div class="offset-xl-1 col-md-8">
+						<div id="slide-Day"><div class="owl-carousel"></div></div>
+					</div>
+				</div>
+
+				<div class="row" id="data-Calendar">
+
+					<div class="col-lg-6" data-type="tab1">
+						<div class="item">
+							<div class="img">
+								<img src="../../public/images/calendar/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between align-items-center flex-wrap">
+									<div class="-date">08 กรกฎาคมคม 2023</div>
+									<div class="-view">250</div>
+								</div>
+								<div class="my-3">
+									<span class="-type">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</span>
+								</div>
+								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
+								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6" data-type="tab2">
+						<div class="item">
+							<div class="img">
+								<img src="../../public/images/learning/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between align-items-center flex-wrap">
+									<div class="-date">08 กรกฎาคมคม 2023</div>
+									<div class="-view">250</div>
+								</div>
+								<div class="my-3">
+									<span class="-type">หลักสูตรอบรมเข้มข้น</span>
+								</div>
+								<h5 class="text-line2">อบรมเข้มข้นแบบมืออาชีพ ประจำ เดือน ก.ค. 66</h5>
+								<p class="text-line4">เปิดอบรมเข้มข้น สายเรียนรู้ สร้างอาชีพ ต้องมา ทุกเสาร์อาทิตย์ที่ 3 และ 4 ของเดือน
+								</p>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>
@@ -1094,6 +1149,7 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<script type="text/javascript" src="../../public/js/index.js"></script>
 </body>
 
 </html>

@@ -118,7 +118,7 @@ let mySwitch = (Name) => {
 
 let textSize = () => {
   if (localStorage.getItem("textSize") != "") {
-    ThisActive = 'ul.textsizer li[data-li=' + localStorage.getItem("textSizeLi") + ']'
+    ThisActive = 'ul.textsizer li[data-li=' + localStorage.getItem("textSizeLi") + ']';
     $(ThisActive).siblings().removeClass('active');
     $(ThisActive).addClass('active');
     $('html').css('font-size', localStorage.getItem("textSize"));

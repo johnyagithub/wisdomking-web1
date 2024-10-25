@@ -268,32 +268,52 @@
 .box-Calendar {
   background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
 }
-  .box-Calendar .item {
+  .box-Calendar .owl-carousel {
+    padding: 20px 50px;
+  }
+    .box-Calendar .owl-nav {
+      
+    }
+      .box-Calendar .owl-nav button {
+        background: url(../images/icon-prev.png) no-repeat center;
+        background-size: contain;
+        width: 42px;
+      }
+        .box-Calendar .owl-nav button.disabled {
+          opacity: 0.5;
+          pointer-events: none;
+        }
+        .box-Calendar .owl-nav button.owl-next {
+          
+        }
+
+  .box-Calendar #data-Calendar .item {
     border-radius: var(--border_radius);
     overflow: hidden;
     display: grid;
     grid-template-columns: 50% 50%;
     aspect-ratio: 630/415;
+    margin: 15px 0px;
   }
-    .box-Calendar .item .img {
+    .box-Calendar #data-Calendar .item .img {
 
     }
-      .box-Calendar .item img {
+      .box-Calendar #data-Calendar .item img {
         height: 100%;
         object-fit: cover;
       }
 
-    .box-Calendar .item .text {
+    .box-Calendar #data-Calendar .item .text {
       background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
       color: #fff;
       padding: 21px;
       display: flex;
       flex-direction: column;
     }
-      .box-Calendar .item .-date {
+      .box-Calendar #data-Calendar .item .-date {
         position: relative;
       }
-        .box-Calendar .item .-date::before {
+        .box-Calendar #data-Calendar .item .-date::before {
           content: "";
           background: url(../images/icon-date2.png) no-repeat center;
           background-size: contain;
@@ -304,11 +324,11 @@
           margin-right: 7px;
         }
 
-      .box-Calendar .item .-view {
+      .box-Calendar #data-Calendar .item .-view {
         font-size: 0.8125em;
         position: relative;
       }
-        .box-Calendar .item .-view::before {
+        .box-Calendar #data-Calendar .item .-view::before {
           content: "";
           background: url(../images/icon-eye.png) no-repeat center;
           background-size: contain;
@@ -320,7 +340,7 @@
           margin-right: 3px;
         }
 
-      .box-Calendar .item .-type {
+      .box-Calendar #data-Calendar .item .-type {
         font-size: 0.75em;
         color: #626262;
         background: #E5FDC3;
@@ -329,7 +349,7 @@
         margin-bottom: 2px;
         display: inline-block;
       }
-      .box-Calendar .item a.btn {
+      .box-Calendar #data-Calendar .item a.btn {
         margin-top: auto;
         margin-right: auto;
       }
@@ -921,6 +941,10 @@
   .box-Agricultural-slide .item .img {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+  }
+  .box-Calendar #data-Calendar .item {
+    display: block;
+    aspect-ratio: auto;
   }
  } 
  /* แนวนอน */
