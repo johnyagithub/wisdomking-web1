@@ -4,6 +4,17 @@ $(function () {
   slideList();
   mySelectMonth();
 
+  $(document).on("click", "#slide-Day .item", function () {
+    $('#slide-Day .item').removeClass('active');
+    $(this).addClass('active');
+
+    var M = $(this).find('h4').data('m');
+    var D = $(this).find('h4').text();
+    console.log(D + ' ' + M);
+    $('#dataCalendar .item').removeClass('active');
+    $('#dataCalendar [data-item="' + M + '"] .item[data-date="' + D + '"]').addClass('active');
+  });
+
 });
 
 let buttonTabCustom = () => {
@@ -36,7 +47,7 @@ let slideList = () => {
 
 let sliderMonth = () => {
   $("#slide-Month").owlCarousel({
-    margin: 20,
+    margin: 0,
     nav: true,
     dots: false,
     lazyLoad: true,
@@ -60,11 +71,14 @@ let mySelectMonth = (e) => {
   var Value = $('#dataCalendar>[data-item=\"' + selectMonth + '\"] .item');
   var Html = '';
 
-  Value.each(function () {
+  Value.each(function (i) {
     var Day = $(this).data('day');
     var Date = $(this).data('date');
     var Month = $(this).data('month');
-    Html = Html + '<div class=\"item\"><span>' + Day + '</span><div><h4>' + Date + '</h4>' + Month + '</div></div>';
+    var Active = '';
+
+    if (!e && i == 0 || $(this).attr('class') === 'item active') { Active = 'active' }
+    Html = Html + '<div class=\"item ' + Active + '\"><span>' + Day + '</span><div><h4 data-m=\"' + selectMonth + '\">' + Date + '</h4>' + Month + '</div></div>';
   });
   $('#slide-Day').html('').append('<div class=\"owl-carousel\">' + Html + '</div>');
   sliderDay();
