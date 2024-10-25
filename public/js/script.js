@@ -304,8 +304,9 @@ let sliderAgricultural = () => {
     margin: 20,
     nav: true,
     dots: true,
-    // center:true,
-    // loop:true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: false,
     lazyLoad: true,
     responsiveClass: true,
     responsive: {

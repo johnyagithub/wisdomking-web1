@@ -189,32 +189,36 @@
   border-top: 1px solid #E7E7E7;
   background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);
 }
-  .box-Learning .img {
-    border-radius: var(--border_radius);
+  .box-Learning .owl-carousel {
+    width: 104%;
+    margin-left: -4%;
   }
-    .box-Learning .img .btn-play-video {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      z-index: 1;
-      background-color: rgb(0 0 0 / 20%);
+    .box-Learning .img {
+      border-radius: var(--border_radius);
     }
-      .box-Learning .img .btn-play-video button {
-        background: transparent url(../../public/images/icon-Play.png) center no-repeat;
-        background-size: contain;
-        width: 70px;
-        aspect-ratio: 1;
-        cursor: pointer;
+      .box-Learning .img .btn-play-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        z-index: 1;
+        background-color: rgb(0 0 0 / 20%);
       }
+        .box-Learning .img .btn-play-video button {
+          background: transparent url(../../public/images/icon-Play.png) center no-repeat;
+          background-size: contain;
+          width: 70px;
+          aspect-ratio: 1;
+          cursor: pointer;
+        }
   
-  .box-Learning .text {
-    text-align: right;
-    padding: 17px 0px;
-  }
+    .box-Learning .text {
+      text-align: right;
+      padding: 17px 0px;
+    }
 
   .box-Learning .arrow-default {
     display: flex;
@@ -234,21 +238,28 @@
       background-image: url(../images/icon-next.png);
     }
 
-  .box-Learning .owl-nav {
-    
-  }
-    .box-Learning .owl-nav button {
-      background: url(../images/icon-prev.png) no-repeat center;
-      background-size: contain;
-      width: 42px;
+    .box-Learning .owl-nav {
+      all: initial;
+      order: 1;
+      display: none !important;
+      justify-content: center;
     }
-      .box-Learning .owl-nav button.disabled {
-        opacity: 0.5;
-        pointer-events: none;
+      .box-Learning .owl-nav button {
+        position: inherit;
+        transform: none !important;
+        background-color: #000;
+        background: url(../images/icon-prev.png) no-repeat center;
+        background-size: contain;
+        margin: 0px 5px;
+        width: 40px;
       }
-      .box-Learning .owl-nav button.owl-next {
-        background-image: url(../images/icon-next.png);
-      }
+        .box-Learning .owl-nav button.disabled {
+          opacity: 0.5;
+          pointer-events: none;
+        }
+        .box-Learning .owl-nav button.owl-next {
+          background-image: url(../images/icon-next.png);
+        }
 
 .box-Calendar {
   background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
@@ -502,7 +513,7 @@
   .box-Agricultural .--img-map{
     margin-top: -4%;
     margin-left: -20%;
-    margin-bottom: -28%;
+    margin-bottom: -22%;
     width: 120%;
     max-width: none;
   }
@@ -535,7 +546,7 @@
         width: 54%;
         position: absolute;
         right: 0px;
-        bottom: -14%;
+        bottom: -18%;
       }
         .box-Agricultural-slide .item .text .-pro {
           display: grid;
@@ -554,6 +565,10 @@
     .box-Agricultural-slide .owl-stage-outer {
       padding-bottom: 6%;
       margin-bottom: 0px;
+      z-index: 1;
+    }
+    .box-Agricultural-slide:hover .owl-stage-outer {
+      z-index: 0;
     }
       .box-Agricultural-slide .nav-dots-style {
         display: flex !important;
@@ -668,13 +683,20 @@
       position: initial;
       width: 100%;
       padding: 18px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
     }
     .box-Agricultural-slide .item {
       display: grid;
       grid-template-columns: 50% 50%;
     }
+    .box-Agricultural-slide .item .img img {
+      height: 100%;
+    }
     .box-Agricultural-slide .item .img {
       width: 100%;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
     }
     .box-Agricultural-slide .item .text .-pro img {
       width: 70px;
@@ -703,6 +725,10 @@
     }
     .box-Agricultural-slide .owl-stage-outer {
       padding-bottom: 10px;
+    }
+    .box-Learning .owl-carousel {
+      width: 100%;
+      margin-left: 0px;
     }
   }
   /* แนวนอน */
@@ -774,6 +800,10 @@
   .box-Agricultural-slide .owl-stage-outer {
     padding-bottom: 10px;
   }
+  .box-Learning .owl-carousel {
+    width: 100%;
+    margin-left: 0px;
+  }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
   .box-banner .b-text {
@@ -798,6 +828,29 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .box-Learning .owl-nav {
+    display: flex !important;
+  }
+  .scale-navTabs {
+    max-width: 100%;
+    overflow: auto;
+  }
+  .scale-navTabs .box-navTabs {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .scale-navTabs .box-navTabs .nav-link {
+    min-width: max-content;
+  }
+  .box-Agricultural-slide .item .text {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .box-Agricultural-slide .item .img {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
  } 
  /* แนวนอน */
  @media only screen and (orientation:landscape){
@@ -812,6 +865,17 @@
   }
   .box-Agricultural-slide .nav-dots-style {
     justify-content: end;
+  }
+  .box-Agricultural-slide .item .text {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .box-Agricultural-slide .item .img {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .box-Agricultural-slide .item .img img {
+    height: 100%;
   }
  }
 }

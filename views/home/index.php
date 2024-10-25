@@ -55,24 +55,26 @@
 
 		<section class="box-Ourmuseum py-4">
 			<div class="container">
-				<div class="d-flex flex-wrap">
+				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
-							type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
-							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์ในอาคาร
-						</button>
-						<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
-							role="tab" aria-controls="nav-Outdoor" aria-selected="false">
-							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์กลางแจ้ง
-						</button>
-						<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
-							role="tab" aria-controls="nav-Virtual" aria-selected="false">
-							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์เสมือนจริง
-						</button>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+							<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
+								type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
+								<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์ในอาคาร
+							</button>
+							<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
+								role="tab" aria-controls="nav-Outdoor" aria-selected="false">
+								<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์กลางแจ้ง
+							</button>
+							<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
+								role="tab" aria-controls="nav-Virtual" aria-selected="false">
+								<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์เสมือนจริง
+							</button>
+						</div>
 					</div>
 				</div>
 				<div class="tab-content py-4">
@@ -192,7 +194,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-5 col-lg-3 d-flex flex-column text-center text-sm-left order-sm-1">
-						<a href="#" class="text-secondary">ทั้งหมด</a>
+						<a href="#" class="text-secondary"><u>ทั้งหมด</u></a>
 						<div class="my-auto py-4">
 							<h3 class="head mb-4">สื่อการเรียนรู้</h3>
 							<h5>ภาพยนตร์แอนิเมชั่น 3 มิติ</h5>
@@ -255,13 +257,13 @@
 
 		<section class="box-Calendar py-4">
 			<div class="container">
-				<div class="d-flex flex-wrap">
+				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
-					<div class="ml-auto">
-						<a href="#" class="btn-style2 px-3 py-1 mx-1">ทั้งหมด</a>
-						<a href="#" class="btn-style3 px-3 py-1 mx-1">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</a>
-						<a href="#" class="btn-style3 px-3 py-1 mx-1">หลักสูตรอบรมเข้มข้น</a>
-						<a href="#" class="btn-style3 px-3 py-1 mx-1">อื่นๆ</a>
+					<div class="ml-auto d-flex flex-wrap">
+						<a href="#" class="btn-style2 px-3 py-1 m-1 d-block">ทั้งหมด</a>
+						<a href="#" class="btn-style3 px-3 py-1 m-1 d-block">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</a>
+						<a href="#" class="btn-style3 px-3 py-1 m-1 d-block">หลักสูตรอบรมเข้มข้น</a>
+						<a href="#" class="btn-style3 px-3 py-1 m-1 d-block">อื่นๆ</a>
 					</div>
 				</div>
 			</div>
@@ -271,9 +273,7 @@
 			<div class="container">
 				<div class="row m-0">
 					<h3 class="head mb-4 mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
-					<p class="mx-auto col-lg px-lg-3" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง จัดขึ้นทุกเสาร์ อาทิตย์
-						สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด แลกเปลี่ยนเรียนรู้
-						ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
+					<p class="mx-auto col-lg px-lg-3 text-black-50" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง จัดขึ้นทุกเสาร์ อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด แลกเปลี่ยนเรียนรู้ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
 				</div>
 				<div class="row mt-3">
 					<div class="col-lg-6" id="Market-show">
@@ -330,28 +330,30 @@
 
 		<section class="box-Knowledge py-4">
 			<div class="container">
-				<div class="-sticky d-flex flex-wrap">
+				<div class="-sticky d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">องค์ความรู้</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"
-							role="tab" aria-controls="nav-All" aria-selected="true">
-							ทั้งหมด
-						</button>
-						<button class="nav-link" id="nav-Articles-tab" data-toggle="tab" data-target="#nav-Articles" type="button"
-							role="tab" aria-controls="nav-Articles" aria-selected="true">
-							<img src="../../public/images/document.png" style="width: 24px;" alt="">
-							บทความ
-						</button>
-						<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
-							role="tab" aria-controls="nav-Captions" aria-selected="false">
-							<img src="../../public/images/photos.png" style="width: 24px;" alt="">
-							บรรยายประกอบภาพ
-						</button>
-						<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
-							role="tab" aria-controls="nav-Captions" aria-selected="false">
-							<img src="../../public/images/play_circled.png" style="width: 24px;" alt="">
-							บรรยายประกอบภาพ
-						</button>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+							<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"
+								role="tab" aria-controls="nav-All" aria-selected="true">
+								ทั้งหมด
+							</button>
+							<button class="nav-link" id="nav-Articles-tab" data-toggle="tab" data-target="#nav-Articles" type="button"
+								role="tab" aria-controls="nav-Articles" aria-selected="true">
+								<img src="../../public/images/document.png" style="width: 24px;" alt="">
+								บทความ
+							</button>
+							<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
+								role="tab" aria-controls="nav-Captions" aria-selected="false">
+								<img src="../../public/images/photos.png" style="width: 24px;" alt="">
+								บรรยายประกอบภาพ
+							</button>
+							<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
+								role="tab" aria-controls="nav-Captions" aria-selected="false">
+								<img src="../../public/images/play_circled.png" style="width: 24px;" alt="">
+								บรรยายประกอบภาพ
+							</button>
+						</div>
 					</div>
 				</div>
 				<div class="tab-content pt-4">
@@ -656,8 +658,10 @@
 							การจัดการผลผลิตและการอนุรักษ์พันธุกรรม โดยการดำเนิน โครงการขยายผลเครือข่าย พกฉ. และโครงการเผยแพร่ขยายผล
 							นวัตกรรมเกษตร เศรษฐกิจพอเพียง ปัจจุบัน มีศูนย์เครือข่าย พกฉ.</p>
 						<br />
-						<a href="#" class="btn-style2 px-5 py-1 mx-1">บุคคล</a>
-						<a href="#" class="btn-style3 px-5 py-1 mx-1">ศูนย์การเรียนรู้</a>
+						<div class="ml-auto d-flex flex-wrap align-items-start">
+							<a href="#" class="btn-style2 px-4 py-1 mx-1">บุคคล</a>
+							<a href="#" class="btn-style3 px-4 py-1 mx-1">ศูนย์การเรียนรู้</a>
+						</div>
 					</div>
 					<div class="col-lg-7">
 						<img src="../../public/images/img-map.png" class="--img-map" alt="">
@@ -667,8 +671,8 @@
 		</section>
 
 		<section class="box-Agricultural-slide">
-			<div class="container">
-				<div class="owl-carousel nav-dots-style show-dots">
+			<div class="container px-lg-5">
+				<div class="owl-carousel px-xl-5 nav-dots-style show-dots">
 
 					<div class="item">
 						<div class="img">
@@ -682,7 +686,7 @@
 									<span>นายเกษม จ่าพันดุง</span>
 								</div>
 							</div>
-							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
 								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
 								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
 						</div>
@@ -699,7 +703,7 @@
 									<span>นายเกษม จ่าพันดุง</span>
 								</div>
 							</div>
-							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
 								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
 								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
 						</div>
@@ -716,7 +720,7 @@
 									<span>นายเกษม จ่าพันดุง</span>
 								</div>
 							</div>
-							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
 								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
 								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
 						</div>
@@ -733,7 +737,7 @@
 									<span>นายเกษม จ่าพันดุง</span>
 								</div>
 							</div>
-							<p class="text-line4">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
 								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
 								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
 						</div>
@@ -745,33 +749,35 @@
 
 		<section class="box-News py-4">
 			<div class="container">
-				<div class="d-flex flex-wrap">
+				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ข่าว & ประชาสัมพันธ์</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button" role="tab"
-							aria-controls="nav1" aria-selected="true">
-							ทั้งหมด
-						</button>
-						<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button" role="tab"
-							aria-controls="nav2" aria-selected="false">
-							ข่าว
-						</button>
-						<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button" role="tab"
-							aria-controls="nav3" aria-selected="false">
-							คณะเข้าชม
-						</button>
-						<button class="nav-link" id="nav4-tab" data-toggle="tab" data-target="#nav4" type="button" role="tab"
-							aria-controls="nav4" aria-selected="true">
-							ข่าวสื่อมวลชน
-						</button>
-						<button class="nav-link" id="nav5-tab" data-toggle="tab" data-target="#nav5" type="button" role="tab"
-							aria-controls="nav5" aria-selected="false">
-							ข่าวผู้บริหาร
-						</button>
-						<button class="nav-link" id="nav6-tab" data-toggle="tab" data-target="#nav6" type="button" role="tab"
-							aria-controls="nav6" aria-selected="false">
-							ข่าวกิจกรรมต่างๆ
-						</button>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+							<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
+								role="tab" aria-controls="nav1" aria-selected="true">
+								ทั้งหมด
+							</button>
+							<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button" role="tab"
+								aria-controls="nav2" aria-selected="false">
+								ข่าว
+							</button>
+							<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button" role="tab"
+								aria-controls="nav3" aria-selected="false">
+								คณะเข้าชม
+							</button>
+							<button class="nav-link" id="nav4-tab" data-toggle="tab" data-target="#nav4" type="button" role="tab"
+								aria-controls="nav4" aria-selected="true">
+								ข่าวสื่อมวลชน
+							</button>
+							<button class="nav-link" id="nav5-tab" data-toggle="tab" data-target="#nav5" type="button" role="tab"
+								aria-controls="nav5" aria-selected="false">
+								ข่าวผู้บริหาร
+							</button>
+							<button class="nav-link" id="nav6-tab" data-toggle="tab" data-target="#nav6" type="button" role="tab"
+								aria-controls="nav6" aria-selected="false">
+								ข่าวกิจกรรมต่างๆ
+							</button>
+						</div>
 					</div>
 				</div>
 				<div class="tab-content py-4">
