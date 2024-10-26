@@ -53,7 +53,7 @@
 				<div class="--detail">
 					<img src="../../public/images/news/img3.jpg" class="rounded2 w-100" alt="">
 					<div class="text">
-						<div class="d-flex flex-wrap my-3">
+						<div class="d-flex flex-wrap my-3 align-items-center">
 							<div class="-date">
 								17 สิงหาคม 2023
 							</div>
@@ -62,13 +62,13 @@
 							</div>
 							<div class="ml-auto">
 								<a href="#" target="_blank">
-									<img src="../../public/images/icon-fb2.png" style="width:24px;" alt="">
+									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
 								</a>
 								<a href="#" target="_blank">
-									<img src="../../public/images/icon-line2.png" style="width:24px;" alt="">
+									<img src="../../public/images/icon-line2.png" style="width:24px;" class="m-1" alt="">
 								</a>
 								<a href="#" target="_blank">
-									<img src="../../public/images/icon-x.png" style="width:24px;" alt="">
+									<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
 								</a>
 							</div>
 						</div>
@@ -116,6 +116,47 @@
 							</div>
 							<div class="hide-next"></div>
 						</div>
+
+						<div class="py-4 border-top">
+							Share this:
+							<div class="d-flex flex-wrap my-3">
+								<div>
+									<a href="#" target="_blank">
+										<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
+									</a>
+									<a href="#" target="_blank">
+										<img src="../../public/images/icon-line2.png" style="width:24px;" class="m-1" alt="">
+									</a>
+									<a href="#" target="_blank">
+										<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
+									</a>
+								</div>
+								<div class="ml-auto d-inline-flex mt-4">
+									<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
+									<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
+									<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-6">
+								<a href="#" class="border p-4 d-block text-muted" style="border-radius: 8px;">
+									<i class="fa fa-angle-left" aria-hidden="true"></i>
+									ย้อนกลับ
+									<br>
+									<b class="text-dark">Lorem Ipsum is simply dummy text</b>
+								</a>
+							</div>
+							<div class="col-6">
+								<a href="#" class="border p-4 d-block text-right text-muted" style="border-radius: 8px;">
+									ต่อไป
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<br>
+									<b class="text-dark">Lorem Ipsum is simply dummy text</b>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -124,7 +165,7 @@
 		<section class="box-News py-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 ">
 			<div class="container">
-				<h3 class="head mb-4 text-center">ข่าวผู้บริหาร</h3>
+				<h3 class="head mb-5 text-center">ข่าวผู้บริหาร</h3>
 
 				<div class="owl-carousel nav-dots-style show-dots">
 
