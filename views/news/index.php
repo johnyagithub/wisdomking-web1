@@ -27,7 +27,7 @@
 			</ol>
 		</nav>
 
-		<section class="box-News py-4" style="background:#fff;">
+		<section class="box-News py-4">
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ข่าว & ประชาสัมพันธ์</h3>

@@ -758,7 +758,10 @@
     .box-Agricultural-slide .nav-dots-style .owl-dots {
       transform: translateY(-100%);
     }
-
+    
+.box-News {
+  background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
+}
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
 
