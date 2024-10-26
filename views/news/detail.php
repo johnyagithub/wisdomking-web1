@@ -89,6 +89,33 @@
 								ยังได้รับเกียรติรับมอบโล่ขอบคุณในฐานะหน่วยงานร่วมจัดแสดงนิทรรศการ ภายในงานฯ จัดขึ้น ณ
 								ศูนย์แสดงสินค้าและการประชุมอิมแพ็ค เมืองทองธานี จ.นนทบุรี</p>
 						</div>
+
+						<div class="slide-show">
+							<div class="hide-prev"></div>
+							<div class="owl-carousel nav-dots-style show-dots">
+
+								<a href="../../public/images/news/img1.jpg" class="img rounded" data-fancybox="detail" data-caption="">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</a>
+								<a href="../../public/images/news/img2.jpg" class="img rounded" data-fancybox="detail" data-caption="">
+									<img src="../../public/images/news/img2.jpg" alt="">
+								</a>
+								<a href="../../public/images/news/img3.jpg" class="img rounded" data-fancybox="detail" data-caption="">
+									<img src="../../public/images/news/img3.jpg" alt="">
+								</a>
+								<a href="../../public/images/news/img1.jpg" class="img rounded" data-fancybox="detail" data-caption="">
+									<img src="../../public/images/news/img1.jpg" alt="">
+								</a>
+								<a href="../../public/images/news/img2.jpg" class="img rounded" data-fancybox="detail" data-caption="">
+									<img src="../../public/images/news/img2.jpg" alt="">
+								</a>
+								<a href="../../public/images/news/img3.jpg" class="img rounded" data-fancybox="detail" data-caption="">
+									<img src="../../public/images/news/img3.jpg" alt="">
+								</a>
+
+							</div>
+							<div class="hide-next"></div>
+						</div>
 					</div>
 				</div>
 			</div>

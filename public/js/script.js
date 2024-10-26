@@ -17,6 +17,7 @@ $(function () {
   sliderNews();
   sliderAgricultural();
   sliderLearning();
+  sliderShow();
   if ($(window).width() > 1025) {
     Activitty();
   }
@@ -54,6 +55,13 @@ $(function () {
 
   $("header .navbar-collapse+.box-shadow").click(function () {
     $("header button.navbar-toggler").click();
+  });
+
+  $(".--detail .slide-show .hide-next").click(function () {
+    $(".--detail .slide-show").find(".owl-prev").click();
+  });
+  $(".--detail .slide-show .hide-prev").click(function () {
+    $(".--detail .slide-show").find(".owl-next").click();
   });
 
   $('[data-toggle="tooltip"]').tooltip();
@@ -295,6 +303,32 @@ let sliderAgricultural = () => {
       0: {
         items: 1,
       }
+    },
+  });
+};
+
+let sliderShow = () => {
+  $(".slide-show .owl-carousel").owlCarousel({
+    margin: 20,
+    nav: true,
+    dots: true,
+    loop: true,
+    center: true,
+    // autoplay: true,
+    // autoplayTimeout: 5000,
+    // autoplayHoverPause: false,
+    lazyLoad: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      667: {
+        items: 2,
+      },
+      900: {
+        items: 3,
+      },
     },
   });
 };
