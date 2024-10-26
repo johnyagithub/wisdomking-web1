@@ -215,4 +215,3 @@
         </div>
     </div>
 </header>
-<div id="firstbox"></div>
