@@ -1,26 +1,38 @@
 $(function () {
 
-  buttonTabCustom();
-  slideList();
+  $('#dataCalendar>[data-item]').each(function () {
+    var Month = $(this).data('item');
+    const Length = $(this).find('>.item').length;
+
+    if (Length > 0) {
+      $('#slide-Month').append('<div class=\"item\">' + Month + '</div>');
+    }
+  });
+
+  sliderMonth();
   mySelectMonth();
+  buttonTabCustom();
 
   $(document).on("click", "#slide-Day .item", function () {
+    // active ปุ่มที่กด slide-Day
     $('#slide-Day .item').removeClass('active');
     $(this).addClass('active');
 
-    var M = $(this).find('h4').data('m');
-    var D = $(this).find('h4').text();
+    var Start = $(this).find('h4').data('m');
+    // เก็บ active ตอนกด
     $('#dataCalendar .item').removeClass('active');
-    $('#dataCalendar [data-item="' + M + '"] .item[data-date="' + D + '"]').addClass('active');
-
-    getItem(D, M);
+    $('#dataCalendar .item[data-start=\"' + Start + '\"]').addClass('active');
+    // ดึง list จากวันที่กดเอาไปสร้างมาแสดง
+    getItem(Start);
   });
 
 });
 
-let getItem = (D, M) => {
+let getItem = (Start) => {
+  var Item = $('#dataCalendar .item[data-start=\"' + Start + '\"]');
+  var End = Item.data('end');
   $('#data-Calendar').html('');
-  $('#dataCalendar>[data-item=\"' + M + '\"] .item[data-date=\"' + D + '\"] .list').each(function () {
+  Item.find('.list').each(function () {
     var Img = $(this).data('img');
     var Date = $(this).data('date');
     var View = $(this).data('view');
@@ -40,8 +52,8 @@ let getItem = (D, M) => {
 							</div>
 							<div class=\"text\">
 								<div class=\"d-flex align-items-center flex-wrap\">
-                  <div class=\"-event ac\"><h4>` + D + `</h4>` + getShortMonth(M) + `</div>
-                  <div class=\"-event\"><h4>` + Date.split(" ")[0] + `</h4>` + getShortMonth(Date.split(" ")[1]) + `</div>
+                  <div class=\"-event ac\"><h4>` + Start.split(" ")[0] + `</h4>` + getShortMonth(Start.split(" ")[1]) + `</div>
+                  <div class=\"-event\"><h4>` + End.split(" ")[0] + `</h4>` + getShortMonth(End.split(" ")[1]) + `</div>
                 </div>
 								<div class=\"d-flex justify-content-between align-items-center flex-wrap\">
 									<div class=\"-date\">`+ Date + `</div>
@@ -58,34 +70,6 @@ let getItem = (D, M) => {
   });
   $("[data-showId] button").removeClass('active');
   $("[data-showId] button").eq(0).addClass('active');
-};
-
-let buttonTabCustom = () => {
-  $("[data-showId] button").click(function () {
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-
-    var thisId = $(this).closest("[data-showId]").attr('data-showId');
-    var Type = $(this).attr('data-type') || 'all';
-    if (Type === 'all') {
-      $('#' + thisId).find('[data-type]').show();
-    } else {
-      $('#' + thisId).find('[data-type]').hide();
-      $('#' + thisId).find('[data-type*="' + Type + '"]').show();
-    }
-  });
-};
-
-let slideList = () => {
-  $('#dataCalendar>[data-item]').each(function () {
-    var Month = $(this).data('item');
-    const Length = $(this).find('>.item').length;
-
-    if (Length > 0) {
-      $('#slide-Month').append('<div class=\"item\">' + Month + '</div>');
-    }
-  });
-  sliderMonth();
 };
 
 let sliderMonth = () => {
@@ -116,14 +100,14 @@ let mySelectMonth = (e) => {
 
   Value.each(function (i) {
     var Day = $(this).data('day');
-    var Date = $(this).data('date');
+    var Date = $(this).data('start');
     var Active = '';
 
     if (!e && i == 0 || $(this).attr('class') === 'item active') {
       Active = 'active';
-      getItem(Date, selectMonth);
+      getItem(Date);
     }
-    Html = Html + '<div class=\"item ' + Active + '\"><span>' + Day + '</span><div><h4 data-m=\"' + selectMonth + '\">' + Date + '</h4>' + getShortMonth(selectMonth) + '</div></div>';
+    Html = Html + '<div class=\"item ' + Active + '\"><span>' + Day + '</span><div><h4 data-m=\"' + Date + '\">' + Date.split(" ")[0] + '</h4>' + getShortMonth(Date.split(" ")[1]) + '</div></div>';
   });
   $('#slide-Day').html('').append('<div class=\"owl-carousel\">' + Html + '</div>');
   sliderDay();
@@ -147,6 +131,22 @@ let sliderDay = () => {
         items: 5,
       },
     },
+  });
+};
+
+let buttonTabCustom = () => {
+  $("[data-showId] button").click(function () {
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+
+    var thisId = $(this).closest("[data-showId]").attr('data-showId');
+    var Type = $(this).attr('data-type') || 'all';
+    if (Type === 'all') {
+      $('#' + thisId).find('[data-type]').show();
+    } else {
+      $('#' + thisId).find('[data-type]').hide();
+      $('#' + thisId).find('[data-type*="' + Type + '"]').show();
+    }
   });
 };
 
