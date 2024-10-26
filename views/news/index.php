@@ -358,7 +358,6 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
-	<script type="text/javascript" src="../../public/js/custom_calendar.js"></script>
 </body>
 
 </html>

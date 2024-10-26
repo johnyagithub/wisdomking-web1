@@ -1246,60 +1246,20 @@ ul.ul-style {
     .box-News .item .text {
       margin-top: 12px;
     }
-      .box-News .item .-date {
-        color: #999F9E;
-        font-size: 0.8125em;
-        position: relative;
-      }
-        .box-News .item .-date::before {
-          content: "";
-          background: url(../images/icon-date.png) no-repeat center;
-          background-size: contain;
-          display: inline-block;
-          width: 18px;
-          height: 18px;
-          vertical-align: sub;
-        }
-
-      .box-News .item .-view {
-        color: #999F9E;
-        font-size: 0.8125em;
-        position: relative;
-      }
-        .box-News .item .-view::before {
-          content: "";
-          background: url(../images/icon-eye.png) no-repeat center;
-          background-size: contain;
-          display: inline-block;
-          width: 18px;
-          height: 18px;
-          vertical-align: sub;
-          margin-right: 3px;
-        }
-
       .box-News .item .-type {
-        font-size: 0.75em;
-        color: #669525;
-        border: 1px solid #669525;
-        padding: 3px 9px;
-        border-radius: 50px;
         margin: 12px 0px 7px 0px;
-        display: inline-block;
       }
       .box-News .item h5 {
         height: 48px;
         margin-bottom: 20px;
       }  
       
-.--detail {
-
-}
-  .--detail .-date {
+  .-date {
     color: #999F9E;
     font-size: 0.8125em;
     position: relative;
   }
-    .--detail .-date::before {
+    .-date::before {
       content: "";
       background: url(../images/icon-date.png) no-repeat center;
       background-size: contain;
@@ -1309,13 +1269,13 @@ ul.ul-style {
       vertical-align: sub;
     }
 
-  .--detail .-view {
+  .-view {
     color: #999F9E;
     font-size: 0.8125em;
     position: relative;
     margin-left: 15px;
   }
-    .--detail .-view::before {
+    .-view::before {
       content: "";
       background: url(../images/icon-eye.png) no-repeat center;
       background-size: contain;
@@ -1326,7 +1286,7 @@ ul.ul-style {
       margin-right: 3px;
     }
 
-  .--detail .-type {
+  .-type {
     font-size: 0.75em;
     color: #669525;
     border: 1px solid #669525;
@@ -1336,6 +1296,9 @@ ul.ul-style {
     display: inline-block;
   }
 
+.--detail {
+
+}
   .--detail .slide-show {
     padding: 25px 0px;
     position: relative;

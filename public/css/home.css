@@ -342,6 +342,7 @@
       
       .box-Calendar #data-Calendar .item .-date {
         position: relative;
+        color: #fff;
       }
         .box-Calendar #data-Calendar .item .-date::before {
           content: "";
@@ -357,6 +358,7 @@
       .box-Calendar #data-Calendar .item .-view {
         font-size: 0.8125em;
         position: relative;
+        color: #fff;
       }
         .box-Calendar #data-Calendar .item .-view::before {
           content: "";
@@ -371,14 +373,9 @@
         }
 
       .box-Calendar #data-Calendar .item .-type {
-        font-size: 0.75em;
         color: #626262;
         background: #E5FDC3;
-        padding: 1px 9px;
-        border-radius: 50px;
-        margin-bottom: 2px;
-        display: inline-block;
-        margin-right: 5px;
+        border: 0px;
       }
       .box-Calendar #data-Calendar .item a.btn {
         margin-top: auto;
@@ -470,6 +467,7 @@
     }
       .box-Market .item-show .-date {
         position: relative;
+        color: #fff;
       }
       .box-Market .item-show .-date::before {
         content: "";
@@ -634,6 +632,10 @@
       .box-Knowledge .item .-view {
         font-size: 0.8125em;
         position: relative;
+        margin-left: auto;
+      }
+      .box-Knowledge .item.item-left-sticky .-view {
+        color: #fff;
       }
         .box-Knowledge .item .-view::before {
           content: "";
@@ -650,13 +652,8 @@
         }
 
       .box-Knowledge .item .-type {
-        font-size: 0.75em;
-        color: #669525;
-        border: 1px solid #669525;
         padding: 1px 9px;
-        border-radius: 50px;
-        margin-bottom: 12px;
-        display: inline-block;
+        margin: 0px 3px 5px 0px;
       }
       .box-Knowledge .item.item-left-sticky .-type {
         color: #fff;

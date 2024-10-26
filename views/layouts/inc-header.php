@@ -44,10 +44,10 @@
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="../news/">ข่าว & ประชาสัมพันธ์</a>
-                            <a class="dropdown-item" href="#">ประกาศจัดซื้อจัดจ้าง</a>
-                            <a class="dropdown-item" href="#">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
-                            <a class="dropdown-item" href="#">ข่าวรับสมัครงาน</a>
-                            <a class="dropdown-item" href="#">มาตรการ COVID-19</a>
+                            <a class="dropdown-item" href="../procurement/">ประกาศจัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../procurement-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../job-news/">ข่าวรับสมัครงาน</a>
+                            <a class="dropdown-item" href="../covid/">มาตรการ COVID-19</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">

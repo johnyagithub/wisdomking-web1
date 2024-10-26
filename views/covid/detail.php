@@ -165,7 +165,7 @@
 
 				<div class="owl-carousel nav-dots-style show-dots">
 
-					<a href="../news/detail.php" class="item">
+					<a href="../covid/detail.php" class="item">
 						<div class="img">
 							<img src="../../public/images/news/img1.jpg" alt="">
 						</div>
@@ -178,15 +178,9 @@
 									300
 								</div>
 							</div>
-							<span class="-type">ข่าวผู้บริหาร</span>
-							<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-								ประจำปี 2567 (NST FAIR 2024) </h5>
-							<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-								ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-								สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 						</div>
 					</a>
-					<a href="../news/detail.php" class="item">
+					<a href="../covid/detail.php" class="item">
 						<div class="img">
 							<img src="../../public/images/news/img2.jpg" alt="">
 						</div>
@@ -199,14 +193,9 @@
 									300
 								</div>
 							</div>
-							<span class="-type">คณะเข้าชม</span>
-							<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
-							<p class="text-line3">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
-								พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
-								ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
 						</div>
 					</a>
-					<a href="../news/detail.php" class="item">
+					<a href="../covid/detail.php" class="item">
 						<div class="img">
 							<img src="../../public/images/news/img3.jpg" alt="">
 						</div>
@@ -227,7 +216,7 @@
 								เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
 						</div>
 					</a>
-					<a href="../news/detail.php" class="item">
+					<a href="../covid/detail.php" class="item">
 						<div class="img">
 							<img src="../../public/images/news/img1.jpg" alt="">
 						</div>
@@ -240,12 +229,6 @@
 									300
 								</div>
 							</div>
-							<span class="-type">ข่าวผู้บริหาร</span>
-							<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-								ประจำปี 2567 (NST FAIR 2024) </h5>
-							<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-								ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-								สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 						</div>
 					</a>
 
