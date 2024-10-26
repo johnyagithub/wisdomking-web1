@@ -883,7 +883,7 @@ a[data-fancybox] {
   @media only screen and (min-width: 1025px) {
     a[data-fancybox]::after {
       content: "\f065";
-      font: normal normal normal 14px/1 FontAwesome;
+      font: normal normal normal 14px / 1 FontAwesome;
       background-color: rgb(0 0 0 / 22%);
       position: absolute;
       transition: .3s;
@@ -894,11 +894,11 @@ a[data-fancybox] {
       display: flex;
       align-items: center;
       justify-content: center;
-      transform: scale(0);
+      visibility: hidden;
     }
     a[data-fancybox]:hover::after {
       opacity: 1;
-      transform: scale(1);
+      visibility: visible;
     }
   }
 
@@ -1273,9 +1273,6 @@ footer {
   .front-header-search {
     all: initial;
   }
-  .front-header-search form {
-    transform: none;
-  }
  }
  /* แนวนอน */
  @media only screen and (orientation:landscape){
@@ -1297,9 +1294,6 @@ footer {
  }
  body h2 {
   font-size: 24px !important;
- }
- .front-header-search form {
-  transform: none;
  }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
@@ -1325,7 +1319,7 @@ footer {
 }
 
 /* ---------------------------------------------------/////// Header ///////--------------------------------------------------- */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   header {
     padding: 5px !important;
   }
@@ -1395,7 +1389,7 @@ footer {
   position: sticky;
   bottom: 0px;
   background: #fff;
-  margin-top: auto;
+  margin-top: auto !important;
   margin-bottom: 0px;
   transform: none !important;
   visibility: visible !important;
@@ -1506,4 +1500,7 @@ footer {
   padding-right: 25px;
   padding-left: 25px;
  }
+ .front-header-search form {
+    transform: none;
+  }
 }

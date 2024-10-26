@@ -17,6 +17,9 @@ $(function () {
   sliderNews();
   sliderAgricultural();
   sliderLearning();
+  if ($(window).width() > 1025) {
+    Activitty();
+  }
 
   if (localStorage.getItem("cookie") != "allow") {
     setTimeout(function () {
@@ -120,6 +123,16 @@ let setcookieuser = (x) => {
     localStorage.setItem("cookie", "allow");
   }
 };
+
+let Activitty = () => {
+  $(".box-Agricultural-slide").mousemove(function (event) {
+    var h = $(this).height();
+    var w = $(this).width();
+    var t = (event.clientY - (h / 2)) * -1;
+    var l = (event.clientX - (w / 2)) * -1;
+    $(".box-Agricultural-slide .item .text").css("transform", "translate(" + l / 40 + "px, " + t / 40 + "px)");
+  });
+}
 
 let sliderBanner = () => {
   $(".box-banner .owl-carousel").owlCarousel({

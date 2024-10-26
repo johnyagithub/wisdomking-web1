@@ -47,9 +47,9 @@ let getItem = (Start) => {
 
     var Html = `<div class=\"col-xl-6\" data-type=\"` + IDtype + `\">
 						<div class=\"item\">
-							<div class=\"img\">
+              <a href=\"`+ Img + `\" class=\"img\" data-fancybox=\"Calendar\" data-caption=\"`+ Name + `\">
 								<img src=\"`+ Img + `\" alt=\"\">
-							</div>
+							</a>
 							<div class=\"text\">
 								<div class=\"d-flex align-items-center flex-wrap\">
                   <div class=\"-event ac\"><h4>` + Start.split(" ")[0] + `</h4>` + getShortMonth(Start.split(" ")[1]) + `</div>

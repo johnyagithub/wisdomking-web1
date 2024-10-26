@@ -300,14 +300,12 @@
 						</div>
 						<div class="item" data-day="วันจันทร์" data-start="15 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
-								data-view="250" data-type="อื่นๆ" data-idtype="tab3"
-								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันอังคาร" data-start="16 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
-								data-view="250" data-type="อื่นๆ" data-idtype="tab3"
-								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
+								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันเสาร์" data-start="20 กรกฎาคม" data-end="16 กรกฎาคม">
@@ -758,9 +756,9 @@
 				<div class="owl-carousel px-xl-5 nav-dots-style show-dots">
 
 					<div class="item">
-						<div class="img">
+						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
 							<img src="../../public/images/img3.jpg" alt="">
-						</div>
+						</a>
 						<div class="text">
 							<div class="-pro">
 								<img src="../../public/images/img-pro2.jpg" alt="">
@@ -775,9 +773,9 @@
 						</div>
 					</div>
 					<div class="item">
-						<div class="img">
+						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
 							<img src="../../public/images/img3.jpg" alt="">
-						</div>
+						</a>
 						<div class="text">
 							<div class="-pro">
 								<img src="../../public/images/img-pro2.jpg" alt="">
@@ -792,9 +790,9 @@
 						</div>
 					</div>
 					<div class="item">
-						<div class="img">
+						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
 							<img src="../../public/images/img3.jpg" alt="">
-						</div>
+						</a>
 						<div class="text">
 							<div class="-pro">
 								<img src="../../public/images/img-pro2.jpg" alt="">
@@ -809,9 +807,9 @@
 						</div>
 					</div>
 					<div class="item">
-						<div class="img">
+						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
 							<img src="../../public/images/img3.jpg" alt="">
-						</div>
+						</a>
 						<div class="text">
 							<div class="-pro">
 								<img src="../../public/images/img-pro2.jpg" alt="">

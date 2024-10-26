@@ -4,13 +4,13 @@
             <a href="../home">
                 <img src="../../public/images/logo.png" class="--logo" alt="">
             </a>
-            <button class="navbar-toggler ml-auto px-0 d-block d-lg-none" type="button" data-toggle="collapse"
+            <button class="navbar-toggler ml-auto px-0 d-block d-xl-none" type="button" data-toggle="collapse"
                 data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div class="d-lg-flex align-items-center navbar-expand-lg position-relative">
+        <div class="d-xl-flex align-items-center navbar-expand-xl position-relative">
             <div class="collapse navbar-collapse align-items-end flex-column" id="navbarMain">
                 <div class="flex-grow-1 front-header-search">
                     <form action="../search" method="GET" class="d-flex align-items-center" style="max-width:700px;">
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                         <div data-toggle="class-toggle-custom" data-target=".front-header-search"
-                            class="d-none d-lg-block">
+                            class="d-none d-xl-block">
                             <button class="btn px-2 btn-sm" type="button">
                                 <i class="la la-2x la-times text-white"></i>
                             </button>
@@ -33,7 +33,7 @@
                     <div class="box-shadow"></div>
                 </div>
 
-                <ul class="navbar-nav box-menu w-100 text-uppercase align-items-lg-center justify-content-between">
+                <ul class="navbar-nav box-menu w-100 text-uppercase align-items-xl-center justify-content-between">
                     <li class="nav-item position-relative active">
                         <a class="nav-link" href="../home/">หน้าหลัก</a>
                     </li>
@@ -157,7 +157,7 @@
                     </li>
                 </ul>
                 <div class="header-top-link2">
-                    <div class="d-none d-lg-block mr-2">
+                    <div class="d-none d-xl-block mr-2">
                         <a href="javascript:void(0);" data-toggle="class-toggle-custom"
                             data-target=".front-header-search">
                             <img src="../../public/images/icon-search.png" alt="" class="icon-search">

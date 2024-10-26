@@ -720,7 +720,7 @@
         padding: 3%;
         width: 54%;
         position: absolute;
-        right: 0px;
+        right: 17px;
         bottom: -18%;
       }
         .box-Agricultural-slide .item .text .-pro {
@@ -833,7 +833,10 @@
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
+  .box-Knowledge .-sticky {
+    top: 47px;
+    z-index: 6;
+  }
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
     .box-banner .b-text {
@@ -851,9 +854,6 @@
       height: 100%;
       object-fit: cover;
       inset: 0;
-    }
-    .box-Knowledge .-sticky {
-      top: 47px;
     }
     .box-Agricultural-slide .item .text {
       position: initial;
