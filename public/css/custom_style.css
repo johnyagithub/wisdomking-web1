@@ -1297,7 +1297,8 @@ ul.ul-style {
   }
 
 .--detail {
-
+  max-width: 1100px;
+  margin: auto;
 }
   .--detail .slide-show {
     padding: 25px 0px;
