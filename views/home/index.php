@@ -260,11 +260,11 @@
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
 					<div class="ml-auto d-flex flex-wrap" data-showId="data-Calendar">
-						<button type="button" class="btn-style3 px-3 py-1 m-1 d-block active">ทั้งหมด</button>
-						<button type="button" data-type="tab1" class="btn-style3 px-3 py-1 m-1 d-block">ท่องเที่ยวสุขสันต์
+						<button type="button" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</button>
+						<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted m-1">ท่องเที่ยวสุขสันต์
 							ที่พิพิธภัณฑ์เกษตรฯ</button>
-						<button type="button" data-type="tab2" class="btn-style3 px-3 py-1 m-1 d-block">หลักสูตรอบรมเข้มข้น</button>
-						<button type="button" data-type="tab3" class="btn-style3 px-3 py-1 m-1 d-block">อื่นๆ</button>
+						<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted m-1">หลักสูตรอบรมเข้มข้น</button>
+						<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted m-1">อื่นๆ</button>
 					</div>
 				</div>
 				<div class="row align-items-center">
@@ -865,7 +865,7 @@
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -886,7 +886,7 @@
 										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img2.jpg" alt="">
 								</div>
@@ -906,7 +906,7 @@
 										ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img3.jpg" alt="">
 								</div>
@@ -927,7 +927,7 @@
 										เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -954,7 +954,7 @@
 					<div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -981,7 +981,7 @@
 					<div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -1008,7 +1008,7 @@
 					<div class="tab-pane fade" id="nav4" role="tabpanel" aria-labelledby="nav4-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -1035,7 +1035,7 @@
 					<div class="tab-pane fade" id="nav5" role="tabpanel" aria-labelledby="nav5-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>
@@ -1062,7 +1062,7 @@
 					<div class="tab-pane fade" id="nav6" role="tabpanel" aria-labelledby="nav6-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="#" class="item">
+							<a href="../news/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/news/img1.jpg" alt="">
 								</div>

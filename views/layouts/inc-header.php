@@ -19,7 +19,8 @@
                                 placeholder="ค้นหาข่าว" autocomplete="off">
                             <div class="input-group-append">
                                 <button class="btn px-3 btn-sm" type="submit">
-                                    <i class="la la-search la-flip-horizontal"></i>
+                                    <img src="../../public/images/icon-search.png" alt="" class="icon-search"
+                                        style="width: 24px;">
                                 </button>
                             </div>
                         </div>
@@ -42,7 +43,7 @@
                             ข่าว & ประชาสัมพันธ์
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">ข่าว & ประชาสัมพันธ์</a>
+                            <a class="dropdown-item" href="../news/">ข่าว & ประชาสัมพันธ์</a>
                             <a class="dropdown-item" href="#">ประกาศจัดซื้อจัดจ้าง</a>
                             <a class="dropdown-item" href="#">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
                             <a class="dropdown-item" href="#">ข่าวรับสมัครงาน</a>
@@ -164,7 +165,8 @@
                         </a>
                     </div>
 
-                    <a href="../login" class="icon-pro"><img src="../../public/images/icon-pro.png" alt="">สมัคสมาชิก</a>
+                    <a href="../login" class="icon-pro"><img src="../../public/images/icon-pro.png"
+                            alt="">สมัคสมาชิก</a>
 
                     <a class="btn btn-style m-1" href="#" role="button">เข้าร่วมโครงการส่งเสริมการเรียนรู้</a>
                     <a class="btn btn-style m-1" href="#" role="button">e-Learning</a>
