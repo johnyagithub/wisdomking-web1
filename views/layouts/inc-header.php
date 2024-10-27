@@ -68,8 +68,8 @@
                             มหกรรมตลาดเศรษฐกิจพอเพียง
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">พิพิธภัณฑ์ของเรา</a>
-                            <a class="dropdown-item" href="#">สื่อการเรียนรู้</a>
+                            <a class="dropdown-item" href="../ourmuseum/">พิพิธภัณฑ์ของเรา</a>
+                            <a class="dropdown-item" href="../Learning/">สื่อการเรียนรู้</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">

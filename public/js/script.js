@@ -65,12 +65,23 @@ $(function () {
   });
 
   $('[data-toggle="tooltip"]').tooltip();
+
+  $("a[href*='#']").click(function () {
+    ScrollTop($(this).attr("href"));
+  });
 });
 
 window.onload = function () {
   setTimeout(() => {
     $('body').addClass('Loaded');
   }, 200);
+}
+
+let ScrollTop = (index) => {
+  $("html,body").animate({
+    scrollTop: $(index).offset().top - ($('header').height() + 60)
+  }, "1000");
+  return false;
 }
 
 let styleSwitch = () => {
