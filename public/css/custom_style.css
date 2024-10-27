@@ -83,8 +83,11 @@ body .form-control {
  font-size: 16px;
  background-color: #f6f6f6;
  height: 48px;
- padding: 5px 20px;
+ padding: 5px 14px;
  box-shadow: none !important;
+}
+body .form-control::placeholder {
+ color: #B6B6B6 !important;
 }
 .form-control-style {
   border: 1px solid #99DF37;
@@ -117,6 +120,43 @@ body [class*="border"] ,
 body hr {
  border-color: rgba(199, 199, 199, 0.5) !important;
 }
+
+.table.table-striped {
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 6px #ffffff, 0px 0px 0px 7px #B6B6B6;
+}
+  .table.table-striped thead tr {
+    white-space: nowrap;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+    background: #F5F5F5;
+  }
+    .table.table-striped thead tr th {
+      background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+      color: #fff;
+    }
+
+.table.table-striped thead {}
+
+.select2-container {
+  width: 100% !important;
+}
+  span.select2-selection__rendered[title="กรุณาเลือกตำแหน่งงาน"] ,
+  span.select2-selection__rendered[title="กรุณาเลือกประเภทงาน"] {
+    color: #B6B6B6 !important;
+  }
+  .select2-container--default .select2-selection--single {
+      height: 48px !important;
+      padding: 8px 14px;
+      box-shadow: none !important;
+      border-color: #ced4da !important;
+  }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+      top: 50% !important;
+      transform: translateY(-50%);
+      width: 30px !important;
+    }
 
 .first-child-border > [class*="border"]:first-child {
  border: 0px !important;
@@ -1299,6 +1339,7 @@ ul.ul-style {
 .--detail {
   max-width: 1100px;
   margin: auto;
+  padding-bottom: 30px;
 }
   .--detail .slide-show {
     padding: 25px 0px;
@@ -1441,20 +1482,25 @@ footer {
       
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
-	.owl-nav button {
- 	opacity: 1;
- }
- .box-BGvideo img {
-  aspect-ratio: 3/2;
- }
- .box-breadcrumb {
-  background-position-x: center;
- }
- .box-breadcrumb h1 {
-  font-size: 24px;
- }
+  .owl-nav button {
+    opacity: 1;
+  }
+  .box-BGvideo img {
+    aspect-ratio: 3/2;
+  }
+  .box-breadcrumb {
+    background-position-x: center;
+  }
+  .box-breadcrumb h1 {
+    font-size: 24px;
+  }
   .form-news .input-group-append button.btn {
     min-width: auto;
+  }
+  .box-back a {
+    position:inherit;
+    margin-bottom: 10px;
+    display: block;
   }
 }
 

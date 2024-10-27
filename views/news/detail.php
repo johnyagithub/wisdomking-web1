@@ -137,20 +137,20 @@
 					</div>
 
 					<div class="row">
-						<div class="col-6">
-							<a href="#" class="border p-4 d-block text-muted" style="border-radius: 8px;">
+						<div class="col-6 pr-2 pr-sm-3">
+							<a href="#" class="btn btn-outline-light text-left border p-4 text-muted w-100">
 								<i class="fa fa-angle-left" aria-hidden="true"></i>
 								ย้อนกลับ
 								<br>
-								<b class="text-dark">Lorem Ipsum is simply dummy text</b>
+								<b class="text-dark text-line2">Lorem Ipsum is simply dummy text</b>
 							</a>
 						</div>
-						<div class="col-6">
-							<a href="#" class="border p-4 d-block text-right text-muted" style="border-radius: 8px;">
+						<div class="col-6 pl-2 pl-sm-3">
+							<a href="#" class="btn btn-outline-light border p-4 text-right text-muted w-100">
 								ต่อไป
 								<i class="fa fa-angle-right" aria-hidden="true"></i>
 								<br>
-								<b class="text-dark">Lorem Ipsum is simply dummy text</b>
+								<b class="text-dark text-line2">Lorem Ipsum is simply dummy text</b>
 							</a>
 						</div>
 					</div>
