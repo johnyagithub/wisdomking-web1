@@ -57,11 +57,11 @@ $(function () {
     $("header button.navbar-toggler").click();
   });
 
-  $(".--detail .slide-show .hide-next").click(function () {
-    $(".--detail .slide-show").find(".owl-prev").click();
+  $(".slide-show .hide-next").click(function () {
+    $(".slide-show").find(".owl-prev").click();
   });
-  $(".--detail .slide-show .hide-prev").click(function () {
-    $(".--detail .slide-show").find(".owl-next").click();
+  $(".slide-show .hide-prev").click(function () {
+    $(".slide-show").find(".owl-next").click();
   });
 
   $('[data-toggle="tooltip"]').tooltip();

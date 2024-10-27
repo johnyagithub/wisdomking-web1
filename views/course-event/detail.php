@@ -17,13 +17,18 @@
 	<div id="content" class="content">
 
 		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb container bg-white">
+			<ol class="breadcrumb container bg-white justify-content-center mb-3">
 				<li class="breadcrumb-item">
 					<a href="../home/">
 						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก
 					</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">มาตรการ COVID-19</li>
+				<li class="breadcrumb-item">
+					<a href="../home/">
+						โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง
+					</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">หลักสูตร “ตามรอยพ่อ”</li>
 			</ol>
 		</nav>
 
@@ -39,12 +44,12 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">มาตรการ COVID-19</h4>
+					<h4 class="head mb-4 text-center">หลักสูตร “ตามรอยพ่อ”</h4>
 					<p class="text-center mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 						Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
-					<img src="../../public/images/calendar/img1.jpg" class="rounded w-100" alt="">
+					<img src="../../public/images/img-course.jpg" class="rounded w-100" alt="">
 					<div class="d-flex flex-wrap my-3 align-items-center">
 						<div class="-date">
 							17 สิงหาคม 2023
@@ -64,8 +69,78 @@
 							</a>
 						</div>
 					</div>
+					<div class="px-lg-5">
+						<table class="w-100">
+							<tr>
+								<td><b>ระยะเวลาเรียนรู้ 2 ชั่วโมง</b></td>
+								<td>เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</td>
+							</tr>
+							<tr>
+								<td>ค่าลงทะเบียนเรียนรู้</td>
+								<td>
+									<table>
+										<tr>
+											<td>เด็ก/นักเรียน/นักศึกษา</td>
+											<td>ราคา 60 บาท</td>
+										</tr>
+										<tr>
+											<td>ประชาชน</td>
+											<td>ราคา 80 บาท</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr style="background: #F8F8F8;">
+								<td colspan="2" class="text-center p-3">ราคาดังกล่าวรวมค่าวิทยาการตลอดหลักสูตร, ค่าอุปกรณ์การเรียนรู้
+									และค่าห้องประชุม</td>
+							</tr>
+							<tr>
+								<td><b>กิจกรรมการเรียนรู้ดังนี้</b></td>
+								<td>
+									<ul>
+										<li>เลือกชมภาพยนตร์ 3 มิติ ได้ 1 เรื่อง</li>
+										<li>เลือกกิจกรรมสร้างสรรค์ความคิด ได้ 1 กิจกรรม</li>
+										<li>เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร ได้ 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>กำหนดการ</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>หลักสูตรเหมาะสำหรับ</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>ประเภทกิจกรรม</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>ระยะเวลา</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+					<hr class="my-4">
+					<div class="px-lg-5">
+						<div class="text-center pt-2">
+							<b>หมายเหตุ : </b>หลักสูตร/ค่าลงทะเบียนเรียนรู้
+							สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ
+							สงวนสิทธิการเปลี่ยนแปลงตามความเหมาะสม
+						</div>
+						<div class="row justify-content-center py-4">
+							<div class="col-6 clo-md-3 col-lg-2 px-1">
+								<a class="btn btn-light border bg-white rounded-pill w-100"
+									href="javascript:history.back()">ย้อนกลับ</a>
+							</div>
+							<div class="col-6 clo-md-5 col-lg-2 px-1">
+								<a class="btn btn-style w-100" href="#" role="button">เข้าร่วมหลักสูตร</a>
+							</div>
+						</div>
+					</div>
 
-					<div class="py-4 border-top mt-5">
+					<div class="py-4 border-top mt-3">
 						Share this:
 						<div class="d-flex flex-wrap my-3">
 							<div>

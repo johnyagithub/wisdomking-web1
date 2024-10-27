@@ -45,7 +45,7 @@
 							<div class="form-group">
 								<label>ปีงบประมาณ</label>
 								<select class="templatingSelect2">
-									<option value="">กรุณาเลือปีงบประมาณ</option>
+									<option value="">กรุณาเลือกปีงบประมาณ</option>
 									<option value="usd">USD</option>
 									<option value="euro">Euro</option>
 									<option value="gbp">Pound</option>

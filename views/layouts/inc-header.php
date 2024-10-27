@@ -57,11 +57,10 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item"
                                 href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
-                            <a class="dropdown-item" href="#">หลักสูตร</a>
-                            <a class="dropdown-item" href="#">ปฏิทินกิจกรรม</a>
-                            <a class="dropdown-item" href="#">ปฏิทินกิจกรรมการเรียนรู้</a>
-                            <a class="dropdown-item" href="#">1ไร่ มั่งคั่ง ยั่งยืน</a>
-                            <a class="dropdown-item" href="#">โครงการ อพ.สธ.</a>
+                            <a class="dropdown-item" href="../calendar/">ปฏิทินกิจกรรม</a>
+                            <a class="dropdown-item" href="../calendar-learn/">ปฏิทินกิจกรรมการเรียนรู้</a>
+                            <a class="dropdown-item" href="../museam-1-by-1/">1ไร่ มั่งคั่ง ยั่งยืน</a>
+                            <a class="dropdown-item" href="../project/">โครงการ อพ.สธ.</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
