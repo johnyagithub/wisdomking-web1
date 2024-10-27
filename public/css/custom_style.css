@@ -92,7 +92,7 @@ body .form-control {
  box-shadow: none !important;
 }
 body .form-control::placeholder {
- color: #B6B6B6 !important;
+ color: #B6B6B6;
 }
 .form-control-style {
   border: 1px solid #99DF37;
@@ -1492,36 +1492,52 @@ ul.ul-style {
         inset: 0px 0px 0px auto;
       }
 
-.box-Market {
+.box-Course {
 
 }
-  .box-Market .item-show {
+  .box-Course .item {
     border-radius: var(--border_radius);
     overflow: hidden;
     position: relative;
     display: block;
   }
-    .box-Market .item-show .img {
+  .box-Course .item .item::after {
+    content: "";
+    border-bottom: 1px solid #C9C9C9;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -39px;
+  }
+    .box-Course .item .img {
       background: #efefef;
     }
-      .box-Market .item-show img {
+      .box-Course .item img {
         aspect-ratio: 140 / 54;
         object-fit: cover;
       }
 
-    .box-Market .item-show .text {
-      padding: 18px;
+    .box-Course .item .text {
+      padding: 20px;
       position: absolute;
       inset: auto 0 0 0;
       color: #fff;
       background: linear-gradient(180deg, rgb(43 203 126 / 48%) 0%, #37A8E2 100%);
       border-radius: 0 0 var(--border_radius) var(--border_radius);
+      display: flex;
+      align-items: center;
     }
-      .box-Market .item-show .-date {
+      .box-Course .item .--button {
+        border-left: 1px solid #FFFFFF;
+        padding: 20px 27px;
+        margin-left: 26px;
+        white-space: nowrap;
+      }
+      .box-Course .item .-date {
         position: relative;
         color: #fff;
       }
-      .box-Market .item-show .-date::before {
+      .box-Course .item .-date::before {
         content: "";
         background: url(../images/icon-date2.png) no-repeat center;
         background-size: contain;
@@ -1699,7 +1715,7 @@ footer {
   body .h5 {
     font-size: 1.2em;
   }
-  .box-Market .item-show .text {
+  .box-Course .item .text {
     position: relative;
   }
  /* แนวตั้ง */

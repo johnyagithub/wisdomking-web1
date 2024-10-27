@@ -188,11 +188,11 @@ let sliderMarket = () => {
     var imgMarket = $(this).data('img');
     var subjectMarket = $(this).data('subject');
     var dateMarket = $(this).data('date');
-    $('#Market-show .item img').fadeOut(function () {
+    $('#Market-show .item-show img').fadeOut(function () {
       $(this).attr('src', imgMarket).fadeIn();
     });
-    $('#Market-show .item .text h5').text(subjectMarket);
-    $('#Market-show .item .text .-date').text(dateMarket);
+    $('#Market-show .item-show .text h5').text(subjectMarket);
+    $('#Market-show .item-show .text .-date').text(dateMarket);
   });
 };
 

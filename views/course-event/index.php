@@ -50,35 +50,106 @@
 						</div>
 					</div>
 				</div>
-				<div class="box-Market pb-4">
+				<div class="box-Course pb-4">
 
-					<a href="#" class="item-show">
+					<div class="item">
 						<div class="img">
 							<img src="../../public/images/img1.jpg" alt="">
 						</div>
 						<div class="text">
-							<h5>เรื่องข้าวชาวเกษตร</h5>
-							<div class="-date">04-05 พฤษภาคม 2567</div>
+							<div class="w-100">
+								<h5>หลักสูตร “ตามรอยพ่อ”</h5>
+								<p>ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+							</div>
+							<div class="--button">
+								<a class="btn btn-light px-5 rounded-pill" href="#">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
 						</div>
-					</a>
-					<a href="#" class="item-show">
+					</div>
+					<div class="item">
 						<div class="img">
 							<img src="../../public/images/img1.jpg" alt="">
 						</div>
 						<div class="text">
-							<h5>เรื่องข้าวชาวเกษตร</h5>
-							<div class="-date">04-05 พฤษภาคม 2567</div>
+							<div class="w-100">
+								<h5>หลักสูตร “ตามรอยพ่อ”</h5>
+								<p>ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+							</div>
+							<div class="--button">
+								<a class="btn btn-light px-5 rounded-pill" href="#">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
 						</div>
-					</a>
-					<a href="#" class="item-show">
+					</div>
+					<div class="item">
 						<div class="img">
 							<img src="../../public/images/img1.jpg" alt="">
 						</div>
 						<div class="text">
-							<h5>เรื่องข้าวชาวเกษตร</h5>
-							<div class="-date">04-05 พฤษภาคม 2567</div>
+							<div class="w-100">
+								<h5>หลักสูตร “ตามรอยพ่อ”</h5>
+								<p>ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+							</div>
+							<div class="--button">
+								<a class="btn btn-light px-5 rounded-pill" href="#">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
 						</div>
-					</a>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="w-100">
+								<h5>หลักสูตร “ตามรอยพ่อ”</h5>
+								<p>ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+							</div>
+							<div class="--button">
+								<a class="btn btn-light px-5 rounded-pill" href="#">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="w-100">
+								<h5>หลักสูตร “ตามรอยพ่อ”</h5>
+								<p>ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+							</div>
+							<div class="--button">
+								<a class="btn btn-light px-5 rounded-pill" href="#">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="w-100">
+								<h5>หลักสูตร “ตามรอยพ่อ”</h5>
+								<p>ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+							</div>
+							<div class="--button">
+								<a class="btn btn-light px-5 rounded-pill" href="#">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="img">
+							<img src="../../public/images/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<div class="w-100">
+								<h5>หลักสูตร “ตามรอยพ่อ”</h5>
+								<p>ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+							</div>
+							<div class="--button">
+								<a class="btn btn-light px-5 rounded-pill" href="#">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
 
 				</div>
 
