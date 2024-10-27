@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+	<?php include('../layouts/inc-meta.php'); ?>
+	<!-- select2 -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<!-- begin #header -->
+	<?php include('../layouts/inc-header.php'); ?>
+	<!-- end #header -->
+
+	<!-- begin #content -->
+	<div id="content" class="content">
+
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb container bg-white">
+				<li class="breadcrumb-item">
+					<a href="../home/">
+						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก
+					</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</li>
+			</ol>
+		</nav>
+
+		<section class="py-4">
+			<div class="container">
+				<div class="mx-auto" style="max-width: 1000px;">
+					<h4 class="head mb-4 text-center">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</h4>
+					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+						has been the
+						industry's standard dummy text ever since the 1500s,</p>
+					<div class="row justify-content-center pb-4">
+						<div class="col-sm-9 col-md-8 col-lg-6">
+							<div class="form-group">
+								<label>โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</label>
+								<select class="templatingSelect2">
+									<option value="">กรุณาเลือปีงบประมาณ</option>
+									<option value="usd">USD</option>
+									<option value="euro">Euro</option>
+									<option value="gbp">Pound</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="box-Market pb-4">
+
+					<a href="#" class="item-show">
+						<div class="img">
+							<img src="../../public/images/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<h5>เรื่องข้าวชาวเกษตร</h5>
+							<div class="-date">04-05 พฤษภาคม 2567</div>
+						</div>
+					</a>
+					<a href="#" class="item-show">
+						<div class="img">
+							<img src="../../public/images/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<h5>เรื่องข้าวชาวเกษตร</h5>
+							<div class="-date">04-05 พฤษภาคม 2567</div>
+						</div>
+					</a>
+					<a href="#" class="item-show">
+						<div class="img">
+							<img src="../../public/images/img1.jpg" alt="">
+						</div>
+						<div class="text">
+							<h5>เรื่องข้าวชาวเกษตร</h5>
+							<div class="-date">04-05 พฤษภาคม 2567</div>
+						</div>
+					</a>
+
+				</div>
+
+			</div>
+	</div>
+	</section>
+
+	</div>
+	<!-- end #content -->
+
+	<!-- begin #footer -->
+	<?php include('../layouts/inc-footer.php'); ?>
+	<!-- end #footer -->
+
+	<?php include('../layouts/inc-script.php'); ?>
+	<!-- select2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+	<script>
+		$(".templatingSelect2").select2();
+	</script>
+
+</body>
+
+</html>

@@ -55,7 +55,8 @@
                             ปฏิทินกิจกรรมการเรียนรู้
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
+                            <a class="dropdown-item"
+                                href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
                             <a class="dropdown-item" href="#">หลักสูตร</a>
                             <a class="dropdown-item" href="#">ปฏิทินกิจกรรม</a>
                             <a class="dropdown-item" href="#">ปฏิทินกิจกรรมการเรียนรู้</a>

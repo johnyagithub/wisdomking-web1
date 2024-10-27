@@ -88,87 +88,204 @@
 					</div>
 				</div>
 
-				<table class="table table-striped">
-					<thead>
-						<tr>
-							<th>ชื่องาน</th>
-							<th>ตำแหน่ง</th>
-							<th>ประเภทงาน</th>
-							<th>วันที่ประกาศ</th>
-							<th>จำนวนผู้เยี่ยมชม</th>
-							<th>โหลดเอกสาร</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th>ประกาศรายชื่อผู้ผ่านการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการปฏิบัติงานด้านการ
-								ประสานงานและการจัดนิทรรศการสัญจร</th>
-							<td>สำนักพัฒนากิจการ</td>
-							<td>จ้างเหมาบริการ</td>
-							<td>24-May-2567</td>
-							<td>
-								<div class="-view">250</div>
-							</td>
-							<td>
-								<button type="button" class="download-pdf" download="#"></button>
-							</td>
-						</tr>
-						<tr>
-							<th>รับสมัครเจ้าหน้าที่จ้างเหมาบริการปฏิบัติด้านการประสานงานและจัดนิทรรศการสัญจร</th>
-							<td>สำนักพัฒนากิจการ</td>
-							<td>จ้างเหมาบริการ</td>
-							<td>24-May-2567</td>
-							<td>
-								<div class="-view">250</div>
-							</td>
-							<td>@mdo</td>
-						</tr>
-						<tr>
-							<th>ประกาศรายชื่อผู้ผ่านการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการ ปฏิบัติงานด้านธุรการ หน่วยงานตรวจสอบภายใน
-							</th>
-							<td>สำนักพัฒนากิจการ</td>
-							<td>จ้างเหมาบริการ</td>
-							<td>24-May-2567</td>
-							<td>
-								<div class="-view">250</div>
-							</td>
-							<td>@mdo</td>
-						</tr>
-						<tr>
-							<th>ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการ ปฏิบัติงานด้านธุรการ
-								หน่วยงานตรวจสอบภายใน</th>
-							<td>หน่วยงานตรวจสอบ ภายใน</td>
-							<td>จ้างเหมาบริการ</td>
-							<td>24-May-2567</td>
-							<td>
-								<div class="-view">250</div>
-							</td>
-							<td>@mdo</td>
-						</tr>
-						<tr>
-							<th>รับสมัครเจ้าหน้าที่จ้างเหมาบริการบุคคลธรรมดาปฏิบัติงานด้านธุรการหน่วยงาน
-								ตรวจสอบภายใน จำนวน 1 อัตรา</th>
-							<td>หน่วยงานตรวจสอบ ภายใน</td>
-							<td>จ้างเหมาบริการ</td>
-							<td>24-May-2567</td>
-							<td>
-								<div class="-view">250</div>
-							</td>
-							<td>@mdo</td>
-						</tr>
-						<tr>
-							<th>รับสมัครเจ้าหน้าที่จ้างเหมาบริการบุคคลธรรมดาปฏิบัติงานด้านธุรการหน่วยงาน
-								ตรวจสอบภายใน จำนวน 1 อัตรา</th>
-							<td>หน่วยงานตรวจสอบ ภายใน</td>
-							<td>จ้างเหมาบริการ</td>
-							<td>24-May-2567</td>
-							<td>
-								<div class="-view">250</div>
-							</td>
-							<td>@mdo</td>
-						</tr>
-					</tbody>
-				</table>
+				<div class="table-responsive">
+					<table class="table table-striped text-center" style="min-width: 1000px;">
+						<thead>
+							<tr>
+								<th class="text-left">ชื่องาน</th>
+								<th>ตำแหน่ง</th>
+								<th style="min-width: 130px;">ประเภทงาน</th>
+								<th style="min-width: 140px;">วันที่ประกาศ</th>
+								<th>จำนวนผู้เยี่ยมชม</th>
+								<th style="width: 110px;">โหลดเอกสาร</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th class="text-left">ประกาศรายชื่อผู้ผ่านการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการปฏิบัติงานด้านการ
+									ประสานงานและการจัดนิทรรศการสัญจร</th>
+								<td>สำนักพัฒนากิจการ</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">รับสมัครเจ้าหน้าที่จ้างเหมาบริการปฏิบัติด้านการประสานงานและจัดนิทรรศการสัญจร</th>
+								<td>สำนักพัฒนากิจการ</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">ประกาศรายชื่อผู้ผ่านการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการ ปฏิบัติงานด้านธุรการ
+									หน่วยงานตรวจสอบภายใน
+								</th>
+								<td>สำนักพัฒนากิจการ</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการ
+									ปฏิบัติงานด้านธุรการ
+									หน่วยงานตรวจสอบภายใน</th>
+								<td>หน่วยงานตรวจสอบ ภายใน</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">รับสมัครเจ้าหน้าที่จ้างเหมาบริการบุคคลธรรมดาปฏิบัติงานด้านธุรการหน่วยงาน
+									ตรวจสอบภายใน จำนวน 1 อัตรา</th>
+								<td>หน่วยงานตรวจสอบ ภายใน</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">รับสมัครเจ้าหน้าที่จ้างเหมาบริการบุคคลธรรมดาปฏิบัติงานด้านธุรการหน่วยงาน
+									ตรวจสอบภายใน จำนวน 1 อัตรา</th>
+								<td>หน่วยงานตรวจสอบ ภายใน</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">ประกาศรายชื่อผู้ผ่านการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการปฏิบัติงานด้านการ
+									ประสานงานและการจัดนิทรรศการสัญจร</th>
+								<td>สำนักพัฒนากิจการ</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">รับสมัครเจ้าหน้าที่จ้างเหมาบริการปฏิบัติด้านการประสานงานและจัดนิทรรศการสัญจร</th>
+								<td>สำนักพัฒนากิจการ</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">ประกาศรายชื่อผู้ผ่านการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการ ปฏิบัติงานด้านธุรการ
+									หน่วยงานตรวจสอบภายใน
+								</th>
+								<td>สำนักพัฒนากิจการ</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">ประกาศรายชื่อผู้มีสิทธิ์เข้ารับการคัดเลือกเป็นเจ้าหน้าที่จ้างเหมาบริการ
+									ปฏิบัติงานด้านธุรการ
+									หน่วยงานตรวจสอบภายใน</th>
+								<td>หน่วยงานตรวจสอบ ภายใน</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">รับสมัครเจ้าหน้าที่จ้างเหมาบริการบุคคลธรรมดาปฏิบัติงานด้านธุรการหน่วยงาน
+									ตรวจสอบภายใน จำนวน 1 อัตรา</th>
+								<td>หน่วยงานตรวจสอบ ภายใน</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<th class="text-left">รับสมัครเจ้าหน้าที่จ้างเหมาบริการบุคคลธรรมดาปฏิบัติงานด้านธุรการหน่วยงาน
+									ตรวจสอบภายใน จำนวน 1 อัตรา</th>
+								<td>หน่วยงานตรวจสอบ ภายใน</td>
+								<td>จ้างเหมาบริการ</td>
+								<td>24-May-2567</td>
+								<td>
+									<div class="-view m-0">250</div>
+								</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 
 				<div class="--detail">
 					<div class="py-4 border-top">
@@ -223,7 +340,6 @@
 
 	<?php include('../layouts/inc-script.php'); ?>
 	<!-- select2 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>
 		$(".templatingSelect2").select2();
