@@ -1641,6 +1641,20 @@ ul.ul-style {
       background: linear-gradient(180deg, rgb(43 203 126 / 48%) 0%, #37A8E2 100%);
       border-radius: 0 0 var(--border_radius) var(--border_radius);
     }
+      .box-Ourmuseum .item .text h6 {
+        -webkit-line-clamp: 1;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .box-Ourmuseum .item .text h4 {
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
       .box-Ourmuseum .item .text span {
         font-size: 1.125em;
       }
@@ -1865,7 +1879,13 @@ footer {
  } 
  /* แนวนอน */
  @media only screen and (orientation:landscape){
-
+  .box-Ourmuseum .item {
+    height: 100%;
+  }
+  .box-Ourmuseum .item .text {
+    position: inherit;
+    height: calc(100% - 27vw);
+  }
  }
 }
 

@@ -78,8 +78,15 @@ window.onload = function () {
 }
 
 let ScrollTop = (index) => {
+  if ($(window).width() < 768) {
+    var e = $(index).offset().top - ($('header').height() + 10);
+  }else if ($(window).width() < 1024) {
+    var e = $(index).offset().top - ($('header').height() + 120);
+  }else{
+    var e = $(index).offset().top - ($('header').height() + 70);
+  }
   $("html,body").animate({
-    scrollTop: $(index).offset().top - ($('header').height() + 60)
+    scrollTop: e
   }, "1000");
   return false;
 }
