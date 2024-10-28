@@ -42,7 +42,7 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="--detail">
-					<img src="../../public/images/calendar/img1.jpg" class="rounded w-100" alt="">
+					<img src="../../public/images/ourmuseum/img1.jpg" class="rounded w-100" alt="">
 					<div class="d-flex flex-wrap my-3 align-items-center">
 						<div class="-date">
 							17 สิงหาคม 2023
