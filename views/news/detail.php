@@ -45,8 +45,7 @@
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">ข่าวผู้บริหาร</h4>
-					<p class="text-center mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-						Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
 					<img src="../../public/images/news/img3.jpg" class="rounded2 w-100" alt="">

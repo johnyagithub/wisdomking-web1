@@ -201,6 +201,25 @@ body hr {
           background: #E8E8E8;
       }
 
+table.table-gradient {
+  background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+  color: #fff;
+  border-radius: var(--border_radius);
+  overflow: hidden;
+  outline: 1px solid #CECECE;
+}
+  table.table-gradient td:not(:first-child) {
+    background: #fff;
+    color: #626262;
+  }
+  table.table-gradient td {
+    padding: 10px 18px !important;
+    border: 1px solid #D7D7D7;
+  }
+  table.table-gradient tr:nth-child(even) td:not(:first-child) {
+    background-color: #FAFAFA;
+  }
+
 .select2-container {
   width: 100% !important;
 }
@@ -1391,6 +1410,7 @@ ul.ul-style {
       margin-right: 6px;
       display: block;
       float: left;
+      margin-top: -3px;
     }
     .list-download .list .btn {
       padding: 10px 25px;
@@ -1535,6 +1555,25 @@ ul.ul-style {
   margin: auto;
   padding-bottom: 30px;
 }
+  .--detail table {
+    
+  }
+    .--detail table td {
+      padding: 5px 12px;
+    }
+    .--detail table td:not(:first-child) {
+      color: #666666;
+    }
+    .--detail table td.td-border-l::before {
+      content: "";
+      border-left: 1px solid #CDCDCD;
+      height: 12px;
+      display: inline-block;
+      margin-right: 12px;
+    }
+      .--detail table ul {
+        padding-left: 20px;
+      }
 
 .box-Course {
   counter-reset: item;
@@ -1574,7 +1613,7 @@ ul.ul-style {
       }
 
     .box-Course .item .text {
-      padding: 15px 35px;
+      padding: 15px 35px 15px 50px;
       position: absolute;
       inset: auto 0 0 0;
       color: #fff;
@@ -1585,10 +1624,10 @@ ul.ul-style {
     }
       .box-Course .item .text h4::before {
         content: counters(item, ".") ".";
-        margin-right: 6px;
-      }
-      .box-Course .item .text h4+p {
-        padding-left: 26px;
+        position: absolute;
+        left: 0px;
+        width: 44px;
+        text-align: right;
       }
       .box-Course .item .--button {
         border-left: 1px solid #FFFFFF;

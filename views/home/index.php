@@ -293,29 +293,29 @@
 								data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันอังคาร" data-start="09 กรกฎาคม" data-end="16 กรกฎาคม">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=09" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น,อื่นๆ" data-idtype="tab2 tab3"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันจันทร์" data-start="15 กรกฎาคม" data-end="16 กรกฎาคม">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=15" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันอังคาร" data-start="16 กรกฎาคม" data-end="16 กรกฎาคม">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=16" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันเสาร์" data-start="20 กรกฎาคม" data-end="16 กรกฎาคม">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=20" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันอาทิตย์" data-start="21 กรกฎาคม" data-end="16 กรกฎาคม">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=21" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
@@ -323,7 +323,7 @@
 					</div>
 					<div data-item="กันยายน">
 						<div class="item" data-day="วันจันทร์" data-start="08 กันยายน" data-end="16 กันยายน">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=08" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
@@ -331,13 +331,13 @@
 					</div>
 					<div data-item="ธันวาคม">
 						<div class="item" data-day="วันจันทร์" data-start="08 ธันวาคม" data-end="16 ธันวาคม">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=08" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
 						</div>
 						<div class="item" data-day="วันอาทิตย์" data-start="20 ธันวาคม" data-end="16 ธันวาคม">
-							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
+							<div class="list" data-img="https://placehold.co/630x830?text=20" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
 								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
@@ -383,19 +383,19 @@
 								<hr>
 								04 - 05
 							</div>
-							<div class="item" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+							<div class="item" data-img="https://placehold.co/800x300?text=1" data-subject="เรื่องข้าวชาวเกษตร"
 								data-date="04-05 กันยายน 2567">
 								กันยายน
 								<hr>
 								04 - 05
 							</div>
-							<div class="item" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+							<div class="item" data-img="https://placehold.co/800x300?text=2" data-subject="เรื่องข้าวชาวเกษตร"
 								data-date="04-05 สิงหาคม 2567">
 								สิงหาคม
 								<hr>
 								04 - 05
 							</div>
-							<div class="item active" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
+							<div class="item active" data-img="https://placehold.co/800x300?text=3" data-subject="เรื่องข้าวชาวเกษตร"
 								data-date="04-05 กรกฎาคม 2567">
 								กรกฎาคม
 								<hr>
@@ -533,7 +533,7 @@
 									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
-												<img src="../../public/images/Knowledge/img2.jpg" alt="">
+												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
@@ -561,7 +561,7 @@
 									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
-												<img src="../../public/images/Knowledge/img2.jpg" alt="">
+												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
@@ -589,7 +589,7 @@
 									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
-												<img src="../../public/images/Knowledge/img2.jpg" alt="">
+												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
@@ -617,7 +617,7 @@
 									<div class="col-md-6">
 										<a href="#" class="item" style="top: 195px;">
 											<div class="img">
-												<img src="../../public/images/Knowledge/img2.jpg" alt="">
+												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
@@ -655,7 +655,7 @@
 								<!-- ก้อนแรกซ้ายมือ -->
 								<a href="#" class="item item-left-sticky" style="top: 195px;">
 									<div class="img">
-										<img src="../../public/images/Knowledge/img2.jpg" alt="">
+										<img src="https://placehold.co/650x350" alt="">
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">

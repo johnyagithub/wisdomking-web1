@@ -38,8 +38,7 @@
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">ประกาศจัดซื้อจัดจ้าง</h4>
-					<p class="text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-						Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center mb-4 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 
 				<div class="pb-4">

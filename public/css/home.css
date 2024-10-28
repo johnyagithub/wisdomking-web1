@@ -726,7 +726,9 @@
 }
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
-
+  #slide-Month {
+    font-size: 25px;
+  }
 }
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
@@ -879,12 +881,27 @@
   #slide-Day .item div {
     font-size: 15px;
     line-height: 11px;
+    padding-bottom: 0px;
   }
   #slide-Day .item.active h4 {
     font-size: 25px;
   }
   #slide-Day .item h4 {
     font-size: 19px;
+  }
+  #slide-Day .owl-stage {
+    margin-right: auto;
+  }
+  .box-Market .owl-nav button ,
+  .box-Calendar .owl-nav button {
+    width: 27px;
+  }
+  .box-Calendar .owl-carousel ,
+  .box-Market .owl-carousel {
+    padding: 20px 30px;
+  }
+  .box-Market {
+    padding-bottom: 0px !important;
   }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
@@ -895,7 +912,8 @@
   }
   .box-Market .owl-carousel .item {
     width: calc(100% - 15px);
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: 500;
   }
   .box-Market .owl-carousel .item::after ,
   #slide-Day .item::after {

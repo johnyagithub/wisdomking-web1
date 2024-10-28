@@ -40,8 +40,7 @@
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">โครงการ อพ.สธ.</h4>
-					<p class="text-center mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-						Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
 					<img src="https://placehold.co/600x300" class="rounded w-100" alt="">
