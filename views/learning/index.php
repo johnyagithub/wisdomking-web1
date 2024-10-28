@@ -39,93 +39,134 @@
 					</div>
 				</div>
 
-				<div class="box-Ourmuseum row py-4" id="3D">
-					<div class="mx-auto" style="max-width: 1000px;">
-						<h4 class="head mb-4 text-center">ภาพยนตร์แอนิเมชั่น 3 มิติ</h4>
-						<p class="text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-							Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+				<div class="box-Learning detail row py-4" id="3D">
+					<div class="mx-auto col-12" style="max-width: 1000px;">
+						<h4 class="head mb-4 text-center w-100">ภาพยนตร์แอนิเมชั่น 3 มิติ</h4>
 					</div>
 
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="../../public/images/learning/img3.jpg" alt="">
 							</div>
 							<div class="text">
-								<h6 class="m-0">ชั้นที่ 1</h6>
-								<h4>พระราชพิธีในวิถีเกษตร</h4>
-								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								<h5 class="text-line1">เรื่องที่ 1</h5>
+								<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
 							</div>
 							<div class="text">
-								<h6 class="m-0">ชั้นที่ 2</h6>
-								<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
-								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								<h5 class="text-line1">เรื่องที่ 2</h5>
+								<p class="text-line2">แผ่นดินของเรา</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
 							</div>
 							<div class="text">
-								<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
-								<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
-								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								<h5 class="text-line1">เรื่องที่ 3</h5>
+								<p class="text-line2">ทรัพย์ดินสินน้ำ</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="../../public/images/learning/img3.jpg" alt="">
 							</div>
 							<div class="text">
-								<h6 class="m-0">ชั้นที่ 1</h6>
-								<h4>พระราชพิธีในวิถีเกษตร</h4>
-								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								<h5 class="text-line1">เรื่องที่ 1</h5>
+								<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
 							</div>
 							<div class="text">
-								<h6 class="m-0">ชั้นที่ 2</h6>
-								<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
-								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								<h5 class="text-line1">เรื่องที่ 2</h5>
+								<p class="text-line2">แผ่นดินของเรา</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
 							</div>
 							<div class="text">
-								<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
-								<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
-								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								<h5 class="text-line1">เรื่องที่ 3</h5>
+								<p class="text-line2">ทรัพย์ดินสินน้ำ</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="../../public/images/learning/img3.jpg" alt="">
 							</div>
 							<div class="text">
-								<h4>พระราชพิธีในวิถีเกษตร</h4>
-								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+								<h5 class="text-line1">เรื่องที่ 1</h5>
+								<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4">
+						<a href="../learning/detail.php" class="item text-dark">
+							<div class="img">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
+							</div>
+							<div class="text">
+								<h5 class="text-line1">เรื่องที่ 2</h5>
+								<p class="text-line2">แผ่นดินของเรา</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4">
+						<a href="../learning/detail.php" class="item text-dark">
+							<div class="img">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
+							</div>
+							<div class="text">
+								<h5 class="text-line1">เรื่องที่ 3</h5>
+								<p class="text-line2">ทรัพย์ดินสินน้ำ</p>
 							</div>
 						</a>
 					</div>
@@ -133,54 +174,92 @@
 				</div>
 				<hr class="my-4">
 
-				<div class="box-Ourmuseum row py-4" id="2D">
-					<div class="mx-auto" style="max-width: 1000px;">
-						<h4 class="head mb-4 text-center">วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ</h4>
-						<p class="text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-							Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+				<div class="box-Learning detail row py-4" id="2D">
+					<div class="mx-auto col-12" style="max-width: 1000px;">
+						<h4 class="head mb-4 text-center w-100">วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ</h4>
 					</div>
 
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="../../public/images/learning/img3.jpg" alt="">
 							</div>
 							<div class="text">
-								<h4>พระราชพิธีในวิถีเกษตร</h4>
-								<span><img src="../../public/images/sun.png" alt="">พิพิธภัณฑ์กลางแจ้ง</span>
+								<h5 class="text-line1">เรื่องที่ 1</h5>
+								<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
 							</div>
 							<div class="text">
-								<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
-								<span><img src="../../public/images/sun.png" alt="">พิพิธภัณฑ์กลางแจ้ง</span>
+								<h5 class="text-line1">เรื่องที่ 2</h5>
+								<p class="text-line2">แผ่นดินของเรา</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
 							</div>
 							<div class="text">
-								<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
-								<span><img src="../../public/images/sun.png" alt="">พิพิธภัณฑ์กลางแจ้ง</span>
+								<h5 class="text-line1">เรื่องที่ 3</h5>
+								<p class="text-line2">ทรัพย์ดินสินน้ำ</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../learning/detail.php" class="item">
+						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
-								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="../../public/images/learning/img3.jpg" alt="">
 							</div>
 							<div class="text">
-								<h4>พระราชพิธีในวิถีเกษตร</h4>
-								<span><img src="../../public/images/sun.png" alt="">พิพิธภัณฑ์กลางแจ้ง</span>
+								<h5 class="text-line1">เรื่องที่ 1</h5>
+								<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4">
+						<a href="../learning/detail.php" class="item text-dark">
+							<div class="img">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
+							</div>
+							<div class="text">
+								<h5 class="text-line1">เรื่องที่ 2</h5>
+								<p class="text-line2">แผ่นดินของเรา</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4">
+						<a href="../learning/detail.php" class="item text-dark">
+							<div class="img">
+								<div class="btn-play-video">
+									<button type="button" class="btn rounded-circle"></button>
+								</div>
+								<img src="https://placehold.co/400x565" alt="">
+							</div>
+							<div class="text">
+								<h5 class="text-line1">เรื่องที่ 3</h5>
+								<p class="text-line2">ทรัพย์ดินสินน้ำ</p>
 							</div>
 						</a>
 					</div>

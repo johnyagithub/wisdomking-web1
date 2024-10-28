@@ -1551,7 +1551,7 @@ ul.ul-style {
       }
 
 .--detail {
-  max-width: 1100px;
+  max-width: 1025px;
   margin: auto;
   padding-bottom: 30px;
 }
@@ -1574,6 +1574,42 @@ ul.ul-style {
       .--detail table ul {
         padding-left: 20px;
       }
+
+.box-Learning {
+  
+}
+  .box-Learning .item {
+
+  }
+    .box-Learning .item .img {
+      border-radius: var(--border_radius);
+    }
+      .box-Learning .item .img img {
+        aspect-ratio: 157 / 222;
+        object-fit: cover;
+      }
+      .box-Learning .item .img .btn-play-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        z-index: 1;
+        background-color: rgb(0 0 0 / 40%);
+      }
+        .box-Learning .item .img .btn-play-video button {
+          background: transparent url(../../public/images/icon-Play.png) center no-repeat;
+          background-size: contain;
+          width: 70px;
+          aspect-ratio: 1;
+          cursor: pointer;
+        }
+  
+    .box-Learning .item .text {
+      padding: 17px 0px 17px 25px;
+    }
 
 .box-Course {
   counter-reset: item;

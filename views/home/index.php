@@ -194,7 +194,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-5 col-lg-3 d-flex flex-column text-center text-sm-left order-sm-1">
-						<a href="#" class="text-secondary"><u>ทั้งหมด</u></a>
+						<a href="../learning/" class="text-secondary"><u>ทั้งหมด</u></a>
 						<div class="my-auto py-4">
 							<h3 class="head mb-4">สื่อการเรียนรู้</h3>
 							<h5>ภาพยนตร์แอนิเมชั่น 3 มิติ</h5>

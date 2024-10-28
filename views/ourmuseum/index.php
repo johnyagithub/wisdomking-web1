@@ -49,7 +49,7 @@
 				</div>
 
 				<div class="box-Ourmuseum row py-4" id="Indoor">
-					<div class="mx-auto" style="max-width: 1000px;">
+					<div class="mx-auto col-12" style="max-width: 1000px;">
 						<h4 class="head mb-4 text-center">พิพิธภัณฑ์ในอาคาร</h4>
 						<p class="text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 							Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -143,7 +143,7 @@
 				<hr class="my-4">
 
 				<div class="box-Ourmuseum row py-4" id="Outdoor">
-					<div class="mx-auto" style="max-width: 1000px;">
+					<div class="mx-auto col-12" style="max-width: 1000px;">
 						<h4 class="head mb-4 text-center">พิพิธภัณฑ์กลางแจ้ง</h4>
 						<p class="text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 							Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -198,7 +198,7 @@
 				<hr class="my-4">
 
 				<div class="box-Ourmuseum row py-4" id="Virtual">
-					<div class="mx-auto" style="max-width: 1000px;">
+					<div class="mx-auto col-12" style="max-width: 1000px;">
 						<h4 class="head mb-4 text-center">พิพิธภัณฑ์เสมือนจริง</h4>
 						<p class="text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 							Ipsum has been the industry's standard dummy text ever since the 1500s,</p>

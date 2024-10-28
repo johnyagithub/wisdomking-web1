@@ -42,7 +42,7 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="--detail">
-					<img src="../../public/images/calendar/img1.jpg" class="rounded w-100" alt="">
+					<img src="../../public/images/learning/img2.jpg" class="rounded w-100" alt="">
 					<div class="d-flex flex-wrap my-3 align-items-center">
 						<div class="-date">
 							17 สิงหาคม 2023
@@ -65,6 +65,11 @@
 
 					<div class="mx-auto" style="max-width: 1000px;">
 						<h4 class="head mb-4 text-center">พระราชพิธีในวิถีเกษตร</h4>
+						<h5>เรื่องที่ 1</h5>
+						<p>เรื่องของพ่อในบ้านของเรา</p>
+						<img src="../../public/images/learning/img3.jpg" class="rounded d-block mx-auto my-4" alt="">
+						<p class="text-center">ร่วมเรียนรู้ไปพร้อมกับ 3 เพื่อนซี้จอมป่วน ที่จะพาชมเรื่องราวของพ่อ ผู้ทรงงานหนักเพื่อความสุขของลูก
+							ผลผลิตที่พ่อก่อออกผล อย่างไรกับบ้านของเรา</p>
 					</div>
 
 					<div class="py-4 border-top mt-5">
@@ -111,7 +116,7 @@
 			</div>
 		</section>
 
-		<section class="box-News pb-4 pt-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
+		<section class="box-Learning detail pb-4 pt-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 ">
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
@@ -137,87 +142,52 @@
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="../learning/detail.php" class="item">
+							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
-									<img src="../../public/images/news/img1.jpg" alt="">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle"></button>
+									</div>
+									<img src="../../public/images/learning/img3.jpg" alt="">
 								</div>
 								<div class="text">
-									<div class="d-flex justify-content-between flex-wrap">
-										<div class="-date">
-											19 สิงหาคม 2023
-										</div>
-										<div class="-view">
-											300
-										</div>
-									</div>
-									<span class="-type">ข่าวผู้บริหาร</span>
-									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-										ประจำปี 2567 (NST FAIR 2024) </h5>
-									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+									<h5 class="text-line1">เรื่องที่ 1</h5>
+									<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
 								</div>
 							</a>
-							<a href="../learning/detail.php" class="item">
+							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
-									<img src="../../public/images/news/img2.jpg" alt="">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle"></button>
+									</div>
+									<img src="https://placehold.co/400x565" alt="">
 								</div>
 								<div class="text">
-									<div class="d-flex justify-content-between flex-wrap">
-										<div class="-date">
-											18 สิงหาคม 2023
-										</div>
-										<div class="-view">
-											300
-										</div>
-									</div>
-									<span class="-type">คณะเข้าชม</span>
-									<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
-									<p class="text-line3">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
-										พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
-										ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
+									<h5 class="text-line1">เรื่องที่ 2</h5>
+									<p class="text-line2">แผ่นดินของเรา</p>
 								</div>
 							</a>
-							<a href="../learning/detail.php" class="item">
+							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
-									<img src="../../public/images/news/img3.jpg" alt="">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle"></button>
+									</div>
+									<img src="https://placehold.co/400x565" alt="">
 								</div>
 								<div class="text">
-									<div class="d-flex justify-content-between flex-wrap">
-										<div class="-date">
-											17 สิงหาคม 2023
-										</div>
-										<div class="-view">
-											300
-										</div>
-									</div>
-									<span class="-type">คณะเข้าชม</span>
-									<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
-									<p class="text-line3">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ
-										พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี
-										โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
-										เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
+									<h5 class="text-line1">เรื่องที่ 3</h5>
+									<p class="text-line2">ทรัพย์ดินสินน้ำ</p>
 								</div>
 							</a>
-							<a href="../learning/detail.php" class="item">
+							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
-									<img src="../../public/images/news/img1.jpg" alt="">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle"></button>
+									</div>
+									<img src="https://placehold.co/400x565" alt="">
 								</div>
 								<div class="text">
-									<div class="d-flex justify-content-between flex-wrap">
-										<div class="-date">
-											19 สิงหาคม 2023
-										</div>
-										<div class="-view">
-											300
-										</div>
-									</div>
-									<span class="-type">ข่าวผู้บริหาร</span>
-									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-										ประจำปี 2567 (NST FAIR 2024) </h5>
-									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+									<h5 class="text-line1">เรื่องที่ 1</h5>
+									<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
 								</div>
 							</a>
 
@@ -226,25 +196,16 @@
 					<div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="../learning/detail.php" class="item">
+							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
-									<img src="../../public/images/news/img1.jpg" alt="">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle"></button>
+									</div>
+									<img src="../../public/images/learning/img3.jpg" alt="">
 								</div>
 								<div class="text">
-									<div class="d-flex justify-content-between flex-wrap">
-										<div class="-date">
-											19 สิงหาคม 2023
-										</div>
-										<div class="-view">
-											300
-										</div>
-									</div>
-									<span class="-type">ข่าวผู้บริหาร</span>
-									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-										ประจำปี 2567 (NST FAIR 2024) </h5>
-									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+									<h5 class="text-line1">เรื่องที่ 2</h5>
+									<p class="text-line2">แผ่นดินของเรา</p>
 								</div>
 							</a>
 
@@ -253,25 +214,16 @@
 					<div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
 						<div class="owl-carousel nav-dots-style show-dots">
 
-							<a href="../learning/detail.php" class="item">
+							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
-									<img src="../../public/images/news/img1.jpg" alt="">
+									<div class="btn-play-video">
+										<button type="button" class="btn rounded-circle"></button>
+									</div>
+									<img src="../../public/images/learning/img3.jpg" alt="">
 								</div>
 								<div class="text">
-									<div class="d-flex justify-content-between flex-wrap">
-										<div class="-date">
-											19 สิงหาคม 2023
-										</div>
-										<div class="-view">
-											300
-										</div>
-									</div>
-									<span class="-type">ข่าวผู้บริหาร</span>
-									<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-										ประจำปี 2567 (NST FAIR 2024) </h5>
-									<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-										ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-										สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+									<h5 class="text-line1">เรื่องที่ 1</h5>
+									<p class="text-line2">เรื่องของพ่อในบ้านของเรา</p>
 								</div>
 							</a>
 

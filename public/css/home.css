@@ -169,37 +169,13 @@
     width: 104%;
     margin-left: -4%;
   }
-    .box-Learning .img {
-      border-radius: var(--border_radius);
+    .box-Learning .item .img img {
+      aspect-ratio: 150 / 96;
     }
-      .box-Learning .img img {
-        aspect-ratio: 150 / 96;
-        object-fit: cover;
+      .box-Learning .item .text {
+        text-align: right;
       }
-      .box-Learning .img .btn-play-video {
-        position: absolute;
-        inset: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        z-index: 1;
-        background-color: rgb(0 0 0 / 20%);
-      }
-        .box-Learning .img .btn-play-video button {
-          background: transparent url(../../public/images/icon-Play.png) center no-repeat;
-          background-size: contain;
-          width: 70px;
-          aspect-ratio: 1;
-          cursor: pointer;
-        }
-  
-    .box-Learning .text {
-      text-align: right;
-      padding: 17px 0px 17px 25px;
-    }
-
+    
   .box-Learning .arrow-default {
     display: flex;
     min-height: 175px;
