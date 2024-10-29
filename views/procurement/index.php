@@ -43,7 +43,7 @@
 
 				<div class="pb-4">
 					<div class="box-niche row justify-content-center mb-4 px-1">
-						<div class="col-sm-6 col-md-4 col-lg-3 px-2">
+						<div class="col-sm-6 col-xl-3 px-2">
 							<div class="item">
 								<div>
 									<div class="text-success">แผนการจัดซื้อจัดจ้าง</div>
@@ -52,7 +52,7 @@
 								<img src="../../public/images/icon-procurement1.png" alt="">
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4 col-lg-3 px-2">
+						<div class="col-sm-6 col-xl-3 px-2">
 							<div class="item">
 								<div>
 									<div class="text-info">ประกาศ</div>
@@ -61,7 +61,7 @@
 								<img src="../../public/images/icon-procurement2.png" alt="">
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4 col-lg-3 px-2">
+						<div class="col-sm-6 col-xl-3 px-2">
 							<div class="item">
 								<div>
 									<div  class="text-danger">ยกเลิกประกาศ</div>
@@ -70,7 +70,7 @@
 								<img src="../../public/images/icon-procurement3.png" alt="">
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4 col-lg-3 px-2">
+						<div class="col-sm-6 col-xl-3 px-2">
 							<div class="item">
 								<div>
 									<div class="text-warning">เปลี่ยนแปลงประกาศ</div>
@@ -80,20 +80,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="row justify-content-center">
-						<div class="col-6 col-sm-4 col-lg-2">
+					<div class="row row-p10 justify-content-center">
+						<div class="col-6 col-lg-3 col-xl-2">
 							<div class="form-group">
 								<label>ตั้งแต่วันที่</label>
 								<input type="date" class="form-control bg-white">
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg-2">
+						<div class="col-6 col-lg-3 col-xl-2">
 							<div class="form-group">
 								<label>ถึงวันที่</label>
 								<input type="date" class="form-control bg-white">
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg">
+						<div class="col-6 col-lg">
 							<div class="form-group">
 								<label>ประเภทประกาศ</label>
 								<select class="templatingSelect2">
@@ -104,7 +104,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg">
+						<div class="col-6 col-lg">
 							<div class="form-group">
 								<label>กรุณาเลือกประเภท</label>
 								<input type="search" class="form-control bg-white" placeholder="ค้นหางาน...">

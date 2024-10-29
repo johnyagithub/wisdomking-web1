@@ -51,8 +51,8 @@
 				</div>
 
 				<div class="pb-4">
-					<div class="row justify-content-center">
-						<div class="col-6 col-sm-4 col-lg">
+					<div class="row row-p10 justify-content-center">
+						<div class="col-6 col-md-4 col-lg">
 							<div class="form-group">
 								<label>ปีจัดงาน</label>
 								<select class="templatingSelect2">
@@ -63,7 +63,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg">
+						<div class="col-6 col-md-4 col-lg">
 							<div class="form-group">
 								<label>เดือนจัดงาน</label>
 								<select class="templatingSelect2">
@@ -74,13 +74,17 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg">
+						<div class="col-md-4 col-lg">
 							<div class="form-group">
 								<label>คำค้นหา</label>
 								<input type="search" class="form-control bg-white" placeholder="ค้นหา...">
 							</div>
 						</div>
 					</div>
+				</div>
+
+				<div class="box-calendar-style">
+					<input type="date" value="<?php echo date('Y-m-d'); ?>">
 				</div>
 
 				<div class="--detail">

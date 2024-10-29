@@ -43,7 +43,7 @@
 
 				<div class="pb-4">
 					<h5 class="text-center mb-4">ข้อมูลข่าวรับสมัครงาน ของ พกฉ.</h5>
-					<div class="row justify-content-center">
+					<div class="row row-p10 justify-content-center">
 						<div class="col-6 col-sm-4 col-lg">
 							<div class="form-group">
 								<label>ตั้งแต่วันที่</label>
@@ -67,7 +67,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg">
+						<div class="col-6 col-sm-6 col-lg">
 							<div class="form-group">
 								<label>ประเภทงาน</label>
 								<select class="templatingSelect2">
@@ -78,7 +78,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="col-6 col-sm-4 col-lg">
+						<div class="col-sm-6 col-lg">
 							<div class="form-group">
 								<label>คำค้นหาชื่องาน</label>
 								<input type="search" class="form-control bg-white" placeholder="ค้นหางาน...">

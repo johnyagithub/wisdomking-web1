@@ -4,6 +4,8 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
+	<!-- select2 -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
 
 </head>
 
@@ -53,12 +55,14 @@
 						</div>
 					</div>
 					<div class="col-sm-4 col-lg-3 col-xl-2 pl-sm-0">
-						<select class="bg-white form-control form-control-style">
-							<option selected>เรียงลำดับข้อมูล</option>
-							<option value="1">One</option>
-							<option value="2">Two</option>
-							<option value="3">Three</option>
-						</select>
+						<div class="form-control-style">
+							<select class="templatingSelect2">
+								<option value="">เรียงลำดับข้อมูล</option>
+								<option value="usd">USD</option>
+								<option value="euro">Euro</option>
+								<option value="gbp">Pound</option>
+							</select>
+						</div>
 					</div>
 				</div>
 				<div class="mx-auto pt-5" style="max-width: 1000px;">
@@ -358,6 +362,14 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<!-- select2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+	<script>
+		$(".templatingSelect2").select2({
+			minimumResultsForSearch: -1
+		});
+	</script>
+
 </body>
 
 </html>
