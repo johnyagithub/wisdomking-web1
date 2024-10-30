@@ -32,6 +32,8 @@ $(function () {
         updateMonthButton(inst, 'next');
       },
       onSelect: function (dateText) {
+        $('.box-calendar-style').addClass('Loading');
+
         var selectedDate = $(this).datepicker('getDate');
         var thaiYear = selectedDate.getFullYear() + 543; // แปลงปีเป็นปีไทย
         var formattedDate = $.datepicker.formatDate('dd/mm/', selectedDate) + thaiYear;
@@ -45,6 +47,14 @@ $(function () {
         var inst = $.datepicker._getInst($('.dateParent')[0]);
         updateMonthButton(inst, 'prev');
         updateMonthButton(inst, 'next');
+
+        const scrollLeftValue = $('.box-calendar-style table.ui-datepicker-calendar').scrollLeft();
+        setTimeout(() => {
+          $('.box-calendar-style table.ui-datepicker-calendar').scrollLeft(scrollLeftValue);
+        }, 0);
+        setTimeout(() => {
+          $('.box-calendar-style').removeClass('Loading');
+        }, 100);
 
         //เอาไปใช้ query ข้อมูล
         myDatepicker(formattedDate);

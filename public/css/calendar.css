@@ -218,6 +218,32 @@
             margin-right: 10px;
           }
 
+  .box-calendar-style table.ui-datepicker-calendar {
+    position: relative;
+  }
+  .box-calendar-style.Loading table.ui-datepicker-calendar {
+    overflow: hidden;
+  }
+    .box-calendar-style table.ui-datepicker-calendar::after {
+      content: "loading";
+      inset: 0;
+      color: #37A8E2;
+      background-color: rgb(255 255 255 / 70%);
+      position: sticky;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90px;
+      margin-top: -90px;
+      display: none;
+      visibility: hidden;
+      transition: .5s;
+    }
+    .box-calendar-style.Loading table.ui-datepicker-calendar::after {
+      display: flex;
+      visibility: visible;
+    }
+
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .box-calendar-style table.ui-datepicker-calendar tbody {
@@ -249,11 +275,8 @@
 
 /* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  .box-calendar-style .ui-datepicker-header .ui-datepicker-title {
-    font-size: 20px;
-  }
   .box-calendar-style .ui-datepicker-header a.ui-corner-all {
-    font-size: 12px;
+    font-size: 0px;
   }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
