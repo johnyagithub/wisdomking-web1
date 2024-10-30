@@ -4,6 +4,8 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
+	<link rel="stylesheet" type="text/css" href="../../public/css/calendar.css">
+
 	<!-- select2 -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
 
@@ -84,7 +86,9 @@
 				</div>
 
 				<div class="box-calendar-style">
-					<input type="date" value="<?php echo date('Y-m-d'); ?>">
+					<div class="dateParent">
+						<input type="hidden" id="datepicker" value="" readonly>
+					</div>
 				</div>
 
 				<div class="--detail">
@@ -138,7 +142,39 @@
 	<script>
 		$(".templatingSelect2").select2();
 	</script>
-
+	<!-- calendar-style -->
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" type="text/javascript"></script>
+	<script>
+		$(function () {
+			// วันที่มีข้อมูล
+			window.invalidDate = [
+				new Date("2024-09-07").toDateString(),
+				new Date("2024-09-09").toDateString(),
+				new Date("2024-09-10").toDateString(),
+				new Date("2024-10-02").toDateString(),
+				new Date("2024-10-03").toDateString(),
+				new Date("2024-10-09").toDateString(),
+				new Date("2024-10-10").toDateString(),
+				new Date("2024-10-11").toDateString(),
+				new Date("2024-10-23").toDateString(),
+				new Date("2024-10-25").toDateString(),
+				new Date("2024-11-01").toDateString(),
+				new Date("2024-11-02").toDateString(),
+				new Date("2024-11-11").toDateString(),
+				new Date("2024-11-12").toDateString(),
+				new Date("2024-11-13").toDateString(),
+				new Date("2024-11-25").toDateString(),
+				new Date("2024-11-26").toDateString(),
+			];
+		});
+	</script>
+	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
+	<script>
+		let myDatepicker = (el) => {
+			$("#datepicker").val(el);
+			console.log('เลือกวันที่ ' + el);
+		}
+	</script>
 </body>
 
 </html>

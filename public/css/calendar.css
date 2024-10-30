@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@charset "iso-8859-15";
+
+.box-calendar-style {
+  
+}
+  .box-calendar-style table.ui-datepicker-calendar {
+    max-width: 100%;
+    overflow: auto;
+    display: block;
+  }
+    .box-calendar-style table.ui-datepicker-calendar thead {
+      display: none;
+    }
+    .box-calendar-style table.ui-datepicker-calendar tbody {
+      display: flex;
+      position: relative;
+      justify-content: center;
+    }
+      .box-calendar-style table.ui-datepicker-calendar tbody td {
+        width: calc(100vw / 30);
+        text-align: center;
+        padding: 0px;
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody td.ui-datepicker-other-month {
+        display: none;
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td::before {
+        background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+        color: #fff;
+        width: 100%;
+        font-size: 14px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+1)::before {
+        content: "อา";
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+2)::before {
+        content: "จ";
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+3)::before {
+        content: "อ";
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+4)::before {
+        content: "พ";
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+5)::before {
+        content: "พฤ";
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+6)::before {
+        content: "ศ";
+      }
+      .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+7)::before {
+        content: "ส";
+      }
+        .box-calendar-style table.ui-datepicker-calendar tbody td span.ui-state-default ,
+        .box-calendar-style table.ui-datepicker-calendar tbody td a {
+          border-radius: 50%;
+          color: #676767;
+          width: 28px;
+          height: 28px;
+          background: #F2F2F2;
+          aspect-ratio: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 11px auto;
+        }
+        .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+1) span.ui-state-default {
+          opacity: .4;
+        }
+        .box-calendar-style table.ui-datepicker-calendar tbody td.have a {
+          background-color: #CCCCCC;
+        }
+        .box-calendar-style table.ui-datepicker-calendar tbody td a.ui-state-active {
+          color: #fff !important;
+          background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+        }
+
+      .box-calendar-style .ui-datepicker-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+        .box-calendar-style .ui-datepicker-header a.ui-corner-all {
+          color: #343434;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+        }
+        .box-calendar-style .ui-datepicker-header a.ui-datepicker-next.ui-corner-all {
+          order: 1;
+        }
+        .box-calendar-style .ui-datepicker-header a.ui-corner-all::before {
+          content: "";
+          position: inherit;
+          transform: none !important;
+          background-color: #000;
+          background: url(../images/icon-prev.png) no-repeat center;
+          background-size: contain;
+          width: 28px;
+          aspect-ratio: 1;
+          margin-right: 8px;
+        }
+        .box-calendar-style .ui-datepicker-header a.ui-corner-all.ui-datepicker-next::before {
+          background-image: url(../images/icon-next.png);
+          margin-left: 8px;
+          margin-right: 0px;
+          order: 1;
+        }
+        .box-calendar-style .ui-datepicker-header .ui-datepicker-title {
+          background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 24px;
+        }
+          .box-calendar-style .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-day {
+            font-weight: bold;
+            margin-right: 10px;
+          }
+
+/* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .box-calendar-style table.ui-datepicker-calendar tbody {
+    min-width: max-content;
+  }
+  .box-calendar-style table.ui-datepicker-calendar tbody td span.ui-state-default ,
+  .box-calendar-style table.ui-datepicker-calendar tbody td a {
+    margin: 11px 3px;
+  }
+}
+
+/* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  /* แนวตั้ง */
+  @media only screen and (orientation:portrait){
+    
+  }
+  /* แนวนอน */
+  @media only screen and (orientation:landscape){
+
+  }
+}
+
+/* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .box-calendar-style .ui-datepicker-header .ui-datepicker-title {
+    font-size: 20px;
+  }
+  .box-calendar-style .ui-datepicker-header a.ui-corner-all {
+    font-size: 12px;
+  }
+ /* แนวตั้ง */
+ @media only screen and (orientation:portrait){
+  .box-calendar-style table.ui-datepicker-calendar {
+    max-width: none;
+    margin-left: -15px;
+    margin-right: -15px;
+    width: 100vw;
+  }
+ } 
+ /* แนวนอน */
+ @media only screen and (orientation:landscape){
+  
+ }
+}
