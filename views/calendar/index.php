@@ -92,7 +92,64 @@
 				</div>
 
 				<div class="--detail">
-					sdfdf
+					<div class="box-Calendar2 row">
+
+						<div class="item">
+							<div class="d-flex align-items-center flex-wrap mb-auto">
+								<div class="-event ac">
+									<h4>08</h4>ก.ค.
+								</div>
+								<div class="-event">
+									<h4>16</h4>ก.ค.
+								</div>
+							</div>
+							<a href="../../public/images/calendar/img1.jpg" class="img" data-fancybox="Calendar"
+								data-caption="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566">
+								<img src="../../public/images/calendar/img1.jpg" alt="">
+							</a>
+							<div class="text">
+								<div class="d-flex justify-content-between align-items-center flex-wrap">
+									<div class="-date">01 กรกฎาคม 2023</div>
+									<div class="-view">250</div>
+								</div>
+								<div class="my-3">
+									<span class="-type">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</span>
+									<span class="-type bg-transparent text-white">ไม่มีค่าธรรมเนียม</span>
+								</div>
+								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
+								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="d-flex align-items-center flex-wrap mb-auto">
+								<div class="-event ac">
+									<h4>08</h4>ก.ค.
+								</div>
+								<div class="-event">
+									<h4>16</h4>ก.ค.
+								</div>
+							</div>
+							<a href="../../public/images/learning/img1.jpg" class="img" data-fancybox="Calendar"
+								data-caption="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566">
+								<img src="../../public/images/learning/img1.jpg" alt="">
+							</a>
+							<div class="text">
+								<div class="d-flex justify-content-between align-items-center flex-wrap">
+									<div class="-date">01 กรกฎาคม 2023</div>
+									<div class="-view">250</div>
+								</div>
+								<div class="my-3">
+									<span class="-type">ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ</span>
+									<span class="-type bg-transparent text-white">ไม่มีค่าธรรมเนียม</span>
+								</div>
+								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
+								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
 		</section>
@@ -171,6 +228,11 @@
 	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
 	<script>
 		let myDatepicker = (el) => {
+			// อัปเดต ui-datepicker-title ด้วยวันที่ที่เลือก
+			setTimeout(() => {
+				$('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + el.split("/")[0] + '</span>');
+			}, 0);
+
 			$("#datepicker").val(el);
 			console.log('เลือกวันที่ ' + el);
 		}

@@ -46,12 +46,6 @@ $(function () {
         updateMonthButton(inst, 'prev');
         updateMonthButton(inst, 'next');
 
-        // อัปเดต ui-datepicker-title ด้วยวันที่ที่เลือก
-        var day = selectedDate.getDate();
-        setTimeout(() => {
-          $('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + day + '</span>');
-        }, 0);
-
         //เอาไปใช้ query ข้อมูล
         myDatepicker(formattedDate);
       }
