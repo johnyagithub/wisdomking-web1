@@ -8,7 +8,6 @@
 	<!-- select2 -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
 	<!-- FileUp -->
-	<link href="../../plugins/jQuery-AJAX-File-Uploader-FileUp/jquery.growl.css" rel="stylesheet" type="text/css">
 	<link href="../../plugins/jQuery-AJAX-File-Uploader-FileUp/src/fileup.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -138,7 +137,7 @@
 
 					<form action="#" style="background: #F9F9F999;backdrop-filter: blur(4px);">
 						<div class="py-4 px-lg-5 mb-5">
-							<h5 class="text-center">ลงทะเบียนเข้าร่วมกิจกรรม</h5>
+							<h5 class="text-center mb-4">ลงทะเบียนเข้าร่วมกิจกรรม</h5>
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<label for="">ประเภทองค์กร*</label>
@@ -184,24 +183,34 @@
 									</div>
 									<div class="box-Drag">
 										<div class="-Drag">
-											<img src="../../public/images/icon-drag.png" style="width:24px;" class="mr-2" alt="">
-											Drag your file here
+											<img src="../../public/images/icon-drag.png" alt="">
+											<label class="m-0" for="upload">Drag your file here</label>
 											<div class="d-inline-block border-l ml-auto pl-3">
 												<button type="button" class="btn btn-style fileup-btn">
 													เลือกไฟล์
-													<input type="file" id="upload-3" multiple accept="image/*">
+													<input type="file" id="upload" multiple accept="image/*">
 												</button>
 											</div>
 										</div>
+										<div id="upload-queue" class="queue"></div>
 									</div>
-									<div id="upload-3-queue" class="queue"></div>
 								</div>
 							</div>
-							<div class="row justify-content-center py-4">
-								<div class="col-6 clo-md-3 col-lg-2 px-1">
+							<div class="form-row justify-content-center pb-2">
+								<div class="form-check form-check-inline mr-4">
+									<input class="form-check-input mr-2" type="checkbox" id="inlineCheckbox1" value="option1">
+									<label class="form-check-label" for="inlineCheckbox1">ฉันได้อ่านและยอมรับนโยบายความเป็นส่วนตัว</label>
+								</div>
+								<div class="form-check form-check-inline mr-4">
+									<input class="form-check-input mr-2" type="checkbox" id="inlineCheckbox2" value="option2">
+									<label class="form-check-label" for="inlineCheckbox2">ฉันยินดีให้ใช้ข้อมูลเพื่อส่งข่าวสารและโปรโมชั่น</label>
+								</div>
+							</div>
+							<div class="form-row justify-content-center py-4">
+								<div class="col-6 col-md-4 col-lg-2 px-1">
 									<button type="reset" class="btn btn-light border bg-white rounded-pill w-100">ยกเลิก</button>
 								</div>
-								<div class="col-6 clo-md-5 col-lg-2 px-1">
+								<div class="col-6 col-md-4 col-lg-2 px-1">
 									<button type="submit" class="btn btn-style w-100" href="#" role="button">เข้าร่วมกิจกรรม</button>
 								</div>
 							</div>
@@ -268,27 +277,23 @@
 		});
 	</script>
 	<!-- FileUp -->
-	<script src="../../plugins/jQuery-AJAX-File-Uploader-FileUp/jquery.growl.js"></script>
 	<script src="../../plugins/jQuery-AJAX-File-Uploader-FileUp/src/fileup.js"></script>
 	<script>
 		$.fileup({
-			url: 'https://github.com?file_upload=1',
-			inputID: 'upload-3',
-			queueID: 'upload-3-queue',
+			url: '#',
+			inputID: 'upload',
+			queueID: 'upload-queue',
 			autostart: true,
-			onSelect: function (file) {
-				$('#types .control-button').show();
-			},
-			onRemove: function (file, total) {
-				if (file === '*' || total === 1) {
-					$('#types .control-button').hide();
-				}
-			},
+			// onSelect: function (file) {
+			// },
+			// onRemove: function (file, total) {
+			// },
 			onSuccess: function (response, file_number, file) {
-				$.growl.notice({ title: "Upload success!", message: file.name });
+				$('#file-upload-' + file_number).addClass('--success');
 			},
 			onError: function (event, file, file_number) {
-				$.growl.error({ message: "Upload error!" });
+				$('#file-upload-' + file_number).addClass('--error');
+				$('#file-upload-' + file_number).find('.result').text('This document is not supported, please delete and upload another file.');
 			}
 		});
 	</script>

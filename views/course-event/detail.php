@@ -185,12 +185,12 @@
 							สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ
 							สงวนสิทธิการเปลี่ยนแปลงตามความเหมาะสม
 						</div>
-						<div class="row justify-content-center py-4">
-							<div class="col-6 clo-md-3 col-lg-2 px-1">
+						<div class="form-row justify-content-center py-4">
+							<div class="col-6 col-md-4 col-lg-2 px-1">
 								<a class="btn btn-light border bg-white rounded-pill w-100"
 									href="javascript:history.back()">ย้อนกลับ</a>
 							</div>
-							<div class="col-6 clo-md-5 col-lg-2 px-1">
+							<div class="col-6 col-md-4 col-lg-2 px-1">
 								<a class="btn btn-style w-100" href="#" role="button">เข้าร่วมหลักสูตร</a>
 							</div>
 						</div>
