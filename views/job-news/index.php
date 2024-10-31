@@ -25,11 +25,6 @@
 						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก
 					</a>
 				</li>
-				<li class="breadcrumb-item">
-					<a href="../news/">
-						<i class="fa fa-home" aria-hidden="true"></i> ข่าว & ประชาสัมพันธ์
-					</a>
-				</li>
 				<li class="breadcrumb-item active" aria-current="page">ประกาศจัดซื้อจัดจ้าง</li>
 			</ol>
 		</nav>

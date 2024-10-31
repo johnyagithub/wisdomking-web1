@@ -24,9 +24,7 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="../news/">
-						<i class="fa fa-home" aria-hidden="true"></i> ข่าว & ประชาสัมพันธ์
-					</a>
+					<a href="../news/">ข่าว & ประชาสัมพันธ์</a>
 				</li>
 				<li class="breadcrumb-item active" aria-current="page">ข่าวผู้บริหาร</li>
 			</ol>

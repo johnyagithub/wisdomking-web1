@@ -77,19 +77,19 @@
                             พิพิธภัณฑ์ของเรา
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">สินค้า</a>
-                            <a class="dropdown-item" href="#">หนังสือองค์ความรู้</a>
-                            <a class="dropdown-item" href="#">บริการเข้าชม</a>
-                            <a class="dropdown-item" href="#">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
-                            <a class="dropdown-item" href="#">คู่มือการปฏิบัติงาน</a>
-                            <a class="dropdown-item" href="#">สถิติการให้บริการเข้าชม</a>
-                            <a class="dropdown-item" href="#">กิจกรรมท่องเที่ยวสุขสันต์</a>
-                            <a class="dropdown-item" href="#">ห้องพัก</a>
-                            <a class="dropdown-item" href="#">ห้องประชุม</a>
-                            <a class="dropdown-item" href="#">อาหารและเครื่องดื่ม</a>
-                            <a class="dropdown-item" href="#">กิน อยู่ ดี</a>
-                            <a class="dropdown-item" href="#">ร้านจำหน่ายของที่ระลึก</a>
-                            <a class="dropdown-item" href="#">MADO CAFE</a>
+                            <a class="dropdown-item" href="../product/">สินค้า</a>
+                            <a class="dropdown-item" href="../knowledge-book/">หนังสือองค์ความรู้</a>
+                            <a class="dropdown-item" href="../booking-museum/">บริการเข้าชม</a>
+                            <a class="dropdown-item" href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
+                            <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
+                            <a class="dropdown-item" href="../service-statistics/">สถิติการให้บริการเข้าชม</a>
+                            <a class="dropdown-item" href="../happy-travel/">กิจกรรมท่องเที่ยวสุขสันต์</a>
+                            <a class="dropdown-item" href="../room-service/">ห้องพัก</a>
+                            <a class="dropdown-item" href="../meeting-room-service/">ห้องประชุม</a>
+                            <a class="dropdown-item" href="../food-and-beverage-service.">อาหารและเครื่องดื่ม</a>
+                            <a class="dropdown-item" href="../food-eat-good/">กิน อยู่ ดี</a>
+                            <a class="dropdown-item" href="../shop/">ร้านจำหน่ายของที่ระลึก</a>
+                            <a class="dropdown-item" href="../madocafe/">MADO CAFE</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -97,12 +97,11 @@
                             องความรู้
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">องค์ความรู้</a>
-                            <a class="dropdown-item" href="#">บทความ</a>
-                            <a class="dropdown-item" href="#">บรรยายประกอบภาพ</a>
-                            <a class="dropdown-item" href="#">สื่อการเรียนรู้</a>
-                            <a class="dropdown-item" href="#">เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</a>
-                            <a class="dropdown-item" href="#">งานวิจัยและบทความ</a>
+                            <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
+                            <a class="dropdown-item" href="../media-article/">บทความ</a>
+                            <a class="dropdown-item" href="../article-illustration/">บรรยายประกอบภาพ</a>
+                            <a class="dropdown-item" href="../museum-central/">เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</a>
+                            <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -118,31 +117,28 @@
                             เกี่ยวกับเรา
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">เกี่ยวกับเรา</a>
-                            <a class="dropdown-item" href="#">คณะกรรมการสำนักงาน</a>
-                            <a class="dropdown-item" href="#">คณะกรรมการ</a>
-                            <a class="dropdown-item" href="#">คณะอนุกรรมการ</a>
-                            <a class="dropdown-item" href="#">คณะทำงาน</a>
-                            <a class="dropdown-item" href="#">โครงสร้างการจัดแบ่งส่วนงาน</a>
-                            <a class="dropdown-item" href="#">ทำเนียบผู้บริหารสำนักงาน</a>
-                            <a class="dropdown-item" href="#">กฎหมายที่เกี่ยวข้อง</a>
-                            <a class="dropdown-item" href="#">ข้อบังคับ</a>
-                            <a class="dropdown-item" href="#">ระเบียบ</a>
-                            <a class="dropdown-item" href="#">ประกาศ</a>
-                            <a class="dropdown-item" href="#">กฎบัตร</a>
-                            <a class="dropdown-item" href="#">จริยธรรม</a>
-                            <a class="dropdown-item" href="#">ความเป็นมา</a>
-                            <a class="dropdown-item" href="#">รายงานการประเมินผล</a>
-                            <a class="dropdown-item" href="#">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</a>
-                            <a class="dropdown-item" href="#">นโยบายสำคัญ</a>
-                            <a class="dropdown-item" href="#">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
-                            <a class="dropdown-item" href="#">รายงานประจำปี</a>
-                            <a class="dropdown-item" href="#">ประกาศจัดซื้อจัดจ้าง</a>
-                            <a class="dropdown-item" href="#">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
-                            <a class="dropdown-item" href="#">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
-                            <a class="dropdown-item" href="#">การประชุมคณะกรรมการ</a>
-                            <a class="dropdown-item" href="#">คู่มือการปฏิบัติงาน</a>
-                            <a class="dropdown-item" href="#">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</a>
+                            <a class="dropdown-item" href="../purpose/">เกี่ยวกับเรา</a>
+                            <a class="dropdown-item" href="../appoint-office/">คณะกรรมการสำนักงาน</a>
+                            <a class="dropdown-item" href="../audit-committee.">คณะกรรมการ</a>
+                            <a class="dropdown-item" href="../subcommittee/">คณะอนุกรรมการ</a>
+                            <a class="dropdown-item" href="../workinggroup/">คณะทำงาน</a>
+                            <a class="dropdown-item" href="../work-classification/">โครงสร้างการจัดแบ่งส่วนงาน</a>
+                            <a class="dropdown-item" href="../office-committee/">ทำเนียบผู้บริหารสำนักงาน</a>
+                            <a class="dropdown-item" href="../law-relate/">กฎหมายที่เกี่ยวข้อง</a>
+                            <a class="dropdown-item" href="../rules/">ข้อบังคับ</a>
+                            <a class="dropdown-item" href="../regularity/">ระเบียบ</a>
+                            <a class="dropdown-item" href="../announce/">ประกาศ</a>
+                            <a class="dropdown-item" href="../charter/">กฎบัตร</a>
+                            <a class="dropdown-item" href="../ethics/">จริยธรรม</a>
+                            <a class="dropdown-item" href="../history/">ความเป็นมา</a>
+                            <a class="dropdown-item" href="../evaluation/">รายงานการประเมินผล</a>
+                            <a class="dropdown-item" href="../strategy/">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</a>
+                            <a class="dropdown-item" href="../director/">นโยบายสำคัญ</a>
+                            <a class="dropdown-item" href="../monitor-judg/">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
+                            <a class="dropdown-item" href="../annual-report/">รายงานประจำปี</a>
+                            <a class="dropdown-item" href="../e-procurement/">ประกาศจัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../operating-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -150,10 +146,10 @@
                             ติดต่อเรา
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">คำถามที่พบบ่อย</a>
-                            <a class="dropdown-item" href="#">ข้อมูลการติดต่อ</a>
-                            <a class="dropdown-item" href="#">ติดต่อเรา</a>
-                            <a class="dropdown-item" href="#">คู่มือ/แนวทางการให้บริการประชาชน</a>
+                            <a class="dropdown-item" href="../faq/">คำถามที่พบบ่อย</a>
+                            <a class="dropdown-item" href="../journey/">ข้อมูลการติดต่อ</a>
+                            <a class="dropdown-item" href="../contact-us/">ติดต่อเรา</a>
+                            <a class="dropdown-item" href="../manual-and-service/">คู่มือ/แนวทางการให้บริการประชาชน</a>
                         </div>
                     </li>
                 </ul>

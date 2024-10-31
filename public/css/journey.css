@@ -1,0 +1,62 @@
+.box-gradient {
+  background: linear-gradient(97.13deg, #2BCB7E 1.02%, #37A8E2 100%);
+  color: #fff;
+}
+  .box-gradient>.container>.row{
+    max-width: 1025px;
+    margin: auto;
+  }
+
+iframe.google-map {
+  width: 100%;
+  aspect-ratio: 100 / 50;
+  border: 0px;
+}
+
+.box-journey {
+  max-width: 1025px;
+  margin: auto;
+}
+  .box-journey .-journey {
+    border-bottom: 1px solid #B6B6B6;
+    padding: 18px 0px;
+  }
+  .box-journey .-journey:last-child {
+    border-bottom: 0px;
+  }
+    .box-journey .-journey > .row {
+      padding: 7px 0px;
+    }
+
+/* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+
+}
+
+/* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  /* แนวตั้ง */
+  @media only screen and (orientation:portrait){
+   
+  }
+  /* แนวนอน */
+  @media only screen and (orientation:landscape){
+    
+  }
+}
+
+/* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .box-journey .-journey .img {
+    margin-bottom: 20px;
+  }
+ /* แนวตั้ง */
+ @media only screen and (orientation:portrait){
+  
+ } 
+ /* แนวนอน */
+ @media only screen and (orientation:landscape){
+  
+ }
+}
