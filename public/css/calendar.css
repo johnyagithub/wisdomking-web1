@@ -41,6 +41,7 @@
         align-items: center;
         margin-bottom: 10px;
         color: #fff;
+        background: transparent;
       }
       .box-Calendar2 .item .-event.ac {
         color: #669525;
@@ -257,7 +258,9 @@
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
+  .box-Calendar2 .item img {
+    aspect-ratio: 220 / 290;
+  }
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
     .box-Calendar2 .item {

@@ -285,40 +285,40 @@
 							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ" data-idtype="tab1"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 							<div class="list" data-img="../../public/images/learning/img1.jpg" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="อบรมเข้มข้นแบบมืออาชีพ ประจำ เดือน ก.ค. 66"
 								data-detail="เปิดอบรมเข้มข้น สายเรียนรู้ สร้างอาชีพ ต้องมา ทุกเสาร์อาทิตย์ที่ 3 และ 4 ของเดือน"
-								data-link="#"></div>
+								data-link="../calendar-learn/detail.php"></div>
 						</div>
 						<div class="item" data-day="วันอังคาร" data-start="09 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=09" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น,อื่นๆ" data-idtype="tab2 tab3"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 						<div class="item" data-day="วันจันทร์" data-start="15 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=15" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 						<div class="item" data-day="วันอังคาร" data-start="16 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=16" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 						<div class="item" data-day="วันเสาร์" data-start="20 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=20" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 						<div class="item" data-day="วันอาทิตย์" data-start="21 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=21" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 					</div>
 					<div data-item="กันยายน">
@@ -326,7 +326,7 @@
 							<div class="list" data-img="https://placehold.co/630x830?text=08" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 					</div>
 					<div data-item="ธันวาคม">
@@ -334,13 +334,13 @@
 							<div class="list" data-img="https://placehold.co/630x830?text=08" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 						<div class="item" data-day="วันอาทิตย์" data-start="20 ธันวาคม" data-end="16 ธันวาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=20" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="#"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
 						</div>
 					</div>
 				</div>

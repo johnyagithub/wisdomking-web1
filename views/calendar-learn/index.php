@@ -126,7 +126,7 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab2">
@@ -153,7 +153,7 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab3">
@@ -180,7 +180,7 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab1">
@@ -207,7 +207,7 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab1">
@@ -234,7 +234,7 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="#">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 

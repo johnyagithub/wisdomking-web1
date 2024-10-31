@@ -104,10 +104,6 @@ body .form-control::placeholder {
  padding-right: 7px;
  padding-left: 7px;
 }
-button[type="reset"] {
- background-color: #b2b4b4;
- color: #fff;
-}
 body div.border-Certificates {
  border: 5px solid #465285 !important;
 }
@@ -1598,6 +1594,35 @@ ul.ul-style {
         padding-left: 20px;
       }
 
+  .--detail .-event {
+    font-size: 20px;
+    width: 64px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    line-height: 9px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    color: #669525;
+    background: #E5FDC3;
+  }
+  .--detail .-event.ac {
+    color: #fff;
+    background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+  }
+    .--detail .-event h4 {
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+    .--detail .-event.ac h4 {
+      font-size: 31px;
+    }
+
 .box-Learning {
   
 }
@@ -1992,6 +2017,9 @@ footer {
   .list-download .list .btn {
     margin: 15px auto 5px auto;
     display: table;
+  }
+  .slide-show .owl-carousel .owl-stage .owl-item {
+    transform: none !important;
   }
  } 
  /* แนวนอน */
