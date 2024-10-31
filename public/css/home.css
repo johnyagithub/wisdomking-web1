@@ -657,7 +657,6 @@
         background: #239AAACF;
         color: #fff;
         border: 1px solid #DAF6F0AD;
-        backdrop-filter: blur(4px);
         border-radius: var(--border_radius);
         padding: 3%;
         width: 54%;

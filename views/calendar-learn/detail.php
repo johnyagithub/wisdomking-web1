@@ -135,7 +135,7 @@
 						</div>
 					</div>
 
-					<form action="#" style="background: #F9F9F999;backdrop-filter: blur(4px);">
+					<form action="#" style="background: #F9F9F999;">
 						<div class="py-4 px-lg-5 mb-5">
 							<h5 class="text-center mb-4">ลงทะเบียนเข้าร่วมกิจกรรม</h5>
 							<div class="form-row">
