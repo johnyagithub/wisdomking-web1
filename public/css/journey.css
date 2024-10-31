@@ -1,5 +1,8 @@
 .box-gradient {
-  background: linear-gradient(97.13deg, #2BCB7E 1.02%, #37A8E2 100%);
+  background: url(../images/bg-gradient.png), linear-gradient(97.13deg, #2BCB7E 1.02%, #37A8E2 100%);
+  background-position-x: right;
+  background-position-y: -25%;
+  background-repeat: no-repeat;
   color: #fff;
 }
   .box-gradient>.container>.row{
