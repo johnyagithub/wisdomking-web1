@@ -313,7 +313,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">
@@ -399,7 +399,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">
@@ -772,7 +772,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">
@@ -957,7 +957,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">
@@ -980,7 +980,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">
@@ -1284,7 +1284,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">
@@ -1436,7 +1436,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">
@@ -1459,7 +1459,7 @@
 								<div class="-list">
 									<div class="img">
 										<img
-											src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+											src="https://placehold.co/198x280"
 											alt="">
 									</div>
 									<div class="text">

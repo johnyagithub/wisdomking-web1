@@ -29,53 +29,17 @@
 				<li class="breadcrumb-item">
 					<a href="#">โครงสร้างองค์กร</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">คณะกรรมการสำนักงาน</li>
+				<li class="breadcrumb-item active" aria-current="page">ทำเนียบผู้บริหารสำนักงาน</li>
 			</ol>
 		</nav>
 
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">คณะกรรมการสำนักงาน</h4>
+					<h4 class="head mb-4 text-center">ผู้บริหารสำนักงาน</h4>
 					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
-				<div class="--detail">
-					<div class="px-lg-5">
-						<h5 class="text-center">ประกาศสํานักนายกรัฐมนตรี</h5>
-						<p>เรื่อง แต่งตั้งประธานกรรมการและกรรมการผู้ทรงคุณวุฒิในคณะกรรมการ
-							สํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว</p>
-						<p>ตามที่คณะรัฐมนตรีมีมติ (22 ตุลาคม 2556) เห็นชอบแต่งตั้งประธานกรรมการ และกรรมการผู้ทรงคุณวุฒิใน
-							คณะกรรมการสํานักงานพิพิธภัณฑ์เกษตร เฉลิมพระเกียรติ พระบาทสมเด็จพระเจ้าอยู่หัว รวม 5 คน
-							โดยให้มีผลตั้งแต่วันที่ 27 ตุลาคม 2556 เป็นต้นไป ตามที่รัฐมนตรีว่าการกระทรวงเกษตรและสหกรณ์เสนอ และได้มี
-							ประกาศสํานักนายก รัฐมนตรีลงวันที่ 29 ตุลาคม 2556 นั้น</p>
-						<p>บัดนี้ ประธานกรรมการและกรรมการผู้ทรงคุณวุฒิในคณะกรรมการดังกล่าว ได้ดํารงตําแหน่งครบวาระสี่ปี อาศัย
-							อํานาจตามความในมาตรา 19 วรรคสองแห่ง พระราชบัญญัติ องค์การมหาชน พ.ศ. 2542 และมาตรา 13 วรรคหนึ่ง (1) และ (3)
-							แห่งพระราชกฤษฎีกาจัดตั้ง สํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จ พระเจ้าอยู่หัว (องค์การมหาชน)
-							พ.ศ. 2552 และที่แก้ไขเพิ่มเติม คณะรัฐมนตรีจึงได้มีมติเมื่อวันที่ 15 เมษายน 2563 เห็นชอบแต่งตั้ง
-							ประธานกรรมการ และกรรมการผู้ทรง คุณวุฒิในคณะกรรมการสํานักงานพิพิธภัณฑ์เกษตร
-							เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว รวม 6 คน ตามที่รัฐมนตรีว่าการกระทรวงเกษตร และสหกรณ์เสนอ ดังนี้
-						</p>
-
-						<div class="list-download">
-							<div class="list">
-								<h6>ประกาศแต่งตั้ง</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
-							</div>
-						</div>
-						<p>
-							เรื่องแต่งตั้งกรรมการผู้ทรงคุณวุฒิในคณะกรรมการสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัววันที่
-							27 กรกฎาคม 2564</p>
-						<div class="list-download">
-							<div class="list">
-								<h6>ประกาศแต่งตั้ง</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<hr class="my-3">
 
 				<div class="board-list">
 
@@ -86,7 +50,7 @@
 								alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">ประธานกรรมการ Chairman of the Board</h5>
+							<h5 class="--position text-primary">ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว Director-General</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -133,7 +97,8 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">ปลัดกระทรวงการท่องเที่ยวและกีฬา กรรมการโดยตำแหน่ง</h5>
+							<h5 class="--position text-primary">รองผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตร
+เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (ฝ่ายบริหาร) Deputy Director-General (Administration)</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -154,8 +119,8 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">ปลัดกระทรวงเกษตรและสหกรณ์
-กรรมการโดยตำแหน่ง</h5>
+							<h5 class="--position text-primary">รองผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตร
+เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (ฝ่ายพัฒนา) Deputy Director-General (Development)</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -176,8 +141,7 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">ปลัดกระทรวงวัฒนธรรม 
-กรรมการโดยตำแหน่ง</h5>
+							<h5 class="--position text-primary">ผู้อำนวยการสำนักอำนวยการ Director, Division of Administration</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -198,8 +162,7 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">ปลัดกระทรวงศึกษาธิการ 
-กรรมการโดยตำแหน่ง</h5>
+							<h5 class="--position text-primary">ผู้อำนวยการสำนักนวัตกรรมเกษตรเศรษฐกิจพอเพียง Director, Division of Agricultural Innovation for Sufficiency</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -220,8 +183,7 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านประวัติศาสตร์เกี่ยวกับ
-สถาบันพระมหากษัตริย์)</h5>
+							<h5 class="--position text-primary">ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้ Director, Division of Museum and Knowledge Development</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -242,8 +204,7 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการเกษตร)
-</h5>
+							<h5 class="--position text-primary">ผู้อำนวยการสำนักพัฒนากิจการ Director, Division of Corporate Development</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -264,74 +225,7 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการบริหารจัดการ)
-</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
-							<hr>
-							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
-							<a class="--tel" href="tel:0812345678">081-234-5678</a>
-							<button type="button" class="btn btn-style" data-toggle="modal"
-								data-target="#detailModal">ประวัติและผลงาน</button>
-						</div>
-						<div class="--detail d-none">
-							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
-								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
-							</ol>
-						</div>
-					</div>
-					<div class="-list">
-						<div class="img">
-							<img src="https://placehold.co/198x280" alt="">
-						</div>
-						<div class="text">
-							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการวิจัยและกระบวน
-การเรียนรู้)</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
-							<hr>
-							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
-							<a class="--tel" href="tel:0812345678">081-234-5678</a>
-							<button type="button" class="btn btn-style" data-toggle="modal"
-								data-target="#detailModal">ประวัติและผลงาน</button>
-						</div>
-						<div class="--detail d-none">
-							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
-								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
-							</ol>
-						</div>
-					</div>
-					<div class="-list">
-						<div class="img">
-							<img src="https://placehold.co/198x280" alt="">
-						</div>
-						<div class="text">
-							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการพัฒนาชุมชนและ
-เครือข่ายเศรษฐกิจพอเพียง)</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
-							<hr>
-							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
-							<a class="--tel" href="tel:0812345678">081-234-5678</a>
-							<button type="button" class="btn btn-style" data-toggle="modal"
-								data-target="#detailModal">ประวัติและผลงาน</button>
-						</div>
-						<div class="--detail d-none">
-							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
-								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
-							</ol>
-						</div>
-					</div>
-					<div class="-list">
-						<div class="img">
-							<img src="https://placehold.co/198x280" alt="">
-						</div>
-						<div class="text">
-							<h5 class="--position text-primary">กรรมการ และเลขานุการ
-</h5>
+							<h5 class="--position text-primary">ผู้อำนวยการสำนักสารสนเทศและการสื่อสาร Director, Division of Information and Communication</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>

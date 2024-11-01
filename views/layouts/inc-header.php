@@ -121,9 +121,7 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="../purpose/">เกี่ยวกับเรา</a>
                             <a class="dropdown-item" href="../appoint-office/">คณะกรรมการสำนักงาน</a>
-                            <a class="dropdown-item" href="../audit-committeeฝ">คณะกรรมการ</a>
-                            <a class="dropdown-item" href="../subcommittee/">คณะอนุกรรมการ</a>
-                            <a class="dropdown-item" href="../workinggroup/">คณะทำงาน</a>
+                            <a class="dropdown-item" href="../audit-committee/">คณะกรรมการ</a>
                             <a class="dropdown-item" href="../work-classification/">โครงสร้างการจัดแบ่งส่วนงาน</a>
                             <a class="dropdown-item" href="../office-committee/">ทำเนียบผู้บริหารสำนักงาน</a>
                             <a class="dropdown-item" href="../law-relate/">กฎหมายที่เกี่ยวข้อง</a>
