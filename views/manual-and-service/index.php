@@ -45,7 +45,7 @@
 						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/176-0.29811600%201714187755-froalaeditor.jpg" alt="" class="d-block mx-auto rounded my-3">
 					</div>
 
-					<div class="py-4 border-top">
+					<div class="py-4 border-top mt-5">
 						Share this:
 						<div class="d-flex flex-wrap my-3">
 							<div>

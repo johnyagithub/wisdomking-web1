@@ -137,7 +137,7 @@ body hr {
   .table.table-striped {
     border-radius: 9px;
     overflow: hidden;
-    color: #626262;
+    color: var( --secondary);
     box-shadow: 0px 0px 0px 6px #ffffff, 0px 0px 0px 7px #B6B6B6;
     margin-bottom: 45px;
   }
@@ -209,7 +209,7 @@ table.table-gradient {
 }
   table.table-gradient td:not(:first-child) {
     background: #fff;
-    color: #626262;
+    color: var( --secondary);
   }
   table.table-gradient td {
     padding: 10px 18px !important;
@@ -231,7 +231,7 @@ table.table-gradient {
       padding: 0px;
     }
       .accordion .card .card-header button.btn {
-        color: #626262;
+        color: var( --secondary);
         text-decoration:none !important;
         border: 0px;
         border-radius: 0px;
@@ -363,7 +363,7 @@ table.table.aiz-table .badge {
   color: #fff;
 }
 .btn-style3 {
-  color: #626262;
+  color: var( --secondary);
   background: #fff;
   border-radius: 50px;
   box-shadow: 2px 2px 14.8px 0px #00000014;
@@ -1565,6 +1565,8 @@ ul.ul-style {
 
 .list-download {
   margin-top: 33px;
+  max-width: 1025px;
+  margin: auto;
 }
   .list-download .list {
     border-bottom: 1px solid #D9D9D9;
@@ -1676,8 +1678,8 @@ ul.ul-style {
 
   .-type {
     font-size: 0.75em;
-    color: #669525;
-    border: 1px solid #669525;
+    color: var( --primary);
+    border: 1px solid var( --primary);
     padding: 3px 9px;
     border-radius: 50px;
     margin: 5px;
@@ -1730,16 +1732,173 @@ ul.ul-style {
         inset: 0px 0px 0px auto;
       }
 
+.board-list {
+  display: flex;
+  flex-flow: wrap;
+  padding-bottom: 30px;
+}
+.board-list.underline {
+  padding-bottom: 0px;;
+}
+  .board-list .-list {
+    width: calc(50% - 26px);
+    margin: 13px;
+    display: grid;
+    grid-template-columns: 156px auto;
+    grid-gap: 20px;
+    align-items: center;
+  }
+  .board-list.underline .-list ,
+  .board-list .-list:first-child {
+    background: #F5F5F5;
+    padding: 15px;
+    border-radius: 8px;
+    width: 860px;
+    margin: 20px auto 30px auto;
+  }
+  .board-list.underline .-list {
+    width: calc(50% - 26px);
+    margin: 13px;
+  }
+    .board-list .-list .img {
+
+    }
+      .board-list .-list .img img {
+        border-radius: 8px;
+        width: 100%;
+        aspect-ratio: 198 / 280;
+      }
+
+    .board-list .-list .text {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+      .board-list:not(.underline) .-list .text h5 ,
+      .board-list .-list:not(:first-child) .text h5 {
+        font-size: 16px;
+      }
+      .board-list .-list .text hr {
+        margin: 10px 0px;
+      }
+      .board-list .-list .text a[href*="tel"] ,
+      .board-list .-list .text a[href*="mailto"] {
+        position: relative;
+        color: var( --secondary);
+        padding: 3px 0px;
+        display: block;
+      }
+      .board-list .-list .text a[href*="tel"]::before ,
+      .board-list .-list .text a[href*="mailto"]::before {
+        content: "";
+        background: url(../../public/images/phone.png) no-repeat center left;
+        background-size: contain;
+        width: 22px;
+        display: block;
+        aspect-ratio: 1;
+        float: left;
+        margin-right: 10px;
+      }
+      .board-list .-list .text a[href*="mailto"]::before {
+        background-image: url(../../public/images/email.png);
+      }
+      .board-list .-list .text .btn {
+        border: 0px;
+        box-shadow: none;
+        padding: 4px 22px;
+        margin-top: auto;
+        margin-right: auto;
+      }
+
+#detailModal {
+
+}
+  #detailModal button.close {
+    position: inherit;
+    color: #000;
+    font-size: 42px;
+  }
+  #detailModal .modal-body {
+    
+  }
+  #detailModal .-list {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 156px auto;
+    grid-gap: 20px;
+    align-items: center;
+    background: #F5F5F5;
+    padding: 15px;
+    border-radius: 8px;
+    width: 650px;
+    margin: 20px auto 30px auto;
+  }
+    #detailModal .-list .img {
+
+    }
+      #detailModal .-list .img img {
+        border-radius: 8px;
+        width: 100%;
+        aspect-ratio: 198 / 280;
+      }
+
+    #detailModal .-list .text {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+      #detailModal .-list .text hr {
+        margin: 10px 0px;
+      }
+      #detailModal .-list .text a[href*="tel"] ,
+      #detailModal .-list .text a[href*="mailto"] {
+        position: relative;
+        color: var( --secondary);
+        padding: 3px 0px;
+        display: block;
+      }
+      #detailModal .-list .text a[href*="tel"]::before ,
+      #detailModal .-list .text a[href*="mailto"]::before {
+        content: "";
+        background: url(../../public/images/phone.png) no-repeat center left;
+        background-size: contain;
+        width: 22px;
+        display: block;
+        aspect-ratio: 1;
+        float: left;
+        margin-right: 10px;
+      }
+      #detailModal .-list .text a[href*="mailto"]::before {
+        background-image: url(../../public/images/email.png);
+      }
+
 .--detail {
   max-width: 1025px;
   margin: auto;
   padding-bottom: 30px;
 }
+  .--detail .tab-content ol ,
+  .--detail .tab-content ul ,
+  .--detail .tab-content p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .--detail .tab-content p {
+    text-indent: 37px;
+  }
   .--detail iframe {
     max-width: 100%;
   }
   .--detail table {
     
+  }
+  .--detail table.table-gradient {
+    background: url(../images/bg-gradient.png), linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+    background-position-x: 44%;
+    background-position-y: 78%;
+    background-size: 170px, contain;
+    background-repeat: no-repeat;
   }
     .--detail table td {
       padding: 5px 12px;
@@ -1772,7 +1931,7 @@ ul.ul-style {
     align-items: center;
     margin-right: 9px;
     margin-bottom: 10px;
-    color: #669525;
+    color: var( --primary);
     background: #E5FDC3;
   }
   .--detail .-event.ac {
@@ -2075,6 +2234,10 @@ footer {
     margin-bottom: 10px;
     display: block;
   }
+  .board-list.underline .-list {
+    width: 860px;
+    margin: 15px auto;
+  }
 }
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
@@ -2094,6 +2257,12 @@ footer {
  @media only screen and (orientation:portrait){
   .front-header-search {
     all: initial;
+  }
+  .board-list:not(.underline) .-list:not(:first-child) {
+    width: calc(100% - 26px);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
  }
  /* แนวนอน */
@@ -2149,6 +2318,7 @@ footer {
   .-sticky {
     position: inherit;
   }
+
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
     .img-banner.banner-portrait+.img-banner ,
@@ -2198,6 +2368,32 @@ footer {
     .box-Drag .-Drag img {
       margin-right: 0px;
     }
+    #detailModal .-list {
+      width: 100%;
+      display: block;
+      border: 1px solid #e4e4e4;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 0px auto 25px auto;
+    }
+    .board-list .-list {
+      width: 100%;
+      display: block;
+      border: 1px solid #e4e4e4;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0px !important;
+    }
+    #detailModal .-list .img ,
+    .board-list .-list .img {
+      max-width: 150px;
+      margin: auto;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .board-list .-list .text .btn {
+      margin: 17px auto 5px auto;
+    }
   } 
   /* แนวนอน */
   @media only screen and (orientation:landscape){
@@ -2207,6 +2403,10 @@ footer {
     .box-Ourmuseum .item .text {
       position: inherit;
       height: calc(100% - 27vw);
+    }
+    #detailModal .-list ,
+    .board-list .-list {
+      width: calc(100% - 26px);
     }
   }
 }
