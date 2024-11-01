@@ -129,6 +129,7 @@
                             <a class="dropdown-item" href="../regularity/">ระเบียบ</a>
                             <a class="dropdown-item" href="../announce/">ประกาศ</a>
                             <a class="dropdown-item" href="../charter/">กฎบัตร</a>
+                            <a class="dropdown-item" href="../authority/">อำนาจหน้าที่</a>
                             <a class="dropdown-item" href="../ethics/">จริยธรรม</a>
                             <a class="dropdown-item" href="../history/">ความเป็นมา</a>
                             <a class="dropdown-item" href="../evaluation/">รายงานการประเมินผล</a>
