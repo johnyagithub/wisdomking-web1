@@ -907,18 +907,6 @@
   .box-Learning .owl-nav {
     display: flex !important;
   }
-  .scale-navTabs {
-    max-width: 100%;
-    overflow: auto;
-  }
-  .scale-navTabs .box-navTabs {
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    font-size: 14px;
-  }
-  .scale-navTabs .box-navTabs .nav-link {
-    min-width: max-content;
-  }
   .box-Agricultural-slide .item .text {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;

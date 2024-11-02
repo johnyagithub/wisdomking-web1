@@ -10,6 +10,7 @@ $(function () {
 
   styleSwitch();
   textSize();
+  slideNavTabs();
   sliderItem();
   sliderBanner();
   sliderMarket();
@@ -81,9 +82,9 @@ window.onload = function () {
 let ScrollTop = (index) => {
   if ($(window).width() < 768) {
     var e = $(index).offset().top - ($('header').height() + 10);
-  }else if ($(window).width() < 1024) {
+  } else if ($(window).width() < 1024) {
     var e = $(index).offset().top - ($('header').height() + 120);
-  }else{
+  } else {
     var e = $(index).offset().top - ($('header').height() + 70);
   }
   $("html,body").animate({
@@ -235,6 +236,17 @@ let sliderItem = () => {
         },
       },
     });
+  });
+};
+
+let slideNavTabs = () => {
+  $(".slide-navTabs.owl-carousel").owlCarousel({
+    margin: 10,
+    nav: true,
+    dots: false,
+    loop:true,
+    autoWidth: true,
+    items: 4
   });
 };
 

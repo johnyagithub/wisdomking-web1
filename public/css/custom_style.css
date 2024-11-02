@@ -135,7 +135,7 @@ body hr {
     margin-bottom: 0px;
   }
   .table.table-striped {
-    border-radius: 9px;
+    /* border-radius: 9px; */
     overflow: hidden;
     color: var( --secondary);
     box-shadow: 0px 0px 0px 6px #ffffff, 0px 0px 0px 7px #B6B6B6;
@@ -916,6 +916,10 @@ header {
 body.down header {
   padding: 10px;
 }
+ header .container {
+  max-width: 1230px;
+  padding: 0px;
+ }
  header .navbar-expand-lg.py-lg-3 {
   transition: ease .5s;
  }
@@ -1564,9 +1568,9 @@ ul.ul-style {
     }
 
 .list-download {
-  margin-top: 33px;
-  max-width: 1025px;
+  max-width: 800px;
   margin: auto;
+  margin-top: 33px;
 }
   .list-download .list {
     border-bottom: 1px solid #D9D9D9;
@@ -2393,6 +2397,19 @@ footer {
     }
     .board-list .-list .text .btn {
       margin: 17px auto 5px auto;
+    }
+    .scale-navTabs {
+      max-width: 100%;
+      overflow: auto;
+      margin-bottom: 18px;
+    }
+    .scale-navTabs .box-navTabs {
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    .scale-navTabs .box-navTabs .nav-link {
+      min-width: max-content;
     }
   } 
   /* แนวนอน */

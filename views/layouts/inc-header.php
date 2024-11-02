@@ -137,9 +137,11 @@
                             <a class="dropdown-item" href="../director/">นโยบายสำคัญ</a>
                             <a class="dropdown-item" href="../monitor-judg/">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
                             <a class="dropdown-item" href="../annual-report/">รายงานประจำปี</a>
-                            <a class="dropdown-item" href="../e-procurement/">ประกาศจัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../appoint-officials/">แต่งตั้งเจ้าหน้าที่</a>
                             <a class="dropdown-item" href="../operating-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
                             <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
+                            <a class="dropdown-item" href="../manual2/">คู่มือการปฏิบัติงาน</a>
+                            <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">

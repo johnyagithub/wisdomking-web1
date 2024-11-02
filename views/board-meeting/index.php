@@ -23,36 +23,26 @@
 						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก
 					</a>
 				</li>
-				<li class="breadcrumb-item">
-					<a href="#">เกี่ยวกับเรา</a>
-				</li>
-				<li class="breadcrumb-item">
-					<a href="#">โครงสร้างองค์กร</a>
-				</li>
-				<li class="breadcrumb-item active" aria-current="page">โครงสร้างการจัดแบ่งส่วนงาน</li>
+				<li class="breadcrumb-item active" aria-current="page">การประชุมคณะกรรมการ</li>
 			</ol>
 		</nav>
 
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">โครงสร้างการจัดแบ่งส่วนงาน</h4>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<h4 class="head mb-4 text-center">การประชุมคณะกรรมการ</h4>
+					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
-				<img
-					src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/771-0.78241100%201694076424-froalaeditor.jpg"
-					class="mw-100 mx-auto d-block rounded my-3" alt="">
+				<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/890-0.81897200%201728446626-froalaeditor.jpg" class="rounded w-100" alt="">
 				<div class="--detail">
-
-					<div class="list-download mt-5">
+					<div class="list-download">
 						<div class="list">
-							<h6>ขอบเขตุหน้าที่ของส่วนงาน</h6>
+							<h6>การประชุมคณะกรรมการ ปี 2561</h6>
 							<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
 						</div>
 					</div>
 
-					<div class="py-4 border-top mt-4">
+					<div class="py-4 border-top mt-5">
 						Share this:
 						<div class="d-flex flex-wrap my-3">
 							<div>
@@ -94,8 +84,7 @@
 					</div>
 				</div>
 			</div>
-	</div>
-	</section>
+		</section>
 
 	</div>
 	<!-- end #content -->
