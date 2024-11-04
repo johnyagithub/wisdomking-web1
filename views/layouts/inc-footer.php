@@ -126,7 +126,7 @@
   </div>
   <div class="footer-reserved py-3">
     <div class="container d-lg-flex justify-content-between">
-      <div class="text-center" current-verison="5.2">© 2000–2020 WisdomKing. All rights reserved.</div>
+      <div class="text-center" current-verison="5.2">© 2000-2020 WisdomKing. All rights reserved.</div>
       <div class="text-center">
         <a href="../website-policy-wdk" class="text-reset" title="Privacy policy">นโยบายเว็บไซต์</a>
         &nbsp;|&nbsp;

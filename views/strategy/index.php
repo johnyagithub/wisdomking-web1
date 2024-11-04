@@ -124,7 +124,7 @@
 					</div>
 					<div class="tab-pane fade" id="nav-Annual" role="tabpanel" aria-labelledby="nav-Annual-tab">
 						<div class="--detail pb-3">
-							<h4 class="head mb-4 text-center">แผนการตรวจสอบประจำปี</h4>
+							<h4 class="head text-center">แผนการตรวจสอบประจำปี</h4>
 						</div>
 						<img
 							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/181-0.52550700%201727837419-froalaeditor.jpg"
@@ -142,7 +142,7 @@
 					</div>
 					<div class="tab-pane fade" id="nav-Human" role="tabpanel" aria-labelledby="nav-Human-tab">
 						<div class="--detail pb-3">
-							<h4 class="head mb-4 text-center">แผนการดำเนินงานด้านบุคคล</h4>
+							<h4 class="head text-center">แผนการดำเนินงานด้านบุคคล</h4>
 						</div>
 						<div class="list-download">
 							<div class="list">
@@ -150,7 +150,7 @@
 								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
-								<h6>แผนบริหารทรัพยากรบุคคล ระยะ 5 ปี (พ.ศ. 2566 – 2570)</h6>
+								<h6>แผนบริหารทรัพยากรบุคคล ระยะ 5 ปี (พ.ศ. 2566 - 2570)</h6>
 								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
@@ -173,7 +173,7 @@
 					</div>
 					<div class="tab-pane fade" id="nav-Budget" role="tabpanel" aria-labelledby="nav-Budget-tab">
 						<div class="--detail pb-3">
-							<h4 class="head mb-4 text-center">แผนการใช้จ่ายงบประมาณ</h4>
+							<h4 class="head text-center">แผนการใช้จ่ายงบประมาณ</h4>
 						</div>
 						<div class="list-download">
 							<div class="list">

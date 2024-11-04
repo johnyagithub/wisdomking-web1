@@ -61,6 +61,14 @@
 							<h4 class="head mb-4 text-center">เป้าประสงค์</h4>
 						</div>
 						<img src="https://placehold.co/1200x660" class="mw-100 mx-auto d-block rounded my-3" alt="">
+						<div class="row row-p10">
+							<div class="col-md-4"><img src="https://placehold.co/500x300" class="mw-100 mx-auto d-block rounded my-3"
+									alt=""></div>
+							<div class="col-md-4"><img src="https://placehold.co/500x300" class="mw-100 mx-auto d-block rounded my-3"
+									alt=""></div>
+							<div class="col-md-4"><img src="https://placehold.co/500x300" class="mw-100 mx-auto d-block rounded my-3"
+									alt=""></div>
+						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-target" role="tabpanel" aria-labelledby="nav-target-tab">
 						<div class="--detail pb-0">

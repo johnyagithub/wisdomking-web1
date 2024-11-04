@@ -71,7 +71,7 @@
 						</div>
 					</div>
 
-					<div class="py-4 border-top mt-5">
+					<div class="py-4 border-top">
 						Share this:
 						<div class="d-flex flex-wrap my-3">
 							<div>

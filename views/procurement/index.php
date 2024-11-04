@@ -358,6 +358,7 @@
 				animationEnabled: true,
 				legend: {
 					horizontalAlign: "center",
+					fontSize: 14,
 					fontFamily: "Prompt",
 					fontWeight: "100",
 					verticalAlign: "bottom"
@@ -384,6 +385,7 @@
 				animationEnabled: true,
 				legend: {
 					horizontalAlign: "center",
+					fontSize: 14,
 					fontFamily: "Prompt",
 					fontWeight: "100",
 					verticalAlign: "bottom"
