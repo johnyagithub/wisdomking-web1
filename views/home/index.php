@@ -57,8 +57,8 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<div class="owl-carousel">
 							<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
 								type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
 								<img src="../../public/images/moon.png" style="width: 24px;" alt="">
@@ -259,12 +259,14 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
-					<div class="ml-auto d-flex flex-wrap" data-showId="data-Calendar">
-						<button type="button" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</button>
-						<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted m-1">ท่องเที่ยวสุขสันต์
-							ที่พิพิธภัณฑ์เกษตรฯ</button>
-						<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted m-1">หลักสูตรอบรมเข้มข้น</button>
-						<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted m-1">อื่นๆ</button>
+					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Calendar">
+						<div class="owl-carousel">
+							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
+							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted">ท่องเที่ยวสุขสันต์
+								ที่พิพิธภัณฑ์เกษตรฯ</button>
+							<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted">หลักสูตรอบรมเข้มข้น</button>
+							<!-- <button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted">อื่นๆ</button> -->
+						</div>
 					</div>
 				</div>
 				<div class="row align-items-center">
@@ -285,7 +287,8 @@
 							<div class="list" data-img="../../public/images/calendar/img1.jpg" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="ท่องเที่ยวสุขสันต์ ที่พิพิธภัณฑ์เกษตรฯ" data-idtype="tab1"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 							<div class="list" data-img="../../public/images/learning/img1.jpg" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="อบรมเข้มข้นแบบมืออาชีพ ประจำ เดือน ก.ค. 66"
@@ -296,29 +299,34 @@
 							<div class="list" data-img="https://placehold.co/630x830?text=09" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น,อื่นๆ" data-idtype="tab2 tab3"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 						<div class="item" data-day="วันจันทร์" data-start="15 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=15" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 						<div class="item" data-day="วันอังคาร" data-start="16 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=16" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="อื่นๆ" data-idtype="tab3" data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 						<div class="item" data-day="วันเสาร์" data-start="20 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=20" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 						<div class="item" data-day="วันอาทิตย์" data-start="21 กรกฎาคม" data-end="16 กรกฎาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=21" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 					</div>
 					<div data-item="กันยายน">
@@ -326,7 +334,8 @@
 							<div class="list" data-img="https://placehold.co/630x830?text=08" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 					</div>
 					<div data-item="ธันวาคม">
@@ -334,13 +343,15 @@
 							<div class="list" data-img="https://placehold.co/630x830?text=08" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 						<div class="item" data-day="วันอาทิตย์" data-start="20 ธันวาคม" data-end="16 ธันวาคม">
 							<div class="list" data-img="https://placehold.co/630x830?text=20" data-date="01 กรกฎาคม 2023"
 								data-view="250" data-type="หลักสูตรอบรมเข้มข้น" data-idtype="tab2"
 								data-name="ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566"
-								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php"></div>
+								data-detail="กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย" data-link="../calendar-learn/detail.php">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -413,8 +424,8 @@
 			<div class="container">
 				<div class="-sticky d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">องค์ความรู้</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<div class="owl-carousel">
 							<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"
 								role="tab" aria-controls="nav-All" aria-selected="true">
 								ทั้งหมด
@@ -832,8 +843,8 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ข่าว & ประชาสัมพันธ์</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<div class="owl-carousel">
 							<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
 								role="tab" aria-controls="nav1" aria-selected="true">
 								ทั้งหมด

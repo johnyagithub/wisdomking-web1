@@ -120,8 +120,8 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">สื่อการเรียนรู้</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<div class="owl-carousel">
 							<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
 								role="tab" aria-controls="nav1" aria-selected="true">
 								ทั้งหมด

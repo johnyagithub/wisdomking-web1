@@ -38,51 +38,63 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
-					<h2 class="head mb-4 text-center">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</h2>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<h2 class="head text-center">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</h2>
+					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 
-				<div class="slide-navTabs owl-carousel ml-auto">
-					<div class="box-navTabs nav nav-tabs justify-content-center mb-4" role="tablist">
-						<button class="nav-link active" id="nav-strategic-tab" data-toggle="tab" data-target="#nav-strategic"
-							type="button" role="tab" aria-controls="nav-strategic" aria-selected="true">
-							ยุทธศาสตร์
-						</button>
-						<button class="nav-link" id="nav-Annual-tab" data-toggle="tab" data-target="#nav-Annual" type="button"
-							role="tab" aria-controls="nav-Annual" aria-selected="false">
-							แผนการตรวจสอบประจำปี
-						</button>
-						<button class="nav-link" id="nav-Human-tab" data-toggle="tab" data-target="#nav-Human" type="button"
-							role="tab" aria-controls="nav-Human" aria-selected="false">
-							แผนการดำเนินงานด้านบุคคล
-						</button>
-						<button class="nav-link" id="nav-Budget-tab" data-toggle="tab" data-target="#nav-Budget" type="button"
-							role="tab" aria-controls="nav-Budget" aria-selected="false">
-							แผนการใช้จ่ายงบประมาณ
-						</button>
-						<button class="nav-link" id="nav-corruption-tab" data-toggle="tab" data-target="#nav-corruption" type="button"
-							role="tab" aria-controls="nav-corruption" aria-selected="false">
-							การปฏิบัติการป้องกันการทุจริต
-						</button>
-						<button class="nav-link" id="nav-Performance-tab" data-toggle="tab" data-target="#nav-Performance" type="button"
-							role="tab" aria-controls="nav-Performance" aria-selected="false">
-							ผลการดำเนินงาน
-						</button>
+					<div class="box-navTabs nav nav-tabs justify-content-center mb-4 " role="tablist">
+						<div class="owl-carousel">
+							<button class="nav-link active" id="nav-strategic-tab" data-toggle="tab" data-target="#nav-strategic"
+								type="button" role="tab" aria-controls="nav-strategic" aria-selected="true">
+								ยุทธศาสตร์
+							</button>
+							<button class="nav-link" id="nav-Annual-tab" data-toggle="tab" data-target="#nav-Annual" type="button"
+								role="tab" aria-controls="nav-Annual" aria-selected="false">
+								แผนการตรวจสอบประจำปี
+							</button>
+							<button class="nav-link" id="nav-Human-tab" data-toggle="tab" data-target="#nav-Human" type="button"
+								role="tab" aria-controls="nav-Human" aria-selected="false">
+								แผนการดำเนินงานด้านบุคคล
+							</button>
+							<button class="nav-link" id="nav-Budget-tab" data-toggle="tab" data-target="#nav-Budget" type="button"
+								role="tab" aria-controls="nav-Budget" aria-selected="false">
+								แผนการใช้จ่ายงบประมาณ
+							</button>
+							<button class="nav-link" id="nav-corruption-tab" data-toggle="tab" data-target="#nav-corruption"
+								type="button" role="tab" aria-controls="nav-corruption" aria-selected="false">
+								การปฏิบัติการป้องกันการทุจริต
+							</button>
+							<button class="nav-link" id="nav-Performance-tab" data-toggle="tab" data-target="#nav-Performance"
+								type="button" role="tab" aria-controls="nav-Performance" aria-selected="false">
+								ผลการดำเนินงาน
+							</button>
+						</div>
 					</div>
-				</div>
 
 				<div class="tab-content pb-4">
-					<div class="tab-pane fade show active" id="nav-strategic" role="tabpanel"
-						aria-labelledby="nav-strategic-tab">
+					<div class="tab-pane fade show active" id="nav-strategic" role="tabpanel" aria-labelledby="nav-strategic-tab">
 						<div class="--detail pb-0">
 							<h4 class="head mb-4 text-center">ยุทธศาสตร์</h4>
-							<p>เพื่อให้การขับเคลื่อนงานบรรลุตามวิสัยทัศน์ พันธกิจ เป้าประสงค์และเป้าหมายของสํานักงานฯ รวมทั้งตอบสนองยุทธศาสตร์ชาติ แผนแม่บทภายใต้ยุทธศาสตร์ชาติ แผนปฏิรูปประเทศ และแผนพัฒนา เศรษฐกิจและสังคม ที่เกี่ยวข้อง พกฉ. จึงได้กําหนดการขับเคลื่อนเป็น 5 ประเด็นยุทธศาสตร์ และ 12 กลยุทธ์</p>
+							<p>เพื่อให้การขับเคลื่อนงานบรรลุตามวิสัยทัศน์ พันธกิจ เป้าประสงค์และเป้าหมายของสํานักงานฯ
+								รวมทั้งตอบสนองยุทธศาสตร์ชาติ แผนแม่บทภายใต้ยุทธศาสตร์ชาติ แผนปฏิรูปประเทศ และแผนพัฒนา เศรษฐกิจและสังคม
+								ที่เกี่ยวข้อง พกฉ. จึงได้กําหนดการขับเคลื่อนเป็น 5 ประเด็นยุทธศาสตร์ และ 12 กลยุทธ์</p>
 						</div>
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/1.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/2.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/3.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/4.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/5.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/1.jpg"
+							class="mw-100 mx-auto d-block rounded my-3" alt="">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/2.jpg"
+							class="mw-100 mx-auto d-block rounded my-3" alt="">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/3.jpg"
+							class="mw-100 mx-auto d-block rounded my-3" alt="">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/4.jpg"
+							class="mw-100 mx-auto d-block rounded my-3" alt="">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/About_Us/ITA/67/pic/5.jpg"
+							class="mw-100 mx-auto d-block rounded my-3" alt="">
 						<div class="list-download">
 							<div class="list">
 								<h6>แผนแม่บทการพัฒนา พกฉ. 2567-2569</h6>
@@ -110,12 +122,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Annual" role="tabpanel"
-						aria-labelledby="nav-Annual-tab">
+					<div class="tab-pane fade" id="nav-Annual" role="tabpanel" aria-labelledby="nav-Annual-tab">
 						<div class="--detail pb-3">
 							<h4 class="head mb-4 text-center">แผนการตรวจสอบประจำปี</h4>
 						</div>
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/181-0.52550700%201727837419-froalaeditor.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/181-0.52550700%201727837419-froalaeditor.jpg"
+							class="mw-100 mx-auto d-block rounded my-3" alt="">
 						<div class="list-download">
 							<div class="list">
 								<h6>แผนการตรวจสอบประจำปีงบประมาณ พ.ศ.2568</h6>
@@ -127,8 +140,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Human" role="tabpanel"
-						aria-labelledby="nav-Human-tab">
+					<div class="tab-pane fade" id="nav-Human" role="tabpanel" aria-labelledby="nav-Human-tab">
 						<div class="--detail pb-3">
 							<h4 class="head mb-4 text-center">แผนการดำเนินงานด้านบุคคล</h4>
 						</div>
@@ -159,8 +171,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Budget" role="tabpanel"
-						aria-labelledby="nav-Budget-tab">
+					<div class="tab-pane fade" id="nav-Budget" role="tabpanel" aria-labelledby="nav-Budget-tab">
 						<div class="--detail pb-3">
 							<h4 class="head mb-4 text-center">แผนการใช้จ่ายงบประมาณ</h4>
 						</div>
@@ -191,8 +202,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-corruption" role="tabpanel"
-						aria-labelledby="nav-corruption-tab">
+					<div class="tab-pane fade" id="nav-corruption" role="tabpanel" aria-labelledby="nav-corruption-tab">
 						<div class="--detail pb-3">
 							<h4 class="head mb-4 text-center">การปฏิบัติการป้องกันการทุจริต</h4>
 						</div>
@@ -244,7 +254,9 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต และผลการดำเนินการตามแผนบริหารความเสี่ยงการทุจริต ประจำปีงบประมาณ พ.ศ. 2567 (ด้านที่ 3 การใช้จ่ายงบประมาณ) รอบที่ 2</th>
+										<th class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต
+											และผลการดำเนินการตามแผนบริหารความเสี่ยงการทุจริต ประจำปีงบประมาณ พ.ศ. 2567 (ด้านที่ 3
+											การใช้จ่ายงบประมาณ) รอบที่ 2</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -252,7 +264,9 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต และผลการดำเนินการตามแผนบริหารความเสี่ยงการทุจริต ประจำปีงบประมาณ พ.ศ. 2567 (ด้านที่ 3 การใช้จ่ายงบประมาณ) รอบที่ 1</th>
+										<th class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต
+											และผลการดำเนินการตามแผนบริหารความเสี่ยงการทุจริต ประจำปีงบประมาณ พ.ศ. 2567 (ด้านที่ 3
+											การใช้จ่ายงบประมาณ) รอบที่ 1</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -260,7 +274,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน (เฉพาะการจัดซื้อจัดจ้าง) ประจำปีงบประมาณ พ.ศ. 2567</th>
+										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
+											(เฉพาะการจัดซื้อจัดจ้าง) ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -268,7 +283,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินการเพื่อจัดการความเสี่ยงการทุจริตและประพฤติมิชอบประจำปี พ.ศ. 2566</th>
+										<th class="text-left">รายงานผลการดำเนินการเพื่อจัดการความเสี่ยงการทุจริตและประพฤติมิชอบประจำปี พ.ศ.
+											2566</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -284,7 +300,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน (เฉพาะการให้บริการ) ประจำปีงบประมาณ พ.ศ. 2567</th>
+										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
+											(เฉพาะการให้บริการ) ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -292,7 +309,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน (เฉพาะการบริหารงานบุคคล) ประจำปีงบประมาณ พ.ศ. 2567</th>
+										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
+											(เฉพาะการบริหารงานบุคคล) ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -308,7 +326,9 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินการตามมาตรการเพื่อขับเคลื่อนการส่งเสริมคุณธรรมและความโปร่งใสในการประเมินคุณธรรมและความโปร่งใสของ พกฉ. ประจำปีงบประมาณ
+										<th class="text-left">
+											รายงานผลการดำเนินการตามมาตรการเพื่อขับเคลื่อนการส่งเสริมคุณธรรมและความโปร่งใสในการประเมินคุณธรรมและความโปร่งใสของ
+											พกฉ. ประจำปีงบประมาณ
 											พ.ศ. 2566</th>
 										<td>
 											<a href="#" download>
@@ -317,7 +337,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การวิเคราะห์ผลการประเมินคุณธรรมและความโปร่งใส ประจำปีงบประมาณ พ.ศ. 2566 และมาตรการส่งเสริมคุณธรรมและความโปร่งใส ประจำปีงบประมาณ พ.ศ. 2567</th>
+										<th class="text-left">การวิเคราะห์ผลการประเมินคุณธรรมและความโปร่งใส ประจำปีงบประมาณ พ.ศ. 2566
+											และมาตรการส่งเสริมคุณธรรมและความโปร่งใส ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -328,8 +349,7 @@
 							</table>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Performance" role="tabpanel"
-						aria-labelledby="nav-Performance-tab">
+					<div class="tab-pane fade" id="nav-Performance" role="tabpanel" aria-labelledby="nav-Performance-tab">
 						<div class="--detail pb-3">
 							<h4 class="head mb-4 text-center">ผลการดำเนินงาน</h4>
 						</div>
@@ -498,7 +518,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการวิจัยโครงการสำรวจความพึงพอใจของผู้รับบริการของ พกฉ. ประจำปี 2564 </th>
+										<th class="text-left">รายงานการวิจัยโครงการสำรวจความพึงพอใจของผู้รับบริการของ พกฉ. ประจำปี 2564
+										</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -576,7 +597,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล ไตรมาส 2 ปีงบประมาณ 2565</th>
+										<th class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล
+											ไตรมาส 2 ปีงบประมาณ 2565</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -584,7 +606,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล ไตรมาส 1 ปีงบประมาณ 2565</th>
+										<th class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล
+											ไตรมาส 1 ปีงบประมาณ 2565</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -622,7 +645,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินตามแผนปฏิบัติการด้านการป้องกันและปราบปรามการทุจริตและประพฤติมิชอบ พกฉ. ประจำปีงบประมาณ พ.ศ. 2566</th>
+										<th class="text-left">
+											รายงานผลการดำเนินตามแผนปฏิบัติการด้านการป้องกันและปราบปรามการทุจริตและประพฤติมิชอบ พกฉ.
+											ประจำปีงบประมาณ พ.ศ. 2566</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -630,7 +655,8 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินการตามแผนบริหารจัดการความเสี่ยงการทุจริต ประจำปีงบประมาณ 2566 รอบที่ 2</th>
+										<th class="text-left">รายงานผลการดำเนินการตามแผนบริหารจัดการความเสี่ยงการทุจริต ประจำปีงบประมาณ 2566
+											รอบที่ 2</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">

@@ -40,8 +40,8 @@
 			<div class="container">
 				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
 					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<div class="owl-carousel">
 							<button class="nav-link active" id="nav-Background-tab" data-toggle="tab" data-target="#nav-Background"
 								type="button" role="tab" aria-controls="nav-Background" aria-selected="true">
 								ความเป็นมา
@@ -90,7 +90,9 @@
 							<h5 class="text-primary text-center">"เป็นพิพิธภัณฑ์ชั้นนำแห่งการเรียนรู้<br>
 								พระเกียรติคุณและพระอัจฉริยภาพของกษัตริย์เกษตรและเป็นศูนย์กลางการเรียนรู้หลักปรัชญา<br>
 								ของเศรษฐกิจพอเพียงนวัตกรรมด้านการเกษตรของประเทศ"</h5>
-							<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/141-0.00965200%201614592186-froalaeditor.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
+							<img
+								src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/141-0.00965200%201614592186-froalaeditor.jpg"
+								class="mw-100 mx-auto d-block rounded my-3" alt="">
 							<ol>
 								<li>เผยแพร่พระเกียรติคุณและพระอัจฉริยภาพด้านการเกษตร ของพระมหากษัตริย์ไทย และพระบรมวงศานุวงศ์</li>
 								<li>สืบสาน รักษา ต่อยอด หลักปรัชญาของเศรษฐกิจพอเพียงด้านการเกษตร</li>
@@ -137,7 +139,8 @@
 									</tr>
 									<tr>
 										<td> N : Network & work together as a team</td>
-										<td>ประสานความร่วมมือกับเครือข่าย ทำงานเป็นทีม เพื่อสร้างสรรค์ผลงาน นำไปสู่การบรรลุเป้าหมายขององค์กร</td>
+										<td>ประสานความร่วมมือกับเครือข่าย ทำงานเป็นทีม เพื่อสร้างสรรค์ผลงาน นำไปสู่การบรรลุเป้าหมายขององค์กร
+										</td>
 									</tr>
 									<tr>
 										<td>G : Good governance</td>

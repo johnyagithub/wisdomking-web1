@@ -34,13 +34,14 @@
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
 					<h2 class="head mb-4 text-center">ความเป็นมา</h2>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 
-				<div class="scale-navTabs ml-auto">
-					<div class="box-navTabs nav nav-tabs justify-content-center mb-4" role="tablist">
-						<button class="nav-link active" id="nav-goal-tab" data-toggle="tab" data-target="#nav-goal"
-							type="button" role="tab" aria-controls="nav-goal" aria-selected="true">
+				<div class="box-navTabs nav nav-tabs justify-content-center mb-4" role="tablist">
+					<div class="owl-carousel">
+						<button class="nav-link active" id="nav-goal-tab" data-toggle="tab" data-target="#nav-goal" type="button"
+							role="tab" aria-controls="nav-goal" aria-selected="true">
 							เป้าประสงค์
 						</button>
 						<button class="nav-link" id="nav-target-tab" data-toggle="tab" data-target="#nav-target" type="button"
@@ -55,18 +56,17 @@
 				</div>
 
 				<div class="tab-content pb-4">
-					<div class="tab-pane fade show active" id="nav-goal" role="tabpanel"
-						aria-labelledby="nav-goal-tab">
+					<div class="tab-pane fade show active" id="nav-goal" role="tabpanel" aria-labelledby="nav-goal-tab">
 						<div class="--detail pb-0">
 							<h4 class="head mb-4 text-center">เป้าประสงค์</h4>
 						</div>
 						<img src="https://placehold.co/1200x660" class="mw-100 mx-auto d-block rounded my-3" alt="">
 					</div>
-					<div class="tab-pane fade" id="nav-target" role="tabpanel"
-						aria-labelledby="nav-target-tab">
+					<div class="tab-pane fade" id="nav-target" role="tabpanel" aria-labelledby="nav-target-tab">
 						<div class="--detail pb-0">
 							<h4 class="head mb-4 text-center">เป้าหมาย</h4>
-							<p class="text-center">เกษตรกรและประชาชนได้รับการพัฒนาและเรียนรู้ ภูมิปัญญาและนวัตกรรมการเกษตรตามแนวทางเศรษฐกิจพอเพียง</p>
+							<p class="text-center">เกษตรกรและประชาชนได้รับการพัฒนาและเรียนรู้
+								ภูมิปัญญาและนวัตกรรมการเกษตรตามแนวทางเศรษฐกิจพอเพียง</p>
 						</div>
 						<img src="https://placehold.co/1200x660" class="mw-100 mx-auto d-block rounded my-3" alt="">
 						<div class="--detail">
@@ -89,15 +89,19 @@
 									ปี พ.ศ. 2568 = 140 เครือข่าย<br>
 									ปี พ.ศ. 2569 = 150 เครือข่าย<br>
 									ปี พ.ศ. 2570 = 160 เครือข่าย</li>
-								<li><b>ตัวชี้วัดเชิงคุณภาพ : ผู้เข้าร่วมโครงการส่งเสริมการเรียนรู้และฝึกปฏิบัติเกษตรเศรษฐกิจพอเพียงมีความรู้และความเข้าใจปรัชญาของเศรษฐกิจพอเพียง</b><br>ปี พ.ศ. 2566 - 2570 ไม่น้อยกว่าร้อยละ 85</li>
-								<li><b>ตัวชี้วัดเชิงคุณภาพ : ผู้เข้ารับการถ่ายทอด องค์ความรู้ได้นำความรู้ไปประยุกต์ใช้</b><br> ปี พ.ศ. 2566 - 2570 ไม่น้อยกว่าร้อยละ 80 </li>
-								<li><b>ตัวชี้วัดห่วงโซ่ผลการดำเนินงาน (result chain) ผลลัพธ์ : ร้อยละการเกิดความร่วมมือกับเครือข่ายของ พกฉ.</b><br> ปี พ.ศ. 2568 ไม่น้อยกว่าร้อยละ 80</li>
-								<li><b>ตัวชี้วัดห่วงโซ่ผลการดำเนินงาน (result chain) ผลกระทบ : เกิดตลาดเศรษฐกิจพอเพียงต้นแบบ เพื่อส่งเสริมเศรษฐกิจระดับชุมชนท้องถิ่น</b><br>อย่างน้อย 1 แห่ง/ปี</li>
+								<li><b>ตัวชี้วัดเชิงคุณภาพ :
+										ผู้เข้าร่วมโครงการส่งเสริมการเรียนรู้และฝึกปฏิบัติเกษตรเศรษฐกิจพอเพียงมีความรู้และความเข้าใจปรัชญาของเศรษฐกิจพอเพียง</b><br>ปี
+									พ.ศ. 2566 - 2570 ไม่น้อยกว่าร้อยละ 85</li>
+								<li><b>ตัวชี้วัดเชิงคุณภาพ : ผู้เข้ารับการถ่ายทอด องค์ความรู้ได้นำความรู้ไปประยุกต์ใช้</b><br> ปี พ.ศ.
+									2566 - 2570 ไม่น้อยกว่าร้อยละ 80 </li>
+								<li><b>ตัวชี้วัดห่วงโซ่ผลการดำเนินงาน (result chain) ผลลัพธ์ : ร้อยละการเกิดความร่วมมือกับเครือข่ายของ
+										พกฉ.</b><br> ปี พ.ศ. 2568 ไม่น้อยกว่าร้อยละ 80</li>
+								<li><b>ตัวชี้วัดห่วงโซ่ผลการดำเนินงาน (result chain) ผลกระทบ : เกิดตลาดเศรษฐกิจพอเพียงต้นแบบ
+										เพื่อส่งเสริมเศรษฐกิจระดับชุมชนท้องถิ่น</b><br>อย่างน้อย 1 แห่ง/ปี</li>
 							</ol>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Report" role="tabpanel"
-						aria-labelledby="nav-Report-tab">
+					<div class="tab-pane fade" id="nav-Report" role="tabpanel" aria-labelledby="nav-Report-tab">
 						<div class="--detail pb-0">
 							<h4 class="head mb-4 text-center">รายงานการประเมินผลการปฏิบัติงาน</h4>
 						</div>

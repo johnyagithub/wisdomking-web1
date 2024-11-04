@@ -49,8 +49,8 @@
 			<div class="container">
 				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
 					<h3 class="head mb-4">แต่งตั้งคณะกรรมการสำนักงาน</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<div class="owl-carousel">
 							<button class="nav-link active" id="nav-Committee-tab" data-toggle="tab" data-target="#nav-Committee"
 								type="button" role="tab" aria-controls="nav-Committee" aria-selected="true">
 								คณะกรรมการ
@@ -312,9 +312,7 @@
 
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">ประธานอนุกรรมการ</h5>
@@ -398,9 +396,7 @@
 								</div>
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">อนุกรรมการ</h5>
@@ -771,9 +767,7 @@
 								</div>
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">อนุกรรมการ</h5>
@@ -956,9 +950,7 @@
 								</div>
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">อนุกรรมการ</h5>
@@ -979,9 +971,7 @@
 								</div>
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">อนุกรรมการ</h5>
@@ -1283,9 +1273,7 @@
 								</div>
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">คณะทำงาน</h5>
@@ -1435,9 +1423,7 @@
 								</div>
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">คณะทำงาน</h5>
@@ -1458,9 +1444,7 @@
 								</div>
 								<div class="-list">
 									<div class="img">
-										<img
-											src="https://placehold.co/198x280"
-											alt="">
+										<img src="https://placehold.co/198x280" alt="">
 									</div>
 									<div class="text">
 										<h5 class="--position text-primary">คณะทำงาน</h5>

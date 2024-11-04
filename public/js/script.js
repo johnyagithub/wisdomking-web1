@@ -240,13 +240,20 @@ let sliderItem = () => {
 };
 
 let slideNavTabs = () => {
-  $(".slide-navTabs.owl-carousel").owlCarousel({
+  var $owl = $(".box-navTabs .owl-carousel").owlCarousel({
     margin: 10,
     nav: true,
     dots: false,
-    loop:true,
     autoWidth: true,
-    items: 4
+    mouseDrag: false,
+    touchDrag: false,
+    items: 1
+  });
+  setTimeout(function () {
+    $owl.trigger('refresh.owl.carousel');
+  }, 0);
+  $('.box-navTabs .owl-carousel .owl-item').click(function () {
+    $(this).siblings().find('.nav-link').removeClass('active').attr('aria-selected', false);
   });
 };
 
