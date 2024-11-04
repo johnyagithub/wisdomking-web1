@@ -54,6 +54,8 @@
 }
   .box-courses .item {
     color: #000;
+    padding: 10px;
+    display: block;
   }
     .box-courses .item .img {
       border-radius: var(--border_radius);

@@ -38,20 +38,14 @@
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 					<hr class="my-3">
 					<h4 class="head mb-4 text-center">หมวดหมู่</h4>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+					<div class="box-navTabs ml-auto  mb-auto">
 						<div class="owl-carousel">
-							<button class="nav-link border-0 active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
-								type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true" style="aspect-ratio: 1;">
-								หมวดหมู่<br>1
-							</button>
-							<button class="nav-link border-0" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor"
-								type="button" role="tab" aria-controls="nav-Outdoor" aria-selected="false" style="aspect-ratio: 1;">
-								หมวดหมู่<br>2
-							</button>
-							<button class="nav-link border-0" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual"
-								type="button" role="tab" aria-controls="nav-Virtual" aria-selected="false" style="aspect-ratio: 1;">
-								หมวดหมู่<br>3
-							</button>
+							<a href="#" class="nav-link border-0 text-center active" style="aspect-ratio: 1;">
+								หมวดหมู่<br>1</a>
+							<a href="#" class="nav-link border-0 text-center" style="aspect-ratio: 1;">
+								หมวดหมู่<br>2</a>
+							<a href="#" class="nav-link border-0 text-center" style="aspect-ratio: 1;">
+								หมวดหมู่<br>3</a>
 						</div>
 					</div>
 
