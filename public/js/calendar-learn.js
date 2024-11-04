@@ -6,7 +6,7 @@ $(function () {
 
 let buttonTabCustom = () => {
   $("[data-showId] button").click(function () {
-    $(this).siblings().removeClass('active');
+    $('[data-showId] button').removeClass('active');
     $(this).addClass('active');
 
     var thisId = $(this).closest("[data-showId]").attr('data-showId');

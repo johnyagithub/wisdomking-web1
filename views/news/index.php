@@ -346,10 +346,12 @@
 						</a>
 					</div>
 
-					<button type="button" class="btn btn-style4 mx-auto" style="margin-top: -42px;">
-						โหลดเพิ่มเติม
-						<img src="../../public/images/icon-select.png" style="mix-blend-mode: color-dodge;" alt="">
-					</button>
+					<div class="d-flex w-100">
+						<button type="button" class="btn btn-style4 mx-auto" style="margin-top: -42px;">
+							โหลดเพิ่มเติม
+							<img src="../../public/images/icon-select.png" style="mix-blend-mode: color-dodge;" alt="">
+						</button>
+					</div>
 				</div>
 			</div>
 		</section>

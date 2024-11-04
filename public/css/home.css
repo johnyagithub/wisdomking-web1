@@ -900,10 +900,6 @@
   .box-Learning .arrow-default {
     display: none;
   }
-  .text-center.text-sm-left .head::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
   .box-Learning .owl-nav {
     display: flex !important;
   }

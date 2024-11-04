@@ -1,0 +1,117 @@
+.box-Learning {
+  
+}
+  .box-Learning .owl-carousel {
+    width: 104%;
+    margin-left: -4%;
+  }
+    .box-Learning .item .img img {
+      aspect-ratio: 355 / 192;
+    }
+    
+  .box-Learning .arrow-default {
+    display: flex;
+    align-items: start;
+    margin-top: 23px;
+  }
+    .box-Learning .arrow-default .o-prev ,
+    .box-Learning .arrow-default .o-next {
+      background: url(../images/icon-prev.png) no-repeat center;
+      background-size: contain;
+      margin: 0px 5px;
+      width: 40px;
+      aspect-ratio: 1;
+    }
+    .box-Learning .arrow-default .o-next {
+      background-image: url(../images/icon-next.png);
+    }
+
+    .box-Learning .owl-nav {
+      all: initial;
+      order: 1;
+      display: none !important;
+      justify-content: center;
+    }
+      .box-Learning .owl-nav button {
+        position: inherit;
+        transform: none !important;
+        background-color: #000;
+        background: url(../images/icon-prev.png) no-repeat center;
+        background-size: contain;
+        margin: 0px 5px;
+        width: 40px;
+      }
+        .box-Learning .owl-nav button.disabled {
+          opacity: 0.5;
+          pointer-events: none;
+        }
+        .box-Learning .owl-nav button.owl-next {
+          background-image: url(../images/icon-next.png);
+        }
+
+.box-courses {
+
+}
+  .box-courses .item {
+    color: #000;
+  }
+    .box-courses .item .img {
+      border-radius: var(--border_radius);
+    }
+      .box-courses .item img {
+        aspect-ratio: 355 / 192;
+        object-fit: cover;
+      }
+
+    .box-courses .item .text {
+      margin-top: 12px;
+    }
+      .box-courses .item .-type {
+        margin: 12px 0px 7px 0px;
+        border: none;
+      }
+
+/* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  
+}
+
+/* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  /* แนวตั้ง */
+  @media only screen and (orientation:portrait){
+    .box-Learning .owl-carousel {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+  /* แนวนอน */
+  @media only screen and (orientation:landscape){
+   
+  }
+}
+
+/* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .box-Learning .owl-carousel {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+ /* แนวตั้ง */
+ @media only screen and (orientation:portrait){
+  .box-Learning .arrow-default {
+    display: none;
+  }
+  .box-Learning .owl-nav {
+    display: flex !important;
+    margin-top: 20px;
+  }
+
+ } 
+ /* แนวนอน */
+ @media only screen and (orientation:landscape){
+ 
+ }
+}

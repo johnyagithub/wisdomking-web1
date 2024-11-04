@@ -852,7 +852,8 @@ div#navbarMain li.nav-item:hover a.nav-link {
       justify-content: center;
       align-items: center;
     }
-      .box-navTabs .owl-carousel .owl-item .nav-link {
+      .box-navTabs .owl-carousel .owl-item .nav-link ,
+      .box-navTabs .owl-carousel .owl-item .btn {
         margin: 0px;
         box-shadow: none;
       }
@@ -1624,6 +1625,7 @@ ul.ul-style {
     .list-download .list h6 {
       margin: 0px;
       position: relative;
+      margin-right: 10px;
     }
     .list-download .list h6::before {
       content: "";
@@ -2463,6 +2465,10 @@ footer {
     }
     .scale-navTabs .box-navTabs .nav-link {
       min-width: max-content;
+    }
+    .text-center.text-sm-left .head::after {
+      left: 50%;
+      transform: translateX(-50%);
     }
   } 
   /* แนวนอน */

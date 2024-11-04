@@ -132,7 +132,6 @@
                             <a class="dropdown-item" href="../authority/">อำนาจหน้าที่</a>
                             <a class="dropdown-item" href="../ethics/">จริยธรรม</a>
                             <a class="dropdown-item" href="../history/">ความเป็นมา</a>
-                            <a class="dropdown-item" href="../evaluation/">รายงานการประเมินผล</a>
                             <a class="dropdown-item" href="../strategy/">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</a>
                             <a class="dropdown-item" href="../director/">นโยบายสำคัญ</a>
                             <a class="dropdown-item" href="../monitor-judg/">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
@@ -169,7 +168,7 @@
                         <img src="../../public/images/icon-pro.png" alt="">สมัคสมาชิก
                     </a>
                     <a class="btn btn-style m-1" href="#" role="button">เข้าร่วมโครงการส่งเสริมการเรียนรู้</a>
-                    <a class="btn btn-style m-1" href="#" role="button">e-Learning</a>
+                    <a class="btn btn-style m-1" href="../e-learning/" role="button">e-Learning</a>
                     <a class="btn btn-style m-1" href="#" role="button">สินค้าและบริการ</a>
                 </div>
                 <div class="header-top-link">

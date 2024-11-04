@@ -92,13 +92,15 @@
 				</div>
 
 				<div class="--detail">
-					<div class="d-flex flex-wrap justify-content-center mt-3" data-showid="data-Calendar">
-						<button type="button" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</button>
-						<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted m-1">ท่องเที่ยวสุขสันต์
-							ที่พิพิธภัณฑ์เกษตรฯ</button>
-						<button type="button" data-type="tab2"
-							class="btn btn-style3 px-3 text-muted m-1">หลักสูตรอบรมเข้มข้น</button>
-						<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted m-1">อื่นๆ</button>
+					<div class="box-navTabs d-flex flex-wrap justify-content-center mt-3" data-showid="data-Calendar">
+						<div class="owl-carousel">
+							<button type="button" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</button>
+							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted m-1">ท่องเที่ยวสุขสันต์
+								ที่พิพิธภัณฑ์เกษตรฯ</button>
+							<button type="button" data-type="tab2"
+								class="btn btn-style3 px-3 text-muted m-1">หลักสูตรอบรมเข้มข้น</button>
+							<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted m-1">อื่นๆ</button>
+						</div>
 					</div>
 					<div id="data-Calendar" class="box-Calendar2 row">
 
@@ -126,7 +128,8 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill"
+									href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab2">
@@ -153,7 +156,8 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill"
+									href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab3">
@@ -180,7 +184,8 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill"
+									href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab1">
@@ -207,7 +212,8 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill"
+									href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 						<div class="item" data-type="tab1">
@@ -234,7 +240,8 @@
 								</div>
 								<h5 class="text-line2">ท่องเที่ยวสุขสันต์ 15-16 ก.ค. 2566</h5>
 								<p class="text-line4">กิจกรรม ตามหาเชฟตัวน้อย เข้าครัว ทำเมนูอร่อย</p>
-								<a class="btn btn-light px-4 btn-sm rounded-pill" href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
+								<a class="btn btn-light px-4 btn-sm rounded-pill"
+									href="../calendar-learn/detail.php">ข้อมูลเพิ่มเติม</a>
 							</div>
 						</div>
 
