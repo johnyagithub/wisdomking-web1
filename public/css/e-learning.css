@@ -1,3 +1,26 @@
+.box-navTabs {
+  
+}
+  .box-navTabs .nav-link {
+    border: 0px;
+    text-align: center;
+    aspect-ratio: 1;
+    position: relative;
+    margin: 0px 12px !important;
+  }
+  .box-navTabs .nav-link::after {
+    content: "";
+    position: absolute;
+    right: -18px;
+    height: 44px;
+    border-left: 1px solid #999F9E;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .box-navTabs .owl-item:last-child .nav-link::after {
+    display: none;
+  }
+
 .box-Learning {
   
 }
@@ -54,7 +77,7 @@
 }
   .box-courses .item {
     color: #000;
-    padding: 10px;
+    padding: 25px;
     display: block;
   }
     .box-courses .item .img {
@@ -73,6 +96,123 @@
         border: none;
       }
 
+.box-Course-syllabus {
+  margin-top: 18px;
+}
+  .box-Course-syllabus .item {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 5px 17px;
+    margin: 13px 0px;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC
+  }
+  .box-Course-syllabus .item.finished {
+    background: #F8FFEE !important;
+    border: 1px solid #75DB6A !important;
+  }
+  .box-Course-syllabus .item.active ,
+  .box-Course-syllabus .item:hover {
+    border-image: linear-gradient(90deg, #2BCB7E 0%, #37A8E2 100%) 1 !important;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #2BCB7E 0%, #37A8E2 100%) border-box !important;
+    border-radius: 8px !important;
+    border: 1px solid transparent;
+  }
+    .box-Course-syllabus .-icon {
+      position: relative;
+    }
+    .box-Course-syllabus .item.finished .-icon::after {
+      content: "";
+      position: absolute;
+      background: url(../images/Vector.png) no-repeat center;
+      background-size: contain;
+      width: 17.5px;
+      aspect-ratio: 1;
+      right: 35px;
+      top: 1px;
+    }
+      .box-Course-syllabus .-icon img {
+        border-right: 1px solid #DDDDDD;
+        width: 40px;
+        padding-right: 20px;
+        box-sizing: content-box;
+      }
+
+    .box-Course-syllabus  .text {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 4px;
+      padding-left: 20px;
+    }
+      .box-Course-syllabus .text b {
+        color: #000;
+      }
+      .box-Course-syllabus .text span {
+        color: #747474;
+      }
+
+      .box-Course-syllabus .item .img {
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 5px 0px;
+      }
+        .box-Course-syllabus .item .img img {
+            max-width: 400px;
+        }
+
+      .box-Course-syllabus .item  .-button {
+        margin-left: auto;
+        border-left: 1px solid #DDDDDD;
+        padding: 10px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        max-width: 210px;
+      }
+
+.box-Course-syllabus-tab {
+  border-left: 1px solid #dee2e6 !important;
+}
+  .box-Course-syllabus-tab .tab-pane .-video {
+    height: 100%;
+    background: #F8F8F8;
+    border-radius: var(--border_radius);
+    padding: 20px;
+  }
+  .box-Course-syllabus-tab .-video {
+
+  }
+    .box-Course-syllabus-tab .-video .img {
+      border-radius: var(--border_radius);
+    }
+      .box-Course-syllabus-tab .-video .img .video ,
+      .box-Course-syllabus-tab .-video .img img {
+        aspect-ratio: 500 / 300;
+        object-fit: cover;
+        width: 100%;
+      }
+      .box-Course-syllabus-tab .-video .img .btn-play-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        z-index: 1;
+        background-color: rgb(0 0 0 / 40%);
+      }
+        .box-Course-syllabus-tab .-video .img .btn-play-video button {
+          background: transparent url(../../public/images/icon-Play.png) center no-repeat;
+          background-size: contain;
+          width: 70px;
+          aspect-ratio: 1;
+          cursor: pointer;
+        }
+
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   
@@ -80,17 +220,27 @@
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
+  .box-courses .item {
+    padding: 15px;
+  }
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
     .box-Learning .owl-carousel {
       width: 100%;
       margin-left: 0px;
     }
+    .box-Course-syllabus .item {
+      flex-flow: wrap;
+    }
+    .box-Course-syllabus .item .img {
+      margin: 15px auto;
+    }
   }
   /* แนวนอน */
   @media only screen and (orientation:landscape){
-   
+    .box-Course-syllabus .item .img img {
+      max-width: 315px;
+    }
   }
 }
 
@@ -99,6 +249,24 @@
   .box-Learning .owl-carousel {
     width: 100%;
     margin-left: 0px;
+  }
+  .box-courses .item {
+    padding: 10px;
+  }
+  .box-Course-syllabus-tab {
+    border: 0px !important;
+  }
+  .box-Course-syllabus .item {
+    flex-flow: wrap;
+  }
+  .box-Course-syllabus .item .img {
+    margin: 15px auto;
+  }
+  .box-Course-syllabus .item .-button {
+    width: 100%;
+    margin: 0;
+    border-left: 0px;
+    max-width: none;
   }
 
  /* แนวตั้ง */

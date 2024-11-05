@@ -46,32 +46,120 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="--detail">
-					<img src="https://placehold.co/1000x660" class="rounded w-100" alt="">
+					<img src="https://placehold.co/1000x500" class="rounded w-100" alt="">
 					<div class="d-flex flex-wrap my-3 align-items-center">
 						<div class="-date">
 							17 สิงหาคม 2023
 						</div>
 						<div class="-view">
-							300
+							1,200
 						</div>
 						<div class="ml-auto">
-							<a href="#" target="_blank">
-								<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
-							</a>
-							<a href="#" target="_blank">
-								<img src="../../public/images/icon-line2.png" style="width:24px;" class="m-1" alt="">
-							</a>
-							<a href="#" target="_blank">
-								<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
-							</a>
+							<span class="mx-1 text-muted">
+								<i class="fa fa-heart-o" aria-hidden="true" style="font-size: 20px;"></i>
+							</span>
+							<span class="mx-1 text-muted">
+								<i class="fa fa-share-square-o" aria-hidden="true" style="font-size: 20px;"></i>
+							</span>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col">fdsg</div>
-						<div class="col-md-5 col-xl-4">cfh</div>
+						<div class="col">
+							<span class="-type border-0" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
+							<h4 class="mt-2">องค์ความรู้วิชาของแผ่นดิน : วนเกษตร คืออะไร</h4>
+							<div class="-lecturer">
+								<b>วิทยากร :
+									<img src="https://placehold.co/40x40" class="rounded-circle mx-2" style="width:40px" alt=""></b>
+								อาจารย์วรพชร วงษ์เจริญ
+							</div>
+							<br>
+							<b>เป้าหมายการเรียนรู้</b>
+							<ol>
+								<li>เพื่อให้เรียนรู้ความหมายของจริยธรรมในการใช้เทคโนโลยีสารสนเทศ</li>
+								<li>เพื่อให้เรียนรู้การเข้าถึงข้อมูล Data Accessibility</li>
+								<li>เพื่อให้เรียนรู้ความเข้าใจเกี่ยวกับพระราชบัญญัติลิขสิทธ์</li>
+								<li>เพื่อให้เรียนรู้เกี่ยวกับแนวปฏิบัติในสังคมดิจิทัล (Digital Etiquette)</li>
+							</ol>
+							<br>
+							<b>ประมวลรายวิชา</b>
+							<div class="box-Course-syllabus">
+
+								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+									<div class="-icon">
+										<img src="../../public/images/play-circle-fill.png" alt="">
+									</div>
+									<div class="text">
+										<b>บทที่ 1</b>
+										<span>วีดีโอ, 15 นาที</span>
+									</div>
+									<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
+								</a>
+								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+									<div class="-icon">
+										<img src="../../public/images/play-circle-fill.png" alt="">
+									</div>
+									<div class="text">
+										<b>บทที่ 2</b>
+										<span>วีดีโอ, 15 นาที</span>
+									</div>
+									<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
+								</a>
+								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+									<div class="-icon">
+										<img src="../../public/images/play-circle-fill.png" alt="">
+									</div>
+									<div class="text">
+										<b>บทที่ 3</b>
+										<span>วีดีโอ, 15 นาที</span>
+									</div>
+									<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
+								</a>
+								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+									<div class="-icon">
+										<img src="../../public/images/icon-document.png" alt="">
+									</div>
+									<div class="text">
+										<b>แบบทดสอบ Post - test</b>
+									</div>
+									<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
+								</a>
+
+							</div>
+						</div>
+						<div class="col-md-5 col-xl-4">
+							<div class="-sticky pt-0 mb-3">
+								<div class="bg-muted3 py-3 px-4 rounded">
+									<div class="mb-3">
+										<b>เปิดให้ลงทะเบียน</b>
+										<div class="d-flex text-secondary mb-1">
+											<img src="../../public/images/I-calendar.png" style="width:22px;" class="mr-2 mb-auto" alt="">
+											1 ม.ค. 2567 ถึง 31 ธ.ค. 2567
+										</div>
+									</div>
+									<div class="mb-3">
+										<b>ประเด็นการเรียนรู้</b>
+										<div class="d-flex text-secondary mb-1">
+											<img src="../../public/images/I-file.png" style="width:22px;" class="mr-2 mb-auto" alt="">
+											การขยายพันธุ์มะปี๊ด<span class="ml-auto">2 ชั่วโมง</span>
+										</div>
+									</div>
+									<div class="mb-3">
+										<b>วิธีการประเมินผล</b>
+										<div class="d-flex text-secondary mb-1">
+											<img src="../../public/images/I-pencil.png" style="width:22px;" class="mr-2 mb-auto" alt="">
+											ทำแบบทดสอบหลังเรียนได้มากกว่า 60%
+										</div>
+									</div>
+								</div>
+								<div class="p-4 rounded text-center bg-gradient text-white mt-2">
+									<b>1,424 คน ลงทะเบียนเรียนรอบนี้แล้ว</b>โปรดเข้าสู่ระบบเพื่อลงทะเบียนรายวิชา
+									<a class="btn btn-light px-5 rounded-pill mt-3 w-100" href="#">ลงทะเบียน</a>
+								</div>
+							</div>
+						</div>
 					</div>
 
-					<div class="py-4 border-top">
+					<div class="py-4 border-top mt-4">
 						Share this:
 						<div class="d-flex flex-wrap my-3">
 							<div>

@@ -5,6 +5,7 @@
  --secondary: #626262;
  --muted: #B6B6B6;
  --muted2: #E8E8E8;
+ --muted3: #FAFAFA;
  --border_radius: 20px;
 }
 .text-primary {
@@ -18,6 +19,16 @@
 }
 .text-muted2 {
   color: var( --muted2) !important;
+}
+.text-muted3 {
+  color: var( --muted3) !important;
+}
+.bg-muted3 {
+  background-color: var( --muted3) !important;
+}
+.bg-gradient {
+  background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+
 }
 
 body h1 ,
@@ -216,7 +227,7 @@ table.table-gradient {
     border: 1px solid #D7D7D7;
   }
   table.table-gradient tr:nth-child(even) td:not(:first-child) {
-    background-color: #FAFAFA;
+    background-color: var( --muted3);
   }
 
 .accordion {
@@ -266,7 +277,7 @@ table.table-gradient {
       border-radius: 0px 0px 8px 8px;
     }
       .accordion .card .collapse .card-body {
-        color: #666666;
+        color: var( --secondary);
       }
 
 .select2-container {
@@ -392,6 +403,12 @@ table.table.aiz-table .badge {
   color: #fff;
 }
 
+.text-gradient {
+  background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}      
+
 .row.row-p5 {
   margin-left: -5px;
   margin-right: -5px;
@@ -430,7 +447,7 @@ a:hover {
   color: #919191;
 }
   .breadcrumb .breadcrumb-item {
-    padding: 6px 4px;
+    padding: 0px 4px;
   }
     .breadcrumb .breadcrumb-item a {
       color : #E7E7E7 !important;
@@ -1219,7 +1236,6 @@ body.down header {
  transform: translate(-50%,100%);
  width: 100%;
  box-sizing: border-box;
- max-width: 1080px;
  border: 1px solid var(--primary);
  box-shadow: 0 0 8px 0px rgb(0 0 0 / 4%);
 }
@@ -1922,6 +1938,11 @@ ul.ul-style {
   margin: auto;
   padding-bottom: 30px;
 }
+  .--detail ol ,
+  .--detail ul {
+    color: var( --secondary);
+    padding-left: 20px;
+  }
   .--detail .tab-content ol ,
   .--detail .tab-content ul ,
   .--detail .tab-content p {
@@ -1949,7 +1970,7 @@ ul.ul-style {
       padding: 5px 12px;
     }
     .--detail table td:not(:first-child) {
-      color: #666666;
+      color: var( --secondary);
     }
     .--detail table td.td-border-l::before {
       content: "";
@@ -2361,7 +2382,7 @@ footer {
     justify-content: center;
   }
   .-sticky {
-    position: inherit;
+    position: initial;
   }
   .box-navTabs .owl-carousel {
     padding: 0px 40px !important;

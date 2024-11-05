@@ -36,16 +36,14 @@
 					<h3 class="head mb-4 text-center">โลกแห่งการเรียนรู้ ไม่มีวันจบสิ้น</h3>
 					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-					<hr class="my-3">
+					<hr class="my-5">
 					<h4 class="head mb-4 text-center">หมวดหมู่</h4>
-					<div class="box-navTabs ml-auto  mb-auto">
+					<div class="box-navTabs">
 						<div class="owl-carousel">
-							<a href="#" class="nav-link border-0 text-center active" style="aspect-ratio: 1;">
-								หมวดหมู่<br>1</a>
-							<a href="#" class="nav-link border-0 text-center" style="aspect-ratio: 1;">
-								หมวดหมู่<br>2</a>
-							<a href="#" class="nav-link border-0 text-center" style="aspect-ratio: 1;">
-								หมวดหมู่<br>3</a>
+							<a href="#1" class="nav-link active">หมวดหมู่<br>1</a>
+							<a href="#2" class="nav-link">หมวดหมู่<br>2</a>
+							<a href="#3" class="nav-link">หมวดหมู่<br>3</a>
+							<a href="#4" class="nav-link">หมวดหมู่<br>4</a>
 						</div>
 					</div>
 
@@ -53,14 +51,14 @@
 			</div>
 		</section>
 
-		<section class="box-Learning pt-5">
+		<section class="box-Learning">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-5 col-lg-3 d-flex flex-column text-center text-sm-left order-sm-1">
 						<a href="../e-learning/list.php" class="text-secondary"><u>ทั้งหมด</u></a>
 						<div class="mb-auto py-4">
 							<h3 class="head mb-4">คอร์สใหม่</h3>
-							<h5>คอร์เรียนล่าสุดจากพิพิธภัณฑ์การเกษตรฯ มาสนุกกับการเรียนได้เลย !</h5>
+							<h5 class="font-weight-lighter">คอร์เรียนล่าสุดจากพิพิธภัณฑ์การเกษตรฯ มาสนุกกับการเรียนได้เลย !</h5>
 						</div>
 						<div class="arrow-default">
 							<div class="o-prev"></div>
