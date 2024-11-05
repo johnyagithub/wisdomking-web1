@@ -84,7 +84,7 @@
 							<b>ประมวลรายวิชา</b>
 							<div class="box-Course-syllabus">
 
-								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+								<a href="../e-learning/attend-class.php" class="item align-items-center">
 									<div class="-icon">
 										<img src="../../public/images/play-circle-fill.png" alt="">
 									</div>
@@ -94,7 +94,7 @@
 									</div>
 									<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
 								</a>
-								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+								<a href="../e-learning/attend-class.php" class="item align-items-center">
 									<div class="-icon">
 										<img src="../../public/images/play-circle-fill.png" alt="">
 									</div>
@@ -104,7 +104,7 @@
 									</div>
 									<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
 								</a>
-								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+								<a href="../e-learning/attend-class.php" class="item align-items-center">
 									<div class="-icon">
 										<img src="../../public/images/play-circle-fill.png" alt="">
 									</div>
@@ -114,7 +114,7 @@
 									</div>
 									<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
 								</a>
-								<a href="../e-Learning/attend-class.php" class="item align-items-center">
+								<a href="../e-learning/attend-class.php" class="item align-items-center">
 									<div class="-icon">
 										<img src="../../public/images/icon-document.png" alt="">
 									</div>

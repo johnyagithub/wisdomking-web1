@@ -31,7 +31,7 @@
 					<a href="#">คอร์สทั้งหมด</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="../e-Learning/attend-class.php">เข้าเรียน</a>
+					<a href="../e-learning/attend-class.php">เข้าเรียน</a>
 				</li>
 				<li class="breadcrumb-item active" aria-current="page">ห้องเรียน</li>
 			</ol>
