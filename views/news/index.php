@@ -33,13 +33,25 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ข่าว & ประชาสัมพันธ์</h3>
-					<div class="ml-auto d-flex flex-wrap" data-showid="data-Calendar">
-						<a href="#" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</a>
-						<a href="#" class="btn btn-style3 px-3 text-muted m-1">ข่าว</a>
-						<a href="#" class="btn btn-style3 px-3 text-muted m-1">คณะเข้าชม</a>
-						<a href="#" class="btn btn-style3 px-3 text-muted m-1">ข่าวสื่อมวลชน</a>
-						<a href="#" class="btn btn-style3 px-3 text-muted m-1">ข่าวผู้บริหาร</a>
-						<a href="#" class="btn btn-style3 px-3 text-muted m-1">ข่าวกิจกรรมต่างๆ</a>
+					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
+						<div class="owl-carousel">
+							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
+							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted">
+								ข่าว
+							</button>
+							<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted">
+								คณะเข้าชม
+							</button>
+							<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted">
+								ข่าวสื่อมวลชน
+							</button>
+							<button type="button" data-type="tab4" class="btn btn-style3 px-3 text-muted">
+								ข่าวผู้บริหาร
+							</button>
+							<button type="button" data-type="tab5" class="btn btn-style3 px-3 text-muted">
+								ข่าวกิจกรรมต่างๆ
+							</button>
+						</div>
 					</div>
 				</div>
 				<div class="row pt-5 justify-content-center">
@@ -71,9 +83,77 @@
 						has been the
 						industry's standard dummy text ever since the 1500s,</p>
 				</div>
-				<div class="row py-4">
+				<div id="data-Courses" class="row py-4">
 
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab1">
+						<a href="../news/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/news/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										19 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+								</div>
+								<span class="-type">ข่าว</span>
+								<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+									ประจำปี 2567 (NST FAIR 2024) </h5>
+								<p class="text-line3 text-muted">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+									ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+									สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab2">
+						<a href="../news/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/news/img2.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+								</div>
+								<span class="-type">คณะเข้าชม</span>
+								<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
+								<p class="text-line3 text-muted">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
+									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
+									ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab3">
+						<a href="../news/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/news/img3.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										17 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+								</div>
+								<span class="-type">ข่าวสื่อมวลชน</span>
+								<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
+								<p class="text-line3 text-muted">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ
+									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี
+									โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
+									เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab4">
 						<a href="../news/detail.php" class="item">
 							<div class="img">
 								<img src="../../public/images/news/img1.jpg" alt="">
@@ -96,7 +176,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab2">
 						<a href="../news/detail.php" class="item">
 							<div class="img">
 								<img src="../../public/images/news/img2.jpg" alt="">
@@ -118,7 +198,75 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab5">
+						<a href="../news/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/news/img3.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										17 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+								</div>
+								<span class="-type">ข่าวกิจกรรมต่างๆ</span>
+								<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
+								<p class="text-line3 text-muted">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ
+									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี
+									โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
+									เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab4">
+						<a href="../news/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/news/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										19 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+								</div>
+								<span class="-type">ข่าวผู้บริหาร</span>
+								<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
+									ประจำปี 2567 (NST FAIR 2024) </h5>
+								<p class="text-line3 text-muted">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
+									ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
+									สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab2">
+						<a href="../news/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/news/img2.jpg" alt="">
+							</div>
+							<div class="text">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+								</div>
+								<span class="-type">คณะเข้าชม</span>
+								<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
+								<p class="text-line3 text-muted">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
+									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
+									ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab2">
 						<a href="../news/detail.php" class="item">
 							<div class="img">
 								<img src="../../public/images/news/img3.jpg" alt="">
@@ -141,7 +289,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab4">
 						<a href="../news/detail.php" class="item">
 							<div class="img">
 								<img src="../../public/images/news/img1.jpg" alt="">
@@ -164,7 +312,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab2">
 						<a href="../news/detail.php" class="item">
 							<div class="img">
 								<img src="../../public/images/news/img2.jpg" alt="">
@@ -186,143 +334,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../news/detail.php" class="item">
-							<div class="img">
-								<img src="../../public/images/news/img3.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between flex-wrap">
-									<div class="-date">
-										17 สิงหาคม 2023
-									</div>
-									<div class="-view">
-										300
-									</div>
-								</div>
-								<span class="-type">คณะเข้าชม</span>
-								<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
-								<p class="text-line3 text-muted">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ
-									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี
-									โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
-									เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../news/detail.php" class="item">
-							<div class="img">
-								<img src="../../public/images/news/img1.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between flex-wrap">
-									<div class="-date">
-										19 สิงหาคม 2023
-									</div>
-									<div class="-view">
-										300
-									</div>
-								</div>
-								<span class="-type">ข่าวผู้บริหาร</span>
-								<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-									ประจำปี 2567 (NST FAIR 2024) </h5>
-								<p class="text-line3 text-muted">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-									ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-									สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../news/detail.php" class="item">
-							<div class="img">
-								<img src="../../public/images/news/img2.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between flex-wrap">
-									<div class="-date">
-										18 สิงหาคม 2023
-									</div>
-									<div class="-view">
-										300
-									</div>
-								</div>
-								<span class="-type">คณะเข้าชม</span>
-								<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
-								<p class="text-line3 text-muted">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
-									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
-									ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../news/detail.php" class="item">
-							<div class="img">
-								<img src="../../public/images/news/img3.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between flex-wrap">
-									<div class="-date">
-										17 สิงหาคม 2023
-									</div>
-									<div class="-view">
-										300
-									</div>
-								</div>
-								<span class="-type">คณะเข้าชม</span>
-								<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
-								<p class="text-line3 text-muted">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ
-									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี
-									โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
-									เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../news/detail.php" class="item">
-							<div class="img">
-								<img src="../../public/images/news/img1.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between flex-wrap">
-									<div class="-date">
-										19 สิงหาคม 2023
-									</div>
-									<div class="-view">
-										300
-									</div>
-								</div>
-								<span class="-type">ข่าวผู้บริหาร</span>
-								<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-									ประจำปี 2567 (NST FAIR 2024) </h5>
-								<p class="text-line3 text-muted">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-									ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-									สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="../news/detail.php" class="item">
-							<div class="img">
-								<img src="../../public/images/news/img2.jpg" alt="">
-							</div>
-							<div class="text">
-								<div class="d-flex justify-content-between flex-wrap">
-									<div class="-date">
-										18 สิงหาคม 2023
-									</div>
-									<div class="-view">
-										300
-									</div>
-								</div>
-								<span class="-type">คณะเข้าชม</span>
-								<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
-								<p class="text-line3 text-muted">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
-									พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
-									ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-sm-6 mb-4" data-type="tab2">
 						<a href="../news/detail.php" class="item">
 							<div class="img">
 								<img src="../../public/images/news/img3.jpg" alt="">
