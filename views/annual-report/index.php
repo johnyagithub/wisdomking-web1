@@ -38,7 +38,7 @@
 						has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 
-				<div class="box-Learning detail row py-4">
+				<div class="box-Learning row py-4">
 
 					<div class="col-lg-4 col-sm-6 mb-4">
 						<a href="../annual-report/detail.php" class="item text-dark">

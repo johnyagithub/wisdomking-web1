@@ -10,12 +10,11 @@ $(function () {
 
   styleSwitch();
   textSize();
+  buttonTabCustom();
   slideNavTabs();
   sliderItem();
   sliderBanner();
   sliderMarket();
-  sliderOurmuseum();
-  sliderNews();
   sliderAgricultural();
   sliderLearning();
   sliderShow();
@@ -162,6 +161,23 @@ let Activitty = () => {
   });
 }
 
+let buttonTabCustom = () => {
+  $("[data-showId] button").click(function () {
+    $('[data-showId] button').removeClass('active');
+    $(this).addClass('active');
+
+    var thisId = $(this).closest("[data-showId]").attr('data-showId');
+    var Type = $(this).attr('data-type') || 'all';
+    if (Type === 'all') {
+      $('#' + thisId).find('[data-type]').hide();
+      $('#' + thisId).find('[data-type]:not(.no-all)').show();
+    } else {
+      $('#' + thisId).find('[data-type]').hide();
+      $('#' + thisId).find('[data-type*="' + Type + '"]').show();
+    }
+  });
+};
+
 let sliderBanner = () => {
   $(".box-banner .owl-carousel").owlCarousel({
     loop: true,
@@ -221,7 +237,7 @@ let sliderItem = () => {
     $(this).owlCarousel({
       margin: 20,
       nav: true,
-      dots: false,
+      dots: true,
       lazyLoad: true,
       responsiveClass: true,
       responsive: {
@@ -257,54 +273,8 @@ let slideNavTabs = () => {
   });
 };
 
-let sliderOurmuseum = () => {
-  $(".box-Ourmuseum .owl-carousel").owlCarousel({
-    margin: 20,
-    nav: true,
-    dots: true,
-    // center:true,
-    // loop:true,
-    lazyLoad: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      667: {
-        items: 2,
-      },
-      900: {
-        items: 3,
-      },
-    },
-  });
-};
-
-let sliderNews = () => {
-  $(".box-News .owl-carousel").owlCarousel({
-    margin: 20,
-    nav: true,
-    dots: true,
-    // center:true,
-    // loop:true,
-    lazyLoad: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      667: {
-        items: 2,
-      },
-      900: {
-        items: 3,
-      },
-    },
-  });
-};
-
 let sliderLearning = () => {
-  $(".box-Learning:not(.detail) .owl-carousel").owlCarousel({
+  $(".box-Learning:not(.box-slide) .owl-carousel").owlCarousel({
     margin: 20,
     nav: true,
     dots: false,
@@ -319,30 +289,11 @@ let sliderLearning = () => {
       }
     },
   });
-  $('.box-Learning:not(.detail) .o-prev').click(function () {
+  $('.box-Learning:not(.box-slide) .o-prev').click(function () {
     $(this).closest(".box-Learning").find(".owl-prev").click();
   });
-  $('.box-Learning:not(.detail) .o-next').click(function () {
+  $('.box-Learning:not(.box-slide) .o-next').click(function () {
     $(this).closest(".box-Learning").find(".owl-next").click();
-  });
-
-  $(".box-Learning.detail .owl-carousel").owlCarousel({
-    margin: 20,
-    nav: true,
-    dots: true,
-    lazyLoad: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      667: {
-        items: 2,
-      },
-      900: {
-        items: 3,
-      },
-    },
   });
 };
 

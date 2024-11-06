@@ -77,7 +77,7 @@
 }
   .box-courses .item {
     color: #000;
-    padding: 25px;
+    padding: 0px 25px;
     display: block;
   }
     .box-courses .item .img {
@@ -91,7 +91,7 @@
     .box-courses .item .text {
       margin-top: 12px;
     }
-      .box-courses .item .-type {
+      .box-courses .item .-type.border0 {
         margin: 12px 0px 7px 0px;
         border: none;
       }

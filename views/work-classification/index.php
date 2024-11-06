@@ -35,9 +35,9 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
+				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">โครงสร้างการจัดแบ่งส่วนงาน</h4>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<img

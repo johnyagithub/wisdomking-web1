@@ -75,7 +75,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 1</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -88,7 +87,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 2</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -101,7 +99,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 3</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -114,7 +111,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 1</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -127,7 +123,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 2</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -140,7 +135,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 3</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -153,7 +147,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 1</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -166,7 +159,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 2</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -179,7 +171,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 3</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -192,7 +183,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 1</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -205,7 +195,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 2</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -218,7 +207,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 3</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -231,7 +219,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 1</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -244,7 +231,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 2</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -257,7 +243,6 @@
 								<img src="https://placehold.co/355x192" alt="">
 							</div>
 							<div class="text">
-								<span class="-type"></span>
 								<h5 class="text-line1">คอร์สที่ 3</h5>
 								<p class="text-line3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting
 									industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>

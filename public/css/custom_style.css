@@ -874,6 +874,9 @@ div#navbarMain li.nav-item:hover a.nav-link {
         margin: 0px;
         box-shadow: none;
       }
+      .box-navTabs .owl-carousel .owl-item .btn {
+        display: inline-flex;
+      }
 
   .box-navTabs .owl-nav {
     
@@ -1336,6 +1339,9 @@ body.down header {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.owl-carousel.dots-hide .owl-dots {
+  display: none;
+}
 	.owl-dot {
   margin: 2px 5px;
   border-radius: 50%;
@@ -1624,7 +1630,7 @@ ul.ul-style {
     }
 
 .list-download {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   margin-top: 33px;
 }
@@ -2129,6 +2135,112 @@ ul.ul-style {
         vertical-align: sub;
         margin-right: 7px;
       }
+
+.box-Knowledge {
+
+}
+  .box-Knowledge .item {
+    text-decoration: none;
+    color: #000;
+    display: block;
+  }
+  .box-Knowledge .item.item-left-sticky {
+    position: sticky;
+    top: 195px;
+    background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+    display: block;
+    color: #fff;
+    border-radius: var(--border_radius);
+    overflow: hidden;
+    z-index: 5;
+  }
+    .box-Knowledge .item .img {
+      border-radius: var(--border_radius);
+    }
+    .box-Knowledge .item.item-left-sticky .img {
+      border-radius: 0px;
+    }
+    .box-Knowledge .img.-video::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:  rgb(0 0 0 / 20%) url(../../public/images/icon-Play.png) center no-repeat;
+      background-size: 70px auto;
+      z-index: 1;
+    }
+      .box-Knowledge .item img {
+        aspect-ratio: 135 / 73;
+        object-fit: cover;
+      }
+      .box-Knowledge .owl-item:not([style*="width"]) {
+        display: none;
+      }
+      .box-Knowledge .owl-item:not([style*="width"]):first-child {
+        opacity: 0;
+        visibility: hidden;
+        max-height: 482px;
+        display: block;
+      }
+
+    .box-Knowledge .item .text {
+      margin-top: 12px;
+    }
+    .box-Knowledge .item.item-left-sticky .text {
+      padding: 10px 20px;
+    }
+      .box-Knowledge .item .-view {
+        font-size: 0.8125em;
+        position: relative;
+        margin-left: auto;
+      }
+      .box-Knowledge .item.item-left-sticky .-view {
+        color: #fff;
+      }
+        .box-Knowledge .item .-view::before {
+          content: "";
+          background: url(../images/icon-eye.png) no-repeat center;
+          background-size: contain;
+          display: inline-block;
+          width: 18px;
+          height: 18px;
+          vertical-align: sub;
+          margin-right: 3px;
+        }
+        .box-Knowledge .item.item-left-sticky .-view::before {
+          mix-blend-mode: color-dodge;
+        }
+
+      .box-Knowledge .item .-type {
+        padding: 1px 9px;
+        margin: 0px 3px 5px 0px;
+      }
+      .box-Knowledge .item.item-left-sticky .-type {
+        color: #fff;
+        border: 1px solid #ffffff;
+      }
+        .box-Knowledge .item .-type img {
+          aspect-ratio: auto;
+        }
+        .box-Knowledge .item.item-left-sticky .-type img {
+          mix-blend-mode: hard-light;
+        }
+      
+      .box-Knowledge .item h5 {
+        
+      }
+      .box-Knowledge .item .-profile {
+        font-size: 0.8125em;
+        margin-bottom: 30px;
+      }
+      .box-Knowledge .item.item-left-sticky .-profile {
+        margin-bottom: 0px;
+      }
+        .box-Knowledge .item .-profile img {
+          aspect-ratio: 1;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+        }      
 
 .box-Ourmuseum {
   

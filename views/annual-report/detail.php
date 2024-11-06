@@ -115,7 +115,7 @@
 			</div>
 		</section>
 
-		<section class="box-Learning detail pb-4 pt-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
+		<section class="box-Learning box-slide pb-4 pt-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 ">
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
@@ -139,7 +139,7 @@
 				</div>
 				<div class="tab-content py-4">
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
-						<div class="owl-carousel nav-dots-style show-dots">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
@@ -193,7 +193,7 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
-						<div class="owl-carousel nav-dots-style show-dots">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
@@ -211,7 +211,7 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
-						<div class="owl-carousel nav-dots-style show-dots">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">

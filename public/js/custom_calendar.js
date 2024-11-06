@@ -11,7 +11,6 @@ $(function () {
 
   sliderMonth();
   mySelectMonth();
-  buttonTabCustom();
 
   $(document).on("click", "#slide-Day .item", function () {
     // active ปุ่มที่กด slide-Day
@@ -131,22 +130,6 @@ let sliderDay = () => {
         items: 5,
       },
     },
-  });
-};
-
-let buttonTabCustom = () => {
-  $("[data-showId] button").click(function () {
-    $('[data-showId] button').removeClass('active');
-    $(this).addClass('active');
-
-    var thisId = $(this).closest("[data-showId]").attr('data-showId');
-    var Type = $(this).attr('data-type') || 'all';
-    if (Type === 'all') {
-      $('#' + thisId).find('[data-type]').show();
-    } else {
-      $('#' + thisId).find('[data-type]').hide();
-      $('#' + thisId).find('[data-type*="' + Type + '"]').show();
-    }
   });
 };
 

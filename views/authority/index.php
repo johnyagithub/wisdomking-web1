@@ -32,9 +32,9 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
+				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">อำนาจหน้าที่</h4>
-					<p class="text-center mb-5 text-secondary">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
+					<p class="text-center text-secondary">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
 						(องค์การมหาชน)</p>
 				</div>
 

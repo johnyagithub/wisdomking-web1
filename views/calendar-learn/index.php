@@ -262,7 +262,6 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
-	<script type="text/javascript" src="../../public/js/calendar-learn.js"></script>
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>

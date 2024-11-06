@@ -42,9 +42,9 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
+				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">มหกรรม "แรงบันดาลใจ"</h4>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
@@ -170,12 +170,13 @@
 			</div>
 		</section>
 
-		<section class="box-News py-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
+		<section class="box-News box-slide py-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 ">
 			<div class="container">
 				<h3 class="head mb-5 text-center">ข่าวผู้บริหาร</h3>
 
-				<div class="owl-carousel nav-dots-style show-dots">
+				<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+				data-itemSlide-mobile="1">
 
 					<a href="../news/detail.php" class="item">
 						<div class="img">

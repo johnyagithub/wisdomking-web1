@@ -32,9 +32,9 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
+				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h2 class="head mb-4 text-center">นโยบายสำคัญ</h2>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 
@@ -123,8 +123,7 @@
 						<img src="https://placehold.co/1200x550" class="mw-100 mx-auto d-block rounded my-3" alt="">
 						<br>
 						<div class="--detail">
-							<h5>ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน) เรื่อง
-								นโยบายต่อต้านการให้สินบนเพื่อป้องกันการทุจริตและประพฤติมิชอบ</h5>
+							<h5 class="text-center">ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน) เรื่อง นโยบายต่อต้านการให้สินบนเพื่อป้องกันการทุจริตและประพฤติมิชอบ</h5>
 							<p>เพื่อให้การดำเนินงานของสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จ พระเจ้าอยู่หัว (องค์การมหาชน)
 								เป็นไปตามเจตจำนงสุจริตตามแนวนโยบายของผู้บริหาร ในด้านความโปร่งใส สามารถตรวจสอบได้
 								โดยความคำนึงถึงความต้องการ ความคาดหวัง ตลอดจนการมีส่วนร่วมของผู้มีส่วนได้ ส่วนเสีย ดังนี้</p>
@@ -152,7 +151,7 @@
 						<img src="https://placehold.co/1200x550" class="mw-100 mx-auto d-block rounded my-3" alt="">
 						<br>
 						<div class="--detail">
-							<h5>ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน) เรื่อง
+							<h5 class="text-center">ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน) เรื่อง
 								มาตรการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</h5>
 							<p>ด้วยการจัดหาพัสดุเป็นกระบวนการที่มีความสําคัญที่มีส่วนช่วยหรือสนับสนุนการดําเนินงาน
 								ของสํานักงานพิพิธภัณฑ์เกษตร

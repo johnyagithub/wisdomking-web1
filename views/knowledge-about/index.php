@@ -24,16 +24,16 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="#">เกี่ยวกับเรา</a>
+					<a href="#">องค์ความรู้และเครือข่าย</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">คู่มือการปฏิบัติงาน</li>
+				<li class="breadcrumb-item active" aria-current="page">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ. 2540</li>
 			</ol>
 		</nav>
 
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">คู่มือการปฏิบัติงาน</h4>
+					<h4 class="head mb-4 text-center">ความรู้เกี่ยวกับพระราชบัญญัติ<br>ข้อมูลข่าวสารของราชการ พ.ศ. 2540</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 
@@ -41,13 +41,13 @@
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>
-								<th class="text-left">ชื่อ</th>
+								<th class="text-left">ชื่อบทความ</th>
 								<th style="width: 110px;">โหลดเอกสาร</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงานฝ่ายบริหารงานทั่วไป</td>
+								<td class="text-left">ข้อมูลกี่ยวกับเอกสารหลักฐานการสอบสวนวินัย</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -55,7 +55,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือมาตรการป้องกันและรักษาทรัพย์สินที่มีมูลค่าสูง</td>
+								<td class="text-left">ข้อมูลกี่ยวกับหนังสือหารือระหว่างหน่วยงานของรัฐ</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -63,7 +63,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงานการจัดซื้อจัดจ้าง</th>
+								<td class="text-left">ข้อมูลกี่ยวกับหนังสือร้องเรียน</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -71,7 +71,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการควบคุมครุภัณฑ์</th>
+								<td class="text-left">ข้อมูลกี่ยวกับการจัดซื้อจัดจ้าง</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -79,7 +79,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการคืนหลักประกันสัญญา</th>
+								<td class="text-left">ข้อมูลข่าวสารเกี่ยวกับการลงชื่อปฏิบัติราชการ</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -87,7 +87,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงานประชาสัมพันธ์ (Work Manual)</td>
+								<td class="text-left">การเปิดเผยหนังสือร้องเรียน</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -95,7 +95,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงาน (Work Manual) ตลาดเศรษฐกิจพอเพียง</td>
+								<td class="text-left">คำสั่งแจ้งผลลงโทษเปิดเผยได้หรือไม่</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -103,7 +103,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงาน กระบวนการจัดการเรื่องร้องเรียน การทุจริต/แจ้งเบาะแสด้านการทุจริตและประพฤติมิชอบ</td>
+								<td class="text-left">ข้อมูลเกี่ยวกับหนังสือหารือระหว่างหน่วยงานรัฐ</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -111,7 +111,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงานงานตรวจสอบภายใน</td>
+								<td class="text-left">ใครพิจารณาเปิดเผยข้อมูลได้บ้าง</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -119,7 +119,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงาน เรื่องการพัฒนาบุคลากรและการฝึกอบรม (แก้ไขครั้งที่ 1)</td>
+								<td class="text-left">ประกาศงบคลัง งบบัญชีพร้อมเอกสารแนบ เปิดเผยได้หรือไม่</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -127,7 +127,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงาน การให้บริการเข้าชมและเรียนรู้พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว</th>
+								<td class="text-left">เปิดเผยผลการประเมินของผู้อื่นได้ไหม</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -135,7 +135,31 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงาน กระบวนการจัดการเรื่องร้องเรียน การทุจริตและประพฤติมิชอบ</td>
+								<td class="text-left">หนังสือร้องเรียนกล่าวหาเจ้าหน้าที่รัฐ เปิดเผยได้หรือไม่	</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-left">การขอแก้ไขวัน เดือน ปีเกิดในทะเบียนประวัติข้าราชการ	</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-left">การเปิดเผยข้อมูลส่วนบุคคลที่อยู่ในความครอบครองของหน่วยงานรัฐ</td>
+								<td>
+									<a href="#" download>
+										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-left">เรียกเก็บค่าธรรมเนียมการจัดส่งเอกสารได้ไหมนะ</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">

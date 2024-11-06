@@ -34,7 +34,7 @@
 					<h5 class="mb-4 text-center">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)
 					</h5>
 					<h3 class="head mb-4 text-center">โลกแห่งการเรียนรู้ ไม่มีวันจบสิ้น</h3>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 					<hr class="my-5">
 					<h4 class="head mb-4 text-center">หมวดหมู่</h4>
@@ -91,7 +91,7 @@
 			</div>
 		</section>
 
-		<section class="box-courses py-5"
+		<section class="box-courses box-slide py-5"
 			style="background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);">
 			<div class="container">
 				<div class="d-flex flex-wrap mb-2">
@@ -99,14 +99,14 @@
 					<a href="../e-learning/list.php" class="text-secondary ml-auto"><u>ทั้งหมด</u></a>
 				</div>
 
-				<div class="owl-carousel nav-dots-style show-dots">
+				<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
 
 					<a href="../e-learning/detail.php" class="item">
 						<div class="img">
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
+							<span class="-type border0" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 1</h5>
 							<p class="text-line3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -117,7 +117,7 @@
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #BED257; color: #3B5E22;">เกษตรภูธร</span>
+							<span class="-type border0" style="background: #BED257; color: #3B5E22;">เกษตรภูธร</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 2</h5>
 							<p class="text-line3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -128,7 +128,7 @@
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #BED257; color: #3B5E22;">เกษตรภูธร</span>
+							<span class="-type border0" style="background: #BED257; color: #3B5E22;">เกษตรภูธร</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 3</h5>
 							<p class="text-line3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -139,7 +139,7 @@
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
+							<span class="-type border0" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 1</h5>
 							<p class="text-line3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -150,7 +150,7 @@
 			</div>
 		</section>
 
-		<section class="box-courses py-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
+		<section class="box-courses box-slide py-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 ">
 			<div class="container">
 				<div class="d-flex flex-wrap mb-2">
@@ -158,14 +158,14 @@
 					<a href="../e-learning/list.php" class="text-secondary ml-auto"><u>ทั้งหมด</u></a>
 				</div>
 
-				<div class="owl-carousel nav-dots-style show-dots">
+				<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
 
 					<a href="../e-learning/detail.php" class="item">
 						<div class="img">
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
+							<span class="-type border0" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 3</h5>
 							<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
 								ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
@@ -177,7 +177,7 @@
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #BED257; color: #3B5E22;">เกษตรภูธร</span>
+							<span class="-type border0" style="background: #BED257; color: #3B5E22;">เกษตรภูธร</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 3</h5>
 							<p class="text-line3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -188,7 +188,7 @@
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #EAF4B6; color: #3B5E22;">กิน อยู่ ดี</span>
+							<span class="-type border0" style="background: #EAF4B6; color: #3B5E22;">กิน อยู่ ดี</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 3</h5>
 							<p class="text-line3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -199,7 +199,7 @@
 							<img src="https://placehold.co/355x192" alt="">
 						</div>
 						<div class="text">
-							<span class="-type" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
+							<span class="-type border0" style="background: #41ACFE; color: #fff;">องค์ความรู้วิชาของแผ่นดิน</span>
 							<h5 class="text-line2">คอร์สแนะนำที่ 3</h5>
 							<p class="text-line3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>

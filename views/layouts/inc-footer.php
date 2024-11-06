@@ -19,7 +19,7 @@
     <div class="links-included pb-5">
       <h2 class="text-center">รวมลิงค์ที่น่าสนใจ</h2>
       <div class="box-slide">
-        <div class="owl-carousel py-3 px-5" data-itemSlide-pc="6" data-itemSlide-Tablet="4" data-itemSlide-mobile="2">
+        <div class="owl-carousel dots-hide py-3 px-5" data-itemSlide-pc="6" data-itemSlide-Tablet="4" data-itemSlide-mobile="2">
 
           <a href="#">
             <div class="img rounded">

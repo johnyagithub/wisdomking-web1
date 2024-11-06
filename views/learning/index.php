@@ -39,7 +39,7 @@
 					</div>
 				</div>
 
-				<div class="box-Learning detail row py-4" id="3D">
+				<div class="box-Learning row py-4" id="3D">
 					<div class="mx-auto col-12" style="max-width: 1000px;">
 						<h4 class="head mb-4 text-center w-100">ภาพยนตร์แอนิเมชั่น 3 มิติ</h4>
 					</div>
@@ -174,7 +174,7 @@
 				</div>
 				<hr class="my-4">
 
-				<div class="box-Learning detail row py-4" id="2D">
+				<div class="box-Learning row py-4" id="2D">
 					<div class="mx-auto col-12" style="max-width: 1000px;">
 						<h4 class="head mb-4 text-center w-100">วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ</h4>
 					</div>

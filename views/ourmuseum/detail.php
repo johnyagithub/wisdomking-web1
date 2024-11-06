@@ -297,7 +297,8 @@
 								<p><b>สุ : สุตะ</b> คือ ฟัง รู้ได้ด้วยการฟัง ฟังอย่างตั้งใจ ใช้สมาธิเพื่อให้เกิด ปัญญา</p>
 								<p><b>จิ : จินตะ</b> คือ รู้ได้ด้วยการคิด เชื่อมโยงเปรียบเทียบ</p>
 								<p><b>ปุ : ปุจฉา</b> คือ รู้ได้ด้วยการสอบถาม ค้นคว้า ย้อนถามตน ค้นหาคำ ตอบที่มีอยู่แล้ว</p>
-								<p><b>ลิ : ลิขิต</b> คือ เขียน รู้ได้ด้วยการเขียน จดบันทึกทบทวน เป็นวิทยาทาน แก่ผู้อื่น ตามรอยพระวิริยภาพ</p>
+								<p><b>ลิ : ลิขิต</b> คือ เขียน รู้ได้ด้วยการเขียน จดบันทึกทบทวน เป็นวิทยาทาน แก่ผู้อื่น
+									ตามรอยพระวิริยภาพ</p>
 							</div>
 						</div>
 						<hr class="my-4">
@@ -443,201 +444,202 @@
 								<img class="my-3 mx-auto d-block"
 									src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/311-0.35506800%201619843519-froalaeditor.jpg">
 							</div>
-						</div>
-
-						<iframe width="560" height="315" class="d-block mx-auto mt-5" src="https://www.youtube.com/embed/Sas4PvOz2mA"
-							title="YouTube video player" frameborder="0" allowfullscreen=""></iframe>
-
 					</div>
 
-					<div class="py-4 border-top mt-3">
-						<h4 class="head mb-4 text-center">ภาพ 360 องศา</h4>
-						<iframe
-							src="https://www.wisdomking.or.th/files/video360/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B2/"
-							allowfullscreen="" style="aspect-ratio: 914 / 514;width: 100%;" frameborder="0"></iframe>
-					</div>
+					<iframe width="560" height="315" class="d-block mx-auto mt-5" src="https://www.youtube.com/embed/Sas4PvOz2mA"
+						title="YouTube video player" frameborder="0" allowfullscreen=""></iframe>
 
-					<div class="py-4 border-top">
-						Share this:
-						<div class="d-flex flex-wrap my-3">
-							<div>
-								<a href="#" target="_blank">
-									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
-								</a>
-								<a href="#" target="_blank">
-									<img src="../../public/images/icon-line2.png" style="width:24px;" class="m-1" alt="">
-								</a>
-								<a href="#" target="_blank">
-									<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
-								</a>
-							</div>
-							<div class="ml-auto d-inline-flex mt-4">
-								<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
-							</div>
-						</div>
-					</div>
+				</div>
 
-					<div class="row">
-						<div class="col-6 pr-2 pr-sm-3">
-							<a href="#" class="btn btn-outline-light text-left border p-4 text-muted w-100">
-								<i class="fa fa-angle-left" aria-hidden="true"></i>
-								ย้อนกลับ
-								<br>
-								<b class="text-dark text-line2">พิพิธภัณฑ์เกษตรคือชีวิต</b>
+				<div class="py-4 border-top mt-3">
+					<h4 class="head mb-4 text-center">ภาพ 360 องศา</h4>
+					<iframe
+						src="https://www.wisdomking.or.th/files/video360/%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B2/"
+						allowfullscreen="" style="aspect-ratio: 914 / 514;width: 100%;" frameborder="0"></iframe>
+				</div>
+
+				<div class="py-4 border-top">
+					Share this:
+					<div class="d-flex flex-wrap my-3">
+						<div>
+							<a href="#" target="_blank">
+								<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
+							</a>
+							<a href="#" target="_blank">
+								<img src="../../public/images/icon-line2.png" style="width:24px;" class="m-1" alt="">
+							</a>
+							<a href="#" target="_blank">
+								<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
 							</a>
 						</div>
-						<div class="col-6 pl-2 pl-sm-3">
-							<a href="#" class="btn btn-outline-light border p-4 text-right text-muted w-100">
-								ต่อไป
-								<i class="fa fa-angle-right" aria-hidden="true"></i>
-								<br>
-								<b class="text-dark text-line2">พิพิธภัณฑ์ในหลวงรักเรา</b>
-							</a>
+						<div class="ml-auto d-inline-flex mt-4">
+							<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
+							<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
+							<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
 
-		<section class="box-Ourmuseum pb-4 pt-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
+				<div class="row">
+					<div class="col-6 pr-2 pr-sm-3">
+						<a href="#" class="btn btn-outline-light text-left border p-4 text-muted w-100">
+							<i class="fa fa-angle-left" aria-hidden="true"></i>
+							ย้อนกลับ
+							<br>
+							<b class="text-dark text-line2">พิพิธภัณฑ์เกษตรคือชีวิต</b>
+						</a>
+					</div>
+					<div class="col-6 pl-2 pl-sm-3">
+						<a href="#" class="btn btn-outline-light border p-4 text-right text-muted w-100">
+							ต่อไป
+							<i class="fa fa-angle-right" aria-hidden="true"></i>
+							<br>
+							<b class="text-dark text-line2">พิพิธภัณฑ์ในหลวงรักเรา</b>
+						</a>
+					</div>
+				</div>
+			</div>
+	</div>
+	</section>
+
+	<section class="box-Ourmuseum pb-4 pt-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 		">
-			<div class="container">
-				<div class="d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-							<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
-								type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
-								<img src="../../public/images/moon.png" style="width: 24px;" alt="">
-								พิพิธภัณฑ์ในอาคาร
-							</button>
-							<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
-								role="tab" aria-controls="nav-Outdoor" aria-selected="false">
-								<img src="../../public/images/sun.png" style="width: 24px;" alt="">
-								พิพิธภัณฑ์กลางแจ้ง
-							</button>
-							<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
-								role="tab" aria-controls="nav-Virtual" aria-selected="false">
-								<img src="../../public/images/reload.png" style="width: 24px;" alt="">
-								พิพิธภัณฑ์เสมือนจริง
-							</button>
-						</div>
-					</div>
-				</div>
-				<div class="tab-content py-4">
-					<div class="tab-pane fade show active" id="nav-Indoor" role="tabpanel" aria-labelledby="nav-Indoor-tab">
-						<div class="owl-carousel nav-dots-style">
-
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 2</h6>
-									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
-									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 2</h6>
-									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-
-						</div>
-					</div>
-					<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">
-						<div class="owl-carousel nav-dots-style">
-
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 2</h6>
-									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
-									<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-
-						</div>
-					</div>
-					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">
-						<div class="owl-carousel nav-dots-style">
-
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 1</h6>
-									<h4>พระราชพิธีในวิถีเกษตร</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-							<a href="../ourmuseum/detail.php" class="item">
-								<div class="img">
-									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
-								</div>
-								<div class="text">
-									<h6 class="m-0">ชั้นที่ 2</h6>
-									<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
-									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
-								</div>
-							</a>
-
-						</div>
+		<div class="container">
+			<div class="d-flex flex-wrap align-items-start">
+				<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
+				<div class="scale-navTabs ml-auto">
+					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+						<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
+							type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
+							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์ในอาคาร
+						</button>
+						<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
+							role="tab" aria-controls="nav-Outdoor" aria-selected="false">
+							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์กลางแจ้ง
+						</button>
+						<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
+							role="tab" aria-controls="nav-Virtual" aria-selected="false">
+							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์เสมือนจริง
+						</button>
 					</div>
 				</div>
 			</div>
-		</section>
+			<div class="tab-content box-slide py-4">
+				<div class="tab-pane fade show active" id="nav-Indoor" role="tabpanel" aria-labelledby="nav-Indoor-tab">
+					<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+						data-itemSlide-mobile="1">
+
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">ชั้นที่ 1</h6>
+								<h4>พระราชพิธีในวิถีเกษตร</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">ชั้นที่ 2</h6>
+								<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
+								<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">ชั้นที่ 2</h6>
+								<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">
+					<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">ชั้นที่ 1</h6>
+								<h4>พระราชพิธีในวิถีเกษตร</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">ชั้นที่ 2</h6>
+								<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img3.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">อาคารเฉลิมพระเกียรติฯ 3</h6>
+								<h4>พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">
+					<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img1.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">ชั้นที่ 1</h6>
+								<h4>พระราชพิธีในวิถีเกษตร</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+						<a href="../ourmuseum/detail.php" class="item">
+							<div class="img">
+								<img src="../../public/images/ourmuseum/img2.jpg" alt="">
+							</div>
+							<div class="text">
+								<h6 class="m-0">ชั้นที่ 2</h6>
+								<h4>พิพิธภัณฑ์ในหลวงรักเรา</h4>
+								<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	</div>
 	<!-- end #content -->

@@ -32,9 +32,9 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
+				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">จริยธรรม</h4>
-					<p class="text-center mb-5 text-secondary">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
+					<p class="text-center text-secondary">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
 						(องค์การมหาชน)</p>
 				</div>
 
@@ -48,8 +48,8 @@
 						</thead>
 						<tbody>
 							<tr>
-								<th class="text-left">ข้อกำหนดว่าด้วยจริยธรรมสำหรับกรรมการ ผู้อำนวยการ และผู้ปฏิบัติงาน
-									สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)</th>
+								<td class="text-left">ข้อกำหนดว่าด้วยจริยธรรมสำหรับกรรมการ ผู้อำนวยการ และผู้ปฏิบัติงาน
+									สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -57,8 +57,8 @@
 								</td>
 							</tr>
 							<tr>
-								<th class="text-left">ประมวลจริยธรรมสำหรับกรรมการ ผู้บริหาร เจ้าหน้าที่ และผู้ปฏิบัติงานขององค์การมหาชน
-								</th>
+								<td class="text-left">ประมวลจริยธรรมสำหรับกรรมการ ผู้บริหาร เจ้าหน้าที่ และผู้ปฏิบัติงานขององค์การมหาชน
+								</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -66,9 +66,9 @@
 								</td>
 							</tr>
 							<tr>
-								<th class="text-left">ข้อกำหนดว่าด้วยกระบวนการรักษาจริยธรรม :
+								<td class="text-left">ข้อกำหนดว่าด้วยกระบวนการรักษาจริยธรรม :
 									กลไกและการบังคับใช้ประมวลจริยธรรมสำหรับกรรมการ ผู้บริหาร เจ้าหน้าที่ และผู้ปฏิบัติงานขององค์การมหาชน
-								</th>
+								</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -76,7 +76,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th class="text-left">รายงานผลการนำการประเมินจริยธรรมไปใช้ในกระบวนการบริหารทรัพยากรบุคคล</th>
+								<td class="text-left">รายงานผลการนำการประเมินจริยธรรมไปใช้ในกระบวนการบริหารทรัพยากรบุคคล</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -84,7 +84,7 @@
 								</td>
 							</tr>
 							<tr>
-								<th class="text-left">คำสั่ง แต่งตั้งคณะทำงานให้คำปรึกษาตอบคำถามทางจริยธรรม</th>
+								<td class="text-left">คำสั่ง แต่งตั้งคณะทำงานให้คำปรึกษาตอบคำถามทางจริยธรรม</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">

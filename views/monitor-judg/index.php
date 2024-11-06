@@ -32,11 +32,12 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
+				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">มาตรการตรวจสอบการใช้ดุลยพินิจ</h4>
-					<p class="text-center mb-5 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
+				
 				<img src="https://placehold.co/1200x500" class="mw-100 mx-auto d-block rounded my-3" alt="">
 				<div class="--detail">
 					<h5 class="text-center">มาตรการตรวจสอบการใช้ดุลยพินิจของสำนักงานพิพิธภัณฑ์เกษตร<br>เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)</h5>

@@ -77,11 +77,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="tab-content py-4">
+				<div class="tab-content box-slide py-4">
 					<div class="tab-pane fade show active" id="nav-Indoor" role="tabpanel" aria-labelledby="nav-Indoor-tab">
-						<div class="owl-carousel nav-dots-style">
+						<div class="owl-carousel nav-dots-style" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
 								</div>
@@ -91,7 +92,7 @@
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -101,7 +102,7 @@
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
 								</div>
@@ -111,7 +112,7 @@
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -125,9 +126,10 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">
-						<div class="owl-carousel nav-dots-style">
+						<div class="owl-carousel nav-dots-style" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+						data-itemSlide-mobile="1">
 
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
 								</div>
@@ -137,7 +139,7 @@
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -147,7 +149,7 @@
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img3.jpg" alt="">
 								</div>
@@ -161,9 +163,10 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">
-						<div class="owl-carousel nav-dots-style">
+						<div class="owl-carousel nav-dots-style" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+						data-itemSlide-mobile="1">
 
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img1.jpg" alt="">
 								</div>
@@ -173,7 +176,7 @@
 									<span><img src="../../public/images/moon.png" alt="">พิพิธภัณฑ์ในอาคาร</span>
 								</div>
 							</a>
-							<a href="#" class="item">
+							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
 									<img src="../../public/images/ourmuseum/img2.jpg" alt="">
 								</div>
@@ -440,10 +443,10 @@
 								<img src="../../public/images/photos.png" style="width: 24px;" alt="">
 								บรรยายประกอบภาพ
 							</button>
-							<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
-								role="tab" aria-controls="nav-Captions" aria-selected="false">
+							<button class="nav-link" id="nav-Video-tab" data-toggle="tab" data-target="#nav-Video" type="button"
+								role="tab" aria-controls="nav-Video" aria-selected="false">
 								<img src="../../public/images/play_circled.png" style="width: 24px;" alt="">
-								บรรยายประกอบภาพ
+								สื่อวิดิทัศน์
 							</button>
 						</div>
 					</div>
@@ -454,13 +457,13 @@
 							<div class="col-lg-5 pr-lg-4 mb-4">
 
 								<!-- ก้อนแรกซ้ายมือ -->
-								<a href="#" class="item item-left-sticky" style="top: 195px;">
+								<a href="#" class="item item-left-sticky">
 									<div class="img">
 										<img src="../../public/images/Knowledge/img2.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
-											<div>
+											<div class="mb-1">
 												<span class="-type">
 													<img src="../../public/images/document.png" style="width: 14px;" alt="">
 													บทความ
@@ -486,7 +489,7 @@
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
 									<div class="col-md-6">
-										<a href="#" class="item" style="top: 195px;">
+										<a href="#" class="item">
 											<div class="img -video">
 												<img src="../../public/images/Knowledge/img1.jpg" alt="">
 											</div>
@@ -494,8 +497,8 @@
 												<div class="d-flex justify-content-between flex-wrap">
 													<div>
 														<span class="-type">
-															<img src="../../public/images/document.png" style="width: 14px;" alt="">
-															บทความ
+															<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
+															สื่อวิดิทัศน์
 														</span>
 														<span class="-type">การเกษตร</span>
 													</div>
@@ -514,7 +517,7 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item" style="top: 195px;">
+										<a href="#" class="item">
 											<div class="img">
 												<img src="../../public/images/Knowledge/img2.jpg" alt="">
 											</div>
@@ -542,7 +545,7 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item" style="top: 195px;">
+										<a href="#" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
@@ -570,7 +573,7 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item" style="top: 195px;">
+										<a href="#" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
@@ -598,7 +601,7 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item" style="top: 195px;">
+										<a href="#" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
@@ -626,7 +629,7 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item" style="top: 195px;">
+										<a href="#" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
@@ -670,7 +673,7 @@
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
-											<div>
+											<div class="mb-1">
 												<span class="-type">
 													<img src="../../public/images/document.png" style="width: 14px;" alt="">
 													บทความ
@@ -696,9 +699,9 @@
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
 									<div class="col-lg-6">
-										<a href="#" class="item" style="top: 195px;">
-											<div class="img -video">
-												<img src="../../public/images/Knowledge/img1.jpg" alt="">
+										<a href="#" class="item">
+											<div class="img">
+												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
@@ -730,10 +733,144 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-Captions" role="tabpanel" aria-labelledby="nav-Captions-tab">
-						บรรยายประกอบภาพ
+						<div class="row">
+							<div class="col-lg-5 pr-lg-4 mb-4">
+
+								<!-- ก้อนแรกซ้ายมือ -->
+								<a href="#" class="item item-left-sticky" style="top: 195px;">
+									<div class="img">
+										<img src="https://placehold.co/650x350" alt="">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div class="mb-1">
+												<span class="-type">
+													<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+													บรรยายประกอบภาพ
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">300</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
+
+							</div>
+							<div class="col-lg-7">
+								<div class="row">
+
+									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
+									<div class="col-lg-6">
+										<a href="#" class="item">
+											<div class="img">
+												<img src="https://placehold.co/650x350" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div>
+														<span class="-type">
+															<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+															บรรยายประกอบภาพ
+														</span>
+														<span class="-type">การเกษตร</span>
+													</div>
+													<div class="-view">300</div>
+												</div>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
+											</div>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Captions" role="tabpanel" aria-labelledby="nav-Captions-tab">
-						บรรยายประกอบภาพ
+					<div class="tab-pane fade" id="nav-Video" role="tabpanel" aria-labelledby="nav-Video-tab">
+						<div class="row">
+							<div class="col-lg-5 pr-lg-4 mb-4">
+
+								<!-- ก้อนแรกซ้ายมือ -->
+								<a href="#" class="item item-left-sticky" style="top: 195px;">
+									<div class="img -video">
+										<img src="https://placehold.co/650x350" alt="">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div class="mb-1">
+												<span class="-type">
+													<img src="../../public/images/Knowledge/img1.jpg" style="width: 14px;" alt="">
+													สื่อวิดิทัศน์
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">300</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
+
+							</div>
+							<div class="col-lg-7">
+								<div class="row">
+
+									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
+									<div class="col-lg-6">
+										<a href="#" class="item">
+											<div class="img -video">
+												<img src="../../public/images/Knowledge/img1.jpg" alt="">
+											</div>
+											<div class="text">
+												<div class="d-flex justify-content-between flex-wrap">
+													<div>
+														<span class="-type">
+															<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
+															สื่อวิดิทัศน์
+														</span>
+														<span class="-type">การเกษตร</span>
+													</div>
+													<div class="-view">300</div>
+												</div>
+												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น
+													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+													นอกจากผลิตภัณฑ์ที่เป็น</p>
+												<div class="-profile">
+													<img src="../../public/images/img-pro.jpg" alt="profile">
+													ผู้เขียน : Wisdomking
+												</div>
+											</div>
+										</a>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
@@ -872,9 +1009,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="tab-content py-4">
+				<div class="tab-content box-slide py-4">
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
-						<div class="owl-carousel nav-dots-style show-dots">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
 							<a href="../news/detail.php" class="item">
 								<div class="img">
