@@ -103,7 +103,7 @@
     width: 100%;
     position: relative;
     display: flex;
-    padding: 5px 17px;
+    padding: 10px 17px;
     margin: 13px 0px;
     border-radius: 8px;
     border: 1px solid #CCCCCC
@@ -126,12 +126,13 @@
     .box-Course-syllabus .item.finished .-icon::after {
       content: "";
       position: absolute;
-      background: url(../images/Vector.png) no-repeat center;
+      background: #fff url(../images/Vector.png) no-repeat center;
       background-size: contain;
       width: 17.5px;
       aspect-ratio: 1;
-      right: 35px;
+      right: 14px;
       top: 1px;
+      border-radius: 50%;
     }
       .box-Course-syllabus .-icon img {
         border-right: 1px solid #DDDDDD;
@@ -144,7 +145,6 @@
       display: flex;
       flex-direction: column;
       text-align: left;
-      padding: 4px;
       padding-left: 20px;
     }
       .box-Course-syllabus .text b {
@@ -185,10 +185,14 @@
   .box-Course-syllabus-tab .-video {
 
   }
+    .box-Course-syllabus-tab .-video .video {
+      overflow: hidden;
+      border-radius: var(--border_radius);
+    }
     .box-Course-syllabus-tab .-video .img {
       border-radius: var(--border_radius);
     }
-      .box-Course-syllabus-tab .-video .img .video ,
+      .box-Course-syllabus-tab .-video .video ,
       .box-Course-syllabus-tab .-video .img img {
         aspect-ratio: 500 / 300;
         object-fit: cover;

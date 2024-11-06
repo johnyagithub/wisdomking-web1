@@ -56,12 +56,14 @@
 
 						<div class="item">
 							<div class="img">
-								<img src="https://placehold.co/500x300 " alt="">
+								<a href="../../public/images/news/img1.jpg" data-fancybox="img" data-caption="">
+									<img src="https://placehold.co/500x300 " alt="">
+								</a>
 							</div>
 							<div class="text">
 								<h4 class="text-gradient">พลังดิน 3 ดี เตรียมดินให้พร้อม<br> พืชผลก็งอกงาม</h4>
 								<b class="text-primary">DSO5</b>
-								<div class="date mt-auto">
+								<div class="date mt-auto text-secondary">
 									<h6 class="font-weight-light">2567/1</h6>
 									<h6 class="font-weight-light"><b>ลงทะเบียน :</b> 23 พ.ค. 2567
 									</h6>
@@ -69,15 +71,15 @@
 								</div>
 							</div>
 							<div class="-button">
-								<a href="#" class="d-flex text-secondary mb-1">
+								<a href="#" class="d-flex text-secondary mb-2">
 									<img src="../../public/images/icon-i.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ข้อมูลรายวิชา</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-1">
+								<a href="#" class="d-flex text-secondary mb-2">
 									<img src="../../public/images/icon-delete.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ยกเลิกการลงทะเบียน</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-1">
+								<a href="#" class="d-flex text-secondary mb-2">
 									<img src="../../public/images/icon-graduation.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ขอสำเร็จการศึกษา</u></h6>
 								</a>
@@ -86,12 +88,14 @@
 						</div>
 						<div class="item">
 							<div class="img">
-								<img src="https://placehold.co/500x300 " alt="">
+								<a href="../../public/images/news/img1.jpg" data-fancybox="img" data-caption="">
+									<img src="https://placehold.co/500x300 " alt="">
+								</a>
 							</div>
 							<div class="text">
 								<h4 class="text-gradient">ปลูกผักปลดหนี้ ปรับแนวคิด<br> ก้าวข้าม วิกฤตต้มยำกุ้ง</h4>
 								<b class="text-primary">DSO8</b>
-								<div class="date mt-auto">
+								<div class="date mt-auto text-secondary">
 									<h6 class="font-weight-light">2567/1</h6>
 									<h6 class="font-weight-light"><b>ลงทะเบียน :</b> 23 พ.ค. 2567
 									</h6>
@@ -99,15 +103,15 @@
 								</div>
 							</div>
 							<div class="-button">
-								<a href="#" class="d-flex text-secondary mb-1">
+								<a href="#" class="d-flex text-secondary mb-2">
 									<img src="../../public/images/icon-i.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ข้อมูลรายวิชา</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-1">
+								<a href="#" class="d-flex text-secondary mb-2">
 									<img src="../../public/images/icon-delete.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ยกเลิกการลงทะเบียน</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-1">
+								<a href="#" class="d-flex text-secondary mb-2">
 									<img src="../../public/images/icon-graduation.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ขอสำเร็จการศึกษา</u></h6>
 								</a>
