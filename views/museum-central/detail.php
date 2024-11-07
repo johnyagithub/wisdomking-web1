@@ -24,9 +24,12 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="../news/">ข่าว & ประชาสัมพันธ์</a>
+					<a href="#">องความรู้และเครือข่าย</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">ข่าวผู้บริหาร</li>
+				<li class="breadcrumb-item">
+					<a href="#">เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">ครามบุญ</li>
 			</ol>
 		</nav>
 
@@ -42,11 +45,12 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">ข่าวผู้บริหาร</h4>
-					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<h4 class="head mb-4 text-center">ครามบุญ</h4>
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
-					<img src="../../public/images/news/img3.jpg" class="rounded2 w-100" alt="">
+					<img src="https://placehold.co/1200x550" class="rounded2 w-100" alt="">
 					<div class="d-flex flex-wrap my-3 align-items-center">
 						<div class="-date">
 							17 สิงหาคม 2023
@@ -66,22 +70,29 @@
 							</a>
 						</div>
 					</div>
+					<span class="text-primary">
+						<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+						มุกดาหาร
+					</span>
 					<div class="px-lg-5">
-						<h4 class="text-center">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด
-							มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ ประจำปี
-							2567 (NST FAIR 2024)
-							ข่าวผู้บริหาร</h4>
-						<div class="d-flex flex-wrap justify-content-center mb-4">
-							<span class="-type">คณะเข้าชม</span>
-						</div>
-						<p><b>วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-								ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระ
-								บาทสมเด็จพระเจ้าอยู่หัว</b> มอบให้ นางสาวสาวิตรี สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้
-							พร้อมเจ้าหน้าที่ พิพิธภัณฑ์เกษตรฯ เข้าร่วมเป็นเกียรติในพิธีเปิดงาน มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-							ประจำปี 2567 (NST FAIR 2024) โดยมี น.ส.ศุภมาส อิศรภักดี รัฐมนตรีว่าการกระทรวงการอุดมศึกษา วิทยาศาสตร์
-							วิจัยและนวัตกรรม (อว.) เป็นประธานในพิธีเปิด งานฯ พร้อมกันนี้ สำนักงานพิพิธภัณฑ์เกษตรฯ
-							ยังได้รับเกียรติรับมอบโล่ขอบคุณในฐานะหน่วยงานร่วมจัดแสดงนิทรรศการ ภายในงานฯ จัดขึ้น ณ
-							ศูนย์แสดงสินค้าและการประชุมอิมแพ็ค เมืองทองธานี จ.นนทบุรี</p>
+						<ol class="my-4">
+							<li><b>ชื่อศูนย์เครือข่าย /ศูนย์เรียนรู้เครือข่าย
+									:</b><br>ศูนย์เรียนรู้เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว “ครามบุญ”
+								จังหวัดมุกดาหาร
+							</li>
+							<li><b>ที่ตั้งศูนย์เรียนรู้ :</b><br>305 หมู่ที่ 8 ต.คำอาฮวน อ.เมืองมุกดาหาร จ.มุกดาหาร</li>
+							<li><b>ผู้นำเครือข่ายศูนย์เรียนรู้ :</b><br>นายถึงบุญ ก้อนทอง เบอร์โทรศัพท์ 091-0611963</li>
+							<li><b>ความชำนาญพิเศษ/จุดเด่นของศูนย์ :</b><br>การขับเคลื่อนงานพัฒนาตามหลักปรัชญาเศรษฐกิจพอเพียง
+								ถ่ายทอดภูมิปัญญาผ้าย้อมคราม โดยใช้ความสามารถงานศิลปะสร้างความเป็นเอกลักษณ์
+								อัตลักษณ์ส่งเสริมวัฒนธรรมที่ลงตัวบนความร่วมสมัยจนเกิดความร่วมมือกับองค์การการศึกษาวิทยาศาสตร์
+								และวัฒนธรรมแห่งสหประชาชาติหรือ ยูเนสโก (UNESCO) เรื่องการพัฒนาวิถีชุนชนโดยใช้ภูมิปัญญา “ครามมีชีวิต”
+								ให้เกิดเป็นวิถีนำไปสู่อาชีพเกษตรที่ยั่งยืน</li>
+							<li><b>การจัดกระบวนการเรียนรู้ :</b><br>ให้ความรู้ในการสร้างกระบวนการเรียนรู้ทางความคิด
+								ถ่ายทอดให้รู้จักการมองตัวเองเพื่อพัฒนาตัวเองและต่อยอดผลิตภัณฑ์เรียนรู้และฝึกปฏิบัติจริง
+								ในประเด็นการย้อมผ้าคราม ผ้าย้อมสีธรรมชาติ</li>
+							<li><b>ความพร้อมของศูนย์ฯ :</b><br>รองรับผู้เข้าอบรมได้ประมาณ 50 คน สามารถใช้พื้นที่รอบศูนย์ทำกิจกรรมสาธิต
+								และฝึกปฏิบัติได้ มีสถานที่พักให้ผู้เข้ารับการอบรม</li>
+						</ol>
 					</div>
 
 					<div class="slide-show">
@@ -158,95 +169,308 @@
 		<section class="box-News box-slide py-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 ">
 			<div class="container">
-				<h3 class="head mb-5 text-center">ข่าวผู้บริหาร</h3>
+				<h3 class="head mb-5 text-center">เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</h3>
+				<div class="box-navTabs nav nav-tabs justify-content-center" role="tablist">
+					<button class="nav-link active" id="nav-all-tab" data-toggle="tab" data-target="#nav-all" type="button"
+						role="tab" aria-controls="nav-all" aria-selected="true">
+						ทั้งหมด
+					</button>
+					<button class="nav-link" id="nav-person-tab" data-toggle="tab" data-target="#nav-person" type="button"
+						role="tab" aria-controls="nav-person" aria-selected="false">
+						บุคคล
+					</button>
+					<button class="nav-link" id="nav-Learning-tab" data-toggle="tab" data-target="#nav-Learning" type="button"
+						role="tab" aria-controls="nav-Learning" aria-selected="false">
+						ศูนย์การเรียนรู้
+					</button>
+				</div>
 
-				<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
-				data-itemSlide-mobile="1">
+				<div class="tab-content box-slide py-4">
+					<div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
-					<a href="../news/detail.php" class="item">
-						<div class="img">
-							<img src="../../public/images/news/img1.jpg" alt="">
-						</div>
-						<div class="text">
-							<div class="d-flex justify-content-between flex-wrap">
-								<div class="-date">
-									19 สิงหาคม 2023
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
 								</div>
-								<div class="-view">
-									300
-								</div>
-							</div>
-							<span class="-type">ข่าวผู้บริหาร</span>
-							<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-								ประจำปี 2567 (NST FAIR 2024) </h5>
-							<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-								ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-								สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
-						</div>
-					</a>
-					<a href="../news/detail.php" class="item">
-						<div class="img">
-							<img src="../../public/images/news/img2.jpg" alt="">
-						</div>
-						<div class="text">
-							<div class="d-flex justify-content-between flex-wrap">
-								<div class="-date">
-									18 สิงหาคม 2023
-								</div>
-								<div class="-view">
-									300
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">ศูนย์เรียนรู้พืชพรรณท้องถิ่นต้นน้ำลำ พระเพลิง</h5>
+									<span class="text-primary d-inline-flex align-items-center">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										นครราชสีมา
+									</span>
+									<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
 								</div>
 							</div>
-							<span class="-type">คณะเข้าชม</span>
-							<h5 class="text-line2">วิถีเกษตรของพ่อ วิถีเกษตรของไทย</h5>
-							<p class="text-line3">วันที่ 18 สิงหาคม 2566 สำนักงานพิพิธภัณฑ์เกษตรเฉลิม พระเกียรติ
-								พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะ เข้าเยี่ยมชม พิพิธภัณฑ์ เพื่อ เรียนรู้พระเกียรติคุณ พระอัจ
-								ฉริยภาพ พระมหากษัตริย์ไทย ด้านการเกษตรโดยมีหน่วยงานเข้าร่วมเรียนรู้ ดังนี้</p>
-						</div>
-					</a>
-					<a href="../news/detail.php" class="item">
-						<div class="img">
-							<img src="../../public/images/news/img3.jpg" alt="">
-						</div>
-						<div class="text">
-							<div class="d-flex justify-content-between flex-wrap">
-								<div class="-date">
-									17 สิงหาคม 2023
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
 								</div>
-								<div class="-view">
-									300
-								</div>
-							</div>
-							<span class="-type">คณะเข้าชม</span>
-							<h5 class="text-line2">นวัตกรรมของพ่อ พัฒนาเกษตรไทย</h5>
-							<p class="text-line3">วันพฤหัสบดีที่ 17 สิงหาคม 2566 พิพิธภัณฑ์การเกษตรเฉลิม พระเกียรติ
-								พระบาทสมเด็จพระเจ้าอยู่หัว ต้อนรับคณะเข้า เยี่ยมชม จากโรงเรียน อรุณประดิษฐ จ.เพชรบุรี
-								โรงเรียนเซนต์ ฟรังซีสเซเวียร์ กทม. โรงเรียน ไตรราชวิทยา จ.พระนครศรีอยุธยา
-								เข้าเยี่ยมชมพิพิธภัณฑ์การเกษตรฯภายใต้โครงการ</p>
-						</div>
-					</a>
-					<a href="../news/detail.php" class="item">
-						<div class="img">
-							<img src="../../public/images/news/img1.jpg" alt="">
-						</div>
-						<div class="text">
-							<div class="d-flex justify-content-between flex-wrap">
-								<div class="-date">
-									19 สิงหาคม 2023
-								</div>
-								<div class="-view">
-									300
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">สวนเฮือนเฮา</h5>
+									<span class="text-primary d-inline-flex align-items-center">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										มุกดาหาร
+									</span>
+									<p class="text-line1 text-muted mt-2">40 ม.2 ต.นาโส่ อ.กุดชุม จ.ยโสธร</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
 								</div>
 							</div>
-							<span class="-type">ข่าวผู้บริหาร</span>
-							<h5 class="text-line2">สำนักงานพิพิธภัณฑ์เกษตรฯ ร่วมพิธีเปิด มหกรรมวิทยาศาสตร์และเทคโนโลยีแห่งชาติ
-								ประจำปี 2567 (NST FAIR 2024) </h5>
-							<p class="text-line3">วันที่ 17 สิงหาคม 2567 พลอากาศเอก เสนาะ พรรณพิกุล
-								ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว มอบให้ นางสาวสาวิตรี
-								สายโย ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้</p>
-						</div>
-					</a>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">เครือข่ายอินแปง</h5>
+									<span class="text-primary d-inline-flex align-items-center">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										สกลนคร
+									</span>
+									<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">ครามบุญ</h5>
+									<span class="text-primary d-inline-flex align-items-center">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										มุกดาหาร
+									</span>
+									<p class="text-line1 text-muted mt-2">305 หมู่ที่ 8 ต.คำอาฮวน อ.เมืองมุกดาหาร จ.มุกดาหาร</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
 
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
+
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">ศูนย์เรียนรู้พืชพรรณท้องถิ่นต้นน้ำลำ พระเพลิง</h5>
+									<span class="text-primary">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										นครราชสีมา
+									</span>
+									<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">สวนเฮือนเฮา</h5>
+									<span class="text-primary d-inline-flex align-items-center">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										มุกดาหาร
+									</span>
+									<p class="text-line1 text-muted mt-2">40 ม.2 ต.นาโส่ อ.กุดชุม จ.ยโสธร</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">เครือข่ายอินแปง</h5>
+									<span class="text-primary">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										สกลนคร
+									</span>
+									<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">ครามบุญ</h5>
+									<span class="text-primary">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										มุกดาหาร
+									</span>
+									<p class="text-line1 text-muted mt-2">305 หมู่ที่ 8 ต.คำอาฮวน อ.เมืองมุกดาหาร จ.มุกดาหาร</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-Learning" role="tabpanel" aria-labelledby="nav-Learning-tab">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
+
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">ศูนย์เรียนรู้พืชพรรณท้องถิ่นต้นน้ำลำ พระเพลิง</h5>
+									<span class="text-primary">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										นครราชสีมา
+									</span>
+									<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">สวนเฮือนเฮา</h5>
+									<span class="text-primary d-inline-flex align-items-center">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										มุกดาหาร
+									</span>
+									<p class="text-line1 text-muted mt-2">40 ม.2 ต.นาโส่ อ.กุดชุม จ.ยโสธร</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">เครือข่ายอินแปง</h5>
+									<span class="text-primary">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										สกลนคร
+									</span>
+									<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="https://placehold.co/363x197" alt="">
+								</div>
+								<div class="text">
+									<div class="d-flex justify-content-between flex-wrap">
+										<div class="-date">
+											19 สิงหาคม 2023
+										</div>
+										<div class="-view">
+											300
+										</div>
+									</div>
+									<h5 class="text-line2 mt-3">ครามบุญ</h5>
+									<span class="text-primary">
+										<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
+										มุกดาหาร
+									</span>
+									<p class="text-line1 text-muted mt-2">305 หมู่ที่ 8 ต.คำอาฮวน อ.เมืองมุกดาหาร จ.มุกดาหาร</p>
+									<a class="btn btn-style d-block" href="../museum-central/detail.php">อ่านเพิ่ม</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -149,7 +149,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">ศูนย์เรียนรู้พืชพรรณท้องถิ่นต้นน้ำลำ พระเพลิง</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											นครราชสีมา
 										</span>
 										<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
@@ -173,7 +173,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">สวนเฮือนเฮา</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											ยโสธร
 										</span>
 										<p class="text-line1 text-muted mt-2">40 ม.2 ต.นาโส่ อ.กุดชุม จ.ยโสธร</p>
@@ -197,7 +197,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">เครือข่ายอินแปง</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											สกลนคร
 										</span>
 										<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
@@ -221,7 +221,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">ครามบุญ</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											มุกดาหาร
 										</span>
 										<p class="text-line1 text-muted mt-2">305 หมู่ที่ 8 ต.คำอาฮวน อ.เมืองมุกดาหาร จ.มุกดาหาร</p>
@@ -245,7 +245,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">ศูนย์เรียนรู้พืชพรรณท้องถิ่นต้นน้ำลำ พระเพลิง</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											นครราชสีมา
 										</span>
 										<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
@@ -269,7 +269,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">สวนเฮือนเฮา</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											ยโสธร
 										</span>
 										<p class="text-line1 text-muted mt-2">40 ม.2 ต.นาโส่ อ.กุดชุม จ.ยโสธร</p>
@@ -293,7 +293,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">เครือข่ายอินแปง</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											สกลนคร
 										</span>
 										<p class="text-line1 text-muted mt-2">38 ม.15 ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา</p>
@@ -317,7 +317,7 @@
 										</div>
 										<h5 class="text-line2 mt-3">ครามบุญ</h5>
 										<span class="text-primary">
-											<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
+											<img src="../../public/images/icon-pin.png" style="width:20px;" alt="">
 											มุกดาหาร
 										</span>
 										<p class="text-line1 text-muted mt-2">305 หมู่ที่ 8 ต.คำอาฮวน อ.เมืองมุกดาหาร จ.มุกดาหาร</p>
