@@ -130,7 +130,7 @@
 						</div>
 					</div>
 					<div class="col-lg-7">
-						<h4 id="--text" data-default="ทุกภูมิภาค">ทุกภูมิภาค</h4>
+						<h4 id="--text" data-default="ทุกภูมิภาค"></h4>
 						<div id="data-Courses" class="row py-2">
 
 							<div class="col-sm-6 mb-4" data-type="tab1">
@@ -365,9 +365,15 @@
 			var selectedValue = e.params.data.id;
 			if (selectedValue !== "") {
 				var Province = $('#museum-map .-province[data-province=' + selectedValue + ']');
-				var Region = Province.closest(".list-region").attr('id');
-				$('#museum-map .-province[data-province=' + selectedValue + ']').click();
-				$('#museum-map .-region[data-regionid=' + Region + ']').click();
+
+				// เช็คจังหวัดที่เลือกมีข้อมูลไม
+				if (Province.attr('class') == '-province have') {
+					var Region = Province.closest(".list-region").attr('id');
+					$('#museum-map .-province[data-province=' + selectedValue + ']').click();
+					$('#museum-map .-region[data-regionid=' + Region + ']').click();
+				} else {
+					alert('จังหวัดนี้ไม่มีข้อมูล')
+				}
 			} else {
 				$('#museum-map .-province').removeClass('active');
 				$('#regionHome').click();
@@ -377,19 +383,22 @@
 
 	<script>
 		$(function () {
+			headDefault();
 			$("#museum-map .-region").click(function () {
 				$(this).siblings().removeClass('active');
 				$(this).addClass('active');
 
 				var ID = $(this).data('regionid');
 				var Name = $(this).data('region');
-				$('#--text').text(Name);
+				headDefault(Name);
 				region(ID);
 			});
 			$("#regionHome").click(function () {
+				headDefault();
 				$('#regionHome').removeClass('active');
 				$('#museum-map .-region').removeClass('active');
 				$('#museum-map .list-region').removeClass('active');
+				$('#museum-map .-province').removeClass('active');
 			});
 			$(document).on("click", "#museum-map .-province:not(.active)", function () {
 				$(this).siblings().removeClass('active');
@@ -399,6 +408,10 @@
 				var Name = $(this).data('province');
 				console.log("เอาไปใช้ดึงข้อมูล : " + ID + " " + Name);
 			});
+
+			$("#museum-map .list-region svg").each(function () {
+				$(this).find('.-province.have').appendTo(this);
+			});
 		});
 
 		let region = (r) => {
@@ -406,6 +419,11 @@
 			$('#' + r).addClass('active');
 
 			$('#regionHome').addClass('active');
+			$('#museum-map .-province').removeClass('active');
+		}
+
+		let headDefault = (el) => {
+			$('#--text').text(el || $('#--text').data('default'));
 		}
 	</script>
 </body>
