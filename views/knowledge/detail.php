@@ -147,7 +147,7 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>สารพันปัญหามะพร้าวไทย</h6>
-								<a class="btn btn-style" href="#" role="button" download="">ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download="">ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>

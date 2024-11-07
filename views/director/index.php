@@ -102,15 +102,15 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>นโยบายการบริหารทรัพยากรบุคคล 2566</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>นโยบายการบริหารทรัพยากรบุคคล 2565</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>นโยบายการบริหารทรัพยากรบุคคล 2564</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>
@@ -179,7 +179,7 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>มาตราการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>

@@ -1680,14 +1680,99 @@ ul.ul-style {
 .box-News {
 
 }
+  .box-News #museum-map {
+    position: sticky;
+    top: 160px;
+    border-radius: var(--border_radius);
+    overflow: hidden;
+    z-index: 5;
+    transition: .5s;
+    background: #E5FDC3;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  body.down .box-News #museum-map {
+    top: 120px;
+  }
+    #museum-map .list-region h4 {
+      position: absolute;
+      left: 20px;
+      top: 10px;
+      margin-bottom: 0px;
+    }
+    #museum-map > img {
+      /* filter: opacity(0.5) grayscale(1); */
+    }
+    #museum-map .list-region {
+      display: none;
+      background-color: #e6fdc4;
+      z-index: 1;
+      inset: 0;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      transition: .5s;
+    }
+    #museum-map .list-region.active {
+      display: flex;
+      position: absolute;
+      visibility: visible;
+    }
+    #regionHome {
+      display: none;
+      visibility: hidden;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 1;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 22px;
+      border: 0px;
+      transition: .3s;
+      color: #e6fdc4;
+      align-items: center;
+      justify-content: center;
+      background-color: #669525;
+    }
+    #regionHome:hover {
+      transform: scale(1.05);
+    }
+    #regionHome.active {
+      display: flex;
+      visibility: visible;
+    }
+
+    #museum-map svg {
+      position: absolute;
+      z-index: 1;
+    }
+      #museum-map .-region ,
+      #museum-map .-province {
+        transition: .5s;
+        opacity: 0;
+        cursor: pointer;
+        filter:  drop-shadow(1px 1px 0px rgb(255, 255, 255)) drop-shadow(-1px -1px 0px rgb(255, 255, 255))  drop-shadow(1px -1px 0px rgb(255, 255, 255)) drop-shadow(-1px 1px 0px rgb(255, 255, 255)) drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+      }
+      #museum-map .-region:hover ,
+      #museum-map .-province:hover ,
+      #museum-map .-region.active ,
+      #museum-map .-province.active {
+        opacity: 1;
+      }
+  
   .box-News .item {
     color: #000;
   }
     .box-News .item .img {
       border-radius: var(--border_radius);
     }
-      .box-News .item img {
-        aspect-ratio: 123 / 81;
+      .box-News .item .img img {
+        aspect-ratio: 129 / 70;
         object-fit: cover;
       }
       .box-News .owl-item:not([style*="width"]) {

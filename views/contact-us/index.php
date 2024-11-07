@@ -80,7 +80,7 @@
 									<button type="reset" class="btn btn-light border bg-white rounded-pill w-100">ยกเลิกส่งข้อความ</button>
 								</div>
 								<div class="col-6 col-md-4 col-lg-2 px-1">
-									<button type="submit" class="btn btn-style w-100" href="#" role="button">ส่งข้อความ</button>
+									<button type="submit" class="btn btn-style w-100" href="#">ส่งข้อความ</button>
 								</div>
 							</div>
 						</div>

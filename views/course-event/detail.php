@@ -191,7 +191,7 @@
 									href="javascript:history.back()">ย้อนกลับ</a>
 							</div>
 							<div class="col-6 col-md-4 col-lg-2 px-1">
-								<a class="btn btn-style w-100" href="#" role="button">เข้าร่วมหลักสูตร</a>
+								<a class="btn btn-style w-100" href="#">เข้าร่วมหลักสูตร</a>
 							</div>
 						</div>
 					</div>

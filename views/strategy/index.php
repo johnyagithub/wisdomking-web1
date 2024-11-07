@@ -98,27 +98,27 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>แผนแม่บทการพัฒนา พกฉ. 2567-2569</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการปฏิบัติการ พกฉ. พ.ศ. 2566 - พ.ศ. 2570 (ฉบับปรับปรุงปีงบประมาณ พ.ศ. 2567)</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการปฏิบัติการ พกฉ. (พ.ศ. 2566 - พ.ศ. 2570)</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนยุทธศาสตร์ (ปี 2563 - 2565)</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>ประเด็นยุทธศาสตร์ ฉบับที่ 3 (ปี 2563 - 2565)</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>ประเด็นยุทธศาสตร์ กลยุทธ์ ประจำปีงบประมาณ พ.ศ. 2566-2570</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>
@@ -132,11 +132,11 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>แผนการตรวจสอบประจำปีงบประมาณ พ.ศ.2568</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการตรวจสอบประจำปีงบประมาณ พ.ศ.2567</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>
@@ -147,27 +147,27 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>แผนบริหารทรัพยากรบุคคล และพัฒนาบุคลากร ประจำปีงบประมาณ 2567</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนบริหารทรัพยากรบุคคล ระยะ 5 ปี (พ.ศ. 2566 - 2570)</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการบริหารทรัพยากรบุคคล ประจำปีงบประมาณ 2566 </h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการบริหารทรัพยากรบุคคล ประจำปีงบประมาณ 2565</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการบริหารทรัพยากรบุคคล ประจำปีงบประมาณ 2564</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการตรวจสอบประจำปีงบประมาณ</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>
@@ -178,27 +178,27 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>แผนการดำเนินงาน/แผนการใช้จ่ายงบประมาณ ปี 2567</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการดำเนินงาน/แผนการใช้จ่ายงบประมาณ ปี 2566</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการดำเนินงาน/แผนการใช้จ่ายงบประมาณ ปี 2565</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการดำเนินงาน/แผนการใช้จ่ายงบประมาณ ปี 2564</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการดำเนินงาน/แผนการใช้จ่ายงบประมาณ ปี 2563</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนการดำเนินงาน/แผนการใช้จ่ายงบประมาณ ปี 2562</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>

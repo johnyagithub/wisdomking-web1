@@ -71,23 +71,23 @@
 						<div class="list-download">
 							<div class="list">
 								<h6>แผนแม่บทระยะ ๕ ปีที่เจ็ด อพ.สธ.</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>แผนปฏิบัติงานประจำปี</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>คำสั่งคณะกรรมการดำเนินงาน อพ.สธ.</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>คำสั่งคณะทำงาน</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 							<div class="list">
 								<h6>รายชื่อผู้ประสานงาน</h6>
-								<a class="btn btn-style" href="#" role="button" download>ดาวน์โหลด</a>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 							</div>
 						</div>
 					</div>

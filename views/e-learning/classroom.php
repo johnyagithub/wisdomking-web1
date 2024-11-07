@@ -66,7 +66,7 @@
 						<div class="box-Course-syllabus d-block nav nav-tabs border-bottom-0" role="tablist">
 
 							<div class="item align-items-center finished" id="nav-1-tab" data-toggle="tab" data-target="#nav-1"
-								type="button" role="tab" aria-controls="nav-1" aria-selected="true">
+								type="button" role="tab" aria-controls="nav-1" aria-selected="false">
 								<div class="-icon">
 									<img src="../../public/images/play-circle-fill.png" alt="">
 								</div>
@@ -88,7 +88,7 @@
 								<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
 							</div>
 							<div class="item align-items-center" id="nav-3-tab" data-toggle="tab" data-target="#nav-3" type="button"
-								role="tab" aria-controls="nav-3" aria-selected="true">
+								role="tab" aria-controls="nav-3" aria-selected="false">
 								<div class="-icon">
 									<img src="../../public/images/play-circle-fill.png" alt="">
 								</div>
@@ -99,7 +99,7 @@
 								<i class="fa fa-angle-right ml-auto fa-2x text-secondary" aria-hidden="true"></i>
 							</div>
 							<div class="item align-items-center" id="nav-4-tab" data-toggle="tab" data-target="#nav-4" type="button"
-								role="tab" aria-controls="nav-4" aria-selected="true">
+								role="tab" aria-controls="nav-4" aria-selected="false">
 								<div class="-icon">
 									<img src="../../public/images/icon-document.png" alt="">
 								</div>

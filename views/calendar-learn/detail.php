@@ -211,7 +211,7 @@
 									<button type="reset" class="btn btn-light border bg-white rounded-pill w-100">ยกเลิก</button>
 								</div>
 								<div class="col-6 col-md-4 col-lg-2 px-1">
-									<button type="submit" class="btn btn-style w-100" href="#" role="button">เข้าร่วมกิจกรรม</button>
+									<button type="submit" class="btn btn-style w-100" href="#">เข้าร่วมกิจกรรม</button>
 								</div>
 							</div>
 						</div>

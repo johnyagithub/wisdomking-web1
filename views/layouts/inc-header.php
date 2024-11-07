@@ -39,7 +39,7 @@
                         <a class="nav-link" href="../home/">หน้าหลัก</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                             ข่าว & ประชาสัมพันธ์
                         </a>
                         <div class="dropdown-menu">
@@ -51,7 +51,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                             ปฏิทินกิจกรรมการเรียนรู้
                         </a>
                         <div class="dropdown-menu">
@@ -64,7 +64,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                             มหกรรมตลาดเศรษฐกิจพอเพียง
                         </a>
                         <div class="dropdown-menu">
@@ -73,7 +73,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                             พิพิธภัณฑ์ของเรา
                         </a>
                         <div class="dropdown-menu">
@@ -94,30 +94,25 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                             องความรู้
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
                             <a class="dropdown-item" href="../media-article/">บทความ</a>
                             <a class="dropdown-item" href="../article-illustration/">บรรยายประกอบภาพ</a>
-                            <a class="dropdown-item"
-                                href="../museum-central/">เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</a>
                             <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
                             <a class="dropdown-item" href="../data-account/">บัญชีข้อมูล</a>
-                            <a class="dropdown-item" href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ. 2540</a>
+                            <a class="dropdown-item"
+                                href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ.
+                                2540</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                            เครือข่ายพิพิธภัณฑ์เกษตรฯ
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">เครือข่ายพิพิธภัณฑ์เกษตรฯ</a>
-                        </div>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link" href="../museum-central/">เครือข่ายพิพิธภัณฑ์เกษตรฯ</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                             เกี่ยวกับเรา
                         </a>
                         <div class="dropdown-menu">
@@ -142,11 +137,12 @@
                             <a class="dropdown-item" href="../operating-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
                             <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
                             <a class="dropdown-item" href="../manual2/">คู่มือการปฏิบัติงาน</a>
-                            <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
+                            <a class="dropdown-item"
+                                href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
                             ติดต่อเรา
                         </a>
                         <div class="dropdown-menu">
@@ -169,9 +165,9 @@
                     <a href="../login" class="icon-pro">
                         <img src="../../public/images/icon-pro.png" alt="">สมัคสมาชิก
                     </a>
-                    <a class="btn btn-style m-1" href="#" role="button">เข้าร่วมโครงการส่งเสริมการเรียนรู้</a>
+                    <a class="btn btn-style m-1" href="#">เข้าร่วมโครงการส่งเสริมการเรียนรู้</a>
                     <a class="btn btn-style m-1" href="../e-learning/" role="button">e-Learning</a>
-                    <a class="btn btn-style m-1" href="#" role="button">สินค้าและบริการ</a>
+                    <a class="btn btn-style m-1" href="#">สินค้าและบริการ</a>
                 </div>
                 <div class="header-top-link">
                     <ul class="styleswitch">

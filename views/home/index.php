@@ -49,7 +49,7 @@
 					เนื่องในมหามงคลสมัยที่ทรง...
 				</p>
 				<br>
-				<a class="btn btn-style px-5 d-table mx-auto" href="#" role="button">อ่านต่อ</a>
+				<a class="btn btn-style px-5 d-table mx-auto" href="#">อ่านต่อ</a>
 			</div>
 		</section>
 
@@ -434,7 +434,7 @@
 								ทั้งหมด
 							</button>
 							<button class="nav-link" id="nav-Articles-tab" data-toggle="tab" data-target="#nav-Articles" type="button"
-								role="tab" aria-controls="nav-Articles" aria-selected="true">
+								role="tab" aria-controls="nav-Articles" aria-selected="false">
 								<img src="../../public/images/document.png" style="width: 24px;" alt="">
 								บทความ
 							</button>
@@ -995,7 +995,7 @@
 								คณะเข้าชม
 							</button>
 							<button class="nav-link" id="nav4-tab" data-toggle="tab" data-target="#nav4" type="button" role="tab"
-								aria-controls="nav4" aria-selected="true">
+								aria-controls="nav4" aria-selected="false">
 								ข่าวสื่อมวลชน
 							</button>
 							<button class="nav-link" id="nav5-tab" data-toggle="tab" data-target="#nav5" type="button" role="tab"
