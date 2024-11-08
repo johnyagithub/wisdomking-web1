@@ -28,7 +28,6 @@
 }
 .bg-gradient {
   background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
-
 }
 
 body h1 ,
@@ -149,7 +148,6 @@ body hr {
     margin-bottom: 0px;
   }
   .table.table-striped {
-    /* border-radius: 9px; */
     overflow: hidden;
     color: var( --secondary);
     box-shadow: 0px 0px 0px 6px #ffffff, 0px 0px 0px 7px #B6B6B6;
@@ -212,6 +210,42 @@ body hr {
     }
       .table.table-striped tfoot tr {
           background: #E8E8E8;
+      }
+      
+.table.table-striped2 {
+  
+}
+  .table.table-striped2 thead {
+
+  }
+    .table.table-striped2 thead tr {
+      white-space: nowrap;
+    }
+      .table.table-striped2 thead tr th {
+        color: #669525;
+        position: relative;
+        background: #F7FEEC;
+        border: 1px solid #CECECE;
+        vertical-align: middle;
+        padding: 10px 17px;
+      }
+      .table.table-striped2 thead tr.bg-light-blue th {
+        color: #000;
+        background: #f1f9fb;
+        font-weight: 100;
+      }
+
+  .table.table-striped2 tbody {
+    
+  }
+    .table-striped2 tbody tr:nth-of-type(odd) {
+      background: #F5F5F5;
+    }
+      .table.table-striped2 tbody tr td {
+        position: relative;
+        vertical-align: middle;
+        border: 1px solid #DADADA;
+        padding: 10px 17px;
       }
 
 table.table-gradient {
@@ -2558,6 +2592,10 @@ footer {
   #museum-map .-province:not(.have) {
     opacity: 1 !important;
     z-index: 1;
+  }
+  .table-responsive .bg-gradient {
+    position: sticky;
+    left: 0px;
   }
 }
 

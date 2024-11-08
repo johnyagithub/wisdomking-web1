@@ -82,7 +82,6 @@
                             <a class="dropdown-item" href="../booking-museum/">บริการเข้าชม</a>
                             <a class="dropdown-item"
                                 href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
-                            <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
                             <a class="dropdown-item" href="../service-statistics/">สถิติการให้บริการเข้าชม</a>
                             <a class="dropdown-item" href="../happy-travel/">กิจกรรมท่องเที่ยวสุขสันต์</a>
                             <a class="dropdown-item" href="../room-service/">ห้องพัก</a>
@@ -99,8 +98,6 @@
                         </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
-                            <a class="dropdown-item" href="../media-article/">บทความ</a>
-                            <a class="dropdown-item" href="../article-illustration/">บรรยายประกอบภาพ</a>
                             <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
                             <a class="dropdown-item" href="../data-account/">บัญชีข้อมูล</a>
                             <a class="dropdown-item"
@@ -136,7 +133,7 @@
                             <a class="dropdown-item" href="../appoint-officials/">แต่งตั้งเจ้าหน้าที่</a>
                             <a class="dropdown-item" href="../operating-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
                             <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
-                            <a class="dropdown-item" href="../manual2/">คู่มือการปฏิบัติงาน</a>
+                            <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
                             <a class="dropdown-item"
                                 href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
                         </div>

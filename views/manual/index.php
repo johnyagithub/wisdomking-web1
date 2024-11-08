@@ -32,9 +32,18 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto mb-5" style="max-width: 1000px;">
+				<div class="mx-auto mb-4" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">คู่มือการปฏิบัติงาน</h4>
-					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<div class="row justify-content-center">
+						<div class="col-sm-9 col-md-8 col-lg-6">
+							<div class="form-group">
+								<label>คำค้นหา</label>
+								<input type="search" class="form-control bg-white" placeholder="ค้นหา">
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div class="table-responsive">
@@ -103,7 +112,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงาน กระบวนการจัดการเรื่องร้องเรียน การทุจริต/แจ้งเบาะแสด้านการทุจริตและประพฤติมิชอบ</td>
+								<td class="text-left">คู่มือการปฏิบัติงาน กระบวนการจัดการเรื่องร้องเรียน
+									การทุจริต/แจ้งเบาะแสด้านการทุจริตและประพฤติมิชอบ</td>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -127,7 +137,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="text-left">คู่มือการปฏิบัติงาน การให้บริการเข้าชมและเรียนรู้พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว</th>
+								<td class="text-left">คู่มือการปฏิบัติงาน
+									การให้บริการเข้าชมและเรียนรู้พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว</th>
 								<td>
 									<a href="#" download>
 										<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -144,6 +155,10 @@
 							</tr>
 						</tbody>
 					</table>
+				</div>
+				<div class="mx-auto mb-4" style="max-width: 1000px;">
+					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+						has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 
 				<div class="--detail">
