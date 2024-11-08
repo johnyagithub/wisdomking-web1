@@ -57,6 +57,9 @@ a.canvasjs-chart-credit ,
   display: none;
 }
 
+html {
+scroll-behavior: smooth;
+}
 body{
  font-family: 'Prompt', sans-serif !important; 
  font-weight: 100;
@@ -1698,13 +1701,13 @@ ul.ul-style {
     top: 120px;
   }
     #museum-map .list-region h4 {
-      position: absolute;
+      position: sticky;
       left: 20px;
-      top: 10px;
-      margin-bottom: 0px;
-    }
-    #museum-map > img {
-      /* filter: opacity(0.5) grayscale(1); */
+      top: 12px;
+      margin-bottom: auto;
+      z-index: 3;
+      width: 0px;
+      white-space: nowrap;
     }
     #museum-map .list-region {
       display: none;
@@ -1714,6 +1717,7 @@ ul.ul-style {
       justify-content: center;
       align-items: center;
       visibility: hidden;
+      overflow: auto;
       transition: .5s;
     }
     #museum-map .list-region.active {
@@ -1721,32 +1725,38 @@ ul.ul-style {
       position: absolute;
       visibility: visible;
     }
+
     #regionHome {
       display: none;
       visibility: hidden;
       position: absolute;
-      right: 10px;
-      top: 10px;
+      right: 0px;
+      bottom: 0px;
       z-index: 1;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
+      border-radius: var(--border_radius) 0 0 0;
+      width: 35px;
+      height: 35px;
       font-size: 22px;
       border: 0px;
+      padding: 0px;
       transition: .3s;
       color: #e6fdc4;
       align-items: center;
       justify-content: center;
+      aspect-ratio: 1;
       background-color: #669525;
     }
     #regionHome:hover {
       transform: scale(1.05);
+      border-radius: var(--border_radius);
+      right: 5px;
+      bottom: 5px;
     }
     #regionHome.active {
       display: flex;
       visibility: visible;
     }
-
+    
     #museum-map svg {
       position: absolute;
       z-index: 1;
@@ -1769,6 +1779,11 @@ ul.ul-style {
       #museum-map .-province.active {
         opacity: 1;
       }
+
+    #museum-map .list-region svg ,
+    #museum-map .list-region svg+img {
+      max-width: calc(100% - 40px);
+    }
   
   .box-News .item {
     color: #000;
@@ -2505,6 +2520,12 @@ footer {
   .board-list.underline .-list {
     width: 860px;
     margin: 15px auto;
+  }
+  .owl-nav button {
+    opacity: 1 !important;
+  }
+  #museum-map .-region, #museum-map .-province {
+    opacity: 1 !important;
   }
 }
 

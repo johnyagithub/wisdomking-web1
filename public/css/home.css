@@ -764,7 +764,7 @@
   }
   .box-Market .owl-nav button ,
   .box-Calendar .owl-nav button {
-    width: 27px;
+    width: 27px !important;
   }
   .box-Calendar .owl-carousel ,
   .box-Market .owl-carousel {

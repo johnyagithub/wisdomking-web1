@@ -44,16 +44,14 @@
 						พกฉ. กระจายอยู่ในพื้นที่ภูมิภาคต่างๆ โดยแบ่งตามภูมิภาคได้ดังนี้</p>
 				</div>
 
-				<div class="box-navTabs ml-auto d-flex flex-wrap mb-4" data-showId="data-Courses">
-					<div class="owl-carousel">
-						<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
-						<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted">
-							บุคคล
-						</button>
-						<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted">
-							ศูนย์การเรียนรู้
-						</button>
-					</div>
+				<div class="box-navTabs ml-auto d-flex flex-wrap justify-content-center mb-4" data-showId="data-Courses">
+					<button type="button" class="btn btn-style3 px-3 mx-1 text-muted active">ทั้งหมด</button>
+					<button type="button" data-type="tab1" class="btn btn-style3 px-3 mx-1 text-muted">
+						บุคคล
+					</button>
+					<button type="button" data-type="tab2" class="btn btn-style3 px-3 mx-1 text-muted">
+						ศูนย์การเรียนรู้
+					</button>
 				</div>
 
 				<div class="row row-p10 justify-content-center mb-3">
@@ -130,7 +128,9 @@
 						</div>
 					</div>
 					<div class="col-lg-7">
-						<h4 id="--text" data-default="ทุกภูมิภาค"></h4>
+						<a href="#--text" class="text-body">
+							<h4 id="--text" data-default="ทุกภูมิภาค"></h4>
+						</a>
 						<div id="data-Courses" class="row py-2">
 
 							<div class="col-sm-6 mb-4" data-type="tab1">
@@ -407,11 +407,16 @@
 				var ID = $(this).data('provinceid');
 				var Name = $(this).data('province');
 				console.log("เอาไปใช้ดึงข้อมูล : " + ID + " " + Name);
+				$('[href="#--text"]').click();
 			});
 
 			$("#museum-map .list-region svg").each(function () {
 				$(this).find('.-province.have').appendTo(this);
 			});
+
+			if(getParameterByName('param') !== '') {
+				$('button[data-type='+getParameterByName('param')+']').click();
+			}
 		});
 
 		let region = (r) => {
@@ -424,6 +429,16 @@
 
 		let headDefault = (el) => {
 			$('#--text').text(el || $('#--text').data('default'));
+		}
+
+		let getParameterByName = (name) => {
+			const url = window.location.href;
+			name = name.replace(/[\[\]]/g, "\\$&");
+			const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+			const results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
 	</script>
 </body>

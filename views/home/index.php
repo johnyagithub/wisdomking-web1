@@ -888,8 +888,8 @@
 							นวัตกรรมเกษตร เศรษฐกิจพอเพียง ปัจจุบัน มีศูนย์เครือข่าย พกฉ.</p>
 						<br />
 						<div class="ml-auto d-flex flex-wrap align-items-start">
-							<a href="#" class="btn-style2 px-4 py-1 mx-1">บุคคล</a>
-							<a href="#" class="btn-style3 px-4 py-1 mx-1">ศูนย์การเรียนรู้</a>
+							<a href="../museum-central/?param=tab1" class="btn-style2 px-4 py-1 mx-1">บุคคล</a>
+							<a href="../museum-central/?param=tab2" class="btn-style3 px-4 py-1 mx-1">ศูนย์การเรียนรู้</a>
 						</div>
 					</div>
 					<div class="col-lg-7">
