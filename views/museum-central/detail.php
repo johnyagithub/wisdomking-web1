@@ -24,10 +24,10 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="#">องความรู้และเครือข่าย</a>
+					<a href="../museum-central/">องความรู้และเครือข่าย</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="#">เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</a>
+					<a href="../museum-central/?param=tab1">บุคคล</a>
 				</li>
 				<li class="breadcrumb-item active" aria-current="page">ครามบุญ</li>
 			</ol>

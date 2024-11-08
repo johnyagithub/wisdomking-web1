@@ -26,6 +26,9 @@
 				<li class="breadcrumb-item">
 					<a href="../news/">ข่าว & ประชาสัมพันธ์</a>
 				</li>
+				<li class="breadcrumb-item">
+					<a href="../news/?param=tab1">ข่าว</a>
+				</li>
 				<li class="breadcrumb-item active" aria-current="page">ข่าวผู้บริหาร</li>
 			</ol>
 		</nav>
