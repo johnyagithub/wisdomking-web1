@@ -127,7 +127,7 @@
 					</div>
 					<div class="tab-pane fade" id="nav-Outdoor" role="tabpanel" aria-labelledby="nav-Outdoor-tab">
 						<div class="owl-carousel nav-dots-style" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
-						data-itemSlide-mobile="1">
+							data-itemSlide-mobile="1">
 
 							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
@@ -164,7 +164,7 @@
 					</div>
 					<div class="tab-pane fade" id="nav-Virtual" role="tabpanel" aria-labelledby="nav-Virtual-tab">
 						<div class="owl-carousel nav-dots-style" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
-						data-itemSlide-mobile="1">
+							data-itemSlide-mobile="1">
 
 							<a href="../ourmuseum/detail.php" class="item">
 								<div class="img">
@@ -463,7 +463,7 @@
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
-											<div class="mb-1">
+											<div class="d-flex flex-wrap align-items-center">
 												<span class="-type">
 													<img src="../../public/images/document.png" style="width: 14px;" alt="">
 													บทความ
@@ -489,13 +489,13 @@
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
 									<div class="col-md-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail-Video.php" class="item">
 											<div class="img -video">
 												<img src="../../public/images/Knowledge/img1.jpg" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 															สื่อวิดิทัศน์
@@ -517,13 +517,13 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail-Captions.php" class="item">
 											<div class="img">
 												<img src="../../public/images/Knowledge/img2.jpg" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 															บรรยายประกอบภาพ
@@ -545,13 +545,13 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail.php" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/document.png" style="width: 14px;" alt="">
 															บทความ
@@ -573,13 +573,13 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail.php" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/document.png" style="width: 14px;" alt="">
 															บทความ
@@ -601,13 +601,13 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail.php" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/document.png" style="width: 14px;" alt="">
 															บทความ
@@ -629,13 +629,13 @@
 										</a>
 									</div>
 									<div class="col-md-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail.php" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/document.png" style="width: 14px;" alt="">
 															บทความ
@@ -673,7 +673,7 @@
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
-											<div class="mb-1">
+											<div class="d-flex flex-wrap align-items-center">
 												<span class="-type">
 													<img src="../../public/images/document.png" style="width: 14px;" alt="">
 													บทความ
@@ -699,13 +699,13 @@
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
 									<div class="col-lg-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail.php" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/document.png" style="width: 14px;" alt="">
 															บทความ
@@ -743,7 +743,7 @@
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
-											<div class="mb-1">
+											<div class="d-flex flex-wrap align-items-center">
 												<span class="-type">
 													<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 													บรรยายประกอบภาพ
@@ -769,13 +769,13 @@
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
 									<div class="col-lg-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail-Captions.php" class="item">
 											<div class="img">
 												<img src="https://placehold.co/650x350" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 															บรรยายประกอบภาพ
@@ -813,7 +813,7 @@
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
-											<div class="mb-1">
+											<div class="d-flex flex-wrap align-items-center">
 												<span class="-type">
 													<img src="../../public/images/Knowledge/img1.jpg" style="width: 14px;" alt="">
 													สื่อวิดิทัศน์
@@ -839,13 +839,13 @@
 
 									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
 									<div class="col-lg-6">
-										<a href="#" class="item">
+										<a href="../knowledge/detail-Video.php" class="item">
 											<div class="img -video">
 												<img src="../../public/images/Knowledge/img1.jpg" alt="">
 											</div>
 											<div class="text">
 												<div class="d-flex justify-content-between flex-wrap">
-													<div>
+													<div class="d-flex flex-wrap align-items-center">
 														<span class="-type">
 															<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 															สื่อวิดิทัศน์

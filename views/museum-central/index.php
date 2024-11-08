@@ -46,10 +46,12 @@
 
 				<div class="box-navTabs ml-auto d-flex flex-wrap justify-content-center mb-4" data-showId="data-Courses">
 					<button type="button" class="btn btn-style3 px-3 mx-1 text-muted active">ทั้งหมด</button>
-					<button type="button" data-type="tab1" class="btn btn-style3 px-3 mx-1 text-muted">
+					<button type="button" data-type="tab1" class="btn btn-style3 px-3 mx-1 text-muted"
+						onClick="$('[href=\'#--text\']').click()">
 						บุคคล
 					</button>
-					<button type="button" data-type="tab2" class="btn btn-style3 px-3 mx-1 text-muted">
+					<button type="button" data-type="tab2" class="btn btn-style3 px-3 mx-1 text-muted"
+						onClick="$('[href=\'#--text\']').click()">
 						ศูนย์การเรียนรู้
 					</button>
 				</div>
@@ -414,9 +416,6 @@
 				$(this).find('.-province.have').appendTo(this);
 			});
 
-			if(getParameterByName('param') !== '') {
-				$('button[data-type='+getParameterByName('param')+']').click();
-			}
 		});
 
 		let region = (r) => {
@@ -429,16 +428,6 @@
 
 		let headDefault = (el) => {
 			$('#--text').text(el || $('#--text').data('default'));
-		}
-
-		let getParameterByName = (name) => {
-			const url = window.location.href;
-			name = name.replace(/[\[\]]/g, "\\$&");
-			const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
-			const results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
-			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
 	</script>
 </body>

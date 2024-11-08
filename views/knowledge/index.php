@@ -26,9 +26,6 @@
 						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก
 					</a>
 				</li>
-				<li class="breadcrumb-item">
-					<a href="#">องค์ความรู้</a>
-				</li>
 				<li class="breadcrumb-item active" aria-current="page">องค์ความรู้</li>
 			</ol>
 		</nav>
@@ -41,16 +38,16 @@
 						<div class="owl-carousel">
 							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
 							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted">
-								<img src="../../public/images/document.png" style="width: 24px;" alt="">
+								<img src="../../public/images/document.png" style="width: 24px;" class="mr-1" alt="">
 								บทความ
 							</button>
 							<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted">
-								<img src="../../public/images/photos.png" style="width: 24px;" alt="">
+								<img src="../../public/images/photos.png" style="width: 24px;" class="mr-1" alt="">
 								บรรยายประกอบภาพ
 							</button>
 							<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted">
-								<img src="../../public/images/play_circled.png" style="width: 24px;" alt="">
-								บรรยายประกอบภาพ
+								<img src="../../public/images/play_circled.png" style="width: 24px;" class="mr-1" alt="">
+								สื่อวิดิทัศน์
 							</button>
 						</div>
 					</div>
@@ -116,7 +113,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -138,13 +136,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
 							<div class="img">
 								<img src="https://placehold.co/650x350" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -163,13 +162,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab3">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์
@@ -197,7 +197,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -219,13 +220,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
 							<div class="img">
 								<img src="https://placehold.co/650x350" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -244,13 +246,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab3">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์
@@ -278,7 +281,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -300,13 +304,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
 							<div class="img">
 								<img src="https://placehold.co/650x350" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -325,13 +330,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab3">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์
@@ -359,7 +365,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -381,13 +388,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
 							<div class="img">
 								<img src="https://placehold.co/650x350" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -406,13 +414,14 @@
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6" data-type="tab3">
-						<a href="../knowledge/detail.php" class="item px-2 px-xl-4">
+						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									<div class="mb-1">
+									
+								<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์
