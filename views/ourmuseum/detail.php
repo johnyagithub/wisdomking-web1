@@ -482,7 +482,7 @@
 
 				<div class="row">
 					<div class="col-6 pr-2 pr-sm-3">
-						<a href="#" class="btn btn-outline-light text-left border p-4 text-muted w-100">
+						<a href="#" class="btn btn-outline-light text-left border p-3 p-md-4 text-muted w-100">
 							<i class="fa fa-angle-left" aria-hidden="true"></i>
 							ย้อนกลับ
 							<br>
@@ -490,7 +490,7 @@
 						</a>
 					</div>
 					<div class="col-6 pl-2 pl-sm-3">
-						<a href="#" class="btn btn-outline-light border p-4 text-right text-muted w-100">
+						<a href="#" class="btn btn-outline-light border p-3 p-md-4 text-right text-muted w-100">
 							ต่อไป
 							<i class="fa fa-angle-right" aria-hidden="true"></i>
 							<br>
@@ -509,21 +509,23 @@
 				<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
 				<div class="scale-navTabs ml-auto">
 					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
-							type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
-							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์ในอาคาร
-						</button>
-						<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
-							role="tab" aria-controls="nav-Outdoor" aria-selected="false">
-							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์กลางแจ้ง
-						</button>
-						<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
-							role="tab" aria-controls="nav-Virtual" aria-selected="false">
-							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์เสมือนจริง
-						</button>
+						<div class="owl-carousel">
+							<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
+								type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
+								<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์ในอาคาร
+							</button>
+							<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
+								role="tab" aria-controls="nav-Outdoor" aria-selected="false">
+								<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์กลางแจ้ง
+							</button>
+							<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
+								role="tab" aria-controls="nav-Virtual" aria-selected="false">
+								<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์เสมือนจริง
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>

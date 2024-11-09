@@ -37,7 +37,7 @@
 				</div>
 				<div class="row py-4">
 
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -55,7 +55,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -73,7 +73,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -91,7 +91,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -109,7 +109,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -127,7 +127,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -145,7 +145,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -163,7 +163,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""
@@ -181,7 +181,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="col-lg-4 col-6 mb-4">
 						<a href="../covid/detail.php">
 							<div class="img rounded">
 								<img src="../../public/images/calendar/img1.jpg" alt=""

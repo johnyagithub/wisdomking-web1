@@ -40,7 +40,7 @@
 				</div>
 
 				<div class="table-responsive">
-					<table class="table table-striped text-center">
+					<table class="table table-striped text-center" style="min-width: 800px;">
 						<thead>
 							<tr>
 								<th>รหัสชุดข้อมูล</th>

@@ -78,6 +78,11 @@ body::before {
   top: 50%; 
   animation: rotateY 1.5s ease-in-out infinite;
 }
+@supports (-webkit-appearance: none) and (color: -apple-system-control-background) {
+  body::before {
+    animation: initial;
+  }
+}
 
 @keyframes rotateY {
   50% {transform: rotateY(180deg) translate(50%, -50%);}
@@ -334,6 +339,9 @@ table.table-gradient {
       top: 50% !important;
       transform: translateY(-50%);
       width: 30px !important;
+    }
+    .select2-container--default .select2-results__option--highlighted[aria-selected] {
+      background: linear-gradient(180deg, #2BCB7E 2.96%, #37A8E2 99.49%);
     }
 
 .first-child-border > [class*="border"]:first-child {
@@ -1630,7 +1638,7 @@ div#video.modal {
  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
- body .container {
+ body :not(header) .container {
   max-width: 1180px;
  }
 }
@@ -1766,10 +1774,12 @@ ul.ul-style {
         pointer-events: none;
       }
       @supports (-webkit-appearance: none) and (color: -apple-system-control-background) {
-        #museum-map .-province:not(.have) ,
         #museum-map .list-region svg g:not(.-province) {
+          
+        }
+        #museum-map .list-region svg {
           mix-blend-mode: exclusion;
-          opacity: 0.3;
+          opacity: 0.5;
         }
       }
 
@@ -2597,6 +2607,9 @@ footer {
     position: sticky;
     left: 0px;
   }
+  .breadcrumb .breadcrumb-item a {
+    color: #cac8c8 !important;
+  }
 }
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
@@ -2691,6 +2704,17 @@ footer {
   .box-navTabs .owl-nav button.disabled {
     opacity: 0.2 !important;
   }
+  .--detail table:not(.table-gradient) > tbody > tr {
+    display: grid;
+  }
+  .--detail .-profile {
+    width: 100%;
+    text-align: center;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    border: 0px !important;
+    margin-bottom: 7px;
+  }
 
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
@@ -2783,6 +2807,12 @@ footer {
     .text-center.text-sm-left .head::after {
       left: 50%;
       transform: translateX(-50%);
+    }
+    .col-6 .d-flex .-view {
+      margin-left: 0px;
+    }
+    .box-Learning .item .text {
+      padding: 17px 0px 0px 0px;
     }
   } 
   /* แนวนอน */

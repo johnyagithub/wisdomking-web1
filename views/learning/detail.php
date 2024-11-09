@@ -96,7 +96,7 @@
 
 					<div class="row">
 						<div class="col-6 pr-2 pr-sm-3">
-							<a href="#" class="btn btn-outline-light text-left border p-4 text-muted w-100">
+							<a href="#" class="btn btn-outline-light text-left border p-3 p-md-4 text-muted w-100 h-100">
 								<i class="fa fa-angle-left" aria-hidden="true"></i>
 								ย้อนกลับ
 								<br>
@@ -104,7 +104,7 @@
 							</a>
 						</div>
 						<div class="col-6 pl-2 pl-sm-3">
-							<a href="#" class="btn btn-outline-light border p-4 text-right text-muted w-100">
+							<a href="#" class="btn btn-outline-light border p-3 p-md-4 text-right text-muted w-100 h-100">
 								ต่อไป
 								<i class="fa fa-angle-right" aria-hidden="true"></i>
 								<br>
@@ -123,18 +123,20 @@
 					<h3 class="head mb-4">สื่อการเรียนรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-							<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
-								role="tab" aria-controls="nav1" aria-selected="true">
-								ทั้งหมด
-							</button>
-							<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button" role="tab"
-								aria-controls="nav2" aria-selected="false">
-								ภาพยนตร์แอนิเมชั่น 3 มิติ
-							</button>
-							<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button" role="tab"
-								aria-controls="nav3" aria-selected="false">
-								วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ
-							</button>
+							<div class="owl-carousel">
+								<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
+									role="tab" aria-controls="nav1" aria-selected="true">
+									ทั้งหมด
+								</button>
+								<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button" role="tab"
+									aria-controls="nav2" aria-selected="false">
+									ภาพยนตร์แอนิเมชั่น 3 มิติ
+								</button>
+								<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button" role="tab"
+									aria-controls="nav3" aria-selected="false">
+									วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>

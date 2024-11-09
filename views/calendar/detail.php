@@ -79,11 +79,11 @@
 						</div>
 						<h4 class="mb-3">มหกรรม "แรงบันดาลใจ"</h4>
 						<div class="d-flex flex-wrap mb-4 text-primary">
-							<span>
+							<span class="border-right pr-3">
 								<img src="../../public/images/icon-clock.png" style="width:20px;" class="mx-2" alt="">
 								เวลา 08.00 - 17.00 น.
 							</span>
-							<span class="border-left ml-3">
+							<span>
 								<img src="../../public/images/icon-pin.png" style="width:20px;" class="mx-2" alt="">
 								พิพิธภํณฑ์การเกษตรฯ
 							</span>
@@ -150,7 +150,7 @@
 
 					<div class="row">
 						<div class="col-6 pr-2 pr-sm-3">
-							<a href="#" class="btn btn-outline-light text-left border p-4 text-muted w-100">
+							<a href="#" class="btn btn-outline-light text-left border p-3 p-md-4 text-muted w-100 h-100">
 								<i class="fa fa-angle-left" aria-hidden="true"></i>
 								ย้อนกลับ
 								<br>
@@ -158,7 +158,7 @@
 							</a>
 						</div>
 						<div class="col-6 pl-2 pl-sm-3">
-							<a href="#" class="btn btn-outline-light border p-4 text-right text-muted w-100">
+							<a href="#" class="btn btn-outline-light border p-3 p-md-4 text-right text-muted w-100 h-100">
 								ต่อไป
 								<i class="fa fa-angle-right" aria-hidden="true"></i>
 								<br>

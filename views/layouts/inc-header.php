@@ -100,9 +100,7 @@
                             <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
                             <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
                             <a class="dropdown-item" href="../data-account/">บัญชีข้อมูล</a>
-                            <a class="dropdown-item"
-                                href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ.
-                                2540</a>
+                            <a class="dropdown-item" href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ. 2540</a>
                         </div>
                     </li>
                     <li class="nav-item position-relative">

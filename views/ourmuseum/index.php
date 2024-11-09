@@ -31,20 +31,22 @@
 			<div class="container">
 				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
 					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
-					<div class="ml-auto d-flex flex-wrap" data-showid="data-Calendar">
-						<!-- <a href="#" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</a> -->
-						<a href="#Indoor" data-type="tab1" class="btn btn-style3 px-3 text-muted m-1">
-							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์ในอาคาร
-						</a>
-						<a href="#Outdoor" data-type="tab2" class="btn btn-style3 px-3 text-muted m-1">
-							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์กลางแจ้ง
-						</a>
-						<a href="#Virtual" data-type="tab3" class="btn btn-style3 px-3 text-muted m-1">
-							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
-							พิพิธภัณฑ์เสมือนจริง
-						</a>
+					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showid="data-Calendar">
+						<div class="owl-carousel">
+							<!-- <a href="#" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</a> -->
+							<a href="#Indoor" data-type="tab1" class="btn btn-style3 px-3 text-muted">
+								<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์ในอาคาร
+							</a>
+							<a href="#Outdoor" data-type="tab2" class="btn btn-style3 px-3 text-muted">
+								<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์กลางแจ้ง
+							</a>
+							<a href="#Virtual" data-type="tab3" class="btn btn-style3 px-3 text-muted">
+								<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+								พิพิธภัณฑ์เสมือนจริง
+							</a>
+						</div>
 					</div>
 				</div>
 

@@ -72,7 +72,7 @@
 							</div>
 							<div class="-button">
 								<a href="#" class="d-flex text-secondary mb-2">
-									<img src="../../public/images/icon-i.png" style="width:20px;" class="mr-2 mb-auto" alt="">
+									<img src="../../public/images/icon-I.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ข้อมูลรายวิชา</u></h6>
 								</a>
 								<a href="#" class="d-flex text-secondary mb-2">
@@ -104,7 +104,7 @@
 							</div>
 							<div class="-button">
 								<a href="#" class="d-flex text-secondary mb-2">
-									<img src="../../public/images/icon-i.png" style="width:20px;" class="mr-2 mb-auto" alt="">
+									<img src="../../public/images/icon-I.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ข้อมูลรายวิชา</u></h6>
 								</a>
 								<a href="#" class="d-flex text-secondary mb-2">

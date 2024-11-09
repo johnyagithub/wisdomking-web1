@@ -61,12 +61,12 @@
 				</div>
 
 				<div class="table-responsive">
-					<table class="table table-striped text-center">
+					<table class="table table-striped text-center" style="min-width: 1000px;">
 						<thead>
 							<tr>
 								<th class="text-left">งานวิจัย</th>
 								<th>งานวิจัย</th>
-								<th style="width: 240px;">งานวิจัย</th>
+								<th>งานวิจัย</th>
 								<th style="width: 110px;">โหลดเอกสาร</th>
 							</tr>
 						</thead>
@@ -205,7 +205,7 @@
 					</div>
 					<div class="row">
 						<div class="col-6 pr-2 pr-sm-3">
-							<a href="#" class="btn btn-outline-light text-left border p-4 text-muted w-100">
+							<a href="#" class="btn btn-outline-light text-left border p-3 p-md-4 text-muted w-100 h-100">
 								<i class="fa fa-angle-left" aria-hidden="true"></i>
 								ย้อนกลับ
 								<br>
@@ -213,7 +213,7 @@
 							</a>
 						</div>
 						<div class="col-6 pl-2 pl-sm-3">
-							<a href="#" class="btn btn-outline-light border p-4 text-right text-muted w-100">
+							<a href="#" class="btn btn-outline-light border p-3 p-md-4 text-right text-muted w-100 h-100">
 								ต่อไป
 								<i class="fa fa-angle-right" aria-hidden="true"></i>
 								<br>
