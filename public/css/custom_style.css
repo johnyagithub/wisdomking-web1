@@ -861,8 +861,8 @@ div#navbarMain li.nav-item:not(.active) a.nav-link:not(:hover) {
  color: #000000;
 }
 div#navbarMain li.nav-item a.nav-link {
- padding-right: 10px;
- padding-left: 10px;
+ padding-right: 9px;
+ padding-left: 9px;
  font-size: 0.875em;
  font-size: 14px;
  font-weight: 400;
@@ -1774,12 +1774,15 @@ ul.ul-style {
         pointer-events: none;
       }
       @supports (-webkit-appearance: none) and (color: -apple-system-control-background) {
-        #museum-map .list-region svg g:not(.-province) {
-          
+        body #museum-map .-province {
+          opacity: 1 !important;
         }
-        #museum-map .list-region svg {
-          mix-blend-mode: exclusion;
-          opacity: 0.5;
+        #museum-map .list-region svg g:not(.-province) {
+          mix-blend-mode: screen;
+          opacity: 1;
+        }
+        #museum-map .list-region svg+img {
+          opacity: 0.4;
         }
       }
 

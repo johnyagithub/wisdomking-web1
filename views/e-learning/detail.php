@@ -25,10 +25,10 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="#">e-Learning</a>
+					<a href="../e-learning/">e-Learning</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="#">คอร์สทั้งหมด</a>
+					<a href="../e-learning/list.php?param=tab1">องค์ความรู้วิชาของแผ่นดิน</a>
 				</li>
 				<li class="breadcrumb-item active" aria-current="page">องค์ความรู้วิชาของแผ่นดิน : วนเกษตร คืออะไร</li>
 			</ol>

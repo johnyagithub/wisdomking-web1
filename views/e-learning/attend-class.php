@@ -25,10 +25,10 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="#">e-Learning</a>
+					<a href="../e-learning/">e-Learning</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="#">คอร์สทั้งหมด</a>
+					<a href="../e-learning/list.php">คอร์สทั้งหมด</a>
 				</li>
 				<li class="breadcrumb-item active" aria-current="page">เข้าเรียน</li>
 			</ol>
