@@ -123,20 +123,18 @@
 					<h3 class="head mb-4">สื่อการเรียนรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-							<div class="owl-carousel">
-								<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
-									role="tab" aria-controls="nav1" aria-selected="true">
-									ทั้งหมด
-								</button>
-								<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button" role="tab"
-									aria-controls="nav2" aria-selected="false">
-									ภาพยนตร์แอนิเมชั่น 3 มิติ
-								</button>
-								<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button" role="tab"
-									aria-controls="nav3" aria-selected="false">
-									วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ
-								</button>
-							</div>
+							<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
+								role="tab" aria-controls="nav1" aria-selected="true">
+								ทั้งหมด
+							</button>
+							<button class="nav-link" id="nav2-tab" data-toggle="tab" data-target="#nav2" type="button" role="tab"
+								aria-controls="nav2" aria-selected="false">
+								ภาพยนตร์แอนิเมชั่น 3 มิติ
+							</button>
+							<button class="nav-link" id="nav3-tab" data-toggle="tab" data-target="#nav3" type="button" role="tab"
+								aria-controls="nav3" aria-selected="false">
+								วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ
+							</button>
 						</div>
 					</div>
 				</div>

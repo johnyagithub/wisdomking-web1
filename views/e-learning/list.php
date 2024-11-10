@@ -33,7 +33,7 @@
 
 		<section class="box-courses py-4">
 			<div class="container">
-				<div class="d-flex flex-wrap align-items-start">
+				<div class="-sticky d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">คอร์สทั้งหมด</h3>
 					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
 						<div class="owl-carousel">
