@@ -98,19 +98,20 @@
 					<div class="tab-pane fade" id="nav-Human" role="tabpanel" aria-labelledby="nav-Human-tab">
 						<h4 class="head mb-4 text-center">การบริหารทรัพยากรบุคคล</h4>
 						<img src="https://placehold.co/1000x1450" class="mw-100 mx-auto d-block rounded my-3" alt="">
-						<br>
-						<div class="list-download">
-							<div class="list">
-								<h6>นโยบายการบริหารทรัพยากรบุคคล 2566</h6>
-								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-							</div>
-							<div class="list">
-								<h6>นโยบายการบริหารทรัพยากรบุคคล 2565</h6>
-								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-							</div>
-							<div class="list">
-								<h6>นโยบายการบริหารทรัพยากรบุคคล 2564</h6>
-								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						<div class="mx-auto" style="max-width: 800px;">
+							<div class="list-download">
+								<div class="list">
+									<h6>นโยบายการบริหารทรัพยากรบุคคล 2566</h6>
+									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+								</div>
+								<div class="list">
+									<h6>นโยบายการบริหารทรัพยากรบุคคล 2565</h6>
+									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+								</div>
+								<div class="list">
+									<h6>นโยบายการบริหารทรัพยากรบุคคล 2564</h6>
+									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -123,7 +124,8 @@
 						<img src="https://placehold.co/1200x550" class="mw-100 mx-auto d-block rounded my-3" alt="">
 						<br>
 						<div class="--detail">
-							<h5 class="text-center">ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน) เรื่อง นโยบายต่อต้านการให้สินบนเพื่อป้องกันการทุจริตและประพฤติมิชอบ</h5>
+							<h5 class="text-center">ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
+								(องค์การมหาชน) เรื่อง นโยบายต่อต้านการให้สินบนเพื่อป้องกันการทุจริตและประพฤติมิชอบ</h5>
 							<p>เพื่อให้การดำเนินงานของสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จ พระเจ้าอยู่หัว (องค์การมหาชน)
 								เป็นไปตามเจตจำนงสุจริตตามแนวนโยบายของผู้บริหาร ในด้านความโปร่งใส สามารถตรวจสอบได้
 								โดยความคำนึงถึงความต้องการ ความคาดหวัง ตลอดจนการมีส่วนร่วมของผู้มีส่วนได้ ส่วนเสีย ดังนี้</p>
@@ -151,7 +153,8 @@
 						<img src="https://placehold.co/1200x550" class="mw-100 mx-auto d-block rounded my-3" alt="">
 						<br>
 						<div class="--detail">
-							<h5 class="text-center">ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน) เรื่อง
+							<h5 class="text-center">ประกาศสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
+								(องค์การมหาชน) เรื่อง
 								มาตรการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</h5>
 							<p>ด้วยการจัดหาพัสดุเป็นกระบวนการที่มีความสําคัญที่มีส่วนช่วยหรือสนับสนุนการดําเนินงาน
 								ของสํานักงานพิพิธภัณฑ์เกษตร
@@ -176,10 +179,12 @@
 							<p class="text-right"><b>ประกาศ ณ วันที่ 7 มกราคม พ.ศ. 2562</b><br>(นายสหภูมิ ภูมิธฤตรัฐ)
 								ผู้อํานวยการสํานักงานพิพิธภัณฑ์เกษตร เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว</p>
 						</div>
-						<div class="list-download">
-							<div class="list">
-								<h6>มาตราการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</h6>
-								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						<div class="mx-auto" style="max-width: 800px;">
+							<div class="list-download mt-0">
+								<div class="list">
+									<h6>มาตราการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</h6>
+									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+								</div>
 							</div>
 						</div>
 					</div>

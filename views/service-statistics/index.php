@@ -44,7 +44,7 @@
 					<h4 class="head mb-4 text-center">สถิติการให้บริการเข้าชม</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-					<div class="row justify-content-center">
+					<div class="row justify-content-center my-4">
 						<div class="col-sm-9 col-md-8 col-lg-6">
 							<div class="form-group">
 								<label>ปีสถิติการให้บริการเข้าชม</label>
@@ -58,89 +58,193 @@
 						</div>
 					</div>
 					<h5 class="text-center">สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2567</h5>
-					<p class="text-center text-secondary">พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)</p>
+					<p class="text-center text-secondary">พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
+						(องค์การมหาชน)</p>
 				</div>
 				<div class="--detail">
-					<div class="table-responsive mb-3" style="box-shadow:none;">
-						<div class="bg-gradient text-center text-white p-3 h5 mb-0">อัตราค่าเข้าชม (Ticket)
-							พิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</div>
+					<div class="table-responsive2" style="box-shadow:none;">
 						<table class="table table-striped2 text-center">
 							<thead>
 								<tr>
-									<th class="text-left" rowspan="2">พิพิธภัณฑ์/อัตราค่าเข้าชม (บาท/คน)</th>
-									<th colspan="2">คนไทย</th>
-									<th colspan="2">Foreigner</th>
-								</tr>
-								<tr class="bg-light-blue">
-									<th>เด็ก</th>
-									<th>ผู้ใหญ่</th>
-									<th>Child</th>
-									<th>Adult</th>
+									<th>เดือน/ปี</th>
+									<th>จำนวนผู้เข้าชม Onsite (ราย)</th>
+									<th>จำนวนผู้เข้าชม Online (ราย)</th>
+									<th>จำนวนผู้เข้าชมรวม (ราย)</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-left">พิพิธภัณฑ์ในหลวงรักเรา</td>
-									<td>30</td>
-									<td>50</td>
-									<td>50</td>
-									<td>100</td>
+									<td>ตุลาคม 2566</td>
+									<td>38,417</td>
+									<td>15,783</td>
+									<td>54,200</td>
 								</tr>
 								<tr>
-									<td class="text-left">พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</td>
-									<td>20</td>
-									<td>40</td>
-									<td>50</td>
-									<td>100</td>
+									<td>พฤศจิกายน 2566</td>
+									<td>32,443</td>
+									<td>6,262</td>
+									<td>38,705</td>
 								</tr>
 								<tr>
-									<td class="text-left">พิพิธภัณฑ์ป่าดงพงไพร</td>
-									<td>20</td>
-									<td>40</td>
-									<td>50</td>
-									<td>100</td>
+									<td>ธันวาคม 2566</td>
+									<td>59,473</td>
+									<td>21,335</td>
+									<td>80,808</td>
 								</tr>
 								<tr>
-									<td class="text-left">พิพิธภัณฑ์ วิถีน้ำ</td>
-									<td>30</td>
-									<td>50</td>
-									<td>50</td>
-									<td>100</td>
+									<td>มกราคม 2567</td>
+									<td>28,083</td>
+									<td>7,763</td>
+									<td>35,891</td>
 								</tr>
 								<tr>
-									<td class="text-left">พิพิธภัณฑ์ ดินดล</td>
-									<td>30</td>
-									<td>50</td>
-									<td>50</td>
-									<td>100</td>
+									<td>กุมภาพันธ์ 2567</td>
+									<td>18,792</td>
+									<td>12,099</td>
+									<td>30,891</td>
 								</tr>
 								<tr>
-									<td class="text-left">พิพิธภัณฑ์เกษตรเศรษฐกิจ</td>
-									<td>30</td>
-									<td>50</td>
-									<td>-</td>
-									<td>-</td>
+									<td>มีนาคม 2567</td>
+									<td>13,234</td>
+									<td>7,147</td>
+									<td>20,381</td>
+								</tr>
+								<tr>
+									<td>เมษายน 2567</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>พฤษภาคม 2567</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>มิถุนายน 2567</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>กรกฎาคม 2567</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>สิงหาคม 2567</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>กันยายน 2567</td>
+									<td></td>
+									<td></td>
+									<td></td>
 								</tr>
 							</tbody>
+							<tfoot>
+								<tr>
+									<td>รวม</td>
+									<td>190,442</td>
+									<td>70,389</td>
+									<td>260,831</td>
+								</tr>
+							</tfoot>
 						</table>
 					</div>
+					<hr class="my-4">
 
-					<div class="list-download">
-						<div class="list">
-							<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2566</h6>
-							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+					<div class="mx-auto" style="max-width: 800px;">
+						<h5 class="text-center">จำนวนผู้เข้าใช้บริการระบบจองเข้าชมพิพิธภัณฑ์ ประจำปีงบประมาณ พ.ศ. 2567</h5>
+						<p class="text-center">พิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)</p>
+						<div class="table-responsive2" style="box-shadow:none;">
+							<table class="table table-striped2 text-center">
+								<thead>
+									<tr>
+										<th style="width: 200px;">เดือน/ปี</th>
+										<th>จำนวน</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>ตุลาคม 2566</td>
+										<td>519</td>
+									</tr>
+									<tr>
+										<td>พฤศจิกายน 2566</td>
+										<td>623</td>
+									</tr>
+									<tr>
+										<td>ธันวาคม 2566</td>
+										<td>602</td>
+									</tr>
+									<tr>
+										<td>มกราคม 2567</td>
+										<td>633</td>
+									</tr>
+									<tr>
+										<td>กุมภาพันธ์ 2567</td>
+										<td>713</td>
+									</tr>
+									<tr>
+										<td>มีนาคม 2567</td>
+										<td>652</td>
+									</tr>
+									<tr>
+										<td>เมษายน 2567</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>พฤษภาคม 2567</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>มิถุนายน 2567</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>กรกฎาคม 2567</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>สิงหาคม 2567</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>กันยายน 2567</td>
+										<td></td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td>รวม</td>
+										<td>3,742</td>
+									</tr>
+								</tfoot>
+							</table>
 						</div>
-						<div class="list">
-							<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2565</h6>
-							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-						</div>
-						<div class="list">
-							<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2564</h6>
-							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-						</div>
-						<div class="list">
-							<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2563</h6>
-							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+
+						<div class="list-download">
+							<div class="list">
+								<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2566</h6>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							</div>
+							<div class="list">
+								<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2565</h6>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							</div>
+							<div class="list">
+								<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2564</h6>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							</div>
+							<div class="list">
+								<h6>สถิติการให้บริการเข้าชม ประจำปีงบประมาณ พ.ศ. 2563</h6>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							</div>
 						</div>
 					</div>
 

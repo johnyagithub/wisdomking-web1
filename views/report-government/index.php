@@ -26,7 +26,8 @@
 				<li class="breadcrumb-item">
 					<a href="#">เกี่ยวกับเรา</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</li>
+				<li class="breadcrumb-item active" aria-current="page">
+					รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</li>
 			</ol>
 		</nav>
 
@@ -34,21 +35,23 @@
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</h4>
-					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
-
-				<div class="list-download">
-					<div class="list">
-						<h6>รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ ปี 2563</h6>
-						<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-					</div>
-					<div class="list">
-						<h6>รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ ปี 2562</h6>
-						<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-					</div>
-					<div class="list">
-						<h6>รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ ปี 2561</h6>
-						<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+				<div class="mx-auto" style="max-width: 800px;">
+					<div class="list-download">
+						<div class="list">
+							<h6>รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ ปี 2563</h6>
+							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						</div>
+						<div class="list">
+							<h6>รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ ปี 2562</h6>
+							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						</div>
+						<div class="list">
+							<h6>รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ ปี 2561</h6>
+							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						</div>
 					</div>
 				</div>
 

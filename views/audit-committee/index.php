@@ -185,10 +185,12 @@
 							</div>
 
 						</div>
-						<div class="list-download">
-							<div class="list">
-								<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 2/2565 เรื่อง แต่งตั้งคณะกรรมการตรวจสอบ</h6>
-								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						<div class="mx-auto" style="max-width: 800px;">
+							<div class="list-download">
+								<div class="list">
+									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 2/2565 เรื่อง แต่งตั้งคณะกรรมการตรวจสอบ</h6>
+									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -290,19 +292,22 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 6/2563 เรื่อง แต่งตั้งคณะอนุกรรมการประเมินผู้อำนวยการ</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 9/2564 เรื่อง
-										แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการประเมินผู้อำนวยการ</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 12/2564 แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการประเมินผู้อำนวยการ</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 6/2563 เรื่อง แต่งตั้งคณะอนุกรรมการประเมินผู้อำนวยการ</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 9/2564 เรื่อง
+											แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการประเมินผู้อำนวยการ</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 12/2564 แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการประเมินผู้อำนวยการ
+										</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -480,25 +485,27 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 11/2563 เรื่อง แต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 6/2564 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย
-									</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 1/2565 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย
-										(ฉบับที่ 2)</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 1/2565 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย
-										(ฉบับที่ 3)</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 11/2563 เรื่อง แต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 6/2564 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย
+										</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 1/2565 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย
+											(ฉบับที่ 2)</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 1/2565 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการพัฒนางานวิจัย
+											(ฉบับที่ 3)</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -657,21 +664,23 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 4/2563 เรื่อง แต่งตั้งคณะอนุกรรมการขับเคลื่อนนโยบายและการดำเนินงานของ
-										พกฉ.</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 8/2564 เรื่อง
-										แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการขับเคลื่อนนโยบายและการดำเนินงานของ พกฉ.</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 1/2566 เรื่อง
-										แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการขับเคลื่อนนโยบายและการดำเนินงานของ พกฉ. (ฉบับที่ 2)</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 4/2563 เรื่อง แต่งตั้งคณะอนุกรรมการขับเคลื่อนนโยบายและการดำเนินงานของ
+											พกฉ.</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 8/2564 เรื่อง
+											แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการขับเคลื่อนนโยบายและการดำเนินงานของ พกฉ.</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 1/2566 เรื่อง
+											แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการขับเคลื่อนนโยบายและการดำเนินงานของ พกฉ. (ฉบับที่ 2)</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -851,10 +860,12 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 4/2564 เรื่อง แต่งตั้งคณะอนุกรรมการบริหารงานบุคคล</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 4/2564 เรื่อง แต่งตั้งคณะอนุกรรมการบริหารงานบุคคล</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1055,22 +1066,25 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 2/2563 เรื่อง แต่งตั้งคณะอนุกรรมการด้านกฎหมาย</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 7/2564 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการด้านกฎหมาย</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 11/2564 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการด้านกฎหมาย</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 3/2566 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการด้านกฎหมาย</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 2/2563 เรื่อง แต่งตั้งคณะอนุกรรมการด้านกฎหมาย</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 7/2564 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการด้านกฎหมาย</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 11/2564 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการด้านกฎหมาย
+										</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่งคณะกรรมการ พกฉ. ที่ 3/2566 เรื่อง แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะอนุกรรมการด้านกฎหมาย</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1173,11 +1187,13 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่ง พกฉ. ที่ 24/2564 เรื่อง
-										แต่งตั้งคณะทำงานให้คำแนะนำและช่วยปฏิบัติงานด้านการตรวจสอบภายในและการบริหารความเสี่ยง</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่ง พกฉ. ที่ 24/2564 เรื่อง
+											แต่งตั้งคณะทำงานให้คำแนะนำและช่วยปฏิบัติงานด้านการตรวจสอบภายในและการบริหารความเสี่ยง</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1294,15 +1310,17 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่ง พกฉ. ที่ 23/2564 เรื่อง แต่งตั้งคณะทำงานกลั่นกรองระเบียบ ข้อบังคับ</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่ง พกฉ. ที่ 70/2564 แก้ไขเพิ่มเติม คำสั่ง พกฉ. เรื่อง
-										แต่งตั้งคณะทำงานกลั่นกรองระเบียบข้อบังคับ</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่ง พกฉ. ที่ 23/2564 เรื่อง แต่งตั้งคณะทำงานกลั่นกรองระเบียบ ข้อบังคับ</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่ง พกฉ. ที่ 70/2564 แก้ไขเพิ่มเติม คำสั่ง พกฉ. เรื่อง
+											แต่งตั้งคณะทำงานกลั่นกรองระเบียบข้อบังคับ</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1528,18 +1546,20 @@
 								</div>
 
 							</div>
-							<div class="list-download">
-								<div class="list">
-									<h6>คำสั่ง พกฉ. ที่ 60/2566 แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะทำงานบริหารงานวิจัย พกฉ (ฉบับที่ 2)</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่ง พกฉ. ที่ 66/2564 คำสั่งแต่งตั้งคณะทำงานบริหารงานวิจัย พกฉ</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
-								</div>
-								<div class="list">
-									<h6>คำสั่ง พกฉ. ที่ 79/2564 แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะทำงานบริหารงานวิจัย พกฉ.</h6>
-									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							<div class="mx-auto" style="max-width: 800px;">
+								<div class="list-download">
+									<div class="list">
+										<h6>คำสั่ง พกฉ. ที่ 60/2566 แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะทำงานบริหารงานวิจัย พกฉ (ฉบับที่ 2)</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่ง พกฉ. ที่ 66/2564 คำสั่งแต่งตั้งคณะทำงานบริหารงานวิจัย พกฉ</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
+									<div class="list">
+										<h6>คำสั่ง พกฉ. ที่ 79/2564 แก้ไขเพิ่มเติมคำสั่งแต่งตั้งคณะทำงานบริหารงานวิจัย พกฉ.</h6>
+										<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+									</div>
 								</div>
 							</div>
 						</div>

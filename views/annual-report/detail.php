@@ -64,10 +64,12 @@
 						</div>
 					</div>
 
-					<div class="list-download">
-						<div class="list">
-							<h6>รายงานประจำปี ๒๕๖๖</h6>
-							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+					<div class="mx-auto" style="max-width: 800px;">
+						<div class="list-download">
+							<div class="list">
+								<h6>รายงานประจำปี ๒๕๖๖</h6>
+								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+							</div>
 						</div>
 					</div>
 
@@ -139,7 +141,8 @@
 				</div>
 				<div class="tab-content py-4">
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
-						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
@@ -193,7 +196,8 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
-						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
@@ -211,7 +215,8 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
-						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">

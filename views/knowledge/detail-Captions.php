@@ -96,8 +96,9 @@
 							ซึ่งมะพร้าวที่ส่งออกมีหลายรูปแบบ แต่ มะพร้าวที่แพงที่สุดคือมะพร้าวลูกสีเขียว เพราะผิวของ
 							ลูกมะพร้าวจะมีความเนียนสวย ไม่มีตำหนิ</p>
 					</div>
-
-					<div class="list-download">
+				</div>
+				<div class="mx-auto" style="max-width: 800px;">
+					<div class="list-download mt-0">
 						<div class="list">
 							<h6>ฮอร์โมนสูตรเร่ง ดอก ผล</h6>
 							<a class="btn btn-style" href="#" download="">ดาวน์โหลด</a>

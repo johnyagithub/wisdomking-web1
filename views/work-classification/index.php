@@ -43,15 +43,15 @@
 				<img
 					src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/771-0.78241100%201694076424-froalaeditor.jpg"
 					class="mw-100 mx-auto d-block rounded my-3" alt="">
-				<div class="--detail">
-
-					<div class="list-download mt-5">
+				<div class="mx-auto" style="max-width: 800px;">
+					<div class="list-download">
 						<div class="list">
 							<h6>ขอบเขตุหน้าที่ของส่วนงาน</h6>
 							<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 						</div>
 					</div>
-
+				</div>
+				<div class="--detail">
 					<div class="py-4 border-top mt-4">
 						Share this:
 						<div class="d-flex flex-wrap my-3">

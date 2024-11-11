@@ -144,6 +144,8 @@
 								สังกัด ภาควิชาพืชไร่นา คณะเกษตร มหาวิทยาลัยเกษตรศาสตร์. Power Point.</p>
 						</div>
 
+					</div>
+					<div class="mx-auto" style="max-width: 800px;">
 						<div class="list-download">
 							<div class="list">
 								<h6>สารพันปัญหามะพร้าวไทย</h6>

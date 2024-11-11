@@ -77,7 +77,7 @@
 					</ol>
 				</div>
 				<div class="--detail">
-					<div class="table-responsive mb-3" style="box-shadow:none;">
+					<div class="table-responsive2" style="box-shadow:none;">
 						<div class="bg-gradient text-center text-white p-3 h5 mb-0">อัตราค่าเข้าชม (Ticket)
 							พิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ</div>
 						<table class="table table-striped2 text-center">

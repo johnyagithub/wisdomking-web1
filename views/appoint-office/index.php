@@ -57,19 +57,23 @@
 							เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว รวม 6 คน ตามที่รัฐมนตรีว่าการกระทรวงเกษตร และสหกรณ์เสนอ ดังนี้
 						</p>
 
-						<div class="list-download">
-							<div class="list">
-								<h6>ประกาศแต่งตั้ง</h6>
-								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						<div class="mx-auto" style="max-width: 800px;">
+							<div class="list-download">
+								<div class="list">
+									<h6>ประกาศแต่งตั้ง</h6>
+									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+								</div>
 							</div>
 						</div>
 						<p>
 							เรื่องแต่งตั้งกรรมการผู้ทรงคุณวุฒิในคณะกรรมการสํานักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัววันที่
 							27 กรกฎาคม 2564</p>
-						<div class="list-download">
-							<div class="list">
-								<h6>ประกาศแต่งตั้ง</h6>
-								<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+						<div class="mx-auto" style="max-width: 800px;">
+							<div class="list-download">
+								<div class="list">
+									<h6>ประกาศแต่งตั้ง</h6>
+									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -155,7 +159,7 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">ปลัดกระทรวงเกษตรและสหกรณ์
-กรรมการโดยตำแหน่ง</h5>
+								กรรมการโดยตำแหน่ง</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -176,8 +180,8 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">ปลัดกระทรวงวัฒนธรรม 
-กรรมการโดยตำแหน่ง</h5>
+							<h5 class="--position text-primary">ปลัดกระทรวงวัฒนธรรม
+								กรรมการโดยตำแหน่ง</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -198,8 +202,8 @@
 							<img src="https://placehold.co/198x280" alt="">
 						</div>
 						<div class="text">
-							<h5 class="--position text-primary">ปลัดกระทรวงศึกษาธิการ 
-กรรมการโดยตำแหน่ง</h5>
+							<h5 class="--position text-primary">ปลัดกระทรวงศึกษาธิการ
+								กรรมการโดยตำแหน่ง</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -221,7 +225,7 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านประวัติศาสตร์เกี่ยวกับ
-สถาบันพระมหากษัตริย์)</h5>
+								สถาบันพระมหากษัตริย์)</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -243,7 +247,7 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการเกษตร)
-</h5>
+							</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -265,7 +269,7 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการบริหารจัดการ)
-</h5>
+							</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -287,7 +291,7 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการวิจัยและกระบวน
-การเรียนรู้)</h5>
+								การเรียนรู้)</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -309,7 +313,7 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">กรรมการผู้ทรงคุณวุฒิ (ด้านการพัฒนาชุมชนและ
-เครือข่ายเศรษฐกิจพอเพียง)</h5>
+								เครือข่ายเศรษฐกิจพอเพียง)</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
@@ -331,7 +335,7 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">กรรมการ และเลขานุการ
-</h5>
+							</h5>
 							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
 							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
 							<hr>
