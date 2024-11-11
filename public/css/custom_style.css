@@ -23,6 +23,9 @@
 .text-muted3 {
   color: var( --muted3) !important;
 }
+.bg-muted2 {
+  background-color: var( --muted2) !important;
+}
 .bg-muted3 {
   background-color: var( --muted3) !important;
 }
@@ -148,6 +151,11 @@ body hr {
   border-radius: 9px;
   margin-bottom: 45px;
 }
+.table-responsive2 {
+  border: 1px solid #D7D7D7 !important;
+  border-radius: var(--border_radius) !important;
+  box-shadow: none !important;
+}
   .table-responsive .table.table-striped {
     box-shadow: none;
     margin-bottom: 0px;
@@ -157,6 +165,9 @@ body hr {
     color: var( --secondary);
     box-shadow: 0px 0px 0px 6px #ffffff, 0px 0px 0px 7px #B6B6B6;
     margin-bottom: 45px;
+  }
+  .table-responsive2 .table.table-striped {
+    margin-bottom: 0px;
   }
     .table.table-striped thead {
 
@@ -206,15 +217,35 @@ body hr {
             transform: translateY(-50%);
           }
           .table.table-striped thead tr th:first-child::after ,
-          .table.table-striped tbody tr td:first-child::after {
-              display: none;
+          .table.table-striped tbody tr td:first-child::after ,
+          .table-responsive2 .table.table-striped thead tr th::after ,
+          .table-responsive2 .table.table-striped tbody tr td::after {
+            display: none;
+          }
+          .table-responsive2 .table.table-striped thead tr th ,
+          .table-responsive2 .table.table-striped tbody tr td {
+            border: 1px solid #dee2e6;
+          }
+          .table-responsive2 .table.table-striped thead tr th {
+            border-top: 0px;
+          }
+          .table-responsive2 .table.table-striped thead tr th:first-child ,
+          .table-responsive2 .table.table-striped tbody tr td:first-child {
+            border-left: 0px;
+          }
+          .table-responsive2 .table.table-striped thead tr th:last-child ,
+          .table-responsive2 .table.table-striped tbody tr td:last-child {
+            border-right: 0px;
+          }
+          .table-responsive2 .table.table-striped tbody tr:last-child td {
+            border-bottom: 0px;
           }
 
     .table.table-striped tfoot {
 
     }
       .table.table-striped tfoot tr {
-          background: #E8E8E8;
+          background: var( --muted2);
       }
 
 .table-responsive2 {
@@ -531,7 +562,7 @@ table.table.aiz-table .badge {
   border-radius: 8px;
 }
   .box-thead .-thead {
-    background: #E8E8E8;
+    background: var( --muted2);
     padding: 25px;
     border-bottom: 1px solid #B6B6B6;
   }
@@ -2163,6 +2194,53 @@ ul.ul-style {
         background-image: url(../../public/images/email.png);
       }
 
+.--service {
+  background: url(../images/Logo-no-text.png) no-repeat right bottom;
+  background-size: 215px;
+}
+  .--service .owl-carousel {
+    display: flex !important;
+    flex-flow: wrap;
+    justify-content: end;
+  }
+    .--service .owl-carousel .item {
+
+    }
+      .--service .owl-carousel .item .text {
+        padding: 18px;
+        position: absolute;
+        inset: auto 0 0 0;
+        color: #fff;
+        background: linear-gradient(180deg, rgb(43 203 126 / 48%) 0%, #37A8E2 100%);
+        border-radius: 0 0 var(--border_radius) var(--border_radius);
+        padding-right: 120px;
+      }
+
+    .--service .owl-carousel .owl-stage-outer {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: var(--border_radius);
+      overflow: hidden;
+    }
+    .--service .owl-carousel .owl-nav {
+      bottom: 47px;
+      top: auto;
+      left: auto;
+      width: 88px;
+      right: 20px;
+    }
+      .--service .owl-carousel .owl-nav button {
+        width: 40px;
+      }
+        .--service .owl-carousel .owl-nav button.disabled {
+          opacity: 0.5;
+          pointer-events: none;
+        }
+
+    .--service .owl-carousel .owl-dots {
+      display: none;
+    }
+
 .--detail {
   max-width: 1025px;
   margin: auto;
@@ -2177,14 +2255,14 @@ ul.ul-style {
       margin-bottom: 10px;
     }
 
-  .--detail .tab-content ol ,
-  .--detail .tab-content ul ,
-  .--detail .tab-content p {
+  .--detail .tab-content .tab-pane > ol ,
+  .--detail .tab-content .tab-pane > ul ,
+  .--detail .tab-content .tab-pane > p {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
-  .--detail .tab-content p {
+  .--detail .tab-content .tab-pane > p {
     text-indent: 37px;
   }
   .--detail iframe {
@@ -2784,6 +2862,27 @@ footer {
     margin-right: 0px !important;
     border: 0px !important;
     margin-bottom: 7px;
+  }
+  .--service .owl-carousel {
+    justify-content: center;
+  }
+  .--service .owl-carousel .owl-nav {
+    all: initial;
+    order: 1;
+    display: flex !important;
+    margin-bottom: 10px;
+  }
+  .--service .owl-carousel .owl-nav button {
+    position: inherit;
+    transform: none !important;
+    background-color: #000;
+    background: url(../images/icon-prev.png) no-repeat center;
+    background-size: contain;
+    margin: 0px 5px;
+    width: 40px;
+  }
+  .--service .owl-carousel .owl-nav button.owl-next {
+    background-image: url(../images/icon-next.png);
   }
 
   /* แนวตั้ง */

@@ -84,12 +84,8 @@
                                 href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
                             <a class="dropdown-item" href="../service-statistics/">สถิติการให้บริการเข้าชม</a>
                             <a class="dropdown-item" href="../happy-travel/">กิจกรรมท่องเที่ยวสุขสันต์</a>
-                            <a class="dropdown-item" href="../room-service/">ห้องพัก</a>
-                            <a class="dropdown-item" href="../meeting-room-service/">ห้องประชุม</a>
-                            <a class="dropdown-item" href="../food-and-beverage-service.">อาหารและเครื่องดื่ม</a>
-                            <a class="dropdown-item" href="../food-eat-good/">กิน อยู่ ดี</a>
-                            <a class="dropdown-item" href="../shop/">ร้านจำหน่ายของที่ระลึก</a>
-                            <a class="dropdown-item" href="../madocafe/">MADO CAFE</a>
+                            <a class="dropdown-item" href="../service/">บริการ</a>
+                            <a class="dropdown-item" href="../shop/">ร้าน</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
