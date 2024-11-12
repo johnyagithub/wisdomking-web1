@@ -71,7 +71,7 @@
 					</div>
 					<div class="px-lg-5">
 						<div class="table-responsive" style="box-shadow:none;">
-							<table class="w-100" style="min-width: 700px;">
+							<table class="w-100 mobile-displayGrid" style="min-width: 700px;">
 								<tbody class="align-top">
 									<tr>
 										<td><b>ระยะเวลาเรียนรู้ 2 ชั่วโมง</b></td>

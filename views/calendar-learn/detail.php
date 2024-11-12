@@ -77,7 +77,7 @@
 					</div>
 					<div class="px-lg-5">
 						<div class="table-responsive" style="box-shadow:none;">
-							<table class="w-100">
+							<table class="w-100 mobile-displayGrid">
 								<tbody class="align-top">
 									<tr>
 										<td style="width: 200px;"><b>วันเข้าร่วมกิจกรรม</b></td>
