@@ -32,34 +32,28 @@
 			</ol>
 		</nav>
 
-		<div class="box-back">
-			<div class="container">
-				<a href="javascript:history.back()">
-					<img src="../../public/images/icon-angle-left.png" alt="">
-					ย้อนกลับ
-				</a>
-			</div>
-		</div>
-
 		<section>
-			<div class="container">
-				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
-					<h3 class="head mb-4">ร้าน</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
-							<button class="nav-link active" id="nav-RoomService-tab" data-toggle="tab" data-target="#nav-RoomService"
-								type="button" role="tab" aria-controls="nav-RoomService" aria-selected="true">
-								ห้องพัก
-							</button>
-							<button class="nav-link" id="nav-MeetingRoomService-tab" data-toggle="tab"
-								data-target="#nav-MeetingRoomService" type="button" role="tab" aria-controls="nav-MeetingRoomService"
-								aria-selected="false">
-								ห้องประชุม
-							</button>
-							<button class="nav-link" id="nav-FoodEatGood-tab" data-toggle="tab" data-target="#nav-FoodEatGood"
-								type="button" role="tab" aria-controls="nav-FoodEatGood" aria-selected="false">
-								อาหารและเครื่องดื่ม
-							</button>
+			<div class="-sticky">
+				<div class="container">
+					<div class="d-flex flex-wrap align-items-start mb-4">
+						<h3 class="head mb-4">ร้าน</h3>
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+							<div class="owl-carousel">
+								<button class="nav-link active" id="nav-RoomService-tab" data-toggle="tab"
+									data-target="#nav-RoomService" type="button" role="tab" aria-controls="nav-RoomService"
+									aria-selected="true">
+									ห้องพัก
+								</button>
+								<button class="nav-link" id="nav-MeetingRoomService-tab" data-toggle="tab"
+									data-target="#nav-MeetingRoomService" type="button" role="tab" aria-controls="nav-MeetingRoomService"
+									aria-selected="false">
+									ห้องประชุม
+								</button>
+								<button class="nav-link" id="nav-FoodEatGood-tab" data-toggle="tab" data-target="#nav-FoodEatGood"
+									type="button" role="tab" aria-controls="nav-FoodEatGood" aria-selected="false">
+									อาหารและเครื่องดื่ม
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -422,27 +416,196 @@
 					<div class="container">
 						<div class="--detail">
 							<h4 class="head mb-4 text-center">อาหารและเครื่องดื่ม</h4>
-							<p class="text-center">จำหน่ายกาแฟอินทรีย์ และเครื่องดื่มเพื่อสุขภาพ เปิดบริการ วันอังคาร-วันอาทิตย์ เวลา
-								08.30-16.30 น. ริมถนนพหลโยธิน (กม.46-48) ตรงข้าม โรงพยาบาลการุญเวช นวนคร จ.ปทุมธานี</p>
-							<h6 class="text-center">สอบถามรายละเอียดที่เบอร์โทรศัพท์ 081-567-2806</h6>
-							<div>
+							<p class="text-center">บริการจัดอาหาร อาหารว่างและเครื่องดื่ม เพื่อสุขภาพ สำหรับหมู่คณะ และหน่วยงานต่างๆ
+								ที่เข้าร่วมกิจกรรมกับทางพิพิธภัณฑ์ฯมีหลากหลายราคา หลากหลายเมนูให้เลือก</p>
+							<div class="mt-3">
+								<h5>อาหารจานเดียว</h5>
+								<div class="table-responsive2 mb-2">
+									<table class="table table-striped text-center">
+										<thead>
+											<tr>
+												<th class="text-left">ประเภทอาหารจานเดียว</th>
+												<th>ราคา</th>
+												<th>หมายเหตุ</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="text-left">อาหารเช้า ข้าวต้ม หมู ไก่ ปลา ทะเล ต้มเลือดหมู</td>
+												<td>50 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">อาหารเช้า+ กาแฟ + ขนมปัง</td>
+												<td>80 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">อาหารจานเดียวกับข้าว 1 อย่าง</td>
+												<td>35 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">อาหารจานเดียวกับข้าว 1 อย่าง + ไข่ดาว</td>
+												<td>45 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">อาหารจานเดียวกับข้าว 2 อย่าง</td>
+												<td>50 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 								<div class="row row-p10">
 									<div class="col-md-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
 									<div class="col-md-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
 									<div class="col-md-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
 									<div class="col-md-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
+								</div>
+							</div>
+							<div class="mt-3">
+								<h5>อาหารบุฟเฟต์</h5>
+								<div class="table-responsive2 mb-2">
+									<table class="table table-striped text-center">
+										<thead>
+											<tr>
+												<th class="text-left">ประเภทอาหารบุฟเฟต์</th>
+												<th>ราคา</th>
+												<th>หมายเหตุ</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="text-left">กับข้าว 3 อย่าง</td>
+												<td>100 บาท</td>
+												<td>ต่อ 1 คน (ขั้นต่ำ 30 คน กรณีไม่ถึง 30 คน เหมารวมที่ 30 คน)</td>
+											</tr>
+											<tr>
+												<td class="text-left">กับข้าว 3 อย่าง + ผลไม้หรือขนมหวาน</td>
+												<td>120 บาท</td>
+												<td>ต่อ 1 คน (ขั้นต่ำ 30 คน กรณีไม่ถึง 30 คน เหมารวมที่ 30 คน)</td>
+											</tr>
+											<tr>
+												<td class="text-left">กับข้าว 4 อย่าง + ผลไม้หรือขนมหวาน</td>
+												<td>150 บาท</td>
+												<td>ต่อ 1 คน (ขั้นต่ำ 30 คน กรณีไม่ถึง 30 คน เหมารวมที่ 30 คน)</td>
+											</tr>
+											<tr>
+												<td class="text-left">กับข้าว 5 อย่าง + ผลไม้หรือขนมหวาน</td>
+												<td>180 บาท</td>
+												<td>ต่อ 1 คน (ขั้นต่ำ 30 คน กรณีไม่ถึง 30 คน เหมารวมที่ 30 คน)</td>
+											</tr>
+											<tr>
+												<td class="text-left">กับข้าว 6 อย่าง + ผลไม้หรือขนมหวาน</td>
+												<td>200 บาท</td>
+												<td>ต่อ 1 คน (ขั้นต่ำ 30 คน กรณีไม่ถึง 30 คน เหมารวมที่ 30 คน)</td>
+											</tr>
+											<tr>
+												<td class="text-left">กับข้าว 7 อย่าง + ผลไม้หรือขนมหวาน</td>
+												<td>250 บาท</td>
+												<td>ต่อ 1 คน (ขั้นต่ำ 30 คน กรณีไม่ถึง 30 คน เหมารวมที่ 30 คน)</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="row row-p10">
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="mt-3">
+								<h5>ประเภทอาหารว่างและเครื่องดื่ม</h5>
+								<div class="table-responsive2 mb-2">
+									<table class="table table-striped text-center">
+										<thead>
+											<tr>
+												<th class="text-left">ประเภทอาหารว่างและเครื่องดื่ม</th>
+												<th>ราคา</th>
+												<th>หมายเหตุ</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="text-left">ขนมไทย + น้ำสมุนไพร</td>
+												<td>35 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">ขนมไทย + ชา, กาแฟ, โอวัลติน</td>
+												<td>40 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">เบเกอรี่ + ชา, กาแฟ, โอวัลติน</td>
+												<td>50 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">เครื่องดื่ม (น้ำสมุนไพร)</td>
+												<td>10 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+											<tr>
+												<td class="text-left">SNACK BOX</td>
+												<td>50 บาท</td>
+												<td>ต่อ 1 คน</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="row row-p10">
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+									<div class="col-md-6">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-2" alt="">
+									</div>
+								</div>
+								<div style="background: #F7F7F7;" class="rounded p-3 px-lg-5 mt-3">
+									<h6>หมายเหตุ :</h6>
+									<ol class="mb-0">
+										<li>อาหารประเภทบุฟเฟ่ต์ ลูกค้าสามารถเลือกเป็นผลไม้ตามฤดูกาล หรือขนมหวานได้ 1 อย่าง</li>
+										<li>ถ้าลูกค้าต้องการให้นำอาหารขึ้นโต๊ะ สำหรับแขก VIP กรุณาแจ้งล่วงหน้า</li>
+										<li>ราคาอัตราค่าอาหารอาจมีการเปลี่ยนแปลงตามความเหมาะสม</li>
+									</ol>
 								</div>
 							</div>
 						</div>

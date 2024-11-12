@@ -46,12 +46,10 @@
 
 				<div class="box-navTabs ml-auto d-flex flex-wrap justify-content-center mb-4" data-showId="data-Courses">
 					<button type="button" class="btn btn-style3 px-3 mx-1 text-muted active">ทั้งหมด</button>
-					<button type="button" data-type="tab1" class="btn btn-style3 px-3 mx-1 text-muted"
-						onClick="$('[href=\'#--text\']').click()">
+					<button type="button" data-type="tab1" class="btn btn-style3 px-3 mx-1 text-muted">
 						บุคคล
 					</button>
-					<button type="button" data-type="tab2" class="btn btn-style3 px-3 mx-1 text-muted"
-						onClick="$('[href=\'#--text\']').click()">
+					<button type="button" data-type="tab2" class="btn btn-style3 px-3 mx-1 text-muted">
 						ศูนย์การเรียนรู้
 					</button>
 				</div>
@@ -94,7 +92,7 @@
 					<div class="col-lg-5 pr-lg-4 mb-4">
 						<div id="museum-map">
 							<?php include('inc-map.php'); ?>
-							<img src="../../public/images/map-museum/map.svg" alt="">
+							<img src="../../public/images/map-museum/map.svg" style="height: 550px;" alt="">
 
 							<div id="r1" class="list-region">
 								<h4 class="text-primary">ภาคเหนือ</h4>
@@ -359,6 +357,7 @@
 			console.log('Selected:', selectedValue);
 			if (selectedValue !== "") {
 				$('#museum-map .-region[data-region=' + selectedValue + ']').click();
+				$('#selectProvince').val(null).trigger('change');
 			} else {
 				$('#regionHome').click();
 			}

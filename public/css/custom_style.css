@@ -1818,7 +1818,7 @@ ul.ul-style {
     z-index: 5;
     transition: .5s;
     background: #E5FDC3;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1867,7 +1867,8 @@ ul.ul-style {
           opacity: 1;
         }
         #museum-map .list-region svg+img {
-          opacity: 0.4;
+          opacity: 0.5;
+          mix-blend-mode: darken;
         }
       }
 
@@ -1911,13 +1912,16 @@ ul.ul-style {
     #museum-map svg {
       position: absolute;
       z-index: 1;
+      max-width: 100%;
+      max-height: 100%;
+      /* padding: 20px; */
     }
       #museum-map .-region ,
       #museum-map .-province {
         transition: .5s;
         opacity: 0;
         cursor: pointer;
-        filter:  drop-shadow(1px 1px 0px rgb(255, 255, 255)) drop-shadow(-1px -1px 0px rgb(255, 255, 255))  drop-shadow(1px -1px 0px rgb(255, 255, 255)) drop-shadow(-1px 1px 0px rgb(255, 255, 255)) drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+        /* filter:  drop-shadow(1px 1px 0px rgb(255, 255, 255)) drop-shadow(-1px -1px 0px rgb(255, 255, 255))  drop-shadow(1px -1px 0px rgb(255, 255, 255)) drop-shadow(-1px 1px 0px rgb(255, 255, 255)) drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4)); */
       }
       #museum-map .-province:not(.have) {
         opacity: 1 !important;

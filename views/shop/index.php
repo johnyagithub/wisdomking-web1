@@ -30,15 +30,6 @@
 			</ol>
 		</nav>
 
-		<div class="box-back">
-			<div class="container">
-				<a href="javascript:history.back()">
-					<img src="../../public/images/icon-angle-left.png" alt="">
-					ย้อนกลับ
-				</a>
-			</div>
-		</div>
-
 		<section class="pb-4">
 			<div class="container">
 				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
