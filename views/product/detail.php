@@ -4,6 +4,8 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
+	<link rel="stylesheet" type="text/css" href="../../plugins/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="../../plugins/slick/slick-theme.css" />
 
 </head>
 
@@ -42,55 +44,79 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="--detail">
-					<h class="row mb-4 mt-5">
-						<div class="col-lg-6">fgh</div>
+					<h class="row mb-4 mt-4 mt-lg-5">
+						<div class="col-lg-6">
+							<div class="gallery-container">
+								<ul id="slider">
+									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+1" alt=""></li>
+									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+2" alt=""></li>
+									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+3" alt=""></li>
+									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+4" alt=""></li>
+								</ul>
+								<ul id="thumbnail_slider">
+									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+1" alt=""></li>
+									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+2" alt=""></li>
+									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+3" alt=""></li>
+									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+4" alt=""></li>
+								</ul>
+							</div>
+						</div>
 						<div class="col-lg-6 text-secondary">
-							<h4 class="text-dark">เสื้อม่อฮ่อม</h4>
-							<p>เสื้อม่อฮ่อม แขนยาว "วิชาของแผ่นดิน www.wisdomking.or.th" </p>
-							<table>
-								<tr>
-									<td>Size S</td>
-									<td style="width: 15px;text-align: center;">:</td>
-									<td>อก 40"</td>
-								</tr>
-								<tr>
-									<td>Size M</td>
-									<td style="width: 15px;text-align: center;">:</td>
-									<td>อก 42"</td>
-								</tr>
-								<tr>
-									<td>Size L</td>
-									<td style="width: 15px;text-align: center;">:</td>
-									<td>อก 44"</td>
-								</tr>
-								<tr>
-									<td>Size XL</td>
-									<td style="width: 15px;text-align: center;">:</td>
-									<td>อก 46"</td>
-								</tr>
-							</table>
-							<h4 class="text-gradient my-3">฿ 250</h4>
-							<hr class="my-4">
-							<form action="#" class="bg-muted3 p-4">
-								<div class="mb-3 d-flex align-items-center">
-									ขนาด :
-									<div class="toggle-radio mr-auto">
-										<input type="radio" name="size" id="Option1" value="S">
-										<label for="Option1">S</label>
-
-										<input type="radio" name="size" id="Option2" value="M">
-										<label for="Option2">M</label>
-
-										<input type="radio" name="size" id="Option3" value="L">
-										<label for="Option3">L</label>
-
-										<input type="radio" name="size" id="Option4" value="XL">
-										<label for="Option4">XL</label>
-									</div>
-									<input type="number" name="number" class="number-Customize" value="1" min="1" max="5" />
+							<div class="row">
+								<div class="col-md-6 col-lg-12">
+									<h4 class="text-dark">เสื้อม่อฮ่อม</h4>
+									<p>เสื้อม่อฮ่อม แขนยาว "วิชาของแผ่นดิน www.wisdomking.or.th" </p>
+									<table>
+										<tr>
+											<td>Size S</td>
+											<td style="width: 15px;text-align: center;">:</td>
+											<td>อก 40"</td>
+										</tr>
+										<tr>
+											<td>Size M</td>
+											<td style="width: 15px;text-align: center;">:</td>
+											<td>อก 42"</td>
+										</tr>
+										<tr>
+											<td>Size L</td>
+											<td style="width: 15px;text-align: center;">:</td>
+											<td>อก 44"</td>
+										</tr>
+										<tr>
+											<td>Size XL</td>
+											<td style="width: 15px;text-align: center;">:</td>
+											<td>อก 46"</td>
+										</tr>
+									</table>
+									<h4 class="text-gradient my-3">฿ 250</h4>
+									<hr class="my-4">
 								</div>
-								<button type="submit" class="btn btn-style4 w-100" style="border: 8px solid #e5f2ff;box-shadow: none;">สนใจสินค้า</button>
-							</form>
+								<div class="col-md-6 col-lg-12">
+									<form action="#" class="bg-muted3 p-4 pt-3">
+										<div class="mb-3 d-xl-flex flex-wrap align-items-center">
+											<div class="toggle-radio flex-wrap mr-auto">
+												<div class="mr-3">ขนาด :</div>
+
+												<input type="radio" name="size" id="Option1" value="S">
+												<label for="Option1">S</label>
+
+												<input type="radio" name="size" id="Option2" value="M">
+												<label for="Option2">M</label>
+
+												<input type="radio" name="size" id="Option3" value="L">
+												<label for="Option3">L</label>
+
+												<input type="radio" name="size" id="Option4" value="XL">
+												<label for="Option4">XL</label>
+											</div>
+											<input type="number" name="number" class="number-Customize" value="1" min="1" max="5" />
+										</div>
+										<button type="submit" class="btn btn-style4 w-100"
+											style="border: 8px solid #e5f2ff;box-shadow: none;">สนใจสินค้า</button>
+									</form>
+								</div>
+							</div>
+
 						</div>
 					</h>
 
@@ -203,6 +229,53 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<script type="text/javascript" src="../../plugins/slick/slick.min.js"></script>
+	<script>
+		$(function () {
+			slideProduct();
+		});
+		let slideProduct = () => {
+			$("#slider").slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				autoplay: true,
+				speed: 1000,
+				arrows: false,
+				asNavFor: "#thumbnail_slider"
+			});
+			$("#thumbnail_slider").slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				speed: 1000,
+				asNavFor: "#slider",
+				focusOnSelect: true,
+				centerPadding: '60px',
+				verticalSwiping: true,
+				swipeToSlide: true,
+				responsive: [
+					{
+						breakpoint: 1024,
+						settings: {
+							vertical: true,
+						}
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							vertical: true,
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							vertical: false,
+						}
+					}
+				]
+			});
+		}
+	</script>
+
 </body>
 
 </html>

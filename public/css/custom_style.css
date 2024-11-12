@@ -641,7 +641,8 @@ input[type=radio] {
 }
 
 .toggle-radio {
-  margin: 0px 22px;
+  display: flex;
+  align-items: center;
 }
   .toggle-radio > input + label {
     padding:5px 10px;
@@ -673,6 +674,7 @@ input[type=radio] {
 input[type="number"].number-Customize {
   height: 40px;
   width: 100px;
+  margin: 7px 0px;
   border-radius: 4px;
   border: 1px solid #d8d8d8;
   position: relative;
@@ -827,6 +829,78 @@ input[type="number"].number-Customize {
       .fileup-file.--error .data .controls .remove {
         background: #E41D1D !important;
       }
+
+.gallery-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+  .gallery-container #slider {
+    width: calc(100% - 110px);
+    margin: 0px;
+    background-color: #dddddd;
+    padding: 0px;
+    margin-left: 15px;
+  }
+    .gallery-container #slider li.slide-item {
+      margin: 0px;
+    }
+      .gallery-container #slider .slide-item img {
+        width: 100%;
+        aspect-ratio: 1;
+      }
+
+  .gallery-container #thumbnail_slider {
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px 0px;
+    margin-bottom: 0px;
+  }
+    .gallery-container #thumbnail_slider li.thumbnail-item {
+      margin: 3px 0px;
+      transition: .5s;
+      opacity: 0.5 !important;
+    }
+    .gallery-container #thumbnail_slider .thumbnail-item.slick-current.slick-active {
+      opacity: 1 !important;
+    }
+      .gallery-container #thumbnail_slider .thumbnail-item img {
+        width: 100%;
+        margin: 0 auto;
+        aspect-ratio: 1;
+      }
+
+  .gallery-container #thumbnail_slider .slick-prev,
+  .gallery-container #thumbnail_slider .slick-next {
+    top: 0px;
+    transform: none;
+    width: auto;
+    height: auto;
+    left: auto;
+    right: auto;
+    z-index: 9;
+  }
+  .gallery-container #thumbnail_slider .slick-next {
+    top: auto;
+    bottom: 0px;
+  }
+    .gallery-container #thumbnail_slider .slick-prev:before,
+    .gallery-container #thumbnail_slider .slick-next:before {
+      background: url(../images/icon-prev.png) no-repeat center;
+      background-size: contain;
+      margin: 0px 5px;
+      width: 25px;
+      aspect-ratio: 1;
+      content: "";
+      display: block;
+      margin: 0px;
+      transform: rotate(90deg);
+    }
+    .gallery-container #thumbnail_slider .slick-next:before {
+      background-image: url(../images/icon-next.png);
+    }    
 
 .box-niche {
 
