@@ -697,6 +697,86 @@ input[type="number"].number-Customize {
     cursor: pointer;
   }
 
+#search-box-container {
+  padding: 22px;
+  background: #F9F9F999;
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: auto;
+}
+#search-box {
+  
+}
+  #search-box::-webkit-search-cancel-button {
+    position:relative;
+    right:0px;  
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    background-image: url('../../public/images/icon-close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #search-box.active {
+    border: 1px solid rgb(52, 176, 202);
+    border-bottom: 0px;
+    border-radius: 20px 20px 0px 0px !important;
+  }
+
+#search-box-container .ui-autocomplete {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: rgb(51, 51, 51);
+  position: absolute;
+  border: 1px solid rgb(52, 176, 202);
+  border-top: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 0px 0px 20px 20px;
+  padding: 10px;
+  margin-bottom: 0px;
+  top: auto !important;
+  z-index: 9;
+}
+#search-box-container .ui-autocomplete::before {
+  content: "";
+  border-top: 1px solid #e0e0e0;
+  width: calc(100% - 30px);
+  position: absolute;
+  top: 0px;
+  left: 15px;
+}
+  #search-box-container .ui-menu .ui-menu-item {
+    
+  }
+    #search-box-container .ui-menu-item-wrapper {
+      padding: 8px;
+      cursor: pointer;
+      position: relative;
+      border-radius: 10px;
+    }
+    #search-box-container .ui-menu-item-wrapper:hover {
+      background-color: #f0f0f0;
+    }
+    #search-box-container .ui-state-active,
+    #search-box-container .ui-widget-content .ui-state-active,
+    #search-box-container .ui-widget-header .ui-state-active {
+      background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+      color: #ffffff;
+    }
+
+  #search-box-container .ui-autocomplete-group {
+    color: #909090;
+    padding: 6px 3px !important;
+    font-size: 13px;
+    font-weight: 100;
+  }
+
+#search-box-container .ui-helper-hidden-accessible {
+  display: none;
+}
+
 .img {
 	overflow: hidden;
 	position: relative;
