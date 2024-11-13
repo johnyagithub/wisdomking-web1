@@ -400,6 +400,7 @@
 				$('#museum-map .-region').removeClass('active');
 				$('#museum-map .list-region').removeClass('active');
 				$('#museum-map .-province').removeClass('active');
+				$('#selectRegion,#selectProvince').val(null).trigger('change');
 			});
 			$(document).on("click", "#museum-map .-province:not(.active)", function () {
 				$(this).siblings().removeClass('active');

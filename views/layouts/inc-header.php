@@ -96,7 +96,9 @@
                             <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
                             <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
                             <a class="dropdown-item" href="../data-account/">บัญชีข้อมูล</a>
-                            <a class="dropdown-item" href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ. 2540</a>
+                            <a class="dropdown-item"
+                                href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ.
+                                2540</a>
                         </div>
                     </li>
                     <li class="nav-item position-relative">
@@ -147,15 +149,28 @@
                 </ul>
                 <div class="header-top-link2">
                     <div class="d-none d-xl-block mr-2">
-                        <a href="javascript:void(0);" data-toggle="class-toggle-custom"
-                            data-target=".front-header-search">
+                        <a href="../search/">
                             <img src="../../public/images/icon-search.png" alt="" class="icon-search">
                         </a>
                     </div>
 
-                    <a href="../login" class="icon-pro">
+                    <!-- <a href="#" class="icon-pro">
                         <img src="../../public/images/icon-pro.png" alt="">สมัคสมาชิก
-                    </a>
+                    </a> -->
+                    <div class="box-profile btn-group">
+                        <a class="icon-pro" href="#" data-toggle="dropdown">
+                            <img src="../../public/images/img-profile.png" alt="">
+                            <span>Pattanan Pattanan</span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
+                                บัญชีของฉัน</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                                ออกจากระบบ</a>
+                        </div>
+                    </div>
+
                     <a class="btn btn-style m-1" href="#">เข้าร่วมโครงการส่งเสริมการเรียนรู้</a>
                     <a class="btn btn-style m-1" href="../e-learning/" role="button">e-Learning</a>
                     <a class="btn btn-style m-1" href="#">สินค้าและบริการ</a>

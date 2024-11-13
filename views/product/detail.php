@@ -52,18 +52,20 @@
 									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+2" alt=""></li>
 									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+3" alt=""></li>
 									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+4" alt=""></li>
+									<li class="slide-item"><img data-lazy="https://placehold.co/100x66?text=Thumb+5" alt=""></li>
 								</ul>
 								<ul id="thumbnail_slider">
 									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+1" alt=""></li>
 									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+2" alt=""></li>
 									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+3" alt=""></li>
 									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+4" alt=""></li>
+									<li class="thumbnail-item"><img data-lazy="https://placehold.co/1000x660?text=Image+5" alt=""></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-lg-6 text-secondary">
 							<div class="row">
-								<div class="col-md-6 col-lg-12">
+								<div class="col-md-6 col-lg-12 pt-4">
 									<h4 class="text-dark">เสื้อม่อฮ่อม</h4>
 									<p>เสื้อม่อฮ่อม แขนยาว "วิชาของแผ่นดิน www.wisdomking.or.th" </p>
 									<table>
@@ -252,23 +254,13 @@
 				centerPadding: '60px',
 				verticalSwiping: true,
 				swipeToSlide: true,
+				vertical: true,
 				responsive: [
-					{
-						breakpoint: 1024,
-						settings: {
-							vertical: true,
-						}
-					},
-					{
-						breakpoint: 600,
-						settings: {
-							vertical: true,
-						}
-					},
 					{
 						breakpoint: 480,
 						settings: {
 							vertical: false,
+							slidesToShow: 4,
 						}
 					}
 				]
