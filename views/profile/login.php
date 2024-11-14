@@ -49,8 +49,11 @@
 						</div>
 						<div class="form-group">
 							<label for="input6">รหัสผ่าน*</label>
-							<input type="password" class="form-control bg-white" id="input6" placeholder="กรุณาระบุรหัสผ่าน"
-								required="">
+							<div class="btn-eye-slash">
+								<i></i>
+								<input type="password" class="form-control bg-white" id="input6" placeholder="กรุณาระบุรหัสผ่าน"
+									required="">
+							</div>
 						</div>
 						<div class="form-row justify-content-center mt-2">
 							<div class="form-check form-check-inline mr-4">
@@ -84,6 +87,15 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<script>
+		$(document).ready(function () {
+			$(".btn-eye-slash i").click(function () {
+				$(this).toggleClass('active');
+				let input = $(this).next("input");
+				input.attr("type", input.attr("type") === "password" ? "text" : "password");
+			});
+		});
+	</script>
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>

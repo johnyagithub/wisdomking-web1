@@ -94,13 +94,21 @@
 							</div>
 							<div class="form-group col-md-6">
 								<label for="input6">รหัสผ่าน*</label>
-								<input type="password" class="form-control bg-white" id="input6" placeholder="กรุณาระบุรหัสผ่าน" required="">
+								<div class="btn-eye-slash">
+									<i></i>
+									<input type="password" class="form-control bg-white" id="input6" placeholder="กรุณาระบุรหัสผ่าน"
+										required="">
+								</div>
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-6">
 								<label for="input7">ใส่รหัสผ่านอีกครั้ง*</label>
-								<input type="password" class="form-control bg-white" id="input7" placeholder="กรุณาระบุรหัสผ่านอีกครั้ง" required="">
+								<div class="btn-eye-slash">
+									<i></i>
+									<input type="password" class="form-control bg-white" id="input7"
+										placeholder="กรุณาระบุรหัสผ่านอีกครั้ง" required="">
+								</div>
 							</div>
 						</div>
 						<div class="form-row justify-content-center mt-2">
@@ -135,6 +143,15 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<script>
+		$(document).ready(function () {
+			$(".btn-eye-slash i").click(function () {
+				$(this).toggleClass('active');
+				let input = $(this).next("input");
+				input.attr("type", input.attr("type") === "password" ? "text" : "password");
+			});
+		});
+	</script>
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>

@@ -150,7 +150,7 @@
 								</div>
 								<div class="form-group col-md-6">
 									<label for="input1">หน่วยงาน/บริษัท*</label>
-									<input type="password" class="form-control bg-white" id="input1"
+									<input type="text" class="form-control bg-white" id="input1"
 										placeholder="กรุณาระบุชื่อหน่วยงาน/บริษัท" required>
 								</div>
 							</div>
