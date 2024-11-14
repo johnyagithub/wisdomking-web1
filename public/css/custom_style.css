@@ -627,6 +627,10 @@ table.table.aiz-table .badge {
     border-bottom: 1px solid #B6B6B6;
   }
 
+.form-check-inline .form-check-input {
+  margin-left: 7px;
+}
+
 a:hover {
   text-decoration: none;
 }

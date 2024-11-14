@@ -154,8 +154,8 @@
                         </a>
                     </div>
 
-                    <!-- <a href="#" class="icon-pro">
-                        <img src="../../public/images/icon-pro.png" alt="">สมัคสมาชิก
+                    <!-- <a href="../profile/login.php" class="icon-pro">
+                        <img src="../../public/images/icon-pro.png" alt="">เข้าสู่ระบบ
                     </a> -->
                     <div class="box-profile btn-group">
                         <a class="icon-pro" href="#" data-toggle="dropdown">
