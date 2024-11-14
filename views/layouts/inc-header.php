@@ -16,7 +16,7 @@
                     <form action="../search" method="GET" class="d-flex align-items-center" style="max-width:700px;">
                         <div class="input-group bg-light">
                             <input type="text" class="border-0 bg-white form-control pr-0" id="search" name="keyword"
-                                placeholder="ค้นหาข่าว" autocomplete="off">
+                                placeholder="ค้นหา..." autocomplete="off">
                             <div class="input-group-append">
                                 <button class="btn px-3 btn-sm" type="submit">
                                     <img src="../../public/images/icon-search.png" alt="" class="icon-search"

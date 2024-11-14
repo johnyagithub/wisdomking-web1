@@ -4,6 +4,9 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
+	<link rel="stylesheet" type="text/css" href="../../public/css/search.css">
+	<!-- select2 -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
 
 </head>
 
@@ -42,15 +45,167 @@
 					<h4 class="head mb-4 text-center">ค้นหาข้อมูล</h4>
 				</div>
 
-				<div class="pb-4">
-					<div id="search-box-container">
-						<input id="search-box" type="search" class="form-control bg-white rounded-pill w-100"
-							placeholder="ค้นหา..." value="<?=$_GET['keyword']?>">
+				<form action="../search/" class="pb-4">
+					<div class="box-search d-flex justify-content-center align-items-center">
+						<div id="search-box-container">
+							<input id="search-box" type="search" name="keyword" class="form-control bg-white rounded-pill w-100"
+								placeholder="ค้นหา..." value="<?= $_GET['keyword'] ?>">
+							<button class="btn" type="submit">ค้นหา</button>
+						</div>
+						<button type="button" class="btn btn-secondary custom-tooltip ml-2 ml-md-3">
+							<span class="-tooltip">ค้นหาด้วยเสียง</span>
+							<i class="fa fa-microphone" aria-hidden="true"></i>
+						</button>
 					</div>
-				</div>
+				</form>
 
-				<div class="--detail">
-					ดะ้ัก55
+				<div class="--detail border-top pt-4 <?= $_GET['keyword'] ? '' : 'd-none' ?>">
+					<div class="row">
+						<div class="col-md-6">
+							<h5>ผลการค้นหา “<?= $_GET['keyword'] ?>”</h5>
+							<p>จำนวน <span> 2,469</span> ผลลัพธ์</p>
+						</div>
+						<div class="col-md-6">
+							<div class="row row-p5">
+								<div class="col">
+									<div class="form-control-style"> <!-- ไม่เจอผลลัพธ์เพิ่ม disabled -->
+										<select class="templatingSelect2">
+											<option value="">ประเภท</option>
+											<option value="usd">USD</option>
+											<option value="euro">Euro</option>
+											<option value="gbp">Pound</option>
+										</select>
+									</div>
+								</div>
+								<div class="col">
+									<div class="form-control-style"> <!-- ไม่เจอผลลัพธ์เพิ่ม disabled -->
+										<select class="templatingSelect2">
+											<option value="">เรียงตาม...</option>
+											<option value="usd">USD</option>
+											<option value="euro">Euro</option>
+											<option value="gbp">Pound</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="box-search-list col-12">
+
+							<div class="item">
+								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+									<div class="type">ประเภท : ข่าวประชาสัมพันธ์</div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ ร่วมกิจกรรมจิตอาสา
+									สำนักงานปลัดกระทรวงเกษตรและสหกรณ์ เนื่องในวันนวมินทรมหาราช 13 ตุลาคม 2567 และวันปิยมหาราช 23 ตุลาคม
+									2567</a>
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+									<div class="type">ประเภท : ข่าวประชาสัมพันธ์</div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+									<div class="type">ประเภท : ข่าวประชาสัมพันธ์</div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+									<div class="type">ประเภท : ข่าวประชาสัมพันธ์</div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+									<div class="type">ประเภท : ข่าวประชาสัมพันธ์</div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+									<div class="type">ประเภท : ข่าวประชาสัมพันธ์</div>
+								</div>
+							</div>
+							<div class="item">
+								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="-date">
+										18 สิงหาคม 2023
+									</div>
+									<div class="-view">
+										300
+									</div>
+									<div class="type">ประเภท : ข่าวประชาสัมพันธ์</div>
+								</div>
+							</div>
+
+							<div class="--empty">
+								<img src="../../public/images/img-wisdomking.png" alt="" class="mw-100 my-3 mx-auto d-block">
+								<h4 class="text-center">ขออภัย ไม่เจอผลลัพธ์ที่ต้องการ</h4>
+							</div>
+							<div class="box-search-bottom">
+								<p class="text-muted m-0" style="font-size: 13px;">ข้อมูลรายการที่ 1 ถึง 20 จากทั้งหมด 1,298 รายการ</p>
+								<nav class="box-pagination">
+									<ul class="pagination">
+										<li class="page-item disabled">
+											<a class="page-link prev">Previous</a>
+										</li>
+										<li class="page-item active" aria-current="page">
+											<a class="page-link" href="#">1</a>
+										</li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item"><a class="page-link" href="#">4</a></li>
+										<li class="page-item"><a class="page-link" href="#">5</a></li>
+										<li class="page-item">.....</li>
+										<li class="page-item"><a class="page-link" href="#">22</a></li>
+										<li class="page-item">
+											<a class="page-link next" href="#">Next</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -63,89 +218,107 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<!-- search-box -->
 	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-	<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
 	<script>
 		$(function () {
-			// คำค้นหายอดนิยม (แสดงตลอดเวลา)
-			var popularSuggestions = [
-				{ label: "คำค้นหายอดนิยม", group: true },
-				{ label: "เกษตรยุคใหม่หัวใจสิ่งแวดล้อม", group: false },
-				{ label: "#Covid19", group: false },
-				{ label: "#รักในหลวง", group: false }
-			];
+			const $searchBox = $('#search-box');
+			const $searchBoxContainer = $('#search-box-container');
 
-			// คำค้นหาที่แนะนำสำหรับคุณ (แสดงเมื่อเริ่มพิมพ์)
-			var personalizedSuggestions = [
-				{ label: "คำค้นหาที่แนะนำสำหรับคุณ", group: true },
-				{ label: "พิพิธภัณฑ์เกษตร", group: false },
-				{ label: "พิพิธภัณฑ์น่าสนใจ", group: false },
-				{ label: "10 พิพิธภัณฑ์ห้ามพลาดในประเทศไทย", group: false }
-			];
+			// เพิ่มคลาส unavailable เมื่อมีค่าใน search-box
+			if ($searchBox.val().trim() !== "") $searchBoxContainer.addClass("unavailable");
 
-			// การตั้งค่า Autocomplete
-			$("#search-box").autocomplete({
+			// กำหนด autocomplete
+			$searchBox.autocomplete({
 				minLength: 0,
 				appendTo: "#search-box-container",
-				source: function (request, response) {
-					var results = [];
-
-					// หากไม่มีการพิมพ์ ให้แสดงเฉพาะคำค้นหายอดนิยม
-					if (request.term === "") {
-						results = popularSuggestions;
-					} else {
-						// หากมีการพิมพ์ ให้แสดงคำค้นหาที่แนะนำสำหรับคุณและคำค้นหายอดนิยมตามลำดับ
-						var filteredPersonalized = $.grep(personalizedSuggestions, function (item) {
-							return item.group || item.label.toLowerCase().includes(request.term.toLowerCase());
-						});
-						results = $.merge($.merge([], filteredPersonalized), popularSuggestions);
-					}
-
+				source: (request, response) => {
+					const popularSuggestions = [
+						{ label: "คำค้นหายอดนิยม", group: true },
+						{ label: "เกษตรยุคใหม่หัวใจสิ่งแวดล้อม", group: false },
+						{ label: "#Covid19", group: false },
+						{ label: "#รักในหลวง", group: false }
+					];
+					const personalizedSuggestions = [
+						{ label: "คำค้นหาที่แนะนำสำหรับคุณ", group: true },
+						{ label: "พิพิธภัณฑ์เกษตร", group: false },
+						{ label: "พิพิธภัณฑ์น่าสนใจ", group: false },
+						{ label: "10 พิพิธภัณฑ์ห้ามพลาดในประเทศไทย", group: false }
+					];
+					const results = request.term === ""
+						? popularSuggestions
+						: $.merge($.grep(personalizedSuggestions, item =>
+							item.group || item.label.toLowerCase().includes(request.term.toLowerCase())),
+							popularSuggestions);
 					response(results);
 				},
-				create: function () {
-					$(this).data("ui-autocomplete")._renderItem = function (ul, item) {
-						if (item.group) {
-							return $("<li class='ui-autocomplete-group'></li>")
-								.text(item.label)
-								.appendTo(ul);
-						} else {
-							return $("<li></li>")
-								.append("<div class='ui-menu-item-wrapper'>" + item.label + "</div>")
-								.appendTo(ul);
-						}
-					};
+				create() {
+					$(this).data("ui-autocomplete")._renderItem = (ul, item) =>
+						$("<li>").append("<div class='ui-menu-item-wrapper'>" + item.label + "</div>")
+							.toggleClass("ui-autocomplete-group", item.group).appendTo(ul);
 				},
-				focus: function (event, ui) {
+				focus(event, ui) {
+					$searchBoxContainer.addClass("unavailable");
 					if (ui.item.group) {
 						event.preventDefault();
-
-						var autocomplete = $(this).data("ui-autocomplete");
-						if (event.keyCode === $.ui.keyCode.DOWN) {
-							autocomplete.menu.next(event);
-						} else if (event.keyCode === $.ui.keyCode.UP) {
-							autocomplete.menu.previous(event);
-						}
+						const autocomplete = $(this).data("ui-autocomplete");
+						const direction = event.keyCode === $.ui.keyCode.DOWN ? "next" : "previous";
+						autocomplete.menu[direction](event);
 					} else {
 						$(this).val(ui.item.label);
 					}
 				},
-				select: function (event, ui) {
-					if (ui.item.group) {
-						event.preventDefault();
-					}
+				select(event, ui) {
+					$searchBoxContainer.addClass("unavailable");
+					if (ui.item.group) event.preventDefault();
 				},
-				open: function () {
-					// เมื่อเปิด autocomplete ให้เพิ่มคลาส "active" ให้กับ #search-box
-					$("#search-box").addClass("active");
+				open() {
+					$searchBoxContainer.addClass("active");
 				},
-				close: function () {
-					// เมื่อปิด autocomplete ให้ลบคลาส "active"
-					$("#search-box").removeClass("active");
+				close() {
+					$searchBoxContainer.removeClass("active");
 				}
 			}).focus(function () {
 				$(this).autocomplete("search", "");
 			});
+
+			// ตรวจสอบ input
+			$searchBox.on('input', function () {
+				$searchBoxContainer.toggleClass("unavailable", $(this).val().trim() !== "");
+			});
+		});
+	</script>
+
+	<!-- Voice command -->
+	<script>
+		$(document).ready(function () {
+			if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+				const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+				recognition.lang = 'th-TH';
+				recognition.interimResults = true;
+
+				let isListening = false;
+
+				$('.box-search .custom-tooltip').click(function () {
+					isListening ? recognition.stop() : recognition.start();
+					$(this).toggleClass('active', !isListening);
+					isListening = !isListening;
+				});
+
+				recognition.onresult = event => $('#search-box').val(event.results[0][0].transcript);
+				recognition.onend = () => $('.box-search .custom-tooltip').removeClass('active');
+				recognition.onerror = event => console.error('Error: ' + event.error);
+			} else {
+				alert('เบราว์เซอร์ของคุณไม่รองรับฟีเจอร์นี้');
+			}
+		});
+	</script>
+
+	<!-- select2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+	<script>
+		$(".templatingSelect2").select2({
+			minimumResultsForSearch: -1
 		});
 	</script>
 </body>
