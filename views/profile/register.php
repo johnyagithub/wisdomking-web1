@@ -43,7 +43,7 @@
 					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
 						has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
-				<form action="#">
+				<form action="#" id="yourFormId">
 					<div class="form-body">
 
 						<div class="box-upload-profile">
@@ -85,7 +85,7 @@
 						<div class="form-row">
 							<div class="form-group col-md-6">
 								<label for="">ภูมิลำเนา*</label>
-								<select class="templatingSelect2">
+								<select class="templatingSelect2" required>
 									<option value="">กรุณาเลือกปีงบประมาณ</option>
 									<option value="ชาย">ชาย</option>
 									<option value="หญิง">หญิง</option>
@@ -136,9 +136,7 @@
 								<button type="reset" class="btn btn-light border bg-white rounded-pill w-100">ยกเลิก</button>
 							</div>
 							<div class="col-6 col-md-4 col-lg-2 px-1">
-								<!-- <button type="submit" class="btn btn-style w-100">บันทึก</button> -->
-								<button type="button" data-fancybox="" data-src="#popup-succeed"
-									class="btn btn-style w-100">บันทึก</button>
+								<button type="submit" class="btn btn-style w-100">บันทึก</button>
 							</div>
 						</div>
 					</div>
@@ -154,7 +152,7 @@
 		<div class="-popup">
 			<img src="../../public/images/img-succeed.png" class="d-block mx-auto mb-3">
 			<h4 class="text-center">ลงทะเบียนสำเร็จ</h4>
-			<button type="button" data-fancybox-close="" class="btn btn-style d-block mx-auto mt-4" style="width: 230px;" title="Close">ตกลง</button>
+			<a href="../profile/register.php" class="btn btn-style d-block mx-auto mt-4" style="width: 230px;">ตกลง</a>
 		</div>
 	</div>
 	<!-- end popup -->
@@ -171,6 +169,8 @@
 				let input = $(this).next("input");
 				input.attr("type", input.attr("type") === "password" ? "text" : "password");
 			});
+
+			// ปุ่ม upload file
 			$("#file-upload").change(function (e) {
 				let reader = new FileReader();
 				reader.onload = e => {
@@ -179,10 +179,21 @@
 				}
 				reader.readAsDataURL(this.files[0]);
 			});
+
+			// ปุ่ม ลบ
 			$("#clear-button").click(function () {
 				$("#file-upload").val('');
 				$("#profile-pic").css('background-image', '');
 				$('.box-upload-profile').removeClass('valid');
+			});
+
+			// submit form
+			$("#yourFormId").submit(function (event) {
+				event.preventDefault();
+				$.fancybox.open({
+					src: "#popup-succeed", // ID ของ popup
+					type: "inline"
+				});
 			});
 		});
 	</script>
