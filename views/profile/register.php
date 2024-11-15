@@ -136,7 +136,9 @@
 								<button type="reset" class="btn btn-light border bg-white rounded-pill w-100">ยกเลิก</button>
 							</div>
 							<div class="col-6 col-md-4 col-lg-2 px-1">
-								<button type="submit" class="btn btn-style w-100">บันทึก</button>
+								<!-- <button type="submit" class="btn btn-style w-100">บันทึก</button> -->
+								<button type="button" data-fancybox="" data-src="#popup-succeed"
+									class="btn btn-style w-100">บันทึก</button>
 							</div>
 						</div>
 					</div>
@@ -146,6 +148,16 @@
 
 	</div>
 	<!-- end #content -->
+
+	<!--  begin popup -->
+	<div id="popup-succeed" style="display: none;width: 500px;">
+		<div class="-popup">
+			<img src="../../public/images/img-succeed.png" class="d-block mx-auto mb-3">
+			<h4 class="text-center">ลงทะเบียนสำเร็จ</h4>
+			<button type="button" data-fancybox-close="" class="btn btn-style d-block mx-auto mt-4" style="width: 230px;" title="Close">ตกลง</button>
+		</div>
+	</div>
+	<!-- end popup -->
 
 	<!-- begin #footer -->
 	<?php include('../layouts/inc-footer.php'); ?>

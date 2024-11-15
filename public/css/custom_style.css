@@ -764,6 +764,32 @@ input[type="number"].number-Customize {
     cursor: pointer;
   }
 
+.fancybox-content {
+  background: transparent !important;
+  padding: 20px !important;
+}
+  .fancybox-content .-popup {
+    border-radius: var(--border_radius);
+    background-color: #fff;
+    padding: 22px;
+  }
+    .fancybox-content .-popup+.fancybox-button.fancybox-close-small {
+      border-radius: 50%;
+      opacity: 1;
+      color: #fff;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+      width: 40px;
+      height: 40px;
+    }
+      .fancybox-content .-popup+.fancybox-button.fancybox-close-small svg {
+        width: 34px;
+        height: 34px;
+      }
+
 .img {
 	overflow: hidden;
 	position: relative;
