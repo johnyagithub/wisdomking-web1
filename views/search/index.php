@@ -221,7 +221,7 @@
 	<!-- search-box -->
 	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 	<script>
-		$(function () {
+		$(function() {
 			const $searchBox = $('#search-box');
 			const $searchBoxContainer = $('#search-box-container');
 
@@ -233,29 +233,51 @@
 				minLength: 0,
 				appendTo: "#search-box-container",
 				source: (request, response) => {
-					const popularSuggestions = [
-						{ label: "คำค้นหายอดนิยม", group: true },
-						{ label: "เกษตรยุคใหม่หัวใจสิ่งแวดล้อม", group: false },
-						{ label: "#Covid19", group: false },
-						{ label: "#รักในหลวง", group: false }
+					const popularSuggestions = [{
+							label: "คำค้นหายอดนิยม",
+							group: true
+						},
+						{
+							label: "เกษตรยุคใหม่หัวใจสิ่งแวดล้อม",
+							group: false
+						},
+						{
+							label: "#Covid19",
+							group: false
+						},
+						{
+							label: "#รักในหลวง",
+							group: false
+						}
 					];
-					const personalizedSuggestions = [
-						{ label: "คำค้นหาที่แนะนำสำหรับคุณ", group: true },
-						{ label: "พิพิธภัณฑ์เกษตร", group: false },
-						{ label: "พิพิธภัณฑ์น่าสนใจ", group: false },
-						{ label: "10 พิพิธภัณฑ์ห้ามพลาดในประเทศไทย", group: false }
+					const personalizedSuggestions = [{
+							label: "คำค้นหาที่แนะนำสำหรับคุณ",
+							group: true
+						},
+						{
+							label: "พิพิธภัณฑ์เกษตร",
+							group: false
+						},
+						{
+							label: "พิพิธภัณฑ์น่าสนใจ",
+							group: false
+						},
+						{
+							label: "10 พิพิธภัณฑ์ห้ามพลาดในประเทศไทย",
+							group: false
+						}
 					];
-					const results = request.term === ""
-						? popularSuggestions
-						: $.merge($.grep(personalizedSuggestions, item =>
-							item.group || item.label.toLowerCase().includes(request.term.toLowerCase())),
+					const results = request.term === "" ?
+						popularSuggestions :
+						$.merge($.grep(personalizedSuggestions, item =>
+								item.group || item.label.toLowerCase().includes(request.term.toLowerCase())),
 							popularSuggestions);
 					response(results);
 				},
 				create() {
 					$(this).data("ui-autocomplete")._renderItem = (ul, item) =>
 						$("<li>").append("<div class='ui-menu-item-wrapper'>" + item.label + "</div>")
-							.toggleClass("ui-autocomplete-group", item.group).appendTo(ul);
+						.toggleClass("ui-autocomplete-group", item.group).appendTo(ul);
 				},
 				focus(event, ui) {
 					$searchBoxContainer.addClass("unavailable");
@@ -278,12 +300,12 @@
 				close() {
 					$searchBoxContainer.removeClass("active");
 				}
-			}).focus(function () {
+			}).focus(function() {
 				$(this).autocomplete("search", "");
 			});
 
 			// ตรวจสอบ input
-			$searchBox.on('input', function () {
+			$searchBox.on('input', function() {
 				$searchBoxContainer.toggleClass("unavailable", $(this).val().trim() !== "");
 			});
 		});
@@ -291,22 +313,25 @@
 
 	<!-- Voice command -->
 	<script>
-		$(document).ready(function () {
+		$(document).ready(function() {
 			if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
-				const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+				const recognition = new(window.SpeechRecognition || window.webkitSpeechRecognition)();
 				recognition.lang = 'th-TH';
 				recognition.interimResults = true;
 
 				let isListening = false;
 
-				$('.box-search .custom-tooltip').click(function () {
+				$('.box-search .custom-tooltip').click(function() {
 					isListening ? recognition.stop() : recognition.start();
 					$(this).toggleClass('active', !isListening);
 					isListening = !isListening;
 				});
 
 				recognition.onresult = event => $('#search-box').val(event.results[0][0].transcript);
-				recognition.onend = () => $('.box-search .custom-tooltip').removeClass('active');
+				recognition.onend = () => {
+					$('.box-search .custom-tooltip').removeClass('active');
+					$('#search-box').focus();
+				};
 				recognition.onerror = event => console.error('Error: ' + event.error);
 			} else {
 				alert('เบราว์เซอร์ของคุณไม่รองรับฟีเจอร์นี้');
