@@ -68,7 +68,7 @@
 						<div class="col-md-6">
 							<div class="row row-p5">
 								<div class="col">
-									<div class="form-control-style"> <!-- ไม่เจอผลลัพธ์เพิ่ม disabled -->
+									<div class="form-control-style"> <!-- ผลลัพธ์เท่ากับ 0 เพิ่ม disabled -->
 										<select class="templatingSelect2">
 											<option value="">ประเภท</option>
 											<option value="usd">USD</option>
@@ -78,7 +78,7 @@
 									</div>
 								</div>
 								<div class="col">
-									<div class="form-control-style"> <!-- ไม่เจอผลลัพธ์เพิ่ม disabled -->
+									<div class="form-control-style"> <!-- ผลลัพธ์เท่ากับ 0 เพิ่ม disabled -->
 										<select class="templatingSelect2">
 											<option value="">เรียงตาม...</option>
 											<option value="usd">USD</option>
@@ -92,7 +92,7 @@
 						<div class="box-search-list col-12">
 
 							<div class="item">
-								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<a href="../news/detail.php">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
 								<div class="d-flex justify-content-between flex-wrap">
 									<div class="-date">
 										18 สิงหาคม 2023
@@ -104,7 +104,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ ร่วมกิจกรรมจิตอาสา
+								<a href="../news/detail.php">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ ร่วมกิจกรรมจิตอาสา
 									สำนักงานปลัดกระทรวงเกษตรและสหกรณ์ เนื่องในวันนวมินทรมหาราช 13 ตุลาคม 2567 และวันปิยมหาราช 23 ตุลาคม
 									2567</a>
 								<div class="d-flex justify-content-between flex-wrap">
@@ -118,7 +118,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<a href="../news/detail.php">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
 								<div class="d-flex justify-content-between flex-wrap">
 									<div class="-date">
 										18 สิงหาคม 2023
@@ -130,7 +130,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<a href="../news/detail.php">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
 								<div class="d-flex justify-content-between flex-wrap">
 									<div class="-date">
 										18 สิงหาคม 2023
@@ -142,7 +142,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<a href="../news/detail.php">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
 								<div class="d-flex justify-content-between flex-wrap">
 									<div class="-date">
 										18 สิงหาคม 2023
@@ -154,7 +154,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<a href="../news/detail.php">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
 								<div class="d-flex justify-content-between flex-wrap">
 									<div class="-date">
 										18 สิงหาคม 2023
@@ -166,7 +166,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<a href="#">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
+								<a href="../news/detail.php">สำนักงานพิพิธภัณฑ์เกษตรฯ จัดประชุมคณะกรรมการ พกฉ. ครั้งที่ 10/2567</a>
 								<div class="d-flex justify-content-between flex-wrap">
 									<div class="-date">
 										18 สิงหาคม 2023
@@ -184,7 +184,7 @@
 							</div>
 							<div class="box-search-bottom">
 								<p class="text-muted m-0" style="font-size: 13px;">ข้อมูลรายการที่ 1 ถึง 20 จากทั้งหมด 1,298 รายการ</p>
-								<nav class="box-pagination">
+								<nav class="box-pagination ml-auto mr-auto mr-lg-0">
 									<ul class="pagination">
 										<li class="page-item disabled">
 											<a class="page-link prev">Previous</a>
@@ -221,7 +221,7 @@
 	<!-- search-box -->
 	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 	<script>
-		$(function() {
+		$(function () {
 			const $searchBox = $('#search-box');
 			const $searchBoxContainer = $('#search-box-container');
 
@@ -233,51 +233,30 @@
 				minLength: 0,
 				appendTo: "#search-box-container",
 				source: (request, response) => {
-					const popularSuggestions = [{
-							label: "คำค้นหายอดนิยม",
-							group: true
-						},
-						{
-							label: "เกษตรยุคใหม่หัวใจสิ่งแวดล้อม",
-							group: false
-						},
-						{
-							label: "#Covid19",
-							group: false
-						},
-						{
-							label: "#รักในหลวง",
-							group: false
-						}
+					const popularSuggestions = [
+						{ label: "คำค้นหายอดนิยม", group: true },
+						{ label: "เกษตรยุคใหม่หัวใจสิ่งแวดล้อม", group: false },
+						{ label: "#Covid19", group: false },
+						{ label: "#รักในหลวง", group: false }
 					];
-					const personalizedSuggestions = [{
-							label: "คำค้นหาที่แนะนำสำหรับคุณ",
-							group: true
-						},
-						{
-							label: "พิพิธภัณฑ์เกษตร",
-							group: false
-						},
-						{
-							label: "พิพิธภัณฑ์น่าสนใจ",
-							group: false
-						},
-						{
-							label: "10 พิพิธภัณฑ์ห้ามพลาดในประเทศไทย",
-							group: false
-						}
+
+					const personalizedSuggestions = [
+						{ label: "คำค้นหาที่แนะนำสำหรับคุณ", group: true },
+						{ label: "พิพิธภัณฑ์เกษตร", group: false },
+						{ label: "พิพิธภัณฑ์น่าสนใจ", group: false },
+						{ label: "10 พิพิธภัณฑ์ห้ามพลาดในประเทศไทย", group: false }
 					];
 					const results = request.term === "" ?
 						popularSuggestions :
 						$.merge($.grep(personalizedSuggestions, item =>
-								item.group || item.label.toLowerCase().includes(request.term.toLowerCase())),
+							item.group || item.label.toLowerCase().includes(request.term.toLowerCase())),
 							popularSuggestions);
 					response(results);
 				},
 				create() {
 					$(this).data("ui-autocomplete")._renderItem = (ul, item) =>
 						$("<li>").append("<div class='ui-menu-item-wrapper'>" + item.label + "</div>")
-						.toggleClass("ui-autocomplete-group", item.group).appendTo(ul);
+							.toggleClass("ui-autocomplete-group", item.group).appendTo(ul);
 				},
 				focus(event, ui) {
 					$searchBoxContainer.addClass("unavailable");
@@ -300,12 +279,12 @@
 				close() {
 					$searchBoxContainer.removeClass("active");
 				}
-			}).focus(function() {
+			}).focus(function () {
 				$(this).autocomplete("search", "");
 			});
 
 			// ตรวจสอบ input
-			$searchBox.on('input', function() {
+			$searchBox.on('input', function () {
 				$searchBoxContainer.toggleClass("unavailable", $(this).val().trim() !== "");
 			});
 		});
@@ -313,25 +292,22 @@
 
 	<!-- Voice command -->
 	<script>
-		$(document).ready(function() {
+		$(document).ready(function () {
 			if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
-				const recognition = new(window.SpeechRecognition || window.webkitSpeechRecognition)();
+				const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
 				recognition.lang = 'th-TH';
 				recognition.interimResults = true;
 
 				let isListening = false;
 
-				$('.box-search .custom-tooltip').click(function() {
+				$('.box-search .custom-tooltip').click(function () {
 					isListening ? recognition.stop() : recognition.start();
 					$(this).toggleClass('active', !isListening);
 					isListening = !isListening;
 				});
 
-				recognition.onresult = event => $('#search-box').val(event.results[0][0].transcript);
-				recognition.onend = () => {
-					$('.box-search .custom-tooltip').removeClass('active');
-					$('#search-box').focus();
-				};
+				recognition.onresult = event => $('#search-box').val(event.results[0][0].transcript).autocomplete("search");
+				recognition.onend = () => $('.box-search .custom-tooltip').removeClass('active');
 				recognition.onerror = event => console.error('Error: ' + event.error);
 			} else {
 				alert('เบราว์เซอร์ของคุณไม่รองรับฟีเจอร์นี้');

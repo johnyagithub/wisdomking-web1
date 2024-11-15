@@ -49,9 +49,6 @@ $(function () {
   $('[data-toggle="class-toggle-custom"]').on("click", function () {
     $($(this).data("target")).toggleClass("active");
   });
-  $(document).on("click", ".front-header-search .box-shadow", function () {
-    $(this).closest(".front-header-search").removeClass("active");
-  });
 
   $("header .navbar-collapse+.box-shadow").click(function () {
     $("header button.navbar-toggler").click();
@@ -249,7 +246,6 @@ let sliderMarket = () => {
 let sliderItem = () => {
   $(".box-slide .owl-carousel").each(function () {
     $(this).owlCarousel({
-      margin: 20,
       nav: true,
       dots: true,
       lazyLoad: true,
@@ -257,12 +253,15 @@ let sliderItem = () => {
       responsive: {
         0: {
           items: $(this).attr("data-itemSlide-mobile") || 2,
+          margin: 10,
         },
         667: {
           items: $(this).attr("data-itemSlide-Tablet") || 3,
+          margin: 15,
         },
         900: {
           items: $(this).attr("data-itemSlide-pc") || 4,
+          margin: 20,
         },
       },
     });

@@ -1,6 +1,6 @@
 <div class="footer-widget">
   <div class="container">
-    <div class="row py-5 align-items-center">
+    <div class="row pt-5 pb-4 align-items-center">
       <div class="col-lg-6 col-xl-5">
         <h4 class="head">ลงทะเบียนเพื่อรับข่าวสารผ่านทางอีเมล</h4>
         <p>ลงทะเบียนเพื่อรับข่าวสาร โปรโมชั่น หลักสูตรอบรม
@@ -19,7 +19,7 @@
     <div class="links-included pb-5">
       <h2 class="text-center">รวมลิงค์ที่น่าสนใจ</h2>
       <div class="box-slide">
-        <div class="owl-carousel dots-hide py-3 px-5" data-itemSlide-pc="6" data-itemSlide-Tablet="4" data-itemSlide-mobile="2">
+        <div class="owl-carousel dots-hide py-3 px-5" data-itemSlide-pc="6" data-itemSlide-Tablet="4" data-itemSlide-mobile="4">
 
           <a href="#">
             <div class="img rounded">
@@ -63,7 +63,7 @@
   </div>
 </div>
 <footer>
-  <div class="container py-4 px-0">
+  <div class="container pt-4 pb-xl-4 px-0">
     <div class="social">
       <a href="https://www.facebook.com/wisdomkingmuseum" target="_blank">
         <div class="-text">
@@ -104,11 +104,17 @@
   </div>
   <div class="container py-4">
     <div class="row">
-      <d class="col-xl-9 col-lg-8 col-md-7">
+      <div class="col-xl-9 col-lg-8 col-md-7">
         <a href="../home">
           <img src="../../public/images/logo-footer.png" class="--logo" alt="">
         </a>
-        <ul class="ul-style">
+      </div>
+      <div class="col py-2 px-xl-4 ml-auto" style="font-size: 13px;">
+        <p class="mb-2">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)</p>
+        <p class="mb-absolute">ริมถนนพหลโยธิน ตรงข้ามโรงพยาบาลการุญเวช นวนคร จังหวัดปทุมธานี 12120</p>
+      </div>
+      <div class="col-xl-9 col-lg-8 col-md-7">
+        <ul class="ul-style d-block d-lg-flex">
           <li><img src="../../public/images/icon-Phone.png" alt=""><a href="tel:0-2529-2212" title="0-2529-2212"
               class="text-reset">0-2529-2212</a> or <a href="tel:0-2529-2213" class="text-reset"
               title="0-2529-2213">0-2529-2213</a></li>
@@ -117,10 +123,6 @@
           <li><img src="../../public/images/icon-Location.png" alt=""><a class="text-reset"
               href="https://maps.app.goo.gl/i64FXUGA9MRvQDht9">Google Map</a></li>
         </ul>
-      </d>
-      <div class="col py-2 px-xl-4 ml-auto" style="font-size: 13px;">
-        <p class="mb-2">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (องค์การมหาชน)</p>
-        <p class="mb-0" style="color: #808080;">ริมถนนพหลโยธิน ตรงข้ามโรงพยาบาลการุญเวช นวนคร จังหวัดปทุมธานี 12120</p>
       </div>
     </div>
   </div>
@@ -128,13 +130,13 @@
     <div class="container d-lg-flex justify-content-between">
       <div class="text-center" current-verison="5.2">© 2000-2020 WisdomKing. All rights reserved.</div>
       <div class="text-center">
-        <a href="../website-policy-wdk" class="text-reset" title="Privacy policy">นโยบายเว็บไซต์</a>
+        <a href="../website-policy-wdk" class="text-reset" title="Privacy policy" style="white-space: nowrap;">นโยบายเว็บไซต์</a>
         &nbsp;|&nbsp;
         <a href="../privacy-policy-wdk" class="text-reset" target="_blank"
-          title="Privacy policy">นโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
+          title="Privacy policy" style="white-space: nowrap;">นโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
         &nbsp;|&nbsp;
         <a href="../website-security-policy-wdk" class="text-reset" target="_blank"
-          title="Privacy policy">นโยบายความปลอดภัย</a>
+          title="Privacy policy" style="white-space: nowrap;">นโยบายความปลอดภัย</a>
       </div>
     </div>
   </div>

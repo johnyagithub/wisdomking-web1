@@ -1,6 +1,6 @@
 .box-profile-form {
   background: linear-gradient(97.13deg, #2BCB7E 1.02%, #37A8E2 100%);
-  padding: 2.5em 0px;
+  padding: 2.5em 10px;
 }
   .box-profile-form .--profile {
     background: #fff url(../images/Logo-no-text.png) no-repeat right bottom;
@@ -26,7 +26,6 @@
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
  
-  
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
     
@@ -39,7 +38,14 @@
 
 /* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-
+  .box-profile-form .--profile {
+    padding: 20px;
+    padding-bottom: 25px;
+  }
+  .box-profile-form .--profile form {
+    padding: 0px;
+    background-color: transparent;
+  }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
   

@@ -12,28 +12,6 @@
         </div>
         <div class="d-xl-flex align-items-center navbar-expand-xl position-relative">
             <div class="collapse navbar-collapse align-items-end flex-column" id="navbarMain">
-                <div class="flex-grow-1 front-header-search">
-                    <form action="../search" method="GET" class="d-flex align-items-center" style="max-width:700px;">
-                        <div class="input-group bg-light">
-                            <input type="text" class="border-0 bg-white form-control pr-0" id="search" name="keyword"
-                                placeholder="ค้นหา..." autocomplete="off">
-                            <div class="input-group-append">
-                                <button class="btn px-3 btn-sm" type="submit">
-                                    <img src="../../public/images/icon-search.png" alt="" class="icon-search"
-                                        style="width: 24px;">
-                                </button>
-                            </div>
-                        </div>
-                        <div data-toggle="class-toggle-custom" data-target=".front-header-search"
-                            class="d-none d-xl-block">
-                            <button class="btn px-2 btn-sm" type="button">
-                                <i class="la la-2x la-times text-white"></i>
-                            </button>
-                        </div>
-                    </form>
-                    <div class="box-shadow"></div>
-                </div>
-
                 <ul class="navbar-nav box-menu w-100 text-uppercase align-items-xl-center justify-content-between">
                     <li class="nav-item position-relative active">
                         <a class="nav-link" href="../home/">หน้าหลัก</a>
@@ -97,8 +75,8 @@
                             <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
                             <a class="dropdown-item" href="../data-account/">บัญชีข้อมูล</a>
                             <a class="dropdown-item"
-                                href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ.
-                                2540</a>
+                                href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ
+                                พ.ศ.2540</a>
                         </div>
                     </li>
                     <li class="nav-item position-relative">
@@ -148,27 +126,38 @@
                     </li>
                 </ul>
                 <div class="header-top-link2">
-                    <div class="d-none d-xl-block mr-2">
-                        <a href="../search/">
-                            <img src="../../public/images/icon-search.png" alt="" class="icon-search">
-                        </a>
-                    </div>
-
-                    <!-- <a href="../profile/login.php" class="icon-pro">
-                        <img src="../../public/images/icon-pro.png" alt="">เข้าสู่ระบบ
-                    </a> -->
-                    <div class="box-profile btn-group">
-                        <a class="icon-pro" href="#" data-toggle="dropdown">
-                            <img src="../../public/images/img-profile.png" alt="">
-                            <span>Pattanan Pattanan</span>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#"><i class="fa fa-user-o" aria-hidden="true"></i>
-                                บัญชีของฉัน</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
-                                ออกจากระบบ</a>
+                    <div class="header-top-mobile">
+                        <button type="button" type="button" data-toggle="collapse" data-target="#navbarMain"
+                            aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </button>
+                        <div class="mr-2">
+                            <a href="../search/">
+                                <img src="../../public/images/icon-search.png" alt="" class="icon-search">
+                            </a>
                         </div>
+                        <a href="../profile/login.php" class="icon-pro"><img src="../../public/images/icon-pro.jpg" alt="">เข้าสู่ระบบ</a>
+                        <!-- <div class="box-profile btn-group">
+                            <a class="icon-pro" href="#" data-toggle="dropdown">
+                                <img src="../../public/images/img-profile.png" alt="">
+                                <span>Pattanan Pattanan</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../profile/">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    บัญชีของฉัน
+                                </a>
+                                <a class="dropdown-item" href="../profile/favorites.php">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    รายการที่ถูกใจ
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    ออกจากระบบ
+                                </a>
+                            </div>
+                        </div> -->
                     </div>
 
                     <a class="btn btn-style m-1" href="#">เข้าร่วมโครงการส่งเสริมการเรียนรู้</a>
