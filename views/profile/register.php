@@ -46,7 +46,16 @@
 				<form action="#">
 					<div class="form-body">
 
-						<div>dhfdh</div>
+						<div class="box-upload-profile">
+							<div id="profile-pic"></div>
+							<div>
+								<label for="file-upload" style="cursor: pointer;" class="btn btn-style w-100">
+									<img src="../../public/images/icon-Arrange.png" alt="">เลือกไฟล์
+								</label>
+								<input type="file" id="file-upload" class="d-none" accept="image/*">
+								<button type="button" id="clear-button" class="btn btn-light">ลบ</button>
+							</div>
+						</div>
 						<hr class="my-3">
 						<div class="form-row">
 							<div class="form-group col-md-6">
@@ -149,6 +158,19 @@
 				$(this).toggleClass('active');
 				let input = $(this).next("input");
 				input.attr("type", input.attr("type") === "password" ? "text" : "password");
+			});
+			$("#file-upload").change(function (e) {
+				let reader = new FileReader();
+				reader.onload = e => {
+					$("#profile-pic").css('background-image', 'url(' + e.target.result + ')');
+					$('.box-upload-profile').addClass('valid');
+				}
+				reader.readAsDataURL(this.files[0]);
+			});
+			$("#clear-button").click(function () {
+				$("#file-upload").val('');
+				$("#profile-pic").css('background-image', '');
+				$('.box-upload-profile').removeClass('valid');
 			});
 		});
 	</script>

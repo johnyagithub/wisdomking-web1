@@ -136,8 +136,8 @@
                                 <img src="../../public/images/icon-search.png" alt="" class="icon-search">
                             </a>
                         </div>
-                        <a href="../profile/login.php" class="icon-pro"><img src="../../public/images/icon-pro.jpg" alt="">เข้าสู่ระบบ</a>
-                        <!-- <div class="box-profile btn-group">
+                        <!-- <a href="../profile/login.php" class="icon-pro"><img src="../../public/images/icon-pro.jpg" alt="">เข้าสู่ระบบ</a> -->
+                        <div class="box-profile btn-group">
                             <a class="icon-pro" href="#" data-toggle="dropdown">
                                 <img src="../../public/images/img-profile.png" alt="">
                                 <span>Pattanan Pattanan</span>
@@ -157,7 +157,7 @@
                                     ออกจากระบบ
                                 </a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
 
                     <a class="btn btn-style m-1" href="#">เข้าร่วมโครงการส่งเสริมการเรียนรู้</a>
