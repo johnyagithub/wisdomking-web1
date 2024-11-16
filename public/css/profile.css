@@ -28,13 +28,16 @@
 }
 .box-upload-profile.d-block {
   padding-right: 20px;
-  max-width: 150px;
-  margin: 10px auto;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
   .box-upload-profile.d-block .bg-gradient {
     padding: 4px;
     border-radius: 50%;
     margin-bottom: 10px;
+    max-width: 120px;
+    margin: 0px auto 10px;
   }
   .box-upload-profile  #profile-pic {
     border-radius: 50%;

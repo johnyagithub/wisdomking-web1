@@ -42,7 +42,10 @@
 					<div class="col-md-4 mb-4 --sumMenu">
 
 						<div class="sticky-top" style="top: 113px;">
-							<div class="sumMenu-profile">
+							<a href="#" data-toggle="dropdown" aria-expanded="false">
+								ข้อมูลบัญชี
+							</a>
+							<div class="sumMenu-profile dropdown-menu">
 								<a class="dropdown-item active" href="../profile/">
 									<i class="fa fa-user-o" aria-hidden="true"></i>
 									บัญชีของฉัน
@@ -74,12 +77,12 @@
 									<div class="bg-gradient">
 										<div id="profile-pic"></div>
 									</div>
-									<div>
-										<label for="file-upload" style="cursor: pointer;" class="btn btn-style w-100">
+									<div class="d-flex d-sm-block d-md-flex d-lg-block">
+										<label for="file-upload" style="cursor: pointer;" class="btn btn-style w-100 mx-2 mx-sm-0 mx-md-2 mx-lg-0">
 											<img src="../../public/images/icon-Arrange.png" alt="">เลือกไฟล์
 										</label>
 										<input type="file" id="file-upload" class="d-none" accept="image/*">
-										<button type="button" id="clear-button" class="btn btn-light">ลบ</button>
+										<button type="button" id="clear-button" class="btn btn-light mx-2 mx-sm-0 mx-md-2 mx-lg-0">ลบ</button>
 									</div>
 								</div>
 							</div>
@@ -110,7 +113,7 @@
 										<div>กรุงเทพมหานคร</div>
 									</div>
 								</div>
-								<p class="mb-0 text-muted mt-auto">วันที่เข้าร่วม : 29/Oct/2567 10:44 PM</p>
+								<label class="mb-0 text-muted mt-auto">วันที่เข้าร่วม : 29/Oct/2567 10:44 PM</label>
 							</div>
 						</div>
 					</div>
@@ -127,9 +130,9 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?><script>
-		$(document).ready(function () {
+		$(document).ready(function() {
 			// ปุ่ม upload file
-			$("#file-upload").change(function (e) {
+			$("#file-upload").change(function(e) {
 				let reader = new FileReader();
 				reader.onload = e => {
 					$("#profile-pic").css('background-image', 'url(' + e.target.result + ')');
@@ -139,7 +142,7 @@
 			});
 
 			// ปุ่ม ลบ
-			$("#clear-button").click(function () {
+			$("#clear-button").click(function() {
 				$("#file-upload").val('');
 				$("#profile-pic").css('background-image', '');
 				$('.box-upload-profile').removeClass('valid');
