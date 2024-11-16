@@ -33,8 +33,7 @@
                             ปฏิทินกิจกรรมการเรียนรู้
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item"
-                                href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
+                            <a class="dropdown-item" href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
                             <a class="dropdown-item" href="../calendar/">ปฏิทินกิจกรรม</a>
                             <a class="dropdown-item" href="../calendar-learn/">ปฏิทินกิจกรรมการเรียนรู้</a>
                             <a class="dropdown-item" href="../museam-1-by-1/">1ไร่ มั่งคั่ง ยั่งยืน</a>
@@ -58,8 +57,7 @@
                             <a class="dropdown-item" href="../product/">สินค้า</a>
                             <a class="dropdown-item" href="../knowledge-book/">หนังสือองค์ความรู้</a>
                             <a class="dropdown-item" href="../booking-museum/">บริการเข้าชม</a>
-                            <a class="dropdown-item"
-                                href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
+                            <a class="dropdown-item" href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
                             <a class="dropdown-item" href="../service-statistics/">สถิติการให้บริการเข้าชม</a>
                             <a class="dropdown-item" href="../happy-travel/">กิจกรรมท่องเที่ยวสุขสันต์</a>
                             <a class="dropdown-item" href="../service/">บริการ</a>
@@ -74,9 +72,7 @@
                             <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
                             <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
                             <a class="dropdown-item" href="../data-account/">บัญชีข้อมูล</a>
-                            <a class="dropdown-item"
-                                href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ
-                                พ.ศ.2540</a>
+                            <a class="dropdown-item" href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ.2540</a>
                         </div>
                     </li>
                     <li class="nav-item position-relative">
@@ -108,8 +104,7 @@
                             <a class="dropdown-item" href="../operating-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
                             <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
                             <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
-                            <a class="dropdown-item"
-                                href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
+                            <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">

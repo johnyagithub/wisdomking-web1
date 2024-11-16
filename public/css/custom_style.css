@@ -1840,6 +1840,68 @@ header #navbarMain .navbar-nav li.nav-item.dropdown:hover a.nav-link {
 	  background-color: var(--primary);
 		}
 
+.sumMenu-profile {
+  background-color: #FAFAFA;
+  border-radius: var(--border_radius);
+  overflow: hidden;
+  padding: 5px 27px;
+}
+  .sumMenu-profile .dropdown-item {
+    padding: 15px 0px;
+    border-bottom: 1px solid #DFDFDF;
+  }
+  .sumMenu-profile .dropdown-item:hover ,
+  .sumMenu-profile .dropdown-item.active {
+    color: #669525;
+    background: transparent;
+  }
+  .sumMenu-profile .dropdown-item:last-child {
+    border-bottom: 0px;
+  }
+    .sumMenu-profile .dropdown-item i.fa {
+      display: none;
+    }
+    .sumMenu-profile .dropdown-item:hover i.fa {
+      display: inline-block;
+    }
+
+.box-profile-list {
+  background-color: #FAFAFA;
+  border-radius: var(--border_radius);
+  overflow: hidden;
+  padding: 25px 25px 15px;
+  max-width: 1065px;
+  margin: 0px auto 50px;
+}
+.--sumMenu+.box-profile-list {
+  background: transparent;
+}
+  .box-profile-list .-profile-list {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #DDDDDD;
+    padding-left: 35px !important;
+  }
+    .box-profile-list .col-6 {
+      -ms-flex: 0 0 calc(100% / 3);
+      flex: 0 0 calc(100% / 3);
+      max-width: calc(100% / 3);
+      margin-bottom: 10px;
+    } 
+    .--sumMenu+.box-profile-list .-profile-list .col-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+      .box-profile-list label {
+        font-size: 13px;
+        margin-bottom: 0px;
+      }
+      
+    .sumMenu-profile .dropdown-divider {
+      display: none;
+    }
+
 a[data-fancybox] {
   position: relative;
   display: block;
@@ -3116,7 +3178,15 @@ footer {
   .gallery-container #slider .slide-item img {
     aspect-ratio: 100 / 64;
   }
- }
+  .box-upload-profile.d-block {
+    display: grid !important;
+    width: auto;
+  }
+  .box-profile-list .-profile-list {
+    border: 0px;
+    padding-left: 15px !important;
+  }
+}
  /* แนวนอน */
  @media only screen and (orientation:landscape){
   header .container {
@@ -3257,6 +3327,11 @@ footer {
   footer .mb-absolute {
     position: initial;
   }
+  .box-profile-list .-profile-list .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
@@ -3394,6 +3469,18 @@ footer {
       width: 100%;
       margin: 0px;
       margin-top: 8px;
+    }
+    .box-upload-profile.d-block {
+      display: grid !important;
+      width: auto;
+    }
+    .box-profile-list .-profile-list {
+      border: 0px;
+      padding-left: 15px !important;
+    }
+    .box-profile-list {
+      padding: 20px;
+      margin: 15px 15px 30px;
     }
   } 
   /* แนวนอน */
