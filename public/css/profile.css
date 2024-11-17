@@ -126,10 +126,19 @@
   }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
-  
+  .box-profile-list .col-6 {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
  } 
  /* แนวนอน */
  @media only screen and (orientation:landscape){
  
+  .box-profile-list .col-6 {
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
  }
 }

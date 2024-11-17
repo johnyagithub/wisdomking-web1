@@ -87,7 +87,7 @@
 								</select>
 							</div>
 						</div>
-						<div class="box-courses row">
+						<div class="box-courses row row-p10">
 							<div class="col-6 mb-4">
 								<a href="../e-learning/detail.php" class="item">
 									<div class="img">

@@ -1920,7 +1920,7 @@ header #navbarMain .navbar-nav li.nav-item.dropdown:hover a.nav-link {
     display: flex;
     flex-direction: column;
     border-left: 1px solid #DDDDDD;
-    padding-left: 35px !important;
+    padding-left: 30px !important;
   }
     .box-profile-list .col-6 {
       -ms-flex: 0 0 calc(100% / 3);
