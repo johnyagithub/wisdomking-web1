@@ -73,6 +73,29 @@
     cursor: pointer;
   }
 
+.box-courses {
+
+}
+  .box-courses .item {
+    color: #000;
+    display: block;
+  }
+    .box-courses .item .img {
+      border-radius: var(--border_radius);
+    }
+      .box-courses .item img {
+        aspect-ratio: 355 / 192;
+        object-fit: cover;
+      }
+
+    .box-courses .item .text {
+      margin-top: 12px;
+    }
+      .box-courses .item .-type.border0 {
+        margin: 12px 0px 7px 0px;
+        border: none;
+      }
+
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   

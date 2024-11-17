@@ -75,10 +75,9 @@
 							<div class="form-group col-md-6">
 								<label for="">เพศ*</label>
 								<select class="templatingSelect2" required>
-									<option value="">กรุณาระบุเเพศ</option>
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="gbp">Pound</option>
+									<option value="">กรุณาระบุเพศ</option>
+									<option value="ชาย">ชาย</option>
+									<option value="หญิง">หญิง</option>
 								</select>
 							</div>
 						</div>
@@ -86,9 +85,10 @@
 							<div class="form-group col-md-6">
 								<label for="">ภูมิลำเนา*</label>
 								<select class="templatingSelect2" required>
-									<option value="">กรุณาเลือกปีงบประมาณ</option>
-									<option value="ชาย">ชาย</option>
-									<option value="หญิง">หญิง</option>
+									<option value="">กรุณาระบุภูมิลำเนา</option>
+									<option value="usd">USD</option>
+									<option value="euro">Euro</option>
+									<option value="gbp">Pound</option>
 								</select>
 							</div>
 							<div class="form-group col-md-6">

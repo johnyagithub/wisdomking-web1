@@ -39,7 +39,7 @@
 					<h4 class="head mb-4 text-center">บัญชีของฉัน</h4>
 				</div>
 				<div class="row">
-					<div class="col-md-4 mb-4 --sumMenu">
+					<div class="col-md-4 col-lg-3 --sumMenu">
 
 						<div class="sticky-top" style="top: 113px;">
 							<a href="#" data-toggle="dropdown" aria-expanded="false">
@@ -55,7 +55,7 @@
 									รายการที่ถูกใจ
 								</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">
+								<a class="dropdown-item text-danger" href="#">
 									<i class="fa fa-sign-out" aria-hidden="true"></i>
 									ออกจากระบบ
 								</a>
@@ -65,9 +65,9 @@
 					</div>
 					<div class="col box-profile-list">
 						<div class="d-flex flex-wrap w-100 mb-3">
-							<h4 class="text-primary">ข้อมูลบัญชี</h4>
-							<div class="ml-auto d-flex align-items-start">
-								<a href="#" class="text-gradient px-3 d-block">แก้ไขโปรไฟล์</a>
+							<h4 class="mr-auto text-primary">ข้อมูลบัญชี</h4>
+							<div class="d-flex align-items-start flex-wrap">
+								<a href="#profile-list" onclick="editPro();" class="text-gradient pr-3 d-block">แก้ไขโปรไฟล์</a>
 								<a href="../profile/reset-password.php" class="text-gradient px-3 border-left d-block">แก้ไขรหัสผ่าน</a>
 							</div>
 						</div>
@@ -86,35 +86,50 @@
 									</div>
 								</div>
 							</div>
-							<div class="-profile-list col-sm">
-								<div class="row mb-3">
+							<form action="../profile/index.php" id="profile-list" class="col-sm">
+								<div class="row row-p5 mb-3">
 									<div class="col-6">
-										<label>ชื่อ</label>
-										<div>Pattanan Pattanan</div>
+										<label for="input_name">ชื่อ</label>
+										<input type="text" class="form-control" id="input_name" value="Pattanan Pattanan" readonly>
 									</div>
 									<div class="col-6">
-										<label>อีเมล</label>
-										<div>test.test@gmail.com</div>
+										<label for="input_mail">อีเมล</label>
+										<input type="text" class="form-control" id="input_mail" value="test.test@gmail.com" readonly>
 									</div>
 									<div class="col-6">
-										<label>เบอร์มือถือ</label>
-										<div>081-234-5678</div>
+										<label for="input_tel">เบอร์มือถือ</label>
+										<input type="tel" class="form-control" id="input_tel" value="081-234-5678" readonly>
 									</div>
 									<div class="col-6">
-										<label>วันเกิด</label>
-										<div>29 / 04 / 1991</div>
+										<label for="input_date">วันเกิด</label>
+										<input type="date" class="form-control" id="input_date" value="1991-04-29" readonly>
 									</div>
 									<div class="col-6">
-										<label>เพศ</label>
-										<div>หญิง</div>
+										<label for="select1">เพศ</label>
+										<select class="templatingSelect2 form-control" id="select1" disabled>
+											<option value="">กรุณาระบุเเพศ</option>
+											<option value="ชาย">ชาย</option>
+											<option value="หญิง" selected>หญิง</option>
+										</select>
 									</div>
 									<div class="col-6">
-										<label>ภูมิลำเนา</label>
-										<div>กรุงเทพมหานคร</div>
+										<label for="select2">ภูมิลำเนา</label>
+										<select class="templatingSelect2 form-control" id="select2" disabled>
+											<option value="">กรุณาระบุภูมิลำเนา</option>
+											<option value="กรุงเทพมหานคร" selected>กรุงเทพมหานคร</option>
+											<option value="euro">Euro</option>
+											<option value="gbp">Pound</option>
+										</select>
 									</div>
 								</div>
-								<label class="mb-0 text-muted mt-auto">วันที่เข้าร่วม : 29/Oct/2567 10:44 PM</label>
-							</div>
+								<div class="d-flex flex-wrap-reverse">
+									<label class="mb-0 text-muted mt-auto">วันที่เข้าร่วม : 29/Oct/2567 10:44 PM</label>
+									<div id="button-editPro" class="ml-auto mr-auto mr-md-0 mb-3 mb-md-0" style="display: none;">
+										<button type="button" onclick="cancelPro();" class="btn btn-light rounded-pill px-4 mx-1">ยกเลิก</button>
+										<button type="submit" class="btn btn-style px-4 mx-1">บันทึก</button>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 
@@ -148,6 +163,21 @@
 				$('.box-upload-profile').removeClass('valid');
 			});
 		});
+
+		let editPro = () => {
+			$('#profile-list label+input[readonly]').prop('readonly', false);
+			$('#profile-list label+select[disabled]').prop('disabled', false);
+			setTimeout(function() {
+				const input = $('#input_name');
+				input.focus()[0].setSelectionRange(input.val().length, input.val().length);
+			}, 500);
+			$('#button-editPro').show();
+		}
+		let cancelPro = () => {
+			$('#profile-list label+input').prop('readonly', true);
+			$('#profile-list label+select').prop('disabled', true);
+			$('#button-editPro').hide();
+		}
 	</script>
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
