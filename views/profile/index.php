@@ -119,6 +119,10 @@
 											<option value="กรุงเทพมหานคร" selected>กรุงเทพมหานคร</option>
 											<option value="euro">Euro</option>
 											<option value="gbp">Pound</option>
+											<option value="euro">Euro</option>
+											<option value="gbp">Pound</option>
+											<option value="euro">Euro</option>
+											<option value="gbp">Pound</option>
 										</select>
 									</div>
 								</div>
@@ -182,7 +186,9 @@
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>
-		$(".templatingSelect2").select2();
+		$(".templatingSelect2").select2({
+			minimumResultsForSearch: 5
+		});
 	</script>
 </body>
 

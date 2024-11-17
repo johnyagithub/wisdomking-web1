@@ -1110,6 +1110,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
  }
+ #lang-change ul.dropdown-menu.show {
+  visibility: visible;
+ }
  #lang-change ul.dropdown-menu li {
   margin: 0px 4px;
   visibility: hidden;
@@ -1715,6 +1718,7 @@ header #navbarMain .navbar-nav li.nav-item.dropdown:hover a.nav-link {
         padding: 0px 14px;
         margin: 0px;
         border: 0px;
+        border-radius: var(--border_radius);
       }
         .header-top-link2 .box-profile  .dropdown-menu .dropdown-divider {
           margin: 0px;
@@ -1723,7 +1727,30 @@ header #navbarMain .navbar-nav li.nav-item.dropdown:hover a.nav-link {
         }
         .header-top-link2 .box-profile  .dropdown-menu .dropdown-item {
           background: transparent;
-          padding: 7px 0px;
+          padding: 10px 5px;
+          border-top: 1px solid rgb(102 149 37 / 30%);
+          white-space: normal;
+        }
+        .header-top-link2 .box-profile .dropdown-menu .dropdown-item:first-child {
+          border-top: 0px;
+        }
+          .header-top-link2 .box-profile .dropdown-menu .dropdown-item::marker {
+
+          }
+
+      .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu a.dropdown-item {
+        position: relative;
+        padding-left: 25px;
+      }
+        .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu a.dropdown-item::before {
+          content: "";
+          width: 3px;
+          aspect-ratio: 1;
+          position: absolute;
+          left: 8px;
+          background-color: #000;
+          border-radius: 50%;
+          top: 20px;
         }
 
 .cookie-con-head {
@@ -3670,7 +3697,7 @@ footer {
     position: sticky;
     bottom: 0px;
     background: #fff;
-    margin-top: auto !important;
+    margin-top: 0px !important;
     margin-bottom: 0px;
     transform: none !important;
     visibility: visible !important;
@@ -3689,9 +3716,10 @@ footer {
     margin-right: auto;
     width: 100%;
   }
-  .header-top-link2 a.btn {
+  .header-top-link2 .btn {
     width: 100%;
     padding: 7px 20px;
+    margin: 4px 0px !important;
   }
   .header-top-link2 .box-profile a.icon-pro img {
     width: 45px;
@@ -3830,5 +3858,11 @@ footer {
   }
   .header-top-link2 .header-top-mobile button[data-target="#navbarMain"] {
     display: block;
+  }
+  .header-top-link2 .box-profile {
+    width: 100%;
+  }
+  .header-top-link2 .header-top-mobile .box-profile {
+    width: auto;
   }
 }

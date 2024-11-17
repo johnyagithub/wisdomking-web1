@@ -36,7 +36,7 @@
 			<div class="-sticky">
 				<div class="container">
 					<div class="d-flex flex-wrap align-items-start mb-4">
-						<h3 class="head mb-4">ร้าน</h3>
+						<h3 class="head mb-4">บริการ</h3>
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<div class="owl-carousel">
 								<button class="nav-link active" id="nav-RoomService-tab" data-toggle="tab"
@@ -235,11 +235,11 @@
 										</div>
 									</div>
 									<hr class="my-3">
-									<div class="form-row justify-content-between">
-										<div class="col d-flex align-items-center">
+									<div class="form-row">
+										<div class="col-sm d-flex align-items-center mb-3 mb-sm-0">
 											ราคาทั้งหมด <h3 class="text-gradient mb-0 ml-2">฿ 8,000</h3>
 										</div>
-										<div class="col-6 col-md-4 col-lg-2">
+										<div class="col-6 col-md-4 col-lg-2 ml-auto">
 											<button type="submit" class="btn btn-style w-100">จองทันที</button>
 										</div>
 									</div>
@@ -399,11 +399,11 @@
 										</div>
 									</div>
 									<hr class="my-3">
-									<div class="form-row justify-content-between">
-										<div class="col d-flex align-items-center">
+									<div class="form-row">
+										<div class="col-sm d-flex align-items-center mb-3 mb-sm-0">
 											ราคาทั้งหมด <h3 class="text-gradient mb-0 ml-2">฿ 8,000</h3>
 										</div>
-										<div class="col-6 col-md-4 col-lg-2">
+										<div class="col-6 col-md-4 col-lg-2 ml-auto">
 											<button type="submit" class="btn btn-style w-100">จองทันที</button>
 										</div>
 									</div>

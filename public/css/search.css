@@ -247,10 +247,10 @@
     padding: 15px;
   }
   #search-box-container > button.btn {
-    padding: 3px 8px;
+    display: none;
   }
   #search-box-container.unavailable #search-box {
-    padding-right: 67px;
+    padding-right: 10px;
   }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
