@@ -17,7 +17,7 @@
                         <a class="nav-link" href="../home/">หน้าหลัก</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             ข่าว & ประชาสัมพันธ์
                         </a>
                         <div class="dropdown-menu">
@@ -29,7 +29,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             ปฏิทินกิจกรรมการเรียนรู้
                         </a>
                         <div class="dropdown-menu">
@@ -41,7 +41,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             มหกรรมตลาดเศรษฐกิจพอเพียง
                         </a>
                         <div class="dropdown-menu">
@@ -50,7 +50,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             พิพิธภัณฑ์ของเรา
                         </a>
                         <div class="dropdown-menu">
@@ -65,7 +65,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             องค์ความรู้
                         </a>
                         <div class="dropdown-menu">
@@ -79,7 +79,7 @@
                         <a class="nav-link" href="../museum-central/">เครือข่ายพิพิธภัณฑ์เกษตรฯ</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             เกี่ยวกับเรา
                         </a>
                         <div class="dropdown-menu">
@@ -108,7 +108,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             ติดต่อเรา
                         </a>
                         <div class="dropdown-menu">
@@ -131,9 +131,23 @@
                                 <img src="../../public/images/icon-search.png" alt="" class="icon-search">
                             </a>
                         </div>
-                        <!-- <a href="../profile/login.php" class="icon-pro"><img src="../../public/images/icon-pro.jpg" alt="">เข้าสู่ระบบ</a> -->
+                        <!-- เข้าสู่ระบบ -->
+                        <!-- <a href="../profile/login.php" class="icon-pro d-none d-xl-block"><img src="../../public/images/icon-pro.jpg" alt="">เข้าสู่ระบบ</a>
+                        <div class="box-profile btn-group d-xl-none">
+                            <a class="icon-pro" href="javascript:void(0)" data-toggle="dropdown">
+                                <img src="../../public/images/icon-pro.jpg" style="background: #fff;" alt="">
+                                <span>เข้าสู่ระบบ</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../profile/login.php">
+                                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                                    เข้าสู่ระบบ
+                                </a>
+                            </div>
+                        </div> -->
+
                         <div class="box-profile btn-group">
-                            <a class="icon-pro" href="#" data-toggle="dropdown">
+                            <a class="icon-pro" href="javascript:void(0)" data-toggle="dropdown">
                                 <img src="../../public/images/img-profile.png" alt="">
                                 <span>Pattanan Pattanan</span>
                             </a>

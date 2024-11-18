@@ -7,6 +7,18 @@ $(function () {
       $('body').addClass("down");
     }
   });
+  
+  if ($(window).width() > 1025) {
+    // เพิ่มการเปิด dropdown เมื่อ hover
+    // $('header .dropdown,header .btn-group').hover(
+    //   function () {
+    //     $(this).addClass("show").find(".dropdown-menu").addClass("show");
+    //   },
+    //   function () {
+    //     $(this).removeClass("show").find(".dropdown-menu").removeClass("show");
+    //   }
+    // );
+  }
 
   styleSwitch();
   textSize();

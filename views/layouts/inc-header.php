@@ -17,47 +17,178 @@
                         <a class="nav-link" href="../home/">หน้าหลัก</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             ข่าว & ประชาสัมพันธ์
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="../news/">ข่าว & ประชาสัมพันธ์</a>
+                            <a class="dropdown-item" href="../news/">ข่าวประชาสัมพันธ์</a>
                             <a class="dropdown-item" href="../procurement/">ประกาศจัดซื้อจัดจ้าง</a>
-                            <a class="dropdown-item" href="../procurement-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../procurement-results/">สรุปผมการจัดซื้อจัดจ้าง (แบบ สบร.1)</a>
                             <a class="dropdown-item" href="../job-news/">ข่าวรับสมัครงาน</a>
                             <a class="dropdown-item" href="../covid/">มาตรการ COVID-19</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             ปฏิทินกิจกรรมการเรียนรู้
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
-                            <a class="dropdown-item" href="../calendar/">ปฏิทินกิจกรรม</a>
-                            <a class="dropdown-item" href="../calendar-learn/">ปฏิทินกิจกรรมการเรียนรู้</a>
+                            <a class="dropdown-item"
+                                href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
+                            <a class="dropdown-item" href="../calendar-learn/">ตลาดเศรษฐกิจพอเพียง</a>
+                            <a class="dropdown-item" href="../calendar-learn/">กิจกรรมต่างๆ</a>
                             <a class="dropdown-item" href="../museam-1-by-1/">1ไร่ มั่งคั่ง ยั่งยืน</a>
-                            <a class="dropdown-item" href="../project/">โครงการ อพ.สธ.</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                            มหกรรมตลาดเศรษฐกิจพอเพียง
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="../ourmuseum/">พิพิธภัณฑ์ของเรา</a>
                             <a class="dropdown-item" href="../learning/">สื่อการเรียนรู้</a>
                         </div>
                     </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link" href="../calendar/">มหกรรมตลาดเศรษฐกิจพอเพียง</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             พิพิธภัณฑ์ของเรา
                         </a>
                         <div class="dropdown-menu">
+                            <div class="submenu">
+                                <div class="column">
+                                    <a class="dropdown-item w-100" href="../ourmuseum/">พิพิธภัณฑ์ของเรา</a>
+                                    <div class="group" data-column="3">
+                                        <span>พิพิธภัณฑ์ในอาคาร</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พระราชพิธีในวิถีเกษตร</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์ในหลวงรักเรา</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์ป่าดงพงไพร</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์วิถีน้ำ</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์ดินดล</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์เกษตรคือชีวิต</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">นิทรรศการเฉลิมพระเกียรติฯ</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">นิทรรศการพิเศษ</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">สื่อสารงานพ่อ สานต่องานแม่</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์กษัตริย์เกษตร</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">นิทรรศการสมเด็จพระบรมราชนนีพันปีหลวง</a>
+                                            </li>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">นิทรรศการ
+                                                    จากเส้นด้าย สู่ลายผ้า</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>พิพิธภัณฑ์เสมือนจริง</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์ในหลวงรักเรา</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์ดินดล</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์ป่าดงพงไพร</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์มหัศจรรย์พันธุกรรม</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">จากเส้นด้าย สู่ลายผ้า</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>พิพิธภัณฑ์กลางแจ้ง</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์เกษตรตามรอยพ่อ</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์นวัตกรรมเกษตรเศรษฐกิจพอเพียง</a>
+                                            </li>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">โครงการ อพ.สธ.</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>มาดู พาวิเลียน</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">พิพิธภัณฑ์กษัตริย์เกษตร</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <a class="dropdown-item w-100" href="../ourmuseum/">สื่อการเรียนรู้และนิเมชั่น</a>
+                                    <div class="group" data-column="2">
+                                        <span>สื่อการเรียนรู้ภาพยนตร์แอนิเมชั่น 3 มิติ</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">เรื่องของพ่อในบ้านของเรา</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">แผ่นดินของเรา</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">ทรัพย์สินสินน้ำ</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">ไผ่รวกกับทานตะวันผู้ยโส</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">เมล็ดสุดท้าย</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">คิดถึงมิลืมเลือน</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">ความดีงามสืบทอดได้</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">อัจฉริยะนวัตกรรม</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../ourmuseum/detail.php">แกล้งดินเปลี่ยนดินให้เป็นทอง</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group" data-column="2">
+                                        <span>สื่อการเรียนรู้ภาพยนตร์แอนิเมชั่น 2 มิติ</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">เรื่อง 70
+                                                    ปี กษัตริย์ เกษตร</a></li>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">เรื่อง
+                                                    มหัศจรรย์ผลิตพันธุ์แห่งความพอเพียง</a></li>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">เรื่อง
+                                                    ลูกของพ่อ</a></li>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">เรื่อง
+                                                    สวนยิ้มอิ่มใจ ตอนที่ 1</a></li>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">เรื่อง
+                                                    สวนยิ้มอิ่มใจ ตอนที่ 2</a></li>
+                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">เรื่อง
+                                                    สวนยิ้มอิ่มใจ ตอนที่ 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
+                            องค์ความรู้
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
+                            <a class="dropdown-item" href="#">คลังต้นไม้แห่งการเรียนรู้</a>
+                            <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
+                            <a class="dropdown-item" href="../data-account/">Datacatalog & Open data</a>
+                            <a class="dropdown-item" href="../knowledge-about/">ความรู้เรื่อง พรบ. ข้อมูลข่าวสารของราชการ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
+                            สินค้าและบริการ
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../museum-central/">เครือข่ายพิพิธภัณฑ์เกษตรฯ</a>
+                            <a class="dropdown-item" href="../ourmuseum/">พิพิธภัณฑ์ของเรา</a>
+                            <a class="dropdown-item" href="../project/">โครงการ อพ.สธ.</a>
                             <a class="dropdown-item" href="../product/">สินค้า</a>
                             <a class="dropdown-item" href="../knowledge-book/">หนังสือองค์ความรู้</a>
                             <a class="dropdown-item" href="../booking-museum/">บริการเข้าชม</a>
-                            <a class="dropdown-item" href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
+                            <a class="dropdown-item"
+                                href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
                             <a class="dropdown-item" href="../service-statistics/">สถิติการให้บริการเข้าชม</a>
                             <a class="dropdown-item" href="../happy-travel/">กิจกรรมท่องเที่ยวสุขสันต์</a>
                             <a class="dropdown-item" href="../service/">บริการ</a>
@@ -65,21 +196,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                            องค์ความรู้
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="../knowledge/">องค์ความรู้</a>
-                            <a class="dropdown-item" href="../research-and-articles/">งานวิจัยและบทความ</a>
-                            <a class="dropdown-item" href="../data-account/">บัญชีข้อมูล</a>
-                            <a class="dropdown-item" href="../knowledge-about/">ความรู้เกี่ยวกับพระราชบัญญัติข้อมูลข่าวสารของราชการ พ.ศ.2540</a>
-                        </div>
-                    </li>
-                    <li class="nav-item position-relative">
-                        <a class="nav-link" href="../museum-central/">เครือข่ายพิพิธภัณฑ์เกษตรฯ</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             เกี่ยวกับเรา
                         </a>
                         <div class="dropdown-menu">
@@ -104,11 +221,12 @@
                             <a class="dropdown-item" href="../operating-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
                             <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
                             <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
-                            <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
+                            <a class="dropdown-item"
+                                href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
                             ติดต่อเรา
                         </a>
                         <div class="dropdown-menu">
@@ -116,7 +234,7 @@
                             <a class="dropdown-item" href="../journey/">ข้อมูลการติดต่อ</a>
                             <a class="dropdown-item" href="../contact-us/">ติดต่อเรา</a>
                             <a class="dropdown-item" href="../complaint/">เรื่องร้องเรียนการทุจริตและประพฤติมิชอบ</a>
-                            <a class="dropdown-item" href="../manual-and-service/">คู่มือ/แนวทางการให้บริการประชาชน</a>
+                            <!-- <a class="dropdown-item" href="../manual-and-service/">คู่มือ/แนวทางการให้บริการประชาชน</a> -->
                         </div>
                     </li>
                 </ul>
@@ -131,9 +249,23 @@
                                 <img src="../../public/images/icon-search.png" alt="" class="icon-search">
                             </a>
                         </div>
-                        <!-- <a href="../profile/login.php" class="icon-pro"><img src="../../public/images/icon-pro.jpg" alt="">เข้าสู่ระบบ</a> -->
+                        <!-- เข้าสู่ระบบ -->
+                        <!-- <a href="../profile/login.php" class="icon-pro d-none d-xl-block"><img src="../../public/images/icon-pro.jpg" alt="">เข้าสู่ระบบ</a>
+                        <div class="box-profile btn-group d-xl-none">
+                            <a class="icon-pro" href="javascript:void(0)" data-toggle="dropdown">
+                                <img src="../../public/images/icon-pro.jpg" style="background: #fff;" alt="">
+                                <span>เข้าสู่ระบบ</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../profile/login.php">
+                                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                                    เข้าสู่ระบบ
+                                </a>
+                            </div>
+                        </div> -->
+
                         <div class="box-profile btn-group">
-                            <a class="icon-pro" href="#" data-toggle="dropdown">
+                            <a class="icon-pro" href="javascript:void(0)" data-toggle="dropdown">
                                 <img src="../../public/images/img-profile.png" alt="">
                                 <span>Pattanan Pattanan</span>
                             </a>
@@ -154,7 +286,8 @@
                         </div>
                     </div>
                     <div class="box-profile btn-group">
-                        <button type="button" class="btn btn-style m-1 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button type="button" class="btn btn-style m-1 dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             เข้าร่วมโครงการส่งเสริมการเรียนรู้
                         </button>
                         <div class="dropdown-menu">
@@ -164,7 +297,8 @@
                     </div>
                     <a class="btn btn-style m-1" href="../e-learning/" role="button">e-Learning</a>
                     <div class="box-profile btn-group">
-                        <button type="button" class="btn btn-style m-1 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button type="button" class="btn btn-style m-1 dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             เครือข่ายพิพิธภัณฑ์เกษตรฯ
                         </button>
                         <div class="dropdown-menu">
