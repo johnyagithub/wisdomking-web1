@@ -107,7 +107,7 @@
                                             <li><a class="dropdown-item w-100"
                                                     href="../ourmuseum/detail.php">พิพิธภัณฑ์นวัตกรรมเกษตรเศรษฐกิจพอเพียง</a>
                                             </li>
-                                            <li><a class="dropdown-item w-100" href="../ourmuseum/detail.php">โครงการ อพ.สธ.</a></li>
+                                            <li><a class="dropdown-item w-100" href="../project/">โครงการ อพ.สธ.</a></li>
                                         </ul>
                                     </div>
                                     <div class="group">
@@ -181,18 +181,38 @@
                             สินค้าและบริการ
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="../museum-central/">เครือข่ายพิพิธภัณฑ์เกษตรฯ</a>
-                            <a class="dropdown-item" href="../ourmuseum/">พิพิธภัณฑ์ของเรา</a>
-                            <a class="dropdown-item" href="../project/">โครงการ อพ.สธ.</a>
                             <a class="dropdown-item" href="../product/">สินค้า</a>
                             <a class="dropdown-item" href="../knowledge-book/">หนังสือองค์ความรู้</a>
                             <a class="dropdown-item" href="../booking-museum/">บริการเข้าชม</a>
-                            <a class="dropdown-item"
-                                href="../processservice/">ขั้นตอนการให้บริการจองเข้าชมและเรียนรู้</a>
+                            <a class="dropdown-item" href="../processservice/">ขั้นตอนการให้บริการเข้าชม</a>
                             <a class="dropdown-item" href="../service-statistics/">สถิติการให้บริการเข้าชม</a>
-                            <a class="dropdown-item" href="../happy-travel/">กิจกรรมท่องเที่ยวสุขสันต์</a>
-                            <a class="dropdown-item" href="../service/">บริการ</a>
-                            <a class="dropdown-item" href="../shop/">ร้าน</a>
+                            <a class="dropdown-item" href="../happy-travel/">ท่องเที่ยวสุขสันต์</a>
+                            <div class="submenu">
+                                <div class="column">
+                                    <div class="group">
+                                        <span>บริการ</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../service/?param=nav-RoomService">ห้องพัก</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../service/?param=nav-MeetingRoomService">ห้องประขุม</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../service/?param=nav-FoodEatGood">อาหารและเครื่องดื่ม</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>ร้าน</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../shop/?param=nav-FoodEatGood">อาหาร กิน อยู่ ดี</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../shop/?param=nav-Shop">ร้านจำหน่ายของที่ระลึก</a></li>
+                                            <li><a class="dropdown-item w-100"
+                                                    href="../shop/?param=nav-madocafe">MADO CAFE</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -200,29 +220,161 @@
                             เกี่ยวกับเรา
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="../purpose/">เกี่ยวกับเรา</a>
-                            <a class="dropdown-item" href="../appoint-office/">คณะกรรมการสำนักงาน</a>
-                            <a class="dropdown-item" href="../audit-committee/">คณะกรรมการ</a>
-                            <a class="dropdown-item" href="../work-classification/">โครงสร้างการจัดแบ่งส่วนงาน</a>
-                            <a class="dropdown-item" href="../office-committee/">ทำเนียบผู้บริหารสำนักงาน</a>
-                            <a class="dropdown-item" href="../law-relate/">กฎหมายที่เกี่ยวข้อง</a>
+                            <a class="dropdown-item" href="../purpose/?param=nav-Background">ประวัติความเป็นมา</a>
+                            <a class="dropdown-item" href="../purpose/?param=nav-Vision">วิสัยทัศน์และพันธกิจ</a>
+                            <a class="dropdown-item" href="#">วัฒนธรรมองค์กร</a>
+                            <a class="dropdown-item" href="../purpose/?param=nav-Corporate">ค่านิยมองค์กร</a>
                             <a class="dropdown-item" href="../rules/">ข้อบังคับ</a>
                             <a class="dropdown-item" href="../regularity/">ระเบียบ</a>
                             <a class="dropdown-item" href="../announce/">ประกาศ</a>
-                            <a class="dropdown-item" href="../charter/">กฎบัตร</a>
-                            <a class="dropdown-item" href="../authority/">อำนาจหน้าที่</a>
-                            <a class="dropdown-item" href="../ethics/">จริยธรรม</a>
-                            <a class="dropdown-item" href="../history/">ความเป็นมา</a>
-                            <a class="dropdown-item" href="../strategy/">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</a>
-                            <a class="dropdown-item" href="../director/">นโยบายสำคัญ</a>
-                            <a class="dropdown-item" href="../monitor-judg/">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
+                            <a class="dropdown-item" href="../charter/">กฎบัตร</a> <a class="dropdown-item" href="../monitor-judg/">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
                             <a class="dropdown-item" href="../annual-report/">รายงานประจำปี</a>
-                            <a class="dropdown-item" href="../appoint-officials/">แต่งตั้งเจ้าหน้าที่</a>
-                            <a class="dropdown-item" href="../operating-results/">ผลการดำเนินงานจัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../operating-results/">จัดซื้อจัดจ้าง</a>
+                            <a class="dropdown-item" href="../appoint-officials/">เจ้าหน้าที่</a>
                             <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
                             <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
-                            <a class="dropdown-item"
-                                href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
+                            <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใส ในการดำเนินงานภาครัฐ</a>
+                            <a class="dropdown-item" href="#">นโยบายและแนวปฎิบัติในการรักษาความมั่นคงปลอดภัยด้านสารสนเทศ</a>
+                            <div class="submenu">
+                                <div class="column">
+                                    <div class="group">
+                                        <span>ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-strategic">ยุทธศาสตร์</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Annual">แผนการตรวจสอบประจำปี</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Human">แผนการดำเนินงานด้านบุคคล</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Budget">แผนการใช้จ่ายงบประมาณ</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-corruption">การปฎิบัติการป้องกันการทุจริต</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Performance">ผลการดำเนินงาน</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>โครงสร้างองค์กร</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../appoint-office/">คณะกรรมการสำนักงาน</a></li>
+                                            <li>
+                                                <a class="dropdown-item w-100" href="../audit-committee/">แต่งตั้งคณะกรรมการสำนักงาน</a>
+                                                <ul>
+                                                    <li><a class="dropdown-item w-100" href="../director/?param=nav-Committee">คณะกรรมการ</a></li>
+                                                    <li><a class="dropdown-item w-100" href="../director/?param=nav-Subcommittee">คณะอนุกรรมการ</a></li>
+                                                    <li><a class="dropdown-item w-100" href="../director/?param=nav-Working">คณะทำงาน</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="dropdown-item w-100" href="../work-classification/">โครงสร้างการจัดแบ่งส่วนงาน</a></li>
+                                            <li><a class="dropdown-item w-100" href="../office-committee/">ทำเนียบผู้บริหาร</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>นโยบายสำคัญ</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Director">สารจากผู้อำนวยการ</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Declaration">ประกาศเจตจำนงสุจริต</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Human">การบริหารทรัพยากรบุคคล</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Measures">มาตรการ ต่อการรับสินบน</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Policies">นโยบายและมาตรการให้ผู้มีส่วนได้ส่วนเสียมีส่วนร่วมในการดำเนินงาน</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-promote">มาตราการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>ความเป็นมา</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../history/?param=nav-goal">เป้าประสงค์</a></li>
+                                            <li><a class="dropdown-item w-100" href="../history/?param=nav-target">เป้าหมาย</a></li>
+                                            <li><a class="dropdown-item w-100" href="../history/?param=nav-Report">รายงานการประเมินผลการปฎิบัติงาน</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <a class="dropdown-item w-100" href="../law-relate/">กฎหมายที่เกี่ยวข้อง</a>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-act">พระราชบัญญัติ</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-RoyalDecree">พระราชกำหนด</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-decree">พระราชกฤษฎีกา</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <a class="dropdown-item w-100" href="../ethics/">จริยธรรม</a>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../authority/">อำนาจหน้าที่</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="submenu">
+                                <div class="column">
+                                    <div class="group">
+                                        <a class="dropdown-item" href="../purpose/?param=nav-Background">ประวัติความเป็นมา</a>
+                                        <a class="dropdown-item" href="../purpose/?param=nav-Vision">วิสัยทัศน์และพันธกิจ</a>
+                                        <a class="dropdown-item" href="#">วัฒนธรรมองค์กร</a>
+                                        <a class="dropdown-item" href="../purpose/?param=nav-Corporate">ค่านิยมองค์กร</a>
+                                        <span>โครงสร้างองค์กร</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../appoint-office/">คณะกรรมการสำนักงาน</a></li>
+                                            <li>
+                                                <a class="dropdown-item w-100" href="../audit-committee/">แต่งตั้งคณะกรรมการสำนักงาน</a>
+                                                <ul>
+                                                    <li><a class="dropdown-item w-100" href="../director/?param=nav-Committee">คณะกรรมการ</a></li>
+                                                    <li><a class="dropdown-item w-100" href="../director/?param=nav-Subcommittee">คณะอนุกรรมการ</a></li>
+                                                    <li><a class="dropdown-item w-100" href="../director/?param=nav-Working">คณะทำงาน</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="dropdown-item w-100" href="../work-classification/">โครงสร้างการจัดแบ่งส่วนงาน</a></li>
+                                            <li><a class="dropdown-item w-100" href="../office-committee/">ทำเนียบผู้บริหาร</a></li>
+                                        </ul>
+                                        <a class="dropdown-item w-100" href="../law-relate/">กฎหมายที่เกี่ยวข้อง</a>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-act">พระราชบัญญัติ</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-RoyalDecree">พระราชกำหนด</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-decree">พระราชกฤษฎีกา</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <a class="dropdown-item" href="../rules/">ข้อบังคับ</a>
+                                        <a class="dropdown-item" href="../regularity/">ระเบียบ</a>
+                                        <a class="dropdown-item" href="../announce/">ประกาศ</a>
+                                        <a class="dropdown-item" href="../charter/">กฎบัตร</a>
+                                        <a class="dropdown-item w-100" href="../ethics/">จริยธรรม</a>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../authority/">อำนาจหน้าที่</a></li>
+                                        </ul>
+                                        <span>ความเป็นมา</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../history/?param=nav-goal">เป้าประสงค์</a></li>
+                                            <li><a class="dropdown-item w-100" href="../history/?param=nav-target">เป้าหมาย</a></li>
+                                            <li><a class="dropdown-item w-100" href="../history/?param=nav-Report">รายงานการประเมินผลการปฎิบัติงาน</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <span>ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-strategic">ยุทธศาสตร์</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Annual">แผนการตรวจสอบประจำปี</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Human">แผนการดำเนินงานด้านบุคคล</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Budget">แผนการใช้จ่ายงบประมาณ</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-corruption">การปฎิบัติการป้องกันการทุจริต</a></li>
+                                            <li><a class="dropdown-item w-100" href="../strategy/?param=nav-Performance">ผลการดำเนินงาน</a></li>
+                                        </ul>
+                                        <span>นโยบายสำคัญ</span>
+                                        <ul>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Director">สารจากผู้อำนวยการ</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Declaration">ประกาศเจตจำนงสุจริต</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Human">การบริหารทรัพยากรบุคคล</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Measures">มาตรการ ต่อการรับสินบน</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-Policies">นโยบายและมาตรการให้ผู้มีส่วนได้ส่วนเสียมีส่วนร่วมในการดำเนินงาน</a></li>
+                                            <li><a class="dropdown-item w-100" href="../director/?param=nav-promote">มาตราการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="group">
+                                        <a class="dropdown-item" href="../monitor-judg/">มาตรการตรวจสอบการใช้ดุลยพินิจ</a>
+                                        <a class="dropdown-item" href="../annual-report/">รายงานประจำปี</a>
+                                        <a class="dropdown-item" href="../operating-results/">จัดซื้อจัดจ้าง</a>
+                                        <a class="dropdown-item" href="../appoint-officials/">เจ้าหน้าที่</a>
+                                        <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
+                                        <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
+                                        <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใส ในการดำเนินงานภาครัฐ</a>
+                                        <a class="dropdown-item" href="#">นโยบายและแนวปฎิบัติในการรักษาความมั่นคงปลอดภัยด้านสารสนเทศ</a>
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -234,7 +386,7 @@
                             <a class="dropdown-item" href="../journey/">ข้อมูลการติดต่อ</a>
                             <a class="dropdown-item" href="../contact-us/">ติดต่อเรา</a>
                             <a class="dropdown-item" href="../complaint/">เรื่องร้องเรียนการทุจริตและประพฤติมิชอบ</a>
-                            <!-- <a class="dropdown-item" href="../manual-and-service/">คู่มือ/แนวทางการให้บริการประชาชน</a> -->
+                            <a class="dropdown-item" href="../manual-and-service/">คู่มือ/แนวทางการให้บริการประชาชน</a>
                         </div>
                     </li>
                 </ul>
@@ -302,8 +454,8 @@
                             เครือข่ายพิพิธภัณฑ์เกษตรฯ
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">บุคคล</a>
-                            <a class="dropdown-item" href="#">ศูนย์การเรียนรู้</a>
+                            <a class="dropdown-item" href="../museum-central/?param=tab1">บุคคล</a>
+                            <a class="dropdown-item" href="../museum-central/?param=tab2">ศูนย์การเรียนรู้</a>
                         </div>
                     </div>
                 </div>

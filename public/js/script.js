@@ -81,7 +81,7 @@ $(function () {
   });
 
   if (getParameterByName('param') !== '') {
-    $('button[data-type=' + getParameterByName('param') + ']').click();
+    $('button[data-type=' + getParameterByName('param') + '],button[data-target=\'#' + getParameterByName('param') + '\']').click();
   }
 });
 

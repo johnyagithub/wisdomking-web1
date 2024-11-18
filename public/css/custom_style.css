@@ -2692,7 +2692,7 @@ ul.ul-style {
     }
 
 .--detail {
-  max-width: 1025px;
+  max-width: 950px;
   margin: auto;
   padding-bottom: 30px;
 }
@@ -3686,6 +3686,8 @@ footer {
   header #navbarMain .submenu {
     position: relative;
     width: 100%;
+    /* max-height: calc(100vh - 170px); */
+    overflow: auto;
   }
   header #navbarMain .submenu .column {
     display: flex;
@@ -3704,6 +3706,9 @@ footer {
     width: calc(100% / 4);
     margin-bottom: 10px;
   }
+  header #navbarMain .submenu .group >a.dropdown-item {
+    margin-bottom: 10px;
+  }
   header #navbarMain .submenu .group[data-column="4"] {
     width: 100%;
   }
@@ -3716,19 +3721,34 @@ footer {
   header #navbarMain .submenu .group ul {
     padding-left: 35px;
     list-style-type: disc;
+    margin-bottom: 15px;
   }
-  header #navbarMain .submenu .group[data-column="4"] ul {
+  header #navbarMain .submenu .group[data-column="4"] > ul {
     column-count: 4;
   }
-  header #navbarMain .submenu .group[data-column="3"] ul {
+  header #navbarMain .submenu .group[data-column="3"] > ul {
     column-count: 3;
   }
-  header #navbarMain .submenu .group[data-column="2"] ul {
+  header #navbarMain .submenu .group[data-column="2"] > ul {
     column-count: 2;
   }
   header #navbarMain .submenu .group a.dropdown-item {
     padding: 2px;
     color: #434343 !important;
+    white-space: normal;
+  }
+  header #navbarMain .submenu .group ul ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  header #navbarMain .submenu .group ul ul li {
+    position: relative;
+  }
+  header #navbarMain .submenu .group ul ul li::before {
+    content: "-";
+    position: absolute;
+    left: -17px;
+    top: 2px;
   }
 }
 /* ------------------- นอกเหนือ PC ------------------- */
