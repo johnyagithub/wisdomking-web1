@@ -7,19 +7,8 @@ $(function () {
       $('body').addClass("down");
     }
   });
-  
-  if ($(window).width() > 1025) {
-    // เพิ่มการเปิด dropdown เมื่อ hover
-    // $('header .dropdown,header .btn-group').hover(
-    //   function () {
-    //     $(this).addClass("show").find(".dropdown-menu").addClass("show");
-    //   },
-    //   function () {
-    //     $(this).removeClass("show").find(".dropdown-menu").removeClass("show");
-    //   }
-    // );
-  }
 
+  mySubmenu();
   styleSwitch();
   textSize();
   buttonTabCustom();
@@ -365,3 +354,39 @@ let sliderShow = () => {
     },
   });
 };
+
+let mySubmenu = () => {
+  if ($(window).width() > 1024) {
+    // เพิ่มการเปิด dropdown เมื่อ hover
+    $('header .dropdown,header .btn-group').hover(
+      function () {
+        $(this).addClass("show").find(".dropdown-menu").addClass("show");
+      },
+      function () {
+        $(this).removeClass("show").find(".dropdown-menu").removeClass("show");
+      }
+    );
+  } else {
+    $("header #navbarMain .submenu .group").click(function () {
+      $('#navbarMain').css('overflow', 'hidden');
+      $('#active-submenu').addClass('active').css('top',$('#navbarMain').scrollTop()).html($(this).html());
+      if ($(this).hasClass('active')) {
+        $(this).toggleClass('active');
+      } else {
+        $(this).closest('.submenu').find('.group').removeClass('active');
+        $(this).addClass('active');
+      }
+    });
+    $(document).on("click", "#active-submenu > span", function () {
+      $(this).closest('#active-submenu').removeClass('active');
+      $('#navbarMain').css('overflow', '');
+    });
+  }
+
+  $('.dropdown[data-bs-auto-close="false"] .dropdown-toggle').on('click', function (e) {
+    e.stopPropagation();
+    const $dropdown = $(this).closest('.dropdown');
+    $('.dropdown.show').not($dropdown).removeClass('show').find('.dropdown-menu').removeClass('show');
+    $dropdown.toggleClass('show').find('.dropdown-menu').toggleClass('show');
+  });
+}
