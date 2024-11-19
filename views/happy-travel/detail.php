@@ -140,39 +140,84 @@
 							<h5 class="text-center mb-4">ลงทะเบียนเข้าร่วมกิจกรรม</h5>
 							<div class="form-row">
 								<div class="form-group col-md-6">
-									<label for="">ประเภทองค์กร*</label>
+									<label for="input1">ชื่อ*</label>
+									<input type="text" class="form-control bg-white" id="input1" placeholder="กรุณาระบุชื่อ" required>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="input2">นามสกุล*</label>
+									<input type="text" class="form-control bg-white" id="input2" placeholder="กรุณาระบุนามสกุล" required>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="input2">ที่อยู่*</label>
+									<input type="text" class="form-control bg-white" id="input2" placeholder="กรุณาระบุที่อยู่" required>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="input3">เบอร์โทรศัพท์*</label>
+									<input type="tel" class="form-control bg-white" id="input3" placeholder="กรุณาระบุเบอร์โทรศัพท์"
+										required>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="input4">อีเมล*</label>
+									<input type="mail" class="form-control bg-white" id="input4" placeholder="กรุณาระบุอีเมล" required>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="">จำนวนที่เข้าร่วมกิจกรรม*</label>
 									<select class="templatingSelect2" required>
-										<option value="">กรุณาระบุประเภทองค์กร</option>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น ผู้ใหญ่ - เพศชาย*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
 										<option value="usd">USD</option>
 										<option value="euro">Euro</option>
 										<option value="gbp">Pound</option>
 									</select>
 								</div>
 								<div class="form-group col-md-6">
-									<label for="input1">หน่วยงาน/บริษัท*</label>
-									<input type="text" class="form-control bg-white" id="input1"
-										placeholder="กรุณาระบุชื่อหน่วยงาน/บริษัท" required>
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น ผู้ใหญ่ - เพศหญิง*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
 								</div>
 							</div>
 							<div class="form-row">
 								<div class="form-group col-md-6">
-									<label for="input2">ชื่อ*</label>
-									<input type="text" class="form-control bg-white" id="input2" placeholder="กรุณาระบุชื่อ" required>
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น เด็ก - เพศชาย*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
 								</div>
 								<div class="form-group col-md-6">
-									<label for="input3">นามสกุล*</label>
-									<input type="text" class="form-control bg-white" id="input3" placeholder="กรุณาระบุนามสกุล" required>
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น เด็ก - เพศหญิง*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="input4">เบอร์โทรศัพท์*</label>
-									<input type="tel" class="form-control bg-white" id="input4" placeholder="กรุณาระบุเบอร์โทรศัพท์"
-										required>
-								</div>
-								<div class="form-group col-md-6">
-									<label for="input5">อีเมล*</label>
-									<input type="mail" class="form-control bg-white" id="input5" placeholder="กรุณาระบุอีเมล" required>
+								<div class="form-group col-md-12">
+									<label for="input5">ข้อเสนอแนะ</label>
+									<textarea class="form-control bg-white" id="input5" rows="5"></textarea>
 								</div>
 							</div>
 							<div class="form-row">
@@ -203,14 +248,15 @@
 								</div>
 								<div class="form-check form-check-inline mr-4">
 									<input class="form-check-input mr-2" type="checkbox" id="inlineCheckbox2" value="option2">
-									<label class="form-check-label" for="inlineCheckbox2">ฉันยินดีให้ใช้ข้อมูลเพื่อส่งข่าวสารและโปรโมชั่น</label>
+									<label class="form-check-label"
+										for="inlineCheckbox2">ฉันยินดีให้ใช้ข้อมูลเพื่อส่งข่าวสารและโปรโมชั่น</label>
 								</div>
 							</div>
 							<div class="form-row justify-content-center py-4">
-								<div class="col-6 col-md-4 col-lg-2 px-1">
+								<div class="col-6 col-md-4 col-lg-3 px-1">
 									<button type="reset" class="btn btn-light border bg-white rounded-pill w-100">ยกเลิก</button>
 								</div>
-								<div class="col-6 col-md-4 col-lg-2 px-1">
+								<div class="col-6 col-md-4 col-lg-3 px-1">
 									<button type="submit" class="btn btn-style w-100">เข้าร่วมกิจกรรม</button>
 								</div>
 							</div>
@@ -218,8 +264,8 @@
 					</form>
 
 					<div class="py-4 border-top">
-						Share this:
-						<div class="d-flex flex-wrap my-3">
+						<div class="d-flex flex-wrap justify-content-center my-3">
+							<div class="mb-2 w-100 text-center text-sm-left">Share this:</div>
 							<div>
 								<a href="#" target="_blank">
 									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
@@ -231,10 +277,10 @@
 									<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
 								</a>
 							</div>
-							<div class="ml-auto d-inline-flex mt-4">
-								<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
+							<div class="mx-auto mr-sm-0 d-inline-flex flex-wrap mt-4 mt-sm-0">
+								<span class="border rounded-pill px-3 py-1 m-1">#COVID19</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#สงกรานต์</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#เดินทาง</span>
 							</div>
 						</div>
 					</div>
@@ -267,12 +313,14 @@
 	<!-- begin #footer -->
 	<?php include('../layouts/inc-footer.php'); ?>
 	<!-- end #footer -->
-			 
+
 	<?php include('../layouts/inc-script.php'); ?>
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>
-		$(".templatingSelect2").select2();
+		$(".templatingSelect2").select2({
+			minimumResultsForSearch: -1
+		});
 	</script>
 	<!-- FileUp -->
 	<script src="../../plugins/jQuery-AJAX-File-Uploader-FileUp/src/fileup.js"></script>

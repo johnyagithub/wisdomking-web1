@@ -3571,6 +3571,12 @@ footer {
       flex: 0 0 100% !important;
       max-width: 100% !important;
     }
+    .--detail>img {
+      width: calc(100% + 30px) !important;
+      max-width: none;
+      margin-left: -15px;
+      border-radius: 0px !important;
+    }
   } 
   /* แนวนอน */
   @media only screen and (orientation:landscape){

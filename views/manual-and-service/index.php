@@ -39,15 +39,23 @@
 				</div>
 				<div class="--detail">
 					<div>
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/378-0.34606700%201714362280-froalaeditor.png" alt="" class="d-block mx-auto rounded my-3">
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/872-0.13384800%201714443334-froalaeditor.jpg" alt="" class="d-block mx-auto rounded my-3">
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/343-0.09956800%201714104385-froalaeditor.jpg" alt="" class="d-block mx-auto rounded my-3">
-						<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/176-0.29811600%201714187755-froalaeditor.jpg" alt="" class="d-block mx-auto rounded my-3">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/378-0.34606700%201714362280-froalaeditor.png"
+							alt="" class="d-block mx-auto rounded my-3">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/872-0.13384800%201714443334-froalaeditor.jpg"
+							alt="" class="d-block mx-auto rounded my-3">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/343-0.09956800%201714104385-froalaeditor.jpg"
+							alt="" class="d-block mx-auto rounded my-3">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/176-0.29811600%201714187755-froalaeditor.jpg"
+							alt="" class="d-block mx-auto rounded my-3">
 					</div>
 
 					<div class="py-4 border-top mt-5">
-						Share this:
-						<div class="d-flex flex-wrap my-3">
+						<div class="d-flex flex-wrap justify-content-center my-3">
+							<div class="mb-2 w-100 text-center text-sm-left">Share this:</div>
 							<div>
 								<a href="#" target="_blank">
 									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
@@ -59,10 +67,10 @@
 									<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
 								</a>
 							</div>
-							<div class="ml-auto d-inline-flex mt-4">
-								<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
+							<div class="mx-auto mr-sm-0 d-inline-flex flex-wrap mt-4 mt-sm-0">
+								<span class="border rounded-pill px-3 py-1 m-1">#COVID19</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#สงกรานต์</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#เดินทาง</span>
 							</div>
 						</div>
 					</div>

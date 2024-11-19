@@ -68,13 +68,14 @@
 						<h5>เรื่องที่ 1</h5>
 						<p>เรื่องของพ่อในบ้านของเรา</p>
 						<img src="../../public/images/learning/img3.jpg" class="rounded d-block mx-auto my-4" alt="">
-						<p class="text-center">ร่วมเรียนรู้ไปพร้อมกับ 3 เพื่อนซี้จอมป่วน ที่จะพาชมเรื่องราวของพ่อ ผู้ทรงงานหนักเพื่อความสุขของลูก
+						<p class="text-center">ร่วมเรียนรู้ไปพร้อมกับ 3 เพื่อนซี้จอมป่วน ที่จะพาชมเรื่องราวของพ่อ
+							ผู้ทรงงานหนักเพื่อความสุขของลูก
 							ผลผลิตที่พ่อก่อออกผล อย่างไรกับบ้านของเรา</p>
 					</div>
 
 					<div class="py-4 border-top mt-5">
-						Share this:
-						<div class="d-flex flex-wrap my-3">
+						<div class="d-flex flex-wrap justify-content-center my-3">
+							<div class="mb-2 w-100 text-center text-sm-left">Share this:</div>
 							<div>
 								<a href="#" target="_blank">
 									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
@@ -86,10 +87,10 @@
 									<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
 								</a>
 							</div>
-							<div class="ml-auto d-inline-flex mt-4">
-								<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
+							<div class="mx-auto mr-sm-0 d-inline-flex flex-wrap mt-4 mt-sm-0">
+								<span class="border rounded-pill px-3 py-1 m-1">#COVID19</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#สงกรานต์</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#เดินทาง</span>
 							</div>
 						</div>
 					</div>
@@ -140,7 +141,8 @@
 				</div>
 				<div class="tab-content py-4">
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
-						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
@@ -194,7 +196,8 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
-						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">
@@ -212,7 +215,8 @@
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
-						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
+						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
+							data-itemSlide-mobile="1">
 
 							<a href="../learning/detail.php" class="item text-dark">
 								<div class="img">

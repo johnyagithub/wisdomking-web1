@@ -39,70 +39,41 @@
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
-				<div class="--detail">
-					<form action="#">
-						<div class="px-4">
-							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="input2">ชื่อ*</label>
-									<input type="text" class="form-control bg-white" id="input2" placeholder="กรุณาระบุชื่อ" required>
-								</div>
-								<div class="form-group col-md-6">
-									<label for="input3">นามสกุล*</label>
-									<input type="text" class="form-control bg-white" id="input3" placeholder="กรุณาระบุนามสกุล" required>
-								</div>
+				<div class="row">
+					<div class="col-md-4 col-lg-3 --sumMenu">
+
+						<div class="sticky-top" style="top: 113px;">
+							<a href="#" data-toggle="dropdown" aria-expanded="false">
+								ช่องทางแจ้งเรื่องร้องเรียน
+							</a>
+							<div class="sumMenu-profile dropdown-menu">
+								<a class="dropdown-item active" href="../complaint">
+									ช่องทางแจ้งเรื่องร้องเรียน
+								</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="../complaint/receive-complaints.php">
+									รับเรื่องร้องเรียน
+								</a>
 							</div>
-							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="input1">เบอร์โทรศัพท์*</label>
-									<input type="tel" class="form-control bg-white" id="input1" placeholder="กรุณาระบุเบอร์โทรศัพท์"
-										required>
-								</div>
-								<div class="form-group col-md-6">
-									<label for="input2">อีเมล*</label>
-									<input type="mail" class="form-control bg-white" id="input2" placeholder="กรุณาระบุอีเมล" required>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="form-group col-md-12">
-									<label for="input3">เรื่องร้องเรียน*</label>
-									<select class="templatingSelect2" id="input3" required>
-										<option value="">กรุณาระบุเรื่องร้องเรียน</option>
-										<option value="usd">USD</option>
-										<option value="euro">Euro</option>
-										<option value="gbp">Pound</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="form-group col-md-12">
-									<label for="input4">ข้อความ*</label>
-									<textarea class="form-control bg-white" id="input4" rows="5" required></textarea>
-								</div>
-							</div>
-							<div class="form-row justify-content-center pb-2">
-								<div class="form-check form-check-inline mr-4">
-									<input class="form-check-input mr-2" type="checkbox" id="inlineCheckbox1" value="option1">
-									<label class="form-check-label" for="inlineCheckbox1">ฉันได้อ่านและยอมรับนโยบายความเป็นส่วนตัว</label>
-								</div>
-								<div class="form-check form-check-inline mr-4">
-									<input class="form-check-input mr-2" type="checkbox" id="inlineCheckbox2" value="option2">
-									<label class="form-check-label"
-										for="inlineCheckbox2">ฉันยินดีให้ใช้ข้อมูลเพื่อส่งข่าวสารและโปรโมชั่น</label>
-								</div>
-							</div>
-							<div class="form-row justify-content-center py-4">
-								<div class="col-6 col-md-4 col-lg-2 px-1">
-									<button type="reset"
-										class="btn btn-light border bg-white rounded-pill w-100">ยกเลิกส่งข้อความ</button>
-								</div>
-								<div class="col-6 col-md-4 col-lg-2 px-1">
-									<button type="submit" class="btn btn-style w-100">ส่งข้อความ</button>
+						</div>
+
+					</div>
+					<div class="col mt-4 mb-mt-0">
+						<img
+							src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/523-0.57635200%201730880042-froalaeditor.png"
+							alt="" class="d-block mx-auto rounded">
+						<div class="mx-auto" style="max-width: 800px;">
+							<div class="list-download">
+								<div class="list">
+									<h6>ช่องทางแจ้งเรื่องร้องเรียน</h6>
+									<a class="btn btn-style" href="#" download="">ดาวน์โหลด</a>
 								</div>
 							</div>
 						</div>
-					</form>
+					</div>
+
 				</div>
+
 			</div>
 		</section>
 

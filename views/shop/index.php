@@ -67,10 +67,12 @@
 								<h6>สอบถามรายละเอียด โทร 081-567-2806</h6>
 								<div class="row row-p10">
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 								</div>
 								<h5>อาหาร กิน อยู่ ดี</h5>
@@ -80,10 +82,12 @@
 								<h6>สอบถามรายละเอียดที่เบอร์โทรศัพท์ 081-567-2806</h6>
 								<div class="row row-p10">
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 								</div>
 							</div>
@@ -100,13 +104,18 @@
 									</h6>
 								<div class="row row-p10">
 									<div class="col-12">
-										<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/344-0.00271400%201711766879-froalaeditor.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img
+											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/344-0.00271400%201711766879-froalaeditor.jpg"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/858-0.00365200%201711768111-froalaeditor.jpg" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img
+											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/858-0.00365200%201711768111-froalaeditor.jpg"
+											style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 								</div>
 								<h5>ร้านชื่นใจ</h5>
@@ -114,13 +123,17 @@
 									อีกมากมาย</h6>
 								<div class="row row-p10">
 									<div class="col-12">
-										<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/543-0.96327800%201711766754-froalaeditor.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img
+											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/543-0.96327800%201711766754-froalaeditor.jpg"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 								</div>
 								<h5>ร้านสดใส</h5>
@@ -128,13 +141,17 @@
 									เวชสำอาง สินค้าแปรรูป ผลิตภัณฑ์ แปรรูป จากเครือข่ายพิพิธภัณฑ์ การเกษตรฯ ทั่วประเทศ</h6>
 								<div class="row row-p10">
 									<div class="col-12">
-										<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/394-0.27748300%201711767896-froalaeditor.jpg" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img
+											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/394-0.27748300%201711767896-froalaeditor.jpg"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 								</div>
 							</div>
@@ -150,10 +167,12 @@
 										<img src="https://placehold.co/1000x600" class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+											class="mw-100 mx-auto d-block rounded my-3" alt="">
 									</div>
 								</div>
 							</div>
@@ -161,8 +180,8 @@
 					</div>
 
 					<div class="py-4 border-top mt-4">
-						Share this:
-						<div class="d-flex flex-wrap my-3">
+						<div class="d-flex flex-wrap justify-content-center my-3">
+							<div class="mb-2 w-100 text-center text-sm-left">Share this:</div>
 							<div>
 								<a href="#" target="_blank">
 									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
@@ -174,10 +193,10 @@
 									<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
 								</a>
 							</div>
-							<div class="ml-auto d-inline-flex mt-4">
-								<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
+							<div class="mx-auto mr-sm-0 d-inline-flex flex-wrap mt-4 mt-sm-0">
+								<span class="border rounded-pill px-3 py-1 m-1">#COVID19</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#สงกรานต์</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#เดินทาง</span>
 							</div>
 						</div>
 					</div>

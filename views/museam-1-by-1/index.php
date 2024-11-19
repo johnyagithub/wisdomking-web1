@@ -40,7 +40,8 @@
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">1 ไร่ มั่งคั่ง ยั่งยืน</h4>
-					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
 					<img src="https://placehold.co/600x300" class="rounded w-100" alt="">
@@ -76,8 +77,8 @@
 					</div>
 
 					<div class="py-4 border-top mt-5">
-						Share this:
-						<div class="d-flex flex-wrap my-3">
+						<div class="d-flex flex-wrap justify-content-center my-3">
+							<div class="mb-2 w-100 text-center text-sm-left">Share this:</div>
 							<div>
 								<a href="#" target="_blank">
 									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">
@@ -89,10 +90,10 @@
 									<img src="../../public/images/icon-x.png" style="width:24px;" class="m-1" alt="">
 								</a>
 							</div>
-							<div class="ml-auto d-inline-flex mt-4">
-								<span class="border rounded-pill px-3 py-1 mx-1">#COVID19</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#สงกรานต์</span>
-								<span class="border rounded-pill px-3 py-1 mx-1">#เดินทาง</span>
+							<div class="mx-auto mr-sm-0 d-inline-flex flex-wrap mt-4 mt-sm-0">
+								<span class="border rounded-pill px-3 py-1 m-1">#COVID19</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#สงกรานต์</span>
+								<span class="border rounded-pill px-3 py-1 m-1">#เดินทาง</span>
 							</div>
 						</div>
 					</div>
