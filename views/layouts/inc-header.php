@@ -64,8 +64,7 @@
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">นิทรรศการพิเศษ</a></li>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">สื่อสารงานพ่อสานต่องานแม่</a></li>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">พิพิธภัณฑ์กษัตริย์เกษตร</a></li>
-                      <li><a class="dropdown-item"
-                          href="../ourmuseum/detail.php">นิทรรศการสมเด็จพระบรมราชนนีพันปีหลวง</a></li>
+                      <li><a class="dropdown-item" href="../ourmuseum/detail.php">นิทรรศการสมเด็จพระบรมราชนนีพันปีหลวง</a></li>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">นิทรรศการจากเส้นด้าย สู่ลายผ้า</a>
                       </li>
                     </ul>
@@ -84,8 +83,7 @@
                     <span>พิพิธภัณฑ์กลางแจ้ง</span>
                     <ul>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">พิพิธภัณฑ์เกษตรตามรอยพ่อ</a></li>
-                      <li><a class="dropdown-item"
-                          href="../ourmuseum/detail.php">พิพิธภัณฑ์นวัตกรรมเกษตรเศรษฐกิจพอเพียง</a></li>
+                      <li><a class="dropdown-item" href="../ourmuseum/detail.php">พิพิธภัณฑ์นวัตกรรมเกษตรเศรษฐกิจพอเพียง</a></li>
                       <li><a class="dropdown-item" href="../project/">โครงการ อพ.สธ.</a>
                       </li>
                     </ul>
@@ -117,8 +115,7 @@
                     <span>สื่อการเรียนรู้ภาพยนตร์แอนิเมชั่น 2 มิติ</span>
                     <ul>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">เรื่อง 70 ปี กษัตริย์ เกษตร</a></li>
-                      <li><a class="dropdown-item" href="../ourmuseum/detail.php">เรื่อง
-                          มหัศจรรย์ผลิตพันธุ์แห่งความพอเพียง</a></li>
+                      <li><a class="dropdown-item" href="../ourmuseum/detail.php">เรื่อง มหัศจรรย์ผลิตพันธุ์แห่งความพอเพียง</a></li>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">เรื่อง ลูกของพ่อ</a></li>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">เรื่อง สวนยิ้มอิ่มใจ ตอนที่ 1</a></li>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">เรื่อง สวนยิ้มอิ่มใจ ตอนที่ 2</a></li>
@@ -190,8 +187,7 @@
               <a class="dropdown-item" href="../appoint-officials/">เจ้าหน้าที่</a>
               <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
               <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
-              <a class="dropdown-item"
-                href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
+              <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
               <a class="dropdown-item mr-auto" href="#">นโยบายและแนวปฎิบัติในการรักษาความมั่นคงปลอดภัยด้านสารสนเทศ</a>
               <div class="submenu">
                 <div class="column">
@@ -199,8 +195,7 @@
                     <span>ประวัติความเป็นมา</span>
                     <ul>
                       <li><a class="dropdown-item" href="../purpose/?param=nav-Background">ประวัติความเป็นมา</a></li>
-                      <li><a class="dropdown-item w-100" href="../purpose/?param=nav-Vision">วิสัยทัศน์และพันธกิจ</a>
-                      </li>
+                      <li><a class="dropdown-item w-100" href="../purpose/?param=nav-Vision">วิสัยทัศน์และพันธกิจ</a></li>
                       <li><a class="dropdown-item" href="#">วัฒนธรรมองค์กร</a></li>
                       <li><a class="dropdown-item" href="../purpose/?param=nav-Corporate">ค่านิยมองค์กร</a></li>
                     </ul>
@@ -212,8 +207,7 @@
                       <li><a class="dropdown-item" href="../strategy/?param=nav-Annual">แผนการตรวจสอบประจำปี</a></li>
                       <li><a class="dropdown-item" href="../strategy/?param=nav-Human">แผนการดำเนินงานด้านบุคคล</a></li>
                       <li><a class="dropdown-item" href="../strategy/?param=nav-Budget">แผนการใช้จ่ายงบประมาณ</a></li>
-                      <li><a class="dropdown-item"
-                          href="../strategy/?param=nav-corruption">การปฎิบัติการป้องกันการทุจริต</a></li>
+                      <li><a class="dropdown-item" href="../strategy/?param=nav-corruption">การปฎิบัติการป้องกันการทุจริต</a></li>
                       <li><a class="dropdown-item" href="../strategy/?param=nav-Performance">ผลการดำเนินงาน</a></li>
                     </ul>
                   </div>
@@ -237,15 +231,11 @@
                     <span>นโยบายสำคัญ</span>
                     <ul>
                       <li><a class="dropdown-item" href="../director/?param=nav-Director">สารจากผู้อำนวยการ</a></li>
-                      <li><a class="dropdown-item" href="../director/?param=nav-Declaration">ประกาศเจตจำนงสุจริต</a>
-                      </li>
+                      <li><a class="dropdown-item" href="../director/?param=nav-Declaration">ประกาศเจตจำนงสุจริต</a></li>
                       <li><a class="dropdown-item" href="../director/?param=nav-Human">การบริหารทรัพยากรบุคคล</a></li>
                       <li><a class="dropdown-item" href="../director/?param=nav-Measures">มาตรการต่อการรับสินบน</a></li>
-                      <li><a class="dropdown-item"
-                          href="../director/?param=nav-Policies">นโยบายและมาตรการให้ผู้มีส่วนได้ส่วนเสียมีส่วนร่วมในการดำเนินงาน</a>
-                      </li>
-                      <li><a class="dropdown-item"
-                          href="../director/?param=nav-promote">มาตราการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</a></li>
+                      <li><a class="dropdown-item" href="../director/?param=nav-Policies">นโยบายและมาตรการให้ผู้มีส่วนได้ส่วนเสียมีส่วนร่วมในการดำเนินงาน</a></li>
+                      <li><a class="dropdown-item" href="../director/?param=nav-promote">มาตราการส่งเสริมความโปร่งใสในการจัดซื้อจัดจ้าง</a></li>
                     </ul>
                   </div>
                   <div class="group">
@@ -253,8 +243,7 @@
                     <ul>
                       <li><a class="dropdown-item" href="../history/?param=nav-goal">เป้าประสงค์</a></li>
                       <li><a class="dropdown-item" href="../history/?param=nav-target">เป้าหมาย</a></li>
-                      <li><a class="dropdown-item"
-                          href="../history/?param=nav-Report">รายงานการประเมินผลการปฎิบัติงาน</a></li>
+                      <li><a class="dropdown-item" href="../history/?param=nav-Report">รายงานการประเมินผลการปฎิบัติงาน</a></li>
                     </ul>
                   </div>
                   <div class="group">
