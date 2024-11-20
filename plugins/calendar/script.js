@@ -48,6 +48,9 @@ $(function () {
               `);
             }
           }, 0);
+          if ((morning + evening) !== 0) {
+            return [day !== 0 , "have"];
+          }
           return [day !== 0, ""];
         } else {
           var dateString = date.toDateString();
