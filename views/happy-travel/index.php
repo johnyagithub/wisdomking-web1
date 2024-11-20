@@ -227,11 +227,6 @@
 	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
 	<script>
 		let myDatepicker = (el) => {
-			// อัปเดต ui-datepicker-title ด้วยวันที่ที่เลือก
-			setTimeout(() => {
-				$('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + el.split("/")[0] + '</span>');
-			}, 0);
-
 			$("#datepicker").val(el);
 			console.log('เลือกวันที่ ' + el);
 		}

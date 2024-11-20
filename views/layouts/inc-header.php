@@ -34,7 +34,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
               <a class="dropdown-item" href="../calendar-learn/">ตลาดเศรษฐกิจพอเพียง</a>
-              <a class="dropdown-item" href="../calendar-learn/">กิจกรรมต่างๆ</a>
+              <a class="dropdown-item" href="#">กิจกรรมต่างๆ</a>
               <a class="dropdown-item" href="../museam-1-by-1/">1ไร่ มั่งคั่ง ยั่งยืน</a>
               <a class="dropdown-item" href="../learning/">สื่อการเรียนรู้</a>
             </div>
@@ -247,16 +247,17 @@
                     </ul>
                   </div>
                   <div class="group">
-                    <a class="dropdown-item w-100" href="../law-relate/">กฎหมายที่เกี่ยวข้อง</a>
+                    <span>กฎหมายที่เกี่ยวข้อง</span>
                     <ul>
-                      <li><a class="dropdown-item" href="../director/?param=nav-act">พระราชบัญญัติ</a></li>
-                      <li><a class="dropdown-item" href="../director/?param=nav-RoyalDecree">พระราชกำหนด</a></li>
-                      <li><a class="dropdown-item" href="../director/?param=nav-decree">พระราชกฤษฎีกา</a></li>
+                      <li><a class="dropdown-item" href="../law-relate/?param=nav-act">พระราชบัญญัติ</a></li>
+                      <li><a class="dropdown-item" href="../law-relate/?param=nav-RoyalDecree">พระราชกำหนด</a></li>
+                      <li><a class="dropdown-item" href="../law-relate/?param=nav-decree">พระราชกฤษฎีกา</a></li>
                     </ul>
                   </div>
                   <div class="group">
-                    <a class="dropdown-item w-100" href="../ethics/">จริยธรรม</a>
+                    <span>จริยธรรม</span>
                     <ul>
+                      <li><a class="dropdown-item" href="../ethics/">จริยธรรม</a></li>
                       <li><a class="dropdown-item" href="../authority/">อำนาจหน้าที่</a></li>
                     </ul>
                   </div>
@@ -386,8 +387,6 @@
             </ul>
           </div>
         </div>
-
-        <div id="active-submenu"></div>
       </div>
       <div class="box-shadow"></div>
     </div>

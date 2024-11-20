@@ -207,7 +207,7 @@
 			window.invalidDate = [
 				new Date("2024-11-07").toDateString(),
 				new Date("2024-11-09").toDateString(),
-				new Date("2024-11-10").toDateString(),
+				new Date("2024-11-20").toDateString(),
 				new Date("2024-12-02").toDateString(),
 				new Date("2024-12-03").toDateString(),
 				new Date("2024-12-09").toDateString(),
@@ -228,11 +228,6 @@
 	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
 	<script>
 		let myDatepicker = (el) => {
-			// อัปเดต ui-datepicker-title ด้วยวันที่ที่เลือก
-			setTimeout(() => {
-				$('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + el.split("/")[0] + '</span>');
-			}, 0);
-
 			$("#datepicker").val(el);
 			console.log('เลือกวันที่ ' + el);
 		}

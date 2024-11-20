@@ -97,12 +97,21 @@
       }
 
 .box-calendar-style {
-  
+  --s1-color: #FF5656;
+  --s2-color: #FFA500;
+  --s3-color: #31BBAD;
 }
   .box-calendar-style table.ui-datepicker-calendar {
+    position: relative;
     max-width: 100%;
     overflow: auto;
     display: block;
+  }
+  .box-calendar-style .dateParent[data-click="doNot"] table.ui-datepicker-calendar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
   }
     .box-calendar-style table.ui-datepicker-calendar thead {
       display: none;
@@ -112,10 +121,14 @@
       position: relative;
       justify-content: center;
     }
+    .box-calendar-style table.ui-datepicker-calendar tbody tr {
+      display: contents;
+    }
       .box-calendar-style table.ui-datepicker-calendar tbody td {
         width: calc(100vw / 30);
         text-align: center;
         padding: 0px;
+        position: relative;
       }
       .box-calendar-style table.ui-datepicker-calendar tbody td.ui-datepicker-other-month {
         display: none;
@@ -164,6 +177,36 @@
           align-items: center;
           margin: 11px auto;
         }
+        .box-calendar-style table.ui-datepicker-calendar tbody td .pin {
+          z-index: 1;
+          position: relative;
+          margin-top: 20px;
+        }
+        .box-calendar-style table.ui-datepicker-calendar tbody td .pin::after {
+          content: "";
+          border-bottom: 1px solid #E0E0E0;
+          width: 28px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i] {
+            color: #fff;
+            background: var(--s2-color);
+          }
+          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="0"] {
+            color: #676767;
+            background: #F2F2F2;
+            pointer-events: none;
+          }
+          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="1"] {
+            background: var(--s1-color);
+          }
+          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="4"] {
+            background: var(--s3-color);
+          }
+
         .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+1) span.ui-state-default {
           opacity: .4;
         }
@@ -219,9 +262,6 @@
             margin-right: 10px;
           }
 
-  .box-calendar-style table.ui-datepicker-calendar {
-    position: relative;
-  }
   .box-calendar-style.Loading table.ui-datepicker-calendar {
     overflow: hidden;
   }
@@ -244,6 +284,47 @@
       display: flex;
       visibility: visible;
     }
+
+  .box-calendar-style .box-note {
+    background-color: #f7fbfb;
+    padding: 10px;
+    display: flex;
+    flex-flow: wrap;
+    font-size: 14px;
+    color: #838383;
+    border-radius: 5px;
+    margin: 20px 0px;
+  }
+    .box-calendar-style .box-note .-note {
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin-left: auto;
+        margin-bottom: 0px;
+    }
+      .box-calendar-style .box-note .-note li {
+        color: #37A28A;
+        margin-left: 33px;
+        position: relative;
+      }
+        .box-calendar-style .box-note .-note li::before {
+          content: "";
+          background: var(--s1-color);
+          font-size: 26px;
+          width: 11px;
+          aspect-ratio: 1;
+          position: absolute;
+          left: -18px;
+          top: 5px;
+          border-radius: 50%;
+        }
+        .box-calendar-style .box-note .-note li:nth-child(2):before {
+          background: var(--s2-color);
+        }
+        .box-calendar-style .box-note .-note li:nth-child(3):before {
+          background: var(--s3-color);
+        }
 
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {

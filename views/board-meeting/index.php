@@ -48,8 +48,8 @@
 					</div>
 
 					<div class="py-4 border-top">
-						<div class="d-flex flex-wrap justify-content-center my-3">
-							<div class="mb-2 w-100 text-center text-sm-left">Share this:</div>
+						<div class="d-flex flex-wrap justify-content-center align-items-center my-3">
+							<div class="box-Share">Share this:</div>
 							<div>
 								<a href="#" target="_blank">
 									<img src="../../public/images/icon-fb2.png" style="width:24px;" class="m-1" alt="">

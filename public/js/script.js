@@ -367,6 +367,7 @@ let mySubmenu = () => {
       }
     );
   } else {
+    $("#navbarMain").append("<div id=\"active-submenu\"></div>");
     $("header #navbarMain .submenu .group").click(function () {
       $('#navbarMain').css('overflow', 'hidden');
       $('#active-submenu').addClass('active').css('top',$('#navbarMain').scrollTop()).html($(this).html());

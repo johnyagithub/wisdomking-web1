@@ -1818,6 +1818,11 @@ header #navbarMain .navbar-nav li.nav-item.dropdown:hover a.nav-link {
     align-items: center;
   }
 
+.box-Share {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
 .owl-nav {
 	position: absolute;
 	top: 50%;
@@ -3574,8 +3579,12 @@ footer {
     .--detail>img {
       width: calc(100% + 30px) !important;
       max-width: none;
-      margin-left: -15px;
+      margin-left: -15px !important;
       border-radius: 0px !important;
+    }
+    .box-Share {
+      width: auto;
+      margin: 0px 5px 0px 0px;
     }
   } 
   /* แนวนอน */
@@ -3918,6 +3927,10 @@ footer {
     position: relative;
     color: #141414 !important;
     font-weight: 100;
+  }
+  header #navbarMain .navbar-nav .dropdown-item:hover {
+    color: var(--primary) !important;
+    background: transparent;
   }
   header #navbarMain .navbar-nav .dropdown-item::after {
     content: "";

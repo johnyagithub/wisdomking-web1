@@ -2,6 +2,9 @@ $(function () {
   if (!window.invalidDate) {
     console.error("ไม่พบ invalidDate กรุณาตรวจสอบลำดับการโหลดของสคริปต์");
   } else {
+    // กำหนดวันที่ปัจจุบัน
+    let today = new Date();
+
     $('.dateParent').datepicker({
       dateFormat: 'dd/mm/yy',
       inline: true,
@@ -11,21 +14,56 @@ $(function () {
       monthNamesShort: ['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'],
       beforeShowDay: function (date) {
         var dateString = date.toDateString();
-        // เช็คว่าวันที่อยู่ใน invalidDate หรือไม่
-        if (invalidDate.includes(dateString)) {
-          return [true, "have"]; // เฉพาะวันที่อยู่ใน invalidDate เท่านั้นที่สามารถเลือกได้
-        }
-        return [false, ""]; // วันที่อื่น ๆ กดไม่ได้
+        let dataClick = $(".dateParent").data("click");
+
+        // กำหนด targetDate จาก date ที่ส่งเข้ามา
+        let targetDate = new Date(date);
+
+        // ค้นหาวันที่ตรงจาก window.invalidDate
+        let matchedDate = window.invalidDate.find(d => d.date === dateString);
+
+        // ตรวจสอบว่า matchedDate มีข้อมูลหรือไม่
+        let morning = matchedDate ? matchedDate.morning : 0;
+        let evening = matchedDate ? matchedDate.evening : 0;
 
         // อนุญาตให้เลือกวันอื่นๆ ยกเว้นวันอาทิตย์
-        // var day = date.getDay();
-        // return [day !== 0, ""];
+        var day = date.getDay();  // ตรวจสอบวันในสัปดาห์
+
+        if (dataClick === "doNot") {
+          setTimeout(function () {
+            // ค้นหา <td> ที่ตรงกับเดือนและปีของ targetDate
+            let $targetTd = $(`td[data-month="${targetDate.getMonth()}"][data-year="${targetDate.getFullYear()}"]`);
+
+            // ค้นหา <a> ภายใน <td> ที่ตรงกับวันที่
+            let $targetA = $targetTd.find(`a[data-date="${targetDate.getDate()}"]`);
+
+            let today = new Date();
+            today.setHours(0, 0, 0, 0);
+            if (targetDate >= today && $targetA.next('.pin').length === 0) {
+              $targetA.after(`
+                <div class="pin">
+                  <a class="a-morning" href="#" data-i="${morning}">${morning}</a>
+                  <a class="a-evening" href="#" data-i="${evening}">${evening}</a>
+                </div>
+              `);
+            }
+          }, 0);
+          return [day !== 0, ""];
+        } else {
+          var dateString = date.toDateString();
+          // เช็คว่าวันที่อยู่ใน invalidDate หรือไม่
+          if (invalidDate.includes(dateString)) {
+            return [true, "have"]; // เฉพาะวันที่อยู่ใน invalidDate เท่านั้นที่สามารถเลือกได้
+          }
+          return [false, ""]; // วันที่อื่น ๆ กดไม่ได้
+        }
       },
       onChangeMonthYear: function (year, month, inst) {
         // เปลี่ยนปีที่แสดงใน header เป็นปีไทย
         var thaiYear = year + 543; // แปลงปีเป็นปีไทย
         setTimeout(function () {
           inst.dpDiv.find('.ui-datepicker-year').text(thaiYear); // เปลี่ยนปีที่แสดง
+          $(".box-calendar-style table.ui-datepicker-calendar tbody td a.ui-state-active").click();
         }, 0);
         // เรียกใช้ฟังก์ชันอัปเดตปุ่ม "Prev" และ "Next"
         updateMonthButton(inst, 'prev');
@@ -58,8 +96,15 @@ $(function () {
 
         //เอาไปใช้ query ข้อมูล
         myDatepicker(formattedDate);
+        setTimeout(() => {
+          $('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + formattedDate.split("/")[0] + '</span>');
+        }, 0);
       }
     });
+
+    // ตั้งค่าให้วันที่ปัจจุบันถูกเลือกในช่องป้อนข้อมูล
+    $(".dateParent").datepicker("setDate", today);
+    $(".box-calendar-style .ui-datepicker-calendar .ui-datepicker-today a").click();
 
     // อัปเดตปุ่ม "Prev" และ "Next" ทันทีเมื่อโหลดหน้าเว็บ
     var inst = $.datepicker._getInst($('.dateParent')[0]);
