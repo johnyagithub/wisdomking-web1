@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@charset "iso-8859-15";
+
+#join-project {
+
+}
+  #join-project [class*=b-status] {
+    display: none;
+  }
+  #join-project[data-status="2"] .b-status2 ,
+  #join-project[data-status="3"] .b-status3 ,
+  #join-project[data-status="4"] .b-status4 {
+    display: block;
+  }
+
+.box-status {
+  
+}
+
+.box-form-course {
+  border: 1px solid #CCCCCC;
+  padding: 15px;
+  border-radius: var(--border_radius);
+}
+  .box-form-course .-paper {
+    border-radius: var(--border_radius);
+    padding: 25px;
+    background: rgb(249 249 249 / 60%);
+  }
+    .box-form-course .-number {
+      background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+      width: 48px;
+      aspect-ratio: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 24px;
+      border-radius: 50%;
+      margin-right: 12px;
+      margin-top: -8px;
+    }
+    .box-form-course .form-check {
+      margin-bottom: 10px;
+    }
+      .box-form-course .form-check-label {
+        margin-left: 5px;
+      }
+      .box-form-course .column-pc-2 {
+        column-count: 2;
+      }
+      .box-form-course .has-error {
+        background: rgb(207 26 26 / 7%);
+        outline: 12px solid rgb(207 26 26 / 7%);
+      }
+
+/* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+
+}
+
+/* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  /* แนวตั้ง */
+  @media only screen and (orientation:portrait){
+    
+  }
+  /* แนวนอน */
+  @media only screen and (orientation:landscape){
+
+  }
+}
+
+/* ---------------------------------------------------**** Mobile ****--------------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .box-form-course .column-pc-2 {
+    column-count: 1;
+  }
+ /* แนวตั้ง */
+ @media only screen and (orientation:portrait){
+  .box-form-course .-paper {
+    padding: 15px;
+  }
+ } 
+ /* แนวนอน */
+ @media only screen and (orientation:landscape){
+  
+ }
+}
