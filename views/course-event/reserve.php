@@ -38,7 +38,7 @@
 					fghfd
 				</div>
 
-				<form action="#" class="my-4">
+				<form id="form-course" class="my-4" novalidate>
 					<div class="box-form-course">
 						<div class="d-flex align-items-start pt-3">
 							<div class="-number">1</div>
@@ -62,8 +62,8 @@
 						<div class="-paper">
 							<!-- Section: เลือกภาพยนตร์ 3 มิติ -->
 							<div class="mb-4">
-								<h6>*1. เลือกภาพยนตร์ 3 มิติ <b class="text-danger">ได้ 1 เรื่อง</b></h6>
-								<div class="row group-choose1 px-2">
+								<div class="row row-p10 m-0 group-choose1">
+									<h6 class="col-12 p-0">*1. เลือกภาพยนตร์ 3 มิติ <b class="text-danger">ได้ 1 เรื่อง</b></h6>
 									<div class="col-12 column-pc-2">
 										<div class="form-check">
 											<input class="form-check-input" type="checkbox" id="movie1">
@@ -107,8 +107,8 @@
 
 							<!-- Section: เลือกกิจกรรมสร้างสรรค์ -->
 							<div class="mb-4">
-								<h6>*2. เลือกกิจกรรมสร้างสรรค์ความคิด <b class="text-danger">ได้ 1 กิจกรรม</b></h6>
-								<div class="row group-choose1 px-2">
+								<div class="row row-p10 m-0 group-choose1">
+									<h6 class="col-12 p-0">*2. เลือกกิจกรรมสร้างสรรค์ความคิด <b class="text-danger">ได้ 1 กิจกรรม</b></h6>
 									<div class="col-md-6">
 										<h6>ระดับขั้นประถมปลาย - ประชาชนทั่วไป</h6>
 										<div class="form-check">
@@ -345,6 +345,7 @@
 	<!-- checkbox -->
 	<script>
 		$(document).ready(function() {
+			$(".box-form-course .form-check-input").prop('required', true);
 
 			$(".group-choose1").each(function() {
 				$(this).find('.form-check-input[type="checkbox"]').on('change', function() {
@@ -353,6 +354,14 @@
 						.find('.form-check-input[type="checkbox"]')
 						.not(this)
 						.prop('checked', false);
+
+					// ตรวจสอบว่ามี checkbox ใดในกลุ่มถูกเลือกหรือไม่
+					var $group = $(this).closest(".group-choose1");
+					if ($group.find('.form-check-input:checked').length > 0) {
+						$group.removeClass('has-error').find('.form-check-input').prop('required', false); // ลบ required เมื่อมีการเลือก
+					} else {
+						$group.find('.form-check-input').prop('required', true); // เพิ่ม required เมื่อไม่มีการเลือก
+					}
 				});
 			});
 
@@ -367,14 +376,37 @@
 					// ตรวจสอบและตั้งค่า
 					if (selectedCount >= 3) {
 						$currentRow.find('.form-check-input:not(:checked)').prop('disabled', true); // disable checkbox อื่นใน row เดียวกัน
+						$(".group-choose3").removeClass('has-error').find(".form-check-input").prop('required', false); // ลบ required ถ้ามีการเลือกแล้ว
 					} else {
 						$currentRow.find('.form-check-input').prop('disabled', false); // enable checkbox ทั้งหมดใน row เดียวกัน
+						$currentRow.find(".form-check-input").prop('required', true); // เพิ่ม required ถ้าไม่มีการเลือก
 					}
 
 					// ยกเลิก checkbox ที่ถูกเลือกใน row อื่น
 					$(".group-choose3 .row").not($currentRow).find('.form-check-input:checked').prop('checked', false);
 					$(".group-choose3 .row").not($currentRow).find('.form-check-input').prop('disabled', false);
 				}, 0);
+			});
+
+			$(document).on("submit", "#form-course", function(e) {
+				let isValid = true; // ตัวแปรสถานะการตรวจสอบ
+				$("[class*=group-choose]").each(function() {
+					const $group = $(this); // อ้างถึงกลุ่มปัจจุบัน
+					const hasUnselectedRequired = $group.find('.form-check-input:required').length > 0;
+
+					if (hasUnselectedRequired) {
+						isValid = false; // ถ้ามีกลุ่มไหน required
+						$group.addClass("has-error"); // เพิ่มคลาสแสดงข้อผิดพลาด
+					} else {
+						$group.removeClass("has-error"); // ลบคลาสข้อผิดพลาดหากเลือกแล้ว
+					}
+				});
+
+				// ถ้ามีกลุ่มไหนยังไม่ได้เลือก ให้หยุดการ submit
+				if (!isValid) {
+					e.preventDefault(); // ป้องกันการ submit
+					alert("กรุณาเลือกตัวเลือกให้ครบในแต่ละกลุ่มที่จำเป็นก่อนส่งแบบฟอร์ม"); // แจ้งเตือนผู้ใช้
+				}
 			});
 
 		});

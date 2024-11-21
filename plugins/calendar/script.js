@@ -36,7 +36,6 @@ $(function () {
             // ค้นหา <a> ภายใน <td> ที่ตรงกับวันที่
             let $targetA = $targetTd.find(`a[data-date="${targetDate.getDate()}"]`);
 
-            let today = new Date();
             today.setHours(0, 0, 0, 0);
             if (targetDate >= today && $targetA.next('.pin').length === 0) {
               const createPinLink = (data, className) => `
@@ -86,6 +85,7 @@ $(function () {
           }
         }, 0);
         fancyboxPopup();
+        scrollToday();
       },
       onSelect: function (dateText) {
         $('.box-calendar-style').addClass('Loading');
@@ -125,7 +125,6 @@ $(function () {
             }
           }
         }, 0);
-
         fancyboxPopup();
       }
     });
@@ -139,6 +138,7 @@ $(function () {
     updateMonthButton(inst, 'prev');
     updateMonthButton(inst, 'next');
     fancyboxPopup();
+    scrollToday();
 
     // เริ่มต้นแสดงปีไทยเมื่อเปิดปฏิทิน
     var initialDate = $('.dateParent').datepicker('getDate');
@@ -161,6 +161,7 @@ let updateMonthButton = (inst, direction) => {
   let thaiYear = currentYear + 543;
   setTimeout(() => { inst.dpDiv.find('.ui-datepicker-' + direction).text(`${monthName} ${thaiYear}`); }, 0);
 }
+
 let fancyboxPopup = () => {
   setTimeout(() => {
     $('.pin .a-morning, .pin .a-evening').on('click', function (e) {
@@ -176,5 +177,26 @@ let fancyboxPopup = () => {
       $('#popup .--content').html($(this).find('ol').clone());
       $.fancybox.open({ src: "#popup", type: "inline" });
     });
+  }, 500);
+}
+
+let scrollToday = () => {
+  setTimeout(() => {
+    const container = $('.box-calendar-style table.ui-datepicker-calendar'); // div ที่สามารถ scroll ได้
+    const todayElement = $('.ui-datepicker-today'); // element ของวันนี้ใน datepicker
+
+    if (container.length && todayElement.length) {
+      const todayPosition = todayElement.offset().left - container.offset().left;
+      const containerWidth = container.width();
+      const todayWidth = todayElement.outerWidth();
+
+      // คำนวณตำแหน่งเลื่อน
+      const scrollToPosition = ($(".dateParent").data("click") === "doNot")
+        ? todayPosition // ชิดซ้าย
+        : todayPosition - (containerWidth / 2) + (todayWidth / 2); // ตรงกลาง
+
+      // เลื่อน container ไปตำแหน่งที่คำนวณ
+      container.animate({ scrollLeft: scrollToPosition }, 500);
+    }
   }, 500);
 }

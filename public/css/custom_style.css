@@ -2819,6 +2819,10 @@ ul.ul-style {
       .box-form-course .column-pc-2 {
         column-count: 2;
       }
+      .box-form-course .has-error {
+        background: rgb(207 26 26 / 7%);
+        outline: 12px solid rgb(207 26 26 / 7%);
+      }
 
 .box-Learning {
   
