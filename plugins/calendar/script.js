@@ -44,13 +44,13 @@ $(function () {
                   <a class="a-morning" href="javascript:;" data-i="${morning.length}">
                     ${morning.length}
                     <ul>
-                      ${morning.map(value => `<li>${encodeURIComponent(value)}</li>`).join('')}
+                      ${morning.map(value => `<li>${value}</li>`).join('')}
                     </ul>
                   </a>
                   <a class="a-evening" href="javascript:;" data-i="${evening.length}">
                     ${evening.length}
                     <ul>
-                      ${evening.map(value => `<li>${encodeURIComponent(value)}</li>`).join('')}
+                      ${evening.map(value => `<li>${value}</li>`).join('')}
                     </ul>
                   </a>
                 </div>
