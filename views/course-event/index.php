@@ -242,6 +242,16 @@
 	</div>
 	<!-- end #content -->
 
+	<!--  begin popup -->
+	<div id="popup" style="display: none;width: 500px;">
+		<div class="-popup">
+			<div class="--content"></div>
+			<button type="button" data-fancybox-close="" class="btn btn-style d-block mx-auto mt-4"
+				style="width: 230px;">ตกลง</button>
+		</div>
+	</div>
+	<!-- end popup -->
+
 	<!-- begin #footer -->
 	<?php include('../layouts/inc-footer.php'); ?>
 	<!-- end #footer -->
@@ -252,21 +262,20 @@
 		$(function () {
 			// วันที่มีข้อมูล
 			window.invalidDate = [
-				{ date: new Date("2024-11-20").toDateString(), morning: 4, evening: 4 },
-				{ date: new Date("2024-11-21").toDateString(), morning: 4, evening: 4 },
-				{ date: new Date("2024-11-22").toDateString(), morning: 1, evening: 3 },
-				{ date: new Date("2024-11-23").toDateString(), morning: 2, evening: 1 },
-				{ date: new Date("2024-11-25").toDateString(), morning: 4, evening: 0 },
-				{ date: new Date("2024-11-26").toDateString(), morning: 0, evening: 3 },
-				{ date: new Date("2024-11-30").toDateString(), morning: 2, evening: 1 },
-				{ date: new Date("2024-12-02").toDateString(), morning: 0, evening: 0 },
+				{ date: new Date("2024-11-21").toDateString(), morning: ['นานา สิ', 'วัน ที่'], evening: ['a', 'b', 'b', 'b'] },
+				{ date: new Date("2024-11-22").toDateString(), morning: ['a', 'b', 'b'], evening: ['a'] },
+				{ date: new Date("2024-11-23").toDateString(), morning: ['a', 'b'], evening: ['a', 'b', 'b'] },
+				{ date: new Date("2024-11-25").toDateString(), morning: ['a', 'b', 'b', 'b'], evening: ['a', 'b', 'b', 'b'] },
+				{ date: new Date("2024-11-26").toDateString(), evening: ['a'] },
+				{ date: new Date("2024-11-27").toDateString(), morning: ['a'] },
+				{ date: new Date("2024-11-30").toDateString(), morning: ['a'], evening: ['a'] },
+				{ date: new Date("2024-12-05").toDateString(), morning: ['a', 'b'], evening: ['a'] },
+				{ date: new Date("2024-12-20").toDateString(), morning: ['a', 'b'], evening: ['a'] }
 			];
 		});
 	</script>
 	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
-	<script>
-		let myDatepicker = (el) => { }
-	</script>
+
 </body>
 
 </html>

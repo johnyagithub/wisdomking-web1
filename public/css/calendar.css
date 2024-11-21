@@ -129,6 +129,7 @@
         text-align: center;
         padding: 0px;
         position: relative;
+        min-width: min-content;
       }
       .box-calendar-style table.ui-datepicker-calendar tbody td.ui-datepicker-other-month {
         display: none;
@@ -206,6 +207,10 @@
           .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="4"] {
             background: var(--s3-color);
           }
+            .box-calendar-style table.ui-datepicker-calendar tbody td a[data-fancybox]::after ,
+            .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i] > ul {
+              display: none;
+            }
 
         .box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+1) span.ui-state-default {
           opacity: .4;
@@ -214,7 +219,8 @@
           background-color: #CCCCCC;
           color: #fff;
         }
-        .box-calendar-style table.ui-datepicker-calendar tbody td a.ui-state-active {
+        .box-calendar-style .dateParent:not([data-click="doNot"]) table.ui-datepicker-calendar tbody td a.ui-state-active ,
+        .box-calendar-style .dateParent[data-click="doNot"] table.ui-datepicker-calendar tbody td.ui-datepicker-today a {
           color: #fff !important;
           background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
         }
@@ -335,6 +341,9 @@
   .box-calendar-style table.ui-datepicker-calendar tbody td a {
     margin: 11px 3px;
   }
+  /* .box-calendar-style table.ui-datepicker-calendar tbody tr {
+    display: block;
+  } */
 }
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
