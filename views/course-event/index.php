@@ -46,21 +46,7 @@
 					</div>
 				</div>
 
-				<div class="box-calendar-style">
-					<h5 class="text-center">วันที่เข้าร่วมหลักสูตร</h5>
-					<div class="dateParent" data-click="doNot">
-						<input type="hidden" id="datepicker" value="" readonly>
-					</div>
-
-					<div class="box-note">
-						<h6>หมายเหตุ : คลิกที่วันเพื่อแสดงกิจกรรมต่างๆ ที่มีในวันนั้น</h6>
-						<ul class="-note">
-							<li>เต็ม</li>
-							<li>น้อยกว่า 50%</li>
-							<li>มากกว่า 50%</li>
-						</ul>
-					</div>
-				</div>
+				<?php include('inc-course-event.php'); ?>
 
 				<div class="box-Course pb-4">
 
@@ -245,6 +231,11 @@
 	<!--  begin popup -->
 	<div id="popup" style="display: none;width: 500px;">
 		<div class="-popup">
+			<h3>รายชื่อผู้เข้าร่วมหลักสูตร</h3>
+			<h5>
+				ช่วง <span class="--time"></span> ของวันที่ <span class="--day"></span><br>
+				จำนวน <span class="--quantity"></span> ท่าน
+			</h5>
 			<div class="--content"></div>
 			<button type="button" data-fancybox-close="" class="btn btn-style d-block mx-auto mt-4"
 				style="width: 230px;">ตกลง</button>
@@ -258,22 +249,6 @@
 
 	<?php include('../layouts/inc-script.php'); ?>
 	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" type="text/javascript"></script>
-	<script>
-		$(function () {
-			// วันที่มีข้อมูล
-			window.invalidDate = [
-				{ date: new Date("2024-11-21").toDateString(), morning: ['นานา สิ', 'วัน ที่'], evening: ['a', 'b', 'b', 'b'] },
-				{ date: new Date("2024-11-22").toDateString(), morning: ['a', 'b', 'b'], evening: ['a'] },
-				{ date: new Date("2024-11-23").toDateString(), morning: ['a', 'b'], evening: ['a', 'b', 'b'] },
-				{ date: new Date("2024-11-25").toDateString(), morning: ['a', 'b', 'b', 'b'], evening: ['a', 'b', 'b', 'b'] },
-				{ date: new Date("2024-11-26").toDateString(), evening: ['a'] },
-				{ date: new Date("2024-11-27").toDateString(), morning: ['a'] },
-				{ date: new Date("2024-11-30").toDateString(), morning: ['a'], evening: ['a'] },
-				{ date: new Date("2024-12-05").toDateString(), morning: ['a', 'b'], evening: ['a'] },
-				{ date: new Date("2024-12-20").toDateString(), morning: ['a', 'b'], evening: ['a'] }
-			];
-		});
-	</script>
 	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
 
 </body>

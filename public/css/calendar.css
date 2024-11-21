@@ -202,13 +202,13 @@
             pointer-events: none;
           }
           .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="1"] {
-            background: var(--s1-color);
-          }
-          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="4"] {
             background: var(--s3-color);
           }
+          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="4"] {
+            background: var(--s1-color);
+          }
             .box-calendar-style table.ui-datepicker-calendar tbody td a[data-fancybox]::after ,
-            .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i] > ul {
+            .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i] > ol {
               display: none;
             }
 
@@ -219,8 +219,8 @@
           background-color: #CCCCCC;
           color: #fff;
         }
-        .box-calendar-style .dateParent:not([data-click="doNot"]) table.ui-datepicker-calendar tbody td a.ui-state-active ,
-        .box-calendar-style .dateParent[data-click="doNot"] table.ui-datepicker-calendar tbody td.ui-datepicker-today a {
+        .box-calendar-style .dateParent:not([data-click="doNot"]) table.ui-datepicker-calendar tbody td > a.ui-state-active ,
+        .box-calendar-style .dateParent[data-click="doNot"] table.ui-datepicker-calendar tbody td.ui-datepicker-today > a {
           color: #fff !important;
           background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
         }
@@ -331,6 +331,22 @@
         .box-calendar-style .box-note .-note li:nth-child(3):before {
           background: var(--s3-color);
         }
+
+#popup {
+
+}
+  #popup .-popup {text-align: center;}
+  #popup .--content {
+
+  }
+    #popup .--content ol {
+      text-align: left;
+      display: inline-block;
+      margin-bottom: 0px;
+    }
+      #popup .--content li {
+
+      }
 
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {

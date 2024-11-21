@@ -39,20 +39,17 @@ $(function () {
             let today = new Date();
             today.setHours(0, 0, 0, 0);
             if (targetDate >= today && $targetA.next('.pin').length === 0) {
+              const createPinLink = (data, className) => `
+                <a class="${className}" href="javascript:;" data-i="${data.length}">
+                  ${data.length}
+                  <ol>${data.map(value => `<li>คุณ <b>${value}</b></li>`).join('')}</ol>
+                </a>
+              `;
+
               $targetA.after(`
                 <div class="pin">
-                  <a class="a-morning" href="javascript:;" data-i="${morning.length}">
-                    ${morning.length}
-                    <ul>
-                      ${morning.map(value => `<li>${value}</li>`).join('')}
-                    </ul>
-                  </a>
-                  <a class="a-evening" href="javascript:;" data-i="${evening.length}">
-                    ${evening.length}
-                    <ul>
-                      ${evening.map(value => `<li>${value}</li>`).join('')}
-                    </ul>
-                  </a>
+                  ${createPinLink(morning, 'a-morning')}
+                  ${createPinLink(evening, 'a-evening')}
                 </div>
               `);
             }
@@ -82,7 +79,7 @@ $(function () {
         updateMonthButton(inst, 'next');
 
         setTimeout(() => {
-          if ($('.ui-datepicker-day').next('.pin').length === 0) {
+          if ($('.ui-datepicker-title').next('.ui-datepicker-day').length === 0) {
             if ($(".dateParent").data("click") === "doNot") {
               $('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + $(".box-calendar-style .ui-datepicker-today> a").text() + '</span>');
             }
@@ -119,9 +116,13 @@ $(function () {
           if ($(".dateParent").data("click") !== "doNot") {
             //เอาไปใช้ query ข้อมูล
             myDatepicker(formattedDate);
-            $('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + formattedDate.split("/")[0] + '</span>');
+            if ($('.ui-datepicker-title').next('.ui-datepicker-day').length === 0) {
+              $('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + formattedDate.split("/")[0] + '</span>');
+            }
           } else {
-            $('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + $(".box-calendar-style .ui-datepicker-today> a").text() + '</span>');
+            if ($('.ui-datepicker-title').next('.ui-datepicker-day').length === 0) {
+              $('.ui-datepicker-title').prepend('<span class="ui-datepicker-day">' + $(".box-calendar-style .ui-datepicker-today> a").text() + '</span>');
+            }
           }
         }, 0);
 
@@ -142,52 +143,38 @@ $(function () {
     // เริ่มต้นแสดงปีไทยเมื่อเปิดปฏิทิน
     var initialDate = $('.dateParent').datepicker('getDate');
     if (initialDate) {
-      var thaiYear = initialDate.getFullYear() + 543; // แปลงปีเป็นปีไทย
-      $('.ui-datepicker-year').text(thaiYear); // แสดงปีไทยใน header
+      $('.ui-datepicker-year').text(initialDate.getFullYear() + 543);
     }
   }
 
 });
 
 let updateMonthButton = (inst, direction) => {
-  var currentMonth = inst.selectedMonth;
-  var currentYear = inst.selectedYear;
-
-  // คำนวณเดือนและปีที่จะแสดงในปุ่ม
-  if (direction === 'prev') {
-    currentMonth -= 1;
-    if (currentMonth < 0) {
-      currentMonth = 11; // ย้อนกลับไปเดือนธันวาคมของปีก่อนหน้า
-      currentYear -= 1;
-    }
-  } else if (direction === 'next') {
-    currentMonth += 1;
-    if (currentMonth > 11) {
-      currentMonth = 0; // ย้ายไปเดือนมกราคมของปีถัดไป
-      currentYear += 1;
-    }
-  }
-
-  // แสดงชื่อเดือนภาษาไทยในปุ่ม
-  var thaiMonths = ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'];
-  var monthName = thaiMonths[currentMonth];
-  var thaiYear = currentYear + 543; // แปลงปีเป็นปีไทย
-
-  // แสดงชื่อเดือนและปีไทยในปุ่ม
-  setTimeout(function () {
-    inst.dpDiv.find('.ui-datepicker-' + direction).text(monthName + " " + thaiYear);
-  }, 0);
+  let currentMonth = inst.selectedMonth;
+  let currentYear = inst.selectedYear;
+  if (direction === 'prev') currentMonth -= 1;
+  if (direction === 'next') currentMonth += 1;
+  if (currentMonth < 0) { currentMonth = 11; currentYear -= 1; }
+  if (currentMonth > 11) { currentMonth = 0; currentYear += 1; }
+  const thaiMonths = ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'];
+  let monthName = thaiMonths[currentMonth];
+  let thaiYear = currentYear + 543;
+  setTimeout(() => { inst.dpDiv.find('.ui-datepicker-' + direction).text(`${monthName} ${thaiYear}`); }, 0);
 }
 let fancyboxPopup = () => {
   setTimeout(() => {
-    // ผูก event ใหม่
-    $('.pin .a-morning,.pin .a-evening').on('click', function (e) {
+    $('.pin .a-morning, .pin .a-evening').on('click', function (e) {
       e.preventDefault();
-      $('#popup .--content').html($(this).find('ul').clone());
-      $.fancybox.open({
-        src: "#popup",
-        type: "inline"
-      });
+      var $selectDay = $(this).closest('[data-handler="selectDay"]');
+      var day = $selectDay.find('a').data('date');
+      var month = $selectDay.data('month');
+      var year = $selectDay.data('year') + 543;
+      var formattedDay = `${day}-${month}-${year}`;
+      $('#popup .--day').text(formattedDay);
+      $('#popup .--time').text($(this).attr('class') === 'a-evening ui-state-hover' ? 'เย็น' : 'เช้า');
+      $('#popup .--quantity').text($(this).data('i'));
+      $('#popup .--content').html($(this).find('ol').clone());
+      $.fancybox.open({ src: "#popup", type: "inline" });
     });
-  }, 100);
+  }, 500);
 }
