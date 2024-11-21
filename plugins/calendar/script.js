@@ -55,7 +55,7 @@ $(function () {
             }
           }, 0);
           if ((morning.length + evening.length) !== 0) {
-            return [day !== 0, "have "];
+            return [day !== 0, "have ui-datepicker-unselectable"];
           }
           return [day !== 0, "ui-datepicker-unselectable"];
         } else {

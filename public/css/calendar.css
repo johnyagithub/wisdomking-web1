@@ -107,12 +107,6 @@
     overflow: auto;
     display: block;
   }
-  .box-calendar-style .dateParent[data-click="doNot"] table.ui-datepicker-calendar::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-  }
     .box-calendar-style table.ui-datepicker-calendar thead {
       display: none;
     }
@@ -177,6 +171,9 @@
           justify-content: center;
           align-items: center;
           margin: 11px auto;
+        }
+        .box-calendar-style .dateParent[data-click="doNot"] table.ui-datepicker-calendar tbody td  a.ui-state-default {
+          cursor: default;
         }
         .box-calendar-style table.ui-datepicker-calendar tbody td .pin {
           z-index: 1;
