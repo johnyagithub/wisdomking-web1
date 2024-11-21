@@ -4,6 +4,7 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
+	<link rel="stylesheet" type="text/css" href="../../public/css/calendar.css">
 
 </head>
 
@@ -24,7 +25,7 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-					<a href="../home/">
+					<a href="../course-event/">
 						โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง
 					</a>
 				</li>
@@ -43,6 +44,9 @@
 
 		<section class="pb-4">
 			<div class="container">
+
+				<?php include('inc-course-event.php'); ?>
+
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">หลักสูตร “ตามรอยพ่อ”</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -191,7 +195,7 @@
 									href="javascript:history.back()">ย้อนกลับ</a>
 							</div>
 							<div class="col-6 col-md-4 col-lg-3 px-1">
-								<a class="btn btn-style w-100" href="#">เข้าร่วมหลักสูตร</a>
+								<a class="btn btn-style w-100" href="../course-event/reserve.php">เข้าร่วมหลักสูตร</a>
 							</div>
 						</div>
 					</div>
@@ -248,6 +252,9 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
+
 </body>
 
 </html>

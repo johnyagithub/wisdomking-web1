@@ -13,6 +13,21 @@
   ];
 </script>
 
+<div class="mx-auto" style="max-width: 1000px;">
+  <h4 class="head mb-4 text-center">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</h4>
+  <p class="text-center">กิจกรรมการเรียนรู้เกษตรเศรษฐกิจพอเพียง สำหรับนักเรียน นักศึกษา หรือหน่วยงานต่างๆ
+    กระบวนการเรียนรู้เกษตรเศรษฐกิจพอเพียงที่มุ่งเน้นผู้เรียนเป็นสำคัญ
+    สัมผัสประสบการณ์ สุข สนุก เรียนรู้ชัด ปฏิบัติได้จริง
+    เพื่อให้เกิดความเข้าใจและสนุกกับกิจกรรมการเรียนรู้ตามหลักปรัชญาของเศรษฐกิจพอเพียง ในรูปแบบทัศนศึกษา
+    และค่ายการเรียนรู้ตั้งแต่ 2 ชั่วโมง 3 ชั่วโมง 5 ชั่วโมง 2 วัน 1 คืน และ 3 วัน 2 คืน ครบจบในที่เดียว “One
+    stop service”</p>
+  <div class="list-download">
+    <div class="list justify-content-center">
+      <h6>โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</h6>
+      <a class="btn btn-style ml-0" href="#" download>ดาวน์โหลดใบสมัครเข้าร่วม</a>
+    </div>
+  </div>
+</div>
 <div class="box-calendar-style">
   <h5 class="text-center">วันที่เข้าร่วมหลักสูตร</h5>
   <div class="dateParent" data-click="doNot">
@@ -28,3 +43,18 @@
     </ul>
   </div>
 </div>
+
+<!--  begin popup -->
+<div id="popup" style="display: none;width: 500px;">
+  <div class="-popup">
+    <h3>รายชื่อผู้เข้าร่วมหลักสูตร</h3>
+    <h5>
+      ช่วง <span class="--time"></span> ของวันที่ <span class="--day"></span><br>
+      จำนวน <span class="--quantity"></span> ท่าน
+    </h5>
+    <div class="--content"></div>
+    <button type="button" data-fancybox-close="" class="btn btn-style d-block mx-auto mt-4"
+      style="width: 230px;">ตกลง</button>
+  </div>
+</div>
+<!-- end popup -->
