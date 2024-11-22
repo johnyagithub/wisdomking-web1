@@ -37,7 +37,7 @@
 
 				<?php include('inc-course-event.php'); ?>
 
-				<div id="join-project" data-status="3">
+				<div id="join-project">
 					<div class="box-status">
 						<h4 class="text-center">สมัครเข้าร่วมโครงการ</h4>
 						fghfd
