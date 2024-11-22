@@ -2,25 +2,85 @@
 @charset "iso-8859-15";
 
 #join-project {
-
 }
-  #join-project [class*=b-status] {
-    display: none;
+  #join-project .form-container {
+    max-width: 1000px;
+    margin: auto;
   }
-  #join-project[data-status="2"] .b-status2 ,
-  #join-project[data-status="3"] .b-status3 ,
-  #join-project[data-status="4"] .b-status4 {
-    display: block;
-  }
+    #join-project [class*=b-status] {
+      display: none;
+    }
+    #join-project:not([data-status="3"]):not([data-status="4"]) .b-status2 ,
+    #join-project[data-status="3"] .b-status3 ,
+    #join-project[data-status="4"] .b-status4 {
+      display: block;
+    }
 
 .box-status {
   
 }
 
+#form-course {
+  
+}
+  #form-course .form-container {
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    border-radius: var(--border_radius);
+  }
+
+#form-course2 .form-check {
+
+}
+  #form-course2 .form-check input[type=checkbox] {
+
+  }
+  #form-course2 .form-check label {
+
+  }
+  #form-course2 .form-check .box-form-check {
+    display: none;
+  }
+  #form-course2 .form-check input[type=checkbox]:checked+label+.box-form-check {
+    display: block;
+  }
+
+#form-course3 {
+
+}
+  #form-course3 .box-form-course {
+    background: #fbfbfb;
+    padding: 25px;
+    border-radius: var(--border_radius);
+  }
+    #form-course3 .form-group {
+
+    }
+      #form-course3 .form-group label {
+        font-size: 13px;
+      }
+      #form-course3 .form-group input {
+        border: 0px !important;
+        padding: 0px;
+        height: auto !important;
+        color: #495057 !important;
+        background-color: transparent;
+        display: block;
+        font-family: 'Prompt', sans-serif !important;
+        font-weight: 100;
+        cursor: default;
+        pointer-events: none;
+        outline: none;
+      }
+      #form-course3 .form-group .input-width-auto {
+        
+      }
+        #form-course3 .form-group .input-width-auto input {
+          display: none;
+        }
+
 .box-form-course {
-  border: 1px solid #CCCCCC;
-  padding: 15px;
-  border-radius: var(--border_radius);
+
 }
   .box-form-course .-paper {
     border-radius: var(--border_radius);
