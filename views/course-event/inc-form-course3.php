@@ -111,12 +111,12 @@
         </div>
         <div class="form-group col-md-6">
           <label>เลือกเมนูอาหาร*</label>
-          <input type="text" name="food" required="">
+          <input type="text" name="foodMenu" required="">
         </div>
         <div class="form-group col-md-6">
           <label>จำนวน*</label>
           <div class="input-width-auto">
-            <input type="text" name="foodQuantity-1" required=""> ชุด
+            <input type="text" name="foodQuantity" required=""> ชุด
           </div>
         </div>
 

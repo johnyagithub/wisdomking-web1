@@ -132,7 +132,7 @@ let textSize = () => {
     ThisActive = 'ul.textsizer li[data-li=' + localStorage.getItem("textSizeLi") + ']';
     $(ThisActive).siblings().removeClass('active');
     $(ThisActive).addClass('active');
-    $('html').css('font-size', localStorage.getItem("textSize"));
+    $('body').css('font-size', localStorage.getItem("textSize"));
   }
 
   $("ul.textsizer li").click(function () {

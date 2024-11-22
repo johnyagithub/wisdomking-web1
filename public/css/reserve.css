@@ -32,9 +32,28 @@
 #form-course2 .form-check {
 
 }
+  #form-course2 .box-Ourmuseum .text {
+    display: flex;
+  }
+    #form-course2 .box-Ourmuseum .text label {
+      margin: 0px;
+      width: calc(100% - 25px);
+      -webkit-line-clamp: 2;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #form-course2 .box-Ourmuseum .text input[type=radio] ,
+    #form-course2 .box-Ourmuseum .text input[type=checkbox] {
+    position: initial;
+      margin: 5px 0px 5px 8px;
+    }
+
   #form-course2 .form-check input[type=checkbox] {
 
   }
+
   #form-course2 .form-check label {
 
   }
@@ -43,6 +62,9 @@
   }
   #form-course2 .form-check input[type=checkbox]:checked+label+.box-form-check {
     display: block;
+  }
+  #form-course2 .box-form-course .has-error {
+    outline-width: 5px;
   }
 
 #form-course3 {
