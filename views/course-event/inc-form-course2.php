@@ -2,19 +2,19 @@
   <div class="box-form-course">
     <div class="form-container">
       <div class="form-group">
-        <label for="input1">ชื่อ (หน่วยงาน/สถาบันการศึกษา)*</label>
-        <input type="text" class="form-control bg-white" name="Agency" id="input1" placeholder="กรุณาระบุชื่อ"
+        <label for="input_Agency">ชื่อ (หน่วยงาน/สถาบันการศึกษา)*</label>
+        <input type="text" class="form-control bg-white" name="input_Agency" id="input_Agency" placeholder="กรุณาระบุชื่อ"
           required="">
       </div>
       <div class="form-group">
-        <label for="input2">ที่อยู่*</label>
-        <input type="text" class="form-control bg-white" name="address" id="input2" placeholder="กรุณาระบุที่อยู่"
+        <label for="input_address">ที่อยู่*</label>
+        <input type="text" class="form-control bg-white" name="input_address" id="input_address" placeholder="กรุณาระบุที่อยู่"
           required="">
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="">จังหวัด*</label>
-          <select class="templatingSelect2" name="province" required>
+          <select class="templatingSelect2" name="input_province" required>
             <option value="">กรุณาเลือกจังหวัด</option>
             <option value="usd">USD</option>
             <option value="euro">Euro</option>
@@ -25,32 +25,32 @@
           </select>
         </div>
         <div class="form-group col-md-6">
-          <label for="input3">ไปรษณีย์*</label>
-          <input type="text" class="form-control bg-white" name="post" id="input3" placeholder="กรุณาระบุรหัสไปรษณีย์"
+          <label for="input_post">ไปรษณีย์*</label>
+          <input type="text" class="form-control bg-white" name="input_post" id="input_post" placeholder="กรุณาระบุรหัสไปรษณีย์"
             required="">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="input4">เบอร์โทร*</label>
-          <input type="tel" class="form-control bg-white" name="tel" id="input4" placeholder="กรุณาระบุเบอร์โทร"
+          <label for="input_tel">เบอร์โทร*</label>
+          <input type="tel" class="form-control bg-white" name="input_tel" id="input_tel" placeholder="กรุณาระบุเบอร์โทร"
             required="">
         </div>
         <div class="form-group col-md-6">
-          <label for="input5">โทรสาร*</label>
-          <input type="text" class="form-control bg-white" name="fax" id="input5" placeholder="กรุณาระบุเบอร์โทรสาร"
+          <label for="input_fax">โทรสาร*</label>
+          <input type="text" class="form-control bg-white" name="input_fax" id="input_fax" placeholder="กรุณาระบุเบอร์โทรสาร"
             required="">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="input6">วันที่เข้าร่วมโครงการ*</label>
-          <input type="date" class="form-control bg-white" name="date" id="input6" placeholder="กรุณาระบุชื่อ"
-            value="<?= date('Y-m-d'); ?>" required="">
+          <label for="input_date">วันที่เข้าร่วมโครงการ*</label>
+          <input type="date" class="form-control bg-white minDate" name="input_date" id="input_date" placeholder="กรุณาระบุชื่อ"
+            value="<?= date('Y-m-d'); ?>" min="<?= date('Y-m-d'); ?>" required="">
         </div>
         <div class="form-group col-md-6">
           <label for="">ระยะเวลาเรียนรู้*</label>
-          <select class="templatingSelect2" name="learningPeriod" required>
+          <select class="templatingSelect2" name="input_learningPeriod" required>
             <option value="">ช่วงเวลา.....</option>
             <option value="1 ชั่วโมง">1 ชั่วโมง</option>
             <option value="2 ชั่วโมง">2 ชั่วโมง</option>
@@ -60,25 +60,25 @@
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="input7">ชื่อผู้ประสานงาน*</label>
-          <input type="text" class="form-control bg-white" name="nameCoordinator" id="input7"
+          <label for="input_nameCoordinator">ชื่อผู้ประสานงาน*</label>
+          <input type="text" class="form-control bg-white" name="input_nameCoordinator" id="input_nameCoordinator"
             placeholder="กรุณาระบุชื่อผู้ประสานงาน" required="">
         </div>
         <div class="form-group col-md-6">
-          <label for="input8">ตำแหน่ง*</label>
-          <input type="text" class="form-control bg-white" name="positionCoordinator" id="input8"
+          <label for="input_positionCoordinator">ตำแหน่ง*</label>
+          <input type="text" class="form-control bg-white" name="input_positionCoordinator" id="input_positionCoordinator"
             placeholder="กรุณาระบุตำแหน่งผู้ประสานงาน" required="">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="input9">เบอร์โทรผู้ประสานงาน*</label>
-          <input type="tel" class="form-control bg-white" name="telCoordinator" id="input9"
+          <label for="input_telCoordinator">เบอร์โทรผู้ประสานงาน*</label>
+          <input type="tel" class="form-control bg-white" name="input_telCoordinator" id="input_telCoordinator"
             placeholder="กรุณาระบุเบอร์โทรผู้ประสานงาน" required="">
         </div>
         <div class="form-group col-md-6">
-          <label for="input10">E-mail ผู้ประสานงาน*</label>
-          <input type="email" class="form-control bg-white" name="emailCoordinator" id="input10"
+          <label for="input_emailCoordinator">E-mail ผู้ประสานงาน*</label>
+          <input type="email" class="form-control bg-white" name="input_emailCoordinator" id="input_emailCoordinator"
             placeholder="กรุณาระบุ E-mail ผู้ประสานงาน" required="">
         </div>
       </div>
@@ -87,31 +87,27 @@
           <label for="">ประเภทผู้เข้าร่วม*</label>
           <div class="col-12">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="นักเรียน" name="participantTypes" id="type-1"
-                required="">
-              <label class="form-check-label ml-1 mb-1" for="type-1">นักเรียน</label>
+              <input class="form-check-input" type="checkbox" value="นักเรียน" name="input_participantTypes" id="input_participantTypes-1">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-1">นักเรียน</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="ครู/อาจารย์" name="participantTypes" id="type-2"
-                required="">
-              <label class="form-check-label ml-1 mb-1" for="type-2">ครู/อาจารย์</label>
+              <input class="form-check-input" type="checkbox" value="ครู/อาจารย์" name="input_participantTypes" id="input_participantTypes-2">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-2">ครู/อาจารย์</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="นักศึกษา" name="participantTypes" id="type-3"
-                required="">
-              <label class="form-check-label ml-1 mb-1" for="type-3">นักศึกษา</label>
+              <input class="form-check-input" type="checkbox" value="นักศึกษา" name="input_participantTypes" id="input_participantTypes-3">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-3">นักศึกษา</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="อื่นๆ" name="participantTypes" id="type-4"
-                required="">
-              <label class="form-check-label ml-1 mb-1" for="type-4">อื่นๆ</label>
+              <input class="form-check-input" type="checkbox" value="อื่นๆ" name="input_participantTypes" id="input_participantTypes-4">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-4">อื่นๆ</label>
             </div>
           </div>
         </div>
         <div class="form-row px-4 col-12">
           <div class="form-group col-md-4">
             <label for="">ระดับอายุ ตั้งแต่*</label>
-            <select class="templatingSelect2" name="ageRange" required>
+            <select class="templatingSelect2" name="input_ageRange" required>
               <option value="">อายุ.....</option>
               <option value="18 - 22 ปี">18 - 22 ปี</option>
               <option value="23 - 27 ปี">23 - 27 ปี</option>
@@ -119,20 +115,20 @@
             </select>
           </div>
           <div class="form-group col-md-4">
-            <label for="input11">จำนวน*</label>
-            <input type="number" class="form-control bg-white" name="Quantity" id="input11" required="">
+            <label for="input_Quantity">จำนวน*</label>
+            <input type="number" class="form-control bg-white" name="input_Quantity" id="input_Quantity" required="">
           </div>
         </div>
       </div>
       <div class="form-row">
         <h6 class="col-12">เพศ*</h6>
         <div class="form-group col-md-6">
-          <label for="input12">ชาย</label>
-          <input type="number" class="form-control bg-white" name="menQuantity" id="input12" required="">
+          <label for="input_menQuantity">ชาย</label>
+          <input type="number" class="form-control bg-white" name="input_menQuantity" id="input_menQuantity" required="">
         </div>
         <div class="form-group col-md-6">
-          <label for="input13">หญิง</label>
-          <input type="number" class="form-control bg-white" name="femaleQuantity" id="input13" required="">
+          <label for="input_femaleQuantity">หญิง</label>
+          <input type="number" class="form-control bg-white" name="input_femaleQuantity" id="input_femaleQuantity" required="">
         </div>
         <div
           class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -146,22 +142,21 @@
         <label for="">ค่าอาหาร*</label>
         <div class="box-Ourmuseum">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="ชุดละ 35 บาท" name="food" id="food-1" required="">
-            <label class="form-check-label ml-1 mb-1" for="food-1">ชุดละ 35 บาท</label>
+            <input class="form-check-input" type="checkbox" value="ชุดละ 35 บาท" name="input_food" id="input_food-1">
+            <label class="form-check-label ml-1 mb-1" for="input_food-1">ชุดละ 35 บาท</label>
 
             <div class="box-form-check box-slide mt-3">
               <label>เลือกเมนูอาหาร*</label>
               <div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
-                data-itemSlide-mobile="1">
+                data-itemSlide-mobile="2">
 
                 <div class="item">
                   <div class="img">
                     <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-11">สุกี้แห้ง</label>
-                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="foodMenu" id="food-11"
-                      required="">
+                    <label class="form-check-label mb-0" for="input_foodMenu-11">สุกี้แห้ง</label>
+                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-11">
                   </div>
                 </div>
                 <div class="item">
@@ -169,8 +164,8 @@
                     <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-12">สปาเก็ตตี้ผัดขี้เมากุ้ง</label>
-                    <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง" name="foodMenu" id="food-12">
+                    <label class="form-check-label mb-0" for="input_foodMenu-12">สปาเก็ตตี้ผัดขี้เมากุ้ง</label>
+                    <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง" name="input_foodMenu" id="input_foodMenu-12">
                   </div>
                 </div>
                 <div class="item">
@@ -178,8 +173,8 @@
                     <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-13">ขนมจีนน้ำยา</label>
-                    <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา" name="foodMenu" id="food-13">
+                    <label class="form-check-label mb-0" for="input_foodMenu-13">ขนมจีนน้ำยา</label>
+                    <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา" name="input_foodMenu" id="input_foodMenu-13">
                   </div>
                 </div>
                 <div class="item">
@@ -187,16 +182,16 @@
                     <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-14">สุกี้แห้ง</label>
-                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="foodMenu" id="food-14">
+                    <label class="form-check-label mb-0" for="input_foodMenu-14">สุกี้แห้ง</label>
+                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-14">
                   </div>
                 </div>
 
               </div>
 
               <div class="form-group">
-                <label for="inputfood-1">จำนวน*</label>
-                <input type="number" class="form-control bg-white" name="foodQuantity" id="inputfood-1">
+                <label for="input_foodQuantity-1">จำนวน*</label>
+                <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-1" required="">
               </div>
               <div
                 class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -205,21 +200,21 @@
             </div>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="ชุดละ 50 บาท" name="food" id="food-2" required="">
-            <label class="form-check-label ml-1 mb-1" for="food-2">ชุดละ 50 บาท</label>
+            <input class="form-check-input" type="checkbox" value="ชุดละ 50 บาท" name="input_food" id="input_food-2">
+            <label class="form-check-label ml-1 mb-1" for="input_food-2">ชุดละ 50 บาท</label>
 
             <div class="box-form-check box-slide mt-3">
               <label>เลือกเมนูอาหาร*</label>
               <div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
-                data-itemSlide-mobile="1">
+                data-itemSlide-mobile="2">
 
                 <div class="item">
                   <div class="img">
                     <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-21">สุกี้แห้ง</label>
-                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="foodMenu" id="food-21"
+                    <label class="form-check-label mb-0" for="input_foodMenu-21">สุกี้แห้ง2</label>
+                    <input class="form-check-input" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-21"
                       required="">
                   </div>
                 </div>
@@ -228,9 +223,9 @@
                     <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-22">สปาเก็ตตี้ผัดขี้เมากุ้ง</label>
-                    <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง" name="foodMenu"
-                      id="food-22">
+                    <label class="form-check-label mb-0" for="input_foodMenu-22">สปาเก็ตตี้ผัดขี้เมากุ้ง2</label>
+                    <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง2" name="input_foodMenu"
+                      id="input_foodMenu-22">
                   </div>
                 </div>
                 <div class="item">
@@ -238,8 +233,8 @@
                     <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-23">ขนมจีนน้ำยา</label>
-                    <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา" name="foodMenu" id="food-23">
+                    <label class="form-check-label mb-0" for="input_foodMenu-23">ขนมจีนน้ำยา2</label>
+                    <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา2" name="input_foodMenu" id="input_foodMenu-23">
                   </div>
                 </div>
                 <div class="item">
@@ -247,16 +242,16 @@
                     <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-24">สุกี้แห้ง</label>
-                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="foodMenu" id="food-24">
+                    <label class="form-check-label mb-0" for="input_foodMenu-24">สุกี้แห้ง2</label>
+                    <input class="form-check-input" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-24">
                   </div>
                 </div>
 
               </div>
 
               <div class="form-group">
-                <label for="inputfood-2">จำนวน*</label>
-                <input type="number" class="form-control bg-white" name="foodQuantity" id="inputfood-2">
+                <label for="input_foodQuantity-2">จำนวน*</label>
+                <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-2" required="">
               </div>
               <div
                 class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -265,21 +260,21 @@
             </div>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="บุฟเฟต์" name="food" id="food-3" required="">
-            <label class="form-check-label ml-1 mb-1" for="food-3">บุฟเฟต์</label>
+            <input class="form-check-input" type="checkbox" value="บุฟเฟต์" name="input_food" id="input_food-3">
+            <label class="form-check-label ml-1 mb-1" for="input_food-3">บุฟเฟต์</label>
 
             <div class="box-form-check box-slide mt-3">
               <label>เลือกเมนูอาหาร*</label>
               <div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
-                data-itemSlide-mobile="1">
+                data-itemSlide-mobile="2">
 
                 <div class="item">
                   <div class="img">
                     <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-31">สุกี้แห้ง</label>
-                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="foodMenu" id="food-31"
+                    <label class="form-check-label mb-0" for="input_foodMenu-31">สุกี้แห้ง3</label>
+                    <input class="form-check-input" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-31"
                       required="">
                   </div>
                 </div>
@@ -288,9 +283,9 @@
                     <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-32">สปาเก็ตตี้ผัดขี้เมากุ้ง</label>
-                    <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง" name="foodMenu"
-                      id="food-32">
+                    <label class="form-check-label mb-0" for="finput_oodMenu-32">สปาเก็ตตี้ผัดขี้เมากุ้ง3</label>
+                    <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง3" name="input_foodMenu"
+                      id="input_foodMenu-32">
                   </div>
                 </div>
                 <div class="item">
@@ -298,8 +293,8 @@
                     <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-33">ขนมจีนน้ำยา</label>
-                    <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา" name="foodMenu" id="food-33">
+                    <label class="form-check-label mb-0" for="input_foodMenu-33">ขนมจีนน้ำยา3</label>
+                    <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา3" name="input_foodMenu" id="input_foodMenu-33">
                   </div>
                 </div>
                 <div class="item">
@@ -307,16 +302,16 @@
                     <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                   </div>
                   <div class="text">
-                    <label class="form-check-label mb-0" for="food-34">สุกี้แห้ง</label>
-                    <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="foodMenu" id="food-34">
+                    <label class="form-check-label mb-0" for="input_foodMenu-34">สุกี้แห้ง3</label>
+                    <input class="form-check-input" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-34">
                   </div>
                 </div>
 
               </div>
 
               <div class="form-group">
-                <label for="inputfood-3">จำนวน*</label>
-                <input type="number" class="form-control bg-white" name="foodQuantity" id="inputfood-3">
+                <label for="input_foodQuantity-3">จำนวน*</label>
+                <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-3" required="">
               </div>
               <div
                 class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -332,7 +327,7 @@
         <h6 class="col-12">ค่าอาหารว่าง*</h6>
         <div class="form-group col-md-6">
           <label for="">ประเภทอาหารว่างและเครื่องดื่ม*</label>
-          <select class="templatingSelect2" name="snackCost" required>
+          <select class="templatingSelect2" name="input_snackCost" required>
             <option value="">กรุณาเลือกชุดอาหารว่าง</option>
             <option value="ขนมไทย + ชา,กาแฟ,โอวัลติน">ขนมไทย + ชา, กาแฟ, โอวัลติน</option>
             <option value="เบเกอรี่ + ชา, กาแฟ, โอวัลติน">เบเกอรี่ + ชา, กาแฟ, โอวัลติน</option>
@@ -341,8 +336,8 @@
           </select>
         </div>
         <div class="form-group col-md-6">
-          <label for="input14">จำนวน*</label>
-          <input type="number" class="form-control bg-white" name="snackCostQuantity" id="input14" required="">
+          <label for="input_snackCostQuantity">จำนวน*</label>
+          <input type="number" class="form-control bg-white" name="input_snackCostQuantity" id="input_snackCostQuantity" required="">
         </div>
         <div
           class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">

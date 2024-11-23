@@ -32,74 +32,74 @@
       <div class="form-row">
         <div class="form-group col-md-6">
           <label>ชื่อ (หน่วยงาน/สถาบันการศึกษา)*</label>
-          <input type="text" name="Agency" required="">
+          <input type="text" name="input_Agency" required="">
         </div>
         <div class="form-group col-md-6">
           <label>ที่อยู่*</label>
-          <input type="text" name="address" required="">
+          <input type="text" name="input_address" required="">
         </div>
         <div class="form-group col-md-6">
           <label>จังหวัด*</label>
-          <input type="text" name="province" required="">
+          <input type="text" name="input_province" required="">
         </div>
         <div class="form-group col-md-6">
           <label>ไปรษณีย์*</label>
-          <input type="text" name="post" required="">
+          <input type="text" name="input_post" required="">
         </div>
         <div class="form-group col-md-6">
           <label>เบอร์โทร*</label>
-          <input type="tel" name="tel" required="">
+          <input type="tel" name="input_tel" required="">
         </div>
         <div class="form-group col-md-6">
           <label>โทรสาร*</label>
-          <input type="text" name="fax" required="">
+          <input type="text" name="input_fax" required="">
         </div>
         <div class="form-group col-md-6">
           <label>วันที่เข้าร่วมโครงการ*</label>
-          <input type="text" name="date" required="">
+          <input type="text" name="input_date" required="">
         </div>
         <div class="form-group col-md-6">
           <label>ระยะเวลาเรียนรู้*</label>
-          <input type="text" name="learningPeriod" required="">
+          <input type="text" name="input_learningPeriod" required="">
         </div>
         <div class="form-group col-md-6">
           <label>ชื่อผู้ประสานงาน*</label>
-          <input type="text" name="nameCoordinator" required="">
+          <input type="text" name="input_nameCoordinator" required="">
         </div>
         <div class="form-group col-md-6">
           <label>ตำแหน่ง*</label>
-          <input type="text" name="positionCoordinator" required="">
+          <input type="text" name="input_positionCoordinator" required="">
         </div>
         <div class="form-group col-md-6">
           <label>เบอร์โทรผู้ประสานงาน*</label>
-          <input type="text" name="telCoordinator" required="">
+          <input type="text" name="input_telCoordinator" required="">
         </div>
         <div class="form-group col-md-6">
           <label>E-mail ผู้ประสานงาน*</label>
-          <input type="text" name="emailCoordinator" required="">
+          <input type="text" name="input_emailCoordinator" required="">
         </div>
         <div class="form-group col-md-6">
           <label>ประเภทผู้เข้าร่วม*</label>
-          <input type="text" name="participantTypes" required="">
+          <input type="text" name="input_participantTypes" required="">
         </div>
         <div class="form-group col-md-6">
           <label>ระดับอายุ ตั้งแต่*</label>
-          <input type="text" name="ageRange" required="">
+          <input type="text" name="input_ageRange" required="">
         </div>
         <div class="form-group col-md-6">
           <label>จำนวน*</label>
           <div class="input-width-auto">
-            <input type="text" name="Quantity" required=""> คน
+            <input type="text" name="input_Quantity" required=""> คน
           </div>
         </div>
         <div class="form-group col-md-6">
           <label>เพศ*</label>
           <div class="d-flex flex-wrap">
             <div class="input-width-auto">
-              ชาย จำนวน <input type="text" name="menQuantity" required=""> คน
+              ชาย จำนวน <input type="text" name="input_menQuantity" required=""> คน
             </div>,
             <div class="input-width-auto">
-              หญิง จำนวน <input type="text" name="femaleQuantity" required=""> คน
+              หญิง จำนวน <input type="text" name="input_femaleQuantity" required=""> คน
             </div>
           </div>
         </div>
@@ -107,28 +107,28 @@
         <hr class="col-12 mt-3 mb-4">
         <div class="form-group col-md-6">
           <label>ค่าอาหาร*</label>
-          <input type="text" name="food" required="">
+          <input type="text" name="input_food" required="">
         </div>
         <div class="form-group col-md-6">
           <label>เลือกเมนูอาหาร*</label>
-          <input type="text" name="foodMenu" required="">
+          <input type="text" name="input_foodMenu" required="">
         </div>
         <div class="form-group col-md-6">
           <label>จำนวน*</label>
           <div class="input-width-auto">
-            <input type="text" name="foodQuantity" required=""> ชุด
+            <input type="text" name="input_foodQuantity" required=""> ชุด
           </div>
         </div>
 
         <hr class="col-12 mt-3 mb-4">
         <div class="form-group col-md-6">
           <label>อาหารว่าง*</label>
-          <input type="text" name="snackCost" required="">
+          <input type="text" name="input_snackCost" required="">
         </div>
         <div class="form-group col-md-6">
           <label>จำนวน*</label>
           <div class="input-width-auto">
-            <input type="text" name="snackCostQuantity" required=""> ชุด
+            <input type="text" name="input_snackCostQuantity" required=""> ชุด
           </div>
         </div>
 
