@@ -13,6 +13,7 @@
 </head>
 
 <body>
+	<?php $page = isset($_GET['page']) ? $_GET['page'] : ''; ?>
 
 	<!-- begin #header -->
 	<?php include('../layouts/inc-header.php'); ?>
@@ -37,10 +38,11 @@
 
 				<?php include('inc-course-event.php'); ?>
 
-				<div id="join-project">
+				<div id="join-project" data-status="<?= $page == 'Asyouwish' ? 3 : ''; ?>">
+
 					<div class="box-status">
 						<h4 class="text-center">สมัครเข้าร่วมโครงการ</h4>
-						<ul class="-status-bar">
+						<ul class="-status-bar <?=$page?>">
 							<li><span class="circle"></span>หลักสูตร</li>
 							<li><span class="circle"></span>กิจกรรม</li>
 							<li><span class="circle"></span>จอง</li>

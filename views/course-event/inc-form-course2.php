@@ -137,15 +137,38 @@
       </div>
 
       <hr class="mt-3 mb-4">
+      <div class="form-row">
+        <h6 class="col-12">ค่าอาหารว่าง</h6>
+        <div class="form-group col-md-6">
+          <label for="">ประเภทอาหารว่างและเครื่องดื่ม</label>
+          <select class="templatingSelect2" name="input_snackCost">
+            <option value="">กรุณาเลือกชุดอาหารว่าง</option>
+            <option value="ขนมไทย + ชา,กาแฟ,โอวัลติน">ขนมไทย + ชา, กาแฟ, โอวัลติน</option>
+            <option value="เบเกอรี่ + ชา, กาแฟ, โอวัลติน">เบเกอรี่ + ชา, กาแฟ, โอวัลติน</option>
+            <option value="เครื่องดื่ม (น้ำสมุนไพร)">เครื่องดื่ม (น้ำสมุนไพร)</option>
+            <option value="SNACK BOX">SNACK BOX</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="input_snackCostQuantity">จำนวน</label>
+          <input type="number" class="form-control bg-white" name="input_snackCostQuantity" id="input_snackCostQuantity">
+        </div>
+        <div
+          class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
+          รวมเป็นเงิน <span class="text-gradient h2 mb-0 ml-2">฿ 00</span>
+        </div>
+      </div>
+
+      <hr class="mt-3 mb-4">
       <div class="form-group group-choose1">
-        <label for="">ค่าอาหาร*</label>
+        <label for="">ค่าอาหาร</label>
         <div class="box-Ourmuseum">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="ชุดละ 35 บาท" name="input_food" id="input_food-1">
             <label class="form-check-label ml-1 mb-1" for="input_food-1">ชุดละ 35 บาท</label>
 
             <div class="box-form-check box-slide mt-3">
-              <label>เลือกเมนูอาหาร*</label>
+              <label>เลือกเมนูอาหาร</label>
               <div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
                 data-itemSlide-mobile="2">
 
@@ -321,34 +344,17 @@
         </div>
       </div>
 
-      <hr class="mt-3 mb-4">
-      <div class="form-row">
-        <h6 class="col-12">ค่าอาหารว่าง*</h6>
-        <div class="form-group col-md-6">
-          <label for="">ประเภทอาหารว่างและเครื่องดื่ม*</label>
-          <select class="templatingSelect2" name="input_snackCost" required>
-            <option value="">กรุณาเลือกชุดอาหารว่าง</option>
-            <option value="ขนมไทย + ชา,กาแฟ,โอวัลติน">ขนมไทย + ชา, กาแฟ, โอวัลติน</option>
-            <option value="เบเกอรี่ + ชา, กาแฟ, โอวัลติน">เบเกอรี่ + ชา, กาแฟ, โอวัลติน</option>
-            <option value="เครื่องดื่ม (น้ำสมุนไพร)">เครื่องดื่ม (น้ำสมุนไพร)</option>
-            <option value="SNACK BOX">SNACK BOX</option>
-          </select>
-        </div>
-        <div class="form-group col-md-6">
-          <label for="input_snackCostQuantity">จำนวน*</label>
-          <input type="number" class="form-control bg-white" name="input_snackCostQuantity" id="input_snackCostQuantity" required="">
-        </div>
-        <div
-          class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
-          รวมเป็นเงิน <span class="text-gradient h2 mb-0 ml-2">฿ 00</span>
-        </div>
-      </div>
     </div>
   </div>
   <div class="form-row justify-content-center mt-4 border-top pt-4">
     <div class="col-6 col-md-4 col-lg-3 px-1">
-      <button type="button" class="btn btn-light border bg-white rounded-pill w-100"
-        onclick="$('#join-project').attr('data-status', '2');">ย้อนกลับ</button>
+      <?php if ($page !== 'Asyouwish') { ?>
+        <button type="button" class="btn btn-light border bg-white rounded-pill w-100"
+          onclick="$('#join-project').attr('data-status', '2');">ย้อนกลับ</button>
+      <? } else { ?>
+        <button type="button" class="btn btn-light border bg-white rounded-pill w-100"
+          onclick="window.history.back();">ย้อนกลับ</button>
+      <? } ?>
     </div>
     <div class="col-6 col-md-4 col-lg-3 px-1">
       <button type="submit" class="btn btn-style w-100">ดำเนินการต่อ</button>

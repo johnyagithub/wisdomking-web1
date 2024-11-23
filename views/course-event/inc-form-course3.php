@@ -1,33 +1,35 @@
 <form id="form-course3" action="#" class="my-4">
   <div class="box-form-course">
     <div class="form-container">
-      <div class="w-100">
-        <h5 class="text-center">สรุปรายละเอียดการจอง</h5>
-        <h4 class="text-gradient mb-3">หลักสูตร "ตามรอยพ่อ"</h4>
-        <div class="d-lg-flex">
-          <b class="mr-1">ระยะเวลาเรียน :</b>
-          <p>2 ชั่วโมง เวลา 09:00 - 11:00 น. หรือ เวลา 13:00 - 15:00 น.</p>
-        </div>
-        <div class="d-lg-flex form-group">
-          <b class="mr-1">เลือกชมภาพยนตร์ 3 มิติ :</b>
-          <div class="input-width-auto">
-            <input type="text" name="input_head1" required="">
+      <h5 class="text-center mb-4">สรุปรายละเอียดการจอง</h5>
+      <?php if ($page !== 'Asyouwish') { ?>
+        <div class="w-100">
+          <h4 class="text-gradient mb-3">หลักสูตร "ตามรอยพ่อ"</h4>
+          <div class="d-lg-flex">
+            <b class="mr-1">ระยะเวลาเรียน :</b>
+            <p>2 ชั่วโมง เวลา 09:00 - 11:00 น. หรือ เวลา 13:00 - 15:00 น.</p>
+          </div>
+          <div class="d-lg-flex form-group">
+            <b class="mr-1">เลือกชมภาพยนตร์ 3 มิติ :</b>
+            <div class="input-width-auto">
+              <input type="text" name="input_head1" required="">
+            </div>
+          </div>
+          <div class="d-lg-flex form-group">
+            <b class="mr-1">เลือกกิจกรรมสร้างสรรค์ความคิด :</b>
+            <div class="input-width-auto">
+              <input type="text" name="input_head2" required="">
+            </div>
+          </div>
+          <div class="d-lg-flex form-group">
+            <b class="mr-1">เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร :</b>
+            <div class="input-width-auto">
+              <textarea name="input_head3" required=""></textarea>
+            </div>
           </div>
         </div>
-        <div class="d-lg-flex form-group">
-          <b class="mr-1">เลือกกิจกรรมสร้างสรรค์ความคิด :</b>
-          <div class="input-width-auto">
-            <input type="text" name="input_head2" required="">
-          </div>
-        </div>
-        <div class="d-lg-flex form-group">
-          <b class="mr-1">เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร :</b>
-          <div class="input-width-auto">
-            <textarea name="input_head3" required=""></textarea>
-          </div>
-        </div>
-      </div>
-      <hr class="mt-3 mb-4">
+        <hr class="mt-3 mb-4">
+      <?php } ?>
 
       <div class="form-row">
         <div class="form-group col-md-6">
@@ -118,33 +120,33 @@
 
         <hr class="col-12 mt-3 mb-4">
         <div class="form-group col-md-6">
-          <label>ค่าอาหาร*</label>
-          <input type="text" name="input_food" required="">
-        </div>
-        <div class="form-group col-md-6">
-          <label>เลือกเมนูอาหาร*</label>
-          <div class="input-width-auto">
-            <input type="text" name="input_foodMenu" required="">
-          </div>
-        </div>
-        <div class="form-group col-md-6">
-          <label>จำนวน*</label>
-          <div class="input-width-auto">
-            <input type="text" name="input_foodQuantity" required=""> ชุด
-          </div>
-        </div>
-
-        <hr class="col-12 mt-3 mb-4">
-        <div class="form-group col-md-6">
-          <label>อาหารว่าง*</label>
+          <label>อาหารว่าง</label>
           <div class="input-width-auto">
             <input type="text" name="input_snackCost" required="">
           </div>
         </div>
         <div class="form-group col-md-6">
-          <label>จำนวน*</label>
+          <label>จำนวน</label>
           <div class="input-width-auto">
             <input type="text" name="input_snackCostQuantity" required=""> ชุด
+          </div>
+        </div>
+
+        <hr class="col-12 mt-3 mb-4">
+        <div class="form-group col-md-6">
+          <label>ค่าอาหาร</label>
+          <input type="text" name="input_food" required="">
+        </div>
+        <div class="form-group col-md-6">
+          <label>เลือกเมนูอาหาร</label>
+          <div class="input-width-auto">
+            <input type="text" name="input_foodMenu" required="">
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label>จำนวน</label>
+          <div class="input-width-auto">
+            <input type="text" name="input_foodQuantity" required=""> ชุด
           </div>
         </div>
 
