@@ -1,30 +1,4 @@
 <form id="form-course2" class="my-4">
-  <div class="w-100">
-    <h5 class="text-center">สรุปรายละเอียดการจอง</h5>
-    <h4 class="text-gradient mb-3">หลักสูตร "ตามรอยพ่อ"</h4>
-    <div class="d-lg-flex">
-      <b class="mr-1">ระยะเวลาเรียน :</b>
-      <p>2 ชั่วโมง เวลา 09:00 - 11:00 น. หรือ เวลา 13:00 - 15:00 น.</p>
-    </div>
-    <div class="d-lg-flex">
-      <b class="mr-1">เลือกชมภาพยนตร์ 3 มิติ :</b>
-      <input type="text" name="ss1" value="เรื่องของพ่อในบ้านเรา" required="">
-    </div>
-    <div class="d-lg-flex">
-      <b class="mr-1">เลือกกิจกรรมสร้างสรรค์ความคิด :</b>
-      <input type="text" name="ss2" value="รากฐานแห่งความมั่งคง (ระดับชั้นประถมปลาย - ประชาชนทั่วไป)" required="">
-    </div>
-    <div class="d-lg-flex">
-      <b class="mr-1">เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร :</b>
-      <textarea name="ss3" required="">
-        พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1
-        . พระราชพิธีในวิถีเกษตร
-        . ตามรอยพ่อ
-        . วิธีเกษตรของพ่อ
-      </textarea>
-    </div>
-  </div>
-
   <div class="box-form-course">
     <div class="form-container">
       <div class="form-group">

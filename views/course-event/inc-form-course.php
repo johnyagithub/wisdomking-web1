@@ -22,95 +22,91 @@
 
       <div class="-paper">
         <!-- Section: เลือกภาพยนตร์ 3 มิติ -->
-        <div class="mb-4">
-          <div class="row row-p10 m-0 group-choose1" data-type="ss1">
-            <h6 class="col-12 p-0">*1. เลือกภาพยนตร์ 3 มิติ <b class="text-danger">ได้ 1 เรื่อง</b></h6>
-            <div class="col-12 column-pc-2 --group">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie1">
-                <label class="form-check-label" for="movie1">เรื่องของพ่อในบ้านเรา</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie2">
-                <label class="form-check-label" for="movie2">แผ่นดินของเรา</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie3">
-                <label class="form-check-label" for="movie3">ทรัพยดิน สินน้ำ</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie4">
-                <label class="form-check-label" for="movie4">ไผ่รวกกับทานตะวันผู้ยโส</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie5">
-                <label class="form-check-label" for="movie5">แกล้งดินเปลี่ยนดินให้เป็นทอง</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie6">
-                <label class="form-check-label" for="movie6">เมล็ดสุดท้าย</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie7">
-                <label class="form-check-label" for="movie7">คิดถึงมิลืมเลือน</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie8">
-                <label class="form-check-label" for="movie8">สืบทอดความดีงาน</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="movie9">
-                <label class="form-check-label" for="movie9">อัจฉริยะนวัตกรรม</label>
-              </div>
+        <div class="row row-p10 m-0 mb-4 group-choose1" data-type="input_head1">
+          <h6 class="col-12 p-0">*1. เลือกภาพยนตร์ 3 มิติ <b class="text-danger">ได้ 1 เรื่อง</b></h6>
+          <div class="col-12 column-pc-2 --group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie1">
+              <label class="form-check-label" for="movie1">เรื่องของพ่อในบ้านเรา</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie2">
+              <label class="form-check-label" for="movie2">แผ่นดินของเรา</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie3">
+              <label class="form-check-label" for="movie3">ทรัพยดิน สินน้ำ</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie4">
+              <label class="form-check-label" for="movie4">ไผ่รวกกับทานตะวันผู้ยโส</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie5">
+              <label class="form-check-label" for="movie5">แกล้งดินเปลี่ยนดินให้เป็นทอง</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie6">
+              <label class="form-check-label" for="movie6">เมล็ดสุดท้าย</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie7">
+              <label class="form-check-label" for="movie7">คิดถึงมิลืมเลือน</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie8">
+              <label class="form-check-label" for="movie8">สืบทอดความดีงาน</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movie9">
+              <label class="form-check-label" for="movie9">อัจฉริยะนวัตกรรม</label>
             </div>
           </div>
         </div>
 
         <!-- Section: เลือกกิจกรรมสร้างสรรค์ -->
-        <div class="mb-4">
-          <div class="row row-p10 m-0 group-choose1" data-type="ss2">
-            <h6 class="col-12 p-0">*2. เลือกกิจกรรมสร้างสรรค์ความคิด <b class="text-danger">ได้ 1 กิจกรรม</b>
-            </h6>
-            <div class="col-md-6 --group">
-              <h6 class="head-group mt-2">ระดับขั้นประถมปลาย - ประชาชนทั่วไป</h6>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="activity1">
-                <label class="form-check-label" for="activity1">รากฐานแห่งความมั่งคง</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="activity2">
-                <label class="form-check-label" for="activity2">เชื่อเจ้าปัญญา</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="activity3">
-                <label class="form-check-label" for="activity3">แม่น้ารวมใจ</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="activity4">
-                <label class="form-check-label" for="activity4">สื่อสารสร้างสรรค์</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="activity5">
-                <label class="form-check-label" for="activity5">แผ่นเจ้าปัญหา</label>
-              </div>
+        <div class="row row-p10 m-0 mb-4 group-choose1" data-type="input_head2">
+          <h6 class="col-12 p-0">*2. เลือกกิจกรรมสร้างสรรค์ความคิด <b class="text-danger">ได้ 1 กิจกรรม</b>
+          </h6>
+          <div class="col-md-6 --group">
+            <h6 class="head-group mt-2">ระดับขั้นประถมปลาย - ประชาชนทั่วไป</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="activity1">
+              <label class="form-check-label" for="activity1">รากฐานแห่งความมั่งคง</label>
             </div>
-            <div class="col-md-6 --group">
-              <h6 class="head-group mt-2">ระดับขั้นอนุบาล - ประถมต้น</h6>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="activity6">
-                <label class="form-check-label" for="activity6">บล็อกสร้างจินตนาการ</label>
-              </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="activity2">
+              <label class="form-check-label" for="activity2">เชื่อเจ้าปัญญา</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="activity3">
+              <label class="form-check-label" for="activity3">แม่น้ารวมใจ</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="activity4">
+              <label class="form-check-label" for="activity4">สื่อสารสร้างสรรค์</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="activity5">
+              <label class="form-check-label" for="activity5">แผ่นเจ้าปัญหา</label>
+            </div>
+          </div>
+          <div class="col-md-6 --group">
+            <h6 class="head-group mt-2">ระดับขั้นอนุบาล - ประถมต้น</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="activity6">
+              <label class="form-check-label" for="activity6">บล็อกสร้างจินตนาการ</label>
             </div>
           </div>
         </div>
 
         <!-- Section: เลือกพิพิธภัณฑ์ -->
-        <div class="group-choose3" data-type="ss3">
+        <div class="group-choose3" data-type="input_head3">
           <h6>*3. เลือกเรียนรู้พิพิธภัณฑ์ในอาคาร <b class="text-danger">ได้ 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</b>
           </h6>
           <!-- 3.1 -->
           <div class="row px-2 --group">
-            <h6 class="head-group col-12 mt-2 px-3">3.1 พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1</h6>
+            <h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1</h6>
             <div class="col-12 column-pc-2">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum1-1">
@@ -149,7 +145,7 @@
 
           <!-- 3.2 -->
           <div class="row px-2 --group">
-            <h6 class="head-group col-12 mt-2 px-3">3.2 พิพิธภัณฑ์ในหลวงรักเรา (อาคารเฉลิมพระเกียรติฯ ชั้น 5)</h6>
+            <h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา (อาคารเฉลิมพระเกียรติฯ ชั้น 5)</h6>
             <div class="col-12 column-pc-2">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum2-1">
@@ -188,7 +184,7 @@
 
           <!-- 3.3 -->
           <div class="row px-2 --group">
-            <h6 class="head-group col-12 mt-2 px-3">3.3 พิพิธภัณฑ์มหัศจรรย์พันธุกรรม (อาคารเฉลิมพระเกียรติฯ ชั้น 3)</h6>
+            <h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์มหัศจรรย์พันธุกรรม (อาคารเฉลิมพระเกียรติฯ ชั้น 3)</h6>
             <div class="col-12 column-pc-2">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum3-1">
@@ -211,7 +207,7 @@
 
           <!-- 3.4 -->
           <div class="row px-2 --group">
-            <h6 class="head-group col-12 mt-2 px-3">3.4 พิพิธภัณฑ์ป่าดงพงไพร (อาคารเฉลิมพระเกียรติฯ ชั้น 4)</h6>
+            <h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ป่าดงพงไพร (อาคารเฉลิมพระเกียรติฯ ชั้น 4)</h6>
             <div class="col-12 column-pc-2">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum4-1">
@@ -219,8 +215,7 @@
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum4-2">
-                <label class="form-check-label" for="museum4-2">เสียงแห่งธรรมชาติ (ป่ากลางวัน -
-                  กลางคืน)</label>
+                <label class="form-check-label" for="museum4-2">เสียงแห่งธรรมชาติ (ป่ากลางวัน - กลางคืน)</label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum4-3">
@@ -235,7 +230,7 @@
 
           <!-- 3.5 -->
           <div class="row px-2 --group">
-            <h6 class="head-group col-12 mt-2 px-3">3.5 พิพิธภัณฑ์ชีวิตน้ำ (อาคารเฉลิมพระเกียรติฯ ชั้น 6)</h6>
+            <h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ชีวิตน้ำ (อาคารเฉลิมพระเกียรติฯ ชั้น 6)</h6>
             <div class="col-12 column-pc-2">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum6-1">
@@ -258,7 +253,7 @@
 
           <!-- 3.6 -->
           <div class="row px-2 --group">
-            <h6 class="head-group col-12 mt-2 px-3">3.6 พิพิธภัณฑ์ดินดล (อาคารเฉลิมพระเกียรติฯ ชั้น 7)</h6>
+            <h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ดินดล (อาคารเฉลิมพระเกียรติฯ ชั้น 7)</h6>
             <div class="col-12 column-pc-2">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="museum7-1">

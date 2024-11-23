@@ -8,22 +8,22 @@
           <b class="mr-1">ระยะเวลาเรียน :</b>
           <p>2 ชั่วโมง เวลา 09:00 - 11:00 น. หรือ เวลา 13:00 - 15:00 น.</p>
         </div>
-        <div class="d-lg-flex">
+        <div class="d-lg-flex form-group">
           <b class="mr-1">เลือกชมภาพยนตร์ 3 มิติ :</b>
-          <p>เรื่องของพ่อในบ้านเรา</p>
+          <div class="input-width-auto">
+            <input type="text" name="input_head1" required="">
+          </div>
         </div>
-        <div class="d-lg-flex">
+        <div class="d-lg-flex form-group">
           <b class="mr-1">เลือกกิจกรรมสร้างสรรค์ความคิด :</b>
-          <p>รากฐานแห่งความมั่งคง (ระดับชั้นประถมปลาย - ประชาชนทั่วไป)</p>
+          <div class="input-width-auto">
+            <input type="text" name="input_head2" required="">
+          </div>
         </div>
-        <div class="d-lg-flex">
+        <div class="d-lg-flex form-group">
           <b class="mr-1">เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร :</b>
-          <div>พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1
-            <ul class="pl-4">
-              <li>พระราชพิธีในวิถีเกษตร</li>
-              <li>ตามรอยพ่อ</li>
-              <li>วิธีเกษตรของพ่อ</li>
-            </ul>
+          <div class="input-width-auto">
+            <textarea name="input_head3" required=""></textarea>
           </div>
         </div>
       </div>
@@ -32,15 +32,21 @@
       <div class="form-row">
         <div class="form-group col-md-6">
           <label>ชื่อ (หน่วยงาน/สถาบันการศึกษา)*</label>
-          <input type="text" name="input_Agency" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_Agency" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>ที่อยู่*</label>
-          <input type="text" name="input_address" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_address" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>จังหวัด*</label>
-          <input type="text" name="input_province" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_province" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>ไปรษณีย์*</label>
@@ -64,11 +70,15 @@
         </div>
         <div class="form-group col-md-6">
           <label>ชื่อผู้ประสานงาน*</label>
-          <input type="text" name="input_nameCoordinator" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_nameCoordinator" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>ตำแหน่ง*</label>
-          <input type="text" name="input_positionCoordinator" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_positionCoordinator" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>เบอร์โทรผู้ประสานงาน*</label>
@@ -76,7 +86,9 @@
         </div>
         <div class="form-group col-md-6">
           <label>E-mail ผู้ประสานงาน*</label>
-          <input type="text" name="input_emailCoordinator" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_emailCoordinator" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>ประเภทผู้เข้าร่วม*</label>
@@ -111,7 +123,9 @@
         </div>
         <div class="form-group col-md-6">
           <label>เลือกเมนูอาหาร*</label>
-          <input type="text" name="input_foodMenu" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_foodMenu" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>จำนวน*</label>
@@ -123,7 +137,9 @@
         <hr class="col-12 mt-3 mb-4">
         <div class="form-group col-md-6">
           <label>อาหารว่าง*</label>
-          <input type="text" name="input_snackCost" required="">
+          <div class="input-width-auto">
+            <input type="text" name="input_snackCost" required="">
+          </div>
         </div>
         <div class="form-group col-md-6">
           <label>จำนวน*</label>

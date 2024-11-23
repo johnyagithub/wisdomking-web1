@@ -97,30 +97,7 @@ let submitForm1 = () => {
       e.preventDefault();
       $('#join-project').attr('data-status', '3');
       scrollToTop(); // เลื่อนไปด้านบน
-
-      $('#form-course2 input[name="ss1"], #form-course2 input[name="ss2"], #form-course2 textarea[name="ss3"]').val('');
-
-      ['movie', 'activity'].forEach(type => {
-        $(`input[id^="${type}"]:checked`).each(function () {
-          const Head = $(this).closest('.--group').find('.head-group').text();
-          const checkboxValue = $(this).next('label').text();
-          $(`#form-course2 input[name='ss${type === 'movie' ? 1 : 2}']`).val(`${checkboxValue}(${Head})`);
-        });
-      });
-
-      const selectedMuseums = {};
-      $('input[id^="museum"]:checked').each(function () {
-        const Head = $(this).closest('.--group').find('.head-group').text().trim();
-        const checkboxValue = $(this).next('label').text().trim();
-        (selectedMuseums[Head] ||= []).push(` - ${checkboxValue}`);
-      });
-
-      $("#form-course2 textarea[name='ss3']").val(
-        Object.entries(selectedMuseums)
-          .map(([Head, values]) => `${Head}\n${values.join("\n")}`)
-          .join("\n\n")
-      );
-
+      checkboxToForm3(); // ย้ายไปฟอร์มสุดท้าย
     }
   });
 }
@@ -175,5 +152,41 @@ const scrollToFirstError = () => {
     $('html, body').animate({
       scrollTop: $firstErrorElement.offset().top - 100
     }, 100); // เลื่อนภายใน 100ms
+  }
+};
+
+const checkboxToForm3 = () => {
+  const Form = $('#form-course'), FormTo = $('#form-course3'); // กำหนดตัวแปรสำหรับฟอร์มต้นทางและฟอร์มปลายทาง
+  FormTo.find('[name^="input_head"]').val(''); // ล้างค่าของ input และ textarea ในฟอร์มปลายทาง
+  const selectedMuseums = {}; // เก็บข้อมูลสำหรับ input_head3
+
+  // วนลูป checkbox ที่ถูกเลือก
+  Form.find('.form-check-input[type="checkbox"]:checked').each(function () {
+    const group = $(this).closest('[data-type]').data('type'); // ดึงประเภทของ group (input_head1, input_head2, input_head3)
+    const head = $(this).closest('.--group').find('.head-group').text().trim(); // หัวข้อของกลุ่ม
+    const value = $(this).next('label').text().trim(); // ค่าของ checkbox (ข้อความจาก label)
+    const text = `${value}${head ? ` (${head})` : ''}`; // จัดรูปแบบข้อความสำหรับ input_head1 หรือ input_head2
+
+    // ตรวจสอบว่าข้อมูลเป็นของ input_head3 หรือมี checkbox หลายตัวในกลุ่ม
+    group === 'input_head3' || $(this).closest('.--group').find('.form-check-input:checked').length > 1
+      ? (selectedMuseums[head] ||= []).push(` • ${value}`) // ถ้าเป็น input_head3 หรือมีหลายค่าในกลุ่ม ให้เก็บใน selectedMuseums
+      : updateSpan(FormTo.find(`input[name='${group}']`).val(text), text); // ถ้าไม่ใช่ ให้ใส่ค่าใน input และอัปเดต <span>
+  });
+
+  // จัดการค่าใน input_head3 (textarea)
+  const input_head3Text = Object.entries(selectedMuseums) // แปลง selectedMuseums เป็นข้อความที่ต้องแสดง
+    .map(([h, v]) => `${h}\n${v.join("\n")}`) // สำหรับ textarea ใช้ `\n` แทนการขึ้นบรรทัดใหม่
+    .join("\n\n");
+  updateSpan(
+    FormTo.find("textarea[name='input_head3']").val(input_head3Text), // ใส่ค่าใน textarea
+    Object.entries(selectedMuseums) // สำหรับ <span> ใช้ `<br>` แทนการขึ้นบรรทัดใหม่
+      .map(([h, v]) => `${h}<br>${v.join("<br>")}`)
+      .join("<br><br>")
+  );
+
+  // ฟังก์ชันอัปเดต/เพิ่ม <span> ถัดจาก <input> หรือ <textarea>
+  function updateSpan($input, text) {
+    const $span = $input.next('span'); // หาส่วน <span> ถัดจาก input
+    $span.length ? $span.html(text) : $input.after(`<span>${text}</span>`); // ถ้ามี <span> อยู่แล้วให้แก้ไข ถ้าไม่มีก็เพิ่มใหม่
   }
 };

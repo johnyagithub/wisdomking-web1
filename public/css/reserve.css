@@ -26,7 +26,7 @@
     display: flex;
     margin-top: 20px;
     text-align: center;
-    counter-reset: item
+    counter-reset: item;
   }
     .box-status ul.-status-bar li {
       counter-increment: item;
@@ -115,6 +115,22 @@
     padding: 15px;
     border-radius: var(--border_radius);
   }
+  #form-course .-paper {
+    counter-reset: group;
+  }
+    #form-course [data-type] {
+      counter-increment: group;
+    }
+      #form-course .group-choose3 {
+        counter-reset: item;
+      }
+        #form-course .group-choose3 .--group {
+          counter-increment: item;
+        }
+          #form-course .group-choose3 .head-group::before {
+            content: counters(group, ".") "." counters(item, ".");
+            margin-right: 8px;
+          }
 
 #form-course2 .form-check {
 
@@ -176,7 +192,8 @@
       #form-course3 .form-group label {
         font-size: 13px;
       }
-      #form-course3 .form-group input {
+      #form-course3 .form-group input ,
+      #form-course3 .form-group textarea {
         border: 0px !important;
         padding: 0px;
         height: auto !important;
@@ -192,7 +209,8 @@
       #form-course3 .form-group .input-width-auto {
         
       }
-        #form-course3 .form-group .input-width-auto input {
+        #form-course3 .form-group .input-width-auto input ,
+        #form-course3 .form-group .input-width-auto textarea {
           display: none;
         }
 
