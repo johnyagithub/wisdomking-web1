@@ -17,8 +17,95 @@
     }
 
 .box-status {
-  
+  max-width: 800px;
+  margin: 40px auto;
 }
+  .box-status ul.-status-bar {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    counter-reset: item
+  }
+    .box-status ul.-status-bar li {
+      counter-increment: item;
+      width: 100%;
+      position: relative;
+    }
+    #join-project:not([data-status="3"]):not([data-status="4"]) .box-status ul.-status-bar li:nth-child(3) ,
+    #join-project:not([data-status="3"]):not([data-status="4"]) .box-status ul.-status-bar li:nth-child(4) ,
+    #join-project[data-status="3"] .box-status ul.-status-bar li:nth-child(4) {
+      mix-blend-mode: luminosity;
+      opacity: 0.5;
+    }
+    .box-status ul.-status-bar li:not(:first-child)::before {
+      content: "";
+      color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      transform: translateX(calc(-100% + 20px));
+      top: 17px;
+      background : #5AD69D;
+    }
+    #join-project:not([data-status="3"]):not([data-status="4"]) .box-status ul.-status-bar li:nth-child(2)::before ,
+    #join-project[data-status="3"] .box-status ul.-status-bar li:nth-child(3)::before ,
+    #join-project[data-status="4"] .box-status ul.-status-bar li:nth-child(4)::before {
+      background: linear-gradient(90deg, #2BCB7E 0%, #37A8E2 100%);
+    }
+      .box-status ul.-status-bar span.circle {
+        width: 40px;
+        aspect-ratio: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto 15px auto;
+        border:2px solid #31b9b2;
+        border-radius: 50%;
+        font-weight: bold;
+        background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+        color: transparent;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+      }
+      #join-project:not([data-status="3"]):not([data-status="4"]) .box-status ul.-status-bar li:nth-child(1)~li span.circle ,
+      #join-project[data-status="3"] .box-status ul.-status-bar li:nth-child(2)~li span.circle ,
+      #join-project[data-status="4"] .box-status ul.-status-bar li:nth-child(3)~li span.circle {
+        background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+        #join-project:not([data-status="3"]):not([data-status="4"]) .box-status ul.-status-bar li:nth-child(1)~li span.circle::before ,
+        #join-project[data-status="3"] .box-status ul.-status-bar li:nth-child(2)~li span.circle::before ,
+        #join-project[data-status="4"] .box-status ul.-status-bar li:nth-child(3)~li span.circle::before {
+          content: "";
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position:absolute;
+          inset: 0;
+          background-color: #fff;
+        }
+        .box-status ul.-status-bar span.circle::after {
+          content: "\f00c";
+          font-family: 'FontAwesome';
+          color: #fff;
+          position: absolute;
+        }
+        #join-project:not([data-status="3"]):not([data-status="4"]) .box-status ul.-status-bar li:nth-child(1)~li span.circle::after ,
+        #join-project[data-status="3"] .box-status ul.-status-bar li:nth-child(2)~li span.circle::after ,
+        #join-project[data-status="4"] .box-status ul.-status-bar li:nth-child(3)~li span.circle::after {
+          content: "0" counters(item, ".");
+          font-family: 'Prompt', sans-serif !important;
+          inset: 0;
+          background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+          -webkit-background-clip: text;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
 
 #form-course {
   

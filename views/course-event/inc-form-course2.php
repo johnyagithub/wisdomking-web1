@@ -37,9 +37,8 @@
             required="">
         </div>
         <div class="form-group col-md-6">
-          <label for="input_fax">โทรสาร*</label>
-          <input type="text" class="form-control bg-white" name="input_fax" id="input_fax" placeholder="กรุณาระบุเบอร์โทรสาร"
-            required="">
+          <label for="input_fax">โทรสาร</label>
+          <input type="text" class="form-control bg-white" name="input_fax" id="input_fax" placeholder="กรุณาระบุเบอร์โทรสาร">
         </div>
       </div>
       <div class="form-row">
