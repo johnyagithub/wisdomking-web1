@@ -81,7 +81,7 @@ let submitForm1 = () => {
     $("#form-course [class*=group-choose]").each(function () {
       const $group = $(this);
       const hasUnselectedRequired = $group.find('.form-check-input:required').length > 0;
-      
+
       if (hasUnselectedRequired) {
         isValid = false; // ถ้ามีกลุ่มที่ยังไม่ได้เลือก จะไม่ให้ submit
         $group.addClass("has-error");
@@ -97,6 +97,30 @@ let submitForm1 = () => {
       e.preventDefault();
       $('#join-project').attr('data-status', '3');
       scrollToTop(); // เลื่อนไปด้านบน
+
+      $('#form-course2 input[name="ss1"], #form-course2 input[name="ss2"], #form-course2 textarea[name="ss3"]').val('');
+
+      ['movie', 'activity'].forEach(type => {
+        $(`input[id^="${type}"]:checked`).each(function () {
+          const Head = $(this).closest('.--group').find('.head-group').text();
+          const checkboxValue = $(this).next('label').text();
+          $(`#form-course2 input[name='ss${type === 'movie' ? 1 : 2}']`).val(`${checkboxValue}(${Head})`);
+        });
+      });
+
+      const selectedMuseums = {};
+      $('input[id^="museum"]:checked').each(function () {
+        const Head = $(this).closest('.--group').find('.head-group').text().trim();
+        const checkboxValue = $(this).next('label').text().trim();
+        (selectedMuseums[Head] ||= []).push(` - ${checkboxValue}`);
+      });
+
+      $("#form-course2 textarea[name='ss3']").val(
+        Object.entries(selectedMuseums)
+          .map(([Head, values]) => `${Head}\n${values.join("\n")}`)
+          .join("\n\n")
+      );
+
     }
   });
 }
@@ -116,7 +140,7 @@ let submitForm2 = () => {
       scrollToTop();
 
       var formData = $(this).serializeArray();
-      // ส่งข้อมูลไปยังฟอร์มอื่นๆ
+      // ส่งข้อมูลไปยังฟอร์มอสุดท้าย
       formData.forEach(field => {
         const $target = $(`#form-course3 [name="${field.name}"]`);
         $target.val(field.value);
