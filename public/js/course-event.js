@@ -4,27 +4,31 @@ $(document).ready(function () {
   submitForm1();
   submitForm2();
 
-  // ฟังก์ชันจัดการเมื่อมีการเปลี่ยนแปลงการเลือกอาหารในฟอร์ม
-  $("#form-course2 input[name='input_food']").on('change', function () {
-    $('#form-course2 .form-check').each(function () {
-      const isChecked = $(this).find('input[name="input_food"]').is(':checked');
-      const foodQuantityInput = $(this).find('input[name="input_foodQuantity"]');
-
-      if (isChecked) {
-        if (foodQuantityInput.length === 0) {
-          // เพิ่ม input field ถ้ายังไม่มี
-          const div = $(this).find('div[name="input_foodQuantity"]');
-          div.replaceWith(`<input type="number" name="input_foodQuantity" class="form-control" required>`);
-        }
-      } else {
-        // หากไม่เลือก จะเปลี่ยน input_foodQuantity เป็น div
-        $('input[name="input_foodMenu"]').prop('checked', false);
-        if (foodQuantityInput.length > 0) {
-          foodQuantityInput.replaceWith(`<div name="input_foodQuantity">${foodQuantityInput.val()}</div>`);
-        }
-      }
-    });
+  // เช็คค่า ค่าอาหารว่าง
+  $('#Snack_cost').on('change', function () {
+    const isChecked = $(this).is(':checked');
+    $('#box-Snack_cost').toggleClass('disabled', isChecked);
+    $('#form-course2 [name="input_snackCostQuantity"], #form-course2 [name="input_snackCost"]').val(isChecked ? '' : null).prop('required', !isChecked).trigger('change');
   });
+
+  // เช็คค่า switch_food
+  $('#box-switch_food input').prop('required', false);
+  $('#switch_food').on('change', function () {
+    const isChecked = $(this).is(':checked');
+    $('#box-switch_food').toggleClass('disabled', isChecked);
+    $('#form-course2 [name="input_food"]').prop('checked', false).prop('required', !isChecked);
+    $('#form-course2 [name="input_foodMenu"]').prop('checked', false).prop('required', false);
+    $('#form-course2 [name="input_foodQuantity"]').val('').prop('required', false);
+  });
+
+  // เช็คค่า input_food
+  $('#form-course2 [name="input_food"]').on('change', function () {
+    $(this).prop('required', true);
+    const isChecked = $(this).is(':checked');
+    $('#form-course2 [name="input_foodMenu"]').prop('required', isChecked).prop('checked', false);
+    $('#form-course2 [name="input_foodQuantity"]').prop('required', isChecked).val('');
+  });
+
 });
 
 // ฟังก์ชันจัดการการเลือกในกลุ่มที่ต้อง 1 ข้อ (group-choose1)
@@ -106,36 +110,36 @@ let submitForm1 = () => {
 let submitForm2 = () => {
   $("#form-course2 .form-check > input[type=checkbox]").prop('required', true); // ตั้งค่า required ให้กับ checkbox
   $(document).on("submit", "#form-course2", function (e) {
-    if (!$('#form-course2 input[name="input_foodMenu"]:checked').length) {
-      // ถ้าไม่ได้เลือกอาหาร ให้แสดงข้อผิดพลาด
-      $('#form-course2 .box-form-course .box-form-check > label').addClass('has-error');
-      ScrollTop('#input_food-1');
-      event.preventDefault(); // ป้องกันการส่งฟอร์ม
-    } else {
-      event.preventDefault();
-      $('#join-project').attr('data-status', '4');
-      scrollToTop();
+    e.preventDefault();
+    $('#join-project').attr('data-status', '4');
+    scrollToTop();
 
-      var formData = $(this).serializeArray();
-      // ส่งข้อมูลไปยังฟอร์มอสุดท้าย
-      formData.forEach(field => {
-        const $target = $(`#form-course3 [name="${field.name}"]`);
-        $target.val(field.value);
+    var formData = $(this).serializeArray();
+    // ส่งข้อมูลไปยังฟอร์มสุดท้าย
+    formData.forEach(field => {
+      const $target = $(`#form-course3 [name="${field.name}"]`);
+      $target.val(field.value);
 
-        const $inputWithAuto = $(`#form-course3 .input-width-auto [name="${field.name}"]`);
-        const $existingSpan = $inputWithAuto.next('span');
-        if ($existingSpan.length) {
-          $existingSpan.text(field.value);
-        } else {
-          $inputWithAuto.after(`<span>${field.value}</span>`);
-        }
-      });
+      // ค้นหา input ที่อยู่ภายใน div ที่มีคลาส .input-width-auto และใช้ updateSpan
+      const $inputWithAuto = $(`#form-course3 .input-width-auto [name="${field.name}"]`);
+      updateSpan($inputWithAuto, field.value); // ใช้ฟังก์ชัน updateSpan กับ input ที่อยู่ภายใน .input-width-auto
+    });
+
+    // ไม่รับอาหารว่าง
+    if ($('#Snack_cost').is(':checked')) {
+      $('#form-course3 [name="input_snackCost"]').val('ไม่รับ');
+      updateSpan($('#form-course3 .input-width-auto [name="input_snackCost"]'), 'ไม่รับ');
+      $('#form-course3 [name="input_snackCostQuantity"]').val(0);
+      updateSpan($('#form-course3 .input-width-auto [name="input_snackCostQuantity"]'), 0);
     }
-  });
 
-  // ลบข้อผิดพลาดเมื่อมีการเลือกเมนูอาหาร
-  $('#form-course2 input[name="input_foodMenu"]').on('change', function () {
-    $('#form-course2 .box-form-course .box-form-check > label').removeClass('has-error');
+    // ไม่รับอาหาร
+    if ($('#switch_food').is(':checked')) {
+      $('#form-course3 [name="input_food"], #form-course3 [name="input_foodMenu"]').val('ไม่รับ');
+      updateSpan($('#form-course3 .input-width-auto [name="input_food"], #form-course3 .input-width-auto [name="input_foodMenu"]'), 'ไม่รับ');
+      $('#form-course3 [name="input_foodQuantity"]').val(0);
+      updateSpan($('#form-course3 .input-width-auto [name="input_foodQuantity"]'), 0);
+    }
   });
 }
 
@@ -155,6 +159,19 @@ const scrollToFirstError = () => {
   }
 };
 
+// ฟังก์ชันสำหรับตรวจสอบและสร้าง <span> ถ้าไม่มี, ทำงานเฉพาะกับ input ที่มี .input-width-auto
+function updateSpan($element, value) {
+  const $parent = $element.closest('.input-width-auto'); // ตรวจสอบว่า input อยู่ภายใน div .input-width-auto
+  if ($parent.length) { // ถ้า input อยู่ภายใน .input-width-auto
+    let $span = $element.next('span');
+    if (!$span.length) {
+      $element.after(`<span>${value}</span>`);
+      $span = $element.next('span');
+    }
+    $span.text(value);
+  }
+}
+
 const checkboxToForm3 = () => {
   const Form = $('#form-course'), FormTo = $('#form-course3'); // กำหนดตัวแปรสำหรับฟอร์มต้นทางและฟอร์มปลายทาง
   FormTo.find('[name^="input_head"]').val(''); // ล้างค่าของ input และ textarea ในฟอร์มปลายทาง
@@ -170,14 +187,14 @@ const checkboxToForm3 = () => {
     // ตรวจสอบว่าข้อมูลเป็นของ input_head3 หรือมี checkbox หลายตัวในกลุ่ม
     group === 'input_head3' || $(this).closest('.--group').find('.form-check-input:checked').length > 1
       ? (selectedMuseums[head] ||= []).push(` • ${value}`) // ถ้าเป็น input_head3 หรือมีหลายค่าในกลุ่ม ให้เก็บใน selectedMuseums
-      : updateSpan(FormTo.find(`input[name='${group}']`).val(text), text); // ถ้าไม่ใช่ ให้ใส่ค่าใน input และอัปเดต <span>
+      : updateSpan2(FormTo.find(`input[name='${group}']`).val(text), text); // ถ้าไม่ใช่ ให้ใส่ค่าใน input และอัปเดต <span>
   });
 
   // จัดการค่าใน input_head3 (textarea)
   const input_head3Text = Object.entries(selectedMuseums) // แปลง selectedMuseums เป็นข้อความที่ต้องแสดง
     .map(([h, v]) => `${h}\n${v.join("\n")}`) // สำหรับ textarea ใช้ `\n` แทนการขึ้นบรรทัดใหม่
     .join("\n\n");
-  updateSpan(
+  updateSpan2(
     FormTo.find("textarea[name='input_head3']").val(input_head3Text), // ใส่ค่าใน textarea
     Object.entries(selectedMuseums) // สำหรับ <span> ใช้ `<br>` แทนการขึ้นบรรทัดใหม่
       .map(([h, v]) => `${h}<br>${v.join("<br>")}`)
@@ -185,7 +202,7 @@ const checkboxToForm3 = () => {
   );
 
   // ฟังก์ชันอัปเดต/เพิ่ม <span> ถัดจาก <input> หรือ <textarea>
-  function updateSpan($input, text) {
+  function updateSpan2($input, text) {
     const $span = $input.next('span'); // หาส่วน <span> ถัดจาก input
     $span.length ? $span.html(text) : $input.after(`<span>${text}</span>`); // ถ้ามี <span> อยู่แล้วให้แก้ไข ถ้าไม่มีก็เพิ่มใหม่
   }

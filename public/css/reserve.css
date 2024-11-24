@@ -27,11 +27,13 @@
     margin-top: 20px;
     text-align: center;
     counter-reset: item;
+    justify-content: center;
   }
     .box-status ul.-status-bar li {
       counter-increment: item;
       width: 100%;
       position: relative;
+      max-width: 200px;
     }
     .box-status ul.-status-bar.Asyouwish li:nth-child(1) ,
     .box-status ul.-status-bar.Asyouwish li:nth-child(2) {
@@ -185,6 +187,57 @@
   }
   #form-course2 .box-form-course .has-error {
     outline-width: 5px;
+  }
+
+  #form-course2 .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    margin-bottom: 0px;
+  }
+    #form-course2 .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    #form-course2 .switch .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.4s;
+      border-radius: 28px;
+    }
+      #form-course2 .switch .slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      } 
+      #form-course2 .switch input:checked + .slider {
+        background-color: #4CAF50;
+      }
+      #form-course2 .switch input:checked + .slider:before {
+        transform: translateX(22px);
+      }
+
+  #form-course2 #box-Snack_cost ,
+  #form-course2 #box-switch_food {
+
+  }
+  #form-course2 #box-Snack_cost.disabled ,
+  #form-course2 #box-switch_food.disabled {
+    pointer-events: none;
+    opacity: 0.5;
   }
 
 #form-course3 {
