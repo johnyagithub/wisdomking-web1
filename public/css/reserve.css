@@ -166,10 +166,19 @@
       left: 0px;
       width: 100%;
     }
-    #form-course2 .box-Ourmuseum .text input[type=radio] ,
-    #form-course2 .box-Ourmuseum .text input[type=checkbox] {
-    position: initial;
+    #form-course2 .box-Ourmuseum .text .custom-radio {
+      position: initial;
       margin: 5px 0px 5px 8px;
+    }
+    #form-course2 .box-Ourmuseum .custom-radio + label {
+      position: initial;
+      padding-left: 0px;
+    }
+    #form-course2 .box-Ourmuseum .custom-radio + label::before {
+      left: auto;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
     }
 
   #form-course2 .form-check input[type=checkbox] {
@@ -335,7 +344,15 @@
     column-count: 1;
   }
   #form-course2 .box-Ourmuseum .text {
-    position: initial;
+    position: relative;
+    padding: 5px 10px;
+  }
+  #form-course2 .box-Ourmuseum .text label {
+    height: 48px;
+    font-size: 16px;
+  }
+  #form-course2 .box-Ourmuseum .custom-radio + label::before {
+    right: 10px;
   }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){

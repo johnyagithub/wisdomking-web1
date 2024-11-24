@@ -720,6 +720,36 @@ input[type=radio] {
  filter: hue-rotate(-51deg);
 }
 
+.custom-radio {
+  display: none;
+}
+  .custom-radio + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  .custom-radio + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0px 2px rgb(255 255 255 / 56%);
+    background-color: #fff;
+    border-radius: 3px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  .custom-radio:checked + label::before ,
+  .custom-radio + label:hover::before {
+    background-color: #009793;
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .toggle-radio {
   display: flex;
   align-items: center;

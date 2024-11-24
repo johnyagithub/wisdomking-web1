@@ -104,7 +104,7 @@
           </div>
         </div>
         <div class="form-row px-4 col-12">
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-6">
             <label for="">ระดับอายุ ตั้งแต่*</label>
             <select class="templatingSelect2" name="input_ageRange" required>
               <option value="">อายุ.....</option>
@@ -113,7 +113,7 @@
               <option value="18+ ปี">28+ ปี</option>
             </select>
           </div>
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-6">
             <label for="input_Quantity">จำนวน*</label>
             <input type="number" class="form-control bg-white" name="input_Quantity" id="input_Quantity" required="">
           </div>
@@ -137,8 +137,8 @@
       </div>
 
       <hr class="mt-3 mb-4">
-      <div class="d-flex">
-        <h6>ค่าอาหารว่าง</h6>
+      <div class="d-flex flex-wrap align-items-center mb-3">
+        <h6 class="my-1 mr-2">ค่าอาหารว่าง</h6>
         <div class="ml-auto mb-0 d-flex align-items-center">
           <label class="switch" for="Snack_cost">
             <input type="checkbox" id="Snack_cost" checked>
@@ -168,8 +168,8 @@
       </div>
 
       <hr class="mt-3 mb-4">
-      <div class="d-flex">
-        <h6>ค่าอาหาร</h6>
+      <div class="d-flex flex-wrap align-items-center mb-3">
+        <h6 class="my-1 mr-2">ค่าอาหาร</h6>
         <div class="ml-auto mb-0 d-flex align-items-center">
           <label class="switch" for="switch_food">
             <input type="checkbox" id="switch_food" checked>
@@ -188,40 +188,40 @@
             <div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
               data-itemSlide-mobile="2">
 
-              <div class="item">
+              <div class="item" for="input_foodMenu-11">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-11">
                   <label class="form-check-label mb-0" for="input_foodMenu-11">สุกี้แห้ง</label>
-                  <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-11">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-12">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง" name="input_foodMenu" id="input_foodMenu-12">
                   <label class="form-check-label mb-0" for="input_foodMenu-12">สปาเก็ตตี้ผัดขี้เมากุ้ง</label>
-                  <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง" name="input_foodMenu" id="input_foodMenu-12">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-13">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา" name="input_foodMenu" id="input_foodMenu-13">
                   <label class="form-check-label mb-0" for="input_foodMenu-13">ขนมจีนน้ำยา</label>
-                  <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา" name="input_foodMenu" id="input_foodMenu-13">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-14">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-14">
                   <label class="form-check-label mb-0" for="input_foodMenu-14">สุกี้แห้ง</label>
-                  <input class="form-check-input" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-14">
                 </div>
               </div>
 
@@ -246,42 +246,40 @@
             <div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
               data-itemSlide-mobile="2">
 
-              <div class="item">
+              <div class="item" for="input_foodMenu-21">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-21" required="">
                   <label class="form-check-label mb-0" for="input_foodMenu-21">สุกี้แห้ง2</label>
-                  <input class="form-check-input" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-21"
-                    required="">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-22">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง2" name="input_foodMenu" id="input_foodMenu-22">
                   <label class="form-check-label mb-0" for="input_foodMenu-22">สปาเก็ตตี้ผัดขี้เมากุ้ง2</label>
-                  <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง2" name="input_foodMenu"
-                    id="input_foodMenu-22">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-23">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา2" name="input_foodMenu" id="input_foodMenu-23">
                   <label class="form-check-label mb-0" for="input_foodMenu-23">ขนมจีนน้ำยา2</label>
-                  <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา2" name="input_foodMenu" id="input_foodMenu-23">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-24">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-24">
                   <label class="form-check-label mb-0" for="input_foodMenu-24">สุกี้แห้ง2</label>
-                  <input class="form-check-input" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-24">
                 </div>
               </div>
 
@@ -306,42 +304,40 @@
             <div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
               data-itemSlide-mobile="2">
 
-              <div class="item">
+              <div class="item" for="input_foodMenu-31">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-31" required="">
                   <label class="form-check-label mb-0" for="input_foodMenu-31">สุกี้แห้ง3</label>
-                  <input class="form-check-input" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-31"
-                    required="">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-32">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง3" name="input_foodMenu" id="input_foodMenu-32">
                   <label class="form-check-label mb-0" for="finput_oodMenu-32">สปาเก็ตตี้ผัดขี้เมากุ้ง3</label>
-                  <input class="form-check-input" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง3" name="input_foodMenu"
-                    id="input_foodMenu-32">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-33">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา3" name="input_foodMenu" id="input_foodMenu-33">
                   <label class="form-check-label mb-0" for="input_foodMenu-33">ขนมจีนน้ำยา3</label>
-                  <input class="form-check-input" type="radio" value="ขนมจีนน้ำยา3" name="input_foodMenu" id="input_foodMenu-33">
                 </div>
               </div>
-              <div class="item">
+              <div class="item" for="input_foodMenu-34">
                 <div class="img">
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-34">
                   <label class="form-check-label mb-0" for="input_foodMenu-34">สุกี้แห้ง3</label>
-                  <input class="form-check-input" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-34">
                 </div>
               </div>
 

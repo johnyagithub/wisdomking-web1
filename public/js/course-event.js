@@ -16,6 +16,7 @@ $(document).ready(function () {
   $('#switch_food').on('change', function () {
     const isChecked = $(this).is(':checked');
     $('#box-switch_food').toggleClass('disabled', isChecked);
+    $('#box-switch_food').removeClass('has-error');
     $('#form-course2 [name="input_food"]').prop('checked', false).prop('required', !isChecked);
     $('#form-course2 [name="input_foodMenu"]').prop('checked', false).prop('required', false);
     $('#form-course2 [name="input_foodQuantity"]').val('').prop('required', false);
