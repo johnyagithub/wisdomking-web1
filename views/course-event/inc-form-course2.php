@@ -3,13 +3,13 @@
     <div class="form-container">
       <div class="form-group">
         <label for="input_Agency">ชื่อ (หน่วยงาน/สถาบันการศึกษา)*</label>
-        <input type="text" class="form-control bg-white" name="input_Agency" id="input_Agency" placeholder="กรุณาระบุชื่อ"
-          required="">
+        <input type="text" class="form-control bg-white" name="input_Agency" id="input_Agency"
+          placeholder="กรุณาระบุชื่อ" required="">
       </div>
       <div class="form-group">
         <label for="input_address">ที่อยู่*</label>
-        <input type="text" class="form-control bg-white" name="input_address" id="input_address" placeholder="กรุณาระบุที่อยู่"
-          required="">
+        <input type="text" class="form-control bg-white" name="input_address" id="input_address"
+          placeholder="กรุณาระบุที่อยู่" required="">
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
@@ -26,26 +26,27 @@
         </div>
         <div class="form-group col-md-6">
           <label for="input_post">ไปรษณีย์*</label>
-          <input type="text" class="form-control bg-white" name="input_post" id="input_post" placeholder="กรุณาระบุรหัสไปรษณีย์"
-            required="">
+          <input type="text" class="form-control bg-white" name="input_post" id="input_post"
+            placeholder="กรุณาระบุรหัสไปรษณีย์" required="">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="input_tel">เบอร์โทร*</label>
-          <input type="tel" class="form-control bg-white" name="input_tel" id="input_tel" placeholder="กรุณาระบุเบอร์โทร"
-            required="">
+          <input type="tel" class="form-control bg-white" name="input_tel" id="input_tel"
+            placeholder="กรุณาระบุเบอร์โทร" required="">
         </div>
         <div class="form-group col-md-6">
           <label for="input_fax">โทรสาร</label>
-          <input type="text" class="form-control bg-white" name="input_fax" id="input_fax" placeholder="กรุณาระบุเบอร์โทรสาร">
+          <input type="text" class="form-control bg-white" name="input_fax" id="input_fax"
+            placeholder="กรุณาระบุเบอร์โทรสาร">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="input_date">วันที่เข้าร่วมโครงการ*</label>
-          <input type="date" class="form-control bg-white minDate" name="input_date" id="input_date" placeholder="กรุณาระบุชื่อ"
-            value="<?= date('Y-m-d'); ?>" min="<?= date('Y-m-d'); ?>" required="">
+          <input type="date" class="form-control bg-white minDate" name="input_date" id="input_date"
+            placeholder="กรุณาระบุชื่อ" value="<?= date('Y-m-d'); ?>" min="<?= date('Y-m-d'); ?>" required="">
         </div>
         <div class="form-group col-md-6">
           <label for="">ระยะเวลาเรียนรู้*</label>
@@ -65,8 +66,8 @@
         </div>
         <div class="form-group col-md-6">
           <label for="input_positionCoordinator">ตำแหน่ง*</label>
-          <input type="text" class="form-control bg-white" name="input_positionCoordinator" id="input_positionCoordinator"
-            placeholder="กรุณาระบุตำแหน่งผู้ประสานงาน" required="">
+          <input type="text" class="form-control bg-white" name="input_positionCoordinator"
+            id="input_positionCoordinator" placeholder="กรุณาระบุตำแหน่งผู้ประสานงาน" required="">
         </div>
       </div>
       <div class="form-row">
@@ -82,40 +83,97 @@
         </div>
       </div>
       <div class="form-row">
-        <div class="form-group col-12 group-choose1">
+        <div class="form-group col-12">
           <label for="">ประเภทผู้เข้าร่วม*</label>
           <div class="col-12">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="นักเรียน" name="input_participantTypes" id="input_participantTypes-1">
-              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-1">นักเรียน</label>
+              <input class="form-check-input" type="checkbox" value="นักเรียน" name="input_participantTypes1"
+                id="input_participantTypes1" required="">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes1">นักเรียน</label>
+              <div class="box-form-check">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="">ระดับอายุ ตั้งแต่*</label>
+                    <select class="templatingSelect2" name="input_ageRange1">
+                      <option value="">อายุ.....</option>
+                      <option value="18 - 22 ปี">18 - 22 ปี</option>
+                      <option value="23 - 27 ปี">23 - 27 ปี</option>
+                      <option value="18+ ปี">28+ ปี</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_Quantity1">จำนวน*</label>
+                    <input type="number" class="form-control bg-white" name="input_Quantity1" id="input_Quantity1">
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="ครู/อาจารย์" name="input_participantTypes" id="input_participantTypes-2">
-              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-2">ครู/อาจารย์</label>
+              <input class="form-check-input" type="checkbox" value="ครู/อาจารย์" name="input_participantTypes2"
+                id="input_participantTypes2">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes2">ครู/อาจารย์</label>
+              <div class="box-form-check">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="">ระดับอายุ ตั้งแต่*</label>
+                    <select class="templatingSelect2" name="input_ageRange2">
+                      <option value="">อายุ.....</option>
+                      <option value="18 - 22 ปี">18 - 22 ปี</option>
+                      <option value="23 - 27 ปี">23 - 27 ปี</option>
+                      <option value="18+ ปี">28+ ปี</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_Quantity2">จำนวน*</label>
+                    <input type="number" class="form-control bg-white" name="input_Quantity2" id="input_Quantity2">
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="นักศึกษา" name="input_participantTypes" id="input_participantTypes-3">
-              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-3">นักศึกษา</label>
+              <input class="form-check-input" type="checkbox" value="นักศึกษา" name="input_participantTypes3"
+                id="input_participantTypes3">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes3">นักศึกษา</label>
+              <div class="box-form-check">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="">ระดับอายุ ตั้งแต่*</label>
+                    <select class="templatingSelect2" name="input_ageRange3">
+                      <option value="">อายุ.....</option>
+                      <option value="18 - 22 ปี">18 - 22 ปี</option>
+                      <option value="23 - 27 ปี">23 - 27 ปี</option>
+                      <option value="18+ ปี">28+ ปี</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_Quantity3">จำนวน*</label>
+                    <input type="number" class="form-control bg-white" name="input_Quantity3" id="input_Quantity3">
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="อื่นๆ" name="input_participantTypes" id="input_participantTypes-4">
-              <label class="form-check-label ml-1 mb-1" for="input_participantTypes-4">อื่นๆ</label>
+              <input class="form-check-input" type="checkbox" value="อื่นๆ" name="input_participantTypes4"
+                id="input_participantTypes4">
+              <label class="form-check-label ml-1 mb-1" for="input_participantTypes4">อื่นๆ</label>
+              <div class="box-form-check">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="">ระดับอายุ ตั้งแต่*</label>
+                    <select class="templatingSelect2" name="input_ageRange4">
+                      <option value="">อายุ.....</option>
+                      <option value="18 - 22 ปี">18 - 22 ปี</option>
+                      <option value="23 - 27 ปี">23 - 27 ปี</option>
+                      <option value="18+ ปี">28+ ปี</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_Quantity4">จำนวน*</label>
+                    <input type="number" class="form-control bg-white" name="input_Quantity4" id="input_Quantity4">
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="form-row px-4 col-12">
-          <div class="form-group col-md-6">
-            <label for="">ระดับอายุ ตั้งแต่*</label>
-            <select class="templatingSelect2" name="input_ageRange" required>
-              <option value="">อายุ.....</option>
-              <option value="18 - 22 ปี">18 - 22 ปี</option>
-              <option value="23 - 27 ปี">23 - 27 ปี</option>
-              <option value="18+ ปี">28+ ปี</option>
-            </select>
-          </div>
-          <div class="form-group col-md-6">
-            <label for="input_Quantity">จำนวน*</label>
-            <input type="number" class="form-control bg-white" name="input_Quantity" id="input_Quantity" required="">
           </div>
         </div>
       </div>
@@ -123,11 +181,13 @@
         <h6 class="col-12">เพศ*</h6>
         <div class="form-group col-md-6">
           <label for="input_menQuantity">ชาย</label>
-          <input type="number" class="form-control bg-white" name="input_menQuantity" id="input_menQuantity" required="">
+          <input type="number" class="form-control bg-white" name="input_menQuantity" id="input_menQuantity"
+            required="">
         </div>
         <div class="form-group col-md-6">
           <label for="input_femaleQuantity">หญิง</label>
-          <input type="number" class="form-control bg-white" name="input_femaleQuantity" id="input_femaleQuantity" required="">
+          <input type="number" class="form-control bg-white" name="input_femaleQuantity" id="input_femaleQuantity"
+            required="">
         </div>
         <div
           class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -160,9 +220,11 @@
         </div>
         <div class="form-group col-md-6">
           <label for="input_snackCostQuantity">จำนวน</label>
-          <input type="number" class="form-control bg-white" name="input_snackCostQuantity" id="input_snackCostQuantity">
+          <input type="number" class="form-control bg-white" name="input_snackCostQuantity"
+            id="input_snackCostQuantity">
         </div>
-        <div class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
+        <div
+          class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
           รวมเป็นเงิน <span class="text-gradient h2 mb-0 ml-2">฿ 00</span>
         </div>
       </div>
@@ -193,7 +255,8 @@
                   <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-11">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu"
+                    id="input_foodMenu-11">
                   <label class="form-check-label mb-0" for="input_foodMenu-11">สุกี้แห้ง</label>
                 </div>
               </div>
@@ -202,7 +265,8 @@
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง" name="input_foodMenu" id="input_foodMenu-12">
+                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง"
+                    name="input_foodMenu" id="input_foodMenu-12">
                   <label class="form-check-label mb-0" for="input_foodMenu-12">สปาเก็ตตี้ผัดขี้เมากุ้ง</label>
                 </div>
               </div>
@@ -211,7 +275,8 @@
                   <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา" name="input_foodMenu" id="input_foodMenu-13">
+                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา" name="input_foodMenu"
+                    id="input_foodMenu-13">
                   <label class="form-check-label mb-0" for="input_foodMenu-13">ขนมจีนน้ำยา</label>
                 </div>
               </div>
@@ -220,7 +285,8 @@
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu" id="input_foodMenu-14">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu"
+                    id="input_foodMenu-14">
                   <label class="form-check-label mb-0" for="input_foodMenu-14">สุกี้แห้ง</label>
                 </div>
               </div>
@@ -229,7 +295,8 @@
 
             <div class="form-group">
               <label for="input_foodQuantity-1">จำนวน*</label>
-              <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-1" required="">
+              <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-1"
+                required="">
             </div>
             <div
               class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -251,7 +318,8 @@
                   <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-21" required="">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu"
+                    id="input_foodMenu-21" required="">
                   <label class="form-check-label mb-0" for="input_foodMenu-21">สุกี้แห้ง2</label>
                 </div>
               </div>
@@ -260,7 +328,8 @@
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง2" name="input_foodMenu" id="input_foodMenu-22">
+                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง2"
+                    name="input_foodMenu" id="input_foodMenu-22">
                   <label class="form-check-label mb-0" for="input_foodMenu-22">สปาเก็ตตี้ผัดขี้เมากุ้ง2</label>
                 </div>
               </div>
@@ -269,7 +338,8 @@
                   <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา2" name="input_foodMenu" id="input_foodMenu-23">
+                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา2" name="input_foodMenu"
+                    id="input_foodMenu-23">
                   <label class="form-check-label mb-0" for="input_foodMenu-23">ขนมจีนน้ำยา2</label>
                 </div>
               </div>
@@ -278,7 +348,8 @@
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu" id="input_foodMenu-24">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu"
+                    id="input_foodMenu-24">
                   <label class="form-check-label mb-0" for="input_foodMenu-24">สุกี้แห้ง2</label>
                 </div>
               </div>
@@ -287,7 +358,8 @@
 
             <div class="form-group">
               <label for="input_foodQuantity-2">จำนวน*</label>
-              <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-2" required="">
+              <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-2"
+                required="">
             </div>
             <div
               class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -309,7 +381,8 @@
                   <img src="../../public/images/ourmuseum/img1.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-31" required="">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu"
+                    id="input_foodMenu-31" required="">
                   <label class="form-check-label mb-0" for="input_foodMenu-31">สุกี้แห้ง3</label>
                 </div>
               </div>
@@ -318,7 +391,8 @@
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง3" name="input_foodMenu" id="input_foodMenu-32">
+                  <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง3"
+                    name="input_foodMenu" id="input_foodMenu-32">
                   <label class="form-check-label mb-0" for="finput_oodMenu-32">สปาเก็ตตี้ผัดขี้เมากุ้ง3</label>
                 </div>
               </div>
@@ -327,7 +401,8 @@
                   <img src="../../public/images/ourmuseum/img3.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา3" name="input_foodMenu" id="input_foodMenu-33">
+                  <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา3" name="input_foodMenu"
+                    id="input_foodMenu-33">
                   <label class="form-check-label mb-0" for="input_foodMenu-33">ขนมจีนน้ำยา3</label>
                 </div>
               </div>
@@ -336,7 +411,8 @@
                   <img src="../../public/images/ourmuseum/img2.jpg" alt="">
                 </div>
                 <div class="text">
-                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu" id="input_foodMenu-34">
+                  <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu"
+                    id="input_foodMenu-34">
                   <label class="form-check-label mb-0" for="input_foodMenu-34">สุกี้แห้ง3</label>
                 </div>
               </div>
@@ -345,7 +421,8 @@
 
             <div class="form-group">
               <label for="input_foodQuantity-3">จำนวน*</label>
-              <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-3" required="">
+              <input type="number" class="form-control bg-white" name="input_foodQuantity" id="input_foodQuantity-3"
+                required="">
             </div>
             <div
               class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
@@ -359,13 +436,8 @@
   </div>
   <div class="form-row justify-content-center mt-4 border-top pt-4">
     <div class="col-6 col-md-4 col-lg-3 px-1">
-      <?php if ($page !== 'Asyouwish') { ?>
-        <button type="button" class="btn btn-light border bg-white rounded-pill w-100"
-          onclick="$('#join-project').attr('data-status', '2');">ย้อนกลับ</button>
-      <? } else { ?>
-        <button type="button" class="btn btn-light border bg-white rounded-pill w-100"
-          onclick="window.history.back();">ย้อนกลับ</button>
-      <? } ?>
+      <button type="button" class="btn btn-light border bg-white rounded-pill w-100"
+        onclick="<?= $page !== 'Asyouwish' ? "$('#join-project').attr('data-status', '2');" : "window.history.back();" ?>">ย้อนกลับ</button>
     </div>
     <div class="col-6 col-md-4 col-lg-3 px-1">
       <button type="submit" class="btn btn-style w-100">ดำเนินการต่อ</button>

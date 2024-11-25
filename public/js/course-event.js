@@ -3,6 +3,7 @@ $(document).ready(function () {
   groupChoose3();
   submitForm1();
   submitForm2();
+  participantTypes();
 
   // เช็คค่า ค่าอาหารว่าง
   $('#Snack_cost').on('change', function () {
@@ -18,16 +19,20 @@ $(document).ready(function () {
     $('#box-switch_food').toggleClass('disabled', isChecked);
     $('#box-switch_food').removeClass('has-error');
     $('#form-course2 [name="input_food"]').prop('checked', false).prop('required', !isChecked);
-    $('#form-course2 [name="input_foodMenu"]').prop('checked', false).prop('required', false);
+    $('#form-course2 [name="input_foodMenu"]').prop('checked', false);
     $('#form-course2 [name="input_foodQuantity"]').val('').prop('required', false);
   });
 
   // เช็คค่า input_food
   $('#form-course2 [name="input_food"]').on('change', function () {
-    $(this).prop('required', true);
+    // ลบ required ออกจาก input_foodMenu และ input_foodQuantity ทั้งหมด
+    $('#form-course2 [name="input_foodMenu"]').prop('checked', false);
+    $('#form-course2 [name="input_foodQuantity"]').prop('required', false).val('');
+
+    // ตรวจสอบว่า checkbox ปัจจุบันถูกเลือกหรือไม่
     const isChecked = $(this).is(':checked');
-    $('#form-course2 [name="input_foodMenu"]').prop('required', isChecked).prop('checked', false);
-    $('#form-course2 [name="input_foodQuantity"]').prop('required', isChecked).val('');
+    // ตั้งค่า required สำหรับ input_foodQuantity ที่เกี่ยวข้อง
+    $(this).closest('.form-check').find('[name="input_foodQuantity"]').prop('required', isChecked);
   });
 
 });
@@ -126,6 +131,12 @@ let submitForm2 = () => {
       updateSpan($inputWithAuto, field.value); // ใช้ฟังก์ชัน updateSpan กับ input ที่อยู่ภายใน .input-width-auto
     });
 
+    // ตรวจสอบประเภทผู้เข้าร่วม แสดงเฉพาะ ที่เลือก
+    for (let i = 1; i <= 4; i++) {
+      const isChecked = $(`#form-course2 input[name="input_participantTypes${i}"]`).is(':checked');
+      $(`#form-course3 li:has(input[name="input_participantTypes${i}"])`).toggle(isChecked);
+    }
+
     // ไม่รับอาหารว่าง
     if ($('#Snack_cost').is(':checked')) {
       $('#form-course3 [name="input_snackCost"]').val('ไม่รับ');
@@ -140,6 +151,14 @@ let submitForm2 = () => {
       updateSpan($('#form-course3 .input-width-auto [name="input_food"], #form-course3 .input-width-auto [name="input_foodMenu"]'), 'ไม่รับ');
       $('#form-course3 [name="input_foodQuantity"]').val(0);
       updateSpan($('#form-course3 .input-width-auto [name="input_foodQuantity"]'), 0);
+    } else {
+      // ยังไม่เลือกเมนูอาหาร
+      const radioGroup = $('#form-course2 input[name="input_foodMenu"]:checked');
+      if (!radioGroup.length) {
+        $('#join-project').attr('data-status', '3');
+        alert("กรุณาเลือกเมนูอาหาร");
+        ScrollTop('#' + $('#form-course2 [name="input_food"]:checked').attr('id'));
+      }
     }
   });
 }
@@ -207,4 +226,18 @@ const checkboxToForm3 = () => {
     const $span = $input.next('span'); // หาส่วน <span> ถัดจาก input
     $span.length ? $span.html(text) : $input.after(`<span>${text}</span>`); // ถ้ามี <span> อยู่แล้วให้แก้ไข ถ้าไม่มีก็เพิ่มใหม่
   }
+};
+
+const participantTypes = () => {
+  // เช็คค่า ประเภทผู้เข้าร่วม*
+  const Checkbox = $('#form-course2 [name^="input_participantTypes"]');
+  Checkbox.on('change', function () {
+    // เช็คว่า checkbox ถูกเลือกหรือไม่
+    Checkbox.prop('required', !Checkbox.filter(':checked').length);
+    const isChecked = $(this).is(':checked');
+    // ปรับค่าและการตั้งค่า required สำหรับ element ถัดไปที่เกี่ยวข้อง
+    $(this).closest('.form-check').find('.box-form-check select').val('').prop('required', isChecked).trigger('change');
+    // ปรับ required ของ input[name^="input_Quantity"]
+    $(this).closest('.form-check').find('.box-form-check input[name^="input_Quantity"]').prop('required', isChecked).val('');
+  });
 };

@@ -92,19 +92,78 @@
             <input type="text" name="input_emailCoordinator" required="">
           </div>
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-12">
           <label>ประเภทผู้เข้าร่วม*</label>
-          <input type="text" name="input_participantTypes" required="">
-        </div>
-        <div class="form-group col-md-6">
-          <label>ระดับอายุ ตั้งแต่*</label>
-          <input type="text" name="input_ageRange" required="">
-        </div>
-        <div class="form-group col-md-6">
-          <label>จำนวน*</label>
-          <div class="input-width-auto">
-            <input type="text" name="input_Quantity" required=""> คน
-          </div>
+          <ol class="mb-0 pl-4">
+            <!-- นักเรียน -->
+            <li>
+              <div class="d-flex flex-wrap">
+                <div class="input-width-auto mr-2">
+                  <input type="text" name="input_participantTypes1" required="">
+                </div>
+                <div class="input-width-auto mr-2">
+                  ระดับอายุ
+                  <input type="text" name="input_ageRange1" required="">
+                </div>
+                <div class="input-width-auto">
+                  จำนวน
+                  <input type="text" name="input_Quantity1" required="">
+                  คน
+                </div>
+              </div>
+            </li>
+            <!-- ครู/อาจารย์ -->
+            <li>
+              <div class="d-flex flex-wrap">
+                <div class="input-width-auto mr-2">
+                  <input type="text" name="input_participantTypes2" required="">
+                </div>
+                <div class="input-width-auto mr-2">
+                  ระดับอายุ
+                  <input type="text" name="input_ageRange2" required="">
+                </div>
+                <div class="input-width-auto">
+                  จำนวน
+                  <input type="text" name="input_Quantity2" required="">
+                  คน
+                </div>
+              </div>
+            </li>
+            <!-- นักศึกษา -->
+            <li>
+              <div class="d-flex flex-wrap">
+                <div class="input-width-auto mr-2">
+                  <input type="text" name="input_participantTypes3" required="">
+                </div>
+                <div class="input-width-auto mr-2">
+                  ระดับอายุ
+                  <input type="text" name="input_ageRange3" required="">
+                </div>
+                <div class="input-width-auto">
+                  จำนวน
+                  <input type="text" name="input_Quantity3" required="">
+                  คน
+                </div>
+              </div>
+            </li>
+            <!-- อื่นๆ -->
+            <li>
+              <div class="d-flex flex-wrap">
+                <div class="input-width-auto mr-2">
+                  <input type="text" name="input_participantTypes4" required="">
+                </div>
+                <div class="input-width-auto mr-2">
+                  ระดับอายุ
+                  <input type="text" name="input_ageRange4" required="">
+                </div>
+                <div class="input-width-auto">
+                  จำนวน
+                  <input type="text" name="input_Quantity4" required="">
+                  คน
+                </div>
+              </div>
+            </li>
+          </ol>
         </div>
         <div class="form-group col-md-6">
           <label>เพศ*</label>
