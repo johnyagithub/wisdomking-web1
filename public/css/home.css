@@ -694,9 +694,16 @@
   .box-banner .box-text {
     position: relative;
     padding: 22px !important;
+    min-height: 500px;
   }
   .box-banner .b-text {
     width: 100% !important;
+  }
+  .box-banner .container {
+    padding: 0px;
+  }
+  .box-banner .owl-carousel {
+    border-radius: 0px;
   }
   .box-banner img.img-banner {
     position: absolute;
@@ -778,7 +785,11 @@
   .box-banner .b-text {
     width: 100% !important;
     justify-content: end;
-    padding-bottom: 8%;
+    min-height: 450px;
+  }
+  .box-banner .b-text .btn {
+    width: 100%;
+    margin-top: auto;
   }
   .box-Market .owl-carousel .item {
     width: calc(100% - 15px);
@@ -797,6 +808,14 @@
   }
   .box-Learning .owl-nav {
     display: flex !important;
+    justify-content: end;
+  }
+  .nav-dots-style .owl-nav {
+    margin-left: auto;
+  }
+  .box-Calendar #data-Calendar .item img {
+    max-height: 177px;
+    object-position: top;
   }
   .box-Agricultural-slide .item .text {
     border-top-left-radius: 0px;

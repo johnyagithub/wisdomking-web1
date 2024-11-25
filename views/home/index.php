@@ -49,7 +49,7 @@
 					เนื่องในมหามงคลสมัยที่ทรง...
 				</p>
 				<br>
-				<a class="btn btn-style px-5 d-table mx-auto" href="#">อ่านต่อ</a>
+				<a class="btn btn-style px-5 d-block d-sm-table mx-auto" href="#">อ่านต่อ</a>
 			</div>
 		</section>
 
@@ -57,8 +57,8 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
 								type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
 								<img src="../../public/images/moon.png" style="width: 24px;" alt="">
@@ -196,11 +196,11 @@
 		<section class="box-Learning py-5">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-5 col-lg-3 d-flex flex-column text-center text-sm-left order-sm-1">
+					<div class="col-sm-5 col-lg-3 d-flex flex-sm-column flex-row-reverse text-center text-sm-left order-sm-1">
 						<a href="../learning/" class="text-secondary"><u>ทั้งหมด</u></a>
-						<div class="my-auto py-4">
+						<div class="my-auto py-sm-4 mr-auto mr-sm-0">
 							<h3 class="head mb-4">สื่อการเรียนรู้</h3>
-							<h5>ภาพยนตร์แอนิเมชั่น 3 มิติ</h5>
+							<h5 class="d-none d-sm-block">ภาพยนตร์แอนิเมชั่น 3 มิติ</h5>
 						</div>
 						<div class="arrow-default">
 							<div class="o-prev"></div>
@@ -262,13 +262,13 @@
 			<div class="container">
 				<div class="d-flex flex-wrap align-items-start">
 					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
-					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Calendar">
-						<div class="owl-carousel">
-							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
-							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted">ท่องเที่ยวสุขสันต์
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs ml-auto d-flex" data-showId="data-Calendar">
+							<button type="button" class="btn btn-style3 px-3 mx-1 text-muted active">ทั้งหมด</button>
+							<button type="button" data-type="tab1" class="btn btn-style3 px-3 mx-1 text-muted">ท่องเที่ยวสุขสันต์
 								ที่พิพิธภัณฑ์เกษตรฯ</button>
-							<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted">หลักสูตรอบรมเข้มข้น</button>
-							<!-- <button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted">อื่นๆ</button> -->
+							<button type="button" data-type="tab2" class="btn btn-style3 px-3 mx-1 text-muted">หลักสูตรอบรมเข้มข้น</button>
+							<!-- <button type="button" data-type="tab3" class="btn btn-style3 px-3 mx-1 text-muted">อื่นๆ</button> -->
 						</div>
 					</div>
 				</div>

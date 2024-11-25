@@ -3309,23 +3309,23 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   body h1 ,
   body .h1 {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   body h2 ,
   body .h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   body h3 ,
   body .h3 {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   body h4 ,
   body .h4 {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   body h5 ,
   body .h5 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .box-Course .item .text {
     position: relative;
@@ -3548,6 +3548,7 @@ footer {
     }
     .box-Learning .item .text {
       padding: 17px 0px 0px 0px;
+      text-align: left !important;
     }
     .gallery-container {
       display: block;
