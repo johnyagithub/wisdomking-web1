@@ -59,8 +59,8 @@
           <input type="tel" name="input_tel" required="">
         </div>
         <div class="form-group col-md-6">
-          <label>โทรสาร*</label>
-          <input type="text" name="input_fax" required="">
+          <label>โทรสาร</label>
+          <input type="text" name="input_fax">
         </div>
         <div class="form-group col-md-6">
           <label>วันที่เข้าร่วมโครงการ*</label>
@@ -102,7 +102,7 @@
                   <input type="text" name="input_participantTypes1" required="">
                 </div>
                 <div class="input-width-auto mr-2">
-                  ระดับอายุ
+                  อายุ
                   <input type="text" name="input_ageRange1" required="">
                 </div>
                 <div class="input-width-auto">
@@ -119,7 +119,7 @@
                   <input type="text" name="input_participantTypes2" required="">
                 </div>
                 <div class="input-width-auto mr-2">
-                  ระดับอายุ
+                  อายุ
                   <input type="text" name="input_ageRange2" required="">
                 </div>
                 <div class="input-width-auto">
@@ -136,7 +136,7 @@
                   <input type="text" name="input_participantTypes3" required="">
                 </div>
                 <div class="input-width-auto mr-2">
-                  ระดับอายุ
+                  อายุ
                   <input type="text" name="input_ageRange3" required="">
                 </div>
                 <div class="input-width-auto">
@@ -153,7 +153,7 @@
                   <input type="text" name="input_participantTypes4" required="">
                 </div>
                 <div class="input-width-auto mr-2">
-                  ระดับอายุ
+                  อายุ
                   <input type="text" name="input_ageRange4" required="">
                 </div>
                 <div class="input-width-auto">
@@ -164,17 +164,6 @@
               </div>
             </li>
           </ol>
-        </div>
-        <div class="form-group col-md-6">
-          <label>เพศ*</label>
-          <div class="d-flex flex-wrap">
-            <div class="input-width-auto">
-              ชาย จำนวน <input type="text" name="input_menQuantity" required=""> คน
-            </div>,
-            <div class="input-width-auto">
-              หญิง จำนวน <input type="text" name="input_femaleQuantity" required=""> คน
-            </div>
-          </div>
         </div>
 
         <hr class="col-12 mt-3 mb-4">
@@ -197,7 +186,7 @@
           <input type="text" name="input_food" required="">
         </div>
         <div class="form-group col-md-6">
-          <label>เลือกเมนูอาหาร</label>
+          <label>เมนูอาหาร</label>
           <div class="input-width-auto">
             <input type="text" name="input_foodMenu" required="">
           </div>

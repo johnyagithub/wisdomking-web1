@@ -4,8 +4,7 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
-	<!-- select2 -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="../../public/css/calendar.css">
 
 </head>
 
@@ -31,25 +30,8 @@
 
 		<section class="py-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</h4>
-					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-						has been the industry's
-						standard dummy text ever since the 1500s,</p>
-					<div class="row justify-content-center pb-4 mt-5">
-						<div class="col-sm-9 col-md-8 col-lg-6">
-							<div class="form-group">
-								<label>โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</label>
-								<select class="templatingSelect2">
-									<option value="">กรุณาเลือกโครงการ</option>
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="gbp">Pound</option>
-								</select>
-							</div>
-						</div>
-					</div>
-				</div>
+
+				<?php include('inc-course-event.php'); ?>
 
 				<div class="box-Course pb-4">
 
@@ -236,11 +218,8 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
-	<!-- select2 -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
-	<script>
-		$(".templatingSelect2").select2();
-	</script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
 
 </body>
 

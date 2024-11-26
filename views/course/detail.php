@@ -18,7 +18,7 @@
 	<div id="content" class="content">
 
 		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb container bg-white">
+			<ol class="breadcrumb container bg-white justify-content-center mb-3">
 				<li class="breadcrumb-item">
 					<a href="../home/">
 						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก
@@ -44,10 +44,13 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto" style="max-width: 1000px;">
+
+				<?php include('inc-course-event.php'); ?>
+
+				<div class="mx-auto mb-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">หลักสูตร “ตามรอยพ่อ”</h4>
-					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-						has been the industry's standard dummy text ever since the 1500s,</p>
+					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
+						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
 					<img src="../../public/images/img-course.jpg" class="rounded w-100" alt="">
@@ -192,7 +195,7 @@
 									href="javascript:history.back()">ย้อนกลับ</a>
 							</div>
 							<div class="col-6 col-md-4 col-lg-3 px-1">
-								<a class="btn btn-style w-100" href="../course/reserve.php">เข้าร่วมหลักสูตร</a>
+								<a class="btn btn-style w-100" href="../course-event/reserve.php">เข้าร่วมหลักสูตร</a>
 							</div>
 						</div>
 					</div>

@@ -359,7 +359,7 @@
 					</div>
 
 					<div class="d-flex w-100">
-						<button type="button" class="btn btn-style4 mx-auto" style="margin-top: -42px;">
+						<button type="button" class="btn btn-style4 mx-auto">
 							โหลดเพิ่มเติม
 							<img src="../../public/images/icon-select.png" style="mix-blend-mode: color-dodge;" alt="">
 						</button>

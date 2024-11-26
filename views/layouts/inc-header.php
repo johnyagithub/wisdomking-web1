@@ -332,8 +332,8 @@
               เข้าร่วมโครงการส่งเสริมการเรียนรู้
             </button>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="../course-event/reserve.php">หมู่คณะเข้าชมโครงการส่งเสริมการเรียนรู้</a>
-              <a class="dropdown-item" href="../course-event/reserve.php?page=Asyouwish">ชมเองตามอัธยาศัย</a>
+              <a class="dropdown-item" href="../course/">หมู่คณะเข้าชมโครงการส่งเสริมการเรียนรู้</a>
+              <a class="dropdown-item" href="../course/reserve.php?page=Asyouwish">ชมเองตามอัธยาศัย</a>
             </div>
           </div>
           <a class="btn btn-style m-1" href="../e-learning/" role="button">e-Learning</a>

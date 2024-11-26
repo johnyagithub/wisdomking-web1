@@ -178,17 +178,6 @@
         </div>
       </div>
       <div class="form-row">
-        <h6 class="col-12">เพศ*</h6>
-        <div class="form-group col-md-6">
-          <label for="input_menQuantity">ชาย</label>
-          <input type="number" class="form-control bg-white" name="input_menQuantity" id="input_menQuantity"
-            required="">
-        </div>
-        <div class="form-group col-md-6">
-          <label for="input_femaleQuantity">หญิง</label>
-          <input type="number" class="form-control bg-white" name="input_femaleQuantity" id="input_femaleQuantity"
-            required="">
-        </div>
         <div
           class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
           รวมเป็นเงิน <span class="text-gradient h2 mb-0 ml-2">฿ 00</span><br>

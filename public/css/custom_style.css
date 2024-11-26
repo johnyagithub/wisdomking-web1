@@ -2855,6 +2855,9 @@ ul.ul-style {
 
 .box-Course {
   counter-reset: item;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
   .box-Course .course-item {
     counter-increment: item;
@@ -3296,6 +3299,34 @@ footer {
     border-top: 1px solid #DDDDDD;
     padding-top: 25px;
   }
+  .--sumMenu .sticky-top {
+    position: initial;
+    margin-bottom: 0px;
+  }
+  .--sumMenu {
+    background-color: #E2E2E2;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+  }
+  .--sumMenu+.col >.border-left {
+    border: 0px !important;
+  }
+  .--sumMenu .sticky-top > a[data-toggle="dropdown"] {
+    display: block
+  }
+  .sumMenu-profile {
+    display: none;
+    border: 0px;
+    position: absolute !important;
+    background: #e2e2e2;
+    top: 100% !important;
+    border-radius: 0px;
+  }
+  .sumMenu-profile .dropdown-item {
+    padding: 8px 0px;
+  }
 }
  /* แนวนอน */
  @media only screen and (orientation:landscape){
@@ -3435,6 +3466,13 @@ footer {
   }
   .--sumMenu {
     background-color: #E2E2E2;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+  }
+  .--sumMenu+.col >.border-left {
+    border: 0px !important;
   }
   .--sumMenu .sticky-top > a[data-toggle="dropdown"] {
     display: block
