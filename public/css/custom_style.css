@@ -2862,6 +2862,14 @@ ul.ul-style {
   margin-left: auto;
   margin-right: auto;
 }
+  .box-Course .-recommend {
+    color: var(--secondary);
+    background-color: var(--muted3);
+    border-radius: 8px;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
   .box-Course .course-item {
     counter-increment: item;
     position: relative;

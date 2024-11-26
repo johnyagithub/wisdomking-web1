@@ -1,7 +1,7 @@
 <form id="form-course2" class="my-4">
   <div class="box-form-course">
     <div class="form-container">
-      <!-- <div class="form-group">
+      <div class="form-group">
         <label for="input_Agency">ชื่อ (หน่วยงาน/สถาบันการศึกษา)*</label>
         <input type="text" class="form-control bg-white" name="input_Agency" id="input_Agency"
           placeholder="กรุณาระบุชื่อ" required="">
@@ -103,7 +103,15 @@
                   </div>
                   <div class="form-group col-md-6">
                     <label for="input_Quantity1">จำนวน*</label>
-                    <input type="number" class="form-control bg-white" name="input_Quantity1" id="input_Quantity1">
+                    <input type="number" class="form-control bg-white" name="input_Quantity1" id="input_Quantity1" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_menQuantity1">เพศชาย</label>
+                    <input type="number" class="form-control bg-white" name="input_menQuantity1" id="input_menQuantity1" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_femaleQuantity1">เพศหญิง</label>
+                    <input type="number" class="form-control bg-white" name="input_femaleQuantity1" id="input_femaleQuantity1" placeholder="จำนวน....." readonly>
                   </div>
                 </div>
               </div>
@@ -125,7 +133,15 @@
                   </div>
                   <div class="form-group col-md-6">
                     <label for="input_Quantity2">จำนวน*</label>
-                    <input type="number" class="form-control bg-white" name="input_Quantity2" id="input_Quantity2">
+                    <input type="number" class="form-control bg-white" name="input_Quantity2" id="input_Quantity2" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_menQuantity2">เพศชาย</label>
+                    <input type="number" class="form-control bg-white" name="input_menQuantity2" id="input_menQuantity2" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_femaleQuantity2">เพศหญิง</label>
+                    <input type="number" class="form-control bg-white" name="input_femaleQuantity2" id="input_femaleQuantity2" placeholder="จำนวน....." readonly>
                   </div>
                 </div>
               </div>
@@ -147,7 +163,15 @@
                   </div>
                   <div class="form-group col-md-6">
                     <label for="input_Quantity3">จำนวน*</label>
-                    <input type="number" class="form-control bg-white" name="input_Quantity3" id="input_Quantity3">
+                    <input type="number" class="form-control bg-white" name="input_Quantity3" id="input_Quantity3" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_menQuantity3">เพศชาย</label>
+                    <input type="number" class="form-control bg-white" name="input_menQuantity3" id="input_menQuantity3" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_femaleQuantity3">เพศหญิง</label>
+                    <input type="number" class="form-control bg-white" name="input_femaleQuantity3" id="input_femaleQuantity3" placeholder="จำนวน....." readonly>
                   </div>
                 </div>
               </div>
@@ -169,7 +193,15 @@
                   </div>
                   <div class="form-group col-md-6">
                     <label for="input_Quantity4">จำนวน*</label>
-                    <input type="number" class="form-control bg-white" name="input_Quantity4" id="input_Quantity4">
+                    <input type="number" class="form-control bg-white" name="input_Quantity4" id="input_Quantity4" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_menQuantity4">เพศชาย</label>
+                    <input type="number" class="form-control bg-white" name="input_menQuantity4" id="input_menQuantity4" placeholder="จำนวน.....">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="input_femaleQuantity4">เพศหญิง</label>
+                    <input type="number" class="form-control bg-white" name="input_femaleQuantity4" id="input_femaleQuantity4" placeholder="จำนวน....." readonly>
                   </div>
                 </div>
               </div>
@@ -183,10 +215,10 @@
           รวมเป็นเงิน <span class="text-gradient h2 mb-0 ml-2">฿ 00</span><br>
           <p class="w-100 m-0">ราคาดังกล่าวรวมค่าวิทยาการตลอดหลักสูตร, ค่าอุปกรณ์การเรียนรู้ และค่าห้องประชุม</p>
         </div>
-      </div> -->
+      </div>
 
       <hr class="mt-3 mb-4">
-      <!-- <div class="d-flex flex-wrap align-items-center mb-3">
+      <div class="d-flex flex-wrap align-items-center mb-3">
         <h6 class="my-1 mr-2">ค่าอาหารว่าง</h6>
         <div class="ml-auto mb-0 d-flex align-items-center">
           <label class="switch" for="Snack_cost">
@@ -216,7 +248,7 @@
           class="bg-muted3 p-3 w-100 rounded-lg text-center d-flex align-items-center justify-content-center flex-wrap">
           รวมเป็นเงิน <span class="text-gradient h2 mb-0 ml-2">฿ 00</span>
         </div>
-      </div> -->
+      </div>
 
       <hr class="mt-3 mb-4">
       <div class="d-flex flex-wrap align-items-center mb-3">
@@ -229,7 +261,7 @@
           <label class="form-check-label ml-2" for="switch_food">ไม่รับอาหาร</label>
         </div>
       </div>
-      <div id="box-switch_food" class="form-group group-choose1 box-Ourmuseum disabled">
+      <div id="box-switch_food" class="form-group box-Ourmuseum disabled">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="ชุดละ 35 บาท" name="input_food" id="input_food-1" required>
           <label class="form-check-label ml-1 mb-1" for="input_food-1">ชุดละ 35 บาท</label>
