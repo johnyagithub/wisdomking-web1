@@ -321,12 +321,15 @@
       }
       
   /* เทส form-course2 */
-  /* [required], [required]+ span,.text:has([required]) {
+  [required], [required]+ span,.text:has([required]) {
+    mix-blend-mode: difference;
+  }
+  [disabled], [disabled]+ span,.text:has([disabled]) {
     mix-blend-mode: difference;
   }
   #form-course2 .form-check .box-form-check {
   display: block;
-  } */
+  }
 
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {

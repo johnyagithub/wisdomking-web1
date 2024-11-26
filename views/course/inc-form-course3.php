@@ -99,15 +99,15 @@
             <li>
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto mr-2">
-                  <input type="text" name="input_participantTypes1" required="">
+                  <input type="text" name="input_participantTypes1">
                 </div>
                 <div class="input-width-auto mr-2">
                   อายุ
-                  <input type="text" name="input_ageRange1" required="">
+                  <input type="text" name="input_ageRange1">
                 </div>
                 <div class="input-width-auto">
                   จำนวน
-                  <input type="text" name="input_Quantity1" required="">
+                  <input type="text" name="input_Quantity1">
                   คน
                 </div>
               </div>
@@ -116,15 +116,15 @@
             <li>
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto mr-2">
-                  <input type="text" name="input_participantTypes2" required="">
+                  <input type="text" name="input_participantTypes2">
                 </div>
                 <div class="input-width-auto mr-2">
                   อายุ
-                  <input type="text" name="input_ageRange2" required="">
+                  <input type="text" name="input_ageRange2">
                 </div>
                 <div class="input-width-auto">
                   จำนวน
-                  <input type="text" name="input_Quantity2" required="">
+                  <input type="text" name="input_Quantity2">
                   คน
                 </div>
               </div>
@@ -133,15 +133,15 @@
             <li>
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto mr-2">
-                  <input type="text" name="input_participantTypes3" required="">
+                  <input type="text" name="input_participantTypes3">
                 </div>
                 <div class="input-width-auto mr-2">
                   อายุ
-                  <input type="text" name="input_ageRange3" required="">
+                  <input type="text" name="input_ageRange3">
                 </div>
                 <div class="input-width-auto">
                   จำนวน
-                  <input type="text" name="input_Quantity3" required="">
+                  <input type="text" name="input_Quantity3">
                   คน
                 </div>
               </div>
@@ -150,15 +150,15 @@
             <li>
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto mr-2">
-                  <input type="text" name="input_participantTypes4" required="">
+                  <input type="text" name="input_participantTypes4">
                 </div>
                 <div class="input-width-auto mr-2">
                   อายุ
-                  <input type="text" name="input_ageRange4" required="">
+                  <input type="text" name="input_ageRange4">
                 </div>
                 <div class="input-width-auto">
                   จำนวน
-                  <input type="text" name="input_Quantity4" required="">
+                  <input type="text" name="input_Quantity4">
                   คน
                 </div>
               </div>

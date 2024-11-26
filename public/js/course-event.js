@@ -9,30 +9,26 @@ $(document).ready(function () {
   $('#Snack_cost').on('change', function () {
     const isChecked = $(this).is(':checked');
     $('#box-Snack_cost').toggleClass('disabled', isChecked);
-    $('#form-course2 [name="input_snackCostQuantity"], #form-course2 [name="input_snackCost"]').val(isChecked ? '' : null).prop('required', !isChecked).trigger('change');
+    $('#form-course2 .form-control').val(isChecked ? '' : null).prop('disabled', isChecked).trigger('change');
   });
 
   // เช็คค่า switch_food
-  $('#box-switch_food input').prop('required', false);
   $('#switch_food').on('change', function () {
     const isChecked = $(this).is(':checked');
     $('#box-switch_food').toggleClass('disabled', isChecked);
     $('#box-switch_food').removeClass('has-error');
-    $('#form-course2 [name="input_food"]').prop('checked', false).prop('required', !isChecked);
-    $('#form-course2 [name="input_foodMenu"]').prop('checked', false);
-    $('#form-course2 [name="input_foodQuantity"]').val('').prop('required', false);
+    $('#box-switch_food .box-form-check input').val('').prop('disabled', true);
   });
 
   // เช็คค่า input_food
   $('#form-course2 [name="input_food"]').on('change', function () {
-    // ลบ required ออกจาก input_foodMenu และ input_foodQuantity ทั้งหมด
-    $('#form-course2 [name="input_foodMenu"]').prop('checked', false);
-    $('#form-course2 [name="input_foodQuantity"]').prop('required', false).val('');
-
-    // ตรวจสอบว่า checkbox ปัจจุบันถูกเลือกหรือไม่
     const isChecked = $(this).is(':checked');
-    // ตั้งค่า required สำหรับ input_foodQuantity ที่เกี่ยวข้อง
-    $(this).closest('.form-check').find('[name="input_foodQuantity"]').prop('required', isChecked);
+    // ลบ required ออกจาก input_foodMenu และ input_foodQuantity ทั้งหมด
+    // $('#form-course2 [name="input_foodMenu"]').prop('checked', false);
+    // $('#form-course2 [name="input_foodQuantity"]').prop('disabled', false).val('');
+
+    $('#box-switch_food .box-form-check input').prop('disabled', false);
+    $(this).closest('.form-check').find('.box-form-check input').prop('disabled', isChecked);
   });
 
 });
@@ -42,10 +38,7 @@ let groupChoose1 = () => {
   $(".group-choose1").each(function () {
     $(this).find('.form-check-input[type="checkbox"]').on('change', function () {
       // ยกเลิกการเลือก checkbox อื่นในกลุ่มเดียวกัน
-      $(this).closest(".group-choose1")
-        .find('.form-check-input[type="checkbox"]')
-        .not(this)
-        .prop('checked', false);
+      $(this).closest(".group-choose1").find('.form-check-input[type="checkbox"]').not(this).prop('checked', false);
 
       const $group = $(this).closest(".group-choose1");
       if ($group.find('.form-check-input:checked').length > 0) {
@@ -114,52 +107,52 @@ let submitForm1 = () => {
 
 // ฟังก์ชันตรวจสอบและส่งฟอร์มสำหรับฟอร์มที่สอง
 let submitForm2 = () => {
-  $("#form-course2 .form-check > input[type=checkbox]").prop('required', true); // ตั้งค่า required ให้กับ checkbox
+  // $("#form-course2 .form-check > input[type=checkbox]").prop('required', true); // ตั้งค่า required ให้กับ checkbox
   $(document).on("submit", "#form-course2", function (e) {
     e.preventDefault();
-    $('#join-project').attr('data-status', '4');
-    scrollToTop();
+      $('#join-project').attr('data-status', '4');
+      scrollToTop();
 
-    var formData = $(this).serializeArray();
-    // ส่งข้อมูลไปยังฟอร์มสุดท้าย
-    formData.forEach(field => {
-      const $target = $(`#form-course3 [name="${field.name}"]`);
-      $target.val(field.value);
+    // var formData = $(this).serializeArray();
+    // // ส่งข้อมูลไปยังฟอร์มสุดท้าย
+    // formData.forEach(field => {
+    //   const $target = $(`#form-course3 [name="${field.name}"]`);
+    //   $target.val(field.value);
 
-      // ค้นหา input ที่อยู่ภายใน div ที่มีคลาส .input-width-auto และใช้ updateSpan
-      const $inputWithAuto = $(`#form-course3 .input-width-auto [name="${field.name}"]`);
-      updateSpan($inputWithAuto, field.value); // ใช้ฟังก์ชัน updateSpan กับ input ที่อยู่ภายใน .input-width-auto
-    });
+    //   // ค้นหา input ที่อยู่ภายใน div ที่มีคลาส .input-width-auto และใช้ updateSpan
+    //   const $inputWithAuto = $(`#form-course3 .input-width-auto [name="${field.name}"]`);
+    //   updateSpan($inputWithAuto, field.value); // ใช้ฟังก์ชัน updateSpan กับ input ที่อยู่ภายใน .input-width-auto
+    // });
 
-    // ตรวจสอบประเภทผู้เข้าร่วม แสดงเฉพาะ ที่เลือก
-    for (let i = 1; i <= 4; i++) {
-      const isChecked = $(`#form-course2 input[name="input_participantTypes${i}"]`).is(':checked');
-      $(`#form-course3 li:has(input[name="input_participantTypes${i}"])`).toggle(isChecked);
-    }
+    // // ตรวจสอบประเภทผู้เข้าร่วม แสดงเฉพาะ ที่เลือก
+    // for (let i = 1; i <= 4; i++) {
+    //   const isChecked = $(`#form-course2 input[name="input_participantTypes${i}"]`).is(':checked');
+    //   $(`#form-course3 li:has(input[name="input_participantTypes${i}"])`).toggle(isChecked);
+    // }
 
-    // ไม่รับอาหารว่าง
-    if ($('#Snack_cost').is(':checked')) {
-      $('#form-course3 [name="input_snackCost"]').val('ไม่รับ');
-      updateSpan($('#form-course3 .input-width-auto [name="input_snackCost"]'), 'ไม่รับ');
-      $('#form-course3 [name="input_snackCostQuantity"]').val(0);
-      updateSpan($('#form-course3 .input-width-auto [name="input_snackCostQuantity"]'), 0);
-    }
+    // // ไม่รับอาหารว่าง
+    // if ($('#Snack_cost').is(':checked')) {
+    //   $('#form-course3 [name="input_snackCost"]').val('ไม่รับ');
+    //   updateSpan($('#form-course3 .input-width-auto [name="input_snackCost"]'), 'ไม่รับ');
+    //   $('#form-course3 [name="input_snackCostQuantity"]').val(0);
+    //   updateSpan($('#form-course3 .input-width-auto [name="input_snackCostQuantity"]'), 0);
+    // }
 
-    // ไม่รับอาหาร
-    if ($('#switch_food').is(':checked')) {
-      $('#form-course3 [name="input_food"], #form-course3 [name="input_foodMenu"]').val('ไม่รับ');
-      updateSpan($('#form-course3 .input-width-auto [name="input_food"], #form-course3 .input-width-auto [name="input_foodMenu"]'), 'ไม่รับ');
-      $('#form-course3 [name="input_foodQuantity"]').val(0);
-      updateSpan($('#form-course3 .input-width-auto [name="input_foodQuantity"]'), 0);
-    } else {
-      // ยังไม่เลือกเมนูอาหาร
-      const radioGroup = $('#form-course2 input[name="input_foodMenu"]:checked');
-      if (!radioGroup.length) {
-        $('#join-project').attr('data-status', '3');
-        alert("กรุณาเลือกเมนูอาหาร");
-        ScrollTop('#' + $('#form-course2 [name="input_food"]:checked').attr('id'));
-      }
-    }
+    // // ไม่รับอาหาร
+    // if ($('#switch_food').is(':checked')) {
+    //   $('#form-course3 [name="input_food"], #form-course3 [name="input_foodMenu"]').val('ไม่รับ');
+    //   updateSpan($('#form-course3 .input-width-auto [name="input_food"], #form-course3 .input-width-auto [name="input_foodMenu"]'), 'ไม่รับ');
+    //   $('#form-course3 [name="input_foodQuantity"]').val(0);
+    //   updateSpan($('#form-course3 .input-width-auto [name="input_foodQuantity"]'), 0);
+    // } else {
+    //   // ยังไม่เลือกเมนูอาหาร
+    //   const radioGroup = $('#form-course2 input[name="input_foodMenu"]:checked');
+    //   if (radioGroup.length == 0) {
+    //     $('#join-project').attr('data-status', '3');
+    //     alert("กรุณาเลือกเมนูอาหาร");
+    //     ScrollTop('#' + $('#form-course2 [name="input_food"]:checked').attr('id'));
+    //   }
+    // }
   });
 }
 
@@ -230,14 +223,14 @@ const checkboxToForm3 = () => {
 
 const participantTypes = () => {
   // เช็คค่า ประเภทผู้เข้าร่วม*
-  const Checkbox = $('#form-course2 [name^="input_participantTypes"]');
-  Checkbox.on('change', function () {
-    // เช็คว่า checkbox ถูกเลือกหรือไม่
-    Checkbox.prop('required', !Checkbox.filter(':checked').length);
-    const isChecked = $(this).is(':checked');
-    // ปรับค่าและการตั้งค่า required สำหรับ element ถัดไปที่เกี่ยวข้อง
-    $(this).closest('.form-check').find('.box-form-check select').val('').prop('required', isChecked).trigger('change');
-    // ปรับ required ของ input[name^="input_Quantity"]
-    $(this).closest('.form-check').find('.box-form-check input[name^="input_Quantity"]').prop('required', isChecked).val('');
-  });
+  // const Checkbox = $('#form-course2 [name^="input_participantTypes"]');
+  // Checkbox.on('change', function () {
+  //   // เช็คว่า checkbox ถูกเลือกหรือไม่
+  //   Checkbox.prop('required', !Checkbox.filter(':checked').length);
+  //   const isChecked = $(this).is(':checked');
+  //   // ปรับค่าและการตั้งค่า required สำหรับ element ถัดไปที่เกี่ยวข้อง
+  //   $(this).closest('.form-check').find('.box-form-check select').val('').prop('required', isChecked).trigger('change');
+  //   // ปรับ required ของ input[name^="input_Quantity"]
+  //   $(this).closest('.form-check').find('.box-form-check input[name^="input_Quantity"]').prop('required', isChecked).val('');
+  // });
 };
