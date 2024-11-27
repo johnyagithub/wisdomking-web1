@@ -2290,10 +2290,6 @@ ul.ul-style {
       float: left;
     }
 
-#museum-map .list-region svg+img {
-opacity: 0.1;
-}
-
 .box-News {
 
 }
@@ -2341,8 +2337,8 @@ opacity: 0.1;
     }
       #museum-map .-province:not(.have) ,
       #museum-map .list-region svg > g:not(.-province) {
-        -webkit-filter: brightness(1.4) grayscale(1) !important;
-        filter: brightness(1.4) grayscale(1) !important;
+        -webkit-filter: brightness(1.15) grayscale(1) !important;
+        filter: brightness(1.15) grayscale(1) !important;
         pointer-events: none;
       }
       @supports (-webkit-appearance: none) and (color: -apple-system-control-background) {
@@ -2409,7 +2405,7 @@ opacity: 0.1;
       #museum-map .-region ,
       #museum-map .-province {
         transition: .5s;
-        /* opacity: 0; */
+        opacity: 0;
         cursor: pointer;
         filter:  drop-shadow(0px 0px 10px rgb(0 0 0 / 30%));
       }
@@ -3264,14 +3260,14 @@ footer {
   .owl-nav button {
     opacity: 1 !important;
   }
-  /* #museum-map .-region ,
+  #museum-map .-region ,
   #museum-map .-province {
     opacity: 0 !important;
   }
   #museum-map .-province:not(.have) {
     opacity: 1 !important;
     z-index: 1;
-  } */
+  }
   .table-responsive .bg-gradient {
     position: sticky;
     left: 0px;
