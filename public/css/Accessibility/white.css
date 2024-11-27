@@ -184,11 +184,6 @@ html[lang="ch"] #lang-change .dropdown-item[data-flag="ch"] {
 	filter: none;
 }
 
-#search-box-container .ui-menu-item-wrapper {
-	color: #000;
-}
-
-*,
 footer,
 .footer-reserved,
 footer .social .-text span,
