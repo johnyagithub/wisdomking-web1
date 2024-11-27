@@ -333,7 +333,7 @@
             </button>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="../course/">หมู่คณะเข้าชมโครงการส่งเสริมการเรียนรู้</a>
-              <a class="dropdown-item" href="../course/reserve3.php?page=Asyouwish">ชมเองตามอัธยาศัย</a>
+              <a class="dropdown-item" href="../course/reserve3.php">ชมเองตามอัธยาศัย</a>
             </div>
           </div>
           <a class="btn btn-style m-1" href="../e-learning/" role="button">e-Learning</a>

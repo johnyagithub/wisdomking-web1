@@ -43,13 +43,16 @@
 						<li><span class="circle"></span>สรุปการจอง</li>
 					</ul>
 				</div>
+				<?php $IDcourse = isset($_GET['course']) ? $_GET['course'] : ''; ?>  <!-- รับค่า $IDcourse เอาไปใช้ดึงข้อมูลมาโชว์ข้างล้่าง  -->
 
-				<form id="form-course" action="./reserve3.php"  class="my-4" novalidate>
+				<form id="form-course" action="./reserve3.php" class="my-4">
 					<div class="box-form-course">
 						<div class="form-container">
 							<div class="d-flex align-items-start pt-3">
 								<div class="-number">1</div>
+								
 								<div class="w-100">
+									<input type="hidden" name="course" value="<?=$IDcourse?>">
 									<h4 class="text-gradient mb-3">หลักสูตร "ตามรอยพ่อ"</h4>
 									<div class="d-lg-flex">
 										<b class="mr-1">ระยะเวลาเรียน : </b>

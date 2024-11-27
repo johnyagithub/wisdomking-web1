@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<?php $page = isset($_GET['page']) ? $_GET['page'] : ''; ?>
+	<?php $IDcourse = isset($_GET['course']) ? $_GET['course'] : ''; ?>
 
 	<!-- begin #header -->
 	<?php include('../layouts/inc-header.php'); ?>
@@ -42,7 +42,7 @@
 
 					<div class="box-status" data-status="3">
 						<h4 class="text-center">สมัครเข้าร่วมโครงการ</h4>
-						<ul class="-status-bar <?= $page ?>">
+						<ul class="-status-bar <?= $IDcourse ? '' : 'Asyouwish' ?>">
 							<li><span class="circle"></span>หลักสูตร</li>
 							<li><span class="circle"></span>กิจกรรม</li>
 							<li><span class="circle"></span>จอง</li>
@@ -79,6 +79,15 @@
 	<script>
 		$(".templatingSelect2").select2({
 			minimumResultsForSearch: 6
+		});
+		$('.templatingSelect2[required]').on('change', function () {
+			// ถ้ามีค่า ให้ลบ required
+			if ($(this).val()) {
+				$(this).removeAttr('required');
+			} else {
+				// ถ้าไม่มีค่า ให้เพิ่ม required
+				$(this).attr('required', 'required');
+			}
 		});
 	</script>
 

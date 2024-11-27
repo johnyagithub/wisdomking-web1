@@ -283,11 +283,25 @@
         outline: none;
       }
       #form-course3 .form-group .input-width-auto {
-        
+        margin-right: 10px;
+        display: none;
+      }
+      #form-course3 .form-group .input-width-auto:has(span:not(:empty)) {
+        display: block !important;
       }
         #form-course3 .form-group .input-width-auto input ,
         #form-course3 .form-group .input-width-auto textarea {
           display: none;
+        }
+
+      #form-course3 .form-group li {
+
+      }
+        #form-course3 .form-group li {
+          display: none;
+        }
+        #form-course3 .form-group li:has(.input-width-auto span:not(:empty)) {
+          display: list-item !important;
         }
 
 .box-form-course {

@@ -4,7 +4,6 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
-	<link rel="stylesheet" type="text/css" href="../../public/css/calendar.css">
 
 </head>
 
@@ -192,7 +191,7 @@
 									href="javascript:history.back()">ย้อนกลับ</a>
 							</div>
 							<div class="col-6 col-md-4 col-lg-3 px-1">
-								<a class="btn btn-style w-100" href="../course/reserve.php">เข้าร่วมหลักสูตร</a>
+								<a class="btn btn-style w-100" href="../course/reserve.php?course=p01">เข้าร่วมหลักสูตร</a><!-- p01 รหัสหลักสูตร -->
 							</div>
 						</div>
 					</div>
@@ -249,8 +248,6 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
-	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" type="text/javascript"></script>
-	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
 
 </body>
 

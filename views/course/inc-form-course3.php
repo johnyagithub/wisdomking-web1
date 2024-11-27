@@ -2,29 +2,32 @@
   <div class="box-form-course">
     <div class="form-container">
       <h5 class="text-center mb-4">สรุปรายละเอียดการจอง</h5>
-      <?php if ($page !== 'Asyouwish') { ?>
+      <?php if ($IDcourse !== '') { ?>
+        <!-- เอาค่า $IDcourse รหัสหลักสูตรใช้ดึงหลักสูตรตรงนี้ -->
         <div class="w-100">
           <h4 class="text-gradient mb-3">หลักสูตร "ตามรอยพ่อ"</h4>
           <div class="d-lg-flex">
             <b class="mr-1">ระยะเวลาเรียน :</b>
             <p>2 ชั่วโมง เวลา 09:00 - 11:00 น. หรือ เวลา 13:00 - 15:00 น.</p>
           </div>
-          <div class="d-lg-flex form-group">
+          <div class="d-lg-flex">
             <b class="mr-1">เลือกชมภาพยนตร์ 3 มิติ :</b>
-            <div class="input-width-auto">
-              <input type="text" name="input_head1" required="">
-            </div>
+            <p>เรื่องของพ่อในบ้านเรา</p> <!-- ดึงข้อมูลจากที่เลือก กิจกรรม ก่อนหน้ามาใช้ -->
           </div>
-          <div class="d-lg-flex form-group">
+          <div class="d-lg-flex">
             <b class="mr-1">เลือกกิจกรรมสร้างสรรค์ความคิด :</b>
-            <div class="input-width-auto">
-              <input type="text" name="input_head2" required="">
-            </div>
+            <p>รากฐานแห่งความมั่งคง (ระดับชั้นประถมปลาย - ประชาชนทั่วไป)</p>
+            <!-- ดึงข้อมูลจากที่เลือก กิจกรรม ก่อนหน้ามาใช้ -->
           </div>
-          <div class="d-lg-flex form-group">
+          <div class="d-lg-flex">
             <b class="mr-1">เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร :</b>
-            <div class="input-width-auto">
-              <textarea name="input_head3" required=""></textarea>
+            <div>
+              พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1
+              <ul class="pl-4">
+                <li>พระราชพิธีในวิถีเกษตร</li>
+                <li>ตามรอยพ่อ</li>
+                <li>วิธีเกษตรของพ่อ</li>
+              </ul> <!-- ดึงข้อมูลจากที่เลือก กิจกรรม ก่อนหน้ามาใช้ -->
             </div>
           </div>
         </div>
@@ -98,15 +101,25 @@
             <!-- นักเรียน -->
             <li>
               <div class="d-flex flex-wrap">
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   <input type="text" name="input_participantTypes1">
                 </div>
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   อายุ
                   <input type="text" name="input_ageRange1">
                 </div>
                 <div class="input-width-auto">
-                  จำนวน
+                  ชาย
+                  <input type="text" name="input_menQuantity1">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  หญิง
+                  <input type="text" name="input_femaleQuantity1">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  ทั้งหมด
                   <input type="text" name="input_Quantity1">
                   คน
                 </div>
@@ -115,15 +128,25 @@
             <!-- ครู/อาจารย์ -->
             <li>
               <div class="d-flex flex-wrap">
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   <input type="text" name="input_participantTypes2">
                 </div>
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   อายุ
                   <input type="text" name="input_ageRange2">
                 </div>
                 <div class="input-width-auto">
-                  จำนวน
+                  ชาย
+                  <input type="text" name="input_menQuantity2">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  หญิง
+                  <input type="text" name="input_femaleQuantity2">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  ทั้งหมด
                   <input type="text" name="input_Quantity2">
                   คน
                 </div>
@@ -132,15 +155,25 @@
             <!-- นักศึกษา -->
             <li>
               <div class="d-flex flex-wrap">
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   <input type="text" name="input_participantTypes3">
                 </div>
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   อายุ
                   <input type="text" name="input_ageRange3">
                 </div>
                 <div class="input-width-auto">
-                  จำนวน
+                  ชาย
+                  <input type="text" name="input_menQuantity3">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  หญิง
+                  <input type="text" name="input_femaleQuantity3">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  ทั้งหมด
                   <input type="text" name="input_Quantity3">
                   คน
                 </div>
@@ -149,15 +182,25 @@
             <!-- อื่นๆ -->
             <li>
               <div class="d-flex flex-wrap">
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   <input type="text" name="input_participantTypes4">
                 </div>
-                <div class="input-width-auto mr-2">
+                <div class="input-width-auto">
                   อายุ
                   <input type="text" name="input_ageRange4">
                 </div>
                 <div class="input-width-auto">
-                  จำนวน
+                  ชาย
+                  <input type="text" name="input_menQuantity4">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  หญิง
+                  <input type="text" name="input_femaleQuantity4">
+                  คน
+                </div>
+                <div class="input-width-auto">
+                  ทั้งหมด
                   <input type="text" name="input_Quantity4">
                   คน
                 </div>
@@ -211,7 +254,7 @@
   <div class="form-row justify-content-center mt-4 border-top pt-4">
     <div class="col-6 col-md-4 col-lg-3 px-1">
       <button type="button" class="btn btn-light border bg-white rounded-pill w-100"
-        onclick="$('#join-project').attr('data-status', '3');">ย้อนกลับ</button>
+        onclick="$('#join-project .box-status').attr('data-status', '3');">ย้อนกลับ</button>
     </div>
     <div class="col-6 col-md-4 col-lg-3 px-1">
       <button type="submit" class="btn btn-style w-100">ดำเนินการต่อ</button>
