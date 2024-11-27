@@ -2336,7 +2336,7 @@ ul.ul-style {
       visibility: visible;
     }
       #museum-map .-province:not(.have) ,
-      #museum-map .list-region svg g:not(.-province) {
+      #museum-map .list-region svg > g:not(.-province) {
         -webkit-filter: brightness(1.4) grayscale(1) !important;
         filter: brightness(1.4) grayscale(1) !important;
         pointer-events: none;
@@ -2354,6 +2354,9 @@ ul.ul-style {
           mix-blend-mode: darken;
         }
       }
+        #museum-map .-province:not(.have) > g {
+          display: none;
+        }
 
     #regionHome {
       display: none;
