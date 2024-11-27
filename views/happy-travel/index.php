@@ -21,7 +21,7 @@
 	<div id="content" class="content">
 
 		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb container bg-white">
+			<ol class="breadcrumb container">
 				<li class="breadcrumb-item">
 					<a href="../home/">
 						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก

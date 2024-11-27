@@ -18,7 +18,7 @@
 	<div id="content" class="content">
 
 		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb container bg-white">
+			<ol class="breadcrumb container">
 				<li class="breadcrumb-item">
 					<a href="../home/">
 						<i class="fa fa-home" aria-hidden="true"></i> หน้าแรก
@@ -51,7 +51,7 @@
 			</div>
 		</section>
 
-		<section class="box-Learning">
+		<section class="box-Learning pb-4">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-5 col-lg-3 d-flex flex-column text-center text-sm-left order-sm-1">
@@ -91,7 +91,7 @@
 			</div>
 		</section>
 
-		<section class="box-courses box-slide py-5"
+		<section class="box-courses box-slide pt-4 pb-5"
 			style="background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, #EBEBEB 100%);">
 			<div class="container">
 				<div class="d-flex flex-wrap mb-2">

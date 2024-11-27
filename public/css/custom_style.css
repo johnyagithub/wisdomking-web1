@@ -658,6 +658,7 @@ a:hover {
   margin-bottom: 0px;
   font-size: 10px;
   color: #919191;
+  background: transparent;
 }
   .breadcrumb .breadcrumb-item {
     padding: 0px 4px;
@@ -3404,6 +3405,10 @@ footer {
   .box-navTabs .owl-nav button.disabled {
     opacity: 0.2 !important;
   }
+  .box-News .item h5.text-line2 {
+    margin-bottom: 20px;
+    height: 43px;
+  }
   .--detail table.mobile-displayGrid > tbody > tr {
     display: grid;
   }
@@ -3956,7 +3961,7 @@ footer {
     border: 1px solid #D7D7D7;
     border-radius: 8px;
     background-color: #fff;
-}
+  }
   .header-top-link2 .box-profile .dropdown-menu::before ,
   .header-top-link2 .box-profile .dropdown-menu::after {
     position: absolute;
