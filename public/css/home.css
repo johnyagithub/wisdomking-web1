@@ -704,6 +704,9 @@
     #slide-Day .owl-item.active+.owl-item.active+.owl-item.active+.owl-item.active .item::after {
       display: none;
     }
+    #Market-show {
+      order: 1;
+    }
   }
   /* แนวนอน */
   @media only screen and (orientation:landscape){
@@ -807,6 +810,9 @@
   }
   .box-Market {
     padding-bottom: 0px !important;
+  }
+  #Market-show {
+    order: 1;
   }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){

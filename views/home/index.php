@@ -259,9 +259,9 @@
 		</section>
 
 		<section class="box-Calendar py-4">
-			<div class="container">
+			<div class="container px-0 px-sm-3">
 				<div class="d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">ปฏิทินกิจกรรมการเรียนรู้</h3>
+					<h3 class="head mb-4 mx-3 mx-sm-0">ปฏิทินกิจกรรมการเรียนรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs ml-auto d-flex" data-showId="data-Calendar">
 							<button type="button" class="btn btn-style3 px-3 mx-1 text-muted active">ทั้งหมด</button>
@@ -273,6 +273,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-4 col-xl-3">
 						<div id="slide-Month" class="owl-carousel"></div>
@@ -425,11 +427,11 @@
 		</section>
 
 		<section class="box-Knowledge py-4">
-			<div class="container">
+			<div class="container px-0 px-sm-3">
 				<div class="-sticky d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">องค์ความรู้</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
+					<h3 class="head mb-4 mx-3 mx-sm-0">องค์ความรู้</h3>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"
 								role="tab" aria-controls="nav-All" aria-selected="true">
 								ทั้งหมด
@@ -452,6 +454,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="tab-content pt-4">
 					<div class="tab-pane fade show active" id="nav-All" role="tabpanel" aria-labelledby="nav-All-tab">
 						<div class="row">
@@ -880,21 +884,25 @@
 		<section class="box-Agricultural pb-5">
 			<div class="container">
 				<div class="row align-items-end">
-					<div class="col-lg-5 py-4">
+					<div class="col-md-6 col-lg-5 py-4">
 						<h2 class="head mb-4">เครือข่ายพิพิธภัณฑ์เกษตรฯ</h2>
 						<p>
 							จัดกระบวนการแลกเปลี่ยนเรียนรู้เครือข่ายพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯเพื่อสร้างความร่วมมือในการขับเคลื่อนงานในระดับพื้นที่เพื่อเผยแพร่พระเกียรติคุณ
 							และพระอัจฉริยภาพของพระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9 ด้านการเกษตร และสร้างผู้สืบทอด
 							การจัดการผลผลิตและการอนุรักษ์พันธุกรรม โดยการดำเนิน โครงการขยายผลเครือข่าย พกฉ. และโครงการเผยแพร่ขยายผล
 							นวัตกรรมเกษตร เศรษฐกิจพอเพียง ปัจจุบัน มีศูนย์เครือข่าย พกฉ.</p>
-						<br />
-						<div class="ml-auto d-flex flex-wrap align-items-start">
+						<br class="d-none d-md-block" />
+						<div class="ml-auto d-none d-md-flex flex-wrap align-items-start">
 							<a href="../museum-central/?param=tab1" class="btn-style2 px-4 py-1 mx-1">บุคคล</a>
 							<a href="../museum-central/?param=tab2" class="btn-style3 px-4 py-1 mx-1">ศูนย์การเรียนรู้</a>
 						</div>
 					</div>
-					<div class="col-lg-7">
+					<div class="col-md-6 col-lg-7">
 						<img src="../../public/images/img-map.png" class="--img-map" alt="">
+						<div class="ml-auto d-flex d-md-none flex-wrap align-items-start justify-content-center mt-5">
+							<a href="../museum-central/?param=tab1" class="btn-style2 px-4 py-1 mx-1">บุคคล</a>
+							<a href="../museum-central/?param=tab2" class="btn-style3 px-4 py-1 mx-1">ศูนย์การเรียนรู้</a>
+						</div>
 					</div>
 				</div>
 			</div>
