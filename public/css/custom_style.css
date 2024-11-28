@@ -2376,7 +2376,7 @@ body.down .box-News #museum-map:not(.expand) {
     border-radius: var(--border_radius) 0 0 0;
     background: var(--primary);
     overflow: hidden;
-    padding: 2px 10px;
+    padding: 0px 10px;
     z-index: 2;
     flex-direction: row-reverse;
   }
@@ -2386,6 +2386,7 @@ body.down .box-News #museum-map:not(.expand) {
       border-radius: 0px;
       width: 30px;
       height: 30px;
+      margin: 2px 0px;
     }
     .button-map #regionFull ,
     .button-map #regionHome i.fa {
