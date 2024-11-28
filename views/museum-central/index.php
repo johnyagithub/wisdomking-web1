@@ -92,7 +92,7 @@
 					<div class="col-lg-5 pr-lg-4 mb-4">
 						<div id="museum-map">
 							<?php include('inc-map.php'); ?>
-							<img src="../../public/images/map-museum/map.svg" style="height: 550px;" alt="">
+							<img src="../../public/images/map-museum/map.svg" alt="">
 
 							<div id="r1" class="list-region">
 								<h4 class="text-primary">ภาคเหนือ</h4>
@@ -124,8 +124,12 @@
 								<?php include('inc-map-r6.php'); ?>
 								<img src="../../public/images/map-museum/r6.svg" alt="">
 							</div>
-							<button id="regionHome" type="botton"><i class="fa fa-home" aria-hidden="true"></i></button>
+							<div class="button-map">
+								<button id="regionFull" type="botton"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
+								<button id="regionHome" type="botton"><i class="fa fa-home" aria-hidden="true"></i></button>
+							</div>
 						</div>
+						<div class="box-shadow"></div>
 					</div>
 					<div class="col-lg-7">
 						<a href="#--text" class="text-body">
@@ -393,6 +397,12 @@
 				var Name = $(this).data('region');
 				headDefault(Name);
 				region(ID);
+			});
+			$("#regionFull").click(function () {
+				$('#museum-map').toggleClass('expand');
+			});
+			$("#museum-map+.box-shadow").click(function () {
+				$('#museum-map').removeClass('expand');
 			});
 			$("#regionHome").click(function () {
 				headDefault();

@@ -7,24 +7,12 @@
       fill: none;
       }
 
-      .st2 {
-      filter: url(#drop-shadow-1);
-      }
-
       .st2, .st3 {
       fill: #86b941;
       }
 
-      .st4 {
-      filter: url(#drop-shadow-15);
-      }
-
       .st4, .st5, .st6 {
       fill: #afe25d;
-      }
-
-      .st5 {
-      filter: url(#drop-shadow-12);
       }
 
       .st7 {
@@ -36,84 +24,8 @@
       fill: #fff;
       }
 
-      .st9 {
-      fill: url(#linear-gradient2);
-      }
-
-      .st10 {
-      fill: url(#linear-gradient1);
-      }
-
-      .st11 {
-      fill: url(#linear-gradient9);
-      }
-
-      .st12 {
-      fill: url(#linear-gradient3);
-      }
-
-      .st13 {
-      fill: url(#linear-gradient6);
-      }
-
-      .st14 {
-      fill: url(#linear-gradient8);
-      }
-
-      .st15 {
-      fill: url(#linear-gradient7);
-      }
-
-      .st16 {
-      fill: url(#linear-gradient5);
-      }
-
-      .st17 {
-      fill: url(#linear-gradient4);
-      }
-
-      .st18 {
-      filter: url(#drop-shadow-3);
-      }
-
       .st18, .st19, .st20, .st21, .st22, .st23 {
       fill: #76a831;
-      }
-
-      .st19 {
-      filter: url(#drop-shadow-8);
-      }
-
-      .st20 {
-      filter: url(#drop-shadow-7);
-      }
-
-      .st24 {
-      fill: url(#linear-gradient13);
-      }
-
-      .st25 {
-      fill: url(#linear-gradient12);
-      }
-
-      .st26 {
-      fill: url(#linear-gradient15);
-      }
-
-      .st27 {
-      fill: url(#linear-gradient16);
-      }
-
-      .st28 {
-      fill: url(#linear-gradient11);
-      }
-
-      .st29 {
-      fill: url(#linear-gradient10);
-      }
-
-      .st30 {
-      fill: url(#linear-gradient14);
       }
 
       .st31 {
@@ -124,152 +36,12 @@
       fill: #3f74c7;
       }
 
-      .st33 {
-      fill: url(#linear-gradient);
-      }
-
-      .st34 {
-      filter: url(#drop-shadow-16);
-      }
-
       .st34, .st35, .st36, .st37 {
       fill: #a0d557;
       }
 
       .st38 {
       fill: #3860ad;
-      }
-
-      .st39 {
-      clip-path: url(#clippath-17);
-      }
-
-      .st40 {
-      clip-path: url(#clippath-19);
-      }
-
-      .st41 {
-      clip-path: url(#clippath-11);
-      }
-
-      .st42 {
-      clip-path: url(#clippath-16);
-      }
-
-      .st43 {
-      clip-path: url(#clippath-18);
-      }
-
-      .st44 {
-      clip-path: url(#clippath-10);
-      }
-
-      .st45 {
-      clip-path: url(#clippath-15);
-      }
-
-      .st46 {
-      clip-path: url(#clippath-13);
-      }
-
-      .st47 {
-      clip-path: url(#clippath-14);
-      }
-
-      .st48 {
-      clip-path: url(#clippath-12);
-      }
-
-      .st49 {
-      clip-path: url(#clippath-31);
-      }
-
-      .st50 {
-      clip-path: url(#clippath-32);
-      }
-
-      .st51 {
-      clip-path: url(#clippath-33);
-      }
-
-      .st52 {
-      clip-path: url(#clippath-30);
-      }
-
-      .st53 {
-      clip-path: url(#clippath-27);
-      }
-
-      .st54 {
-      clip-path: url(#clippath-29);
-      }
-
-      .st55 {
-      clip-path: url(#clippath-26);
-      }
-
-      .st56 {
-      clip-path: url(#clippath-28);
-      }
-
-      .st57 {
-      clip-path: url(#clippath-20);
-      }
-
-      .st58 {
-      clip-path: url(#clippath-21);
-      }
-
-      .st59 {
-      clip-path: url(#clippath-22);
-      }
-
-      .st60 {
-      clip-path: url(#clippath-23);
-      }
-
-      .st61 {
-      clip-path: url(#clippath-24);
-      }
-
-      .st62 {
-      clip-path: url(#clippath-25);
-      }
-
-      .st63 {
-      clip-path: url(#clippath-1);
-      }
-
-      .st64 {
-      clip-path: url(#clippath-3);
-      }
-
-      .st65 {
-      clip-path: url(#clippath-4);
-      }
-
-      .st66 {
-      clip-path: url(#clippath-2);
-      }
-
-      .st67 {
-      clip-path: url(#clippath-7);
-      }
-
-      .st68 {
-      clip-path: url(#clippath-6);
-      }
-
-      .st69 {
-      clip-path: url(#clippath-9);
-      }
-
-      .st70 {
-      clip-path: url(#clippath-8);
-      }
-
-      .st71 {
-      clip-path: url(#clippath-5);
       }
 
       .st1 {
@@ -279,57 +51,14 @@
       stroke-width: 1.5px;
       }
 
-      .st21 {
-      filter: url(#drop-shadow-14);
-      }
-
-      .st22 {
-      filter: url(#drop-shadow-11);
-      }
-
-      .st23 {
-      filter: url(#drop-shadow-17);
-      }
-
-      .st3 {
-      filter: url(#drop-shadow-13);
-      }
-
-      .st72 {
-      filter: url(#drop-shadow-10);
-      }
-
       .st72, .st73 {
       fill: #669525;
-      }
-
-      .st6 {
-      filter: url(#drop-shadow-6);
       }
 
       .st74 {
       fill: #626262;
       }
 
-      .st73 {
-      filter: url(#drop-shadow-5);
-      }
-
-      .st35 {
-      filter: url(#drop-shadow-9);
-      }
-
-      .st36 {
-      filter: url(#drop-shadow-2);
-      }
-
-      .st37 {
-      filter: url(#drop-shadow-4);
-      }
-
-      .st75 {
-      clip-path: url(#clippath);
-      }
     </style>
   </defs>
   <path class="st8"
