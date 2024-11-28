@@ -2423,7 +2423,10 @@ body.down .box-News #museum-map:not(.expand) {
       font-size: 17px;
     }
     #regionFull:hover i.fa {
-      transform: scale(1.3);
+      transform: scale(1.2);
+    }
+    #museum-map.expand #regionFull i.fa::before {
+      content: "\f066";
     }
 
   #regionHome {

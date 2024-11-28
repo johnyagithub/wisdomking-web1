@@ -125,7 +125,7 @@
 								<img src="../../public/images/map-museum/r6.svg" alt="">
 							</div>
 							<div class="button-map">
-								<button id="regionFull" type="botton"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
+								<button id="regionFull" type="botton"><i class="fa fa-expand" aria-hidden="true"></i></button>
 								<button id="regionHome" type="botton"><i class="fa fa-home" aria-hidden="true"></i></button>
 							</div>
 						</div>
