@@ -239,6 +239,26 @@
           
         }
 
+  div#data-Calendar {
+
+  }
+  #data-Calendar .owl-dots {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+    #data-Calendar .owl-dots .owl-dot {
+      background: #DDDDDD;
+      border-radius: 10px;
+      height: 8px;
+    }
+    #data-Calendar .owl-dots .owl-dot.active {
+      width: 24px;
+      background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+      margin: auto 15px;
+    }
+
   .box-Calendar #data-Calendar .item {
     border-radius: var(--border_radius);
     overflow: hidden;
@@ -329,6 +349,14 @@
         margin-top: auto;
         margin-right: auto;
       }
+
+  #data-Calendar {
+    
+  }
+    #data-Calendar .owl-carousel .col-xl-6 {
+      max-width: 100%;
+      padding: 0px;
+    }
 
 #slide-Month {
   font-size: 40px;
@@ -813,10 +841,6 @@
   .nav-dots-style .owl-nav {
     margin-left: auto;
   }
-  .box-Calendar #data-Calendar .item img {
-    max-height: 177px;
-    object-position: top;
-  }
   .box-Agricultural-slide .item .text {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -825,12 +849,27 @@
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+  .box-Calendar #data-Calendar .item img {
+    max-height: 177px;
+    object-position: top;
+  }
   .box-Calendar #data-Calendar .item {
     display: block;
     aspect-ratio: auto;
   }
   #slide-Day .owl-item.active+.owl-item.active+.owl-item.active .item::after {
     display: none;
+  }
+  .box-Ourmuseum .owl-carousel.nav-dots-style {
+    overflow: hidden;
+    padding-right: 16%;
+    padding-left: 10px;
+  }
+  .box-Ourmuseum .owl-carousel.nav-dots-style .owl-stage-outer {
+    overflow: visible;
+  }
+  .box-Ourmuseum .owl-carousel.nav-dots-style .owl-nav {
+    margin-right: -16%;
   }
  } 
  /* แนวนอน */

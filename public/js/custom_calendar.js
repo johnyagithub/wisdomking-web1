@@ -30,7 +30,16 @@ $(function () {
 let getItem = (Start) => {
   var Item = $('#dataCalendar .item[data-start=\"' + Start + '\"]');
   var End = Item.data('end');
-  $('#data-Calendar').html('');
+  if ($('#data-Calendar .owl-carousel').length > 0) {
+    if ($(window).width() < 1025) {
+      $('#data-Calendar .owl-carousel').html('');
+    } else {
+      $('#data-Calendar .owl-carousel').remove();
+    }
+  } else {
+    $('#data-Calendar').html('');
+  }
+  let AllHtml = '';
   Item.find('.list').each(function () {
     var Img = $(this).data('img');
     var Date = $(this).data('date');
@@ -45,30 +54,60 @@ let getItem = (Start) => {
     var link = $(this).data('link');
 
     var Html = `<div class=\"col-xl-6\" data-type=\"` + IDtype + `\">
-						<div class=\"item\">
-              <a href=\"`+ Img + `\" class=\"img\" data-fancybox=\"Calendar\" data-caption=\"`+ Name + `\">
-								<img src=\"`+ Img + `\" alt=\"\">
-							</a>
-							<div class=\"text\">
-								<div class=\"d-flex align-items-center flex-wrap\">
-                  <div class=\"-event ac\"><h4>` + Start.split(" ")[0] + `</h4>` + getShortMonth(Start.split(" ")[1]) + `</div>
-                  <div class=\"-event\"><h4>` + End.split(" ")[0] + `</h4>` + getShortMonth(End.split(" ")[1]) + `</div>
-                </div>
-								<div class=\"d-flex justify-content-between align-items-center flex-wrap\">
-									<div class=\"-date\">`+ Date + `</div>
-									<div class=\"-view\">`+ View + `</div>
-								</div>
-								<div class=\"my-3\">`+ Type + `</div>
-								<h5 class=\"text-line2\">`+ Name + `</h5>
-								<p class=\"text-line4\">`+ Detail + `</p>
-								<a class=\"btn btn-light px-4 btn-sm rounded-pill\" href=\"`+ link + `\">ข้อมูลเพิ่มเติม</a>
-							</div>
-						</div>
-					</div>`;
-    $('#data-Calendar').append(Html);
+          <div class=\"item\">
+            <a href=\"`+ Img + `\" class=\"img\" data-fancybox=\"Calendar\" data-caption=\"` + Name + `\">
+              <img src=\"`+ Img + `\" alt=\"\">
+            </a>
+            <div class=\"text\">
+              <div class=\"d-flex align-items-center flex-wrap\">
+                <div class=\"-event ac\"><h4>` + Start.split(" ")[0] + `</h4>` + getShortMonth(Start.split(" ")[1]) + `</div>
+                <div class=\"-event\"><h4>` + End.split(" ")[0] + `</h4>` + getShortMonth(End.split(" ")[1]) + `</div>
+              </div>
+              <div class=\"d-flex justify-content-between align-items-center flex-wrap\">
+                <div class=\"-date\">`+ Date + `</div>
+                <div class=\"-view\">`+ View + `</div>
+              </div>
+              <div class=\"my-3\">`+ Type + `</div>
+              <h5 class=\"text-line2\">`+ Name + `</h5>
+              <p class=\"text-line4\">`+ Detail + `</p>
+              <a class=\"btn btn-light px-4 btn-sm rounded-pill\" href=\"`+ link + `\">ข้อมูลเพิ่มเติม</a>
+            </div>
+          </div>
+        </div>`;
+    AllHtml += Html;
   });
+  if ($('#data-Calendar .owl-carousel').length > 0 && $(window).width() < 1025) {
+    CalendarCarousel(AllHtml);
+  } else {
+    $('#data-Calendar').append(AllHtml);
+  }
   $("[data-showId] button").removeClass('active');
   $("[data-showId] button").eq(0).addClass('active');
+};
+
+let CalendarCarousel = (AllHtml) => {
+  var $carousel = $("#data-Calendar .owl-carousel");
+
+  // ทำลาย Carousel เดิม
+  if ($carousel.hasClass("owl-loaded")) {
+    $carousel.trigger('destroy.owl.carousel').removeClass('owl-loaded').find('.owl-stage-outer').children().unwrap();
+  }
+
+  // เพิ่มเนื้อหาลงใน Carousel
+  $carousel.html(AllHtml);
+
+  // ใช้ imagesLoaded เพื่อรอการโหลดของภาพ
+  $carousel.imagesLoaded(function() {
+    // สร้าง Owl Carousel ใหม่เมื่อภาพโหลดเสร็จ
+    $carousel.owlCarousel({
+      nav: false,
+      dots: true,
+      autoHeight: true,
+      lazyLoad: true,
+      items: 1,
+      margin: 10
+    });
+  });
 };
 
 let sliderMonth = () => {

@@ -3699,12 +3699,13 @@ footer {
     .scale-navTabs {
       max-width: 100%;
       overflow: auto;
-      margin-bottom: 18px;
     }
     .scale-navTabs .box-navTabs {
       flex-wrap: nowrap;
       white-space: nowrap;
       font-size: 14px;
+      min-width: max-content;
+      margin-bottom: 10px !important;
     }
     .scale-navTabs .box-navTabs .nav-link {
       min-width: max-content;

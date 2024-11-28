@@ -54,9 +54,9 @@
 		</section>
 
 		<section class="box-Ourmuseum py-4">
-			<div class="container">
+			<div class="container px-0 px-sm-3">
 				<div class="d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
+					<h3 class="head mb-4 mx-3 mx-sm-0">พิพิธภัณฑ์ของเรา</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
@@ -267,7 +267,8 @@
 							<button type="button" class="btn btn-style3 px-3 mx-1 text-muted active">ทั้งหมด</button>
 							<button type="button" data-type="tab1" class="btn btn-style3 px-3 mx-1 text-muted">ท่องเที่ยวสุขสันต์
 								ที่พิพิธภัณฑ์เกษตรฯ</button>
-							<button type="button" data-type="tab2" class="btn btn-style3 px-3 mx-1 text-muted">หลักสูตรอบรมเข้มข้น</button>
+							<button type="button" data-type="tab2"
+								class="btn btn-style3 px-3 mx-1 text-muted">หลักสูตรอบรมเข้มข้น</button>
 							<!-- <button type="button" data-type="tab3" class="btn btn-style3 px-3 mx-1 text-muted">อื่นๆ</button> -->
 						</div>
 					</div>
@@ -1272,6 +1273,7 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 	<script type="text/javascript" src="../../public/js/custom_calendar.js"></script>
 </body>
 

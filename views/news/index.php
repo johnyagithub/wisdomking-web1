@@ -30,30 +30,32 @@
 		</nav>
 
 		<section class="box-News py-4">
-			<div class="container">
+			<div class="container px-0 px-sm-3">
 				<div class="-sticky d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">ข่าว & ประชาสัมพันธ์</h3>
-					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
-						<div class="owl-carousel">
-							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
-							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted">
+					<h3 class="head mb-4 mx-3 mx-sm-0">ข่าว & ประชาสัมพันธ์</h3>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
+							<button type="button" class="btn btn-style3 px-3 m-1 text-muted active">ทั้งหมด</button>
+							<button type="button" data-type="tab1" class="btn btn-style3 px-3 m-1 text-muted">
 								ข่าว
 							</button>
-							<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted">
+							<button type="button" data-type="tab2" class="btn btn-style3 px-3 m-1 text-muted">
 								คณะเข้าชม
 							</button>
-							<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted">
+							<button type="button" data-type="tab3" class="btn btn-style3 px-3 m-1 text-muted">
 								ข่าวสื่อมวลชน
 							</button>
-							<button type="button" data-type="tab4" class="btn btn-style3 px-3 text-muted">
+							<button type="button" data-type="tab4" class="btn btn-style3 px-3 m-1 text-muted">
 								ข่าวผู้บริหาร
 							</button>
-							<button type="button" data-type="tab5" class="btn btn-style3 px-3 text-muted">
+							<button type="button" data-type="tab5" class="btn btn-style3 px-3 m-1 text-muted">
 								ข่าวกิจกรรมต่างๆ
 							</button>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="row pt-5 justify-content-center">
 					<div class="col-sm-7 col-lg-5 col-xl-4 mb-3">
 						<div class="input-group bg-light form-control-style">
@@ -79,7 +81,8 @@
 				</div>
 				<div class="mx-auto pt-5" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">ข่าว & ประชาสัมพันธ์ ทั้งหมด</h4>
-					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+						Ipsum
 						has been the
 						industry's standard dummy text ever since the 1500s,</p>
 				</div>
