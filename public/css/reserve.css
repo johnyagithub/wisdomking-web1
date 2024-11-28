@@ -131,22 +131,40 @@
     padding: 15px;
     border-radius: var(--border_radius);
   }
+    #form-course .form-check[disabled] {
+      pointer-events: none;
+      opacity: 0.3;
+    }
+
   #form-course .-paper {
     counter-reset: group;
   }
-    #form-course [data-type] {
+    #form-course .-paper [data-checkbox] {
       counter-increment: group;
+      counter-reset: item;
     }
-      #form-course .group-choose3 {
-        counter-reset: item;
+    #form-course .-paper [data-checkbox] > h6::before {
+      content: "*" counters(group, ".") ".";
+      margin-right: 8px;
+    }
+      #form-course .-paper [data-checkbox] .form-group {
+        counter-increment: item;
       }
-        #form-course .group-choose3 .--group {
-          counter-increment: item;
+        #form-course .-paper .form-group .head-group::before {
+          content: counters(group, ".") "." counters(item, ".");
+          margin-right: 8px;
         }
-          #form-course .group-choose3 .head-group::before {
-            content: counters(group, ".") "." counters(item, ".");
-            margin-right: 8px;
-          }
+
+  #form-course .-paper .animated-text {
+    animation: scaleAnimation .7s ease-in-out 8;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  @keyframes scaleAnimation {
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+  }
 
 #form-course2 .form-check {
 
@@ -335,8 +353,8 @@
         column-count: 2;
       }
       .box-form-course .has-error {
-        background: rgb(207 26 26 / 7%);
-        outline: 12px solid rgb(207 26 26 / 7%);
+        background: #f9ebec;
+        outline: 12px solid #f9ebec;
       }
       
   /* เทส form-course2 */

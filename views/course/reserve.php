@@ -43,16 +43,16 @@
 						<li><span class="circle"></span>สรุปการจอง</li>
 					</ul>
 				</div>
-				<?php $IDcourse = isset($_GET['course']) ? $_GET['course'] : ''; ?>  <!-- รับค่า $IDcourse เอาไปใช้ดึงข้อมูลมาโชว์ข้างล้่าง  -->
+				<?php $IDcourse = isset($_GET['course']) ? $_GET['course'] : ''; ?> <!-- รับค่า $IDcourse เอาไปใช้ดึงข้อมูลมาโชว์ข้างล้่าง  -->
 
-				<form id="form-course" action="./reserve3.php" class="my-4">
+				<form id="form-course" action="./reserve3.php" class="my-4" novalidate>
 					<div class="box-form-course">
 						<div class="form-container">
 							<div class="d-flex align-items-start pt-3">
 								<div class="-number">1</div>
-								
+
 								<div class="w-100">
-									<input type="hidden" name="course" value="<?=$IDcourse?>">
+									<input type="hidden" name="course" value="<?= $IDcourse ?>">
 									<h4 class="text-gradient mb-3">หลักสูตร "ตามรอยพ่อ"</h4>
 									<div class="d-lg-flex">
 										<b class="mr-1">ระยะเวลาเรียน : </b>
@@ -71,10 +71,10 @@
 
 							<div class="-paper">
 								<!-- Section: เลือกภาพยนตร์ 3 มิติ -->
-								<div class="row row-p10 m-0 mb-4">
-									<h6 class="col-12 p-0">*1. เลือกภาพยนตร์ 3 มิติ <b class="text-danger">ได้ 1 เรื่อง</b></h6>
+								<div class="row row-p10 m-0 mb-4" data-checkbox="1">
+									<h6 class="col-12 p-0">เลือกภาพยนตร์ 3 มิติ <b class="text-danger">ได้ 1 เรื่อง</b></h6>
 									<div class="col-12 column-pc-2">
-										<div class="form-check">
+										<div class="form-check" disabled> <!-- disabled ไม่ใช้เลือก -->
 											<input class="form-check-input" type="checkbox" id="movie1">
 											<label class="form-check-label" for="movie1">เรื่องของพ่อในบ้านเรา</label>
 										</div>
@@ -114,8 +114,8 @@
 								</div>
 
 								<!-- Section: เลือกกิจกรรมสร้างสรรค์ -->
-								<div class="row row-p10 m-0 mb-4">
-									<h6 class="col-12 p-0">*2. เลือกกิจกรรมสร้างสรรค์ความคิด <b class="text-danger">ได้ 1 กิจกรรม</b>
+								<div class="row row-p10 m-0 mb-4" data-checkbox="1">
+									<h6 class="col-12 p-0">เลือกกิจกรรมสร้างสรรค์ความคิด <b class="text-danger">ได้ 1 กิจกรรม</b>
 									</h6>
 									<div class="col-md-6">
 										<h6 class="mt-2">ระดับขั้นประถมปลาย - ประชาชนทั่วไป</h6>
@@ -150,12 +150,12 @@
 								</div>
 
 								<!-- Section: เลือกพิพิธภัณฑ์ -->
-								<div>
-									<h6>*3. เลือกเรียนรู้พิพิธภัณฑ์ในอาคาร <b class="text-danger">ได้ 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</b>
+								<div class="mb-4" data-checkbox-group="1" data-checkbox="3">
+									<h6>เลือกเรียนรู้พิพิธภัณฑ์ในอาคาร <b class="text-danger">ได้ 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</b>
 									</h6>
 									<!-- 3.1 -->
-									<div class="row px-2">
-										<h6 class="col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1</h6>
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1</h6>
 										<div class="col-12 column-pc-2">
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" id="museum1-1">
@@ -193,8 +193,8 @@
 									</div>
 
 									<!-- 3.2 -->
-									<div class="row px-2">
-										<h6 class="col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา (อาคารเฉลิมพระเกียรติฯ ชั้น 5)</h6>
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา (อาคารเฉลิมพระเกียรติฯ ชั้น 5)</h6>
 										<div class="col-12 column-pc-2">
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" id="museum2-1">
@@ -232,8 +232,8 @@
 									</div>
 
 									<!-- 3.3 -->
-									<div class="row px-2">
-										<h6 class="col-12 mt-2 px-3">พิพิธภัณฑ์มหัศจรรย์พันธุกรรม (อาคารเฉลิมพระเกียรติฯ ชั้น 3)</h6>
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์มหัศจรรย์พันธุกรรม (อาคารเฉลิมพระเกียรติฯ ชั้น 3)</h6>
 										<div class="col-12 column-pc-2">
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" id="museum3-1">
@@ -255,8 +255,8 @@
 									</div>
 
 									<!-- 3.4 -->
-									<div class="row px-2">
-										<h6 class="col-12 mt-2 px-3">พิพิธภัณฑ์ป่าดงพงไพร (อาคารเฉลิมพระเกียรติฯ ชั้น 4)</h6>
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ป่าดงพงไพร (อาคารเฉลิมพระเกียรติฯ ชั้น 4)</h6>
 										<div class="col-12 column-pc-2">
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" id="museum4-1">
@@ -278,8 +278,8 @@
 									</div>
 
 									<!-- 3.5 -->
-									<div class="row px-2">
-										<h6 class="col-12 mt-2 px-3">พิพิธภัณฑ์ชีวิตน้ำ (อาคารเฉลิมพระเกียรติฯ ชั้น 6)</h6>
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ชีวิตน้ำ (อาคารเฉลิมพระเกียรติฯ ชั้น 6)</h6>
 										<div class="col-12 column-pc-2">
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" id="museum6-1">
@@ -301,8 +301,8 @@
 									</div>
 
 									<!-- 3.6 -->
-									<div class="row px-2">
-										<h6 class="col-12 mt-2 px-3">พิพิธภัณฑ์ดินดล (อาคารเฉลิมพระเกียรติฯ ชั้น 7)</h6>
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ดินดล (อาคารเฉลิมพระเกียรติฯ ชั้น 7)</h6>
 										<div class="col-12 column-pc-2">
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" id="museum7-1">
@@ -319,6 +319,112 @@
 											<div class="form-check">
 												<input class="form-check-input" type="checkbox" id="museum7-4">
 												<label class="form-check-label" for="museum7-4">นักวิทยาศาสตร์ดินเพื่อมนุษยธรรม</label>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Section: เลือกพิพิธภัณฑ์ เทส -->
+								<div class="mb-4" data-checkbox-group="2" data-checkbox="4">
+									<h6>เลือกเรียนรู้พิพิธภัณฑ์ในอาคาร <b class="text-danger">ได้ 2 พิพิธภัณฑ์ๆ ละ 2 ฐานการเรียนรู้</b>
+									</h6>
+									<!-- 4.1 -->
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา อาคารเฉลิมพระเกียรติฯ 5 ชั้น 1</h6>
+										<div class="col-12 column-pc-2">
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-1">
+												<label class="form-check-label" for="museum_test1-1">พระราชพิธีในวิถีเกษตร</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-2">
+												<label class="form-check-label" for="museum_test1-2">หลักการทรวงงาน</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-3">
+												<label class="form-check-label" for="museum_test1-3">วิธีเกษตรของพ่อ</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-4">
+												<label class="form-check-label" for="museum_test1-4">ภูมิพลังแผ่นดิน</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-5">
+												<label class="form-check-label" for="museum_test1-5">กษัตริย เกษตร</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-6">
+												<label class="form-check-label" for="museum_test1-6">ตามรอยพ่อ</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-7">
+												<label class="form-check-label" for="museum_test1-7">นวัตกรรมของพ่อ</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test1-8">
+												<label class="form-check-label" for="museum_test1-8">สนองพระราชปณิธาน</label>
+											</div>
+										</div>
+									</div>
+
+									<!-- 4.2 -->
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์ในหลวงรักเรา (อาคารเฉลิมพระเกียรติฯ ชั้น 5)</h6>
+										<div class="col-12 column-pc-2">
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-1">
+												<label class="form-check-label" for="museum_test2-1">วิถีเกษตรลุ่มน้ำ</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-2">
+												<label class="form-check-label" for="museum_test2-2">เกษตรถิ่นไทย</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-3">
+												<label class="form-check-label" for="museum_test2-3">เกษตรไทย เกษตรโลก</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-4">
+												<label class="form-check-label" for="museum_test2-4">มหัศจรรย์ท้องทุ่ง</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-5">
+												<label class="form-check-label" for="museum_test2-5">ตลาดเก่าชาวเกษตร</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-6">
+												<label class="form-check-label" for="museum_test2-6">นวัตกรรมเกษตรฯ</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-7">
+												<label class="form-check-label" for="museum_test2-7">เกษตรอนาคต</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test2-8">
+												<label class="form-check-label" for="museum_test2-8">น้อมนำคำพ่อสอน</label>
+											</div>
+										</div>
+									</div>
+
+									<!-- 4.3 -->
+									<div class="row px-2 form-group">
+										<h6 class="head-group col-12 mt-2 px-3">พิพิธภัณฑ์มหัศจรรย์พันธุกรรม (อาคารเฉลิมพระเกียรติฯ ชั้น 3)</h6>
+										<div class="col-12 column-pc-2">
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test3-1">
+												<label class="form-check-label" for="museum_test3-1">แรงบันดาลใจ...เจ้าฟ้านักอนุรักษ์</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test3-2">
+												<label class="form-check-label" for="museum_test3-2">พันธุกรรมสร้างชีวิต</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test3-3">
+												<label class="form-check-label" for="museum_test3-3">พันธุกรรมตามนิเวศ</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="museum_test3-4">
+												<label class="form-check-label" for="museum_test3-4">อนุรักษ์พันธุกรรม...ทำได้</label>
 											</div>
 										</div>
 									</div>
@@ -350,7 +456,109 @@
 	<!-- calendar -->
 	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" type="text/javascript"></script>
 	<script type="text/javascript" src="../../plugins/calendar/script.js"></script>
+	<style>
+		[required] {
+			mix-blend-mode: difference;
+		}
 
+		[required][disabled] {
+			opacity: 0.5;
+		}
+	</style>
+	<script>
+		$(document).ready(function() {
+			// กำหนด required เริ่มต้นให้ checkbox ทั้งหมด
+			$('[data-checkbox] .form-check:not([disabled]) .form-check-input ').prop('required', true);
+
+			// กด submit
+			$(document).on("submit", "#form-course", function(e) {
+				let hasError = false;
+
+				$('[data-checkbox]').each(function() {
+					const $group = $(this);
+					const $checkboxes = $group.find('.form-check-input');
+
+					// ตรวจสอบว่ามี checkbox ที่ยังมี required และไม่ได้ถูกเลือก
+					const hasRequired = $checkboxes.is('[required]:not(:checked)');
+
+					if (hasRequired) {
+						$group.addClass("has-error");
+						hasError = true; // บันทึกว่ามีข้อผิดพลาด
+					} else {
+						$group.removeClass("has-error");
+					}
+				});
+
+				// หากมีข้อผิดพลาด ให้ป้องกันการ submit
+				if (hasError) {
+					e.preventDefault();
+					scrollToFirstError();
+				}
+			});
+
+			// การเลือกกลุ่ม
+			$('[data-checkbox-group]').on('change', '.form-check-input', function(e) {
+				const selectedGroup = $(this).closest('[data-checkbox-group]');
+				const groupNumber = selectedGroup.data('checkbox-group');
+				// const selectedNumber = selectedGroup.data('[checkbox]');
+
+				// นับจำนวนที่เลือกในกลุ่มนี้
+				const selectedCount = selectedGroup.find('.form-group:has(.form-check-input:checked)').length;
+
+				if (selectedCount > groupNumber) {
+					selectedGroup.find('.form-check-input').not(this).prop('checked', false).prop('disabled', false).prop('required', true); // หากเกินที่กำหนด ให้ยกเลิกการเลือก
+				}
+			});
+
+			myChange();
+		});
+
+		const scrollToFirstError = () => {
+			const $firstErrorElement = $('.has-error').first();
+			if ($firstErrorElement.length) {
+				$firstErrorElement.find('.text-danger').addClass('animated-text');
+				$('html, body').animate({
+					scrollTop: $firstErrorElement.offset().top - 100
+				}, 100); // เลื่อนภายใน 100ms
+			}
+		};
+
+		const myChange = () => {
+			$('[data-checkbox]').each(function() {
+				const $group = $(this);
+				const maxSelection = parseInt($group.data('checkbox'), 10);
+
+				$group.find('.form-check-input').on('change', function() {
+					const $checkboxes = $group.find('.form-check-input');
+					const selectedCount = $checkboxes.filter(':checked').length;
+
+					if (maxSelection === 1) {
+						// กรณีเลือกได้ 1 ตัว: ยกเลิกตัวเก่าที่เลือก
+						if ($(this).is(':checked')) {
+							$checkboxes.not(this).prop('checked', false);
+						}
+					} else {
+						// กรณีเลือกได้มากกว่า 1
+						if (selectedCount >= maxSelection) {
+							// Disable checkbox ที่เหลือ
+							$checkboxes.not(':checked').prop('disabled', true);
+						} else {
+							// Enable checkbox ที่เหลือถ้าจำนวนยังไม่ครบ
+							$checkboxes.prop('disabled', false);
+						}
+					}
+
+					// ตรวจสอบ required: ถ้าไม่มีการเลือกเลย ให้เพิ่ม required, ถ้ามีแล้วให้ลบ required
+					if (selectedCount >= $group.data('checkbox')) {
+						$checkboxes.prop('required', false);
+						$group.removeClass('has-error');
+					} else {
+						$group.find('.form-check:not([disabled]) .form-check-input').prop('required', true);
+					}
+				});
+			});
+		}
+	</script>
 </body>
 
 </html>
