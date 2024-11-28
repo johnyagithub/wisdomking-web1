@@ -401,7 +401,7 @@
 			$("#regionFull").click(function () {
 				$('#museum-map').toggleClass('expand');
 			});
-			$("#museum-map+.box-shadow").click(function () {
+			$("#museum-map+.box-shadow,#museum-map .-province.have").click(function () {
 				$('#museum-map').removeClass('expand');
 			});
 			$("#regionHome").click(function () {
