@@ -71,7 +71,7 @@
 
 							<div class="-paper">
 								<!-- Section: เลือกภาพยนตร์ 3 มิติ -->
-								<div class="row row-p10 m-0 mb-4" data-checkbox="1">
+								<div class="row row-p10 m-0 mb-4" data-checkbox="2">
 									<h6 class="col-12 p-0">เลือกภาพยนตร์ 3 มิติ <b class="text-danger">ได้ 1 เรื่อง</b></h6>
 									<div class="col-12 column-pc-2">
 										<div class="form-check" disabled> <!-- disabled ไม่ใช้เลือก -->
@@ -325,7 +325,7 @@
 								</div>
 
 								<!-- Section: เลือกพิพิธภัณฑ์ เทส -->
-								<div class="mb-4" data-checkbox-group="2" data-checkbox="4">
+								<div class="mb-4" data-checkbox-group="2" data-checkbox="5">
 									<h6>เลือกเรียนรู้พิพิธภัณฑ์ในอาคาร <b class="text-danger">ได้ 2 พิพิธภัณฑ์ๆ ละ 2 ฐานการเรียนรู้</b>
 									</h6>
 									<!-- 4.1 -->
@@ -435,7 +435,7 @@
 					</div>
 					<div class="form-row justify-content-center mt-4 border-top pt-4">
 						<div class="col-6 col-md-4 col-lg-3 px-1">
-							<button type="reset" class="btn btn-light border bg-white rounded-pill w-100">ยกเลิก</button>
+							<button type="reset" class="btn btn-light border bg-white rounded-pill w-100" onclick="$('#form-course .form-check-input').prop('required', true).prop('disabled', false)">ยกเลิก</button>
 						</div>
 						<div class="col-6 col-md-4 col-lg-3 px-1">
 							<button type="submit" class="btn btn-style w-100">ดำเนินการต่อ</button>
@@ -470,7 +470,21 @@
 			// กำหนด required เริ่มต้นให้ checkbox ทั้งหมด
 			$('[data-checkbox] .form-check:not([disabled]) .form-check-input ').prop('required', true);
 
-			// กด submit
+			myChange();
+			mySubmit();
+		});
+
+		const scrollToFirstError = () => {
+			const $firstErrorElement = $('.has-error').first();
+			if ($firstErrorElement.length) {
+				$firstErrorElement.find('.text-danger').addClass('animated-text');
+				$('html, body').animate({
+					scrollTop: $firstErrorElement.offset().top - 200
+				}, 100); // เลื่อนภายใน 100ms
+			}
+		};
+
+		const mySubmit = () => {
 			$(document).on("submit", "#form-course", function(e) {
 				let hasError = false;
 
@@ -495,67 +509,47 @@
 					scrollToFirstError();
 				}
 			});
-
-			// การเลือกกลุ่ม
-			$('[data-checkbox-group]').on('change', '.form-check-input', function(e) {
-				const selectedGroup = $(this).closest('[data-checkbox-group]');
-				const groupNumber = selectedGroup.data('checkbox-group');
-				// const selectedNumber = selectedGroup.data('[checkbox]');
-
-				// นับจำนวนที่เลือกในกลุ่มนี้
-				const selectedCount = selectedGroup.find('.form-group:has(.form-check-input:checked)').length;
-
-				if (selectedCount > groupNumber) {
-					selectedGroup.find('.form-check-input').not(this).prop('checked', false).prop('disabled', false).prop('required', true); // หากเกินที่กำหนด ให้ยกเลิกการเลือก
-				}
-			});
-
-			myChange();
-		});
-
-		const scrollToFirstError = () => {
-			const $firstErrorElement = $('.has-error').first();
-			if ($firstErrorElement.length) {
-				$firstErrorElement.find('.text-danger').addClass('animated-text');
-				$('html, body').animate({
-					scrollTop: $firstErrorElement.offset().top - 100
-				}, 100); // เลื่อนภายใน 100ms
-			}
-		};
+		}
 
 		const myChange = () => {
-			$('[data-checkbox]').each(function() {
-				const $group = $(this);
-				const maxSelection = parseInt($group.data('checkbox'), 10);
+			$('[data-checkbox] .form-check-input').on('change', function() {
+				var $group = $(this).closest('[data-checkbox]');
+				const numberGroup = $group.data('checkbox-group');
+				const numberInput = $group.data('checkbox');
+				const $checkboxes = $group.find('.form-check-input');
+				const selectedCount = $checkboxes.filter(':checked').length;
 
-				$group.find('.form-check-input').on('change', function() {
-					const $checkboxes = $group.find('.form-check-input');
-					const selectedCount = $checkboxes.filter(':checked').length;
+				if (numberGroup) {
+					$group = $(this).closest('.form-group');
+					const maxGroupSelection = parseInt(numberGroup, 10);
+					const maxSelection = parseInt(numberInput, 10);
+					// หา container ของ data-checkbox-group ปัจจุบัน
+					const $groupContainer = $(this).closest('[data-checkbox-group]');
 
-					if (maxSelection === 1) {
-						// กรณีเลือกได้ 1 ตัว: ยกเลิกตัวเก่าที่เลือก
-						if ($(this).is(':checked')) {
-							$checkboxes.not(this).prop('checked', false);
-						}
+					// นับจำนวน input:checked ภายใน .form-group เดียวกัน
+					const selectedCount = $group.find('.form-check-input:checked').length;
+					if (selectedCount == numberInput) {
+						$group.find('.form-check-input').prop('required', false);
+						$group.find('.form-check-input').filter(':not(:checked)').prop('disabled', true);
 					} else {
-						// กรณีเลือกได้มากกว่า 1
-						if (selectedCount >= maxSelection) {
-							// Disable checkbox ที่เหลือ
-							$checkboxes.not(':checked').prop('disabled', true);
-						} else {
-							// Enable checkbox ที่เหลือถ้าจำนวนยังไม่ครบ
-							$checkboxes.prop('disabled', false);
-						}
+						$group.find('.form-check:not([disabled]) .form-check-input').prop('required', true).prop('disabled', false);
 					}
 
-					// ตรวจสอบ required: ถ้าไม่มีการเลือกเลย ให้เพิ่ม required, ถ้ามีแล้วให้ลบ required
-					if (selectedCount >= $group.data('checkbox')) {
+					// นับจำนวน .form-group ที่มี input:checked ภายใน container เดียวกัน
+					const selectedGroupCount = $groupContainer.find('.form-group:has(.form-check-input:checked)').length;
+					if (selectedGroupCount == maxGroupSelection) {
+						$groupContainer.find('.form-group').not(':has(.form-check-input:checked)').find('.form-check-input').prop('required', false).prop('disabled', true);
+					} else {
+						$groupContainer.find('.form-check:not([disabled]) .form-check-input').prop('required', true).prop('disabled', false);
+					}
+				} else {
+					if (selectedCount == $group.data('checkbox')) {
 						$checkboxes.prop('required', false);
-						$group.removeClass('has-error');
+						$checkboxes.filter(':not(:checked)').prop('disabled', true);
 					} else {
-						$group.find('.form-check:not([disabled]) .form-check-input').prop('required', true);
+						$group.find('.form-check:not([disabled]) .form-check-input').prop('required', true).prop('disabled', false);
 					}
-				});
+				}
 			});
 		}
 	</script>
