@@ -349,19 +349,18 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .box-calendar-style table.ui-datepicker-calendar tbody {
     min-width: max-content;
-    display: inline-flex;
     transform: scaleY(-1);
   }
   .ui-datepicker-calendar {
     overflow-x: auto;
-    white-space: nowrap;
     padding-bottom: 7px;
     position: relative;
     transform: scaleY(-1); /* พลิก container */
   }
   .ui-datepicker-calendar::-webkit-scrollbar {
-    height: 2px;
-    background: #BCBCBC; /* พื้นหลัง scrollbar */
+    height: 3px;
+    background: #BCBCBC;
+    border-radius: 5px;
   }
   .ui-datepicker-calendar::-webkit-scrollbar-thumb {
     background: #888; /* สี scrollbar */
