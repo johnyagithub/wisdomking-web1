@@ -1,10 +1,9 @@
 $(function () {
-
-  $(window).bind('mousewheel', function (event) {
+  $(window).bind("mousewheel", function (event) {
     if (event.originalEvent.wheelDelta >= 0) {
-      $('body').removeClass("down");
+      $("body").removeClass("down");
     } else {
-      $('body').addClass("down");
+      $("body").addClass("down");
     }
   });
 
@@ -17,6 +16,7 @@ $(function () {
   sliderBanner();
   sliderMarket();
   sliderAgricultural();
+  sliderMuseum();
   sliderLearning();
   sliderShow();
   if ($(window).width() > 1025) {
@@ -29,22 +29,22 @@ $(function () {
     }, 5000);
   }
 
-  $("[data-modal=\"#video\"]").click(function () {
-    src = $(this).attr('data-src');
-    type = $(this).attr('data-type') || 0;
+  $('[data-modal="#video"]').click(function () {
+    src = $(this).attr("data-src");
+    type = $(this).attr("data-type") || 0;
 
-    if (type == 'video') {
-      $('#video video').show().attr('src', src);
-      $('#video iframe').hide();
+    if (type == "video") {
+      $("#video video").show().attr("src", src);
+      $("#video iframe").hide();
     } else {
-      $('#video iframe').show().attr('src', src);
-      $('#video video').hide();
+      $("#video iframe").show().attr("src", src);
+      $("#video video").hide();
     }
 
-    $('#video').modal('show');
+    $("#video").modal("show");
   });
-  $('#video').on('hidden.bs.modal', function () {
-    $('#video video,#video iframe').attr('src', '');
+  $("#video").on("hidden.bs.modal", function () {
+    $("#video video,#video iframe").attr("src", "");
   });
 
   $('[data-toggle="class-toggle-custom"]').on("click", function () {
@@ -66,33 +66,42 @@ $(function () {
 
   $("a[href*='#']").click(function () {
     ScrollTop($(this).attr("href"));
-    $('body').addClass("down");
+    $("body").addClass("down");
   });
 
-  if (getParameterByName('param') !== '') {
-    $('button[data-type=' + getParameterByName('param') + '],button[data-target=\'#' + getParameterByName('param') + '\']').click();
+  if (getParameterByName("param") !== "") {
+    $(
+      "button[data-type=" +
+        getParameterByName("param") +
+        "],button[data-target='#" +
+        getParameterByName("param") +
+        "']"
+    ).click();
   }
 });
 
 window.onload = function () {
   setTimeout(() => {
-    $('body').addClass('Loaded');
+    $("body").addClass("Loaded");
   }, 200);
-}
+};
 
 let ScrollTop = (index) => {
   if ($(window).width() < 768) {
-    var e = $(index).offset().top - ($('header').height() + 10);
+    var e = $(index).offset().top - ($("header").height() + 10);
   } else if ($(window).width() < 1024) {
-    var e = $(index).offset().top - ($('header').height() + 120);
+    var e = $(index).offset().top - ($("header").height() + 120);
   } else {
-    var e = $(index).offset().top - ($('header').height() + 70);
+    var e = $(index).offset().top - ($("header").height() + 70);
   }
-  $("html,body").animate({
-    scrollTop: e
-  }, "1000");
+  $("html,body").animate(
+    {
+      scrollTop: e,
+    },
+    "1000"
+  );
   return false;
-}
+};
 
 let getParameterByName = (name) => {
   const url = window.location.href;
@@ -100,57 +109,59 @@ let getParameterByName = (name) => {
   const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
   const results = regex.exec(url);
   if (!results) return null;
-  if (!results[2]) return '';
+  if (!results[2]) return "";
   return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
+};
 
 let styleSwitch = () => {
   if (localStorage.getItem("styleSwitch") != null) {
-    ThisActive = 'ul.styleswitch li[data-li=' + localStorage.getItem("styleSwitch") + ']'
-    $(ThisActive).siblings().removeClass('active');
-    $(ThisActive).addClass('active');
+    ThisActive =
+      "ul.styleswitch li[data-li=" + localStorage.getItem("styleSwitch") + "]";
+    $(ThisActive).siblings().removeClass("active");
+    $(ThisActive).addClass("active");
     mySwitch(localStorage.getItem("styleSwitch"));
   }
 
   $("ul.styleswitch li").click(function () {
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-    styleName = $(this).data('li');
+    $(this).siblings().removeClass("active");
+    $(this).addClass("active");
+    styleName = $(this).data("li");
     localStorage.setItem("styleSwitch", styleName);
     mySwitch(styleName);
   });
 };
 let mySwitch = (Name) => {
-  $('link[rel*=style][title]').each(function () {
+  $("link[rel*=style][title]").each(function () {
     this.disabled = true;
-    if (this.getAttribute('title') == Name) this.disabled = false;
+    if (this.getAttribute("title") == Name) this.disabled = false;
   });
 };
 
 let textSize = () => {
   if (localStorage.getItem("textSize") != "") {
-    ThisActive = 'ul.textsizer li[data-li=' + localStorage.getItem("textSizeLi") + ']';
-    $(ThisActive).siblings().removeClass('active');
-    $(ThisActive).addClass('active');
-    $('body').css('font-size', localStorage.getItem("textSize"));
+    ThisActive =
+      "ul.textsizer li[data-li=" + localStorage.getItem("textSizeLi") + "]";
+    $(ThisActive).siblings().removeClass("active");
+    $(ThisActive).addClass("active");
+    $("body").css("font-size", localStorage.getItem("textSize"));
   }
 
   $("ul.textsizer li").click(function () {
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
+    $(this).siblings().removeClass("active");
+    $(this).addClass("active");
 
-    localStorage.setItem("textSizeLi", $(this).data('li'));
-    switch ($(this).data('li')) {
-      case 'mediumFont':
-        $('body').css('font-size', '14px');
+    localStorage.setItem("textSizeLi", $(this).data("li"));
+    switch ($(this).data("li")) {
+      case "mediumFont":
+        $("body").css("font-size", "14px");
         localStorage.setItem("textSize", "14px");
         break;
-      case 'largeFont':
-        $('body').css('font-size', '18px');
+      case "largeFont":
+        $("body").css("font-size", "18px");
         localStorage.setItem("textSize", "18px");
         break;
       default:
-        $('body').css('font-size', '');
+        $("body").css("font-size", "");
         localStorage.removeItem("textSize");
     }
   });
@@ -167,25 +178,36 @@ let Activitty = () => {
   $(".box-Agricultural-slide").mousemove(function (event) {
     var h = $(this).height();
     var w = $(this).width();
-    var t = (event.clientY - (h / 2)) * -1;
-    var l = (event.clientX - (w / 2)) * -1;
-    $(".box-Agricultural-slide .item .text").css("transform", "translate(" + l / 40 + "px, " + t / 40 + "px)");
+    var t = (event.clientY - h / 2) * -1;
+    var l = (event.clientX - w / 2) * -1;
+    $(".box-Agricultural-slide .item .text").css(
+      "transform",
+      "translate(" + l / 40 + "px, " + t / 40 + "px)"
+    );
   });
-}
+};
 
 let buttonTabCustom = () => {
   $("[data-showId] button").click(function () {
-    $('[data-showId] button').removeClass('active');
-    $(this).addClass('active');
+    $("[data-showId] button").removeClass("active");
+    $(this).addClass("active");
 
-    var thisId = $(this).closest("[data-showId]").attr('data-showId');
-    var Type = $(this).attr('data-type') || 'all';
-    if (Type === 'all') {
-      $('#' + thisId).find('[data-type]').hide();
-      $('#' + thisId).find('[data-type]:not(.no-all)').show();
+    var thisId = $(this).closest("[data-showId]").attr("data-showId");
+    var Type = $(this).attr("data-type") || "all";
+    if (Type === "all") {
+      $("#" + thisId)
+        .find("[data-type]")
+        .hide();
+      $("#" + thisId)
+        .find("[data-type]:not(.no-all)")
+        .show();
     } else {
-      $('#' + thisId).find('[data-type]').hide();
-      $('#' + thisId).find('[data-type*="' + Type + '"]').show();
+      $("#" + thisId)
+        .find("[data-type]")
+        .hide();
+      $("#" + thisId)
+        .find('[data-type*="' + Type + '"]')
+        .show();
     }
   });
 };
@@ -213,34 +235,49 @@ let sliderBanner = () => {
 };
 
 let sliderMarket = () => {
-  $(".box-Market .owl-carousel").owlCarousel({
-    margin: 0,
-    nav: true,
-    // center: true,
-    // startPosition: 1,
-    dots: false,
-    lazyLoad: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 3,
+  $(".box-Market .owl-carousel")
+    .owlCarousel({
+      margin: 0,
+      nav: true,
+      // center: true,
+      // startPosition: 1,
+      dots: false,
+      lazyLoad: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 2,
+        },
+        667: {
+          items: 3,
+        },
+        1024: {
+          items: 2,
+        },
+        1400: {
+          items: 3,
+        },
       },
-    },
-  }).on('changed.owl.carousel', function (e) {
-    $(".box-Market .owl-carousel .owl-item:nth-child(" + (e.item.index + 1) + ") .item").click();
-  });
-  $(".box-Market .owl-carousel .item").click(function () {
-    $(".box-Market .owl-carousel .item").removeClass('active');
-    $(this).addClass('active');
-
-    var imgMarket = $(this).data('img');
-    var subjectMarket = $(this).data('subject');
-    var dateMarket = $(this).data('date');
-    $('#Market-show .item-show img').fadeOut(function () {
-      $(this).attr('src', imgMarket).fadeIn();
+    })
+    .on("changed.owl.carousel", function (e) {
+      $(
+        ".box-Market .owl-carousel .owl-item:nth-child(" +
+          (e.item.index + 1) +
+          ") .item"
+      ).click();
     });
-    $('#Market-show .item-show .text h5').text(subjectMarket);
-    $('#Market-show .item-show .text .-date').text(dateMarket);
+  $(".box-Market .owl-carousel .item").click(function () {
+    $(".box-Market .owl-carousel .item").removeClass("active");
+    $(this).addClass("active");
+
+    var imgMarket = $(this).data("img");
+    var subjectMarket = $(this).data("subject");
+    var dateMarket = $(this).data("date");
+    $("#Market-show .item-show img").fadeOut(function () {
+      $(this).attr("src", imgMarket).fadeIn();
+    });
+    $("#Market-show .item-show .text h5").text(subjectMarket);
+    $("#Market-show .item-show .text .-date").text(dateMarket);
   });
 };
 
@@ -277,13 +314,17 @@ let slideNavTabs = () => {
     autoWidth: true,
     mouseDrag: false,
     touchDrag: false,
-    items: 1
+    items: 1,
   });
   setTimeout(function () {
-    $owl.trigger('refresh.owl.carousel');
+    $owl.trigger("refresh.owl.carousel");
   }, 0);
-  $('.box-navTabs .owl-carousel .owl-item').click(function () {
-    $(this).siblings().find('.nav-link').removeClass('active').attr('aria-selected', false);
+  $(".box-navTabs .owl-carousel .owl-item").click(function () {
+    $(this)
+      .siblings()
+      .find(".nav-link")
+      .removeClass("active")
+      .attr("aria-selected", false);
   });
 };
 
@@ -300,20 +341,20 @@ let sliderLearning = () => {
       },
       769: {
         items: 2,
-      }
+      },
     },
   });
-  $('.box-Learning:not(.box-slide) .o-prev').click(function () {
+  $(".box-Learning:not(.box-slide) .o-prev").click(function () {
     $(this).closest(".box-Learning").find(".owl-prev").click();
   });
-  $('.box-Learning:not(.box-slide) .o-next').click(function () {
+  $(".box-Learning:not(.box-slide) .o-next").click(function () {
     $(this).closest(".box-Learning").find(".owl-next").click();
   });
 };
 
 let sliderAgricultural = () => {
   $(".box-Agricultural-slide .owl-carousel").owlCarousel({
-    margin: 20,
+    margin: 0,
     nav: true,
     dots: true,
     autoplay: true,
@@ -324,9 +365,34 @@ let sliderAgricultural = () => {
     responsive: {
       0: {
         items: 1,
-      }
+      },
     },
   });
+};
+
+let sliderMuseum = () => {
+  if ($(window).width() < 1025) {
+    $(".box-museum .owl-carousel").owlCarousel({
+      margin: 0,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: false,
+      lazyLoad: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        667: {
+          items: 2,
+        },
+      },
+    });
+  } else {
+    $(".box-museum .owl-carousel").removeClass("owl-carousel");
+  }
 };
 
 let sliderShow = () => {
@@ -358,7 +424,7 @@ let sliderShow = () => {
 let mySubmenu = () => {
   if ($(window).width() > 1024) {
     // เพิ่มการเปิด dropdown เมื่อ hover
-    $('header .dropdown,header .btn-group').hover(
+    $("header .dropdown,header .btn-group").hover(
       function () {
         $(this).addClass("show").find(".dropdown-menu").addClass("show");
       },
@@ -367,27 +433,37 @@ let mySubmenu = () => {
       }
     );
   } else {
-    $("#navbarMain").append("<div id=\"active-submenu\"></div>");
+    $("#navbarMain").append('<div id="active-submenu"></div>');
     $("header #navbarMain .submenu .group").click(function () {
-      $('#navbarMain').css('overflow', 'hidden');
-      $('#active-submenu').addClass('active').css('top',$('#navbarMain').scrollTop()).html($(this).html());
-      if ($(this).hasClass('active')) {
-        $(this).toggleClass('active');
+      $("#navbarMain").css("overflow", "hidden");
+      $("#active-submenu")
+        .addClass("active")
+        .css("top", $("#navbarMain").scrollTop())
+        .html($(this).html());
+      if ($(this).hasClass("active")) {
+        $(this).toggleClass("active");
       } else {
-        $(this).closest('.submenu').find('.group').removeClass('active');
-        $(this).addClass('active');
+        $(this).closest(".submenu").find(".group").removeClass("active");
+        $(this).addClass("active");
       }
     });
     $(document).on("click", "#active-submenu > span", function () {
-      $(this).closest('#active-submenu').removeClass('active');
-      $('#navbarMain').css('overflow', '');
+      $(this).closest("#active-submenu").removeClass("active");
+      $("#navbarMain").css("overflow", "");
     });
   }
 
-  $('.dropdown[data-bs-auto-close="false"] .dropdown-toggle').on('click', function (e) {
-    e.stopPropagation();
-    const $dropdown = $(this).closest('.dropdown');
-    $('.dropdown.show').not($dropdown).removeClass('show').find('.dropdown-menu').removeClass('show');
-    $dropdown.toggleClass('show').find('.dropdown-menu').toggleClass('show');
-  });
-}
+  $('.dropdown[data-bs-auto-close="false"] .dropdown-toggle').on(
+    "click",
+    function (e) {
+      e.stopPropagation();
+      const $dropdown = $(this).closest(".dropdown");
+      $(".dropdown.show")
+        .not($dropdown)
+        .removeClass("show")
+        .find(".dropdown-menu")
+        .removeClass("show");
+      $dropdown.toggleClass("show").find(".dropdown-menu").toggleClass("show");
+    }
+  );
+};

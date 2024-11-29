@@ -37,41 +37,43 @@
 				</div>
 
 				<div class="pb-4">
-					<div class="box-niche row justify-content-center mb-4 px-1">
-						<div class="col-sm-6 col-xl-3 px-2">
-							<div class="item">
-								<div>
-									<div class="text-success">แผนการจัดซื้อจัดจ้าง</div>
-									<h2 class="d-inline-block mr-2">8,705</h2>รายการ
+					<div class="scale-niche ml-auto">
+						<div class="box-niche row justify-content-center mb-4 px-1">
+							<div class="col-sm-6 col-xl-3 px-2">
+								<div class="item">
+									<div>
+										<div class="text-success">แผนการจัดซื้อจัดจ้าง</div>
+										<h2 class="d-inline-block mr-2">8,705</h2>รายการ
+									</div>
+									<img src="../../public/images/icon-procurement1.png" alt="">
 								</div>
-								<img src="../../public/images/icon-procurement1.png" alt="">
 							</div>
-						</div>
-						<div class="col-sm-6 col-xl-3 px-2">
-							<div class="item">
-								<div>
-									<div class="text-info">ประกาศ</div>
-									<h2 class="d-inline-block mr-2">20,849</h2>รายการ
+							<div class="col-sm-6 col-xl-3 px-2">
+								<div class="item">
+									<div>
+										<div class="text-info">ประกาศ</div>
+										<h2 class="d-inline-block mr-2">20,849</h2>รายการ
+									</div>
+									<img src="../../public/images/icon-procurement2.png" alt="">
 								</div>
-								<img src="../../public/images/icon-procurement2.png" alt="">
 							</div>
-						</div>
-						<div class="col-sm-6 col-xl-3 px-2">
-							<div class="item">
-								<div>
-									<div  class="text-danger">ยกเลิกประกาศ</div>
-									<h2 class="d-inline-block mr-2">849</h2>รายการ
+							<div class="col-sm-6 col-xl-3 px-2">
+								<div class="item">
+									<div>
+										<div class="text-danger">ยกเลิกประกาศ</div>
+										<h2 class="d-inline-block mr-2">849</h2>รายการ
+									</div>
+									<img src="../../public/images/icon-procurement3.png" alt="">
 								</div>
-								<img src="../../public/images/icon-procurement3.png" alt="">
 							</div>
-						</div>
-						<div class="col-sm-6 col-xl-3 px-2">
-							<div class="item">
-								<div>
-									<div class="text-warning">เปลี่ยนแปลงประกาศ</div>
-									<h2 class="d-inline-block mr-2">379</h2>รายการ
+							<div class="col-sm-6 col-xl-3 px-2">
+								<div class="item">
+									<div>
+										<div class="text-warning">เปลี่ยนแปลงประกาศ</div>
+										<h2 class="d-inline-block mr-2">379</h2>รายการ
+									</div>
+									<img src="../../public/images/icon-procurement4.png" alt="">
 								</div>
-								<img src="../../public/images/icon-procurement4.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -107,6 +109,8 @@
 						</div>
 					</div>
 				</div>
+
+				sdgtsd
 
 				<div class="table-responsive">
 					<table class="table table-striped text-center" style="min-width: 1000px;">
@@ -351,7 +355,7 @@
 	<!-- canvasjs -->
 	<script type="text/javascript" src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
 	<script type="text/javascript">
-		$(function () {
+		$(function() {
 
 			$("#chartContainer").CanvasJSChart({
 				exportEnabled: true,
@@ -367,16 +371,51 @@
 					type: "doughnut",
 					innerRadius: "40%",
 					showInLegend: true,
-					dataPoints: [
-						{ y: 15, name: "ประกาศราคากลาง", color: "#6ADB9B" },
-						{ y: 2, name: "ร่างเอกสารประกวดราคา (e-Bidding) และร่างเอกสาร", color: "#95E5FF" },
-						{ y: 3, name: "ประกาศเชิญชวน", color: "#FA70FF" },
-						{ y: 1, name: "ยกเลิกประกาศเชิญชวน", color: "#FF5F15" },
-						{ y: 0, name: "เปลี่ยนแปลงประกาศเชิญชวน", color: "#FFD792" },
-						{ y: 7, name: "แผนการจัดซื้อจัดจ้าง", color: "#FFD815" },
-						{ y: 95, name: "ประกาศรายชื่อผู้ชนะการเสนอราคา/ประกาศผู้ได้รับการคัดเลือก", color: "#FFA455" },
-						{ y: 15, name: "ยกเลิกประกาศรายชื่อผู้ชนะการเสนอราคา/ประกาศผู้ได้รับการคัดเลือก", color: "#6A93DB" },
-						{ y: 0, name: "เปลี่ยนแปลงประกาศรายชื่อผู้ชนะการเสนอราคา", color: "#FF3B3B" }
+					dataPoints: [{
+							y: 15,
+							name: "ประกาศราคากลาง",
+							color: "#6ADB9B"
+						},
+						{
+							y: 2,
+							name: "ร่างเอกสารประกวดราคา (e-Bidding) และร่างเอกสาร",
+							color: "#95E5FF"
+						},
+						{
+							y: 3,
+							name: "ประกาศเชิญชวน",
+							color: "#FA70FF"
+						},
+						{
+							y: 1,
+							name: "ยกเลิกประกาศเชิญชวน",
+							color: "#FF5F15"
+						},
+						{
+							y: 0,
+							name: "เปลี่ยนแปลงประกาศเชิญชวน",
+							color: "#FFD792"
+						},
+						{
+							y: 7,
+							name: "แผนการจัดซื้อจัดจ้าง",
+							color: "#FFD815"
+						},
+						{
+							y: 95,
+							name: "ประกาศรายชื่อผู้ชนะการเสนอราคา/ประกาศผู้ได้รับการคัดเลือก",
+							color: "#FFA455"
+						},
+						{
+							y: 15,
+							name: "ยกเลิกประกาศรายชื่อผู้ชนะการเสนอราคา/ประกาศผู้ได้รับการคัดเลือก",
+							color: "#6A93DB"
+						},
+						{
+							y: 0,
+							name: "เปลี่ยนแปลงประกาศรายชื่อผู้ชนะการเสนอราคา",
+							color: "#FF3B3B"
+						}
 					]
 				}]
 			});
@@ -393,19 +432,66 @@
 				data: [{
 					type: "pie",
 					showInLegend: true,
-					dataPoints: [
-						{ y: 15, name: "สอบราคา", color: "#6ADB9B" },
-						{ y: 2, name: "e-market", color: "#95E5FF" },
-						{ y: 3, name: "e-bidding", color: "#FA70FF" },
-						{ y: 1, name: "คัดเลือก", color: "#FF5F15" },
-						{ y: 0, name: "เฉพาะเจาะจง", color: "#FFD792" },
-						{ y: 7, name: "จ้างที่ปรึกษาโดยวิธีประกาศเชิญชวนทั่วไป", color: "#FFD815" },
-						{ y: 250, name: "จ้างที่ปรึกษาโดยวิธีคัดเลือก", color: "#FFA455" },
-						{ y: 15, name: "จ้างที่ปรึกษาโดยวิธีเจาะจง", color: "#6A93DB" },
-						{ y: 0, name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีประกาศเชิญชวนทั่วไป", color: "#FF3B3B" },
-						{ y: 0, name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีคัดเลือก", color: "#236A80" },
-						{ y: 0, name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีเฉพาะเจาะจง", color: "#3A0088" },
-						{ y: 0, name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีประกวดแบบ", color: "#C36B2D" }
+					dataPoints: [{
+							y: 15,
+							name: "สอบราคา",
+							color: "#6ADB9B"
+						},
+						{
+							y: 2,
+							name: "e-market",
+							color: "#95E5FF"
+						},
+						{
+							y: 3,
+							name: "e-bidding",
+							color: "#FA70FF"
+						},
+						{
+							y: 1,
+							name: "คัดเลือก",
+							color: "#FF5F15"
+						},
+						{
+							y: 0,
+							name: "เฉพาะเจาะจง",
+							color: "#FFD792"
+						},
+						{
+							y: 7,
+							name: "จ้างที่ปรึกษาโดยวิธีประกาศเชิญชวนทั่วไป",
+							color: "#FFD815"
+						},
+						{
+							y: 250,
+							name: "จ้างที่ปรึกษาโดยวิธีคัดเลือก",
+							color: "#FFA455"
+						},
+						{
+							y: 15,
+							name: "จ้างที่ปรึกษาโดยวิธีเจาะจง",
+							color: "#6A93DB"
+						},
+						{
+							y: 0,
+							name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีประกาศเชิญชวนทั่วไป",
+							color: "#FF3B3B"
+						},
+						{
+							y: 0,
+							name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีคัดเลือก",
+							color: "#236A80"
+						},
+						{
+							y: 0,
+							name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีเฉพาะเจาะจง",
+							color: "#3A0088"
+						},
+						{
+							y: 0,
+							name: "จ้างออกแบบหรือควบคุมงานก่อสร้างโดยวิธีประกวดแบบ",
+							color: "#C36B2D"
+						}
 					]
 				}]
 			});

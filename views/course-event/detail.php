@@ -144,12 +144,15 @@
 											</table>
 										</td>
 									</tr>
+								</tbody>
+							</table>
+							<table class="w-100">
+								<tbody class="align-top">
 									<tr class="align-middle">
-										<td><b>หลักสูตรเหมาะสำหรับ</b></td>
+										<td style="width: 185px;"><b>หลักสูตรเหมาะสำหรับ</b></td>
 										<td>
 											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2"
-													alt="">
+												<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2" alt="">
 												เด็ก
 											</span>
 										</td>
@@ -158,8 +161,7 @@
 										<td><b>ประเภทกิจกรรม</b></td>
 										<td>
 											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2"
-													alt="">
+												<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2" alt="">
 												workshop
 											</span>
 										</td>
@@ -168,8 +170,7 @@
 										<td><b>ระยะเวลา</b></td>
 										<td>
 											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2"
-													alt="">
+												<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2" alt="">
 												2 hr
 											</span>
 										</td>
@@ -181,7 +182,7 @@
 					<hr class="my-4">
 					<div class="px-lg-5">
 						<div class="text-center pt-2">
-							<b>หมายเหตุ : </b>หลักสูตร/ค่าลงทะเบียนเรียนรู้
+							<b>หมายเหตุ : </b><br class="d-sm-none">หลักสูตร/ค่าลงทะเบียนเรียนรู้
 							สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติฯ
 							สงวนสิทธิการเปลี่ยนแปลงตามความเหมาะสม
 						</div>

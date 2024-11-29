@@ -42,7 +42,16 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="--detail">
-					<img src="../../public/images/learning/img2.jpg" class="rounded w-100" alt="">
+					<div class="mx-auto" style="max-width: 1000px;">
+						<h4 class="head mb-4 text-center">ภาพยนตร์แอนิเมชั่น 3 มิติ</h4>
+					</div>
+					<div class="box-BGvideo">
+						<div class="btn-play-video">
+							<button type="button" class="btn rounded-circle" data-modal="#video" data-type="youtube"
+								data-src="https://www.youtube.com/embed/IoPWOZoiJh0?autoplay=1&amp;loop=1&amp;autopause=0"></button>
+						</div>
+						<img src="../../public/images/learning/img2.jpg" class="rounded w-100" alt="">
+					</div>
 					<div class="d-flex flex-wrap my-3 align-items-center">
 						<div class="-date">
 							17 สิงหาคม 2023
@@ -119,9 +128,9 @@
 
 		<section class="box-Learning box-slide pb-4 pt-5" style="background: linear-gradient(180deg, #EAEAEA 0%, rgba(234, 234, 234, 0) 100%);
 ">
-			<div class="container">
+			<div class="container px-0 px-sm-3">
 				<div class="d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">สื่อการเรียนรู้</h3>
+					<h3 class="head mb-4 mx-3 mx-sm-0">สื่อการเรียนรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
@@ -139,6 +148,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="tab-content py-4">
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
 						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"

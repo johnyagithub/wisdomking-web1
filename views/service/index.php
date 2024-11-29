@@ -34,11 +34,11 @@
 
 		<section>
 			<div class="-sticky">
-				<div class="container">
+				<div class="container px-0 px-sm-3">
 					<div class="d-flex flex-wrap align-items-start mb-4">
-						<h3 class="head mb-4">บริการ</h3>
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-							<div class="owl-carousel">
+						<h3 class="head mb-4 mx-3 mx-sm-0">บริการ</h3>
+						<div class="scale-navTabs ml-auto">
+							<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 								<button class="nav-link active" id="nav-RoomService-tab" data-toggle="tab"
 									data-target="#nav-RoomService" type="button" role="tab" aria-controls="nav-RoomService"
 									aria-selected="true">
@@ -237,9 +237,9 @@
 									<hr class="my-3">
 									<div class="form-row">
 										<div class="col-sm d-flex align-items-center mb-3 mb-sm-0">
-											ราคาทั้งหมด <h3 class="text-gradient mb-0 ml-2">฿ 8,000</h3>
+											ราคาทั้งหมด <h3 class="text-gradient mb-0 ml-auto ml-sm-2">฿ 8,000</h3>
 										</div>
-										<div class="col-6 col-md-4 col-lg-2 ml-auto">
+										<div class="col-md-4 col-lg-2 ml-auto">
 											<button type="submit" class="btn btn-style w-100">จองทันที</button>
 										</div>
 									</div>
@@ -401,9 +401,9 @@
 									<hr class="my-3">
 									<div class="form-row">
 										<div class="col-sm d-flex align-items-center mb-3 mb-sm-0">
-											ราคาทั้งหมด <h3 class="text-gradient mb-0 ml-2">฿ 8,000</h3>
+											ราคาทั้งหมด <h3 class="text-gradient mb-0 ml-auto ml-sm-2">฿ 8,000</h3>
 										</div>
-										<div class="col-6 col-md-4 col-lg-2 ml-auto">
+										<div class="col-md-4 col-lg-2 ml-auto">
 											<button type="submit" class="btn btn-style w-100">จองทันที</button>
 										</div>
 									</div>

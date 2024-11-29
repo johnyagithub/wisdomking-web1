@@ -76,7 +76,7 @@
 						</div>
 					</div>
 					<div class="px-lg-5">
-						<div class="table-responsive" style="box-shadow:none;">
+						<div class="table-responsive mb-0" style="box-shadow:none;">
 							<table class="w-100 mobile-displayGrid">
 								<tbody class="align-top">
 									<tr>
@@ -100,79 +100,128 @@
 										<td><b>ค่าลงทะเบียนเรียนรู้</b></td>
 										<td class="td-border-l">ราคาคุ้มสุด 3 คน 400 บาท ( มา 1 คน 150 บาท เท่านั้น)</td>
 									</tr>
-									<tr class="align-middle">
-										<td><b>หลักสูตรเหมาะสำหรับ</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2"
-													alt="">
-												เด็ก
-											</span>
-										</td>
-									</tr>
-									<tr class="align-middle">
-										<td><b>ประเภทกิจกรรม</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2"
-													alt="">
-												workshop
-											</span>
-										</td>
-									</tr>
-									<tr class="align-middle">
-										<td><b>ระยะเวลา</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2"
-													alt="">
-												2 hr
-											</span>
-										</td>
-									</tr>
 								</tbody>
 							</table>
 						</div>
+						<table class="mb-4">
+							<tbody class="align-top">
+								<tr class="align-middle">
+									<td style="width:200px"><b>หลักสูตรเหมาะสำหรับ</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2"
+												alt="">
+											เด็ก
+										</span>
+									</td>
+								</tr>
+								<tr class="align-middle">
+									<td><b>ประเภทกิจกรรม</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2"
+												alt="">
+											workshop
+										</span>
+									</td>
+								</tr>
+								<tr class="align-middle">
+									<td><b>ระยะเวลา</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2"
+												alt="">
+											2 hr
+										</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 
 					<form action="#" style="background: #F9F9F999;">
-						<div class="py-4 px-lg-5 mb-5">
+						<div class="py-4 px-lg-5 mb-4">
 							<h5 class="text-center mb-4">ลงทะเบียนเข้าร่วมกิจกรรม</h5>
 							<div class="form-row">
 								<div class="form-group col-md-6">
-									<label for="">ประเภทองค์กร*</label>
+									<label for="input1">ชื่อ*</label>
+									<input type="text" class="form-control bg-white" id="input1" placeholder="กรุณาระบุชื่อ" required>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="input2">นามสกุล*</label>
+									<input type="text" class="form-control bg-white" id="input2" placeholder="กรุณาระบุนามสกุล" required>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="input2">ที่อยู่*</label>
+									<input type="text" class="form-control bg-white" id="input2" placeholder="กรุณาระบุที่อยู่" required>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="input3">เบอร์โทรศัพท์*</label>
+									<input type="tel" class="form-control bg-white" id="input3" placeholder="กรุณาระบุเบอร์โทรศัพท์"
+										required>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="input4">อีเมล*</label>
+									<input type="mail" class="form-control bg-white" id="input4" placeholder="กรุณาระบุอีเมล" required>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="">จำนวนที่เข้าร่วมกิจกรรม*</label>
 									<select class="templatingSelect2" required>
-										<option value="">กรุณาระบุประเภทองค์กร</option>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น ผู้ใหญ่ - เพศชาย*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
 										<option value="usd">USD</option>
 										<option value="euro">Euro</option>
 										<option value="gbp">Pound</option>
 									</select>
 								</div>
 								<div class="form-group col-md-6">
-									<label for="input1">หน่วยงาน/บริษัท*</label>
-									<input type="text" class="form-control bg-white" id="input1"
-										placeholder="กรุณาระบุชื่อหน่วยงาน/บริษัท" required>
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น ผู้ใหญ่ - เพศหญิง*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
 								</div>
 							</div>
 							<div class="form-row">
 								<div class="form-group col-md-6">
-									<label for="input2">ชื่อ*</label>
-									<input type="text" class="form-control bg-white" id="input2" placeholder="กรุณาระบุชื่อ" required>
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น เด็ก - เพศชาย*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
 								</div>
 								<div class="form-group col-md-6">
-									<label for="input3">นามสกุล*</label>
-									<input type="text" class="form-control bg-white" id="input3" placeholder="กรุณาระบุนามสกุล" required>
+									<label for="">จำนวนผู้เข้าร่วมที่เป็น เด็ก - เพศหญิง*</label>
+									<select class="templatingSelect2" required>
+										<option value="">กรุณาระบุจำนวนที่เข้าร่วมกิจกรรม</option>
+										<option value="usd">USD</option>
+										<option value="euro">Euro</option>
+										<option value="gbp">Pound</option>
+									</select>
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="input4">เบอร์โทรศัพท์*</label>
-									<input type="tel" class="form-control bg-white" id="input4" placeholder="กรุณาระบุเบอร์โทรศัพท์"
-										required>
-								</div>
-								<div class="form-group col-md-6">
-									<label for="input5">อีเมล*</label>
-									<input type="mail" class="form-control bg-white" id="input5" placeholder="กรุณาระบุอีเมล" required>
+								<div class="form-group col-md-12">
+									<label for="input5">ข้อเสนอแนะ</label>
+									<textarea class="form-control bg-white" id="input5" rows="5"></textarea>
 								</div>
 							</div>
 							<div class="form-row">
@@ -287,10 +336,10 @@
 			// },
 			// onRemove: function (file, total) {
 			// },
-			onSuccess: function (response, file_number, file) {
+			onSuccess: function(response, file_number, file) {
 				$('#file-upload-' + file_number).addClass('--success');
 			},
-			onError: function (event, file, file_number) {
+			onError: function(event, file, file_number) {
 				$('#file-upload-' + file_number).addClass('--error');
 				$('#file-upload-' + file_number).find('.result').text('This document is not supported, please delete and upload another file.');
 			}

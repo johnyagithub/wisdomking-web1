@@ -76,7 +76,7 @@
 						</div>
 					</div>
 					<div class="px-lg-5">
-						<div class="table-responsive" style="box-shadow:none;">
+						<div class="table-responsive mb-0" style="box-shadow:none;">
 							<table class="w-100 mobile-displayGrid">
 								<tbody class="align-top">
 									<tr>
@@ -100,39 +100,43 @@
 										<td><b>ค่าลงทะเบียนเรียนรู้</b></td>
 										<td class="td-border-l">ราคาคุ้มสุด 3 คน 400 บาท ( มา 1 คน 150 บาท เท่านั้น)</td>
 									</tr>
-									<tr class="align-middle">
-										<td><b>หลักสูตรเหมาะสำหรับ</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2"
-													alt="">
-												เด็ก
-											</span>
-										</td>
-									</tr>
-									<tr class="align-middle">
-										<td><b>ประเภทกิจกรรม</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2"
-													alt="">
-												workshop
-											</span>
-										</td>
-									</tr>
-									<tr class="align-middle">
-										<td><b>ระยะเวลา</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2"
-													alt="">
-												2 hr
-											</span>
-										</td>
-									</tr>
 								</tbody>
 							</table>
 						</div>
+						<table class="mb-4">
+							<tbody class="align-top">
+								<tr class="align-middle">
+									<td style="width:200px"><b>หลักสูตรเหมาะสำหรับ</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2"
+												alt="">
+											เด็ก
+										</span>
+									</td>
+								</tr>
+								<tr class="align-middle">
+									<td><b>ประเภทกิจกรรม</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2"
+												alt="">
+											workshop
+										</span>
+									</td>
+								</tr>
+								<tr class="align-middle">
+									<td><b>ระยะเวลา</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2"
+												alt="">
+											2 hr
+										</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 
 					<form action="#" style="background: #F9F9F999;">

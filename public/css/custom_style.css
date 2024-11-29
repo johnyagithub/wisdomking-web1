@@ -3386,6 +3386,23 @@ footer {
   footer .social img {
     margin: 4px;
   }
+  .scale-niche {
+    padding: 4px;
+    max-width: 100%;
+    overflow: auto;
+  }
+  .scale-niche .box-niche {
+    flex-wrap: nowrap;
+    padding: 0px;
+    justify-content: normal !important;
+  }
+  .scale-niche .box-niche > div {
+    min-width: 270px;
+    width: calc(100vw - 70px);
+  }
+  .scale-niche .box-niche .item img {
+    margin-left: 12px;
+  }
 }
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
@@ -3487,6 +3504,7 @@ footer {
     position: relative;
     display: block;
     padding: 15px 15px 15px 35px;
+    background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
   }
   .box-Course .item .text h4::before {
     width: 33px;
@@ -3562,10 +3580,13 @@ footer {
   input[type="number"].number-Customize::-webkit-inner-spin-button {
     -webkit-appearance: auto !important;
   }
+  .footer-widget {
+    overflow: hidden;
+  }
   .footer-widget .box-slide .owl-carousel {
     padding: 0px !important;
-    margin: 0px -15px;
-    width: calc(100% + 30px);
+    margin: 0px -25px;
+    width: calc(100% + 50px);
   }
   .footer-widget .box-slide .owl-carousel .owl-nav {
     position: inherit;
@@ -3647,12 +3668,11 @@ footer {
     .slide-show .hide-next {
       display: none;
     }
-    .list-download .list {
-      display: block;
-    }
     .list-download .list .btn {
-      margin: 15px auto 5px auto;
-      display: table;
+      color: transparent;
+      width: 55px;
+      height: 34px;
+      min-width: inherit;
     }
     .slide-show .owl-carousel .owl-stage .owl-item {
       transform: none !important;
@@ -3787,6 +3807,24 @@ footer {
     .box-Share {
       width: auto;
       margin: 0px 5px 0px 0px;
+    }
+    .box-Course .item img {
+      aspect-ratio: 100/37;
+      object-position: left;
+    }
+    .box-Course .item .--button .btn {
+      width: 100%;
+    }
+    .box-BGvideo {
+      margin: 0px -15px;
+      border-radius: 0px;
+    }
+    .box-BGvideo img {
+      border-radius: 0px !important;
+    }
+    .--service {
+      padding: 0px !important;
+      padding-top: 1.5rem!important;
     }
   } 
   /* แนวนอน */

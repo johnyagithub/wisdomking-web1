@@ -142,8 +142,25 @@
       object-fit: cover;
       border-radius: 50%;
       width: 130px;
+      margin: auto;
       margin-bottom: 10px;
     }
+
+  .box-museum .owl-carousel {
+
+  }
+    .box-museum .owl-carousel .owl-item > [class^="col"] {
+      max-width: 100%;
+    }
+      .box-museum .owl-carousel .owl-dot {
+        height: 8px;
+        border-radius: 15px;
+        margin: 0px 8px;
+      }
+      .box-museum .owl-carousel .owl-dot.active {
+        width: 24px;
+        background-color: #fff;
+      }
 
   .box-Ourmuseum {
     background: linear-gradient(180deg, #ffff 0%, rgba(234, 234, 234, 0) 100%);
@@ -710,9 +727,6 @@
   }
   /* แนวนอน */
   @media only screen and (orientation:landscape){
-    .box-Market .owl-carousel .item {
-      transform: scale(0.8);
-    }
     #data-Calendar {
       max-width: 690px;
       margin: auto;
@@ -742,8 +756,12 @@
     object-fit: cover;
     inset: 0;
   }
-  .box-Market .item-show .text {
-    position: relative;
+  .box-Market .item-show .img img {
+    aspect-ratio: 100 / 76;
+    object-position: left;
+  }
+  .box-Agricultural-slide {
+    padding-bottom: 20px;
   }
   .box-Agricultural-slide .item .text {
     position: initial;
@@ -763,11 +781,6 @@
   .box-Agricultural-slide .item .text .-pro {
     grid-template-columns: 50px auto;
     margin-bottom: 8px;
-  }
-  .box-Agricultural-slide .item .text .-pro h4 {
-    -webkit-line-clamp: 1;
-    margin: 0px;
-    font-size: 1.2em;
   }
   .box-Agricultural-slide .item .text p {
     margin-bottom: 0px;
@@ -825,15 +838,6 @@
     width: 100%;
     margin-top: auto;
   }
-  .box-Market .owl-carousel .item {
-    width: calc(100% - 15px);
-    font-size: 11px;
-    font-weight: 500;
-  }
-  .box-Market .owl-carousel .item::after ,
-  #slide-Day .item::after {
-    height: 21px;
-  }
   .box-Agricultural-slide .owl-carousel {
     justify-content: center;
   }
@@ -848,12 +852,13 @@
     margin-left: auto;
   }
   .box-Agricultural-slide .item .text {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    margin-top: -35px;
+    z-index: 0;
   }
   .box-Agricultural-slide .item .img {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-radius: 0px;
   }
   .box-Calendar #data-Calendar .item img {
     max-height: 177px;
@@ -876,6 +881,9 @@
   }
   .box-Ourmuseum .owl-carousel.nav-dots-style .owl-nav {
     margin-right: -16%;
+  }
+  .box-museum .container {
+    padding: 50px 20px;
   }
  } 
  /* แนวนอน */

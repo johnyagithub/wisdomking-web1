@@ -115,8 +115,8 @@
 				</div>
 
 				<div class="--detail">
-					<div class="box-navTabs d-flex flex-wrap justify-content-center mt-3" data-showid="data-Calendar">
-						<div class="owl-carousel">
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs d-flex flex-wrap justify-content-center mt-3" data-showid="data-Calendar">
 							<button type="button" class="btn btn-style3 px-3 text-muted m-1 active">ทั้งหมด</button>
 							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted m-1">ท่องเที่ยวสุขสันต์
 								ที่พิพิธภัณฑ์เกษตรฯ</button>

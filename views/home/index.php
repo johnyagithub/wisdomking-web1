@@ -55,7 +55,7 @@
 
 		<section class="box-Ourmuseum py-4">
 			<div class="container px-0 px-sm-3">
-				<div class="d-flex flex-wrap align-items-start">
+				<div class="d-flex flex-wrap align-items-start justify-content-center">
 					<h3 class="head mb-4 mx-3 mx-sm-0">พิพิธภัณฑ์ของเรา</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
@@ -193,7 +193,7 @@
 			</div>
 		</section>
 
-		<section class="box-Learning py-5">
+		<section class="box-Learning pt-5 pb-3">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-5 col-lg-3 d-flex flex-sm-column flex-row-reverse text-center text-sm-left order-sm-1">
@@ -260,7 +260,7 @@
 
 		<section class="box-Calendar py-4">
 			<div class="container px-0 px-sm-3">
-				<div class="d-flex flex-wrap align-items-start">
+				<div class="d-flex flex-wrap align-items-start justify-content-center">
 					<h3 class="head mb-4 mx-3 mx-sm-0">ปฏิทินกิจกรรมการเรียนรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs ml-auto d-flex" data-showId="data-Calendar">
@@ -367,7 +367,7 @@
 
 		<section class="box-Market py-5">
 			<div class="container">
-				<div class="row m-0">
+				<div class="row m-0 justify-content-center">
 					<h3 class="head mb-4 mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
 					<p class="mx-auto mt-4 mt-lg-0 col-lg px-lg-3 text-black-50" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง
 						จัดขึ้นทุกเสาร์ อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด
@@ -428,7 +428,7 @@
 
 		<section class="box-Knowledge py-4">
 			<div class="container px-0 px-sm-3">
-				<div class="-sticky d-flex flex-wrap align-items-start">
+				<div class="-sticky d-flex flex-wrap align-items-start justify-content-center">
 					<h3 class="head mb-4 mx-3 mx-sm-0">องค์ความรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
@@ -909,7 +909,7 @@
 		</section>
 
 		<section class="box-Agricultural-slide">
-			<div class="container px-lg-5">
+			<div class="container px-0 px-lg-5">
 				<div class="owl-carousel px-xl-5 nav-dots-style show-dots">
 
 					<div class="item">
@@ -986,11 +986,11 @@
 		</section>
 
 		<section class="box-News py-4">
-			<div class="container">
-				<div class="d-flex flex-wrap align-items-start">
+			<div class="container px-0 px-sm-3">
+				<div class="d-flex flex-wrap align-items-start justify-content-center">
 					<h3 class="head mb-4">ข่าว & ประชาสัมพันธ์</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav1-tab" data-toggle="tab" data-target="#nav1" type="button"
 								role="tab" aria-controls="nav1" aria-selected="true">
 								ทั้งหมด
@@ -1018,6 +1018,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="tab-content box-slide py-4">
 					<div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
 						<div class="owl-carousel nav-dots-style show-dots" data-itemSlide-pc="3" data-itemSlide-Tablet="2"
@@ -1251,7 +1253,7 @@
 		<section class="box-museum">
 			<div class="container">
 				<h3 class="text-white head text-center mb-5">พิพิธภัณฑ์<br>แห่งการเรียนรู้เกษตรเศรษฐกิจพอเพียง</h3>
-				<div class="row">
+				<div class="row owl-carousel mx-auto pb-5">
 					<div class="col-md-6 col-lg-3">
 						<img src="../../public/images/museum/img1.jpg" alt="" class="--img">
 						<p>เผยแพร่ พระเกียรติคุณ และ พระอัจฉริยภาพด้านการเกษตร ของพระมหากษัตริย์ไทย และพระบรม วงศานุวงศ์</p>

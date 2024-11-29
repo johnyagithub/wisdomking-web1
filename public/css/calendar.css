@@ -349,14 +349,32 @@
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .box-calendar-style table.ui-datepicker-calendar tbody {
     min-width: max-content;
+    display: inline-flex;
+    transform: scaleY(-1);
+  }
+  .ui-datepicker-calendar {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 7px;
+    position: relative;
+    transform: scaleY(-1); /* พลิก container */
+  }
+  .ui-datepicker-calendar::-webkit-scrollbar {
+    height: 2px;
+    background: #BCBCBC; /* พื้นหลัง scrollbar */
+  }
+  .ui-datepicker-calendar::-webkit-scrollbar-thumb {
+    background: #888; /* สี scrollbar */
+    border-radius: 10px;
+    background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);
+  }
+  .ui-datepicker-calendar::-webkit-scrollbar-thumb:hover {
+    background: #555; /* สี scrollbar เมื่อ hover */
   }
   .box-calendar-style table.ui-datepicker-calendar tbody td span.ui-state-default ,
   .box-calendar-style table.ui-datepicker-calendar tbody td a {
-    margin: 11px 3px;
+    margin: 10px 8px;
   }
-  /* .box-calendar-style table.ui-datepicker-calendar tbody tr {
-    display: block;
-  } */
 }
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
@@ -403,8 +421,8 @@
     border: 0px;
   }
   .box-Calendar2 .item .img {
-    margin-right: 0px;
-    order: -1;
+    margin: 0px -15px;
+    border-radius: 0px;
     margin-bottom: 20px;
   }
  } 
