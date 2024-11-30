@@ -36,7 +36,7 @@
 
 				<div class="box-status" data-status="1">
 					<h4 class="text-center">สมัครเข้าร่วมโครงการ</h4>
-					<ul class="-status-bar d-none d-md-block">
+					<ul class="-status-bar d-none d-md-flex">
 						<li><span class="circle"></span>หลักสูตร</li>
 						<li><span class="circle"></span>กิจกรรม</li>
 						<li><span class="circle"></span>จอง</li>
