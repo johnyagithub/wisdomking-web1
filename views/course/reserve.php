@@ -36,15 +36,24 @@
 
 				<div class="box-status" data-status="2">
 					<h4 class="text-center">สมัครเข้าร่วมโครงการ</h4>
-					<ul class="-status-bar">
+					<ul class="-status-bar d-none d-md-block">
 						<li><span class="circle"></span>หลักสูตร</li>
 						<li><span class="circle"></span>กิจกรรม</li>
 						<li><span class="circle"></span>จอง</li>
 						<li><span class="circle"></span>สรุปการจอง</li>
 					</ul>
+					<div class="progress-container d-md-none">
+						<div class="progress-circle">
+							<span class="progress-text">of 4</span>
+						</div>
+						<div>
+							<h3 class="progress-title"></h3>
+							<div class="progress-step">ขั้นตอนถัดไป : <span></span></div>
+						</div>
+					</div>
 				</div>
-				<?php $IDcourse = isset($_GET['course']) ? $_GET['course'] : ''; ?> <!-- รับค่า $IDcourse เอาไปใช้ดึงข้อมูลมาโชว์ข้างล้่าง  -->
 
+				<?php $IDcourse = isset($_GET['course']) ? $_GET['course'] : ''; ?> <!-- รับค่า $IDcourse เอาไปใช้ดึงข้อมูลมาโชว์ข้างล้่างตรง หลักสูตร "ตามรอยพ่อ"  -->
 				<form id="form-course" action="./reserve3.php" class="my-4" novalidate>
 					<div class="box-form-course">
 						<div class="form-container">

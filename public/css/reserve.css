@@ -123,6 +123,103 @@
     display: block;
   }
 
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  --color-b:#2bc1a2;
+  --color-t:#eaf8f6;
+  margin-top: 25px;
+}
+  .progress-circle {
+    position: relative;
+    width: 80px;
+    aspect-ratio: 1;
+    background: conic-gradient(var(--color-b) 100%, var(--color-t) 0%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  .box-status[data-status="1"] .progress-circle {
+    background: conic-gradient(var(--color-b) 25%, var(--color-t) 0%);
+  }
+  .box-status[data-status="2"] .progress-circle ,
+  .box-status[data-status="3"] .progress-container.Asyouwish .progress-circle {
+    background: conic-gradient(var(--color-b) 50%, var(--color-t) 0%);
+  }
+  .box-status[data-status="3"] .progress-circle {
+    background: conic-gradient(var(--color-b) 75%, var(--color-t) 0%);
+  }
+  .progress-circle::before {
+    content: '';
+    position: absolute;
+    width: calc(100% - 15px);
+    aspect-ratio: 1;
+    background: white;
+    border-radius: 50%;
+  }
+    .progress-text {
+      position: absolute;
+      font-size: 14px;
+      font-weight: bold;
+    }
+      .progress-text::before {
+        content: "4";
+        margin-right: 7px;
+      }
+      .box-status[data-status="1"] .progress-text::before ,
+      .box-status[data-status="3"] .progress-container.Asyouwish .progress-text::before {
+        content: "1";
+      }
+      .box-status[data-status="2"] .progress-text::before ,
+      .box-status[data-status="4"] .progress-container.Asyouwish .progress-text::before {
+        content: "2";
+      }
+      .box-status[data-status="3"] .progress-text::before {
+        content: "3";
+      }
+ 
+    .progress-title::before {
+      content: "สรุปการจอง";
+    }
+    .box-status[data-status="1"] .progress-title::before {
+      content: "หลักสูตร";
+    }
+    .box-status[data-status="2"] .progress-title::before {
+      content: "กิจกรรม";
+    }
+    .box-status[data-status="3"] .progress-title::before {
+      content: "จอง";
+    }
+    .box-status[data-status="4"] .progress-title::after {
+      content: "ขั้นตอนสุกท้าย";
+      font-size: 14px;
+      color: #838383;
+      display: block;
+      margin-top: 12px;
+    }
+    .progress-step {
+      font-size: 14px;
+      color: #838383;
+    }
+      .box-status[data-status="1"] .progress-step span::before {
+        content: "กิจกรรม";
+      }
+      .box-status[data-status="2"] .progress-step span::before {
+        content: "จอง";
+      }
+      .box-status[data-status="3"] .progress-step span::before {
+        content: "สรุปการจอง";
+      }
+
+    .box-status[data-status="4"] .progress-step {
+      display: none;
+    }
+
+  
+
 #form-course {
   
 }

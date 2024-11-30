@@ -42,12 +42,21 @@
 
 					<div class="box-status" data-status="3">
 						<h4 class="text-center">สมัครเข้าร่วมโครงการ</h4>
-						<ul class="-status-bar <?= $IDcourse ? '' : 'Asyouwish' ?>">
+						<ul class="-status-bar d-none d-md-block <?= $IDcourse ? '' : 'Asyouwish' ?>">
 							<li><span class="circle"></span>หลักสูตร</li>
 							<li><span class="circle"></span>กิจกรรม</li>
 							<li><span class="circle"></span>จอง</li>
 							<li><span class="circle"></span>สรุปการจอง</li>
 						</ul>
+						<div class="progress-container d-md-none <?= $IDcourse ? '' : 'Asyouwish' ?>">
+							<div class="progress-circle">
+								<span class="progress-text">of <?= $IDcourse ? 4 : 2 ?></span>
+							</div>
+							<div>
+								<h3 class="progress-title"></h3>
+								<div class="progress-step">ขั้นตอนถัดไป : <span></span></div>
+							</div>
+						</div>
 					</div>
 
 					<!-- status3 -->
@@ -80,7 +89,7 @@
 		$(".templatingSelect2").select2({
 			minimumResultsForSearch: 6
 		});
-		$('.templatingSelect2[required]').on('change', function () {
+		$('.templatingSelect2[required]').on('change', function() {
 			// ถ้ามีค่า ให้ลบ required
 			if ($(this).val()) {
 				$(this).removeAttr('required');
