@@ -31,11 +31,11 @@
 		</nav>
 
 		<section class="pb-4">
-			<div class="container">
-				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
-					<h3 class="head mb-4">ร้าน</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap align-items-start mb-4">
+					<h3 class="head mb-4 mx-3 mx-sm-0">ร้าน</h3>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav-FoodEatGood-tab" data-toggle="tab" data-target="#nav-FoodEatGood"
 								type="button" role="tab" aria-controls="nav-FoodEatGood" aria-selected="true">
 								กิน อยู่ ดี
@@ -51,6 +51,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="--detail">
 					<div class="tab-content">
 						<div class="tab-pane fade show active" id="nav-FoodEatGood" role="tabpanel"
@@ -65,14 +67,18 @@
 								<p>จำหน่ายอาหารเพื่อสุขภาพ มีเมนูหลากหลาย ใหม่สดจากแปลงของพิพิธภัณฑ์เกษตรฯ ทุกวัน และผลผลิตเพื่อสุขภาพ
 									ผลิตภัณฑ์คุณภาพ เปิดวันอังคาร - วันอาทิตย์ เวลา 08.30 - 16.30 น.</p>
 								<h6>สอบถามรายละเอียด โทร 081-567-2806</h6>
-								<div class="row row-p10">
+								<div class="row row-p5 mb-3">
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="fooeatgood" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="fooeatgood" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 								</div>
 								<h5>อาหาร กิน อยู่ ดี</h5>
@@ -80,14 +86,18 @@
 									เพื่อเชื่อมโยงภูมิปัญญาเกษตรไทย ที่สอดคล้องกับวิถีชีวิตคนปัจจุบัน ความสำคัญของการเกษตรในการดำเนินชีวิต
 									และเป็นพื้นที่จัดแสดงผลผลิตเกษตรเศรษฐกิจพอเพียง เปิดวันอังคาร - วันอาทิตย์ เวลา 08.00 - 17.00 น.</p>
 								<h6>สอบถามรายละเอียดที่เบอร์โทรศัพท์ 081-567-2806</h6>
-								<div class="row row-p10">
+								<div class="row row-p5 mb-3">
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="fooeatgood" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="fooeatgood" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 								</div>
 							</div>
@@ -102,56 +112,72 @@
 								<h5>ร้านสดชื่น</h5>
 								<p>ร้านจำหน่ายเครื่องดื่ม ขนม ไอศกรีม อาหารว่าง จุดรวมพล เตรียมความพร้อมก่อนเข้าชมพิพิธภัณฑ์ภายในอาคาร
 									</h6>
-								<div class="row row-p10">
+								<div class="row row-p5 mb-3">
 									<div class="col-12">
-										<img
-											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/344-0.00271400%201711766879-froalaeditor.jpg"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/344-0.00271400%201711766879-froalaeditor.jpg" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/344-0.00271400%201711766879-froalaeditor.jpg"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img
-											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/858-0.00365200%201711768111-froalaeditor.jpg"
-											style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/858-0.00365200%201711768111-froalaeditor.jpg" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/858-0.00365200%201711768111-froalaeditor.jpg"
+												style="aspect-ratio: 800 / 400;" class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 								</div>
 								<h5>ร้านชื่นใจ</h5>
 								<p>ร้านจำหน่ายกาแฟอินทรีย์ เครื่องดื่มเพื่อสุขภาพ ผลผลิตปลอดภัยจากพิพิธภัณฑ์ และเมนูเพื่อสุขภาพอื่นๆ
 									อีกมากมาย</h6>
-								<div class="row row-p10">
+								<div class="row row-p5 mb-3">
 									<div class="col-12">
-										<img
-											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/543-0.96327800%201711766754-froalaeditor.jpg"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img
+												src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/543-0.96327800%201711766754-froalaeditor.jpg"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 								</div>
 								<h5>ร้านสดใส</h5>
 								<p>ร้านจำหน่ายสินค้าของที่ระลึกสินค้าอัตลักษณ์ พกฉ.หนังสือองค์ความรู้ด้านการเกษตร ผลิตภัณฑ์สมุนไพร
 									เวชสำอาง สินค้าแปรรูป ผลิตภัณฑ์ แปรรูป จากเครือข่ายพิพิธภัณฑ์ การเกษตรฯ ทั่วประเทศ</h6>
-								<div class="row row-p10">
+								<div class="row row-p5 mb-3">
 									<div class="col-12">
-										<img
-											src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/394-0.27748300%201711767896-froalaeditor.jpg"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/394-0.27748300%201711767896-froalaeditor.jpg" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img
+												src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/394-0.27748300%201711767896-froalaeditor.jpg"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="Shop" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 								</div>
 							</div>
@@ -162,17 +188,23 @@
 								08.30-16.30 น. ริมถนนพหลโยธิน (กม.46-48) ตรงข้าม โรงพยาบาลการุญเวช นวนคร จ.ปทุมธานี</p>
 							<h6 class="text-center">สอบถามรายละเอียดที่เบอร์โทรศัพท์ 081-567-2806</h6>
 							<div>
-								<div class="row row-p10">
+								<div class="row row-p5 mb-3">
 									<div class="col-12">
-										<img src="https://placehold.co/1000x600" class="mw-100 mx-auto d-block rounded my-3" alt="">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="madocafe" data-caption="">
+											<img src="https://placehold.co/1000x600" class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="madocafe" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
-									<div class="col-md-6">
-										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
-											class="mw-100 mx-auto d-block rounded my-3" alt="">
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="madocafe" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
 									</div>
 								</div>
 							</div>

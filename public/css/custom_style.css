@@ -3463,6 +3463,20 @@ footer {
   .scale-niche .box-niche .item img {
     margin-left: 12px;
   }
+  .scale-navTabs {
+    max-width: 100%;
+    overflow: auto;
+  }
+  .scale-navTabs .box-navTabs {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    font-size: 14px;
+    min-width: max-content;
+    margin-bottom: 10px !important;
+  }
+  .scale-navTabs .box-navTabs .nav-link {
+    min-width: max-content;
+  }
 }
 
 /* ---------------------------------------------------**** Tablet ****--------------------------------------------------- */
@@ -3676,7 +3690,6 @@ footer {
   }
   .--sumMenu {
     background-color: #E2E2E2;
-    margin-bottom: 20px;
     position: sticky;
     top: 60px;
     z-index: 1;
@@ -3700,6 +3713,9 @@ footer {
   }
   #regionFull {
     display: none !important;
+  }
+  :root {
+    --border_radius: 13px;
   }
 
   /* แนวตั้ง */
@@ -3775,20 +3791,6 @@ footer {
     }
     .board-list .-list .text .btn {
       margin: 17px auto 5px auto;
-    }
-    .scale-navTabs {
-      max-width: 100%;
-      overflow: auto;
-    }
-    .scale-navTabs .box-navTabs {
-      flex-wrap: nowrap;
-      white-space: nowrap;
-      font-size: 14px;
-      min-width: max-content;
-      margin-bottom: 10px !important;
-    }
-    .scale-navTabs .box-navTabs .nav-link {
-      min-width: max-content;
     }
     .text-center.text-sm-left .head::after {
       left: 50%;

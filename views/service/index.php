@@ -35,7 +35,7 @@
 		<section>
 			<div class="-sticky">
 				<div class="container px-0 px-sm-3">
-					<div class="d-flex flex-wrap align-items-start mb-4">
+					<div class="-sticky d-flex flex-wrap align-items-start mb-4">
 						<h3 class="head mb-4 mx-3 mx-sm-0">บริการ</h3>
 						<div class="scale-navTabs ml-auto">
 							<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
@@ -70,7 +70,7 @@
 							<h6 class="text-center">ติดต่อสอบถามรายละเอียดได้ที่เบอร์โทรศัพท์ 02-529-2212</h6>
 						</div>
 						<div class="table-responsive2">
-							<table class="table table-striped text-center">
+							<table class="table table-striped text-center" style="min-width: 500px;">
 								<thead>
 									<tr>
 										<th class="text-left">ห้องพักมาตรฐาน (ห้องปรับอากาศทุกห้อง)</th>
@@ -258,7 +258,7 @@
 							<h6 class="text-center">ติดต่อสอบถามรายละเอียดได้ที่เบอร์โทรศัพท์ 02-529-2212</h6>
 						</div>
 						<div class="table-responsive2">
-							<table class="table table-striped text-center">
+							<table class="table table-striped text-center" style="min-width: 800px;">
 								<thead>
 									<tr>
 										<th class="text-left">ห้องประชุม-สัมมนา</th>
@@ -421,7 +421,7 @@
 							<div class="mt-3">
 								<h5>อาหารจานเดียว</h5>
 								<div class="table-responsive2 mb-2">
-									<table class="table table-striped text-center">
+									<table class="table table-striped text-center" style="min-width: 500px;">
 										<thead>
 											<tr>
 												<th class="text-left">ประเภทอาหารจานเดียว</th>
@@ -458,20 +458,20 @@
 										</tbody>
 									</table>
 								</div>
-								<div class="row row-p10">
-									<div class="col-md-6">
+								<div class="row row-p5">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
@@ -480,7 +480,7 @@
 							<div class="mt-3">
 								<h5>อาหารบุฟเฟต์</h5>
 								<div class="table-responsive2 mb-2">
-									<table class="table table-striped text-center">
+									<table class="table table-striped text-center" style="min-width: 500px;">
 										<thead>
 											<tr>
 												<th class="text-left">ประเภทอาหารบุฟเฟต์</th>
@@ -522,20 +522,20 @@
 										</tbody>
 									</table>
 								</div>
-								<div class="row row-p10">
-									<div class="col-md-6">
+								<div class="row row-p5">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
@@ -544,7 +544,7 @@
 							<div class="mt-3">
 								<h5>ประเภทอาหารว่างและเครื่องดื่ม</h5>
 								<div class="table-responsive2 mb-2">
-									<table class="table table-striped text-center">
+									<table class="table table-striped text-center" style="min-width: 500px;">
 										<thead>
 											<tr>
 												<th class="text-left">ประเภทอาหารว่างและเครื่องดื่ม</th>
@@ -581,20 +581,20 @@
 										</tbody>
 									</table>
 								</div>
-								<div class="row row-p10">
-									<div class="col-md-6">
+								<div class="row row-p5">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>
-									<div class="col-md-6">
+									<div class="col-6">
 										<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 											class="mw-100 mx-auto d-block rounded my-2" alt="">
 									</div>

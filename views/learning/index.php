@@ -28,8 +28,8 @@
 		</nav>
 
 		<section class="py-4">
-			<div class="container px-0 px-sm-3">
-				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap align-items-start mb-4">
 					<h3 class="head mb-4 mx-3 mx-sm-0">สื่อการเรียนรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs ml-auto d-flex flex-wrap" data-showid="data-Calendar">

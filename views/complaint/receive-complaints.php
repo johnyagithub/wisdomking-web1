@@ -42,7 +42,7 @@
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 --sumMenu">
+					<div class="col-lg-3 mb-3 --sumMenu">
 
 						<div class="sticky-top" style="top: 113px;">
 							<a href="#" data-toggle="dropdown" aria-expanded="false">

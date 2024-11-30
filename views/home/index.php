@@ -427,8 +427,8 @@
 		</section>
 
 		<section class="box-Knowledge py-4">
-			<div class="container px-0 px-sm-3">
-				<div class="-sticky d-flex flex-wrap align-items-start justify-content-center">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap align-items-start justify-content-center">
 					<h3 class="head mb-4 mx-3 mx-sm-0">องค์ความรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">

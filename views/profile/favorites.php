@@ -39,7 +39,7 @@
 					<h4 class="head mb-4 text-center">บัญชีของฉัน</h4>
 				</div>
 				<div class="row">
-					<div class="col-md-4 col-lg-3 --sumMenu">
+					<div class="col-lg-4 col-lg-3 --sumMenu">
 
 						<div class="sticky-top" style="top: 113px;">
 							<a href="#" data-toggle="dropdown" aria-expanded="false">
@@ -64,7 +64,7 @@
 
 					</div>
 					<div class="col box-profile-list">
-						<div class="d-flex flex-wrap w-100 mb-3">
+						<div class="d-none d-md-flex flex-wrap w-100 mb-3">
 							<h4 class="mr-auto text-primary">รายการที่ถูกใจ</h4>
 						</div>
 						<div class="row row-p10 mb-4">
