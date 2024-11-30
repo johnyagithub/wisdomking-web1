@@ -37,14 +37,16 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto mb-5" style="max-width: 1000px;">
+				<div class="mx-auto" style="max-width: 1000px;">
 					<h2 class="head text-center">ยุทธศาสตร์/แผนงาน/ผลการดำเนินงาน</h2>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
+			</div>
 
-				<div class="box-navTabs nav nav-tabs justify-content-center mb-4 " role="tablist">
-					<div class="owl-carousel">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="scale-navTabs ml-auto mb-3">
+					<div class="box-navTabs nav nav-tabs justify-content-center mb-4 " role="tablist">
 						<button class="nav-link active" id="nav-strategic-tab" data-toggle="tab" data-target="#nav-strategic"
 							type="button" role="tab" aria-controls="nav-strategic" aria-selected="true">
 							ยุทธศาสตร์
@@ -71,7 +73,9 @@
 						</button>
 					</div>
 				</div>
-
+			</div>
+			
+			<div class="container">
 				<div class="tab-content pb-4">
 					<div class="tab-pane fade show active" id="nav-strategic" role="tabpanel" aria-labelledby="nav-strategic-tab">
 						<div class="--detail pb-0">

@@ -46,13 +46,13 @@
 					<div class="-list">
 						<div class="img">
 							<img
-								src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_f5fa160f2c0c09dbbb354b6bf8eb2448.png"
+								src="https://www.wisdomking.or.th/files/executive_directory/executive_dir_d1f5c81b5a32c643987a5904f728c81d.png"
 								alt="">
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">ผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว Director-General</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -61,7 +61,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 								<li><b>วุฒิการศึกษา</b><br>
 									ปี พ.ศ. 2518 รัฐศาสตร์บัณฑิต (การปกครอง) จุฬาลงกรณ์มหาวิทยาลัย<br>
@@ -99,8 +99,8 @@
 						<div class="text">
 							<h5 class="--position text-primary">รองผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตร
 เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (ฝ่ายบริหาร) Deputy Director-General (Administration)</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -109,7 +109,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 							</ol>
 						</div>
@@ -121,8 +121,8 @@
 						<div class="text">
 							<h5 class="--position text-primary">รองผู้อำนวยการสำนักงานพิพิธภัณฑ์เกษตร
 เฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว (ฝ่ายพัฒนา) Deputy Director-General (Development)</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -131,7 +131,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 							</ol>
 						</div>
@@ -142,8 +142,8 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">ผู้อำนวยการสำนักอำนวยการ Director, Division of Administration</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -152,7 +152,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 							</ol>
 						</div>
@@ -163,8 +163,8 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">ผู้อำนวยการสำนักนวัตกรรมเกษตรเศรษฐกิจพอเพียง Director, Division of Agricultural Innovation for Sufficiency</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -173,7 +173,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 							</ol>
 						</div>
@@ -184,8 +184,8 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">ผู้อำนวยการสำนักพัฒนาพิพิธภัณฑ์และองค์ความรู้ Director, Division of Museum and Knowledge Development</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -194,7 +194,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 							</ol>
 						</div>
@@ -205,8 +205,8 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">ผู้อำนวยการสำนักพัฒนากิจการ Director, Division of Corporate Development</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -215,7 +215,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 							</ol>
 						</div>
@@ -226,8 +226,8 @@
 						</div>
 						<div class="text">
 							<h5 class="--position text-primary">ผู้อำนวยการสำนักสารสนเทศและการสื่อสาร Director, Division of Information and Communication</h5>
-							<b class="--name">นายวีระชัย นาควิบูลย์วงศ์</b>
-							<p class="--name-en m-0 text-secondary">Mr.Werachai Narkwiboonwong</p>
+							<b class="--name">พันจ่าเอก ประเสริฐ มาลัย</b>
+							<p class="--name-en m-0 text-secondary">CPO1. Prasert Malai</p>
 							<hr>
 							<a class="--email" href="mailto:information@wisdomking.or.th">information@wisdomking.or.th</a>
 							<a class="--tel" href="tel:0812345678">081-234-5678</a>
@@ -236,7 +236,7 @@
 						</div>
 						<div class="--detail d-none">
 							<ol>
-								<li><b>ชื่อ - นามสกุล</b><br>นายวีระชัย นาควิบูลย์วงศ์</li>
+								<li><b>ชื่อ - นามสกุล</b><br>พันจ่าเอก ประเสริฐ มาลัย</li>
 								<li><b>วัน เดือน ปีเกิด / อายุ</b><br>4 มกราคม 2498 อายุ 65 ปี</li>
 							</ol>
 						</div>

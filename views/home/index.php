@@ -428,8 +428,8 @@
 
 		<section class="box-Knowledge py-4">
 			<div class="container px-0 px-sm-3 -sticky">
-				<div class="d-flex flex-wrap align-items-start justify-content-center">
-					<h3 class="head mb-4 mx-3 mx-sm-0">องค์ความรู้</h3>
+				<div class="d-flex flex-wrap flex-md-nowrap align-items-start justify-content-center">
+					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">องค์ความรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"

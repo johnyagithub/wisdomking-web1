@@ -70,10 +70,10 @@
 						<div class="form-row">
 							<div class="form-group col-md-6">
 								<label for="input3">วัน/เดือน/ปีเกิด*</label>
-								<input type="date" class="form-control bg-white" id="input3" placeholder="กรุณาระบุชื่อ" required="">
+								<input type="date" class="form-control bg-white" id="input3" max="<?= date('Y-m-d', strtotime('-10 years')); ?>" required="">
 							</div>
 							<div class="form-group col-md-6">
-								<label for="">เพศ*</label>
+								<label>เพศ*</label>
 								<select class="templatingSelect2" required>
 									<option value="">กรุณาระบุเพศ</option>
 									<option value="ชาย">ชาย</option>
@@ -83,7 +83,7 @@
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<label for="">ภูมิลำเนา*</label>
+								<label>ภูมิลำเนา*</label>
 								<select class="templatingSelect2" required>
 									<option value="">กรุณาระบุภูมิลำเนา</option>
 									<option value="usd">USD</option>

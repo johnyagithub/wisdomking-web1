@@ -528,11 +528,20 @@
 						$group.find('.form-check:not([disabled]) .form-check-input').prop('required', true).prop('disabled', false);
 					}
 				} else {
-					if (selectedCount == $group.data('checkbox')) {
-						$checkboxes.prop('required', false);
-						$checkboxes.filter(':not(:checked)').prop('disabled', true);
+					if (selectedCount > $group.data('checkbox')) {
+						if ($group.data('checkbox') != 1) {
+							updateRequired(true);
+							scrollToFirstError();
+						}
+						$group.find('.form-check-input').not(this).prop('checked', false);
 					} else {
-						$group.find('.form-check:not([disabled]) .form-check-input').prop('required', true).prop('disabled', false);
+						updateRequired(selectedCount != $group.data('checkbox'));
+						if (selectedCount != $group.data('checkbox')) scrollToFirstError();
+					}
+
+					function updateRequired(isRequired) {
+						$group.find('.form-check:not([disabled]) .form-check-input').prop('required', isRequired);
+						$group.find('h6 .text-danger').toggleClass('animated-text', isRequired);
 					}
 				}
 			});

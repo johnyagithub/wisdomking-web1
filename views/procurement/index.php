@@ -37,8 +37,8 @@
 				</div>
 
 				<div class="pb-4">
-					<div class="scale-niche ml-auto">
-						<div class="box-niche row justify-content-center mb-4 px-1">
+					<div class="scale-niche ml-auto mb-4">
+						<div class="box-niche row justify-content-center px-1">
 							<div class="col-sm-6 col-xl-3 px-2">
 								<div class="item">
 									<div>
@@ -109,8 +109,6 @@
 						</div>
 					</div>
 				</div>
-
-				sdgtsd
 
 				<div class="table-responsive">
 					<table class="table table-striped text-center" style="min-width: 1000px;">

@@ -404,6 +404,12 @@
   .box-calendar-style .ui-datepicker-header a.ui-corner-all {
     font-size: 0px;
   }
+  .box-calendar-style .box-note .-note {
+    margin-right: auto;
+  }
+  .box-calendar-style .box-note {
+    justify-content: center;
+  }
  /* แนวตั้ง */
  @media only screen and (orientation:portrait){
   .box-calendar-style table.ui-datepicker-calendar {

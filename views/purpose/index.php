@@ -37,11 +37,11 @@
 		</div>
 
 		<section class="pb-4">
-			<div class="container">
-				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
-					<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap flex-md-nowrap align-items-start">
+					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">พิพิธภัณฑ์ของเรา</h3>
+					<div class="scale-navTabs ml-auto mb-3">
+						<div class="box-navTabs nav nav-tabs ml-auto mb-auto" role="tablist">
 							<button class="nav-link active" id="nav-Background-tab" data-toggle="tab" data-target="#nav-Background"
 								type="button" role="tab" aria-controls="nav-Background" aria-selected="true">
 								ความเป็นมา
@@ -65,6 +65,8 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="--detail">
 					<div class="tab-content">
 						<div class="tab-pane fade show active" id="nav-Background" role="tabpanel"

@@ -64,7 +64,7 @@
 
 					</div>
 					<div class="col box-profile-list">
-						<div class="d-none d-md-flex flex-wrap w-100 mb-3">
+						<div class="d-flex flex-wrap w-100 mb-3">
 							<h4 class="mr-auto text-primary">ข้อมูลบัญชี</h4>
 							<div class="d-flex align-items-start flex-wrap">
 								<a href="#profile-list" onclick="editPro();" class="text-gradient pr-3 d-block">แก้ไขโปรไฟล์</a>

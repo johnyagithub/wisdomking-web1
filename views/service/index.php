@@ -33,27 +33,25 @@
 		</nav>
 
 		<section>
-			<div class="-sticky">
-				<div class="container px-0 px-sm-3">
-					<div class="-sticky d-flex flex-wrap align-items-start mb-4">
-						<h3 class="head mb-4 mx-3 mx-sm-0">บริการ</h3>
-						<div class="scale-navTabs ml-auto">
-							<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-								<button class="nav-link active" id="nav-RoomService-tab" data-toggle="tab"
-									data-target="#nav-RoomService" type="button" role="tab" aria-controls="nav-RoomService"
-									aria-selected="true">
-									ห้องพัก
-								</button>
-								<button class="nav-link" id="nav-MeetingRoomService-tab" data-toggle="tab"
-									data-target="#nav-MeetingRoomService" type="button" role="tab" aria-controls="nav-MeetingRoomService"
-									aria-selected="false">
-									ห้องประชุม
-								</button>
-								<button class="nav-link" id="nav-FoodEatGood-tab" data-toggle="tab" data-target="#nav-FoodEatGood"
-									type="button" role="tab" aria-controls="nav-FoodEatGood" aria-selected="false">
-									อาหารและเครื่องดื่ม
-								</button>
-							</div>
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap align-items-start mb-4">
+					<h3 class="head mb-4 mx-3 mx-sm-0">บริการ</h3>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
+							<button class="nav-link active" id="nav-RoomService-tab" data-toggle="tab"
+								data-target="#nav-RoomService" type="button" role="tab" aria-controls="nav-RoomService"
+								aria-selected="true">
+								ห้องพัก
+							</button>
+							<button class="nav-link" id="nav-MeetingRoomService-tab" data-toggle="tab"
+								data-target="#nav-MeetingRoomService" type="button" role="tab" aria-controls="nav-MeetingRoomService"
+								aria-selected="false">
+								ห้องประชุม
+							</button>
+							<button class="nav-link" id="nav-FoodEatGood-tab" data-toggle="tab" data-target="#nav-FoodEatGood"
+								type="button" role="tab" aria-controls="nav-FoodEatGood" aria-selected="false">
+								อาหารและเครื่องดื่ม
+							</button>
 						</div>
 					</div>
 				</div>

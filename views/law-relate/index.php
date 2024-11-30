@@ -34,11 +34,11 @@
 		</nav>
 
 		<section class="pb-4">
-			<div class="container">
-				<div class="-sticky d-flex flex-wrap align-items-start mb-4">
-					<h3 class="head mb-4">กฎหมายที่เกี่ยวข้อง</h3>
-					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap flex-md-nowrap align-items-start">
+					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">กฎหมายที่เกี่ยวข้อง</h3>
+					<div class="scale-navTabs ml-auto mb-3">
+						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
 							<button class="nav-link active" id="nav-act-tab" data-toggle="tab" data-target="#nav-act" type="button"
 								role="tab" aria-controls="nav-act" aria-selected="true">
 								พระราชบัญญัติ
@@ -54,6 +54,9 @@
 						</div>
 					</div>
 				</div>
+			</div>
+
+			<div class="container">
 				<div class="tab-content">
 					<div class="tab-pane fade show active" id="nav-act" role="tabpanel" aria-labelledby="nav-act-tab">
 						<h4 class="head mb-4 text-center">พระราชบัญญัติ</h4>

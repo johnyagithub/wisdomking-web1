@@ -31,27 +31,29 @@
 		</nav>
 
 		<section class="box-Knowledge py-4">
-			<div class="container">
-				<div class="-sticky d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">องค์ความรู้</h3>
-					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
-						<div class="owl-carousel">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap flex-md-nowrap align-items-start">
+					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">องค์ความรู้</h3>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
 							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
-							<button type="button" data-type="tab1" class="btn btn-style3 px-3 text-muted">
+							<button type="button" data-type="tab1" class="btn btn-style3 px-3 m-1 text-muted">
 								<img src="../../public/images/document.png" style="width: 24px;" class="mr-1" alt="">
 								บทความ
 							</button>
-							<button type="button" data-type="tab2" class="btn btn-style3 px-3 text-muted">
+							<button type="button" data-type="tab2" class="btn btn-style3 px-3 m-1 text-muted">
 								<img src="../../public/images/photos.png" style="width: 24px;" class="mr-1" alt="">
 								บรรยายประกอบภาพ
 							</button>
-							<button type="button" data-type="tab3" class="btn btn-style3 px-3 text-muted">
+							<button type="button" data-type="tab3" class="btn btn-style3 px-3 m-1 text-muted">
 								<img src="../../public/images/play_circled.png" style="width: 24px;" class="mr-1" alt="">
 								สื่อวิดิทัศน์
 							</button>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="row mt-3 justify-content-center">
 					<div class="col-sm-7 col-lg-5 col-xl-4 mb-3">
 						<div class="input-group bg-light form-control-style">
@@ -113,8 +115,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -142,8 +144,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -168,8 +170,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์
@@ -197,8 +199,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -226,8 +228,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -252,8 +254,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์
@@ -281,8 +283,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -310,8 +312,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -336,8 +338,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์
@@ -365,8 +367,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/document.png" style="width: 14px;" alt="">
 											บทความ
@@ -394,8 +396,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
 											บรรยายประกอบภาพ
@@ -420,8 +422,8 @@
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
-									
-								<div class="d-flex flex-wrap align-items-center">
+
+									<div class="d-flex flex-wrap align-items-center">
 										<span class="-type">
 											<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
 											สื่อวิดิทัศน์

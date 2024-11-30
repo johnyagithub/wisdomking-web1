@@ -32,14 +32,16 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto mb-5" style="max-width: 1000px;">
-					<h2 class="head mb-4 text-center">นโยบายสำคัญ</h2>
+				<div class="mx-auto" style="max-width: 1000px;">
+					<h2 class="head text-center">นโยบายสำคัญ</h2>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
+			</div>
 
-				<div class="box-navTabs nav nav-tabs justify-content-center mb-4" role="tablist">
-					<div class="owl-carousel">
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="scale-navTabs ml-auto mb-3">
+					<div class="box-navTabs nav nav-tabs justify-content-center mb-4" role="tablist">
 						<button class="nav-link active" id="nav-Director-tab" data-toggle="tab" data-target="#nav-Director"
 							type="button" role="tab" aria-controls="nav-Director" aria-selected="true">
 							สารจากผู้อำนวยการ
@@ -66,7 +68,9 @@
 						</button>
 					</div>
 				</div>
+			</div>
 
+			<div class="container">
 				<div class="tab-content pb-4">
 					<div class="tab-pane fade show active" id="nav-Director" role="tabpanel" aria-labelledby="nav-Director-tab">
 						<h4 class="head mb-4 text-center">สารจากผู้อำนวยการ</h4>

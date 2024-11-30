@@ -25,29 +25,32 @@
 					</a>
 				</li>
 				<li class="breadcrumb-item">
-				<a href="../e-learning/">e-Learning</a>
+					<a href="../e-learning/">e-Learning</a>
 				</li>
 				<li class="breadcrumb-item active" aria-current="page">คอร์สทั้งหมด</li>
 			</ol>
 		</nav>
 
 		<section class="box-courses py-4">
-			<div class="container">
-				<div class="-sticky d-flex flex-wrap align-items-start">
-					<h3 class="head mb-4">คอร์สทั้งหมด</h3>
-					<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
-						<div class="owl-carousel">
-							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
+			<div class="container px-0 px-sm-3 -sticky">
+				<div class="d-flex flex-wrap flex-md-nowrap align-items-start">
+					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">คอร์สทั้งหมด</h3>
+					<div class="scale-navTabs ml-auto">
+						<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
+							<button type="button" class="btn btn-style3 px-3 m-1 text-muted active">ทั้งหมด</button>
 							<button type="button" data-type="tab1" data-bg="#41ACFE" data-color="#fff"
-								class="btn btn-style3 px-3 text-muted">องค์ความรู้วิชาของแผ่นดิน</button>
+								class="btn btn-style3 px-3 m-1 text-muted">องค์ความรู้วิชาของแผ่นดิน</button>
 							<button type="button" data-type="tab2" data-bg="#BED257" data-color="#3B5E22"
-								class="btn btn-style3 px-3 text-muted">เกษตรภูธร</button>
+								class="btn btn-style3 px-3 m-1 text-muted">เกษตรภูธร</button>
 							<button type="button" data-type="tab3" data-bg="#EAF4B6" data-color="#3B5E22"
-								class="btn btn-style3 px-3 text-muted">กิน อยู่ ดี</button>
+								class="btn btn-style3 px-3 m-1 text-muted">กิน อยู่ ดี</button>
 						</div>
 					</div>
 				</div>
-				<div class="mx-auto pt-5" style="max-width: 1000px;">
+			</div>
+
+			<div class="container">
+				<div class="mx-auto pt-4" style="max-width: 1000px;">
 					<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
 						has been the
 						industry's standard dummy text ever since the 1500s,</p>

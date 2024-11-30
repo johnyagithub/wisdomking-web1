@@ -3414,10 +3414,6 @@ footer {
   .owl-nav button {
     opacity: 1 !important;
   }
-  #museum-map .-region ,
-  #museum-map .-province {
-    opacity: 0 !important;
-  }
   #museum-map .-province:not(.have) {
     opacity: 1 !important;
     z-index: 1;
@@ -3470,6 +3466,7 @@ footer {
   .scale-navTabs .box-navTabs {
     flex-wrap: nowrap;
     white-space: nowrap;
+    align-items: center;
     font-size: 14px;
     min-width: max-content;
     margin-bottom: 10px !important;
@@ -4448,6 +4445,10 @@ footer {
   }
   div#active-submenu > ul li:last-child .dropdown-item {
     border-bottom: 0px;
+  }
+  div#active-submenu > ul ul {
+    padding-left: 13px;
+    list-style-type: none;
   }
   div#active-submenu > ul .dropdown-item::before {
     content: "";

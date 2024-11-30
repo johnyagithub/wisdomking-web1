@@ -260,6 +260,13 @@
   }
   .box-Course-syllabus-tab {
     border: 0px !important;
+    order: -1;
+    padding: 0;
+  }
+  .box-Course-syllabus-tab .tab-pane .-video {
+    border-radius: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .box-Course-syllabus .item {
     flex-flow: wrap;
@@ -269,9 +276,16 @@
   }
   .box-Course-syllabus .item .-button {
     width: 100%;
-    margin: 0;
     border-left: 0px;
     max-width: none;
+    border-top: 1px solid #DDDDDD;
+    padding: 13px 0px;
+    margin-top: 13px;
+    padding-top: 25px;
+  }
+  .box-Course-syllabus .text {
+    padding-left: 0;
+    padding-right: 0;
   }
 
  /* แนวตั้ง */
@@ -282,6 +296,7 @@
   .box-Learning .owl-nav {
     display: flex !important;
     margin-top: 20px;
+    justify-content: right;
   }
  } 
  /* แนวนอน */
