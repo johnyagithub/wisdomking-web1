@@ -358,9 +358,12 @@
     transform: scaleY(-1); /* พลิก container */
   }
   .ui-datepicker-calendar::-webkit-scrollbar {
-    height: 3px;
+    height: 4px;
     background: #BCBCBC;
     border-radius: 5px;
+    border: 1px solid #fff;
+    border-left-width: 15px;
+    border-right-width: 15px;
   }
   .ui-datepicker-calendar::-webkit-scrollbar-thumb {
     background: #888; /* สี scrollbar */

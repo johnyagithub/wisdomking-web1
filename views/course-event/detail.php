@@ -70,114 +70,112 @@
 						</div>
 					</div>
 					<div class="px-lg-5">
-						<div class="table-responsive" style="box-shadow:none;">
-							<table class="w-100 mobile-displayGrid">
-								<tbody class="align-top">
-									<tr>
-										<td><b>ระยะเวลาเรียนรู้ 2 ชั่วโมง</b></td>
-										<td class="td-border-l">เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</td>
-									</tr>
-									<tr>
-										<td>ค่าลงทะเบียนเรียนรู้</td>
-										<td class="p-0">
-											<table class="w-100">
+						<table class="w-100 mobile-displayGrid">
+							<tbody class="align-top">
+								<tr>
+									<td><b>ระยะเวลาเรียนรู้ 2 ชั่วโมง</b></td>
+									<td class="td-border-l">เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</td>
+								</tr>
+								<tr>
+									<td>ค่าลงทะเบียนเรียนรู้</td>
+									<td class="p-0">
+										<table class="w-100">
+											<tr>
+												<td class="td-border-l">เด็ก/นักเรียน/นักศึกษา</td>
+												<td>ราคา 60 บาท</td>
+											</tr>
+											<tr>
+												<td class="td-border-l">ประชาชน</td>
+												<td>ราคา 80 บาท</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<div class="text-center p-2 my-2" style="background: #F8F8F8;">
+											ราคาดังกล่าวรวมค่าวิทยาการตลอดหลักสูตร,
+											ค่าอุปกรณ์การเรียนรู้ และค่าห้องประชุม</div>
+									</td>
+								</tr>
+								<tr>
+									<td><b>กิจกรรมการเรียนรู้ดังนี้</b></td>
+									<td>
+										<ul>
+											<li>เลือกชมภาพยนตร์ 3 มิติ ได้ 1 เรื่อง</li>
+											<li>เลือกกิจกรรมสร้างสรรค์ความคิด ได้ 1 กิจกรรม</li>
+											<li>เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร ได้ 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td><b>กำหนดการ</b></td>
+									<td>
+										<table class="w-100 table-gradient">
+											<tbody class="align-top">
 												<tr>
-													<td class="td-border-l">เด็ก/นักเรียน/นักศึกษา</td>
-													<td>ราคา 60 บาท</td>
+													<td>09.00 น./13.00 น.</td>
+													<td>กล่าวต้อนรับ/กิจกรรมนันทนาการ เตรียมความพร้อมการเรียนรู้</td>
 												</tr>
 												<tr>
-													<td class="td-border-l">ประชาชน</td>
-													<td>ราคา 80 บาท</td>
+													<td>09.15 น./13.15 น.</td>
+													<td>แนะนำพิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติฯ (สไลด์/model)</td>
 												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-											<div class="text-center p-2 my-2" style="background: #F8F8F8;">
-												ราคาดังกล่าวรวมค่าวิทยาการตลอดหลักสูตร,
-												ค่าอุปกรณ์การเรียนรู้ และค่าห้องประชุม</div>
-										</td>
-									</tr>
-									<tr>
-										<td><b>กิจกรรมการเรียนรู้ดังนี้</b></td>
-										<td>
-											<ul>
-												<li>เลือกชมภาพยนตร์ 3 มิติ ได้ 1 เรื่อง</li>
-												<li>เลือกกิจกรรมสร้างสรรค์ความคิด ได้ 1 กิจกรรม</li>
-												<li>เลือกเรียนรู้พิพิธภัณฑ์ภายในอาคาร ได้ 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</li>
-											</ul>
-										</td>
-									</tr>
-									<tr>
-										<td><b>กำหนดการ</b></td>
-										<td>
-											<table class="w-100 table-gradient">
-												<tbody class="align-top">
-													<tr>
-														<td>09.00 น./13.00 น.</td>
-														<td>กล่าวต้อนรับ/กิจกรรมนันทนาการ เตรียมความพร้อมการเรียนรู้</td>
-													</tr>
-													<tr>
-														<td>09.15 น./13.15 น.</td>
-														<td>แนะนำพิพิธภัณฑ์การเกษตรเฉลิมพระเกียรติฯ (สไลด์/model)</td>
-													</tr>
-													<tr>
-														<td>09.30 น./13.30 น.</td>
-														<td>
-															<ul>
-																<li>กิจกรรมสร้างสรรค์ความคิด 1 กิจกรรม</li>
-																<li>ชมภาพยนตร์ 3 มิติ 1 เรื่อง</li>
-																<li>เรียนรู้พิพิธภัณฑ์ในอาคาร 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</li>
-															</ul>
-														</td>
-													</tr>
-													<tr>
-														<td>10.45 น./14.45 น. </td>
-														<td>สรุปการเรียนรู้ “หลักสูตรตามรอยพ่อ”</td>
-													</tr>
-													<tr>
-														<td>11.00 น./15.00 น.</td>
-														<td>ปิดหลักสูตร</td>
-													</tr>
-												</tbody>
-											</table>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<table class="w-100">
-								<tbody class="align-top">
-									<tr class="align-middle">
-										<td style="width: 185px;"><b>หลักสูตรเหมาะสำหรับ</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2" alt="">
-												เด็ก
-											</span>
-										</td>
-									</tr>
-									<tr class="align-middle">
-										<td><b>ประเภทกิจกรรม</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2" alt="">
-												workshop
-											</span>
-										</td>
-									</tr>
-									<tr class="align-middle">
-										<td><b>ระยะเวลา</b></td>
-										<td>
-											<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
-												<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2" alt="">
-												2 hr
-											</span>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
+												<tr>
+													<td>09.30 น./13.30 น.</td>
+													<td>
+														<ul>
+															<li>กิจกรรมสร้างสรรค์ความคิด 1 กิจกรรม</li>
+															<li>ชมภาพยนตร์ 3 มิติ 1 เรื่อง</li>
+															<li>เรียนรู้พิพิธภัณฑ์ในอาคาร 1 พิพิธภัณฑ์ 3 ฐานการเรียนรู้</li>
+														</ul>
+													</td>
+												</tr>
+												<tr>
+													<td>10.45 น./14.45 น. </td>
+													<td>สรุปการเรียนรู้ “หลักสูตรตามรอยพ่อ”</td>
+												</tr>
+												<tr>
+													<td>11.00 น./15.00 น.</td>
+													<td>ปิดหลักสูตร</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table class="w-100">
+							<tbody class="align-top">
+								<tr class="align-middle">
+									<td style="width: 185px;"><b>หลักสูตรเหมาะสำหรับ</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/carbon_pedestrian-child.png" style="width:32px;" class="mr-2" alt="">
+											เด็ก
+										</span>
+									</td>
+								</tr>
+								<tr class="align-middle">
+									<td><b>ประเภทกิจกรรม</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/grommet-icons_workshop.png" style="width:32px;" class="mr-2" alt="">
+											workshop
+										</span>
+									</td>
+								</tr>
+								<tr class="align-middle">
+									<td><b>ระยะเวลา</b></td>
+									<td>
+										<span class="box-thead py-1 px-3 my-1 d-inline-flex align-items-center">
+											<img src="../../public/images/icon-park-outline_time.png" style="width:32px;" class="mr-2" alt="">
+											2 hr
+										</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 					<hr class="my-4">
 					<div class="px-lg-5">

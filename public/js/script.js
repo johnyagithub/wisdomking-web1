@@ -64,7 +64,7 @@ $(function () {
 
   $(".table-responsive,.table-responsive2").each(function () {
     if ($(this).width() < $(this).find("table.table").width()) {
-      $(this).before(`
+      $(this).wrap('<div class="b-slip"></div>').before(`
         <div class="--slip">
           <img src="../../public/images/slip.png" alt="">
           <span>เลื่อนซ้าย-ขวาเพื่อดูข้อมูลภายในตาราง</span>

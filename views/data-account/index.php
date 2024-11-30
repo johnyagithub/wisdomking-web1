@@ -125,8 +125,8 @@
 								</td>
 							</tr>
 						</tbody>
+					</table>
 				</div>
-				</table>
 			</div>
 			<div class="text-center mb-4">
 				<b>เข้าสู่ระบบบัญชีข้อมูลหน่วยงาน คลิกเลย :</b>

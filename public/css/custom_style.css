@@ -157,20 +157,26 @@ body hr {
  border-color: rgba(199, 199, 199, 0.5) !important;
 }
 
-.--slip {
-  background: #fbfbfb;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
+.b-slip {
+  border-radius: var(--border_radius);
+  border: 1px solid #CECECE;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
-  .--slip img {
-    width: 30px;
+  .--slip {
+    background: #fbfbfb;
     padding: 10px;
-    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
   }
+    .--slip img {
+      width: 30px;
+      padding: 10px;
+      box-sizing: content-box;
+    }
 
 .table-responsive {
   box-shadow: 0px 0px 0px 6px #ffffff, 0px 0px 0px 7px #B6B6B6;
@@ -186,15 +192,24 @@ body hr {
 .table-responsive2 {
   overflow-x: auto;
   position: relative;
-  padding-bottom: 6px;
   transform: scaleY(-1); /* พลิก container */
+}
+.b-slip .table-responsive ,
+.b-slip .table-responsive2 {
+  padding-bottom: 6px;
+  border: 0px !important;
+  border-radius: 0px !important;
+  margin: 0px;
 }
   .table-responsive::-webkit-scrollbar ,
   .table-responsive2::-webkit-scrollbar {
-    height: 3px;
-    width: 2px;
+    height: 4px;
+    max-width: 3px;
     background: #BCBCBC;
     border-radius: 5px;
+    border: 1px solid #fff;
+    border-left-width: 15px;
+    border-right-width: 15px;
   }
   .table-responsive::-webkit-scrollbar-thumb ,
   .table-responsive2::-webkit-scrollbar-thumb {
@@ -206,8 +221,8 @@ body hr {
   .table-responsive2::-webkit-scrollbar-thumb:hover {
     background: #555; /* สี scrollbar เมื่อ hover */
   }
-    .table-responsive > table.table ,
-    .table-responsive2 > table.table {
+    .table-responsive > * ,
+    .table-responsive2 > * {
       transform: scaleY(-1);
     }
 
@@ -2293,6 +2308,7 @@ ul.ul-style {
   max-width: 1000px;
   margin: auto;
   margin-top: 33px;
+  overflow: hidden;
 }
   .list-download .list {
     border-bottom: 1px solid #D9D9D9;
