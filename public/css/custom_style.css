@@ -800,8 +800,9 @@ a:hover {
     }
 
   .box-filterSearch .box-filter-search {
-    margin-top: 25px;
-    padding: 0px 15px !important;
+    padding: 25px 15px 0px !important;
+    background: #F5F5F5;
+    border-top: 1px solid #cfcfcf;
   }
 	
 img {
@@ -3539,7 +3540,12 @@ footer {
     .--service .owl-carousel .item .text {
       border-radius: 0px;
       position: initial;
-    }  
+    }
+    .box-filterSearch .box-filter-search>div {
+      max-width: 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+    }
   } 
   /* แนวนอน */
   @media only screen and (orientation:landscape){

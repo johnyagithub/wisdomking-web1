@@ -78,40 +78,41 @@
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<div class="container">
-					<div class="box-filter-search row row-p10 justify-content-center">
-						<div class="col-6 col-lg-3 col-xl-2">
-							<div class="form-group">
-								<label>ตั้งแต่วันที่</label>
-								<input type="date" class="form-control bg-white">
-							</div>
+			<div class="container">
+				<div class="box-filter-search row row-p10 justify-content-center">
+					<div class="col-6 col-lg-3 col-xl-2">
+						<div class="form-group">
+							<label>ตั้งแต่วันที่</label>
+							<input type="date" class="form-control bg-white">
 						</div>
-						<div class="col-6 col-lg-3 col-xl-2">
-							<div class="form-group">
-								<label>ถึงวันที่</label>
-								<input type="date" class="form-control bg-white">
-							</div>
+					</div>
+					<div class="col-6 col-lg-3 col-xl-2">
+						<div class="form-group">
+							<label>ถึงวันที่</label>
+							<input type="date" class="form-control bg-white">
 						</div>
-						<div class="col-6 col-lg">
-							<div class="form-group">
-								<label>ประเภทประกาศ</label>
-								<select class="templatingSelect2">
-									<option value="">กรุณาเลือกประเภทงาน</option>
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="gbp">Pound</option>
-								</select>
-							</div>
+					</div>
+					<div class="col-6 col-lg">
+						<div class="form-group">
+							<label>ประเภทประกาศ</label>
+							<select class="templatingSelect2">
+								<option value="">กรุณาเลือกประเภทงาน</option>
+								<option value="usd">USD</option>
+								<option value="euro">Euro</option>
+								<option value="gbp">Pound</option>
+							</select>
 						</div>
-						<div class="col-6 col-lg">
-							<div class="form-group">
-								<label>กรุณาเลือกประเภท</label>
-								<input type="search" class="form-control bg-white" placeholder="ค้นหางาน...">
-							</div>
+					</div>
+					<div class="col-6 col-lg">
+						<div class="form-group">
+							<label>กรุณาเลือกประเภท</label>
+							<input type="search" class="form-control bg-white" placeholder="ค้นหางาน...">
 						</div>
 					</div>
 				</div>
+
 				<div class="table-responsive">
 					<table class="table table-striped text-center" style="min-width: 1000px;">
 						<thead>
