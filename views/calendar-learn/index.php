@@ -53,7 +53,7 @@
 				</div>
 
 				<div class="pb-4">
-					<div class="row row-p10 justify-content-center">
+					<div class="box-filter-search row row-p10 justify-content-center">
 						<div class="col-6 col-md-4 col-lg">
 							<div class="form-group">
 								<label>ปีจัดงาน</label>

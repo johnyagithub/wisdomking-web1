@@ -39,7 +39,7 @@
 
 				<div class="pb-4">
 					<h5 class="text-center mb-4">ข้อมูลข่าวรับสมัครงาน ของ พกฉ.</h5>
-					<div class="row row-p10 justify-content-center">
+					<div class="box-filter-search row row-p10 justify-content-center">
 						<div class="col-6 col-sm-4 col-lg">
 							<div class="form-group">
 								<label>ตั้งแต่วันที่</label>
@@ -87,12 +87,12 @@
 					<table class="table table-striped text-center" style="min-width: 1000px;">
 						<thead>
 							<tr>
-								<th class="text-left">ชื่องาน</th>
-								<th>ตำแหน่ง</th>
-								<th style="min-width: 130px;">ประเภทงาน</th>
-								<th style="min-width: 140px;">วันที่ประกาศ</th>
-								<th>จำนวนผู้เยี่ยมชม</th>
-								<th style="width: 110px;">โหลดเอกสาร</th>
+								<th class="text-left align-middle">ชื่องาน</th>
+								<th class="align-middle">ตำแหน่ง</th>
+								<th class="align-middle" style="min-width: 130px;">ประเภทงาน</th>
+								<th class="align-middle" style="min-width: 140px;">วันที่ประกาศ</th>
+								<th class="align-middle">จำนวนผู้เยี่ยมชม</th>
+								<th>โหลด<br class="d-md-none">เอกสาร</th>
 							</tr>
 						</thead>
 						<tbody>

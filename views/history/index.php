@@ -117,8 +117,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">คำรับรองการปฏิบัติงานขององค์การมหาชน</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -193,8 +193,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลตามคำรับรองการปฏิบัติงานขององค์การมหาชน</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">รายงานการประเมินผลตามคำรับรองการปฏิบัติงานขององค์การมหาชน</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -253,8 +253,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานตามแผนปฏิบัติงาน</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">รายงานสรุปผลการดำเนินงานตามแผนปฏิบัติงาน</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>

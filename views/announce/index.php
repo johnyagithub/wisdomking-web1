@@ -34,13 +34,13 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto mb-5" style="max-width: 1000px;">
+				<div class="mx-auto mb-4" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">ประกาศ</h4>
 					<p class="text-center text-secondary">สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว
 						(องค์การมหาชน)</p>
 				</div>
 				<div class="mx-auto" style="max-width: 1000px;">
-					<div class="row row-p10 justify-content-center pb-4">
+					<div class="box-filter-search row row-p10 justify-content-center pb-4">
 						<div class="col-6 col-lg">
 							<div class="form-group">
 								<label>ปี</label>
@@ -65,8 +65,8 @@
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>
-								<th class="text-left">เรื่อง</th>
-								<th style="width: 110px;">โหลดเอกสาร</th>
+								<th class="text-left align-middle">เรื่อง</th>
+								<th>โหลด<br class="d-sm-none">เอกสาร</th>
 							</tr>
 						</thead>
 						<tbody>

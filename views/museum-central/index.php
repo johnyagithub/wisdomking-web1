@@ -54,7 +54,7 @@
 					</button>
 				</div>
 
-				<div class="row row-p10 justify-content-center mb-3">
+				<div class="box-filter-search row row-p10 justify-content-center mb-3">
 					<div class="col-6 col-md-4 col-lg">
 						<div class="form-group">
 							<label>ภูมิภาค</label>

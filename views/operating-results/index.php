@@ -31,13 +31,13 @@
 
 		<section class="pb-4">
 			<div class="container">
-				<div class="mx-auto mb-5" style="max-width: 1000px;">
+				<div class="mx-auto mb-4" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">ผลการดำเนินงานจัดซื้อจัดจ้าง</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="mx-auto" style="max-width: 1000px;">
-					<div class="row row-p10 justify-content-center pb-4">
+					<div class="box-filter-search row row-p10 justify-content-center pb-4">
 						<div class="col-6 col-lg">
 							<div class="form-group">
 								<label>ปีงบประมาณ</label>
@@ -58,7 +58,7 @@
 					</div>
 				</div>
 
-				<div class="accordion" id="accordionExample">
+				<div class="accordion accordion-style2" id="accordionExample">
 					<div class="card">
 						<div class="card-header" id="heading-1">
 							<h2 class="mb-0">
@@ -74,8 +74,8 @@
 									<table class="table table-striped text-center">
 										<thead>
 											<tr>
-												<th class="text-left">ชื่อ</th>
-												<th style="width: 110px;">โหลดเอกสาร</th>
+												<th class="text-left align-middle">ชื่อ</th>
+												<th>โหลด<br class="d-md-none">เอกสาร</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -217,8 +217,8 @@
 									<table class="table table-striped text-center">
 										<thead>
 											<tr>
-												<th class="text-left">ชื่อ</th>
-												<th style="width: 110px;">โหลดเอกสาร</th>
+												<th class="text-left align-middle">ชื่อ</th>
+												<th>โหลด<br class="d-md-none">เอกสาร</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -256,8 +256,8 @@
 									<table class="table table-striped text-center">
 										<thead>
 											<tr>
-												<th class="text-left">ชื่อ</th>
-												<th style="width: 110px;">โหลดเอกสาร</th>
+												<th class="text-left align-middle">ชื่อ</th>
+												<th>โหลด<br class="d-md-none">เอกสาร</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -295,8 +295,8 @@
 									<table class="table table-striped text-center">
 										<thead>
 											<tr>
-												<th class="text-left">ชื่อ</th>
-												<th style="width: 110px;">โหลดเอกสาร</th>
+												<th class="text-left align-middle">ชื่อ</th>
+												<th>โหลด<br class="d-md-none">เอกสาร</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -334,8 +334,8 @@
 									<table class="table table-striped text-center">
 										<thead>
 											<tr>
-												<th class="text-left">ชื่อ</th>
-												<th style="width: 110px;">โหลดเอกสาร</th>
+												<th class="text-left align-middle">ชื่อ</th>
+												<th>โหลด<br class="d-md-none">เอกสาร</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -373,8 +373,8 @@
 									<table class="table table-striped text-center">
 										<thead>
 											<tr>
-												<th class="text-left">ชื่อ</th>
-												<th style="width: 110px;">โหลดเอกสาร</th>
+												<th class="text-left align-middle">ชื่อ</th>
+												<th>โหลด<br class="d-md-none">เอกสาร</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -412,8 +412,8 @@
 									<table class="table table-striped text-center">
 										<thead>
 											<tr>
-												<th class="text-left">ชื่อ</th>
-												<th style="width: 110px;">โหลดเอกสาร</th>
+												<th class="text-left align-middle">ชื่อ</th>
+												<th>โหลด<br class="d-md-none">เอกสาร</th>
 											</tr>
 										</thead>
 										<tbody>

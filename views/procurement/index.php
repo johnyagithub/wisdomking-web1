@@ -35,49 +35,52 @@
 					<h4 class="head mb-4 text-center">ผลการดำเนินงานจัดซื้อจัดจ้าง</h4>
 					<p class="text-center mb-4 text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
+			</div>
 
-				<div class="pb-4">
-					<div class="scale-niche ml-auto mb-4">
-						<div class="box-niche row justify-content-center px-1">
-							<div class="col-sm-6 col-xl-3 px-2">
-								<div class="item">
-									<div>
-										<div class="text-success">แผนการจัดซื้อจัดจ้าง</div>
-										<h2 class="d-inline-block mr-2">8,705</h2>รายการ
-									</div>
-									<img src="../../public/images/icon-procurement1.png" alt="">
+			<div class="container px-0 px-sm-3">
+				<div class="scale-niche ml-auto mb-4">
+					<div class="box-niche row justify-content-center px-1">
+						<div class="col-sm-6 col-xl-3 px-2">
+							<div class="item">
+								<div>
+									<div class="text-success">แผนการจัดซื้อจัดจ้าง</div>
+									<h2 class="d-inline-block mr-2">8,705</h2>รายการ
 								</div>
+								<img src="../../public/images/icon-procurement1.png" alt="">
 							</div>
-							<div class="col-sm-6 col-xl-3 px-2">
-								<div class="item">
-									<div>
-										<div class="text-info">ประกาศ</div>
-										<h2 class="d-inline-block mr-2">20,849</h2>รายการ
-									</div>
-									<img src="../../public/images/icon-procurement2.png" alt="">
+						</div>
+						<div class="col-sm-6 col-xl-3 px-2">
+							<div class="item">
+								<div>
+									<div class="text-info">ประกาศ</div>
+									<h2 class="d-inline-block mr-2">20,849</h2>รายการ
 								</div>
+								<img src="../../public/images/icon-procurement2.png" alt="">
 							</div>
-							<div class="col-sm-6 col-xl-3 px-2">
-								<div class="item">
-									<div>
-										<div class="text-danger">ยกเลิกประกาศ</div>
-										<h2 class="d-inline-block mr-2">849</h2>รายการ
-									</div>
-									<img src="../../public/images/icon-procurement3.png" alt="">
+						</div>
+						<div class="col-sm-6 col-xl-3 px-2">
+							<div class="item">
+								<div>
+									<div class="text-danger">ยกเลิกประกาศ</div>
+									<h2 class="d-inline-block mr-2">849</h2>รายการ
 								</div>
+								<img src="../../public/images/icon-procurement3.png" alt="">
 							</div>
-							<div class="col-sm-6 col-xl-3 px-2">
-								<div class="item">
-									<div>
-										<div class="text-warning">เปลี่ยนแปลงประกาศ</div>
-										<h2 class="d-inline-block mr-2">379</h2>รายการ
-									</div>
-									<img src="../../public/images/icon-procurement4.png" alt="">
+						</div>
+						<div class="col-sm-6 col-xl-3 px-2">
+							<div class="item">
+								<div>
+									<div class="text-warning">เปลี่ยนแปลงประกาศ</div>
+									<h2 class="d-inline-block mr-2">379</h2>รายการ
 								</div>
+								<img src="../../public/images/icon-procurement4.png" alt="">
 							</div>
 						</div>
 					</div>
-					<div class="row row-p10 justify-content-center">
+				</div>
+
+				<div class="container">
+					<div class="box-filter-search row row-p10 justify-content-center">
 						<div class="col-6 col-lg-3 col-xl-2">
 							<div class="form-group">
 								<label>ตั้งแต่วันที่</label>
@@ -109,17 +112,16 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="table-responsive">
 					<table class="table table-striped text-center" style="min-width: 1000px;">
 						<thead>
 							<tr>
-								<th class="text-left">ชื่อ</th>
-								<th>ประเภท</th>
-								<th style="min-width: 130px;">วันที่ประกาศ</th>
-								<th style="min-width: 140px;">วันที่สิ้นสุด</th>
-								<th>จำนวนผู้เยี่ยมชม</th>
-								<th style="width: 110px;">โหลดเอกสาร</th>
+								<th class="text-left align-middle">ชื่อ</th>
+								<th class="align-middle">ประเภท</th>
+								<th class="align-middle" style="min-width: 130px;">วันที่ประกาศ</th>
+								<th class="align-middle" style="min-width: 140px;">วันที่สิ้นสุด</th>
+								<th class="align-middle">จำนวนผู้เยี่ยมชม</th>
+								<th>โหลด<br class="d-md-none">เอกสาร</th>
 							</tr>
 						</thead>
 						<!-- ประกวดราคา => .Status1 / ใบสั่งจ้าง/ใบสั่งซื้อ => .Status2 / ประกาศผู้ชนะเสนอราคา => .Status3 / อื่น  => .Status4 -->

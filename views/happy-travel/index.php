@@ -47,13 +47,13 @@
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">กิจกรรมท่องเที่ยวสุขสันต์</h4>
-					<p class="text-center mb-5">วันหยุด เสาร์-อาทิตย์
+					<p class="text-center mb-4">วันหยุด เสาร์-อาทิตย์
 						สร้างความสัมพันธ์ในครอบครัวร่วมสร้างความสุขและประสบการณ์ให้ลูกหลานผ่านการเรียนรู้
 						เกษตรเศรษฐกิจพอเพียงในบรรยากาศท่ามกลางธรรมชาติ</p>
 				</div>
 
 				<div class="pb-4">
-					<div class="row row-p10 justify-content-center">
+					<div class="box-filter-search row row-p10 justify-content-center">
 						<div class="col-6 col-md-4 col-lg">
 							<div class="form-group">
 								<label>ปีจัดงาน</label>

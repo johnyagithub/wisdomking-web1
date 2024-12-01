@@ -8,6 +8,7 @@ $(function () {
   });
 
   mySubmenu();
+  FilterSearch();
   styleSwitch();
   textSize();
   buttonTabCustom();
@@ -112,6 +113,19 @@ let ScrollTop = (index) => {
     "1000"
   );
   return false;
+};
+
+let FilterSearch = () => {
+  if ($(window).width() < 1024) {
+    $(".box-filter-search")
+      .wrap('<div class="box-filterSearch"></div>').parent()
+      .prepend('<div class="--filter-search"><img src="../../public/images/icon-search.png" alt=""><h5>ตัวกรอง</h5></div>')
+      .find(".box-filter-search").hide();
+    $(".box-filterSearch .--filter-search").click(function () {
+      $(this).toggleClass("active");
+      $(".box-filter-search").slideToggle();
+    });
+  }
 };
 
 let getParameterByName = (name) => {

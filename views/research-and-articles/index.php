@@ -40,7 +40,7 @@
 						(องค์การมหาชน)</p>
 				</div>
 				<div class="mx-auto" style="max-width: 1000px;">
-					<div class="row row-p10 justify-content-center pb-4">
+					<div class="box-filter-search row row-p10 justify-content-center pb-4">
 						<div class="col-6 col-lg">
 							<div class="form-group">
 								<label>ปีวิจัย</label>
@@ -65,10 +65,10 @@
 					<table class="table table-striped text-center" style="min-width: 1000px;">
 						<thead>
 							<tr>
-								<th class="text-left">งานวิจัย</th>
-								<th>งานวิจัย</th>
-								<th>งานวิจัย</th>
-								<th style="width: 110px;">โหลดเอกสาร</th>
+								<th class="text-left align-middle">งานวิจัย</th>
+								<th class="align-middle">งานวิจัย</th>
+								<th class="align-middle">งานวิจัย</th>
+								<th>โหลด<br class="d-md-none">เอกสาร</th>
 							</tr>
 						</thead>
 						<tbody>

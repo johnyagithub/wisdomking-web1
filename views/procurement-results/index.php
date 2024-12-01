@@ -37,7 +37,7 @@
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="mx-auto" style="max-width: 1000px;">
-					<div class="row row-p10 justify-content-center pb-4">
+					<div class="box-filter-search row row-p10 justify-content-center pb-4">
 						<div class="col-6 col-lg">
 							<div class="form-group">
 								<label>ปีงบประมาณ</label>
@@ -66,8 +66,8 @@
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>
-								<th class="text-left">ชื่อ</th>
-								<th style="width: 110px;">โหลดเอกสาร</th>
+								<th class="text-left align-middle">ชื่อ</th>
+								<th>โหลด<br class="d-md-none">เอกสาร</th>
 							</tr>
 						</thead>
 						<tbody>

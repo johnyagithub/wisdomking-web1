@@ -219,7 +219,7 @@
 							<h4 class="head mb-4 text-center">การปฏิบัติการป้องกันการทุจริต</h4>
 						</div>
 						<div class="mx-auto" style="max-width: 1000px;">
-							<div class="row row-p10 justify-content-center pb-4">
+							<div class="box-filter-search row row-p10 justify-content-center pb-4">
 								<div class="col-6 col-lg">
 									<div class="form-group">
 										<label>ปี</label>
@@ -244,8 +244,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">เรื่อง</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">เรื่อง</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -366,7 +366,7 @@
 							<h4 class="head mb-4 text-center">ผลการดำเนินงาน</h4>
 						</div>
 						<div class="mx-auto" style="max-width: 1000px;">
-							<div class="row row-p10 justify-content-center pb-4">
+							<div class="box-filter-search row row-p10 justify-content-center pb-4">
 								<div class="col-6 col-lg">
 									<div class="form-group">
 										<label>ปี</label>
@@ -392,8 +392,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">เรื่อง</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">เรื่อง</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -454,8 +454,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">เรื่อง</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">เรื่อง</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -516,8 +516,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">เรื่อง</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">เรื่อง</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -579,8 +579,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">เรื่อง</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">เรื่อง</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -651,8 +651,8 @@
 							<table class="table table-striped text-center">
 								<thead>
 									<tr>
-										<th class="text-left">เรื่อง</th>
-										<th style="width: 110px;">โหลดเอกสาร</th>
+										<th class="text-left align-middle">เรื่อง</th>
+										<th>โหลด<br class="d-md-none">เอกสาร</th>
 									</tr>
 								</thead>
 								<tbody>

@@ -44,7 +44,7 @@
 			<div class="container">
 				<div class="mx-auto" style="max-width: 1000px;">
 					<h4 class="head mb-4 text-center">มหกรรมตลาดเศรษฐกิจพอเพียง</h4>
-					<p class="text-center mb-5">ตลาดเศรษฐกิจพอเพียง
+					<p class="text-center mb-4">ตลาดเศรษฐกิจพอเพียง
 						พื้นที่แห่งมิตรภาพและการแบ่งปันองค์ความรู้นวัตกรรมเกษตรเศรษฐกิจพอเพียง
 						เพื่อจุดประกายความคิดและสร้างแรงบันดาลใจจัดแสดง
 						และจำหน่ายผลผลิตเกษตรปลอดภัย ผลิตภัณฑ์คุณภาพของเครือข่ายพิพิธภัณฑ์เกษตรฯ จากทั่วประเทศ
@@ -53,7 +53,7 @@
 				</div>
 
 				<div class="pb-4">
-					<div class="row row-p10 justify-content-center">
+					<div class="box-filter-search row row-p10 justify-content-center">
 						<div class="col-6 col-md-4 col-lg">
 							<div class="form-group">
 								<label>ปีจัดงาน</label>

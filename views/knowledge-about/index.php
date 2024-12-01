@@ -43,8 +43,8 @@
 					<table class="table table-striped text-center">
 						<thead>
 							<tr>
-								<th class="text-left">ชื่อบทความ</th>
-								<th style="width: 110px;">โหลดเอกสาร</th>
+								<th class="text-left align-middle">ชื่อบทความ</th>
+								<th>โหลด<br class="d-md-none">เอกสาร</th>
 							</tr>
 						</thead>
 						<tbody>

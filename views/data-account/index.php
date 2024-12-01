@@ -44,8 +44,8 @@
 						<thead>
 							<tr>
 								<th>รหัสชุดข้อมูล</th>
-								<th class="text-left">ชื่อชุดข้อมูล</th>
-								<th style="width: 110px;">โหลดเอกสาร</th>
+								<th class="text-left align-middle">ชื่อชุดข้อมูล</th>
+								<th>โหลด<br class="d-md-none">เอกสาร</th>
 							</tr>
 						</thead>
 						<tbody>
