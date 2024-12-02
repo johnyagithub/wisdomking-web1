@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	--primary: #a3f236;
 	--hov-primary: #57ac1a;
 	--info: #AAF83D;
@@ -194,20 +194,20 @@ footer .mb-absolute {
 .footer-reserved {
 	background: #353535;
 	color: #fff;
-}
+} */
 
 /* ---------------------------------------------------/////// Header ///////--------------------------------------------------- */
 /* ------------------- PC ------------------- */
 @media only screen and (min-width: 1025px) {
-	body header #navbarMain .navbar-nav .dropdown-item:hover {
+	/* body header #navbarMain .navbar-nav .dropdown-item:hover {
 		color: #8a8a8a !important;
-	}
+	} */
 }
 
 /* ------------------- นอกเหนือ PC ------------------- */
 @media only screen and (max-width: 1024px) {
 
-	header .navbar-collapse,
+	/* header .navbar-collapse,
 	.header-top-link2 .header-top-mobile,
 	.header-top-link {
 		background-color: #a8a8a8;
@@ -242,5 +242,5 @@ footer .mb-absolute {
 	.header-top-link ul.styleswitch li,
 	.header-top-link ul.textsizer li {
 		color: #000;
-	}
+	} */
 }

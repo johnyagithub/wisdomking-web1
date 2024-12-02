@@ -509,23 +509,21 @@
 				<h3 class="head mb-4">พิพิธภัณฑ์ของเรา</h3>
 				<div class="scale-navTabs ml-auto">
 					<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-						<div class="owl-carousel">
-							<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
-								type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
-								<img src="../../public/images/moon.png" style="width: 24px;" alt="">
-								พิพิธภัณฑ์ในอาคาร
-							</button>
-							<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
-								role="tab" aria-controls="nav-Outdoor" aria-selected="false">
-								<img src="../../public/images/sun.png" style="width: 24px;" alt="">
-								พิพิธภัณฑ์กลางแจ้ง
-							</button>
-							<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
-								role="tab" aria-controls="nav-Virtual" aria-selected="false">
-								<img src="../../public/images/reload.png" style="width: 24px;" alt="">
-								พิพิธภัณฑ์เสมือนจริง
-							</button>
-						</div>
+						<button class="nav-link active" id="nav-Indoor-tab" data-toggle="tab" data-target="#nav-Indoor"
+							type="button" role="tab" aria-controls="nav-Indoor" aria-selected="true">
+							<img src="../../public/images/moon.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์ในอาคาร
+						</button>
+						<button class="nav-link" id="nav-Outdoor-tab" data-toggle="tab" data-target="#nav-Outdoor" type="button"
+							role="tab" aria-controls="nav-Outdoor" aria-selected="false">
+							<img src="../../public/images/sun.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์กลางแจ้ง
+						</button>
+						<button class="nav-link" id="nav-Virtual-tab" data-toggle="tab" data-target="#nav-Virtual" type="button"
+							role="tab" aria-controls="nav-Virtual" aria-selected="false">
+							<img src="../../public/images/reload.png" style="width: 24px;" alt="">
+							พิพิธภัณฑ์เสมือนจริง
+						</button>
 					</div>
 				</div>
 			</div>

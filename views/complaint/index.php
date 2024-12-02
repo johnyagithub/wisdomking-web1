@@ -43,7 +43,7 @@
 					<div class="col-lg-3 --sumMenu">
 
 						<div class="sticky-top" style="top: 113px;">
-							<a href="#" data-toggle="dropdown" aria-expanded="false">
+							<a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
 								ช่องทางแจ้งเรื่องร้องเรียน
 							</a>
 							<div class="sumMenu-profile dropdown-menu">

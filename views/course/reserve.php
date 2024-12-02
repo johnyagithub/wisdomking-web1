@@ -540,7 +540,6 @@
 					if (selectedCount > $group.data('checkbox')) {
 						if ($group.data('checkbox') != 1) {
 							updateRequired(true);
-							scrollToFirstError();
 						}
 						$group.find('.form-check-input').not(this).prop('checked', false);
 					} else {

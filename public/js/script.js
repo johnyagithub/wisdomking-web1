@@ -336,10 +336,17 @@ let slideNavTabs = () => {
     margin: 10,
     nav: true,
     dots: false,
-    autoWidth: true,
     mouseDrag: false,
     touchDrag: false,
-    items: 1,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      667: {
+        autoWidth: true,
+      },
+    },
   });
   setTimeout(function () {
     $owl.trigger("refresh.owl.carousel");

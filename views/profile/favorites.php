@@ -42,7 +42,7 @@
 					<div class="col-lg-4 col-lg-3 --sumMenu">
 
 						<div class="sticky-top" style="top: 113px;">
-							<a href="#" data-toggle="dropdown" aria-expanded="false">
+							<a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
 								รายการที่ถูกใจ
 							</a>
 							<div class="sumMenu-profile dropdown-menu">

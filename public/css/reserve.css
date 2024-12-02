@@ -456,7 +456,7 @@
       
   /* เทส form-course2 */
   /* [required], [required]+ span,.text:has([required]) {
-    mix-blend-mode: difference;
+    filter: drop-shadow(2px 4px 6px rgb(237, 91, 91));
   }
   [disabled], [disabled]+ span,.text:has([disabled]) {
     mix-blend-mode: difference;

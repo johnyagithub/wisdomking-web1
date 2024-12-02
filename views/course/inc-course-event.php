@@ -1,8 +1,6 @@
 <script>
   // วันที่มีข้อมูล
   window.invalidDate = [
-    { date: new Date("2024-11-29").toDateString(), morning: ['a', 'b'], evening: ['a', 'b', 'c'] },
-    { date: new Date("2024-11-30").toDateString(), morning: ['a', 'b'], evening: ['a'] },
     { date: new Date("2024-12-21").toDateString(), morning: ['นานา สิ', 'จอน จอน'], evening: ['a', 'b', 'c', 'd'] },
     { date: new Date("2024-12-23").toDateString(), morning: ['a', 'b'], evening: ['a'] },
     { date: new Date("2024-12-24").toDateString(), morning: ['a', 'b', 'c'], evening: ['a'] },
@@ -10,6 +8,8 @@
     { date: new Date("2024-12-26").toDateString(), evening: ['a'] },
     { date: new Date("2024-12-27").toDateString(), morning: ['a'] },
     { date: new Date("2024-12-30").toDateString(), morning: ['a'], evening: ['a'] },
+    { date: new Date("2025-01-20").toDateString(), morning: ['a', 'b'], evening: ['a', 'b', 'c'] },
+    { date: new Date("2025-01-30").toDateString(), morning: ['a', 'b'], evening: ['a'] },
   ];
 </script>
 

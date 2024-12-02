@@ -224,21 +224,60 @@
         </div>
 
         <hr class="col-12 mt-3 mb-4">
-        <div class="form-group col-md-6">
-          <label>ค่าอาหาร</label>
-          <input type="text" name="input_food" required="">
-        </div>
-        <div class="form-group col-md-6">
+        
+        <div class="form-group col-12">
           <label>เมนูอาหาร</label>
-          <div class="input-width-auto">
-            <input type="text" name="input_foodMenu" required="">
-          </div>
-        </div>
-        <div class="form-group col-md-6">
-          <label>จำนวน</label>
-          <div class="input-width-auto">
-            <input type="text" name="input_foodQuantity" required=""> ชุด
-          </div>
+          <div id="inputFood" style="display: none;"></div>
+          <ol class="mb-0 pl-4">
+            <!-- ชุดละ 35 บาท -->
+            <li>
+              <div class="d-flex flex-wrap">
+                <div class="input-width-auto">
+                  <input type="text" name="input_food-1">
+                </div>
+                <div class="input-width-auto">
+                  <input type="text" name="input_foodMenu-1">
+                </div>
+                <div class="input-width-auto">
+                  จำนวน
+                  <input type="text" name="input_foodQuantity-1">
+                  ชุด
+                </div>
+              </div>
+            </li>
+            <!-- ชุดละ 50 บาท -->
+            <li>
+              <div class="d-flex flex-wrap">
+                <div class="input-width-auto">
+                  <input type="text" name="input_food-2">
+                </div>
+                <div class="input-width-auto">
+                  <input type="text" name="input_foodMenu-2">
+                </div>
+                <div class="input-width-auto">
+                  จำนวน
+                  <input type="text" name="input_foodQuantity-2">
+                  ชุด
+                </div>
+              </div>
+            </li>
+            <!-- บุฟเฟต์ -->
+            <li>
+              <div class="d-flex flex-wrap">
+                <div class="input-width-auto">
+                  <input type="text" name="input_food-3">
+                </div>
+                <div class="input-width-auto">
+                  <input type="text" name="input_foodMenu-3">
+                </div>
+                <div class="input-width-auto">
+                  จำนวน
+                  <input type="text" name="input_foodQuantity-3">
+                  ชุด
+                </div>
+              </div>
+            </li>
+          </ol>
         </div>
 
         <div

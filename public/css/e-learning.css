@@ -7,17 +7,18 @@
     aspect-ratio: 1;
     position: relative;
     margin: 0px 12px !important;
+    white-space: pre;
   }
-  .box-navTabs .nav-link::after {
+  .box-navTabs .owl-carousel .owl-item::after {
     content: "";
     position: absolute;
-    right: -18px;
+    right: -6px;
     height: 44px;
-    border-left: 1px solid #999F9E;
+    border-left: 1px solid #dadada;
     top: 50%;
     transform: translateY(-50%);
   }
-  .box-navTabs .owl-item:last-child .nav-link::after {
+  .box-navTabs .owl-carousel .owl-item:last-child::after {
     display: none;
   }
 
