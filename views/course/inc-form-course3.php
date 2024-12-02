@@ -230,7 +230,7 @@
           <div id="inputFood" style="display: none;"></div>
           <ol class="mb-0 pl-4">
             <!-- ชุดละ 35 บาท -->
-            <li>
+            <li data-type="input_food-1">
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto">
                   <input type="text" name="input_food-1">
@@ -246,7 +246,7 @@
               </div>
             </li>
             <!-- ชุดละ 50 บาท -->
-            <li>
+            <li data-type="input_food-2">
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto">
                   <input type="text" name="input_food-2">
@@ -262,7 +262,7 @@
               </div>
             </li>
             <!-- บุฟเฟต์ -->
-            <li>
+            <li data-type="input_food-3">
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto">
                   <input type="text" name="input_food-3">

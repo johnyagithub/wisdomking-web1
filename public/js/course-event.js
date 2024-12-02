@@ -4,11 +4,12 @@ $(document).ready(function () {
 
   // เช็คค่า ประเภทผู้เข้าร่วม*
   $("#form-course2 [name^=input_participantTypes]").on("change", function () {
-    if($(this).is(":checked")) {
-      $('#form-course3 [data-type="'+$(this).attr('id')+'"]').show()
-    }else{
-      $('#form-course3 [data-type="'+$(this).attr('id')+'"]').hide()
-      $('#form-course3 [data-type="'+$(this).attr('id')+'"] input').val('');
+    if ($(this).is(":checked")) {
+      $('#form-course3 [data-type="' + $(this).attr("id") + '"]').show();
+      // $(this).closest('.form-group').removeClass("has-error");
+    } else {
+      $('#form-course3 [data-type="' + $(this).attr("id") + '"]').hide();
+      $('#form-course3 [data-type="' + $(this).attr("id") + '"] input').val("");
     }
   });
 
@@ -43,8 +44,6 @@ $(document).ready(function () {
     "change",
     function () {
       const isChecked = $(this).is(":checked");
-      // ลบ disabled ออกจาก input_foodMenu และ input_foodQuantity ทั้งหมด
-      $('#form-course2 [name^="input_foodMenu"]').prop("checked", false);
       $('#form-course2 [name="input_foodQuantity"]')
         .prop("disabled", false)
         .val("");
@@ -56,18 +55,14 @@ $(document).ready(function () {
         .filter('[type="number"]')
         .val("");
       $("#box-switch_food").removeClass("has-error");
+      if (isChecked) {
+        $('#form-course3 [data-type="' + $(this).attr("id") + '"]').show();
+      } else {
+        $('#form-course3 [data-type="' + $(this).attr("id") + '"]').hide();
+        $('#form-course3 [data-type="' + $(this).attr("id") + '"] input').val("");
+      }
     }
   );
-
-    // เช็คค่า ค่าอาหารว่าง
-    // $("#form-course2 #box-switch_food>.form-check>.form-check-input").on("change", function () {
-    //   if($(this).is(":checked")) {
-    //     $('#form-course3 [data-type="'+$(this).attr('id')+'"]').show()
-    //   }else{
-    //     $('#form-course3 [data-type="'+$(this).attr('id')+'"]').hide()
-    //     $('#form-course3 [data-type="'+$(this).attr('id')+'"] input').val('');
-    //   }
-    // });
 });
 
 // ฟังก์ชันตรวจสอบและส่งฟอร์มสำหรับฟอร์มที่สอง
@@ -86,6 +81,13 @@ let submitForm2 = () => {
         $select.next(".select2").removeClass("is-invalid");
       }
     });
+
+    // ประเภทผู้เข้าร่วม
+    // if($("#form-course2 [name^=input_participantTypes]:checked").length == 0){
+    //   $('#form-course2 [name="input_participantTypes1"]').closest('.form-group').addClass("has-error");
+    // } else{
+    //   $('#form-course2 [name="input_participantTypes1"]').closest('.form-group').removeClass("has-error");
+    // }
 
     // ไม่รับอาหารว่าง
     if ($("#Snack_cost").is(":checked")) {

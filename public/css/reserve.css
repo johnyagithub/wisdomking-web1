@@ -317,6 +317,10 @@
   #form-course2 .box-form-course .has-error {
     outline-width: 5px;
   }
+  #form-course2 input.form-control[readonly] {
+    border: 0px;
+    background: #f7f5f5 !important;
+  }
 
   #form-course2 .switch {
     position: relative;
