@@ -2,6 +2,16 @@ $(document).ready(function () {
   submitForm2();
   participantTypes();
 
+  // เช็คค่า ประเภทผู้เข้าร่วม*
+  $("#form-course2 [name^=input_participantTypes]").on("change", function () {
+    if($(this).is(":checked")) {
+      $('#form-course3 [data-type="'+$(this).attr('id')+'"]').show()
+    }else{
+      $('#form-course3 [data-type="'+$(this).attr('id')+'"]').hide()
+      $('#form-course3 [data-type="'+$(this).attr('id')+'"] input').val('');
+    }
+  });
+
   // เช็คค่า ค่าอาหารว่าง
   $("#Snack_cost").on("change", function () {
     const isChecked = $(this).is(":checked");
@@ -48,6 +58,16 @@ $(document).ready(function () {
       $("#box-switch_food").removeClass("has-error");
     }
   );
+
+    // เช็คค่า ค่าอาหารว่าง
+    // $("#form-course2 #box-switch_food>.form-check>.form-check-input").on("change", function () {
+    //   if($(this).is(":checked")) {
+    //     $('#form-course3 [data-type="'+$(this).attr('id')+'"]').show()
+    //   }else{
+    //     $('#form-course3 [data-type="'+$(this).attr('id')+'"]').hide()
+    //     $('#form-course3 [data-type="'+$(this).attr('id')+'"] input').val('');
+    //   }
+    // });
 });
 
 // ฟังก์ชันตรวจสอบและส่งฟอร์มสำหรับฟอร์มที่สอง

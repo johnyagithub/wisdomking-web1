@@ -416,7 +416,7 @@
           display: none;
         }
         #form-course3 .form-group li:has(.input-width-auto span:not(:empty)) {
-          display: list-item !important;
+          display: list-item;
         }
 
 .box-form-course {

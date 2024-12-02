@@ -99,7 +99,7 @@
           <label>ประเภทผู้เข้าร่วม*</label>
           <ol class="mb-0 pl-4">
             <!-- นักเรียน -->
-            <li>
+            <li data-type="input_participantTypes1">
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto">
                   <input type="text" name="input_participantTypes1">
@@ -126,7 +126,7 @@
               </div>
             </li>
             <!-- ครู/อาจารย์ -->
-            <li>
+            <li data-type="input_participantTypes2">
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto">
                   <input type="text" name="input_participantTypes2">
@@ -153,7 +153,7 @@
               </div>
             </li>
             <!-- นักศึกษา -->
-            <li>
+            <li data-type="input_participantTypes3">
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto">
                   <input type="text" name="input_participantTypes3">
@@ -180,7 +180,7 @@
               </div>
             </li>
             <!-- อื่นๆ -->
-            <li>
+            <li data-type="input_participantTypes4">
               <div class="d-flex flex-wrap">
                 <div class="input-width-auto">
                   <input type="text" name="input_participantTypes4">
