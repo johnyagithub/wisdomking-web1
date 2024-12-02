@@ -4,9 +4,6 @@
 <head>
 
 	<?php include('../layouts/inc-meta.php'); ?>
-	<!-- select2 -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
-
 </head>
 
 <body>
@@ -41,54 +38,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-5 col-xl-4 --sumMenu">
-
-						<div class="sticky-top" style="top: 113px;">
-							<a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
-								ช่องทางแจ้งเรื่องร้องเรียน
-							</a>
-							<div class="sumMenu-profile dropdown-menu">
-								<a class="dropdown-item active" href="../complaint">
-									ช่องทางแจ้งเรื่องร้องเรียน
-								</a>
-								<div class="dropdown">
-									<a class="dropdown-item" href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
-										รับเรื่องร้องเรียน
-									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="../complaint/receive-complaints1.php">
-											เรื่องทั่วไป
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints2.php">
-											menu 2
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints3.php">
-											menu 3
-										</a>
-									</div>
-								</div>
-								<div class="dropdown">
-									<a class="dropdown-item" href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
-										รับเรื่องร้องเรียน ทุจริต และประพฤติมิชอบ
-									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="../complaint/receive-complaints-corrupt1.php">
-											เรื่องทั่วไป
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints-corrupt2.php">
-											menu 2
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints-corrupt3.php">
-											menu 3
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
+						<?php include('inc-receive-menu.php'); ?>
 					</div>
 					<div class="col mt-4 mt-md-0">
 						<img
@@ -116,10 +66,9 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
-	<!-- select2 -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>
-		$(".templatingSelect2").select2();
+		// active menu
+		$('.dropdown-item:contains("ช่องทางแจ้งเรื่องร้องเรียน")').addClass('active');
 	</script>
 
 </body>

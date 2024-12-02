@@ -1675,10 +1675,11 @@ div#navbarMain li.nav-item:hover a.nav-link {
     color: var( --primary);
     background: transparent;
   }
-  .sumMenu-profile .dropdown.show a.dropdown-item ,
+  .sumMenu-profile .dropdown > .dropdown-item.active ,
+  .sumMenu-profile .dropdown.show > a.dropdown-item ,
   .sumMenu-profile .dropdown-item:last-child {
     border-bottom: 0px;
-    padding-bottom: 0;
+    padding-bottom: 5px;
     background: transparent;
   }
   .sumMenu-profile .dropdown:last-child .dropdown-item {

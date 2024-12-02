@@ -43,61 +43,14 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-5 col-xl-4 mb-3 --sumMenu">
-
-						<div class="sticky-top" style="top: 113px;">
-							<a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
-								รับเรื่องร้องเรียน ทุจริต และประพฤติมิชอบ
-							</a>
-							<div class="sumMenu-profile dropdown-menu">
-								<a class="dropdown-item" href="../complaint">
-									ช่องทางแจ้งเรื่องร้องเรียน
-								</a>
-								<div class="dropdown">
-									<a class="dropdown-item active" href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
-										รับเรื่องร้องเรียน
-									</a>
-									<div class="dropdown-menu show">
-										<a class="dropdown-item active" href="../complaint/receive-complaints1.php">
-											เรื่องทั่วไป
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints2.php">
-											menu 2
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints3.php">
-											menu 3
-										</a>
-									</div>
-								</div>
-								<div class="dropdown">
-									<a class="dropdown-item" href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false">
-										รับเรื่องร้องเรียน ทุจริต และประพฤติมิชอบ
-									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="../complaint/receive-complaints-corrupt1.php">
-											เรื่องทั่วไป
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints-corrupt2.php">
-											menu 2
-										</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="../complaint/receive-complaints-corrupt3.php">
-											menu 3
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
+						<?php include('inc-receive-menu.php'); ?>
 					</div>
 					<div class="col mb-mt-0">
 						<div class="border-left">
 							<p class="text-center">
 								"ข้อความหรือข้อมูลส่วนตัวที่ผู้ร้องเรียนกรอกในระบบใช้เพื่อเป็นการยืนยันตัวตน<br>
 								ของผู้ร้องเรียนเท่านั้น และข้อมูลดังกล่าวจะถูกปิดเป็นความลับ"</p>
-							<div class="list-download px-xl-4">
+							<div class="list-download px-lg-4">
 								<div class="list">
 									<h6>Lorem Ipsum is simply dummy text</h6>
 									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
@@ -105,7 +58,7 @@
 							</div>
 							<form action="#">
 								<input type="hidden" name="subject" value="เรื่องทั่วไป">
-								<div class="px-xl-4">
+								<div class="px-lg-4">
 									<div class="form-row">
 										<div class="form-group col-md-6">
 											<label for="input1">ชื่อ (ผู้ร้องเรียน)*</label>
@@ -184,11 +137,11 @@
 										</div>
 									</div>
 									<div class="form-row justify-content-center py-4">
-										<div class="col col-md-4 col-lg-3 px-1">
+										<div class="col col-lg-4 col-xl-3 px-1">
 											<button type="reset"
 												class="btn btn-light border bg-white rounded-pill w-100">ยกเลิกส่งข้อความ</button>
 										</div>
-										<div class="col col-md-4 col-lg-3 px-1">
+										<div class="col col-lg-4 col-xl-3 px-1">
 											<button type="submit" class="btn btn-style w-100">ส่งข้อความ</button>
 										</div>
 									</div>
@@ -210,6 +163,10 @@
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
+	<script>
+		// active menu
+		$('.dropdown-item[href*="receive-complaints1.php"]').addClass('active').closest('.dropdown-menu').addClass('show').closest('.dropdown').find('>.dropdown-item').addClass('active');
+	</script>
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
 	<script>
