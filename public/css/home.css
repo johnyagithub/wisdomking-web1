@@ -163,7 +163,7 @@
       }
 
   .box-Ourmuseum {
-    background: linear-gradient(180deg, #ffff 0%, rgba(234, 234, 234, 0) 100%);
+    background: linear-gradient(180deg, transparent 0%, rgba(234, 234, 234, 0) 100%);
   }
     .box-Ourmuseum .owl-carousel {
 
@@ -235,7 +235,7 @@
         }
 
 .box-Calendar {
-  background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #EBEBEB 0%, transparent 100%);
 }
   .box-Calendar .owl-carousel {
     padding: 20px 50px;
@@ -637,7 +637,7 @@
     }
     
 .box-News {
-  background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 100%);
+  background: linear-gradient(180deg, #EBEBEB 0%, transparent 100%);
 }
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
