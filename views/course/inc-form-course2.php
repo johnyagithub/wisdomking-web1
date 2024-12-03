@@ -286,7 +286,7 @@
 
               <div class="item" for="input_foodMenu-11">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img1.jpg" alt="">
+                  <img src="../../public/images/food/img1.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu-1"
@@ -296,7 +296,7 @@
               </div>
               <div class="item" for="input_foodMenu-12">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img2.jpg" alt="">
+                  <img src="../../public/images/food/img2.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง"
@@ -306,7 +306,7 @@
               </div>
               <div class="item" for="input_foodMenu-13">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img3.jpg" alt="">
+                  <img src="../../public/images/food/img3.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา" name="input_foodMenu-1"
@@ -316,7 +316,7 @@
               </div>
               <div class="item" for="input_foodMenu-14">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img2.jpg" alt="">
+                  <img src="../../public/images/food/img1.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง" name="input_foodMenu-1"
@@ -349,7 +349,7 @@
 
               <div class="item" for="input_foodMenu-21">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img1.jpg" alt="">
+                  <img src="../../public/images/food/img1.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu-2"
@@ -359,7 +359,7 @@
               </div>
               <div class="item" for="input_foodMenu-22">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img2.jpg" alt="">
+                  <img src="../../public/images/food/img2.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง2"
@@ -369,7 +369,7 @@
               </div>
               <div class="item" for="input_foodMenu-23">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img3.jpg" alt="">
+                  <img src="../../public/images/food/img3.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา2" name="input_foodMenu-2"
@@ -379,7 +379,7 @@
               </div>
               <div class="item" for="input_foodMenu-24">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img2.jpg" alt="">
+                  <img src="../../public/images/food/img1.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง2" name="input_foodMenu-2"
@@ -412,7 +412,7 @@
 
               <div class="item" for="input_foodMenu-31">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img1.jpg" alt="">
+                  <img src="../../public/images/food/img1.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu-3"
@@ -422,7 +422,7 @@
               </div>
               <div class="item" for="input_foodMenu-32">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img2.jpg" alt="">
+                  <img src="../../public/images/food/img2.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สปาเก็ตตี้ผัดขี้เมากุ้ง3"
@@ -432,7 +432,7 @@
               </div>
               <div class="item" for="input_foodMenu-33">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img3.jpg" alt="">
+                  <img src="../../public/images/food/img3.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="ขนมจีนน้ำยา3" name="input_foodMenu-3"
@@ -442,7 +442,7 @@
               </div>
               <div class="item" for="input_foodMenu-34">
                 <div class="img">
-                  <img src="../../public/images/ourmuseum/img2.jpg" alt="">
+                  <img src="../../public/images/food/img1.jpg" alt="">
                 </div>
                 <div class="text">
                   <input class="form-check-input custom-radio" type="radio" value="สุกี้แห้ง3" name="input_foodMenu-3"
