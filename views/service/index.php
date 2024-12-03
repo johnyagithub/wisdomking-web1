@@ -172,7 +172,7 @@
 
 								</div>
 							</div>
-							<form action="#" style="background: #F9F9F999;" class="rounded">
+							<form action="#" style="background: hsl(0deg 0% 90.98% / 16%);" class="rounded">
 								<div class="px-3 px-lg-4 py-4">
 
 									<div class="form-row">
@@ -337,7 +337,7 @@
 
 								</div>
 							</div>
-							<form action="#" style="background: #F9F9F999;" class="rounded">
+							<form action="#" style="background: hsl(0deg 0% 90.98% / 16%);" class="rounded">
 								<div class="px-3 px-lg-4 py-4">
 
 									<div class="form-row">

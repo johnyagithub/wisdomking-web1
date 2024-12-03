@@ -35,7 +35,7 @@
 				<div class="d-flex flex-wrap flex-md-nowrap align-items-start">
 					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">องค์ความรู้</h3>
 					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs ml-auto d-flex flex-wrap" data-showId="data-Courses">
+						<div class="box-navTabs ml-auto d-flex flex-wrap align-items-center" data-showId="data-Courses">
 							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
 							<button type="button" data-type="tab1" class="btn btn-style3 px-3 m-1 text-muted">
 								<img src="../../public/images/document.png" style="width: 24px;" class="mr-1" alt="">

@@ -67,8 +67,8 @@
 	<?php include('../layouts/inc-script.php'); ?>
 	<script>
 		$(function() {
-			// active menu left
-			var ActiveMenu = 'receive-complaints-corrupt2.php';
+			// active menu left left
+			var ActiveMenu = 'receive-complaints5.php';
 			$('.dropdown-item[href*="' + ActiveMenu + '"]').addClass('active').closest('.dropdown-menu').addClass('show').closest('.dropdown').find('>.dropdown-item').addClass('active');
 			$('.--sumMenu .sticky-top > a[data-toggle="dropdown"]').text($('.dropdown-item[href*="' + ActiveMenu + '"]').closest('.dropdown').find('>.dropdown-item').text());
 		});

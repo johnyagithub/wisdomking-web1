@@ -44,7 +44,7 @@
         background: transparent;
       }
       .box-Calendar2 .item .-event.ac {
-        color: #669525;
+        color: #669525 !important;
         background: #fff;
       }
         .box-Calendar2 .item .-event h4 {
@@ -52,6 +52,7 @@
         }
         .box-Calendar2 .item .-event.ac h4 {
           font-size: 31px;
+          color: #669525 !important;
         }
       
       .box-Calendar2 .item .-date {
@@ -87,13 +88,14 @@
         }
 
       .box-Calendar2 .item .-type {
-        color: #626262;
+        color: #626262 !important;
         background: #E5FDC3;
         border: 1px solid #fff;
         margin: 5px 0px;
       }
       .box-Calendar2 .item a.btn {
         margin-top: auto;
+        color: #000 !important;
       }
 
 .box-calendar-style {
@@ -162,7 +164,7 @@
         .box-calendar-style table.ui-datepicker-calendar tbody td span.ui-state-default ,
         .box-calendar-style table.ui-datepicker-calendar tbody td a {
           border-radius: 50%;
-          color: #676767;
+          color: #676767 !important;
           width: 28px;
           height: 28px;
           background: #F2F2F2;

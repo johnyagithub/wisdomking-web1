@@ -33,7 +33,7 @@
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">เรื่องร้องเรียนการทุจริต และประพฤติมิชอบ</h4>
+					<h4 class="head mb-4 text-center">คู่มือ/แนวทางการให้บริการประชาชน</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>

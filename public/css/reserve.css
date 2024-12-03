@@ -377,7 +377,7 @@
 
 }
   #form-course3 .box-form-course {
-    background: #fbfbfb;
+    background: rgb(210 207 207 / 10%);
     padding: 25px;
     border-radius: var(--border_radius);
   }
@@ -429,7 +429,7 @@
   .box-form-course .-paper {
     border-radius: var(--border_radius);
     padding: 25px;
-    background: rgb(249 249 249 / 60%);
+    background: rgb(210 207 207 / 10%);
   }
     .box-form-course .-number {
       background: linear-gradient(180deg, #2BCB7E 0%, #37A8E2 100%);

@@ -41,7 +41,7 @@
 				<div class="--detail">
 					<img
 						src="https://www.wisdomking.or.th/files/media_manager/12075f8459499dd19b4bc0eed7ccbf39/839-0.43121400%201618911250-froalaeditor.png"
-						class="rounded2 d-block mx-auto" alt="">
+						class="rounded2 d-block mx-auto p-3" alt="" style="background: #fff;">
 				</div>
 			</div>
 		</section>

@@ -30,14 +30,14 @@
 				<li class="breadcrumb-item">
 					<a href="../contact-us/">ติดต่อเรา</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">เรื่องร้องเรียนการทุจริต และประพฤติมิชอบ</li>
+				<li class="breadcrumb-item active" aria-current="page">ระบบแจ้งเรื่องร้องเรียน</li>
 			</ol>
 		</nav>
 
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">เรื่องร้องเรียนการทุจริต และประพฤติมิชอบ</h4>
+					<h4 class="head mb-4 text-center">ระบบแจ้งเรื่องร้องเรียน</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
@@ -47,12 +47,10 @@
 					</div>
 					<div class="col mb-mt-0">
 						<div class="border-left">
-							<p class="text-center">
-								"ข้อความหรือข้อมูลส่วนตัวที่ผู้ร้องเรียนกรอกในระบบใช้เพื่อเป็นการยืนยันตัวตน<br>
-								ของผู้ร้องเรียนเท่านั้น และข้อมูลดังกล่าวจะถูกปิดเป็นความลับ"</p>
+							<p class="text-center mx-auto px-lg-4" style="max-width: 640px;">“ข้อความหรือข้อมูลส่วนตัวที่ผู้ร้องเรียนกรอกในระบบเพื่อเป็นการยืนยันตัวตนของ ผู้ร้องเรียนเท่านั้น และข้อมูลดังกล่าว จะถูกปิดเป็นความลับ และไม่มีผลกระทบ ต่อผู้ร้องเรียน”</p>
 							<div class="list-download px-lg-4">
 								<div class="list">
-									<h6>Lorem Ipsum is simply dummy text</h6>
+									<h6>มาตรการคุ้มครองผู้ร้องเรียน</h6>
 									<a class="btn btn-style" href="#" download>ดาวน์โหลด</a>
 								</div>
 							</div>
@@ -164,8 +162,12 @@
 
 	<?php include('../layouts/inc-script.php'); ?>
 	<script>
-		// active menu
-		$('.dropdown-item[href*="receive-complaints-corrupt1.php"]').addClass('active').closest('.dropdown-menu').addClass('show').closest('.dropdown').find('>.dropdown-item').addClass('active');
+		$(function() {
+			// active menu left
+			var ActiveMenu = 'receive-complaints-corrupt1.php';
+			$('.dropdown-item[href*="' + ActiveMenu + '"]').addClass('active').closest('.dropdown-menu').addClass('show').closest('.dropdown').find('>.dropdown-item').addClass('active');
+			$('.--sumMenu .sticky-top > a[data-toggle="dropdown"]').text($('.dropdown-item[href*="' + ActiveMenu + '"]').closest('.dropdown').find('>.dropdown-item').text());
+		});
 	</script>
 	<!-- select2 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>

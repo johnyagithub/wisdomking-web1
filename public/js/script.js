@@ -8,6 +8,7 @@ $(function () {
   });
 
   mySubmenu();
+  myMenuLeft
   FilterSearch();
   styleSwitch();
   textSize();
@@ -21,7 +22,7 @@ $(function () {
   sliderLearning();
   sliderShow();
   if ($(window).width() > 1025) {
-    Activitty();
+    Activity();
   }
 
   if (localStorage.getItem("cookie") != "allow") {
@@ -64,7 +65,10 @@ $(function () {
   });
 
   $(".table-responsive,.table-responsive2").each(function () {
-    if ($(this).width() < $(this).find("table.table").width()) {
+    if (
+      $(this).width() < $(this).find("table.table").width() &&
+      $(window).width() < 1024
+    ) {
       $(this).wrap('<div class="b-slip"></div>').before(`
         <div class="--slip">
           <img src="../../public/images/slip.png" alt="">
@@ -118,9 +122,13 @@ let ScrollTop = (index) => {
 let FilterSearch = () => {
   if ($(window).width() < 1024) {
     $(".box-filter-search")
-      .wrap('<div class="box-filterSearch"></div>').parent()
-      .prepend('<div class="--filter-search"><img src="../../public/images/icon-search.png" alt=""><h5>ตัวกรอง</h5></div>')
-      .find(".box-filter-search").hide();
+      .wrap('<div class="box-filterSearch"></div>')
+      .parent()
+      .prepend(
+        '<div class="--filter-search"><img src="../../public/images/icon-search.png" alt=""><h5>ตัวกรอง</h5></div>'
+      )
+      .find(".box-filter-search")
+      .hide();
     $(".box-filterSearch .--filter-search").click(function () {
       $(this).toggleClass("active");
       $(".box-filter-search").slideToggle();
@@ -192,14 +200,14 @@ let textSize = () => {
   });
 };
 
-let setcookieuser = (x) => {
+let setCookieUser = (x) => {
   $("#cookie-con-head").removeClass("show");
   if (x == "Allow") {
     localStorage.setItem("cookie", "allow");
   }
 };
 
-let Activitty = () => {
+let Activity = () => {
   $(".box-Agricultural-slide").mousemove(function (event) {
     var h = $(this).height();
     var w = $(this).width();
@@ -498,4 +506,26 @@ let mySubmenu = () => {
       $dropdown.toggleClass("show").find(".dropdown-menu").toggleClass("show");
     }
   );
+};
+
+let myMenuLeft = () => {
+  $(".sumMenu-profile.dropdown-menu a").on("click", function (e) {
+    e.stopPropagation();
+  });
+
+  $('.sumMenu-profile .dropdown > a[data-toggle="dropdown"]').on(
+    "click",
+    function (e) {
+      e.preventDefault();
+      var $parent = $(this).parent();
+      $parent.find(">.dropdown-menu").toggleClass("show");
+      $parent.siblings().find(".dropdown-menu").removeClass("show");
+    }
+  );
+
+  $(document).on("click", function (e) {
+    if (!$(e.target).closest(".dropdown").length) {
+      $(".sumMenu-profile .dropdown-menu").removeClass("show");
+    }
+  });
 };

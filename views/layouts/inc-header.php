@@ -273,7 +273,7 @@
               <a class="dropdown-item" href="../faq/">คำถามที่พบบ่อย</a>
               <a class="dropdown-item" href="../journey/">ข้อมูลการติดต่อ</a>
               <a class="dropdown-item" href="../contact-us/">ติดต่อเรา</a>
-              <a class="dropdown-item" href="../complaint/">เรื่องร้องเรียนการทุจริตและประพฤติมิชอบ</a>
+              <a class="dropdown-item" href="../complaint/">ระบบแจ้งเรื่องร้องเรียน</a>
               <a class="dropdown-item" href="../manual-and-service/">คู่มือ/แนวทางการให้บริการประชาชน</a>
             </div>
           </li>

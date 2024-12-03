@@ -107,7 +107,8 @@
     padding: 10px 17px;
     margin: 13px 0px;
     border-radius: 8px;
-    border: 1px solid #CCCCCC
+    border: 1px solid #CCCCCC;
+    background: rgb(255 255 255 / 85%);
   }
   .box-Course-syllabus .item.finished {
     background: #F8FFEE !important;
@@ -180,7 +181,7 @@
 }
   .box-Course-syllabus-tab .tab-pane .-video {
     height: 100%;
-    background: #F8F8F8;
+    background: var(--muted3);
     border-radius: var(--border_radius);
     padding: 20px;
   }

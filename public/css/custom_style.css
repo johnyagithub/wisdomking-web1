@@ -2,7 +2,7 @@
 
 :root{
  --primary: #669525;
- --hov-primary: #508b26;
+ --hov-primary: #52a715;
  --info: #AAF83D;
  --secondary: #626262;
  --muted: #B6B6B6;
@@ -12,6 +12,9 @@
 }
 .text-primary {
   color: var( --primary) !important;
+}
+a.text-primary:hover {
+  color: var( --hov-primary) !important;
 }
 .text-secondary {
   color: var( --secondary) !important;
@@ -104,9 +107,6 @@ body.Loaded::after {
 	opacity: 0;
 	visibility: hidden;
 }
-body:has(#museum-map.expand) {
-  overflow: hidden;
-}
 
 body .form-control {
  font-family: 'Prompt', sans-serif !important;
@@ -150,6 +150,9 @@ input#booking:focus {
 body .btn.disabled ,
 body .btn:disabled {
  opacity: .4;
+}
+body .btn.btn-outline-light {
+  background: rgb(255 255 255 / 20%);
 }
 body .text-dark {
  color: #000 !important;
@@ -237,6 +240,7 @@ body hr {
     color: var( --secondary);
     box-shadow: 0px 0px 0px 6px #ffffff, 0px 0px 0px 7px #B6B6B6;
     margin-bottom: 45px;
+    background: rgb(255 255 255 / 77%);
   }
   .table-responsive2 .table.table-striped {
     margin-bottom: 0px;
@@ -260,16 +264,16 @@ body hr {
       
     }
       .table.table-striped tbody tr.Status1 {
-        background: rgb(255 235 235 / 50%);
+        background: rgb(255 245 245);
       }
       .table.table-striped tbody tr.Status2 {
-        background: rgb(239 255 237 / 50%);
+        background: rgb(247 255 246);
       }
       .table.table-striped tbody tr.Status3 {
-        background: rgb(228 247 255 / 50%);
+        background: rgb(242 251 255);
       }
       .table.table-striped tbody tr.Status4 {
-        background: rgb(255 238 223 / 50%);
+        background: rgb(255 246 239);
       }
       .table-striped tbody tr:nth-of-type(odd) {
         background: #F5F5F5;
@@ -375,7 +379,7 @@ body hr {
     
   }
     .table-striped2 tbody tr:nth-of-type(odd) {
-      background: #F5F5F5;
+      background: hsl(0deg 1.33% 81.11% / 30%);
     }
     .table.table-striped2 tbody tr:last-child td {
       border-bottom: 0px;
@@ -659,7 +663,7 @@ table.table.aiz-table .badge {
 }
 .btn-style3 {
   color: var( --secondary);
-  background: #fff;
+  background: rgb(255 255 255 / 46%);
   border-radius: 50px;
   box-shadow: 2px 2px 14.8px 0px #00000014;
   border: 1px solid var(--muted2);
@@ -715,6 +719,7 @@ table.table.aiz-table .badge {
 .box-thead {
   border: 1px solid #B6B6B6;
   border-radius: 8px;
+  background: rgb(255 255 255 / 23%);
 }
   .box-thead .-thead {
     background: var( --muted2);
@@ -1177,6 +1182,7 @@ input[type="number"].number-Customize {
 }
   .box-niche .item {
     border: 1px solid #B6B6B6;
+    background: rgb(255 255 255 / 10%);
     border-radius: var(--border_radius) !important;
     padding: 14px 20px;
     display: grid;
@@ -1247,6 +1253,7 @@ body {
 }
 #content {
  background-color: #ffffff;
+ z-index: 1;
 }
 #lang-change {
  font-weight: 600;
@@ -1655,7 +1662,7 @@ div#navbarMain li.nav-item:hover a.nav-link {
     }
     
 .sumMenu-profile {
-  background-color: #FAFAFA;
+  background-color: rgb(245 245 245 / 64%);
   border-radius: var(--border_radius);
   overflow: hidden;
   padding: 5px 27px;
@@ -1711,6 +1718,7 @@ div#navbarMain li.nav-item:hover a.nav-link {
       padding: 7px;
       display: list-item;
       padding-left: 0px;
+      white-space: normal;
     } 
 
 .box-profile-list {
@@ -1722,7 +1730,8 @@ div#navbarMain li.nav-item:hover a.nav-link {
   margin: 0px auto 50px;
 }
 .--sumMenu+.box-profile-list {
-  background: transparent;
+  background: rgb(255 255 255 / 89%);
+  color: #000;
 }
   .box-profile-list #profile-list {
     display: flex;
@@ -1744,6 +1753,7 @@ div#navbarMain li.nav-item:hover a.nav-link {
       .box-profile-list #profile-list label {
         font-size: 13px;
         margin-bottom: 0px;
+        color: #585858 !important;
       }
       .box-profile-list #profile-list label+.form-control ,
       .box-profile-list #profile-list label+.select2 {
@@ -2221,6 +2231,8 @@ body.down .box-News #museum-map:not(.expand) {
     height: 600px;
     width: 100%;
     object-fit: contain;
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
   }
   #museum-map.expand>svg+img {
     height: 100% !important;
@@ -2256,6 +2268,8 @@ body.down .box-News #museum-map:not(.expand) {
     width: 100%;
     max-height: 100%;
     object-fit: contain;
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
   }
   #museum-map+.box-shadow {
     position: fixed;
@@ -2585,6 +2599,12 @@ body.down .box-News #museum-map:not(.expand) {
   margin: auto;
   padding-bottom: 30px;
 }
+  .--detail .-profile {
+    
+  }
+    .--detail .-profile img {
+      border-radius: 6px;
+    }
   .--detail ol ,
   .--detail ul {
     color: var( --secondary);
@@ -2968,8 +2988,18 @@ body.down .box-News #museum-map:not(.expand) {
   top: 100px;
   z-index: 5;
   padding-top: 20px;
-  background: linear-gradient(180deg, rgb(255 255 255) 15%, rgb(235 235 235 / 0%) 100%);
 }
+  section>.-sticky::before {
+    content: "";
+    background: linear-gradient(180deg, rgb(255 255 255) 15%, rgb(235 235 235 / 0%) 100%);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    height: 80px;
+    top: 0px;
+  }
 
 .footer-widget {
   background: linear-gradient(180deg, #20698C 0%, #2D7F92 100%);
@@ -3008,7 +3038,7 @@ body.down .box-News #museum-map:not(.expand) {
       border: 0px;
       border-radius: 50px;
       padding: 0px 42px;
-      color: #1F4E59;
+      color: #1F4E59 !important;
       margin-left: 10px;
       font-weight: 100;
       min-width: 185px;
@@ -3384,7 +3414,8 @@ footer {
     border: 0px !important;
   }
   .--sumMenu .sticky-top > a[data-toggle="dropdown"] {
-    display: block
+    display: block;
+    font-size: 14px;
   }
   .sumMenu-profile {
     display: none;
@@ -3394,18 +3425,18 @@ footer {
     top: 100% !important;
     border-radius: 0px;
     margin-top: 0;
+    max-height: calc(100vh - 118px);
+    overflow: auto;
   }
   .sumMenu-profile .dropdown-item {
     padding: 8px 0px;
+    font-size: 14px;
   }
   #regionFull {
     display: none !important;
   }
   :root {
     --border_radius: 13px;
-  }
-  .sumMenu-profile .dropdown-menu {
-    display: block;
   }
 
   /* แนวตั้ง */

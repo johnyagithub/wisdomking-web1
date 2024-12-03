@@ -25,14 +25,14 @@
 				<li class="breadcrumb-item">
 					<a href="../contact-us/">ติดต่อเรา</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">เรื่องร้องเรียนการทุจริต และประพฤติมิชอบ</li>
+				<li class="breadcrumb-item active" aria-current="page">ระบบแจ้งเรื่องร้องเรียน</li>
 			</ol>
 		</nav>
 
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">เรื่องร้องเรียนการทุจริต และประพฤติมิชอบ</h4>
+					<h4 class="head mb-4 text-center">ระบบแจ้งเรื่องร้องเรียน</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
@@ -45,7 +45,7 @@
 						<div class="mx-auto" style="max-width: 800px;">
 							<div class="list-download">
 								<div class="list">
-									<h6>ช่องทางแจ้งเรื่องร้องเรียน</h6>
+									<h6>มาตรการคุ้มครองผู้ร้องเรียน</h6>
 									<a class="btn btn-style" href="#" download="">ดาวน์โหลด</a>
 								</div>
 							</div>
@@ -66,8 +66,12 @@
 
 	<?php include('../layouts/inc-script.php'); ?>
 	<script>
-		// active menu
-		$('.dropdown-item[href*="receive-complaints3.php"]').addClass('active').closest('.dropdown-menu').addClass('show').closest('.dropdown').find('>.dropdown-item').addClass('active');
+		$(function() {
+			// active menu left left
+			var ActiveMenu = 'receive-complaints3.php';
+			$('.dropdown-item[href*="' + ActiveMenu + '"]').addClass('active').closest('.dropdown-menu').addClass('show').closest('.dropdown').find('>.dropdown-item').addClass('active');
+			$('.--sumMenu .sticky-top > a[data-toggle="dropdown"]').text($('.dropdown-item[href*="' + ActiveMenu + '"]').closest('.dropdown').find('>.dropdown-item').text());
+		});
 	</script>
 
 </body>

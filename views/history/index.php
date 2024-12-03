@@ -123,7 +123,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2561</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2561</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -131,7 +131,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2560</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2560</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -139,7 +139,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2559</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2559</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -147,7 +147,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2558</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2558</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -155,7 +155,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2557</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2557</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -163,7 +163,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2556</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2556</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -171,7 +171,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2555</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2555</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -179,7 +179,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2554</th>
+										<td class="text-left">คำรับรองการปฏิบัติงานขององค์การมหาชน 2554</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -199,7 +199,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2559</th>
+										<td class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2559</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -207,7 +207,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2558</th>
+										<td class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2558</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -215,7 +215,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2557</th>
+										<td class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2557</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -223,7 +223,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2556</th>
+										<td class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2556</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -231,7 +231,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2555</th>
+										<td class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2555</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -239,7 +239,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2554</th>
+										<td class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2554</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -259,7 +259,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2559</th>
+										<td class="text-left">รายงานการประเมินผลการปฏิบัติงาน 2559</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">

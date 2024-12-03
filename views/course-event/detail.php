@@ -93,7 +93,7 @@
 								</tr>
 								<tr>
 									<td colspan="2">
-										<div class="text-center p-2 my-2" style="background: #F8F8F8;">
+										<div class="text-center p-2 my-2 bg-muted3">
 											ราคาดังกล่าวรวมค่าวิทยาการตลอดหลักสูตร,
 											ค่าอุปกรณ์การเรียนรู้ และค่าห้องประชุม</div>
 									</td>

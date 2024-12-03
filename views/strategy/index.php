@@ -250,7 +250,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">สรุปรายงานตามนโยบาย No Gift Policy รอบ 6 เดือน ประจำปีงบประมาณ พ.ศ. 2567</th>
+										<td class="text-left">สรุปรายงานตามนโยบาย No Gift Policy รอบ 6 เดือน ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -258,7 +258,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานรอบที่ 2 แบบรายงานผลการดำเนินการแผนบริหารจัดการความเสี่ยงการทุจริต</th>
+										<td class="text-left">รายงานรอบที่ 2 แบบรายงานผลการดำเนินการแผนบริหารจัดการความเสี่ยงการทุจริต</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -266,7 +266,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต
+										<td class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต
 											และผลการดำเนินการตามแผนบริหารความเสี่ยงการทุจริต ประจำปีงบประมาณ พ.ศ. 2567 (ด้านที่ 3
 											การใช้จ่ายงบประมาณ) รอบที่ 2</th>
 										<td>
@@ -276,7 +276,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต
+										<td class="text-left">รายงานแผนบริหารจัดการความเสี่ยงการทุจริต
 											และผลการดำเนินการตามแผนบริหารความเสี่ยงการทุจริต ประจำปีงบประมาณ พ.ศ. 2567 (ด้านที่ 3
 											การใช้จ่ายงบประมาณ) รอบที่ 1</th>
 										<td>
@@ -286,7 +286,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
+										<td class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
 											(เฉพาะการจัดซื้อจัดจ้าง) ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
@@ -295,7 +295,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินการเพื่อจัดการความเสี่ยงการทุจริตและประพฤติมิชอบประจำปี พ.ศ.
+										<td class="text-left">รายงานผลการดำเนินการเพื่อจัดการความเสี่ยงการทุจริตและประพฤติมิชอบประจำปี พ.ศ.
 											2566</th>
 										<td>
 											<a href="#" download>
@@ -304,7 +304,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การประเมินความเสี่ยงการทุจริตการรับสินบน ประจำปีงบประมาณ พ.ศ. 2567</th>
+										<td class="text-left">การประเมินความเสี่ยงการทุจริตการรับสินบน ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -312,7 +312,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
+										<td class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
 											(เฉพาะการให้บริการ) ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
@@ -321,7 +321,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
+										<td class="text-left">การประเมินความเสี่ยงการทุจริตในประเด็นที่เกี่ยวข้องกับสินบน
 											(เฉพาะการบริหารงานบุคคล) ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
@@ -330,7 +330,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">แผนปฏิบัติการการป้องกันการทุจริต ปีงบประมาณ พ.ศ. 2567</th>
+										<td class="text-left">แผนปฏิบัติการการป้องกันการทุจริต ปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -338,7 +338,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">
+										<td class="text-left">
 											รายงานผลการดำเนินการตามมาตรการเพื่อขับเคลื่อนการส่งเสริมคุณธรรมและความโปร่งใสในการประเมินคุณธรรมและความโปร่งใสของ
 											พกฉ. ประจำปีงบประมาณ
 											พ.ศ. 2566</th>
@@ -349,7 +349,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">การวิเคราะห์ผลการประเมินคุณธรรมและความโปร่งใส ประจำปีงบประมาณ พ.ศ. 2566
+										<td class="text-left">การวิเคราะห์ผลการประเมินคุณธรรมและความโปร่งใส ประจำปีงบประมาณ พ.ศ. 2566
 											และมาตรการส่งเสริมคุณธรรมและความโปร่งใส ประจำปีงบประมาณ พ.ศ. 2567</th>
 										<td>
 											<a href="#" download>
@@ -398,7 +398,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2566</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2566</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -406,7 +406,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2565</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2565</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -414,7 +414,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2564</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2564</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -422,7 +422,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2563</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2563</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -430,7 +430,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2562</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2562</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -438,7 +438,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2561</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2561</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -460,7 +460,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2566</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2566</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -468,7 +468,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2565</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2565</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -476,7 +476,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2564</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2564</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -484,7 +484,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2563</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2563</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -492,7 +492,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2562</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2562</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -500,7 +500,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2561</th>
+										<td class="text-left">รายงานสรุปผลการดำเนินงานเรื่องการร้องเรียน ประจำปี 2561</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -522,7 +522,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">รายงานการวิจัยโครงการสำรวจความพึงพอใจในการให้บริการของ พกฉ. ประจำปี 2565 </th>
+										<td class="text-left">รายงานการวิจัยโครงการสำรวจความพึงพอใจในการให้บริการของ พกฉ. ประจำปี 2565 </th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -530,7 +530,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการวิจัยโครงการสำรวจความพึงพอใจของผู้รับบริการของ พกฉ. ประจำปี 2564
+										<td class="text-left">รายงานการวิจัยโครงการสำรวจความพึงพอใจของผู้รับบริการของ พกฉ. ประจำปี 2564
 										</th>
 										<td>
 											<a href="#" download>
@@ -539,7 +539,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลสำรวจความพึงพอใจการให้บริการ ประจำปีงบประมาณ พ.ศ. 2563</th>
+										<td class="text-left">รายงานผลสำรวจความพึงพอใจการให้บริการ ประจำปีงบประมาณ พ.ศ. 2563</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -547,7 +547,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">ผลการดำเนินโครงการเพิ่มประสิทธิภาพในการปฏิบัติงานด้านการให้บริการ</th>
+										<td class="text-left">ผลการดำเนินโครงการเพิ่มประสิทธิภาพในการปฏิบัติงานด้านการให้บริการ</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -555,7 +555,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลสถิติผู้เข้าชม ประจำปีงบประมาณ 2563 </th>
+										<td class="text-left">รายงานผลสถิติผู้เข้าชม ประจำปีงบประมาณ 2563 </th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -563,7 +563,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลสำรวจความพึงพอใจการให้บริการ ประจำปีงบประมาณ พ.ศ. 2562</th>
+										<td class="text-left">รายงานผลสำรวจความพึงพอใจการให้บริการ ประจำปีงบประมาณ พ.ศ. 2562</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -585,7 +585,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินงานตามแผนบริหารทรัพยากรบุคคล ประจำปีงบประมาณ 2566 </th>
+										<td class="text-left">รายงานผลการดำเนินงานตามแผนบริหารทรัพยากรบุคคล ประจำปีงบประมาณ 2566 </th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -593,7 +593,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการบริหารทรัพยากรบุคคล ปีงบประมาณ พ.ศ. 2566 ณ ไตรมาส 2</th>
+										<td class="text-left">รายงานผลการบริหารทรัพยากรบุคคล ปีงบประมาณ พ.ศ. 2566 ณ ไตรมาส 2</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -601,7 +601,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการบริหารทรัพยากรบุคคล ปีงบประมาณ พ.ศ. 2565</th>
+										<td class="text-left">รายงานผลการบริหารทรัพยากรบุคคล ปีงบประมาณ พ.ศ. 2565</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -609,7 +609,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล
+										<td class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล
 											ไตรมาส 2 ปีงบประมาณ 2565</th>
 										<td>
 											<a href="#" download>
@@ -618,7 +618,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล
+										<td class="text-left">สรุปผลการดำเนินงานด้านบริหารงานบุคคล เรื่อง รายงานผลการบริหารทรัพยากรบุคคล
 											ไตรมาส 1 ปีงบประมาณ 2565</th>
 										<td>
 											<a href="#" download>
@@ -627,7 +627,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการบริหารทรัพยากรบุคคล สิ้นสุดไตรมาสที่ 4 ปีงบประมาณ 2564</th>
+										<td class="text-left">รายงานผลการบริหารทรัพยากรบุคคล สิ้นสุดไตรมาสที่ 4 ปีงบประมาณ 2564</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -635,7 +635,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการบริหารทรัพยากรบุคคล ปี 2563</th>
+										<td class="text-left">รายงานผลการบริหารทรัพยากรบุคคล ปี 2563</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -657,7 +657,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th class="text-left">
+										<td class="text-left">
 											รายงานผลการดำเนินตามแผนปฏิบัติการด้านการป้องกันและปราบปรามการทุจริตและประพฤติมิชอบ พกฉ.
 											ประจำปีงบประมาณ พ.ศ. 2566</th>
 										<td>
@@ -667,7 +667,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินการตามแผนบริหารจัดการความเสี่ยงการทุจริต ประจำปีงบประมาณ 2566
+										<td class="text-left">รายงานผลการดำเนินการตามแผนบริหารจัดการความเสี่ยงการทุจริต ประจำปีงบประมาณ 2566
 											รอบที่ 2</th>
 										<td>
 											<a href="#" download>
@@ -676,7 +676,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานผลการดำเนินการป้องกันการทุจริตประจำปี 2563</th>
+										<td class="text-left">รายงานผลการดำเนินการป้องกันการทุจริตประจำปี 2563</th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">
@@ -684,7 +684,7 @@
 										</td>
 									</tr>
 									<tr>
-										<th class="text-left">รายงานการกำกับติดตามการดำเนินการป้องกันการทุจริตประจำปี รอบ 6 เดือน </th>
+										<td class="text-left">รายงานการกำกับติดตามการดำเนินการป้องกันการทุจริตประจำปี รอบ 6 เดือน </th>
 										<td>
 											<a href="#" download>
 												<img src="../../public/images/icon-pdf.png" style="width: 34px;" alt="">

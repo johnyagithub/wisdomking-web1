@@ -25,14 +25,14 @@
 				<li class="breadcrumb-item">
 					<a href="../contact-us/">ติดต่อเรา</a>
 				</li>
-				<li class="breadcrumb-item active" aria-current="page">เรื่องร้องเรียนการทุจริต และประพฤติมิชอบ</li>
+				<li class="breadcrumb-item active" aria-current="page">ระบบแจ้งเรื่องร้องเรียน</li>
 			</ol>
 		</nav>
 
 		<section class="pb-4">
 			<div class="container">
 				<div class="mx-auto mb-5" style="max-width: 1000px;">
-					<h4 class="head mb-4 text-center">เรื่องร้องเรียนการทุจริต และประพฤติมิชอบ</h4>
+					<h4 class="head mb-4 text-center">ระบบแจ้งเรื่องร้องเรียน</h4>
 					<p class="text-center text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
@@ -68,9 +68,9 @@
 	<?php include('../layouts/inc-script.php'); ?>
 	<script>
 		// active menu
-		$('.dropdown-item:contains("ช่องทางแจ้งเรื่องร้องเรียน")').addClass('active');
+		$('.dropdown-item:contains("ระบบแจ้งเรื่องร้องเรียน")').addClass('active');
+		$('.--sumMenu .sticky-top > a[data-toggle="dropdown"]').text('ระบบแจ้งเรื่องร้องเรียน');
 	</script>
-
 </body>
 
 </html>
