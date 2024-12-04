@@ -140,7 +140,7 @@
 					</div>
 
 					<form action="#" style="background: hsl(0deg 0% 90.98% / 16%);">
-						<div class="py-4 px-lg-5 mb-4">
+						<div class="py-4 px-2 px-lg-5 mb-4">
 							<h5 class="text-center mb-4">ลงทะเบียนเข้าร่วมกิจกรรม</h5>
 							<div class="form-row">
 								<div class="form-group col-md-6">

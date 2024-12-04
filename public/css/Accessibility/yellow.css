@@ -4,7 +4,7 @@ body
   *:not(
     .-type,
     .-view,
-    a.dropdown-item,
+    .header-top-link2 a.dropdown-item,
     .-event,
     .-event *,
     .number-Customize,
@@ -18,7 +18,8 @@ body
     .form-control,
     .table.table-striped *,
 		.box-Course-syllabus *,
-		.btn-light
+		.btn-light,
+    .submenu *
   ) {
   color: #fbff03 !important;
 }

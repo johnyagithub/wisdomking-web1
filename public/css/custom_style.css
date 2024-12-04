@@ -781,7 +781,7 @@ a:hover {
     height: 56px;
     display: flex;
     align-items: center;
-    background: #F5F5F5;
+    background: rgb(214 214 214 / 30%);
     color: #373737;
   }
     .box-filterSearch .--filter-search img {
@@ -792,7 +792,7 @@ a:hover {
     .box-filterSearch .--filter-search h5 {
       margin: 0px;
       padding-left: 20px;
-      border-left: 1px solid #DEDEDE;
+      border-left: 1px solid rgb(191 190 190 / 43%);
       height: 100%;
       display: flex;
       align-items: center;
@@ -810,7 +810,7 @@ a:hover {
 
   .box-filterSearch .box-filter-search {
     padding: 25px 15px 0px !important;
-    background: #F5F5F5;
+    background: rgb(214 214 214 / 30%);
     border-top: 1px solid #cfcfcf;
   }
 	
@@ -3420,6 +3420,7 @@ footer {
   .--sumMenu .sticky-top > a[data-toggle="dropdown"] {
     display: block;
     font-size: 14px;
+    color: #000 !important;
   }
   .sumMenu-profile {
     display: none;
@@ -3470,7 +3471,7 @@ footer {
       display: none;
     }
     .list-download .list .btn {
-      color: transparent;
+      color: transparent !important;
       width: 55px;
       height: 34px;
       min-width: inherit;

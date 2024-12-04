@@ -24,9 +24,6 @@ header ,
 div#navbarMain li.nav-item:not(.active) a.nav-link:not(:hover) {
 	color: #fff !important;
 }
-header #navbarMain .submenu * {
-	color: #050505 !important;
-}
 header a:has(img.--logo) {
 	position: relative;
 	z-index: 999;
@@ -92,6 +89,8 @@ a.text-dark:hover {
 .owl-nav > * {
 	filter: brightness(0) invert(1);
 }
+.--service .owl-carousel .owl-nav button.owl-next ,
+.box-Learning .owl-nav button.owl-next ,
 .gallery-container #thumbnail_slider .slick-next ,
 .box-calendar-style .ui-datepicker-header a.ui-corner-all.ui-datepicker-next::before ,
 .nav-dots-style .owl-nav button.owl-next ,
@@ -105,6 +104,7 @@ a.text-dark:hover {
 }
 .bg-white:not(.form-control) {
 	background-color: #464646 !important;
+	color: #fff;
 }
 .fancybox-container .fancybox-content .-popup {
 	background: #5b5b5b;
@@ -137,10 +137,6 @@ a.text-dark:hover {
 .-date {
 	color: #f0f0f0;
 }
-.-view::before ,
-.-date::before {
-	filter: brightness(2);
-}
 .table.table-striped {
 	color: #000;
 }
@@ -166,8 +162,20 @@ body .box-form-course .has-error {
 	background-color: var(--bg-content);
 	color: #fff;
 }
+body .progress-circle::before {
+	background-color: var(--bg-content);
+}
 section>.-sticky::before {
 	background: linear-gradient(180deg, var(--bg-content) 15%, rgb(235 235 235 / 0%) 100%);
+}
+.box-calendar-style table.ui-datepicker-calendar tbody td:not(.have) > * {
+	opacity: 0.5;
+}
+.box-calendar-style table.ui-datepicker-calendar tbody tr td:nth-child(7n+1) span.ui-state-default {
+	opacity: 0.2 !important;
+}
+.box-filterSearch .--filter-search img {
+	filter: brightness(5);
 }
 .--slip {
 	background: #a4a4a4;
@@ -252,6 +260,9 @@ body .box-profile-list label {
 .box-Course .item .text {
 	background: linear-gradient(180deg, rgb(27 128 79 / 48%) 0%, #267197 100%);
 }
+.box-Calendar2 .item .-type.bg-transparent {
+	background: rgb(255 255 255 / 62%) !important;
+}
 .form-control-style .input-group-append .btn.bg-white {
 	background: #fff !important;
 }
@@ -278,6 +289,12 @@ form:has(input[type="number"].number-Customize) button.btn {
 #content .box-Knowledge.box-slide {
 	background: linear-gradient(180deg, #727272 0%, rgba(234, 234, 234, 0) 100%) !important;
 }
+#content .box-Agricultural-slide {
+	background: linear-gradient(360deg, #b0b0b0 0%, transparent 100%);
+}
+#content .box-News {
+	background: linear-gradient(180deg, #b0b0b0 0%, transparent 100%);
+}
 #content .box-Agricultural {
 	border-color: #787878;
 }
@@ -301,6 +318,9 @@ footer {
 	.header-top-link {
 		background-color: #6a6a6a;
 	}
+	#active-submenu {
+		background-color: #b1b1b1;
+	}
 	header a:has(img.--logo):before {
 		margin-left: 30px;
 		height: 100%;
@@ -314,12 +334,6 @@ footer {
 	}
 	header #navbarMain .navbar-nav .dropdown-menu {
 		background: #a3a3a3;
-	}
-	header #navbarMain .navbar-nav .dropdown-menu a.dropdown-item {
-		color: #fff !important;
-	}
-	header #navbarMain .navbar-nav .dropdown-item::before {
-		background-color: #fff;
 	}
 	header #navbarMain li.nav-item.show a.nav-link {
 		background: #585858;
