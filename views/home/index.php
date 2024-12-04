@@ -22,7 +22,7 @@
 				<div class="owl-carousel">
 
 					<div class="item">
-						<img class="img-banner" src="../../public/images/banner.jpg">
+						<img class="img-banner" src="../../public/images/Banner.jpg">
 						<div class="box-text p-5">
 							<div class="b-text">
 								<h1 class="text-white mb-4">
