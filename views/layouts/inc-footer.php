@@ -162,11 +162,11 @@
 
 <!-- cookie privacy -->
 <div class="cookie-con-head" id="cookie-con-head">
-  <div class="clostcookie" onClick="setcookieuser()"><i class="fa fa-times" aria-hidden="true"></i></div>
+  <div class="clostcookie" onClick="setCookieUser()"><i class="fa fa-times" aria-hidden="true"></i></div>
   <div class="inner-cookie">
     เราใช้คุกกี้เพื่อปรับปรุงประสบการณ์ในการเข้าใช้งานเว็บไซต์ของเราให้ดียิ่งขึ้น
     <a href="../privacy/" class="text-primary">อ่านนโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
 
-    <div class="button-submit btn btn-style" onClick="setcookieuser('Allow')">Allow Cookie</div>
+    <div class="button-submit btn btn-style" onClick="setCookieUser('Allow')">Allow Cookie</div>
   </div>
 </div>
