@@ -71,15 +71,15 @@
 								</div>
 							</div>
 							<div class="-button">
-								<a href="#" class="d-flex text-secondary mb-2">
+								<a href="javascript:void(0)" class="d-flex text-secondary mb-2" data-toggle="modal" data-target="#detailModal1">
 									<img src="../../public/images/icon-I.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ข้อมูลรายวิชา</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-2">
+								<a href="javascript:void(0)" class="d-flex text-secondary mb-2" data-toggle="modal" data-target="#detailModal2">
 									<img src="../../public/images/icon-delete.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ยกเลิกการลงทะเบียน</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-2">
+								<a href="javascript:void(0)" class="d-flex text-secondary mb-2" data-toggle="modal" data-target="#detailModal3">
 									<img src="../../public/images/icon-graduation.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ขอสำเร็จการศึกษา</u></h6>
 								</a>
@@ -103,15 +103,15 @@
 								</div>
 							</div>
 							<div class="-button">
-								<a href="#" class="d-flex text-secondary mb-2">
+								<a href="javascript:void(0)" class="d-flex text-secondary mb-2" data-toggle="modal" data-target="#detailModal1">
 									<img src="../../public/images/icon-I.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ข้อมูลรายวิชา</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-2">
+								<a href="javascript:void(0)" class="d-flex text-secondary mb-2" data-toggle="modal" data-target="#detailModal2">
 									<img src="../../public/images/icon-delete.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ยกเลิกการลงทะเบียน</u></h6>
 								</a>
-								<a href="#" class="d-flex text-secondary mb-2">
+								<a href="javascript:void(0)" class="d-flex text-secondary mb-2" data-toggle="modal" data-target="#detailModal3">
 									<img src="../../public/images/icon-graduation.png" style="width:20px;" class="mr-2 mb-auto" alt="">
 									<h6><u>ขอสำเร็จการศึกษา</u></h6>
 								</a>
@@ -125,6 +125,67 @@
 
 	</div>
 	<!-- end #content -->
+
+	<!-- begin popup -->
+	<div class="detailModal modal fade" id="detailModal1" tabindex="-1" aria-labelledby="detailModal1Label" aria-hidden="true">
+		<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="detailModal1Label">ข้อมูลรายวิชา</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end popup -->
+	<!-- begin popup -->
+	<div class="detailModal modal fade" id="detailModal2" tabindex="-1" aria-labelledby="detailModal2Label" aria-hidden="true">
+		<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="detailModal2Label">ยกเลิกการลงทะเบียน</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end popup -->
+	<!-- begin popup -->
+	<div class="detailModal modal fade" id="detailModal3" tabindex="-1" aria-labelledby="detailModal3Label" aria-hidden="true">
+		<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="detailModal3Label">ขอสำเร็จการศึกษา</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laboriosam ad tenetur. Nulla, fugit aut. Fugiat ipsum, incidunt nesciunt necessitatibus porro sunt illum exercitationem sapiente veritatis autem ipsam nihil repellat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end popup -->
 
 	<!-- begin #footer -->
 	<?php include('../layouts/inc-footer.php'); ?>

@@ -35,7 +35,7 @@ header a:has(img.--logo) {
 header a:has(img.--logo)::before {
 	content: "";
 	background: #252525;
-	height: 60px;
+	height: 62px;
 	top: 0px;
 	width: 300px;
 	position: absolute;
@@ -105,6 +105,9 @@ a.text-dark:hover {
 }
 .bg-white:not(.form-control) {
 	background-color: #464646 !important;
+}
+.fancybox-container .fancybox-content .-popup {
+	background: #5b5b5b;
 }
 .--detail table.table-gradient td:not(:first-child) {
 	background-color: #888888;
@@ -178,6 +181,15 @@ section>.-sticky::before {
 .accordion .card .collapse .card-body {
 	color: #000;
 }
+body .box-gradient {
+	background-image: url(../../images/bg-gradient.png), linear-gradient(97.13deg, rgb(42 149 97) 1.02%, rgb(74 123 147) 100%);
+}
+body .card {
+	background-color: rgb(255 255 255 / 22%);
+}
+body .form-control {
+	color: #495057 !important;
+}
 .form-check-input:disabled~.form-check-label ,
 .form-check-input[disabled]~.form-check-label {
 	color: #cdcdcd;
@@ -194,11 +206,6 @@ body .box-profile-list .text-muted {
 body .box-profile-form .--profile {
 	background-color: #515151;
 }
-body .nav-dots-style .owl-dots:before ,
-body .nav-dots-style .owl-dots:after ,
-body .text-dark {
-	color: #fff !important;
-}
 body .box-calendar-style .box-note {
 	background-color: #2d2d2d;
 	color: #fff;
@@ -208,6 +215,18 @@ body .box-calendar-style .ui-datepicker-header a.ui-corner-all {
 }
 body .box-courses .item .text {
 	color: #fff;
+}
+body .box-profile-list .box-courses .item .text {
+	color: #4d4d4d;
+}
+body .box-profile-list label {
+	color: #000;
+}
+#detailModal .modal-body ,
+#detailModal .modal-header ,
+.detailModal .modal-body ,
+.detailModal .modal-header {
+	background: #7e7e7e;
 }
 .box-navTabs .nav-link {
 	border: 0px !important;
@@ -226,6 +245,12 @@ body .box-courses .item .text {
 .box-Course-syllabus-tab img {
 	-webkit-filter: grayscale(0);
 	-moz-filter: grayscale(0);
+}
+.box-Course .item .--button .btn {
+	background: #000;
+}
+.box-Course .item .text {
+	background: linear-gradient(180deg, rgb(27 128 79 / 48%) 0%, #267197 100%);
 }
 .form-control-style .input-group-append .btn.bg-white {
 	background: #fff !important;
@@ -249,6 +274,9 @@ form:has(input[type="number"].number-Customize) button.btn {
 #content .box-Market .owl-carousel .item ,
 #content #slide-Day .item div {
 	color: #fff;
+}
+#content .box-Knowledge.box-slide {
+	background: linear-gradient(180deg, #727272 0%, rgba(234, 234, 234, 0) 100%) !important;
 }
 #content .box-Agricultural {
 	border-color: #787878;

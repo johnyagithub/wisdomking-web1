@@ -392,7 +392,7 @@
         border: 0px !important;
         padding: 0px;
         height: auto !important;
-        color: #495057 !important;
+        color: #495057;
         background-color: transparent;
         display: block;
         font-family: 'Prompt', sans-serif !important;

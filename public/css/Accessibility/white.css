@@ -1,1 +1,7 @@
 @import url(default.css);
+
+body .nav-dots-style .owl-dots:before ,
+body .nav-dots-style .owl-dots:after ,
+body .text-dark {
+	color: #fff !important;
+}

@@ -408,7 +408,7 @@ body hr {
   }
     .table.table-striped2 tfoot tr td {
       color: #000;
-      background: #f1f9fb;
+      background: rgb(168 223 237 / 18%);
       font-weight: 100;
       padding: 10px 17px;
     }
@@ -497,7 +497,7 @@ table.table-gradient {
     border: 0px;
   }
   .accordion.accordion-style2 .card {
-    background: #F5F5F5;
+    background: rgb(212 212 212 / 25%);
   }
     .accordion .card .card-header {
       padding: 0px;
@@ -513,7 +513,7 @@ table.table-gradient {
         box-shadow:none;
       }
       body .accordion.accordion-style2 .card .card-header button.btn {
-        background: #F5F5F5 !important;
+        background: rgb(212 212 212 / 25%) !important;
         color: var(--secondary);
         border: 0px !important;
       }
@@ -542,7 +542,7 @@ table.table-gradient {
       border: 0px;
     }
     .accordion .card .collapse.show {
-      border-color: #D5D5D5;
+      border-color: rgb(175 175 175 / 29%);
       border-radius: 0px 0px 8px 8px;
     }
       .accordion .card .collapse .card-body {
@@ -888,6 +888,7 @@ input[type=radio] {
     float:left;
     cursor:pointer;
     background: #fff;
+    color: #000;
     border: 1px solid #E8E8E8;
     border-radius: 4px;
     margin: 5px;
@@ -993,7 +994,7 @@ input[type="number"].number-Customize {
 
 .box-Drag {
   border: 1px dashed #CCCCCC;
-  background: #FFFFFF;
+  background: rgb(255 255 255 / 19%);
   padding: 14px;
   border-radius: 8px;
 }
@@ -1349,6 +1350,8 @@ html[lang="ch"] #lang-change .dropdown-item[data-flag="ch"] {
   object-fit: contain !important;
   height: 60px;
   padding: 5px;
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
 }
 div#navbarMain .box-menu {
   order: 2;
@@ -1412,6 +1415,7 @@ div#navbarMain li.nav-item:hover a.nav-link {
       display: flex;
       justify-content: center;
       align-items: center;
+      white-space: nowrap;
     }
       .box-navTabs .owl-carousel .owl-item .nav-link ,
       .box-navTabs .owl-carousel .owl-item .btn {
@@ -2425,7 +2429,7 @@ body.down .box-News #museum-map:not(.expand) {
   }
   .board-list.underline .-list ,
   .board-list .-list:first-child {
-    background: #F5F5F5;
+    background: rgb(212 212 212 / 25%);
     padding: 15px;
     border-radius: 8px;
     width: 860px;
@@ -2502,7 +2506,7 @@ body.down .box-News #museum-map:not(.expand) {
     grid-template-columns: 156px auto;
     grid-gap: 20px;
     align-items: center;
-    background: #F5F5F5;
+    background:  rgb(212 212 212 / 25%);
     padding: 15px;
     border-radius: 8px;
     width: 650px;

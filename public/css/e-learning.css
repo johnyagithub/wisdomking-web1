@@ -176,6 +176,68 @@
         max-width: 210px;
       }
 
+.detailModal {
+
+}
+  .detailModal button.close {
+    position: inherit;
+    color: #000;
+    font-size: 42px;
+  }
+  .detailModal .modal-body {
+    
+  }
+  .detailModal .-list {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 156px auto;
+    grid-gap: 20px;
+    align-items: center;
+    background:  rgb(212 212 212 / 25%);
+    padding: 15px;
+    border-radius: 8px;
+    width: 650px;
+    margin: 20px auto 30px auto;
+  }
+    .detailModal .-list .img {
+
+    }
+      .detailModal .-list .img img {
+        border-radius: 8px;
+        width: 100%;
+        aspect-ratio: 198 / 280;
+      }
+
+    .detailModal .-list .text {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+      .detailModal .-list .text hr {
+        margin: 10px 0px;
+      }
+      .detailModal .-list .text a[href*="tel"] ,
+      .detailModal .-list .text a[href*="mailto"] {
+        position: relative;
+        color: var( --secondary);
+        padding: 3px 0px;
+        display: block;
+      }
+      .detailModal .-list .text a[href*="tel"]::before ,
+      .detailModal .-list .text a[href*="mailto"]::before {
+        content: "";
+        background: url(../../public/images/phone.png) no-repeat center left;
+        background-size: contain;
+        width: 22px;
+        display: block;
+        aspect-ratio: 1;
+        float: left;
+        margin-right: 10px;
+      }
+      .detailModal .-list .text a[href*="mailto"]::before {
+        background-image: url(../../public/images/email.png);
+      }
+
 .box-Course-syllabus-tab {
   border-left: 1px solid #dee2e6 !important;
 }

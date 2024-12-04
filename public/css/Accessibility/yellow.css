@@ -1,7 +1,37 @@
 @import url(default.css);
 
-body * ,
-.header-top-link2 a.icon-pro ,
+body
+  *:not(
+    .-type,
+    .-view,
+    a.dropdown-item,
+    .-event,
+    .-event *,
+    .number-Customize,
+    .fa,
+    .box-calendar-style a,
+    .ui-state-default,
+    .box-profile-list *,
+    label,
+    .select2 *,
+    .select2-container *,
+    .form-control,
+    .table.table-striped *,
+		.box-Course-syllabus *,
+		.btn-light
+  ) {
+  color: #fbff03 !important;
+}
+.text-secondary,
+.text-muted,
+body .nav-dots-style .owl-dots:before,
+body .nav-dots-style .owl-dots:after,
+body .text-dark,
+.header-top-link2 a.icon-pro,
 div#navbarMain li.nav-item:not(.active) a.nav-link:not(:hover) {
-	color: #fbff03 !important;
+  color: #fbff03 !important;
+}
+.sumMenu-profile .dropdown-item:hover,
+.sumMenu-profile .dropdown-item.active {
+  color: #202d0e !important;
 }

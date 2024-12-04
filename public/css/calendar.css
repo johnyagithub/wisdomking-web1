@@ -164,7 +164,7 @@
         .box-calendar-style table.ui-datepicker-calendar tbody td span.ui-state-default ,
         .box-calendar-style table.ui-datepicker-calendar tbody td a {
           border-radius: 50%;
-          color: #676767 !important;
+          color: #676767;
           width: 28px;
           height: 28px;
           background: #F2F2F2;
