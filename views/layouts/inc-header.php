@@ -33,10 +33,7 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
-              <a class="dropdown-item" href="../calendar-learn/">ตลาดเศรษฐกิจพอเพียง</a>
               <a class="dropdown-item" href="#">กิจกรรมต่างๆ</a>
-              <a class="dropdown-item" href="../museam-1-by-1/">1ไร่ มั่งคั่ง ยั่งยืน</a>
-              <a class="dropdown-item" href="../learning/">สื่อการเรียนรู้</a>
             </div>
           </li>
           <li class="nav-item position-relative">
@@ -49,7 +46,7 @@
             <div class="dropdown-menu">
               <div class="submenu">
                 <div class="column">
-                  <a class="dropdown-item w-100" href="../ourmuseum/">พิพิธภัณฑ์ของเรา</a>
+                  <a class="dropdown-item" href="../ourmuseum/">พิพิธภัณฑ์ของเรา</a>
                   <div class="group" data-column="3">
                     <span>พิพิธภัณฑ์ในอาคาร</span>
                     <ul>
@@ -84,8 +81,8 @@
                     <ul>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">พิพิธภัณฑ์เกษตรตามรอยพ่อ</a></li>
                       <li><a class="dropdown-item" href="../ourmuseum/detail.php">พิพิธภัณฑ์นวัตกรรมเกษตรเศรษฐกิจพอเพียง</a></li>
-                      <li><a class="dropdown-item" href="../project/">โครงการ อพ.สธ.</a>
-                      </li>
+                      <li><a class="dropdown-item" href="../project/">โครงการ อพ.สธ.</a></li>
+                      <li><a class="dropdown-item" href="../museam-1-by-1/">1ไร่ มั่งคั่ง ยั่งยืน</a></li>
                     </ul>
                   </div>
                   <div class="group">
@@ -96,7 +93,7 @@
                   </div>
                 </div>
                 <div class="column">
-                  <a class="dropdown-item w-100" href="../ourmuseum/">สื่อการเรียนรู้และนิเมชั่น</a>
+                  <a class="dropdown-item" href="../ourmuseum/">สื่อการเรียนรู้และนิเมชั่น</a>
                   <div class="group" data-column="2">
                     <span>สื่อการเรียนรู้ภาพยนตร์แอนิเมชั่น 3 มิติ</span>
                     <ul>
@@ -189,14 +186,14 @@
               <a class="dropdown-item" href="../board-meeting/">การประชุมคณะกรรมการ</a>
               <a class="dropdown-item" href="../manual/">คู่มือการปฏิบัติงาน</a>
               <a class="dropdown-item" href="../report-government/">รายงานผลการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานภาครัฐ</a>
-              <a class="dropdown-item mr-auto" href="#">นโยบายและแนวปฎิบัติในการรักษาความมั่นคงปลอดภัยด้านสารสนเทศ</a>
+              <a class="dropdown-item" href="#">นโยบายและแนวปฎิบัติในการรักษาความมั่นคงปลอดภัยด้านสารสนเทศ</a>
               <div class="submenu">
                 <div class="column">
                   <div class="group">
                     <span>ประวัติความเป็นมา</span>
                     <ul>
                       <li><a class="dropdown-item" href="../purpose/?param=nav-Background">ประวัติความเป็นมา</a></li>
-                      <li><a class="dropdown-item w-100" href="../purpose/?param=nav-Vision">วิสัยทัศน์และพันธกิจ</a></li>
+                      <li><a class="dropdown-item" href="../purpose/?param=nav-Vision">วิสัยทัศน์และพันธกิจ</a></li>
                       <li><a class="dropdown-item" href="#">วัฒนธรรมองค์กร</a></li>
                       <li><a class="dropdown-item" href="../purpose/?param=nav-Corporate">ค่านิยมองค์กร</a></li>
                     </ul>
@@ -217,7 +214,7 @@
                     <ul>
                       <li><a class="dropdown-item" href="../appoint-office/">คณะกรรมการสำนักงาน</a></li>
                       <li>
-                        <a class="dropdown-item w-100" href="../audit-committee/">แต่งตั้งคณะกรรมการสำนักงาน</a>
+                        <a class="dropdown-item" href="../audit-committee/">แต่งตั้งคณะกรรมการสำนักงาน</a>
                         <ul>
                           <li><a class="dropdown-item" href="../director/?param=nav-Committee">คณะกรรมการ</a></li>
                           <li><a class="dropdown-item" href="../director/?param=nav-Subcommittee">คณะอนุกรรมการ</a></li>
