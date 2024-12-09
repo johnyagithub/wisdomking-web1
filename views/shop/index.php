@@ -48,6 +48,10 @@
 								role="tab" aria-controls="nav-madocafe" aria-selected="false">
 								MADO CAFE
 							</button>
+							<button class="nav-link" id="nav-wisdomking-tab" data-toggle="tab" data-target="#nav-wisdomking" type="button"
+								role="tab" aria-controls="nav-wisdomkingcafe" aria-selected="false">
+								Wisdomking CAFE
+							</button>
 						</div>
 					</div>
 				</div>
@@ -202,6 +206,31 @@
 									</div>
 									<div class="col-6">
 										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="madocafe" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-wisdomking" role="tabpanel" aria-labelledby="nav-wisdomking-tab">
+							<h4 class="head mb-4 text-center">Wisdomking CAFE</h4>
+							<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+							<div>
+								<div class="row row-p5 mb-3">
+									<div class="col-12">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="wisdomking" data-caption="">
+											<img src="https://placehold.co/1000x600" class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="wisdomking" data-caption="">
+											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
+												class="mw-100 mx-auto d-block rounded my-1" alt="">
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="https://placehold.co/800x400" class="img rounded" data-fancybox="wisdomking" data-caption="">
 											<img src="https://placehold.co/800x400" style="aspect-ratio: 800 / 400;"
 												class="mw-100 mx-auto d-block rounded my-1" alt="">
 										</a>
