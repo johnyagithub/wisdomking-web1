@@ -163,7 +163,7 @@
                   <div class="group">
                     <span>ร้าน</span>
                     <ul>
-                      <li><a class="dropdown-item" href="../shop/?param=nav-FoodEatGood">อาหาร กิน อยู่ ดี</a></li>
+                      <li><a class="dropdown-item" href="../shop/?param=nav-FoodEatGood">กิน อยู่ ดี</a></li>
                       <li><a class="dropdown-item" href="../shop/?param=nav-Shop">ร้านจำหน่ายของที่ระลึก</a></li>
                       <li><a class="dropdown-item" href="../shop/?param=nav-madocafe">MADO CAFE</a></li>
                       <li><a class="dropdown-item" href="../shop/?param=nav-wisdomking">Wisdomking CAFE</a></li>
