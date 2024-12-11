@@ -3009,6 +3009,7 @@ body.down .box-News #museum-map:not(.expand) {
   background: linear-gradient(180deg, #20698C 0%, #2D7F92 100%);
   color: #fff;
   margin-top: auto;
+  z-index: 0;
 }
 .footer-widget+footer {
   margin-top: 0px;
