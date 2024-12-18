@@ -51,180 +51,165 @@
 					</div>
 				</div>
 
-				<div class="box-Course pb-4">
-
-					<div class="course-item">
+				<div class="box-Ourmuseum row m-0 pb-4">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">1. หลักสูตร “ตามรอยพ่อ”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">2. หลักสูตร “เกษตรสร้างสรรค์”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">3. หลักสูตร “วิถีเกษตรของพ่อ”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 3 ชั่วโมง เวลา 09.00 - 12.00 น. หรือ เวลา 13.00 - 16.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">4. หลักสูตร “สืบทอดพระราชปณิธาน กษัตริย์เกษตร”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 3 ชั่วโมง เวลา 09.00 - 12.00 น. หรือ เวลา 13.00 - 16.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">5. หลักสูตร “นวัตกรรมของพ่อ”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 3 ชั่วโมง เวลา 09.00 - 12.00 น. หรือ เวลา 13.00 - 16.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">6. หลักสูตร “พอดีพอเพียง”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 3 ชั่วโมง เวลา 09.00 - 12.00 น. หรือ เวลา 13.00 - 16.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">7. หลักสูตร “ตามรอยพ่อ กษัตริย์เกษตรเศรษฐกิจพอเพียง”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 3 ชั่วโมง เวลา 09.00 - 12.00 น. หรือ เวลา 13.00 - 16.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">8. หลักสูตร “ลดเวลาเรียน เพิ่มเวลารู้”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 5 ชั่วโมง เวลา 09.00 - 15.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">9. หลักสูตร “รู้ก่อนทำ ตามรอยพ่อ”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 5 ชั่วโมง เวลา 09.00 - 15.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-					<div class="course-item">
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
 						<div class="item">
 							<div class="img">
-								<img src="../../public/images/img-course.jpg" alt="">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
 							</div>
 							<div class="text">
-								<div class="w-100">
-									<h4 class="text-line1">หลักสูตร “ตามรอยพ่อ”</h4>
-									<p class="text-line2 mb-0">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.
-									</p>
-								</div>
-								<div class="--button">
-									<a class="btn" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
-								</div>
+								<h4 class="text-line1">10. หลักสูตรอบรม/ค่ายการเรียนรู้ “วิถีพอเพียง”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 2 วัน 1 คืน</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
 							</div>
 						</div>
 					</div>
-
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
+						<div class="item">
+							<div class="img">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
+							</div>
+							<div class="text">
+								<h4 class="text-line1">11. หลักสูตรอบรม/ค่ายการเรียนรู้ “ต้นกล้าพอเพียง”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 3 วัน 2 คืน</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
+						<div class="item">
+							<div class="img">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
+							</div>
+							<div class="text">
+								<h4 class="text-line1">12. หลักสูตรเกษตรเคลื่อนที่ “เกษตรพอเพียง”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 2 ชั่วโมง เวลา 09.00 - 11.00 น. หรือ เวลา 13.00 - 15.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 mb-3 px-0 px-sm-2">
+						<div class="item">
+							<div class="img">
+								<img src="https://placehold.co/628x376" alt="" style="aspect-ratio: 628 / 376;">
+							</div>
+							<div class="text">
+								<h4 class="text-line1">13. หลักสูตรเกษตรเคลื่อนที่ “เกษตรพึ่งตนเอง”</h4>
+								<p class="text-line2">ระยะเวลาเรียนรู้ 3 ชั่วโมง เวลา 09.00 - 12.00 น. หรือ เวลา 13.00 - 16.00 น.</p>
+								<a class="btn btn-light px-5 rounded-pill" href="../course-event/detail.php">ดูรายละเอียดเพิ่มเติม</a>
+							</div>
+						</div>
+					</div>
 				</div>
+
 			</div>
 		</section>
 

@@ -367,12 +367,7 @@
 
 		<section class="box-Market py-5">
 			<div class="container">
-				<div class="row m-0 justify-content-center">
-					<h3 class="head mb-4 mb-auto">มหกรรมตลาดเศรษฐกิจพอเพียง</h3>
-					<p class="mx-auto mt-4 mt-lg-0 col-lg px-lg-3 text-black-50" style="max-width: 730px;">ตลาดเศรษฐกิจพอเพียง
-						จัดขึ้นทุกเสาร์ อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด
-						แลกเปลี่ยนเรียนรู้ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
-				</div>
+				<h3 class="head mb-4 mx-3 ml-sm-0">มหกรรม / นิทรรศการหมุนเวียน / ตลาดเศรษฐกิจพอเพียง</h3>
 				<div class="row mt-3">
 					<div class="col-lg-6" id="Market-show">
 						<a href="#" class="item-show">
@@ -386,6 +381,9 @@
 						</a>
 					</div>
 					<div class="col-lg-6 align-self-center px-lg-5">
+						<p class="text-black-50">ตลาดเศรษฐกิจพอเพียง
+							จัดขึ้นทุกเสาร์ อาทิตย์ สัปดาห์แรกของเดือน เป็นตลาดนัดแห่งมิตรภาพ และการแบ่งปัน เพื่อจุดประกายความคิด
+							แลกเปลี่ยนเรียนรู้ภูมิปัญญานวัตกรรมเกษตร เศรษฐกิจพอเพียง</p>
 						<div class="owl-carousel">
 
 							<div class="item active" data-img="../../public/images/img1.jpg" data-subject="เรื่องข้าวชาวเกษตร"
@@ -394,25 +392,25 @@
 								<hr>
 								04 - 05
 							</div>
-							<div class="item" data-img="../../public/images/img2.jpg" data-subject="ตลาดเศรษฐกิจพอเพียง"
+							<div class="item" data-img="https://placehold.co/800x300?text=1" data-subject="ตลาดเศรษฐกิจพอเพียง"
 								data-date="04-05 สิงหาคม 2567">
 								พฤศจจิกายน
 								<hr>
 								04 - 05
 							</div>
-							<div class="item" data-img="https://placehold.co/800x300?text=1" data-subject="เรื่องข้าวชาวเกษตร"
+							<div class="item" data-img="https://placehold.co/800x300?text=2" data-subject="เรื่องข้าวชาวเกษตร"
 								data-date="04-05 กันยายน 2567">
 								กันยายน
 								<hr>
 								04 - 05
 							</div>
-							<div class="item" data-img="https://placehold.co/800x300?text=2" data-subject="เรื่องข้าวชาวเกษตร"
+							<div class="item" data-img="https://placehold.co/800x300?text=3" data-subject="เรื่องข้าวชาวเกษตร"
 								data-date="04-05 สิงหาคม 2567">
 								สิงหาคม
 								<hr>
 								04 - 05
 							</div>
-							<div class="item active" data-img="https://placehold.co/800x300?text=3" data-subject="เรื่องข้าวชาวเกษตร"
+							<div class="item active" data-img="https://placehold.co/800x300?text=4" data-subject="เรื่องข้าวชาวเกษตร"
 								data-date="04-05 กรกฎาคม 2567">
 								กรกฎาคม
 								<hr>
@@ -1278,12 +1276,41 @@
 	</div>
 	<!-- end #content -->
 
+	<!--  begin popup -->
+	<div id="wellwishes" style="display: none;width: 1000px;">
+		<div class="-popup p-3">
+			<img class="w-100 rounded" src="../../public/images/popup/img1.jpg">
+			<div class="form-row justify-content-center mt-4 mb-2">
+				<div class="col-6 col-md-4 col-lg-3">
+					<button type="button" data-fancybox-close="" class="btn btn-light border bg-white rounded-pill w-100" onclick="localStorage.setItem('wellwishes', 'allow');">เข้าสู่หน้าหลัก</button>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<a href="../home/popup.php" class="btn btn-style w-100" onclick="localStorage.setItem('wellwishes', 'allow');">ลงนามถวายพระพร</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end popup -->
+
 	<!-- begin #footer -->
 	<?php include('../layouts/inc-footer.php'); ?>
 	<!-- end #footer -->
 
 	<?php include('../layouts/inc-script.php'); ?>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// ตั้งเวลา popup ลงนามถวายพระพร
+			if (localStorage.getItem("wellwishes") != "allow") {
+				setTimeout(() => {
+					$.fancybox.open({
+						src: "#wellwishes", // ID ของ popup
+						type: "inline"
+					});
+				}, 5000);
+			}
+		});
+	</script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script> -->
 	<script type="text/javascript" src="../../public/js/custom_calendar.js"></script>
 </body>
 

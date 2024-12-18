@@ -96,7 +96,7 @@
 							</div>
 							<div class="form-group col-md-6">
 								<label for="input4">โทรศัพท์มือถือ*</label>
-								<input type="tel" class="form-control bg-white" id="input4" placeholder="กรุณาระบุชื่อ" required="">
+								<input type="tel" class="form-control bg-white" id="input4" placeholder="กรุณาระบุโทรศัพท์มือถือ" required="">
 							</div>
 						</div>
 						<div class="form-row">

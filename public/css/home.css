@@ -450,7 +450,7 @@
       background: #efefef;
     }
       .box-Market .item-show img {
-        aspect-ratio: 140 / 54;
+        aspect-ratio: 600/360;
         object-fit: cover;
       }
 

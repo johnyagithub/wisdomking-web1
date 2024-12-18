@@ -49,7 +49,7 @@
 						has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<div class="--detail">
-					<img src="../../public/images/img-course.jpg" class="rounded w-100" alt="">
+					<img src="https://placehold.co/628x376" class="rounded w-100" alt="">
 					<div class="d-flex flex-wrap my-3 align-items-center">
 						<div class="-date">
 							17 สิงหาคม 2023

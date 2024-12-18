@@ -3443,6 +3443,13 @@ footer {
   :root {
     --border_radius: 13px;
   }
+  .box-Ourmuseum .item {
+    height: 100%;
+  }
+  .box-Ourmuseum .item .text {
+    position: inherit;
+    height: calc(100% - 27vw);
+  }
 
   /* แนวตั้ง */
   @media only screen and (orientation:portrait){
@@ -3627,13 +3634,6 @@ footer {
   } 
   /* แนวนอน */
   @media only screen and (orientation:landscape){
-    .box-Ourmuseum .item {
-      height: 100%;
-    }
-    .box-Ourmuseum .item .text {
-      position: inherit;
-      height: calc(100% - 27vw);
-    }
     #detailModal .-list ,
     .board-list .-list {
       width: calc(100% - 26px);

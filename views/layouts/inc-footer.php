@@ -53,7 +53,7 @@
           </a>
           <a href="#">
             <div class="img rounded">
-              <img src="../../public/images/links-included/img1.jpg" alt="" class="w-100">
+              <img src="../../public/images/links-included/img7.jpg" alt="" class="w-100">
             </div>
           </a>
 
