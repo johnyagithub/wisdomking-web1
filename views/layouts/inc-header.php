@@ -33,7 +33,7 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
-              <a class="dropdown-item" href="#">กิจกรรมต่างๆ</a>
+              <a class="dropdown-item" href="../calendar-learn/">กิจกรรมต่างๆ</a>
             </div>
           </li>
           <li class="nav-item position-relative">
