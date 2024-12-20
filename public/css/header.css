@@ -434,7 +434,6 @@ header {
     top: 100% !important;
     left: 0px !important;
     width: calc(100% + 34px);
-    /* justify-content: space-between; */
     justify-content: center;
     margin: 0px -17px;
     overflow: initial;
@@ -444,6 +443,9 @@ header {
     padding: 10px 0px;
     min-height: 90px;
     align-items: center;
+  }
+  header #navbarMain .navbar-nav .dropdown-menu:has(.submenu) {
+    justify-content: space-between;
   }
   header #navbarMain .navbar-nav .dropdown-menu.show {
     display: flex;
@@ -467,6 +469,9 @@ header {
     background-color: transparent !important;
     border: 0 !important;
     width: auto;
+  }
+  header #navbarMain .navbar-nav .dropdown-menu:has(.submenu) .dropdown-item:nth-last-child(2) {
+    margin-right: auto;
   }
   body header #navbarMain .navbar-nav .dropdown-item:hover {
     color: var(--hov-primary) !important;

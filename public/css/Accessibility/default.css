@@ -262,6 +262,7 @@ body .box-profile-list label {
 }
 .box-Calendar2 .item .-type.bg-transparent {
 	background: rgb(255 255 255 / 62%) !important;
+	color: #626262 !important;
 }
 .form-control-style .input-group-append .btn.bg-white {
 	background: #fff !important;
