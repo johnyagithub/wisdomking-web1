@@ -91,6 +91,9 @@ header {
     border-bottom: 1px solid #fff;
     color: #000 !important;
   }
+  header a.dropdown-item[href="javascript:void(0)"] {
+    cursor: default;
+  }
     header .dropdown-item .fa {
       color: #000 !important;
     }
@@ -391,6 +394,10 @@ header {
  
            }
  
+       .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu {
+          width: max-content;
+          max-width: 300px;
+       }
        .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu a.dropdown-item {
          position: relative;
          padding-left: 25px;
@@ -407,7 +414,31 @@ header {
          }
          .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu a.dropdown-item:hover::before {
            background-color: var(--primary);
-         } 
+         }
+
+        .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu ul {
+          list-style-type: none;
+          padding-left: 4px;
+          margin-top: -10px;
+          margin-bottom: 10px;
+        }
+          .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu ul li {
+            
+          }
+            .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu ul a.dropdown-item {
+              padding-top: 3px;
+              padding-bottom: 3px;
+              color: #434343 !important;
+            }
+            .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu ul a.dropdown-item:hover {
+              color: #000 !important;
+            }
+            .header-top-link2 button.btn.dropdown-toggle+.dropdown-menu ul a.dropdown-item::before {
+              all: revert;
+              content: "-";
+              margin-right: 3px;
+              background-color: transparent !important;
+            }
 
 /* ------------------- PC ------------------- */
 @media only screen and (min-width: 1025px) {

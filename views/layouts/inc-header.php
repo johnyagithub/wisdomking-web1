@@ -27,15 +27,6 @@
               <a class="dropdown-item" href="../covid/">มาตรการ COVID-19</a>
             </div>
           </li>
-          <li class="nav-item dropdown" data-bs-auto-close="false">
-            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">
-              ปฏิทินกิจกรรมการเรียนรู้
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="../course-event/">โครงการส่งเสริมการเรียนรู้เกษตรเศรษฐกิจพอเพียง</a>
-              <a class="dropdown-item" href="../calendar-learn/">กิจกรรมต่างๆ</a>
-            </div>
-          </li>
           <li class="nav-item position-relative">
             <a class="nav-link" href="../calendar/">มหกรรมตลาดเศรษฐกิจพอเพียง</a>
           </li>
@@ -327,11 +318,23 @@
           <div class="box-profile btn-group">
             <button type="button" class="btn btn-style m-1 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
-              เข้าร่วมโครงการส่งเสริมการเรียนรู้
+              จอง
             </button>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="../course/">หมู่คณะเข้าชมโครงการส่งเสริมการเรียนรู้</a>
-              <a class="dropdown-item" href="../course/reserve3.php">ชมเองตามอัธยาศัย</a>
+              <a class="dropdown-item" href="javascript:void(0)">เข้าชมแบบหมู่คณะ</a>
+              <ul>
+                <li><a class="dropdown-item" href="../course/">โครงการส่งเสริมการเรียนรู้</a></li>
+                <li><a class="dropdown-item" href="../course/reserve3.php">เข้าชมตามอัธยาศัย</a></li>
+              </ul>
+              <a class="dropdown-item" href="javascript:void(0)">กิจกรรมต่างๆ</a>
+              <ul>
+                <li><a class="dropdown-item" href="../calendar-learn/">อบรมเข้มข้น</a></li>
+                <li><a class="dropdown-item" href="../calendar/">ท่องเทียวสุขสันต์</a></li>
+              </ul>
+              <a class="dropdown-item" href="javascript:void(0)">บุคคลทั่วไป</a>
+              <ul>
+                <li><a class="dropdown-item" href="../course-event/">รายชื่อพิพิธภัณฑ์ที่เปิดให้เข้าชม</a></li>
+              </ul>
             </div>
           </div>
           <a class="btn btn-style m-1" href="../e-learning/" role="button">e-Learning</a>

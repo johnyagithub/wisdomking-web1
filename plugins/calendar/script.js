@@ -168,9 +168,9 @@ let fancyboxPopup = () => {
       e.preventDefault();
       var $selectDay = $(this).closest('[data-handler="selectDay"]');
       var day = $selectDay.find('a').data('date');
-      var month = $selectDay.data('month');
+      var month = $selectDay.data('month')+1;
       var year = $selectDay.data('year') + 543;
-      var formattedDay = `${day}-${month}-${year}`;
+      var formattedDay = `${day}/${month}/${year}`;
       $('#popup .--day').text(formattedDay);
       $('#popup .--time').text($(this).attr('class') === 'a-evening ui-state-hover' ? 'เย็น' : 'เช้า');
       $('#popup .--quantity').text($(this).data('i'));

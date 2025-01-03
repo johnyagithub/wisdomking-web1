@@ -1,15 +1,15 @@
 <script>
   // วันที่มีข้อมูล
   window.invalidDate = [
-    { date: new Date("2024-12-21").toDateString(), morning: ['นานา สิ', 'จอน จอน'], evening: ['a', 'b', 'c', 'd'] },
-    { date: new Date("2024-12-23").toDateString(), morning: ['a', 'b'], evening: ['a'] },
-    { date: new Date("2024-12-24").toDateString(), morning: ['a', 'b', 'c'], evening: ['a'] },
-    { date: new Date("2024-12-25").toDateString(), morning: ['a', 'b', 'c', 'd'], evening: ['a', 'b', 'c', 'd'] },
-    { date: new Date("2024-12-26").toDateString(), evening: ['a'] },
-    { date: new Date("2024-12-27").toDateString(), morning: ['a'] },
-    { date: new Date("2024-12-30").toDateString(), morning: ['a'], evening: ['a'] },
-    { date: new Date("2025-01-20").toDateString(), morning: ['a', 'b'], evening: ['a', 'b', 'c'] },
-    { date: new Date("2025-01-30").toDateString(), morning: ['a', 'b'], evening: ['a'] },
+    { date: new Date("2025-1-20").toDateString(), morning: ['a', 'b'], evening: ['a', 'b', 'c'] },
+    { date: new Date("2025-1-30").toDateString(), morning: ['a', 'b'], evening: ['a'] },
+    { date: new Date("2025-2-21").toDateString(), morning: ['นานา สิ', 'จอน จอน'], evening: ['a', 'b', 'c', 'd'] },
+    { date: new Date("2025-2-22").toDateString(), morning: ['a', 'b'], evening: ['a'] },
+    { date: new Date("2025-2-24").toDateString(), morning: ['a', 'b', 'c'], evening: ['a'] },
+    { date: new Date("2025-2-25").toDateString(), morning: ['a', 'b', 'c', 'd'], evening: ['a', 'b', 'c', 'd'] },
+    { date: new Date("2025-2-26").toDateString(), evening: ['a'] },
+    { date: new Date("2025-2-27").toDateString(), morning: ['a'] },
+    { date: new Date("2025-2-28").toDateString(), morning: ['a'], evening: ['a'] },
   ];
 </script>
 
@@ -47,8 +47,8 @@
 <!--  begin popup -->
 <div id="popup" style="display: none;width: 500px;">
   <div class="-popup">
-    <h3>รายชื่อผู้เข้าร่วมหลักสูตร</h3>
-    <h5>
+    <h4 class="text-gradient my-3">จำนวนผู้จองการเข้าชม</h4>
+    <h5 class="my-3">
       ช่วง <span class="--time"></span> ของวันที่ <span class="--day"></span><br>
       จำนวน <span class="--quantity"></span> ท่าน
     </h5>
