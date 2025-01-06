@@ -2260,6 +2260,7 @@ body.down .box-News #museum-map:not(.expand) {
     }
       #museum-map .-province .--pin {
         display: none;
+        pointer-events: none;
       }
       #museum-map .-province:hover .--pin ,
       #museum-map .-province.active .--pin {
