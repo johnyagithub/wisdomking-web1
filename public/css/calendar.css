@@ -191,19 +191,19 @@
           left: 50%;
           transform: translateX(-50%);
         }
-          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i] {
+          .box-calendar-style table.ui-datepicker-calendar tbody td .pin a:not(.orange):not(.green):not(.red) {
+            pointer-events: none;
+          }
+          .box-calendar-style table.ui-datepicker-calendar tbody td .pin a.orange {
             color: #fff;
             background: var(--s2-color);
           }
-          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="0"] {
-            color: #676767;
-            background: #F2F2F2;
-            pointer-events: none;
-          }
-          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="1"] {
+          .box-calendar-style table.ui-datepicker-calendar tbody td .pin a.green {
+            color: #fff;
             background: var(--s3-color);
           }
-          .box-calendar-style table.ui-datepicker-calendar tbody td a[data-i="4"] {
+          .box-calendar-style table.ui-datepicker-calendar tbody td .pin a.red {
+            color: #fff;
             background: var(--s1-color);
           }
             .box-calendar-style table.ui-datepicker-calendar tbody td a[data-fancybox]::after ,
@@ -332,20 +332,74 @@
         }
 
 #popup {
-
+  --s1-color: #FF5656;
+  --s2-color: #FFA500;
+  --s3-color: #31BBAD;
 }
-  #popup .-popup {text-align: center;}
-  #popup .--content {
-
+  #popup .-popup {
+    text-align: center;
   }
-    #popup .--content ol {
-      text-align: left;
-      display: inline-block;
-      margin-bottom: 0px;
+    #popup .box-list-popup {
     }
-      #popup .--content li {
-
+      #popup .box-list-popup .-list-popup {
+        background: var(--s2-color);
+        border-radius: 5px;
+        margin-bottom: 8px;
+        padding: 16px;
+        text-align: left;
+        position: relative;
       }
+      #popup .box-list-popup .-list-popup::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgb(255 255 255 / 94%);
+        height: 101%;
+        transform: scale(1.02);
+      }
+      #popup .box-list-popup .-list-popup>* {
+        z-index: 1;
+        position: relative;
+      }
+      #popup .box-list-popup .-list-popup[data-color=green] {
+        background: var(--s3-color);
+      }
+      #popup .box-list-popup .-list-popup[data-color=red] {
+        background: var(--s1-color);
+      }
+        #popup .box-list-popup .-list-popup h6 {
+
+        }
+        #popup .box-list-popup .-list-popup[data-color=red] h6::after {
+          content: "(เต็มแล้ว)";
+          color: var(--s1-color);
+          margin-left: 8px;
+        }
+        #popup .box-list-popup .-list-popup .-b-amount {
+          position: relative;
+          display: flex;
+          flex-flow: wrap;
+          align-items: center;
+        }
+        #popup .box-list-popup .-list-popup .-b-amount::before {
+          content: "";
+          width: 24px;
+          height: 8.8px;
+          display: block;
+          background: var(--s2-color);
+          border-radius: 10px;
+          margin-right: 15px;
+        }
+        #popup .box-list-popup .-list-popup[data-color=green] .-b-amount::before {
+          background: var(--s3-color);
+        }
+        #popup .box-list-popup .-list-popup[data-color=red] .-b-amount::before {
+          background: var(--s1-color);
+        }
+          #popup .box-list-popup .-list-popup .-b-amount span {
+            margin-right: 20px;
+            padding-right: 20px;
+          }
 
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {

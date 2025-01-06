@@ -22,8 +22,10 @@ $(function () {
         let matchedDate = window.invalidDate.find(d => d.date === dateString);
 
         // ตรวจสอบว่า matchedDate มีข้อมูลหรือไม่
-        const morning = matchedDate && matchedDate.morning ? matchedDate.morning : [];
-        const evening = matchedDate && matchedDate.evening ? matchedDate.evening : [];
+        const morning = matchedDate && matchedDate.morning ? [matchedDate.morning.number] : 0;
+        const morningColor = matchedDate && matchedDate.morning ? [matchedDate.morning.color] : [];
+        const evening = matchedDate && matchedDate.evening ? [matchedDate.evening.number] : 0;
+        const eveningColor = matchedDate && matchedDate.evening ? [matchedDate.evening.color] : [];
 
         // อนุญาตให้เลือกวันอื่นๆ ยกเว้นวันอาทิตย์
         var day = date.getDay();  // ตรวจสอบวันในสัปดาห์
@@ -38,22 +40,17 @@ $(function () {
 
             today.setHours(0, 0, 0, 0);
             if (targetDate >= today && $targetA.next('.pin').length === 0) {
-              const createPinLink = (data, className) => `
-                <a class="${className}" href="javascript:;" data-i="${data.length}">
-                  ${data.length}
-                  <ol>${data.map(value => `<li>คุณ <b>${value}</b></li>`).join('')}</ol>
-                </a>
-              `;
+              const createPinLink = (data, className, color) => `<a class="${className} ${color}" href="javascript:;">${data}</a>`;
 
               $targetA.after(`
                 <div class="pin">
-                  ${createPinLink(morning, 'a-morning')}
-                  ${createPinLink(evening, 'a-evening')}
+                  ${createPinLink(morning, 'a-morning', morningColor)}
+                  ${createPinLink(evening, 'a-evening', eveningColor)}
                 </div>
               `);
             }
           }, 0);
-          if ((morning.length + evening.length) !== 0) {
+          if ((morning + evening) !== 0) {
             return [day !== 0, "have ui-datepicker-unselectable"];
           }
           return [day !== 0, "ui-datepicker-unselectable"];
@@ -125,7 +122,6 @@ $(function () {
             }
           }
         }, 0);
-        fancyboxPopup();
       }
     });
 
@@ -173,8 +169,7 @@ let fancyboxPopup = () => {
       var formattedDay = `${day}/${month}/${year}`;
       $('#popup .--day').text(formattedDay);
       $('#popup .--time').text($(this).attr('class') === 'a-evening ui-state-hover' ? 'เย็น' : 'เช้า');
-      $('#popup .--quantity').text($(this).data('i'));
-      $('#popup .--content').html($(this).find('ol').clone());
+      $('#popup .--quantity').text($(this).text());
       $.fancybox.open({ src: "#popup", type: "inline" });
     });
   }, 500);
