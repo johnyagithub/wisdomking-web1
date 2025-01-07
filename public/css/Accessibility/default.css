@@ -72,6 +72,9 @@ a.text-dark:focus ,
 a.text-dark:hover {
 	color: #d4d4d4 !important;
 }
+.scale-navTabs .box-navTabs .btn-style3:not(.active) {
+	background: rgb(255 255 255 / 46%);
+}
 .select2-container--default .select2-selection--single .select2-selection__rendered ,
 .select2-container--default .select2-selection--single .select2-selection__arrow {
 	color: #212529 !important;
@@ -294,6 +297,7 @@ form:has(input[type="number"].number-Customize) button.btn {
 	background: linear-gradient(360deg, #b0b0b0 0%, transparent 100%);
 }
 #content .box-News {
+	padding-top: 0px !important;
 	background: linear-gradient(180deg, #b0b0b0 0%, transparent 100%);
 }
 #content .box-Agricultural {

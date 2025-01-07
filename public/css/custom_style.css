@@ -1402,6 +1402,10 @@ div#navbarMain li.nav-item:hover a.nav-link {
         margin-right: 5px;
       }
 
+  .scale-navTabs .box-navTabs .btn-style3:not(.active) {
+    background: #ffffff;
+  }
+
 .box-navTabs .owl-carousel {
   padding: 0px 50px !important;
 }
