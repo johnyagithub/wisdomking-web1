@@ -230,7 +230,7 @@ header {
          background: var(--muted2);
          margin: 0px 4px;
          padding: 5px;
-         font-size: 12px;
+         font-size: 14px;
          color: var(--muted);
          text-transform: uppercase;
        }
@@ -245,6 +245,16 @@ header {
          background: #F2FEE2;
          color: #3B5715;
        }
+       .header-top-link ul.styleswitch li[data-li="yellow-style"] {
+          background: #000 !important;
+          color: #fbff03 !important;
+          font-weight: bold !important;
+        }
+        .header-top-link ul.styleswitch li[data-li="white-style"] {
+          background: #000 !important;
+          color: #ffffff !important;
+          font-weight: bold !important;
+        }
  
      #lang-change {
        position: relative;
