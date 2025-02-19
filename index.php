@@ -37,7 +37,7 @@
 
 	<style>
 		body {
-			font-family: 'Prompt', sans-serif !important;
+			font-family: 'Prompt', sans-serif !important; 
 			font-weight: 100;
 			font-size: 16px;
 			background: linear-gradient(90.41deg, #2BCB7E 2.96%, #37A8E2 99.49%);
