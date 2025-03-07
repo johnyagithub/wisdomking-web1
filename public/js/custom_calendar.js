@@ -111,7 +111,7 @@ let CalendarCarousel = (AllHtml) => {
 };
 
 let sliderMonth = () => {
-  $("#slide-Month").owlCarousel({
+  var owlMonth = $("#slide-Month").owlCarousel({
     margin: 0,
     nav: true,
     dots: false,
@@ -124,6 +124,18 @@ let sliderMonth = () => {
     },
   }).on('changed.owl.carousel', function (e) {
     mySelectMonth(e);
+  });
+  $('#dataCalendar>[data-item]').each(function (index) {
+    let currentMonth = new Date().getMonth();// เดือนปัจจบัน
+    const fullMonths = ["มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"];
+    
+    var Month = $(this).data('item');
+    if(fullMonths[currentMonth] === Month) {
+      setTimeout(function() {
+        owlMonth.trigger("to.owl.carousel", [index, 300]);
+        $('#slide-Day [data-m*='+fullMonths[currentMonth]+']').eq(0).click();
+      }, 500);
+    }
   });
 };
 
