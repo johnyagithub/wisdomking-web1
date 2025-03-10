@@ -40,7 +40,7 @@
 
 				<div class="box-Learning row py-4">
 
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -58,7 +58,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -76,7 +76,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -94,7 +94,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -112,7 +112,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -130,7 +130,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -148,7 +148,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -166,7 +166,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -184,7 +184,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../knowledge-book/detail.php" class="item text-dark">
 							<div class="img">
 								<img src="https://placehold.co/400x565" alt="">
@@ -202,12 +202,11 @@
 							</div>
 						</a>
 					</div>
-
-					<button type="button" class="btn btn-style4 mx-auto">
-						โหลดเพิ่มเติม
-						<img src="../../public/images/icon-select.png" style="mix-blend-mode: color-dodge;" alt="">
-					</button>
 				</div>
+				<button type="button" class="btn btn-style4 mx-auto d-block mb-5">
+					โหลดเพิ่มเติม
+					<img src="../../public/images/icon-select.png" style="mix-blend-mode: color-dodge;" alt="">
+				</button>
 
 			</div>
 		</section>
