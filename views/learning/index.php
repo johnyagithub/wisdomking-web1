@@ -44,13 +44,11 @@
 
 			<div class="container">
 				<div class="box-Learning row py-4" id="3D">
-					<div class="mx-auto col-12" style="max-width: 1000px;">
+					<div class="mx-auto col-12 mb-4">
 						<h4 class="head mb-4 text-center w-100">ภาพยนตร์แอนิเมชั่น 3 มิติ</h4>
-						<p class="text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-							Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 					</div>
 
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -64,7 +62,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -78,7 +76,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -92,7 +90,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -106,7 +104,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -120,7 +118,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -134,7 +132,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -148,7 +146,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -162,7 +160,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -181,11 +179,11 @@
 				<hr class="my-4">
 
 				<div class="box-Learning row py-4" id="2D">
-					<div class="mx-auto col-12" style="max-width: 1000px;">
+					<div class="mx-auto col-12 mb-4">
 						<h4 class="head mb-4 text-center w-100">วิดีทัศน์เต็มเรื่อง ภาพยนตร์แอนิเมชั่น 2 มิติ</h4>
 					</div>
 
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -199,7 +197,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -213,7 +211,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -227,7 +225,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -241,7 +239,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">
@@ -255,7 +253,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 mb-4">
+					<div class="col-sm-6 col-lg-4 col-xl-custom5 mb-4">
 						<a href="../learning/detail.php" class="item text-dark">
 							<div class="img">
 								<div class="btn-play-video">

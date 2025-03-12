@@ -36,8 +36,7 @@
 					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">องค์ความรู้</h3>
 					<div class="scale-navTabs ml-auto">
 						<div class="box-navTabs ml-auto d-flex flex-wrap align-items-center" data-showId="data-Courses">
-							<button type="button" class="btn btn-style3 px-3 text-muted active">ทั้งหมด</button>
-							<button type="button" data-type="tab1" class="btn btn-style3 px-3 m-1 text-muted">
+							<button type="button" data-type="tab1" class="btn btn-style3 px-3 m-1 text-muted active">
 								<img src="../../public/images/document.png" style="width: 24px;" class="mr-1" alt="">
 								บทความ
 							</button>
@@ -79,13 +78,6 @@
 				</div>
 
 				<div id="data-Courses" class="row py-4">
-					<div class="col-12 mb-4" data-type="all">
-						<div class="mx-auto" style="max-width: 1000px;">
-							<h4 class="head mb-4 text-center">องค์ความรู้ทั้งหมด</h4>
-							<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-						</div>
-					</div>
 					<div class="col-12 mb-4 no-all" style="display:none;" data-type="tab1">
 						<div class="mx-auto" style="max-width: 1000px;">
 							<h4 class="head mb-4 text-center">บทความ</h4>
@@ -137,10 +129,10 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
+					<div class="col-lg-4 col-sm-6 col-xl-custom5" data-type="tab2" style="display: none;">
+						<a href="../knowledge/detail-Captions.php" class="item p-0">
 							<div class="img">
-								<img src="https://placehold.co/650x350" alt="">
+								<img src="https://placehold.co/400x565" style="aspect-ratio: 600 / 820.59;" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
@@ -163,7 +155,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab3">
+					<div class="col-lg-4 col-sm-6" data-type="tab3" style="display: none;">
 						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
@@ -221,19 +213,15 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
+					<div class="col-lg-4 col-sm-6 col-xl-custom5" data-type="tab2" style="display: none;">
+						<a href="../knowledge/detail-Captions.php" class="item  p-0">
 							<div class="img">
-								<img src="https://placehold.co/650x350" alt="">
+								<img src="https://placehold.co/400x565" style="aspect-ratio: 600 / 820.59;" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
 
 									<div class="d-flex flex-wrap align-items-center">
-										<span class="-type">
-											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
-											บรรยายประกอบภาพ
-										</span>
 										<span class="-type">การเกษตร</span>
 									</div>
 									<div class="-view">300</div>
@@ -247,7 +235,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab3">
+					<div class="col-lg-4 col-sm-6" data-type="tab3" style="display: none;">
 						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
@@ -305,10 +293,10 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
+					<div class="col-lg-4 col-sm-6 col-xl-custom5" data-type="tab2" style="display: none;">
+						<a href="../knowledge/detail-Captions.php" class="item p-0">
 							<div class="img">
-								<img src="https://placehold.co/650x350" alt="">
+								<img src="https://placehold.co/400x565" style="aspect-ratio: 600 / 820.59;" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
@@ -331,7 +319,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab3">
+					<div class="col-lg-4 col-sm-6" data-type="tab3" style="display: none;">
 						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
@@ -389,10 +377,10 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab2">
-						<a href="../knowledge/detail-Captions.php" class="item px-2 px-xl-4">
+					<div class="col-lg-4 col-sm-6 col-xl-custom5" data-type="tab2" style="display: none;">
+						<a href="../knowledge/detail-Captions.php" class="item p-0">
 							<div class="img">
-								<img src="https://placehold.co/650x350" alt="">
+								<img src="https://placehold.co/400x565" style="aspect-ratio: 600 / 820.59;" alt="">
 							</div>
 							<div class="text">
 								<div class="d-flex justify-content-between flex-wrap">
@@ -415,7 +403,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4 col-sm-6" data-type="tab3">
+					<div class="col-lg-4 col-sm-6" data-type="tab3" style="display: none;">
 						<a href="../knowledge/detail-Video.php" class="item px-2 px-xl-4">
 							<div class="img -video">
 								<img src="../../public/images/Knowledge/img1.jpg" alt="">
@@ -445,12 +433,12 @@
 						</a>
 					</div>
 
-					<div class="d-flex w-100">
-						<button type="button" class="btn btn-style4 mx-auto">
-							โหลดเพิ่มเติม
-							<img src="../../public/images/icon-select.png" style="mix-blend-mode: color-dodge;" alt="">
-						</button>
-					</div>
+				</div>
+				<div class="d-flex w-100">
+					<button type="button" class="btn btn-style4 mx-auto d-block mb-5">
+						โหลดเพิ่มเติม
+						<img src="../../public/images/icon-select.png" style="mix-blend-mode: color-dodge;" alt="">
+					</button>
 				</div>
 
 			</div>

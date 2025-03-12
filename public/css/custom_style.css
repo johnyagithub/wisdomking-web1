@@ -156,8 +156,14 @@ body .form-control::placeholder {
   opacity: 0.5;
   pointer-events: none;
 }
-  .form-control-style .select2-container--default .select2-selection--single {
+  .form-control-style .select2-container--default .select2-selection--single ,
+  .form-control-style input[type="search"] {
     border: 0px;
+  }
+  form[name="frmSearch"] input[name="btnSearch"][type="submit"] {
+    border: 1px solid #99DF37;
+    box-shadow: 2px 2px 14px 0px #00000014;
+    border-radius: 50px;
   }
 
 .form-row>[class*=col-] {
@@ -2949,7 +2955,7 @@ body.down .box-News #museum-map:not(.expand) {
         }
       
       .box-Knowledge .item h5 {
-        
+        margin-top: 15px;
       }
       .box-Knowledge .item .-profile {
         font-size: 0.8125em;
