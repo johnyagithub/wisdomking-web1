@@ -285,7 +285,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="row" id="data-Calendar"></div>
+				<div class="row" id="data-Calendar">
+					<div class="owl-carousel"></div>
+				</div>
 
 				<div id="dataCalendar" class="d-none">
 					<div data-item="กรกฎาคม">
@@ -425,324 +427,46 @@
 		</section>
 
 		<section class="box-Knowledge py-4">
-			<div class="container px-0 px-sm-3 -sticky">
-				<div class="d-flex flex-wrap flex-md-nowrap align-items-start justify-content-center">
-					<h3 class="head mb-4 mx-3 ml-sm-0" style="white-space: nowrap;">องค์ความรู้</h3>
-					<div class="scale-navTabs ml-auto">
-						<div class="box-navTabs nav nav-tabs ml-auto  mb-auto" role="tablist">
-							<button class="nav-link active" id="nav-All-tab" data-toggle="tab" data-target="#nav-All" type="button"
-								role="tab" aria-controls="nav-All" aria-selected="true">
-								ทั้งหมด
-							</button>
-							<button class="nav-link" id="nav-Articles-tab" data-toggle="tab" data-target="#nav-Articles" type="button"
-								role="tab" aria-controls="nav-Articles" aria-selected="false">
-								<img src="../../public/images/document.png" style="width: 24px;" alt="">
-								บทความ
-							</button>
-							<button class="nav-link" id="nav-Captions-tab" data-toggle="tab" data-target="#nav-Captions" type="button"
-								role="tab" aria-controls="nav-Captions" aria-selected="false">
-								<img src="../../public/images/photos.png" style="width: 24px;" alt="">
-								บรรยายประกอบภาพ
-							</button>
-							<button class="nav-link" id="nav-Video-tab" data-toggle="tab" data-target="#nav-Video" type="button"
-								role="tab" aria-controls="nav-Video" aria-selected="false">
-								<img src="../../public/images/play_circled.png" style="width: 24px;" alt="">
-								สื่อวิดิทัศน์
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="container">
-				<div class="tab-content pt-4">
-					<div class="tab-pane fade show active" id="nav-All" role="tabpanel" aria-labelledby="nav-All-tab">
-						<div class="row">
-							<div class="col-lg-5 pr-lg-4 mb-4">
+				<div class="row">
+					<div class="col-lg-5 pr-lg-4 mb-4">
 
-								<!-- ก้อนแรกซ้ายมือ -->
-								<a href="#" class="item item-left-sticky">
-									<div class="img">
-										<img src="../../public/images/Knowledge/img2.jpg" alt="">
-									</div>
-									<div class="text">
-										<div class="d-flex justify-content-between flex-wrap">
-											<div class="d-flex flex-wrap align-items-center">
-												<span class="-type">
-													<img src="../../public/images/document.png" style="width: 14px;" alt="">
-													บทความ
-												</span>
-												<span class="-type">การเกษตร</span>
-											</div>
-											<div class="-view">300</div>
-										</div>
-										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
-											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-											นอกจากผลิตภัณฑ์ที่เป็น</p>
-										<div class="-profile">
-											<img src="../../public/images/img-pro.jpg" alt="profile">
-											ผู้เขียน : Wisdomking
-										</div>
-									</div>
-								</a>
-
+						<!-- ก้อนแรกซ้ายมือ -->
+						<a href="#" class="item item-left-sticky" style="top: 115px;">
+							<div class="img">
+								<img src="https://placehold.co/600x800" alt="" style="aspect-ratio: 600 / 820.59;">
 							</div>
-							<div class="col-lg-7">
-								<div class="row">
-
-									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
-									<div class="col-md-6">
-										<a href="../knowledge/detail-Video.php" class="item">
-											<div class="img -video">
-												<img src="../../public/images/Knowledge/img1.jpg" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
-															สื่อวิดิทัศน์
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
+							<div class="text">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="d-flex flex-wrap align-items-center">
+										<span class="-type">
+											<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+											บรรยายประกอบภาพ
+										</span>
+										<span class="-type">การเกษตร</span>
 									</div>
-									<div class="col-md-6">
-										<a href="../knowledge/detail-Captions.php" class="item">
-											<div class="img">
-												<img src="../../public/images/Knowledge/img2.jpg" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/photos.png" style="width: 14px;" alt="">
-															บรรยายประกอบภาพ
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-6">
-										<a href="../knowledge/detail.php" class="item">
-											<div class="img">
-												<img src="https://placehold.co/650x350" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/document.png" style="width: 14px;" alt="">
-															บทความ
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-6">
-										<a href="../knowledge/detail.php" class="item">
-											<div class="img">
-												<img src="https://placehold.co/650x350" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/document.png" style="width: 14px;" alt="">
-															บทความ
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-6">
-										<a href="../knowledge/detail.php" class="item">
-											<div class="img">
-												<img src="https://placehold.co/650x350" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/document.png" style="width: 14px;" alt="">
-															บทความ
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-md-6">
-										<a href="../knowledge/detail.php" class="item">
-											<div class="img">
-												<img src="https://placehold.co/650x350" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/document.png" style="width: 14px;" alt="">
-															บทความ
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
-									</div>
-
+									<div class="-view">300</div>
+								</div>
+								<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+								<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
+									กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+									นอกจากผลิตภัณฑ์ที่เป็น</p>
+								<div class="-profile">
+									<img src="../../public/images/img-pro.jpg" alt="profile">
+									ผู้เขียน : Wisdomking
 								</div>
 							</div>
+						</a>
 
-						</div>
 					</div>
-					<div class="tab-pane fade" id="nav-Articles" role="tabpanel" aria-labelledby="nav-Articles-tab">
+					<div class="col-lg-7">
 						<div class="row">
-							<div class="col-lg-5 pr-lg-4 mb-4">
 
-								<!-- ก้อนแรกซ้ายมือ -->
-								<a href="#" class="item item-left-sticky" style="top: 195px;">
+							<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
+							<div class="col-lg-6">
+								<a href="../knowledge/detail-Captions.php" class="item">
 									<div class="img">
-										<img src="https://placehold.co/650x350" alt="">
-									</div>
-									<div class="text">
-										<div class="d-flex justify-content-between flex-wrap">
-											<div class="d-flex flex-wrap align-items-center">
-												<span class="-type">
-													<img src="../../public/images/document.png" style="width: 14px;" alt="">
-													บทความ
-												</span>
-												<span class="-type">การเกษตร</span>
-											</div>
-											<div class="-view">300</div>
-										</div>
-										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
-											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-											นอกจากผลิตภัณฑ์ที่เป็น</p>
-										<div class="-profile">
-											<img src="../../public/images/img-pro.jpg" alt="profile">
-											ผู้เขียน : Wisdomking
-										</div>
-									</div>
-								</a>
-
-							</div>
-							<div class="col-lg-7">
-								<div class="row">
-
-									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
-									<div class="col-lg-6">
-										<a href="../knowledge/detail.php" class="item">
-											<div class="img">
-												<img src="https://placehold.co/650x350" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/document.png" style="width: 14px;" alt="">
-															บทความ
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="tab-pane fade" id="nav-Captions" role="tabpanel" aria-labelledby="nav-Captions-tab">
-						<div class="row">
-							<div class="col-lg-5 pr-lg-4 mb-4">
-
-								<!-- ก้อนแรกซ้ายมือ -->
-								<a href="#" class="item item-left-sticky" style="top: 195px;">
-									<div class="img">
-										<img src="https://placehold.co/650x350" alt="">
+										<img src="https://placehold.co/600x800" alt="" style="aspect-ratio: 600 / 820.59;">
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
@@ -756,7 +480,8 @@
 											<div class="-view">300</div>
 										</div>
 										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น
 											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
 											นอกจากผลิตภัณฑ์ที่เป็น</p>
 										<div class="-profile">
@@ -765,68 +490,26 @@
 										</div>
 									</div>
 								</a>
-
 							</div>
-							<div class="col-lg-7">
-								<div class="row">
-
-									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
-									<div class="col-lg-6">
-										<a href="../knowledge/detail-Captions.php" class="item">
-											<div class="img">
-												<img src="https://placehold.co/650x350" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/photos.png" style="width: 14px;" alt="">
-															บรรยายประกอบภาพ
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="tab-pane fade" id="nav-Video" role="tabpanel" aria-labelledby="nav-Video-tab">
-						<div class="row">
-							<div class="col-lg-5 pr-lg-4 mb-4">
-
-								<!-- ก้อนแรกซ้ายมือ -->
-								<a href="#" class="item item-left-sticky" style="top: 195px;">
-									<div class="img -video">
-										<img src="https://placehold.co/650x350" alt="">
+							<div class="col-lg-6">
+								<a href="../knowledge/detail-Captions.php" class="item">
+									<div class="img">
+										<img src="https://placehold.co/600x800" alt="" style="aspect-ratio: 600 / 820.59;">
 									</div>
 									<div class="text">
 										<div class="d-flex justify-content-between flex-wrap">
 											<div class="d-flex flex-wrap align-items-center">
 												<span class="-type">
-													<img src="../../public/images/Knowledge/img1.jpg" style="width: 14px;" alt="">
-													สื่อวิดิทัศน์
+													<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+													บรรยายประกอบภาพ
 												</span>
 												<span class="-type">การเกษตร</span>
 											</div>
 											<div class="-view">300</div>
 										</div>
 										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก นอกจากผลิตภัณฑ์ที่เป็น
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น
 											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
 											นอกจากผลิตภัณฑ์ที่เป็น</p>
 										<div class="-profile">
@@ -835,46 +518,123 @@
 										</div>
 									</div>
 								</a>
-
 							</div>
-							<div class="col-lg-7">
-								<div class="row">
-
-									<!-- ลูปเฉพาะก้อน 2 ขึ้นไป -->
-									<div class="col-lg-6">
-										<a href="../knowledge/detail-Video.php" class="item">
-											<div class="img -video">
-												<img src="../../public/images/Knowledge/img1.jpg" alt="">
-											</div>
-											<div class="text">
-												<div class="d-flex justify-content-between flex-wrap">
-													<div class="d-flex flex-wrap align-items-center">
-														<span class="-type">
-															<img src="../../public/images/play_circled.png" style="width: 14px;" alt="">
-															สื่อวิดิทัศน์
-														</span>
-														<span class="-type">การเกษตร</span>
-													</div>
-													<div class="-view">300</div>
-												</div>
-												<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
-												<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น
-													กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
-													นอกจากผลิตภัณฑ์ที่เป็น</p>
-												<div class="-profile">
-													<img src="../../public/images/img-pro.jpg" alt="profile">
-													ผู้เขียน : Wisdomking
-												</div>
-											</div>
-										</a>
+							<div class="col-lg-6">
+								<a href="../knowledge/detail-Captions.php" class="item">
+									<div class="img">
+										<img src="https://placehold.co/600x800" alt="" style="aspect-ratio: 600 / 820.59;">
 									</div>
-
-								</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div class="d-flex flex-wrap align-items-center">
+												<span class="-type">
+													<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+													บรรยายประกอบภาพ
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">300</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-6">
+								<a href="../knowledge/detail-Captions.php" class="item">
+									<div class="img">
+										<img src="https://placehold.co/600x800" alt="" style="aspect-ratio: 600 / 820.59;">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div class="d-flex flex-wrap align-items-center">
+												<span class="-type">
+													<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+													บรรยายประกอบภาพ
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">300</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-6">
+								<a href="../knowledge/detail-Captions.php" class="item">
+									<div class="img">
+										<img src="https://placehold.co/600x800" alt="" style="aspect-ratio: 600 / 820.59;">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div class="d-flex flex-wrap align-items-center">
+												<span class="-type">
+													<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+													บรรยายประกอบภาพ
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">300</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-6">
+								<a href="../knowledge/detail-Captions.php" class="item">
+									<div class="img">
+										<img src="https://placehold.co/600x800" alt="" style="aspect-ratio: 600 / 820.59;">
+									</div>
+									<div class="text">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div class="d-flex flex-wrap align-items-center">
+												<span class="-type">
+													<img src="../../public/images/photos.png" style="width: 14px;" alt="">
+													บรรยายประกอบภาพ
+												</span>
+												<span class="-type">การเกษตร</span>
+											</div>
+											<div class="-view">300</div>
+										</div>
+										<h5 class="text-line1">สารพันปัญหามะพร้าวไทย</h5>
+										<p class="text-line2">ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น
+											กะทิกล่องแล้ว ยังมีอุตสาหกรรมอื่นๆ ประเทศไทย เป็นประเทศที่ส่งออกกะทิเป็นอันดับที่ 1 ของโลก
+											นอกจากผลิตภัณฑ์ที่เป็น</p>
+										<div class="-profile">
+											<img src="../../public/images/img-pro.jpg" alt="profile">
+											ผู้เขียน : Wisdomking
+										</div>
+									</div>
+								</a>
 							</div>
 
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</section>
@@ -1310,7 +1070,7 @@
 			}
 		});
 	</script>
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 	<script type="text/javascript" src="../../public/js/custom_calendar.js"></script>
 </body>
 
