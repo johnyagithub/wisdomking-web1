@@ -777,77 +777,47 @@
 
 		<section class="box-Agricultural-slide">
 			<div class="container px-0 px-lg-5">
-				<div class="owl-carousel px-xl-5 nav-dots-style show-dots">
+				<div class="row m-0">
+					<div class="col-md-6 order-1 order-md-0">
+						<div class="owl-carousel nav-dots-style show-dots">
 
-					<div class="item">
-						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
-							<img src="../../public/images/img3.jpg" alt="">
-						</a>
-						<div class="text">
-							<div class="-pro">
-								<img src="../../public/images/img-pro2.jpg" alt="">
-								<div>
-									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
-									<span>นายเกษม จ่าพันดุง</span>
-								</div>
+							<div class="item">
+								<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
+									<img src="../../public/images/img3.jpg" alt="">
+								</a>
 							</div>
-							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
-								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
-								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
-						</div>
-					</div>
-					<div class="item">
-						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
-							<img src="../../public/images/img3.jpg" alt="">
-						</a>
-						<div class="text">
-							<div class="-pro">
-								<img src="../../public/images/img-pro2.jpg" alt="">
-								<div>
-									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
-									<span>นายเกษม จ่าพันดุง</span>
-								</div>
+							<div class="item">
+								<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
+									<img src="../../public/images/img3.jpg" alt="">
+								</a>
 							</div>
-							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
-								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
-								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
-						</div>
-					</div>
-					<div class="item">
-						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
-							<img src="../../public/images/img3.jpg" alt="">
-						</a>
-						<div class="text">
-							<div class="-pro">
-								<img src="../../public/images/img-pro2.jpg" alt="">
-								<div>
-									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
-									<span>นายเกษม จ่าพันดุง</span>
-								</div>
+							<div class="item">
+								<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
+									<img src="../../public/images/img3.jpg" alt="">
+								</a>
 							</div>
-							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
-								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
-								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
-						</div>
-					</div>
-					<div class="item">
-						<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
-							<img src="../../public/images/img3.jpg" alt="">
-						</a>
-						<div class="text">
-							<div class="-pro">
-								<img src="../../public/images/img-pro2.jpg" alt="">
-								<div>
-									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
-									<span>นายเกษม จ่าพันดุง</span>
-								</div>
+							<div class="item">
+								<a href="../../public/images/img3.jpg" class="img" data-fancybox="Agricultural" data-caption="">
+									<img src="../../public/images/img3.jpg" alt="">
+								</a>
 							</div>
-							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
-								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
-								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
-						</div>
-					</div>
 
+						</div>
+					</div>
+					<div class="col-md-6 item d-flex mt-auto">
+						<div class="text">
+							<div class="-pro">
+								<img src="../../public/images/img-pro2.jpg" alt="">
+								<div>
+									<h4 class="text-line2">เครือข่ายพิพิธพัณฑ์เกษตรฯ จังหวัดจันทบุรี</h4>
+									<span>นายเกษม จ่าพันดุง</span>
+								</div>
+							</div>
+							<p class="text-line4 mb-0">“ ...เริ่มเห็นพี่น้องที่เป็นสมาชิกเครือข่าย มีรายได้จากการอนุรักษ์ดูแลทรัพยากร
+								ของเขาเอง โดยแปลงให้เป็นเงิน อาจจะมีการแปรรูป หรืเอาเรื่องการท่องเที่ยว
+								เข้ามาประกอบโดยน้อมนำเอาหลักเศรษฐกิจพอเพียงของพระเจ้าอยู่หัวเราทำจาก ตัวเองกระจายสู่ผู้อื่น...”</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

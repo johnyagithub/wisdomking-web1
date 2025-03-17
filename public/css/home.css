@@ -605,6 +605,7 @@
 
 .box-Agricultural-slide {
   background: linear-gradient(360deg, #EAEAEA 0%, transparent 100%);
+  padding-bottom: 50px;
 }
   .box-Agricultural-slide .owl-carousel {
     justify-content: left;
@@ -613,7 +614,6 @@
 
     }
       .box-Agricultural-slide .item .img {
-        width: 53%;
         border-radius: var(--border_radius);
       }
         .box-Agricultural-slide .item .img img {
@@ -627,10 +627,10 @@
         border: 1px solid #DAF6F0AD;
         border-radius: var(--border_radius);
         padding: 3%;
-        width: 54%;
-        position: absolute;
-        right: 17px;
+        position: relative;
+        right: 60px;
         bottom: -18%;
+        z-index: 1;
       }
         .box-Agricultural-slide .item .text .-pro {
           display: grid;
@@ -657,12 +657,8 @@
       .box-Agricultural-slide .nav-dots-style {
         display: flex !important;
         flex-flow: wrap;
+        width: 113%;
       }
-
-    .box-Agricultural-slide .nav-dots-style .owl-nav ,
-    .box-Agricultural-slide .nav-dots-style .owl-dots {
-      transform: translateY(-100%);
-    }
     
 .box-News {
   background: linear-gradient(180deg, #EBEBEB 0%, transparent 100%);
@@ -696,45 +692,7 @@
       inset: 0;
     }
     .box-Agricultural-slide .item .text {
-      position: initial;
-      width: 100%;
-      padding: 18px;
-      border-top-left-radius: 0px;
-      border-bottom-left-radius: 0px;
-    }
-    .box-Agricultural-slide .item {
-      display: grid;
-      grid-template-columns: 50% 50%;
-    }
-    .box-Agricultural-slide .item .img img {
-      height: 100%;
-    }
-    .box-Agricultural-slide .item .img {
-      width: 100%;
-      border-top-right-radius: 0px;
-      border-bottom-right-radius: 0px;
-    }
-    .box-Agricultural-slide .item .text .-pro img {
-      width: 70px;
-    }
-    .box-Agricultural-slide .item .text .-pro {
-      grid-template-columns: 70px auto;
-      margin-bottom: 8px;
-    }
-    .box-Agricultural-slide .item .text .-pro h4 {
-      -webkit-line-clamp: 1;
-      margin: 0px;
-      font-size: 1.2em;
-    }
-    .box-Agricultural-slide .item .text p {
-      margin-bottom: 0px;
-    }
-    .box-Agricultural-slide .nav-dots-style {
-      justify-content: end;
-    }
-    .box-Agricultural-slide .nav-dots-style .owl-nav ,
-    .box-Agricultural-slide .nav-dots-style .owl-dots {
-      transform: none;
+      right: 0px;
     }
     .box-Agricultural .--img-map {
       margin-bottom: -10%;
@@ -868,6 +826,7 @@
   }
   .box-Agricultural-slide .owl-carousel {
     justify-content: center;
+    width: 100%;
   }
   .box-Learning .arrow-default {
     display: none;
@@ -880,10 +839,7 @@
     margin-left: auto;
   }
   .box-Agricultural-slide .item .text {
-    width: calc(100% - 20px);
-    margin: 10px;
-    margin-top: -35px;
-    z-index: 0;
+    margin-top: 28px;
   }
   .box-Agricultural-slide .item .img {
     border-radius: 0px;
@@ -922,19 +878,9 @@
   .box-Market .owl-carousel .item::after {
     right: -26px;
   }
-  .box-Agricultural-slide .item {
-    grid-template-columns: 50% 50%;
-  }
   .box-Agricultural-slide .nav-dots-style {
     justify-content: end;
-  }
-  .box-Agricultural-slide .item .text {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-  .box-Agricultural-slide .item .img {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    width: 100%;
   }
   .box-Agricultural-slide .item .img img {
     height: 100%;
