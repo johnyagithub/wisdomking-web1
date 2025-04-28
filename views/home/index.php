@@ -17,7 +17,7 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-banner">
+		<!-- <section class="box-banner">
 			<div class="container">
 				<div class="owl-carousel">
 
@@ -33,6 +33,23 @@
 								<a class="btn btn-light px-5 rounded-pill" href="../purpose">อ่านต่อ</a>
 							</div>
 						</div>
+					</div>
+
+				</div>
+			</div>
+		</section> -->
+		<section class="box-banner">
+			<div class="container">
+				<div class="owl-carousel">
+
+					<div class="item">
+						<img src="../../public/images/Banner.jpg">
+					</div>
+					<div class="item">
+						<img src="../../public/images/Banner.jpg">
+					</div>
+					<div class="item">
+						<img src="../../public/images/Banner.jpg">
 					</div>
 
 				</div>

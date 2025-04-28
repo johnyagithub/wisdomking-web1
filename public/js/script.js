@@ -248,7 +248,8 @@ let buttonTabCustom = () => {
 let sliderBanner = () => {
   $(".box-banner .owl-carousel").owlCarousel({
     loop: true,
-    margin: 30,
+    margin: 0,
+    autoHeight:true,
     nav: false,
     dots: true,
     autoplay: true,
